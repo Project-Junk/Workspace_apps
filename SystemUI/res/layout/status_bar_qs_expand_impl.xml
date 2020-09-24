@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.coloros.systemui.qs.ColorQSExpandImpl android:id="@id/qs_expand" android:background="@android:color/transparent" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="@dimen/qs_expand_height" android:layout_marginTop="@dimen/qs_expand_margin_top" android:paddingStart="@dimen/status_bar_padding_start" android:paddingEnd="@dimen/status_bar_padding_end"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.android.systemui.statusbar.phone.MultiUserSwitch android:layout_gravity="end|center|top" android:id="@id/multi_user_switch" android:background="@drawable/ripple_drawable" android:focusable="true" android:layout_width="@dimen/multi_user_avatar_expanded_size" android:layout_height="@dimen/multi_user_avatar_expanded_size">
+        <ImageView android:layout_gravity="center" android:id="@id/multi_user_avatar" android:layout_width="@dimen/multi_user_avatar_expanded_size" android:layout_height="@dimen/multi_user_avatar_expanded_size" android:scaleType="centerInside" />
+    </com.android.systemui.statusbar.phone.MultiUserSwitch>
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="168.0dip" android:layout_marginTop="@dimen/multi_user_avatar_expanded_size">
+        <com.android.keyguard.AlphaOptimizedLinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:id="@id/qs_expand_container" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_centerInParent="true">
+            <com.coloros.systemui.qs.widget.ColorQSClockView android:layout_gravity="center_horizontal" android:id="@id/color_qs_clock" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <com.coloros.systemui.qs.widget.ColorQSWeather android:textSize="14.0sp" android:textColor="@color/quick_settings_normal_text_color" android:layout_gravity="center_horizontal" android:id="@id/color_weather" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:includeFontPadding="false" />
+            <com.coloros.systemui.qs.widget.ColorQSSecurityText android:textSize="10.0sp" android:textColor="@color/quick_settings_normal_text_color" android:layout_gravity="center_horizontal" android:id="@id/color_security" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="17.0dip" android:includeFontPadding="false" />
+        </com.android.keyguard.AlphaOptimizedLinearLayout>
+    </RelativeLayout>
+</com.coloros.systemui.qs.ColorQSExpandImpl>

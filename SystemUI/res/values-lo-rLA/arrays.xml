@@ -1,0 +1,329 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="animator_duration_scale_entries">
+        <item>ປິດອານີເມຊັນ</item>
+        <item>ອານີເມຊັນຂະໜາດ .5x</item>
+        <item>ອານີເມຊັນຂະໜາດ 1x</item>
+        <item>ອານີເມຊັນຂະໜາດ 1.5x</item>
+        <item>ອານີເມຊັນຂະໜາດ 2x</item>
+        <item>ອານີເມຊັນຂະໜາດ 5x</item>
+        <item>ອານີເມຊັນຂະໜາດ 10x</item>
+    </string-array>
+    <string-array name="app_process_limit_entries">
+        <item>ຂີດຈໍກັດມາດຕະຖານ</item>
+        <item>ບໍ່ມີຂະບວນການພື້ນຫຼັງ</item>
+        <item>ຢ່າງຫຼາຍ 1 ຂະບວນການ</item>
+        <item>ຢ່າງຫຼາຍ 2 ຂະບວນການ</item>
+        <item>ຢ່າງຫຼາຍ 3 ຂະບວນການ</item>
+        <item>ຢ່າງຫຼາຍ 4 ຂະບວນການ</item>
+    </string-array>
+    <string-array name="battery_labels">
+        <item>0%</item>
+        <item>50%</item>
+        <item>100%</item>
+    </string-array>
+    <string-array name="battery_options">
+        <item>ສະແດງເປັນເປີເຊັນສະເໝີ</item>
+        <item>ສະແດງເປີເຊັນຂອງພະລັງງານແບັດເຕີຣີໃນຂະນະທີ່ສາກ (ຄ່າເດີມ)</item>
+        <item>ບໍ່ສະແດງໄອຄອນນີ້</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_bits_per_sample_summaries">
+        <item>ໃຊ້ການ​ເລືອກຂອງລະບົບ (ຄ່າ​ເລີ່ມ​ຕົ້ນ)</item>
+        <item>16 ບິດ/ຕົວ​ຢ່າງ</item>
+        <item>24 ບິດ/ຕົວ​ຢ່າງ</item>
+        <item>32 ບິດ/ຕົວ​ຢ່າງ</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_bits_per_sample_titles">
+        <item>ໃຊ້ການ​ເລືອກຂອງລະບົບ (ຄ່າ​ເລີ່ມ​ຕົ້ນ)</item>
+        <item>16 ບິດ/ຕົວ​ຢ່າງ</item>
+        <item>24 ບິດ/ຕົວ​ຢ່າງ</item>
+        <item>32 ບິດ/ຕົວ​ຢ່າງ</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_channel_mode_summaries">
+        <item>ໃຊ້ການ​ເລືອກຂອງລະບົບ (ຄ່າ​ເລີ່ມ​ຕົ້ນ)</item>
+        <item>ດ່ຽວ</item>
+        <item>ສະເຕເຣໂອ</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_channel_mode_titles">
+        <item>ໃຊ້ການ​ເລືອກຂອງລະບົບ (ຄ່າ​ເລີ່ມ​ຕົ້ນ)</item>
+        <item>ດ່ຽວ</item>
+        <item>ສະເຕເຣໂອ</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_ldac_playback_quality_summaries">
+        <item>ປັບ​ໃຫ້​ເໝາະ​ສົມ​ແລ້ວ​ສຳ​ລັບ​ຄຸນ​ນະ​ພາບ​ສຽງ</item>
+        <item>​ຄຸນ​ນະ​ພາບ​ສຽງ ແລະ ການ​ເຊື່ອມ​ຕໍ່​ທີ່​ສົມ​ດຸນ</item>
+        <item>ປັບ​ໃຫ້​ເໝາະ​ສົມ​ແລ້ວ​ສຳ​ລັບ​ຄຸນ​ນະ​ພາບ​ການ​ເຊື່ອມ​ຕໍ່</item>
+        <item>​ຄວາມ​ພະ​ຍາ​ຍາມ​ທີ່​ດີ​ສຸດ (ອັດ​ຕາ​ບິດ​ທີ່​ປັບ​ໄດ້)</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_ldac_playback_quality_titles">
+        <item>​ປັບ​ໃຫ້​ເໝາະ​ສົມ​​ແລ້ວສຳ​ລັບ​ຄຸນ​ນະ​ພາບ​ສຽງ (990kbps/909kbps)</item>
+        <item>ຄຸນ​ນະ​ພາບ​ສຽງ ແລະ ການ​ເຊື່ອມ​ຕໍ່​ທີ່​ສົມ​ດຸນ (660kbps/606kbps)</item>
+        <item>ປັບ​ໃຫ້​ເໝາະ​ສົມ​ແລ້ວ​ສຳ​ລັບ​ຄຸນ​ນະ​ພາບ​ການ​ເຊື່ອມ​ຕໍ່ (330kbps/303kbps)</item>
+        <item>​ຄວາມ​ພະ​ຍາ​ຍາມ​ທີ່​ດີ​ສຸດ (ອັດ​ຕາ​ບິດ​ທີ່​ປັບ​ໄດ້)</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_sample_rate_summaries">
+        <item>ໃຊ້ການ​ເລືອກຂອງລະບົບ (ຄ່າ​ເລີ່ມ​ຕົ້ນ)</item>
+        <item>44.1 kHz</item>
+        <item>48.0 kHz</item>
+        <item>88.2 kHz</item>
+        <item>96.0 kHz</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_sample_rate_titles">
+        <item>ໃຊ້ການ​ເລືອກຂອງລະບົບ (ຄ່າ​ເລີ່ມ​ຕົ້ນ)</item>
+        <item>44.1 kHz</item>
+        <item>48.0 kHz</item>
+        <item>88.2 kHz</item>
+        <item>96.0 kHz</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_summaries">
+        <item>ໃຊ້ການ​ເລືອກຂອງລະບົບ (ຄ່າ​ເລີ່ມ​ຕົ້ນ)</item>
+        <item>SBC</item>
+        <item>AAC</item>
+        <item>​ສຽງ Qualcomm®aptX™</item>
+        <item>​ສຽງ Qualcomm®aptX™ HD</item>
+        <item>LDAC</item>
+        <item>​ສຽງ Qualcomm®aptX™ Adaptive</item>
+        <item>​ສຽງ Qualcomm®aptX™ TWS+</item>
+        <item>ເປີດ​ໃຊ້​ງານ​ຕົວ​ແປງສັນ​ຍານ​ແບບ​ເລືອກ​ໄດ້</item>
+        <item>ປິດໃຊ້​ງານ​ຕົວ​ແປງສັນ​ຍານ​ແບບ​ເລືອກ​ໄດ້</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_titles">
+        <item>ໃຊ້ການ​ເລືອກຂອງລະບົບ (ຄ່າ​ເລີ່ມ​ຕົ້ນ)</item>
+        <item>SBC</item>
+        <item>AAC</item>
+        <item>​ສຽງ Qualcomm®aptX™</item>
+        <item>​ສຽງ Qualcomm®aptX™ HD</item>
+        <item>LDAC</item>
+        <item>​ສຽງ Qualcomm®aptX™ Adaptive</item>
+        <item>​ສຽງ Qualcomm®aptX™ TWS+</item>
+        <item>ເປີດ​ໃຊ້​ງານ​ຕົວ​ແປງສັນ​ຍານ​ແບບ​ເລືອກ​ໄດ້</item>
+        <item>ປິດໃຊ້​ງານ​ຕົວ​ແປງສັນ​ຍານ​ແບບ​ເລືອກ​ໄດ້</item>
+    </string-array>
+    <string-array name="bluetooth_audio_active_device_summaries">
+        <item></item>
+        <item>, ໃຊ້ຢູ່</item>
+        <item>, ໃຊ້​ຢູ່ (ມີ​ເດຍ)</item>
+        <item>, ໃຊ້​ຢູ່ (ໂທ​ລະ​ສັບ)</item>
+    </string-array>
+    <string-array name="bluetooth_avrcp_version_values">
+        <item>avrcp14</item>
+        <item>avrcp13</item>
+        <item>avrcp15</item>
+        <item>avrcp16</item>
+    </string-array>
+    <string-array name="bluetooth_avrcp_versions">
+        <item>AVRCP 1.4 (​ຄ່າ​ເລີ່ມ​ຕົ້ນ)</item>
+        <item>AVRCP 1.3</item>
+        <item>AVRCP 1.5</item>
+        <item>AVRCP 1.6</item>
+    </string-array>
+    <string-array name="bt_hci_snoop_log_entries">
+        <item>ປິດໃຊ້ແລ້ວ</item>
+        <item>​​ອັນ​ທີ່​ເປີດ​ໃຊ້​ງານ​​ຖືກກັ່ນ​ຕອງ​ແລ້ວ</item>
+        <item>​ສ່ວນ​ຫົວ​ທີ່​ເປີດ​ໃຊ້​ງານ​ຖືກກັ່ນ​ຕອງ​ແລ້ວ</item>
+        <item>Pkts ​ຂອງ​ມີ​ເດຍ​ທີ່​ເປີດ​ໃຊ້​ງານ​ຖືກ​ກັ່ນ​ຕອງ​ແລ້ວ</item>
+        <item>ເປີດໃຊ້ແລ້ວ</item>
+    </string-array>
+    <string-array name="clock_options">
+        <item>ສະແດງຊົ່ວໂມງ, ນາທີ ແລະວິນາທີ</item>
+        <item>ສະແດງຊົ່ວໂມງ ແລະນາທີ (ຄ່າເດີມ)</item>
+        <item>ບໍ່ສະແດງໄອຄອນນີ້</item>
+    </string-array>
+    <string-array name="color_lunar_mounth">
+        <item>正月</item>
+        <item>二月</item>
+        <item>三月</item>
+        <item>四月</item>
+        <item>五月</item>
+        <item>六月</item>
+        <item>七月</item>
+        <item>八月</item>
+        <item>九月</item>
+        <item>十月</item>
+        <item>冬月</item>
+        <item>腊月</item>
+    </string-array>
+    <string-array name="color_mode_descriptions">
+        <item>ສີ​ທີ່​ເພີ່ມ​ຂຶ້ນ</item>
+        <item>​ສີ​ທຳ​ມະ​ຊາດດັ່ງ​ທີ່​ເບິ່ງເຫັນ​ດ້ວຍ​ຕາ</item>
+        <item>ສີທີ່​ປັບເໝາະສົມສໍາລັບເນື້ອໃນທີ່ເປັນດິຈິຕອນ</item>
+    </string-array>
+    <string-array name="color_mode_names">
+        <item>​ສົດ​ໃສ (​ຄ່າ​ເລີ່ມ​ຕົ້ນ)</item>
+        <item>ທໍາມະຊາດ</item>
+        <item>ມາດຕະຖານ</item>
+    </string-array>
+    <string-array name="color_solor_mounth">
+        <item>ມັງກອນ</item>
+        <item>ກຸມພາ</item>
+        <item>ມີນາ</item>
+        <item>ເມສາ</item>
+        <item>ພຶດສະພາ</item>
+        <item>ມິຖຸນາ</item>
+        <item>ກໍລະກົດ</item>
+        <item>ສິງຫາ</item>
+        <item>ກັນຍາ</item>
+        <item>ຕຸລາ</item>
+        <item>ພະຈິກ</item>
+        <item>ທັນວາ</item>
+    </string-array>
+    <string-array name="debug_hw_overdraw_entries">
+        <item>ປິດ</item>
+        <item>ສະແດງບໍລິເວນທີ່ແຕ້ມເກີນ</item>
+        <item>ສະແດງບໍລິເວນສຳລັບຕາບອດຈາງສີຂຽວ</item>
+    </string-array>
+    <string-array name="enable_opengl_traces_entries">
+        <item>ບໍ່ມີ</item>
+        <item>Logcat</item>
+        <item>Systrace (ກຣາຟິກ)</item>
+        <item>ການໂທກອງເທິງ glGetError</item>
+    </string-array>
+    <string-array name="hdcp_checking_summaries">
+        <item>ຢ່າໃຊ້ການກວດ HDCP</item>
+        <item>ໃຊ້ການກວດ HDCP ສໍາລັບເນື້ອໃນ DRM ເທົ່ານັ້ນ</item>
+        <item>ໃຊ້ການກວດ HDCP ຢູ່ສະເໝີ</item>
+    </string-array>
+    <string-array name="hdcp_checking_titles">
+        <item>ຢ່າກວດ</item>
+        <item>ກວດເບິ່ງເນື້ອໃນ DRM ເທົ່ານັ້ນ</item>
+        <item>ກວດຢູ່ສະເໝີ</item>
+    </string-array>
+    <string-array name="nav_bar_layouts">
+        <item>ປົກກະຕິ</item>
+        <item>ກະທັດຮັດ</item>
+        <item>ຮັກສາໃຫ້ຢູ່ຊ້າຍມື</item>
+        <item>ຮັກສາໃຫ້ຢູ່ຂວາມື</item>
+    </string-array>
+    <string-array name="oppo_time_picker_ampm">
+        <item>AM</item>
+        <item>PM</item>
+    </string-array>
+    <string-array name="overlay_display_devices_entries">
+        <item>ບໍ່ມີ</item>
+        <item>480p</item>
+        <item>480p (​ປອດ​ໄພ)</item>
+        <item>720p</item>
+        <item>720p (​ປອດ​ໄພ)</item>
+        <item>1080p</item>
+        <item>1080p (​ປອດ​ໄພ)</item>
+        <item>4K</item>
+        <item>4K (​ປອດ​ໄພ)</item>
+        <item>4K (​ຍົກ​ລະ​ດັບ)</item>
+        <item>4K (​ຍົກ​ລະ​ດັບ, ​ປອດ​ໄພ)</item>
+        <item>720p, 1080p (ໜ້າຈໍຄູ່)</item>
+    </string-array>
+    <string-array name="select_logd_size_lowram_titles">
+        <item>ປິດ</item>
+        <item>64K</item>
+        <item>256K</item>
+        <item>1M</item>
+    </string-array>
+    <string-array name="select_logd_size_summaries">
+        <item>ປິດ</item>
+        <item>64K ຕໍ່ບັບເຟີບັນທຶກ</item>
+        <item>256K ຕໍ່ບັບເຟີບັນທຶກ</item>
+        <item>1M ຕໍ່ບັບເຟີບັນທຶກ</item>
+        <item>4M ຕໍ່ບັບເຟີບັນທຶກ</item>
+        <item>16M ຕໍ່ບັບເຟີບັນທຶກ</item>
+    </string-array>
+    <string-array name="select_logd_size_titles">
+        <item>ປິດ</item>
+        <item>64K</item>
+        <item>256K</item>
+        <item>1M</item>
+        <item>4M</item>
+        <item>16M</item>
+    </string-array>
+    <string-array name="select_logpersist_summaries">
+        <item>ປິດ</item>
+        <item>ບັບເຟີບັນທຶກທັງໝົດ</item>
+        <item>ບັບເຟີບັນທຶກທັງໝົດແຕ່ແບບວິທະຍຸ</item>
+        <item>ບັບເຟີບັນທຶກຂອງ kernel ເທົ່ານັ້ນ</item>
+    </string-array>
+    <string-array name="select_logpersist_titles">
+        <item>ປິດ</item>
+        <item>ທັງໝົດ</item>
+        <item>ທັງ​ໝົດ​ແຕ່​ແບບ​ວິ​ທະ​ຍຸ</item>
+        <item>kernel ເທົ່ານັ້ນ</item>
+    </string-array>
+    <string-array name="show_non_rect_clip_entries">
+        <item>ປິດ</item>
+        <item>ແຕ້ມຂອບເຂດຄລິບທີ່ບໍ່ເປັນສີ່ຫຼ່ຽມໃນສີຟ້າ</item>
+        <item>ໝາຍເອົາຄຳສັ່ງແຕ້ມທີ່ຖືກທົດສອບໃນສີຂຽວ</item>
+    </string-array>
+    <string-array name="track_frame_time_entries">
+        <item>ປິດ</item>
+        <item>ເທິງໜ້າຈໍເປັນຂີດ</item>
+        <item>ໃນ adb shell dumpsys gfxinfo</item>
+    </string-array>
+    <string-array name="transition_animation_scale_entries">
+        <item>ປິດອານີເມຊັນ</item>
+        <item>ອານີເມຊັນຂະໜາດ .5x</item>
+        <item>ອານີເມຊັນຂະໜາດ 1x</item>
+        <item>ອານີເມຊັນຂະໜາດ 1.5x</item>
+        <item>ອານີເມຊັນຂະໜາດ 2x</item>
+        <item>ອານີເມຊັນຂະໜາດ 5x</item>
+        <item>ອານີເມຊັນຂະໜາດ 10x</item>
+    </string-array>
+    <string-array name="tts_rate_entries">
+        <item>ຊ້າຫຼາຍ</item>
+        <item>ຊ້າ</item>
+        <item>ປົກກະຕິ</item>
+        <item>ໄວ</item>
+        <item>ໄວກວ່າ</item>
+        <item>ໄວຫຼາຍ</item>
+        <item>ໄວ</item>
+        <item>ໄວຫຼາຍ</item>
+        <item>ໄວສຸດ</item>
+    </string-array>
+    <string-array name="usb_configuration_titles">
+        <item>ກໍາລັງຊາກ</item>
+        <item>MTP (ໂພຣໂຕຄໍການໂອນຍ້າຍມີເດຍ)</item>
+        <item>PTP (ໂພຣໂຕຄໍການໂອນຍ້າຍຮູບພາບ)</item>
+        <item>RNDIS (USB Ethernet)</item>
+        <item>ແຫຼ່ງສຽງ</item>
+        <item>MIDI</item>
+    </string-array>
+    <string-array name="usb_type_select">
+        <item>​ສາກ​ເທົ່າ​ນັ້ນ</item>
+        <item>ໂອນໄຟລ</item>
+        <item>ໂອນຮູບຖ່າຍ</item>
+    </string-array>
+    <string-array name="wifi_status">
+        <item></item>
+        <item>ກໍາລັງສະແກນ…</item>
+        <item>ກໍາລັງເຊື່ອມຕໍ່…</item>
+        <item>ກໍາລັງກວດຮັບຮອງ…</item>
+        <item>ຂໍເອົາທີ່ຢູ່ IP…</item>
+        <item>ເຊື່ອມຕໍ່ແລ້ວ</item>
+        <item>ໂຈະແລ້ວ</item>
+        <item>ກໍາລັງຕັດເຊື່ອມຕໍ່…</item>
+        <item>ຕັດເຊື່ອມຕໍ່ແລ້ວ</item>
+        <item>ບໍ່ສຳເລັດຜົນ</item>
+        <item>ບລັອກແລ້ວ</item>
+        <item>ການຫຼີກ​ລຽງການເຊື່ອມຕໍ່ບໍ່ດີຊົ່ວຄາວ</item>
+    </string-array>
+    <string-array name="wifi_status_with_ssid">
+        <item></item>
+        <item>ກໍາລັງສະແກນ…</item>
+        <item>ກໍາລັງເຊື່ອມຕໍ່ກັບ %1$s…</item>
+        <item>ກຳລັງຮັບຮອງຄວາມຖືກຕ້ອງດ້ວຍ %1$s …</item>
+        <item>ຂໍເອົາທີ່ຢູ່ IP ຈາກ %1$s …</item>
+        <item>ເຊື່ອມຕໍ່ກັບ %1$s</item>
+        <item>ໂຈະແລ້ວ</item>
+        <item>ກໍາລັງຕັດເຊື່ອມຕໍ່ຈາກ %1$s …</item>
+        <item>ຕັດເຊື່ອມຕໍ່ແລ້ວ</item>
+        <item>ບໍ່ສຳເລັດຜົນ</item>
+        <item>ບລັອກແລ້ວ</item>
+        <item>ການຫຼີກ​ລຽງການເຊື່ອມຕໍ່ບໍ່ດີຊົ່ວຄາວ</item>
+    </string-array>
+    <string-array name="window_animation_scale_entries">
+        <item>ປິດອານີເມຊັນ</item>
+        <item>ອານີເມຊັນຂະໜາດ .5x</item>
+        <item>ອານີເມຊັນຂະໜາດ 1x</item>
+        <item>ອານີເມຊັນຂະໜາດ 1.5x</item>
+        <item>ອານີເມຊັນຂະໜາດ 2x</item>
+        <item>ອານີເມຊັນຂະໜາດ 5x</item>
+        <item>ອານີເມຊັນຂະໜາດ 10x</item>
+    </string-array>
+</resources>

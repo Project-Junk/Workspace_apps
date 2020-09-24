@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="kg_password_default_pin_message_multi_sim">
+        <item quantity="other">Sila Masukkan PIN untuk Kad SIM %1$d. %2$d Baki Percubaan.</item>
+        <item quantity="one">Sila Masukkan PIN untuk Kad SIM %1$d. %2$d Baki Percubaan. Anda Akan Perlu Menghubungi Pembawa Untuk Membantu Membuka Kunci Peranti Jika Ia Salah Sekali Lagi.</item>
+    </plurals>
+    <plurals name="kg_password_wrong_pin_code">
+        <item quantity="other">PIN SIM salah. %d baki percubaan.</item>
+        <item quantity="one">PIN SIM salah. %d baki percubaan. Anda akan perlu menghubungi pembawa untuk membantu membuka kunci peranti jika ia tidak betul sekali lagi.</item>
+    </plurals>
+    <plurals name="kg_password_wrong_pin_code_multi_sim">
+        <item quantity="other">PIN Salah untuk Kad SIM %1$d. %2$d Baki Percubaan.</item>
+        <item quantity="one">PIN Salah untuk Kad SIM %1$d. %2$d Baki Percubaan. Anda Akan Perlu Menghubungi Pembawa Untuk Membantu Membuka Kunci Peranti Jika Ia Salah Sekali Lagi.</item>
+    </plurals>
+    <plurals name="kg_password_wrong_puk_code">
+        <item quantity="other">Kod PUK SIM salah. %d baki percubaan. SIM akan dinyahdayakan secara kekal jika tidak betul sekali lagi.</item>
+        <item quantity="one">Kod PUK SIM salah.%d baki percubaan. SIM akan dinyahdayakan secara kekal jika ia tidak betul sekali lagi.</item>
+    </plurals>
+    <plurals name="kg_prompt_reason_time_password">
+        <item quantity="other">Peranti telah dikunci selama %d jam. Sila sahkan kata laluan.</item>
+        <item quantity="one">Peranti telah dikunci selama %d jam. Sila sahkan kata laluan.</item>
+    </plurals>
+    <plurals name="kg_prompt_reason_time_pattern">
+        <item quantity="other">Peranti telah dikunci selama %d jam.Sila sahkan corak buka kunci.</item>
+        <item quantity="one">Peranti telah dikunci selama %d jam.Sila sahkan corak buka kunci.</item>
+    </plurals>
+    <plurals name="kg_prompt_reason_time_pin">
+        <item quantity="other">Peranti telah dikunci selama %d jam.Sila sahkan PIN.</item>
+        <item quantity="one">Peranti telah dikunci selama %d jam.Sila sahkan PIN.</item>
+    </plurals>
+    <plurals name="kg_too_many_failed_attempts_countdown">
+        <item quantity="other">Sila Cuba Lagi Selepas %d Saat.</item>
+        <item quantity="one">Sila Cuba Lagi Selepas 1 Saat.</item>
+    </plurals>
+    <plurals name="notification_group_overflow_description">
+        <item quantity="other">Masih terdapat %s pemberitahuan dalam kumpulan ini.</item>
+        <item quantity="one">Masih %s pemberitahuan dalam kumpulan ini.</item>
+    </plurals>
+    <plurals name="snoozeHourOptions">
+        <item quantity="other">%d jam</item>
+        <item quantity="one">%d jam</item>
+    </plurals>
+    <plurals name="snoozeMinuteOptions">
+        <item quantity="other">%d minit</item>
+        <item quantity="one">%d minit</item>
+    </plurals>
+    <plurals name="wifi_tether_connected_summary">
+        <item quantity="other">%1$d peranti disambungkan</item>
+        <item quantity="one">%1$d peranti disambungkan</item>
+    </plurals>
+</resources>

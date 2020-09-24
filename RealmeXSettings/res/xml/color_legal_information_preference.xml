@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/legal_information" android:key="container"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto">
+    <com.coloros.settings.widget.preference.SettingsColorPreferenceCategory android:key="dummy_category" settings:isFirstCategory="true" />
+    <com.coloros.settings.widget.preference.SettingColorJumpPreference android:title="@string/oppo_user_protocol" android:key="userProtocol">
+        <intent android:action="com.coloros.bootreg.activity.statementpage">
+            <extra android:name="statement_intent_flag" android:value="1" />
+        </intent>
+    </com.coloros.settings.widget.preference.SettingColorJumpPreference>
+    <com.coloros.settings.widget.preference.SettingColorJumpPreference android:title="@string/oppo_user_secret" android:key="userSecret">
+        <intent android:action="com.coloros.bootreg.activity.statementpage">
+            <extra android:name="statement_intent_flag" android:value="2" />
+        </intent>
+    </com.coloros.settings.widget.preference.SettingColorJumpPreference>
+    <com.coloros.settings.widget.preference.SettingColorJumpPreference android:title="@string/copyright_title" android:key="copyright">
+        <intent android:action="android.settings.COPYRIGHT" />
+    </com.coloros.settings.widget.preference.SettingColorJumpPreference>
+    <com.coloros.settings.widget.preference.SettingColorJumpPreference android:title="@string/settings_license_activity_title" android:key="license">
+        <intent android:action="android.settings.LICENSE" />
+    </com.coloros.settings.widget.preference.SettingColorJumpPreference>
+    <com.coloros.settings.widget.preference.SettingColorJumpPreference android:layout="@layout/color_preference" android:title="@string/terms_title" android:key="terms">
+        <intent android:action="android.settings.TERMS" />
+    </com.coloros.settings.widget.preference.SettingColorJumpPreference>
+    <PreferenceCategory android:key="coloros_hotfix_category">
+        <com.coloros.settings.widget.preference.SettingColorJumpPreference android:title="@string/legal_information_coloros_safe_patch" android:selectable="false" android:key="coloros_hotfix" settings:colorClickStyle="unclick" settings:color_jump_mark="@null" />
+    </PreferenceCategory>
+    <com.coloros.settings.widget.preference.SettingColorJumpPreference android:layout="@layout/color_preference" android:selectable="false" android:key="coloros_hotfix_tips" android:summary="@string/legal_information_coloros_safe_patch_tips" settings:colorClickStyle="unclick" settings:color_jump_mark="@null" />
+</PreferenceScreen>

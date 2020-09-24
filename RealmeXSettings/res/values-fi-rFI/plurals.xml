@@ -1,0 +1,415 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="accessibility_usage_summary">
+        <item quantity="other">%1$d sovelluksella on täysi pääsy laitteeseesi</item>
+        <item quantity="one">1 sovelluksella on täysi pääsy laitteeseesi</item>
+    </plurals>
+    <plurals name="accessibilty_autoclick_preference_subtitle_extremely_short_delay">
+        <item quantity="other">Erittäin lyhyt viive (%1$d ms)</item>
+        <item quantity="one">Erittäin lyhyt viive (%1$d ms)</item>
+    </plurals>
+    <plurals name="accessibilty_autoclick_preference_subtitle_long_delay">
+        <item quantity="other">Pitkä viive (%1$d ms)</item>
+        <item quantity="one">Pitkä viive (%1$d ms)</item>
+    </plurals>
+    <plurals name="accessibilty_autoclick_preference_subtitle_short_delay">
+        <item quantity="other">Lyhyt viive (%1$d ms)</item>
+        <item quantity="one">Lyhyt viive (%1$d ms)</item>
+    </plurals>
+    <plurals name="accessibilty_autoclick_preference_subtitle_very_long_delay">
+        <item quantity="other">Hyvin pitkä viive (%1$d ms)</item>
+        <item quantity="one">Hyvin pitkä viive (%1$d ms)</item>
+    </plurals>
+    <plurals name="accessibilty_autoclick_preference_subtitle_very_short_delay">
+        <item quantity="other">Hyvin lyhyt viive (%1$d ms)</item>
+        <item quantity="one">Hyvin lyhyt viive (%1$d ms)</item>
+    </plurals>
+    <plurals name="app_notification_listing_summary_others">
+        <item quantity="other">Pois päältä %d sovelluksille</item>
+        <item quantity="one">Pois päältä %d sovellukselle</item>
+    </plurals>
+    <plurals name="battery_manager_app_restricted">
+        <item quantity="other">%1$d sovellusta rajoitettu</item>
+        <item quantity="one">%1$d sovellus rajoitettu</item>
+    </plurals>
+    <plurals name="battery_tip_restrict_app_dialog_title">
+        <item quantity="other">Rajoitetaanko %1$d sovelluksia?</item>
+        <item quantity="one">Rajoitetaanko sovellusta?</item>
+    </plurals>
+    <plurals name="battery_tip_restrict_handled_summary">
+        <item quantity="other">Nämä sovellukset eivät voi toimia taustalla</item>
+        <item quantity="one">Tämä sovellus ei voi toimia taustalla</item>
+    </plurals>
+    <plurals name="battery_tip_restrict_handled_title">
+        <item quantity="other">%2$d sovellukset äskettäin rajoitettu</item>
+        <item quantity="one">%1$s äskettäin rajoitetut</item>
+    </plurals>
+    <plurals name="battery_tip_restrict_summary">
+        <item quantity="other">%2$d ovat akun taustakäytöltään korkeita</item>
+        <item quantity="one">%1$s on akun taustakäytöltään korkea</item>
+    </plurals>
+    <plurals name="battery_tip_restrict_title">
+        <item quantity="other">Rajoita %1$d sovellusta</item>
+        <item quantity="one">Rajoita %1$d sovellus</item>
+    </plurals>
+    <plurals name="billing_cycle_days_left">
+        <item quantity="other">%d päivää jäljellä</item>
+        <item quantity="one">%d päivä jäljellä</item>
+    </plurals>
+    <plurals name="bugreport_countdown">
+        <item quantity="other">Järjestelmä tallentaa virheraportin sisältävän näytön %1$d sekunnin kuluttua.</item>
+        <item quantity="one">Järjestelmä tallentaa virheraportin sisältävän näytön %1$d sekunnin kuluttua.</item>
+    </plurals>
+    <plurals name="codebook_saved_account_number">
+        <item quantity="other">%d käyttäjänimi- ja salasanaparia tallennettu Salasanat-toimintoon.</item>
+        <item quantity="one">%d käyttäjänimi- ja salasanapari tallennettu Salasanat-toimintoon.</item>
+    </plurals>
+    <plurals name="data_saver_unrestricted_summary">
+        <item quantity="other">%1$d sovelluksen on sallittu käyttää rajattomasti dataa datansäästön ollessa päällä.</item>
+        <item quantity="one">1 sovelluksen on sallittu käyttää rajattomasti dataa datansäästön ollessa päällä.</item>
+    </plurals>
+    <plurals name="default_camera_app_title">
+        <item quantity="other">Kamerasovellukset</item>
+        <item quantity="one">Kamerasovellus</item>
+    </plurals>
+    <plurals name="default_email_app_title">
+        <item quantity="other">Sähköpostin asiakassovellukset</item>
+        <item quantity="one">Sähköpostin asiakassovellus</item>
+    </plurals>
+    <plurals name="default_phone_app_title">
+        <item quantity="other">Puhelinsovellukset</item>
+        <item quantity="one">Puhelinsovellus</item>
+    </plurals>
+    <plurals name="deleted_channels">
+        <item quantity="other">%d kategoriat poistettu</item>
+        <item quantity="one">%d kategoria poistettu</item>
+    </plurals>
+    <plurals name="dlg_remove_locales_title">
+        <item quantity="other">Poistetaanko valitut kielet?</item>
+        <item quantity="one">Poistetaanko valittu kieli?</item>
+    </plurals>
+    <plurals name="domain_urls_apps_summary_on">
+        <item quantity="other">%d sovellusta avaa tuettuja linkkejä</item>
+        <item quantity="one">Yksi sovellus avaa tuettuja linkkejä</item>
+    </plurals>
+    <plurals name="enterprise_privacy_number_ca_certs">
+        <item quantity="other">%d CA-sertifikaattia vähintään</item>
+        <item quantity="one">%d CA-sertifikaatti vähintään</item>
+    </plurals>
+    <plurals name="enterprise_privacy_number_failed_password_wipe">
+        <item quantity="other">Yritetty %d kertaa</item>
+        <item quantity="one">Yritetty %d kerran</item>
+    </plurals>
+    <plurals name="enterprise_privacy_number_packages">
+        <item quantity="other">%d sovellusta</item>
+        <item quantity="one">%d sovellus</item>
+    </plurals>
+    <plurals name="enterprise_privacy_number_packages_lower_bound">
+        <item quantity="other">%d sovellusta vähintään</item>
+        <item quantity="one">%d sovellus vähintään</item>
+    </plurals>
+    <plurals name="hours">
+        <item quantity="other">%s h</item>
+        <item quantity="one">1 h</item>
+    </plurals>
+    <plurals name="location_app_permission_summary_location_on">
+        <item quantity="other">%1$d sovelluksista %2$d pääsevät sijaintiin</item>
+        <item quantity="one">%1$d soelluksista %2$d pääsee sijaintiin</item>
+    </plurals>
+    <plurals name="location_settings_summary_location_on">
+        <item quantity="other">On - %1$d sovelluksilla on pääsy sijaintiin</item>
+        <item quantity="one">On - %1$d sovelluksella on pääsy sijaintiin</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_letters">
+        <item quantity="other">Sisällettävä vähintään %d kirjainta</item>
+        <item quantity="one">Sisällettävä vähintään 1 kirjain</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_lowercase">
+        <item quantity="other">Sisällettävä vähintään %d pientä kirjainta</item>
+        <item quantity="one">Sisällettävä vähintään 1 pieni kirjan</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_nonletter">
+        <item quantity="other">Sisällettävä vähintään muita %d merkkiä kuin kirjaimia</item>
+        <item quantity="one">Sisällettävä vähintään 1 muu merkki kuin kirjain</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_numeric">
+        <item quantity="other">Sisällettävä vähintään %d numeromerkkiä</item>
+        <item quantity="one">Sisällettävä vähintään 1 numeromerkki</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_symbols">
+        <item quantity="other">Sisällettävä vähintään %d erikoissymbolia</item>
+        <item quantity="one">Sisällettävä vähintään 1 erikoissymboli</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_uppercase">
+        <item quantity="other">Sisällettävä vähintään %d isoa kirjainta</item>
+        <item quantity="one">Sisällettävä vähintään 1 iso kirjan</item>
+    </plurals>
+    <plurals name="lockpassword_password_too_long">
+        <item quantity="other">On oltava vähemmän kuin %d merkkiä</item>
+        <item quantity="one">On oltava vähemmän kuin %d merkki</item>
+    </plurals>
+    <plurals name="lockpassword_password_too_short">
+        <item quantity="other">Sisällettävä vähintään %d merkkiä</item>
+        <item quantity="one">Sisällettävä vähintään %d merkki</item>
+    </plurals>
+    <plurals name="lockpassword_pin_too_long">
+        <item quantity="other">On oltava vähemmän kuin %d lukua</item>
+        <item quantity="one">On oltava vähemmän kuin %d luku</item>
+    </plurals>
+    <plurals name="lockpassword_pin_too_short">
+        <item quantity="other">PIN on oltava vähintään %d lukuja</item>
+        <item quantity="one">PIN on sisällettävä vähintään %d luku</item>
+    </plurals>
+    <plurals name="manage_notification_access_summary_nonzero">
+        <item quantity="other">%d sovellukset voivat lukea ilmoituksia</item>
+        <item quantity="one">%d sovellus voi lukea ilmoituksia</item>
+    </plurals>
+    <plurals name="manage_trust_agents_summary_on">
+        <item quantity="other">%d aktiiviset luottamusagentit</item>
+        <item quantity="one">1 aktiivinen luottamusagentti</item>
+    </plurals>
+    <plurals name="memory_usage_apps_summary">
+        <item quantity="other">%1$d sovellusta käytti muistia viimeisen %2$s kuluessa</item>
+        <item quantity="one">1 sovellus käytti muistia viimeisen %2$s kuluessa</item>
+    </plurals>
+    <plurals name="minutes">
+        <item quantity="other">%s min</item>
+        <item quantity="one">1 min</item>
+    </plurals>
+    <plurals name="mobile_network_summary_count">
+        <item quantity="other">%1$d SIM:iä</item>
+        <item quantity="one">%1$d SIM</item>
+    </plurals>
+    <plurals name="network_restrictions_summary">
+        <item quantity="other">%1$d rajoitusta</item>
+        <item quantity="one">1 rajoitus</item>
+    </plurals>
+    <plurals name="notification_few_channel_count_summary">
+        <item quantity="other">%1$d ilmoituskanavat.</item>
+        <item quantity="one">%1$d ilmoituskanava.</item>
+    </plurals>
+    <plurals name="notification_group_summary">
+        <item quantity="other">%d kategoriat</item>
+        <item quantity="one">%d kategoria</item>
+    </plurals>
+    <plurals name="notification_summary">
+        <item quantity="other">Poissa päältä %d sovelluksille</item>
+        <item quantity="one">Poissa päältä 1 sovellukselle</item>
+    </plurals>
+    <plurals name="notifications_categories_off">
+        <item quantity="other">%d kategoriaa käännetty pois päältä</item>
+        <item quantity="one">%d kategoria käännetty pois päältä</item>
+    </plurals>
+    <plurals name="notifications_sent_daily">
+        <item quantity="other">~%d ilmoitusta päivässä</item>
+        <item quantity="one">~%d ilmoitus päivässä.</item>
+    </plurals>
+    <plurals name="notifications_sent_weekly">
+        <item quantity="other">~%d ilmoitusta viikossa</item>
+        <item quantity="one">~%d ilmoitus viikossa</item>
+    </plurals>
+    <plurals name="number_of_device_admins">
+        <item quantity="other">%d aktiiviset sovellukset</item>
+        <item quantity="one">%d aktiivinen sovellus</item>
+    </plurals>
+    <plurals name="optimizable_count">
+        <item quantity="other">%1$d kohdetta voidaan optimoida</item>
+        <item quantity="one">%1$d kohde voidaan optimoida</item>
+    </plurals>
+    <plurals name="permission_bar_chart_label">
+        <item quantity="other">%s sovellusta</item>
+        <item quantity="one">1 sovellus</item>
+    </plurals>
+    <plurals name="permissions_summary">
+        <item quantity="other">%d käyttöoikeutta myönnetty</item>
+        <item quantity="one">%d käyttöoikeus myönnetty</item>
+    </plurals>
+    <plurals name="power_high_usage_summary">
+        <item quantity="other">%2$d sovellusta toimii poikkeavasti</item>
+        <item quantity="one">%1$s toimii poikkeavasti</item>
+    </plurals>
+    <plurals name="power_high_usage_title">
+        <item quantity="other">Sovellukset tyhjentävät akkua</item>
+        <item quantity="one">%1$s tyhjentää akkua</item>
+    </plurals>
+    <plurals name="print_jobs_summary">
+        <item quantity="other">%1$d tulostukset</item>
+        <item quantity="one">1 tulostukset</item>
+    </plurals>
+    <plurals name="print_settings_summary">
+        <item quantity="other">%1$d tulostuspalvelun</item>
+        <item quantity="one">1 tulostuspalvelun</item>
+    </plurals>
+    <plurals name="restricted_app_summary">
+        <item quantity="other">sovellukselle Akun käytön rajoittaminen %1$d sovelluksille</item>
+        <item quantity="one">Akun käytön %1$d rajoittaminen</item>
+    </plurals>
+    <plurals name="retry_count_ticker">
+        <item quantity="other">Yritä uudelleen %d s kuluttua</item>
+        <item quantity="one">Yritä uudelleen %d s kuluttua</item>
+    </plurals>
+    <plurals name="runtime_permissions_additional_count">
+        <item quantity="other">%d lisäkäyttöoikeutta</item>
+        <item quantity="one">%d lisäkäyttöoikeus</item>
+    </plurals>
+    <plurals name="runtime_permissions_summary">
+        <item quantity="other">%1$d (/ %2$d) käyttöoikeutta myönnetty</item>
+        <item quantity="one">%1$d (/ %2$d) käyttöoikeus myönnetty</item>
+    </plurals>
+    <plurals name="seconds">
+        <item quantity="other">%s s</item>
+        <item quantity="one">1 s</item>
+    </plurals>
+    <plurals name="security_settings_fingerprint_preference_summary">
+        <item quantity="other">%1$d sormenjälkeä määritetty</item>
+        <item quantity="one">%1$d sormenjälki määritetty</item>
+    </plurals>
+    <plurals name="security_summary_apps_security">
+        <item quantity="other">%1$d sovellusta lukittu</item>
+        <item quantity="one">%1$d sovellus lukittu</item>
+    </plurals>
+    <plurals name="security_summary_float_window">
+        <item quantity="other">Estetty %1$d kertaa</item>
+        <item quantity="one">Estetty %1$d kerran</item>
+    </plurals>
+    <plurals name="security_summary_harassment_call">
+        <item quantity="other">%1$d puhelua</item>
+        <item quantity="one">%1$d puhelu</item>
+    </plurals>
+    <plurals name="security_summary_harassment_sms">
+        <item quantity="other">%1$d SMS-viestiä</item>
+        <item quantity="one">%1$d SMS-viesti</item>
+    </plurals>
+    <plurals name="security_summary_intelligent_identification_contact">
+        <item quantity="other">Tunnistettu %1$d numeroa</item>
+        <item quantity="one">Tunnistettu %1$d numero</item>
+    </plurals>
+    <plurals name="security_summary_payment_protection">
+        <item quantity="other">Suojattu %1$d maksua</item>
+        <item quantity="one">Suojattu %1$d maksu</item>
+    </plurals>
+    <plurals name="security_summary_permission_manager">
+        <item quantity="other">Estetty %1$d kertaa</item>
+        <item quantity="one">Estetty %1$d kerran</item>
+    </plurals>
+    <plurals name="security_summary_private_info_protect">
+        <item quantity="other">%1$d kohdetta suojattu</item>
+        <item quantity="one">%1$d kohde suojattu</item>
+    </plurals>
+    <plurals name="security_summary_pseudo_base_station">
+        <item quantity="other">Estetty %1$d pseudotukiasemaa</item>
+        <item quantity="one">Estetty %1$d pseudotukiasema</item>
+    </plurals>
+    <plurals name="settings_optimizable_count">
+        <item quantity="other">%1$d kohdetta voidaan optimoida</item>
+        <item quantity="one">%1$d kohde voidaan optimoida</item>
+    </plurals>
+    <plurals name="settings_suggestion_header_summary_hidden_items">
+        <item quantity="other">Näytä %d piilotettua kohdetta</item>
+        <item quantity="one">Näytä %d piilotettu kohde</item>
+    </plurals>
+    <plurals name="show_bluetooth_devices">
+        <item quantity="other">%1$d laitetta kytketty</item>
+        <item quantity="one">%1$d laite kytketty</item>
+    </plurals>
+    <plurals name="show_dev_countdown">
+        <item quantity="other">Olet askelien %1$d päässä siitä, että olet kehittäjä.</item>
+        <item quantity="one">Olet askelen %1$d päässä siitä, että olet kehittäjä.</item>
+    </plurals>
+    <plurals name="show_number_hearingaid_count">
+        <item quantity="other">%1$d tallennettua kuulokojetta</item>
+        <item quantity="one">Tallennet %1$d tu kuulokoje</item>
+    </plurals>
+    <plurals name="special_access_summary">
+        <item quantity="other">%d voivat käyttää rajoittamatonta dataa</item>
+        <item quantity="one">1 sovellus voi käyttää rajoittamatonta dataa sovellusta</item>
+    </plurals>
+    <plurals name="ssl_ca_cert_dialog_title">
+        <item quantity="other">Luota sertifikaatteihin tai poista ne</item>
+        <item quantity="one">Luota sertifikaattiin tai poista se</item>
+    </plurals>
+    <plurals name="ssl_ca_cert_info_message">
+        <item quantity="other">"%s on asentanut useita sertifikaattiauktoriteetteja työprofiilillesi. Niillä voidaan valvoa verkkotoimintoja (mukaan lukien sähköpostin, sovellusten ja suojattujen sivustojen käyttöä) työskennellessäsi.
+
+Lisätietoja näistä sertifikaateista saa valvojalta."</item>
+        <item quantity="one">"%s on asentanut yhden sertifikaattiauktoriteetin työprofiilillesi. Sillä voidaan valvoa verkkotoimintoja (mukaan lukien sähköpostin, sovellusten ja suojattujen sivustojen käyttöä) työskennellessäsi.
+
+Lisätietoja tästä sertifikaatista saa valvojalta."</item>
+    </plurals>
+    <plurals name="ssl_ca_cert_info_message_device_owner">
+        <item quantity="other">"%s on asentanut useita sertifikaattiauktoriteetteja laitteeseesi. Niillä voidaan valvoa laitteesi verkkotoimintoja (mukaan lukien sähköpostin, sovellusten ja suojattujen sivustojen käyttöä).
+
+Lisätietoja näistä sertifikaateista saa valvojalta."</item>
+        <item quantity="one">"%s on asentanut yhden sertifikaattiauktoriteetin laitteeseesi. Sillä voidaan valvoa laitteesi verkkotoimintoja (mukaan lukien sähköpostin, sovellusten ja suojattujen sivustojen käyttöä).
+
+Lisätietoja tästä sertifikaatista saa valvojalta."</item>
+    </plurals>
+    <plurals name="ssl_ca_cert_settings_button">
+        <item quantity="other">Tarkista sertifikaatit</item>
+        <item quantity="one">Tarkista sertifikaatti</item>
+    </plurals>
+    <plurals name="suggestions_collapsed_summary">
+        <item quantity="other">+%1$d ehdotusta</item>
+        <item quantity="one">+1 ehdotus</item>
+    </plurals>
+    <plurals name="suggestions_collapsed_title">
+        <item quantity="other">%1$d ehdotusta</item>
+        <item quantity="one">1 ehdotus</item>
+    </plurals>
+    <plurals name="uri_permissions_text">
+        <item quantity="other">%d kohde(tta)</item>
+        <item quantity="one">1 kohde</item>
+    </plurals>
+    <plurals name="wifi_saved_access_points_summary">
+        <item quantity="other">%d verkkoa</item>
+        <item quantity="one">1 verkko</item>
+    </plurals>
+    <plurals name="wifi_saved_all_access_points_summary">
+        <item quantity="other">%d ja tilaukset</item>
+        <item quantity="one">1 verkko ja tilausverkot</item>
+    </plurals>
+    <plurals name="wifi_saved_passpoint_access_points_summary">
+        <item quantity="other">%d tilausta</item>
+        <item quantity="one">1 tilaus</item>
+    </plurals>
+    <plurals name="wifi_tether_connected_summary">
+        <item quantity="other">%1$d laitetta yhdistetty</item>
+        <item quantity="one">%1$d laite yhdistetty</item>
+    </plurals>
+    <plurals name="wrong_pin_code">
+        <item quantity="other">Väärä SIM:n PIN koodi, sinulla on %d yritystä jljellä.</item>
+        <item quantity="one">Väärä SIM:n PIN koodi, sinulla on yritys %d jäljellä, ennen kuin sinun on otettava yhteys operaattoriisi laitteesi lukituksen avaamiseksi.</item>
+    </plurals>
+    <plurals name="zen_mode_duration_summary_time_hours">
+        <item quantity="other">%d tuntia</item>
+        <item quantity="one">1 tunti</item>
+    </plurals>
+    <plurals name="zen_mode_rules_new">
+        <item quantity="other">%1$d sääntöä valittu</item>
+        <item quantity="one">%1$d sääntö valittu</item>
+    </plurals>
+    <plurals name="zen_mode_settings_summary_on">
+        <item quantity="other">%d käytössä</item>
+        <item quantity="one">1 käytössä</item>
+    </plurals>
+    <plurals name="zen_mode_settings_summary_on_new">
+        <item quantity="other">%d sääntöä sovellettu</item>
+        <item quantity="one">%d sääntöä sovellettu</item>
+    </plurals>
+    <plurals name="zen_mode_sound_summary_summary_off_info">
+        <item quantity="other">%d aikautaulut voivat mennä päälle automaattisesti</item>
+        <item quantity="one">1 aikataulu voi mennä päälle automaattisesti</item>
+    </plurals>
+    <plurals name="zen_mode_starred_contacts_summary_additional_contacts">
+        <item quantity="other">%d muuta</item>
+        <item quantity="one">1 muu</item>
+    </plurals>
+    <plurals name="zen_mode_summary_alarms_only_by_hour">
+        <item quantity="other">Vaihda pelkkiin hälytyksiin, voimassa %1$d tuntia (%2$s saakka)</item>
+        <item quantity="one">Vaihda pelkkiin hälytyksiin, voimassa 1 tunnin (%2$s saakka)</item>
+    </plurals>
+    <plurals name="zen_mode_summary_alarms_only_by_minute">
+        <item quantity="other">Vaihda pelkkiin hälytyksiin, voimassa %1$d minuuttia (%2$s saakka)</item>
+        <item quantity="one">Vaihda pelkkiin hälytyksiin, voimassa 1 minuutin (%2$s saakka)</item>
+    </plurals>
+</resources>

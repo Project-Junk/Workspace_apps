@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/aod_signture_background" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/next" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/color_btn_next" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:layout_marginEnd="@dimen/aod_signture_preference_margin_rignt" />
+    <TextView android:id="@android:id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/aod_signture_preference_margin_top" android:layout_marginStart="@dimen/aod_signture_preference_margin_left" style="@style/aod_title_text" />
+    <TextView android:id="@id/host" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@android:id/title" android:layout_marginStart="@dimen/aod_signture_preference_margin_left" style="@style/aod_summary_text2" />
+    <TextView android:id="@android:id/summary" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/aod_signture_preference_margin_left" android:text="summary" android:maxLines="1" android:layout_toLeftOf="@id/next" android:layout_toRightOf="@id/host" android:layout_below="@android:id/title" style="@style/aod_summary_text2" />
+    <View android:background="@color/aod_divide_color" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginTop="@dimen/aod_signture_preference_margin_inner_top" android:layout_below="@id/host" android:layout_marginStart="@dimen/aod_signture_preference_margin_left" android:layout_marginEnd="@dimen/aod_signture_preference_margin_rignt" />
+</RelativeLayout>

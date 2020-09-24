@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:background="@drawable/color_group_list_selector_item" android:layout_width="fill_parent" android:layout_height="wrap_content" android:baselineAligned="false" android:minHeight="?android:listPreferredItemHeight"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0" android:layout_marginStart="@dimen/M10" android:layout_marginEnd="@dimen/M10">
+        <TextView android:textSize="@dimen/color_font_size_16SP" android:ellipsize="marquee" android:gravity="start|center" android:id="@android:id/text1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" style="@style/OppoListViewTextAppearance.Large" />
+        <TextView android:textSize="@dimen/color_font_size_12DP" android:ellipsize="marquee" android:gravity="start|center" android:id="@android:id/text2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" style="@style/OppoListViewTextAppearance.Small" />
+    </LinearLayout>
+</LinearLayout>

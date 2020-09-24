@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto">
+    <androidx.preference.Preference android:layout="@layout/color_layout_preference_header" android:selectable="false" />
+    <com.coloros.settings.feature.accounts.ColorSyncStateSwitchPreference android:layout="@layout/color_preference" android:key="dummy" />
+</PreferenceScreen>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.keyguard.AlphaOptimizedLinearLayout android:gravity="center" android:orientation="vertical" android:paddingTop="@dimen/qs_detail_header_padding" android:paddingBottom="@dimen/qs_detail_header_padding" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="20.0dip" android:paddingEnd="20.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.android.systemui.ResizingSpace android:layout_width="fill_parent" android:layout_height="@dimen/qs_detail_margin_top" />
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="27.0dip">
+        <ImageView android:id="@id/qs_detail_back" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/status_bar_qs_detail_back_arrow_selector" android:scaleType="fitXY" />
+        <TextView android:textAppearance="@style/TextAppearance.QS.DetailHeader" android:textSize="16.0sp" android:textColor="@color/status_bar_qs_detail_title_text_color" android:id="@android:id/title" android:layout_width="0.0dip" android:layout_height="wrap_content" android:includeFontPadding="false" android:layout_weight="1.0" android:textDirection="locale" android:paddingStart="14.0dip" />
+        <ImageView android:id="@id/settings" android:background="?android:selectableItemBackground" android:padding="@dimen/qs_detail_image_padding" android:visibility="gone" android:layout_width="@dimen/qs_detail_image_width" android:layout_height="@dimen/qs_detail_image_height" android:src="@drawable/ic_settings" />
+        <Switch android:textAppearance="@style/TextAppearance.QS.DetailHeader" android:id="@android:id/toggle" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </LinearLayout>
+</com.android.keyguard.AlphaOptimizedLinearLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/video_display_enhancement" android:key="key_video_display_enhancement_root"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.android.settingslib.widget.LayoutPreference android:layout="@layout/video_display_enhancement_image" android:key="key_video_display_enhancement_image" />
+    <com.coloros.settings.widget.preference.SettingSwitchPreference android:persistent="false" android:title="@string/video_display_enhancement" android:key="key_video_display_enhancement_swith" />
+    <PreferenceCategory>
+        <Preference android:layout="@layout/color_detail_preference_without_shadow" android:selectable="false" android:summary="@string/video_display_enhancement_description_detail1" />
+        <Preference android:layout="@layout/color_detail_preference_without_shadow" android:selectable="false" android:summary="@string/video_display_enhancement_description_detail2" />
+    </PreferenceCategory>
+</PreferenceScreen>

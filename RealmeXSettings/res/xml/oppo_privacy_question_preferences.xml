@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto">
+    <com.coloros.settings.widget.preference.SettingsColorPreferenceCategory android:key="question_parent" settings:isFirstCategory="true">
+        <com.coloros.settings.widget.preference.SettingColorJumpPreference android:key="question_set" />
+        <com.color.support.preference.ColorInputPreference android:singleLine="true" android:maxLength="@integer/max_answer_input" android:key="answer_input" settings:colorContent="" settings:colorHint="@string/privacy_question_hint" />
+        <com.android.settingslib.widget.LayoutPreference android:layout="@layout/oppo_answer_input_divider" />
+    </com.coloros.settings.widget.preference.SettingsColorPreferenceCategory>
+    <com.coloros.settings.widget.preference.SettingsColorPreferenceCategory android:title="@string/privacy_bind_title" android:key="other_parent" settings:isFirstCategory="true">
+        <com.coloros.settings.widget.preference.SettingColorJumpPreference android:title="@string/privacy_bind_email" android:key="bind_email" />
+        <com.coloros.settings.widget.preference.SettingSwitchPreference android:title="@string/privacy_bind_account" android:key="bind_account" />
+    </com.coloros.settings.widget.preference.SettingsColorPreferenceCategory>
+    <PreferenceCategory android:key="privacy_question_bottom_divider" />
+</PreferenceScreen>

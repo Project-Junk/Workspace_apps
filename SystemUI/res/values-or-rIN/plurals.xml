@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="kg_password_default_pin_message_multi_sim">
+        <item quantity="other">SIM କାର୍ଡ %1$d ପାଇଁ ଦୟାକରି ପିନ୍ ପ୍ରବେଶ କରନ୍ତୁ। %2$d ପ୍ରଚେଷ୍ଟା ବାକି ଅଛି।</item>
+        <item quantity="one">SIM କାର୍ଡ %1$d ପାଇଁ ଦୟାକରି ପିନ୍ ପ୍ରବେଶ କରନ୍ତୁ। %2$d ପ୍ରଚେଷ୍ଟା ବାକି ଅଛି। ଯଦି ତାହା ପୁଣି ଭୁଲ ହୁଏ, ଆପଣଙ୍କୁ କ୍ୟାରିଅରକୁ ଡିଭାଇସକୁ ଅନଲକ୍ କରିବାକୁ ଯୋଗାଯୋଗ କରିବା ଆବଶ୍ୟକ।</item>
+    </plurals>
+    <plurals name="kg_password_wrong_pin_code">
+        <item quantity="other">ଭୁଲ୍‍ SIM PIN | %d ପ୍ରୟାସ ଅବଶିଷ୍ଠ ରହିଛି |</item>
+        <item quantity="one">ଭୁଲ୍‍ SIM PIN | %d ପ୍ରୟାସ ଅବଶିଷ୍ଠ ରହିଛି | ଯଦି ଏହା ପୁନର୍ବାର ଭୁଲ୍‌ ହୁଏ ତେବେ ଆପଣଙ୍କୁ କ୍ୟାରିଅର୍‌ ସହିତ ସମ୍ପର୍କ କରିଭା ଦରକାର |</item>
+    </plurals>
+    <plurals name="kg_password_wrong_pin_code_multi_sim">
+        <item quantity="other">SIM କାର୍ଡ %1$d ପାଇଁ ଭୁଲ ପିନ୍। %2$d ପ୍ରଚେଷ୍ଟା ବାକି ଅଛି।SIM କାର୍ଡ ପାଇଁ ଭୁଲ ପିନ୍।</item>
+        <item quantity="one">SIM କାର୍ଡ %1$d ପାଇଁ ଭୁଲ ପିନ୍। %2$d ପ୍ରଚେଷ୍ଟା ବାକି ଅଛି। ଯଦି ତାହା ପୁଣି ଭୁଲ ହୁଏ, ଆପଣଙ୍କୁ କ୍ୟାରିଅରକୁ ଡିଭାଇସକୁ ଅନଲକ୍ କରିବାକୁ ଯୋଗାଯୋଗ କରିବା ଆବଶ୍ୟକ।</item>
+    </plurals>
+    <plurals name="kg_password_wrong_puk_code">
+        <item quantity="other">ଭୁଲ୍‌ SIM PUK କୋଡ଼ | %d ପ୍ରୟାସ ଅବଶିଷ୍ଠ ରହିଛି | ଯଦି ଏହା ପୁନର୍ବାର ଭୁଲ୍‌ ହୁଏ ତେବେ SIMs ସ୍ଥାୟୀ ଭାବରେ ଅକ୍ଷମ ହୋଇଯିବ |</item>
+        <item quantity="one">ଭୁଲ୍‌ SIM PUK କୋଡ଼ | %d ପ୍ରୟାସ ଅବଶିଷ୍ଠ ରହିଛି | ଯଦି ଏହା ପୁନର୍ବାର ଭୁଲ୍‌ ହୁଏ ତେବେ SIM ସ୍ଥାୟୀ ଭାବରେ ଅକ୍ଷମ ହୋଇଯିବ |</item>
+    </plurals>
+    <plurals name="kg_prompt_reason_time_password">
+        <item quantity="other">ଡିଭାଇସ୍‍ %d ଘଣ୍ଟା ପାଇଁ ଲକ୍‍ ହୋଇଯାଇଛି। ଦୟାକରି ପାସ୍‌ୱାର୍ଡ୍ ସୁନିଶ୍ଚିତ କରନ୍ତୁ।</item>
+        <item quantity="one">ଡିଭାଇସ୍‍ %d ଘଣ୍ଟା ପାଇଁ ଲକ୍‍ ହୋଇଯାଇଛି। ଦୟାକରି ପାସ୍‌ୱାର୍ଡ୍ ସୁନିଶ୍ଚିତ କରନ୍ତୁ।</item>
+    </plurals>
+    <plurals name="kg_prompt_reason_time_pattern">
+        <item quantity="other">ଡିଭାଇସ୍‍ %d ଘଣ୍ଟା ପାଇଁ ଲକ୍‍ ହୋଇଯାଇଛି | ଦୟାକରି ଅନଲକ୍‍ ପାଟର୍ନ ସୁନିଶ୍ଚିତ କରନ୍ତୁ |</item>
+        <item quantity="one">ଡିଭାଇସ୍‍ %d ଘଣ୍ଟା ପାଇଁ ଲକ୍‍ ହୋଇଯାଇଛି | ଦୟାକରି ଅନଲକ୍‍ ପାଟର୍ନ ସୁନିଶ୍ଚିତ କରନ୍ତୁ |</item>
+    </plurals>
+    <plurals name="kg_prompt_reason_time_pin">
+        <item quantity="other">ଡିଭାଇସ୍‍ %d ଘଣ୍ଟା ପାଇଁ ଲକ୍‍ ହୋଇଯାଇଛି | ଦୟାକରି PIN ସୁନିଶ୍ଚିତ କରନ୍ତୁ |</item>
+        <item quantity="one">ଡିଭାଇସ୍‍ %d ଘଣ୍ଟା ପାଇଁ ଲକ୍‍ ହୋଇଯାଇଛି | ଦୟାକରି PIN ସୁନିଶ୍ଚିତ କରନ୍ତୁ |</item>
+    </plurals>
+    <plurals name="kg_too_many_failed_attempts_countdown">
+        <item quantity="other">%d ସେକେଣ୍ଡ ପରେ ଦୟାକରି ପୁଣି ଚେଷ୍ଟା କରନ୍ତୁ:</item>
+        <item quantity="one">ଏକ: 1 ସେକେଣ୍ଡ ପରେ ଦୟାକରି ପୁଣି ଚେଷ୍ଟା କରନ୍ତୁ।</item>
+    </plurals>
+    <plurals name="notification_group_overflow_description">
+        <item quantity="other">ଏହି ସମୂହରେ ଏବେ ମଧ୍ୟ %s ନୋଟିଫିକେସନ୍‌ ଅଛି .</item>
+        <item quantity="one">ଏହି ସମୂହରେ ଏବେ ମଧ୍ୟ %s ନୋଟିଫିକେସନ୍‌ ଅଛି .</item>
+    </plurals>
+    <plurals name="snoozeHourOptions">
+        <item quantity="other">%d ଘଣ୍ଟା</item>
+        <item quantity="one">%d ଘଣ୍ଟା</item>
+    </plurals>
+    <plurals name="snoozeMinuteOptions">
+        <item quantity="other">%d ମିନିଟ୍</item>
+        <item quantity="one">%d ମିନିଟ୍</item>
+    </plurals>
+</resources>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.preference.PreferenceScreen android:title="@string/print"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.coloros.settings.feature.print.PrintImagePreference />
+    <com.coloros.settings.feature.print.PrintTextPreference android:title="@string/print_description" />
+    <PreferenceCategory android:key="print_services_category" />
+</androidx.preference.PreferenceScreen>

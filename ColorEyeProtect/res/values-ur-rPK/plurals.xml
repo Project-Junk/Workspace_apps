@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="application_manage_status_text">
+        <item quantity="other">%1$d ایپس</item>
+        <item quantity="one">%1$d ایپ</item>
+    </plurals>
+    <plurals name="third_app_status_text">
+        <item quantity="other">‫‏%1$d‬ ایپس آن</item>
+        <item quantity="one">‫‏%1$d‬ ایپ آن</item>
+    </plurals>
+</resources>

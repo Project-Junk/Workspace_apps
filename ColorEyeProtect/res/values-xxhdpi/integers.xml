@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="blur_color_saturation">1</integer>
+    <integer name="blur_down_scale_factors">5</integer>
+    <integer name="blur_radius">25</integer>
+</resources>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="kg_password_default_pin_message_multi_sim">
+        <item quantity="other">Idatzi %1$d. SIM txartelaren PINa. %2$d saiakera geratzen dira.</item>
+        <item quantity="one">Idatzi %1$d. SIM txartelaren PINa. %2$d saiakera geratu dira. Hurrengo saiakera okerra bada, operadorearekin jarri beharko duzu harremanetan, gailua desblokeatzen laguntzeko.</item>
+    </plurals>
+    <plurals name="kg_password_wrong_pin_code_multi_sim">
+        <item quantity="other">%1$d. SIM txartelaren PINa okerra da. %2$d saiakera geratzen dira.</item>
+        <item quantity="one">%1$d. SIM txartelaren PINa okerra da. %2$d saiakera geratu dira. Hurrengo saiakera okerra bada, operadorearekin jarri beharko duzu harremanetan, gailua desblokeatzen laguntzeko.</item>
+    </plurals>
+    <plurals name="kg_prompt_reason_time_password">
+        <item quantity="other">Gailua blokeatu egin da %d orduz. Berretsi pasahitza.</item>
+        <item quantity="one">Gailua blokeatu egin da %d orduz. Berretsi pasahitza.</item>
+    </plurals>
+    <plurals name="kg_too_many_failed_attempts_countdown">
+        <item quantity="other">Saiatu berriro %d segundo eta gero.</item>
+        <item quantity="one">Saiatu berriro 1 segundo eta gero.</item>
+    </plurals>
+    <plurals name="snoozeHourOptions">
+        <item quantity="other">%d ordu</item>
+        <item quantity="one">%d ordu</item>
+    </plurals>
+    <plurals name="snoozeMinuteOptions">
+        <item quantity="other">%d minutu</item>
+        <item quantity="one">%d minutu</item>
+    </plurals>
+</resources>

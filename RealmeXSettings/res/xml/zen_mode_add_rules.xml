@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.preference.PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.preference.Preference android:layout="@layout/zen_mode_color_preference_header" android:selectable="false" />
+    <com.color.support.preference.ColorPreferenceCategory app:isFirstCategory="true">
+        <com.color.support.preference.ColorInputPreference android:singleLine="true" android:key="zen_mode_rules_title" app:colorContent="" app:colorHint="@string/zen_mode_title" />
+    </com.color.support.preference.ColorPreferenceCategory>
+    <com.color.support.preference.ColorPreferenceCategory>
+        <com.coloros.settings.feature.zenmode.OppoScheduleTimePreference android:key="schedule_time_settings" />
+        <com.color.support.preference.ColorMultiSelectListPreference android:persistent="true" android:title="@string/zen_mode_repeat" android:key="days" />
+    </com.color.support.preference.ColorPreferenceCategory>
+</androidx.preference.PreferenceScreen>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.systemui.statusbar.NotificationShelf android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="@dimen/notification_shelf_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.android.systemui.statusbar.notification.row.NotificationBackgroundView android:id="@id/backgroundNormal" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <com.android.systemui.statusbar.notification.row.NotificationBackgroundView android:id="@id/backgroundDimmed" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <com.android.systemui.statusbar.phone.NotificationIconContainer android:gravity="center_vertical" android:id="@id/content" android:layout_width="fill_parent" android:layout_height="fill_parent" android:paddingStart="@dimen/shelf_icon_container_padding" android:paddingEnd="@dimen/shelf_icon_container_padding" />
+    <com.android.systemui.statusbar.notification.FakeShadowView android:id="@id/fake_shadow" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <RelativeLayout android:layout_gravity="start|center" android:id="@id/rl_shelf_stow_content" android:clickable="true" android:layout_width="wrap_content" android:layout_height="fill_parent">
+        <ImageView android:id="@id/iv_more_icon" android:layout_width="12.0dip" android:layout_height="12.0dip" android:src="@drawable/ic_notification_more" android:layout_centerVertical="true" android:layout_marginEnd="4.0dip" android:layout_alignParentStart="true" />
+        <ImageView android:id="@id/ib_show_stow" android:clickable="false" android:layout_width="14.0dip" android:layout_height="14.0dip" android:src="@drawable/ic_notification_show_stow" android:layout_centerVertical="true" android:layout_toEndOf="@id/iv_more_icon" />
+    </RelativeLayout>
+    <com.android.systemui.statusbar.notification.row.FooterViewButton android:textSize="@dimen/notification_footer_dismiss_text_size" android:textColor="@color/notification_action_button_text_color_selector" android:layout_gravity="end" android:id="@id/shelf_dismiss_text" android:paddingTop="0.0dip" android:paddingBottom="0.0dip" android:focusable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/clear_all_notifications_text" android:contentDescription="@string/accessibility_clear_all" android:layout_marginEnd="4.0dip" style="@android:style/Widget.Material.Button.Borderless" />
+</com.android.systemui.statusbar.NotificationShelf>

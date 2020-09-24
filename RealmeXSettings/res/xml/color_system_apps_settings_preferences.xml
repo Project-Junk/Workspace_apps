@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/core_app_settings"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto">
+    <com.coloros.settings.widget.preference.SettingsColorPreferenceCategory android:key="core_app_settings_category" settings:isFirstCategory="true" />
+</PreferenceScreen>

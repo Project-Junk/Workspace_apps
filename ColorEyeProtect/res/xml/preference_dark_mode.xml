@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.preference.PreferenceScreen android:title="@string/dark_mode"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:oppo="http://schemas.android.com/apk/res-auto">
+    <androidx.preference.Preference android:layout="@layout/color_preference_header" android:selectable="false" />
+    <androidx.preference.Preference android:layout="@layout/preference_preview" android:selectable="false" />
+    <androidx.preference.Preference android:layout="@layout/color_preference_bottom_devider" android:selectable="false" />
+    <com.color.support.preference.ColorSwitchPreference android:persistent="false" android:title="@string/enable_immediately" android:key="@string/preference_key_enable_immediately_switch" android:defaultValue="true" />
+    <com.color.support.preference.ColorSwitchPreference android:persistent="false" android:title="@string/darkmode_enable_from_sunset_to_sunrise" android:key="@string/preference_key_sunset_to_sunrise_switch" android:defaultValue="true" />
+    <com.color.support.preference.ColorSwitchPreference android:persistent="false" android:title="@string/set_time" android:key="@string/preference_key_set_time_switch" android:defaultValue="true" />
+    <com.color.darkmode.ui.widget.DarkModeSettingTimePreference android:key="@string/preference_key_set_time_picker" oppo:isPreferenceVisible="false" />
+    <androidx.preference.Preference android:layout="@layout/color_preference_bottom_devider" android:selectable="false" />
+    <com.color.darkmode.ui.widget.DarkModeJumpPreference android:key="@string/preference_key_application_manage" />
+    <androidx.preference.Preference android:layout="@layout/color_preference_bottom_devider" android:selectable="false" android:key="@string/preference_key_application_manage_divider" />
+    <androidx.preference.Preference android:layout="@layout/color_preference_darkmode_use_hint" android:selectable="false" android:key="@string/preference_key_darkmode_use_hint" />
+    <androidx.preference.Preference android:layout="@layout/color_preference_footer" android:selectable="false" />
+</androidx.preference.PreferenceScreen>

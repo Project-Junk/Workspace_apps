@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="clock_time_margin_top">0.0dip</dimen>
+    <dimen name="clock_time_text_height">62.5dip</dimen>
+    <dimen name="clock_time_text_size">40.0dip</dimen>
+    <dimen name="dual_clock_time_minutes_margin_top">62.5dip</dimen>
+    <dimen name="horizontal_dual_time_text_height">62.5dip</dimen>
+    <dimen name="horizontal_dual_time_text_size">40.0dip</dimen>
+    <dimen name="horizontal_single_clock_text_height">62.5dip</dimen>
+    <dimen name="horizontal_single_time_text_size">40.0dip</dimen>
+    <dimen name="qs_color_clock_min_height">71.0dip</dimen>
+    <dimen name="qs_color_clock_text_size">36.0sp</dimen>
+</resources>

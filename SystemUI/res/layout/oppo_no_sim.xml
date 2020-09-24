@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.coloros.systemui.statusbar.widget.NoSimView android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/sim1_nosim" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <ImageView android:id="@id/sim_number_1" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <ImageView android:id="@id/no_sim_1" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </FrameLayout>
+    <FrameLayout android:id="@id/sim2_nosim" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <ImageView android:id="@id/sim_number_2" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <ImageView android:id="@id/no_sim_2" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </FrameLayout>
+</com.coloros.systemui.statusbar.widget.NoSimView>

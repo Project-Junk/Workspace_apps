@@ -1,0 +1,91 @@
+.class public Lcom/color/compat/libcore/io/IoUtilsNative;
+.super Ljava/lang/Object;
+
+
+# static fields
+.field private static final TAG:Ljava/lang/String; = "IoUtilsNative"
+
+
+# direct methods
+.method private constructor <init>()V
+    .locals 0
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    return-void
+.end method
+
+.method public static closeQuietly(Ljava/io/FileDescriptor;)V
+    .locals 1
+
+    :try_start_0
+    invoke-static {p0}, Lcom/color/inner/libcore/io/IoUtilsWrapper;->closeQuietly(Ljava/io/FileDescriptor;)V
+    :try_end_0
+    .catch Ljava/lang/Throwable; {:try_start_0 .. :try_end_0} :catch_0
+
+    goto :goto_0
+
+    :catch_0
+    move-exception p0
+
+    const-string v0, "IoUtilsNative"
+
+    invoke-virtual {p0}, Ljava/lang/Throwable;->toString()Ljava/lang/String;
+
+    move-result-object p0
+
+    invoke-static {v0, p0}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;)I
+
+    :goto_0
+    return-void
+.end method
+
+.method public static closeQuietly(Ljava/lang/AutoCloseable;)V
+    .locals 1
+
+    :try_start_0
+    invoke-static {p0}, Lcom/color/inner/libcore/io/IoUtilsWrapper;->closeQuietly(Ljava/lang/AutoCloseable;)V
+    :try_end_0
+    .catch Ljava/lang/Throwable; {:try_start_0 .. :try_end_0} :catch_0
+
+    goto :goto_0
+
+    :catch_0
+    move-exception p0
+
+    const-string v0, "IoUtilsNative"
+
+    invoke-virtual {p0}, Ljava/lang/Throwable;->toString()Ljava/lang/String;
+
+    move-result-object p0
+
+    invoke-static {v0, p0}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;)I
+
+    :goto_0
+    return-void
+.end method
+
+.method public static closeQuietly(Ljava/net/Socket;)V
+    .locals 1
+
+    :try_start_0
+    invoke-static {p0}, Lcom/color/inner/libcore/io/IoUtilsWrapper;->closeQuietly(Ljava/net/Socket;)V
+    :try_end_0
+    .catch Ljava/lang/Throwable; {:try_start_0 .. :try_end_0} :catch_0
+
+    goto :goto_0
+
+    :catch_0
+    move-exception p0
+
+    const-string v0, "IoUtilsNative"
+
+    invoke-virtual {p0}, Ljava/lang/Throwable;->toString()Ljava/lang/String;
+
+    move-result-object p0
+
+    invoke-static {v0, p0}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;)I
+
+    :goto_0
+    return-void
+.end method

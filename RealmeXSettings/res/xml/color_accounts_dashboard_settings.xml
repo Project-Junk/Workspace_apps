@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.preference.PreferenceScreen android:title="@string/accounts_and_users" settings:keywords="@string/keywords_accounts"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto">
+    <com.coloros.settings.widget.preference.SettingsColorJumpIconPreference android:title="@string/user_settings_title" android:key="user_settings_title" android:order="1" android:fragment="com.android.settings.users.UserSettings" settings:controller="com.coloros.settings.feature.accounts.controller.ColorMultiUserPreferenceController" />
+    <androidx.preference.Preference android:title="@string/emergency_info_title" android:key="emergency_info" android:order="100" settings:allowDividerAbove="true" />
+    <com.coloros.settings.widget.preference.SettingSwitchPreference android:title="@string/auto_sync_account_title" android:key="auto_sync_account_data" android:order="102" settings:allowDividerAbove="true" />
+    <com.coloros.settings.widget.preference.SettingSwitchPreference android:title="@string/account_settings_menu_auto_sync_work" android:key="auto_sync_work_account_data" android:summary="@string/auto_sync_account_summary" android:order="103" />
+    <com.coloros.settings.widget.preference.SettingSwitchPreference android:title="@string/account_settings_menu_auto_sync_personal" android:key="auto_sync_personal_account_data" android:summary="@string/auto_sync_account_summary" android:order="104" />
+    <com.coloros.settings.widget.preference.ColorRestrictedSwitchPreference android:title="@string/user_add_on_lockscreen_menu" android:key="add_users_when_locked" android:order="105" />
+    <com.color.support.preference.ColorPreferenceCategory android:order="106" />
+</androidx.preference.PreferenceScreen>

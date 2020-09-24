@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:paddingTop="6.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:id="@id/oppo_preference" android:background="@drawable/color_group_list_selector_item" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/support_preference_titel_padding_start" android:paddingEnd="@dimen/support_preference_titel_padding_end">
+        <TextView android:id="@android:id/title" android:paddingTop="@dimen/support_preference_text_content_padding_top" android:paddingBottom="@dimen/support_preference_text_content_padding_bottom" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/language_update" android:layout_weight="1.0" android:textAlignment="viewStart" android:layout_marginStart="@dimen/oppo_preference_text_margin_left" style="@style/PreferenceTitle" />
+        <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@android:id/widget_frame" android:clipChildren="false" android:clipToPadding="false" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </LinearLayout>
+    <ImageView android:background="@color/color_preference_category_divider_color" android:layout_width="fill_parent" android:layout_height="@dimen/support_preference_category_layout_divider_height" android:layout_marginTop="14.0dip" android:layout_marginBottom="14.0dip" android:layout_marginStart="@dimen/support_preference_category_layout_divider_margin_start" android:layout_marginEnd="@dimen/support_preference_category_layout_divider_margin_end" android:forceDarkAllowed="false" />
+</LinearLayout>

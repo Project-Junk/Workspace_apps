@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/volume_row_frame" android:tag="row" android:clipChildren="false" android:clipToPadding="false" android:layout_width="@dimen/volume_new_dialog_panel_width" android:layout_height="wrap_content" android:layoutDirection="rtl"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:layout_width="@dimen/volume_new_dialog_panel_width" android:layout_height="wrap_content" android:layoutDirection="rtl">
+        <FrameLayout android:id="@id/volume_row_slider_frame" android:layout_width="fill_parent" android:layout_height="@dimen/volume_new_dialog_slider_height" android:layoutDirection="rtl">
+            <SeekBar android:layout_gravity="center" android:id="@id/volume_row_slider" android:background="@null" android:clickable="true" android:layout_width="@dimen/volume_new_dialog_slider_height" android:layout_height="fill_parent" android:rotation="90.0" android:layoutDirection="rtl" android:paddingStart="12.0dip" android:paddingEnd="12.0dip" style="@style/volumeBar" />
+        </FrameLayout>
+        <com.android.keyguard.AlphaOptimizedImageButton android:layout_gravity="center" android:id="@id/volume_row_icon" android:layout_width="@dimen/volume_new_dialog_row_icon_size" android:layout_height="@dimen/volume_new_dialog_row_icon_size" android:soundEffectsEnabled="false" style="@style/VolumeButtonsTheme" />
+    </LinearLayout>
+</FrameLayout>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/lock_settings_picker_title" android:key="lock_settings_picker"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:key="lock_settings_category">
+        <com.coloros.settings.widget.preference.ColorRestrictedPreference android:persistent="false" android:title="@string/unlock_set_unlock_off_title" android:key="unlock_set_off" />
+        <com.coloros.settings.widget.preference.ColorRestrictedPreference android:persistent="false" android:title="@string/unlock_set_unlock_none_title" android:key="unlock_set_none" />
+        <com.coloros.settings.widget.preference.ColorRestrictedPreference android:persistent="false" android:title="@string/unlock_set_unlock_pattern_title" android:key="unlock_set_pattern" />
+        <com.coloros.settings.widget.preference.ColorRestrictedPreference android:persistent="false" android:title="@string/unlock_set_unlock_pin_title" android:key="unlock_set_pin" />
+        <com.coloros.settings.widget.preference.ColorRestrictedPreference android:persistent="false" android:title="@string/unlock_set_unlock_password_title" android:key="unlock_set_password" />
+        <com.coloros.settings.widget.preference.ColorRestrictedPreference android:persistent="false" android:key="unlock_set_managed" />
+        <com.coloros.settings.widget.preference.ColorRestrictedPreference android:persistent="false" android:title="@string/fingerprint_unlock_skip_fingerprint" android:key="unlock_skip_fingerprint" />
+    </PreferenceCategory>
+</PreferenceScreen>

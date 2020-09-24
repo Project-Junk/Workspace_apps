@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/about_settings" android:key="my_device_info_pref_screen"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto">
+    <com.coloros.settings.widget.preference.SettingsColorPreferenceCategory settings:isFirstCategory="true" />
+    <com.coloros.settings.widget.preference.ColorPhoneNamePreference android:layout="@layout/color_preference" android:title="@string/device_info_phone_name" android:key="phone_name" android:order="1">
+        <intent android:targetPackage="com.android.settings" android:action="android.intent.action.MAIN" android:targetClass="com.coloros.settings.feature.deviceinfo.aboutphone.PhoneNameSettingsActivity" />
+    </com.coloros.settings.widget.preference.ColorPhoneNamePreference>
+    <PreferenceCategory />
+    <com.coloros.settings.widget.preference.SettingColorJumpPreference android:title="@string/device_info_show_model_num" android:selectable="false" android:key="device_model" android:order="2" settings:colorClickStyle="unclick" settings:color_jump_mark="@null" />
+    <com.coloros.settings.widget.preference.SettingColorJumpPreference android:title="@string/device_info_show_ixd_version" android:selectable="false" android:key="coloros_version" android:order="3" settings:colorClickStyle="unclick" settings:color_jump_mark="@null" />
+    <com.coloros.settings.widget.preference.SettingColorJumpPreference android:title="@string/firmware_version" android:key="firmware_version" android:order="4" settings:color_jump_mark="@null" settings:keywords="@string/keywords_android_version" />
+    <com.coloros.settings.widget.preference.SettingColorJumpPreference android:title="@string/device_info_show_CPU" android:selectable="false" android:key="cpu_info" android:order="5" settings:colorClickStyle="unclick" settings:color_jump_mark="@null" />
+    <com.coloros.settings.widget.preference.SettingColorJumpPreference android:title="@string/device_info_show_RAM" android:selectable="false" android:key="ram_info" android:order="6" settings:colorClickStyle="unclick" settings:color_jump_mark="@null" />
+    <com.coloros.settings.widget.preference.SettingColorJumpPreference android:title="@string/device_info_show_ROM" android:selectable="false" android:key="mem_info" android:order="7" settings:colorClickStyle="unclick" settings:color_jump_mark="@null" />
+    <com.coloros.settings.widget.preference.SettingColorJumpPreference android:title="@string/build_number" android:key="build_number" android:order="8" settings:color_jump_mark="@null" settings:color_jump_status1="@string/device_info_default" />
+    <com.coloros.settings.widget.preference.SettingColorJumpPreference android:title="@string/baseband_version" android:selectable="false" android:key="baseband_version" android:order="9" settings:colorClickStyle="unclick" settings:color_jump_mark="@null" settings:color_jump_status1="@string/device_info_default" />
+    <com.coloros.settings.widget.preference.SettingColorJumpPreference android:title="@string/kernel_version" android:selectable="false" android:key="kernel_version" android:order="10" settings:colorClickStyle="unclick" settings:color_jump_mark="@null" settings:color_jump_status1="@string/device_info_default" />
+    <com.coloros.settings.widget.preference.SettingColorJumpPreference android:title="@string/security_patch" android:selectable="false" android:key="security_patch" android:order="11" settings:colorClickStyle="unclick" settings:color_jump_mark="@null" settings:color_jump_status1="@string/device_info_default" />
+    <com.coloros.settings.widget.preference.SettingColorJumpPreference android:title="@string/google_system_update" android:key="module_version" android:order="12" settings:colorClickStyle="unclick" settings:color_jump_mark="@null" settings:color_jump_status1="@string/summary_placeholder" settings:controller="com.coloros.settings.feature.deviceinfo.controller.ColorMainlineModuleVersionPreferenceController" settings:enableCopying="true" />
+    <com.coloros.settings.widget.preference.SettingColorJumpPreference android:title="@string/sim_status_title" android:key="sim_status" android:summary="@string/summary_placeholder" android:order="13" settings:allowDividerAbove="true" settings:keywords="@string/keywords_sim_status">
+        <intent android:targetPackage="com.android.settings" android:targetClass="com.android.settings.deviceinfo.SimStatus" />
+    </com.coloros.settings.widget.preference.SettingColorJumpPreference>
+    <com.coloros.settings.widget.preference.SettingColorJumpPreference android:layout="@layout/color_preference" android:title="@string/device_status" android:key="status_info" android:order="19" android:fragment="com.coloros.settings.feature.deviceinfo.ColorStatusInfoFragment" />
+    <PreferenceCategory android:order="20" />
+    <com.coloros.settings.widget.preference.SettingColorJumpPreference android:title="@string/legal_information" android:key="legal_container" android:order="21" android:fragment="com.android.settings.LegalSettings" settings:allowDividerAbove="true" />
+    <PreferenceScreen android:layout="@layout/color_preference" android:title="@string/regulatory_labels" android:key="regulatory_info" android:order="23">
+        <intent android:action="android.settings.SHOW_REGULATORY_INFO" />
+    </PreferenceScreen>
+    <PreferenceScreen android:title="@string/safety_and_regulatory_info" android:key="safety_info">
+        <intent android:action="android.settings.SHOW_SAFETY_AND_REGULATORY_INFO" />
+    </PreferenceScreen>
+    <PreferenceScreen android:title="@string/device_feedback" android:key="device_feedback" />
+    <Preference android:enabled="false" android:clickable="false" android:layout="@layout/color_preference" android:title="@string/fcc_equipment_id" android:key="fcc_equipment_id" android:summary="@string/device_info_default" />
+    <com.coloros.settings.widget.preference.SettingColorJumpPreference android:title="@string/oppo_authentication_title" android:key="authentication_info" android:order="22" android:fragment="com.coloros.settings.feature.deviceinfo.ColorAuthenticationInfoFragment" />
+    <PreferenceScreen android:title="@string/network_access_license" android:key="network_access_license">
+        <intent android:action="android.settings.NETWORK_ACCESS_LICENCE" />
+    </PreferenceScreen>
+    <com.coloros.settings.widget.preference.SettingColorJumpPreference android:title="@string/e_label" android:key="e_label">
+        <intent android:action="oppo.settings.elable" />
+    </com.coloros.settings.widget.preference.SettingColorJumpPreference>
+    <com.coloros.settings.widget.preference.SettingColorJumpPreference android:title="@string/network_access_license" android:key="regulatory_info_above_coloros_six">
+        <intent android:action="oppo.settings.regulatory" />
+    </com.coloros.settings.widget.preference.SettingColorJumpPreference>
+    <PreferenceCategory android:key="key_divider_for_end" android:order="24" />
+</PreferenceScreen>

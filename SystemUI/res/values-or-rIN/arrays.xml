@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="battery_options">
+        <item>ସର୍ବଦା ପ୍ରତିଶତରେ ପ୍ରଦର୍ଶିତ ହୁଏ</item>
+        <item>ଚାର୍ଜିଂ ସମୟରେ ବ୍ୟାଟେରୀ ପାୱାର୍‌ର ପ୍ରତିଶତ ପ୍ରଦର୍ଶନ କରନ୍ତୁ (ଡିଫଲ୍ଟ)</item>
+        <item>ଏହି ଆଇକନ୍‌ ପ୍ରଦର୍ଶନ କରନ୍ତୁ ନାହିଁ</item>
+    </string-array>
+    <string-array name="clock_options">
+        <item>ଘଣ୍ଟା, ମିନିଟ୍‌ ଏବଂ ସେକେଣ୍ଡ ପ୍ରଦର୍ଶନ କରେ</item>
+        <item>ଘଣ୍ଟା ଏବଂ ମିନିଟ୍‍ ପ୍ରଦର୍ଶନ କରେ(ଡିଫଲ୍ଟ)</item>
+        <item>ଏହି ଆଇକନ୍‌ ପ୍ରଦର୍ଶନ କରନ୍ତୁ ନାହିଁ</item>
+    </string-array>
+    <string-array name="color_lunar_mounth">
+        <item>正月</item>
+        <item>二月</item>
+        <item>三月</item>
+        <item>四月</item>
+        <item>五月</item>
+        <item>六月</item>
+        <item>七月</item>
+        <item>八月</item>
+        <item>九月</item>
+        <item>十月</item>
+        <item>冬月</item>
+        <item>腊月</item>
+    </string-array>
+    <string-array name="color_solor_mounth">
+        <item>ଜାନୁଆରି</item>
+        <item>ଫେବୃଆରି</item>
+        <item>ମାର୍ଚ୍ଚ</item>
+        <item>ଏପ୍ରିଲ୍‌</item>
+        <item>ମ‌ଇ</item>
+        <item>ଜୁନ</item>
+        <item>ଜୁଲାଇ</item>
+        <item>ଅଗଷ୍ଟ</item>
+        <item>ସେପ୍ଟେମ୍ବର</item>
+        <item>ଅକ୍ଟୋବର</item>
+        <item>ନଭେମ୍ବର</item>
+        <item>ଡିସେମ୍ବର</item>
+    </string-array>
+    <string-array name="nav_bar_layouts">
+        <item>ସ୍ୱାଭାବିକ</item>
+        <item>କମ୍ପାକ୍ଟ</item>
+        <item>ବାମରେ ରଖନ୍ତୁ</item>
+        <item>ଡାହାଣରେ ରଖନ୍ତୁ</item>
+    </string-array>
+    <string-array name="oppo_time_picker_ampm">
+        <item>ଏ‌ଏମ୍‌</item>
+        <item>ପିଏମ୍‌</item>
+    </string-array>
+    <string-array name="usb_type_select">
+        <item>କେବଳ ଚାର୍ଜ୍ କରନ୍ତୁ</item>
+        <item>ଫାଇଲଗୁଡ଼ିକର ସ୍ଥାନାନ୍ତର</item>
+        <item>ଫଟୋଗୁଡ଼ିକର ସ୍ଥାନାନ୍ତର</item>
+    </string-array>
+</resources>

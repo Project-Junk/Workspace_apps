@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.coloros.systemui.qs.ColorQSContainerImpl android:id="@id/quick_settings_container" android:background="@color/status_bar_qs_container_bg" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/quick_settings_background" android:background="@color/status_bar_qs_container_bg" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="0.0dip" android:elevation="4.0dip" />
+    <View android:id="@id/quick_settings_status_bar_background" android:background="#ff000000" android:visibility="gone" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="@dimen/quick_qs_offset_height" />
+    <View android:id="@id/quick_settings_gradient_view" android:background="@drawable/qs_bg_gradient" android:visibility="gone" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="126.0dip" android:layout_marginTop="@dimen/quick_qs_offset_height" />
+    <com.android.systemui.qs.QSPanel android:id="@id/quick_settings_panel" android:background="@android:color/transparent" android:focusable="true" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/qs_panel_offset_height" android:layout_marginBottom="@dimen/qs_bottom_height" android:accessibilityTraversalBefore="@android:id/edit" />
+    <include layout="@layout/quick_status_bar_expanded_header" />
+    <include layout="@layout/status_bar_qs_footer_impl" />
+    <include layout="@layout/status_bar_qs_expand_impl" />
+    <include layout="@layout/status_bar_qs_bottom_impl" />
+    <include android:id="@id/qs_detail" layout="@layout/qs_detail" />
+    <include android:id="@id/qs_customize" android:visibility="gone" layout="@layout/qs_customize_panel" />
+</com.coloros.systemui.qs.ColorQSContainerImpl>

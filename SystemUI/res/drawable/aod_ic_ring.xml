@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape android:shape="ring" android:useLevel="false" android:innerRadius="@dimen/aod_signture_ring_innerRadius" android:thickness="@dimen/aod_signture_ring_thickness"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <size android:height="@dimen/aod_signture_ring" android:width="@dimen/aod_signture_ring" />
+    <solid android:color="@color/aod_circle_color" />
+</shape>

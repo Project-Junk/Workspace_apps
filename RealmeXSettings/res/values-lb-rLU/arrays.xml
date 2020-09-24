@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="apn_auth_entries">
+        <item>Keng</item>
+        <item>PAP</item>
+        <item>CHAP</item>
+        <item>PAP oder CHAP</item>
+    </string-array>
+    <string-array name="apn_protocol_entries">
+        <item>IPv4</item>
+        <item>IPv6</item>
+        <item>IPv4/IPv6</item>
+    </string-array>
+    <string-array name="app_install_location_entries">
+        <item>Internen Apparatsspäicher</item>
+        <item>Ewechhuelbar SD-Kaart</item>
+        <item>Loosst de System entscheeden</item>
+    </string-array>
+    <string-array name="app_ops_categories">
+        <item>Standuert</item>
+        <item>Privat</item>
+        <item>SMS</item>
+        <item>Medien</item>
+        <item>Apparat</item>
+    </string-array>
+    <string-array name="authentication_frequency_entries">
+        <item>Ëmmer erfuerderlech</item>
+        <item>No 15 Minutten erfuerderlech</item>
+    </string-array>
+    <string-array name="automatic_storage_management_days">
+        <item>Méi wéi 30 Deeg</item>
+        <item>Méi wéi 60 Deeg</item>
+        <item>Méi wéi 90 Deeg</item>
+    </string-array>
+    <string-array name="bearer_entries">
+        <item>Net spezifizéiert</item>
+        <item>LTE</item>
+        <item>HSPAP</item>
+        <item>HSPA</item>
+        <item>HSUPA</item>
+        <item>HSDPA</item>
+        <item>UMTS</item>
+        <item>EDGE</item>
+        <item>GPRS</item>
+        <item>eHRPD</item>
+        <item>EVDO_B</item>
+        <item>EVDO_A</item>
+        <item>EVDO_0</item>
+        <item>1xRTT</item>
+        <item>IS95B</item>
+        <item>IS95A</item>
+    </string-array>
+    <string-array name="bluetooth_visibility_timeout_entries">
+        <item>2 Minutten</item>
+        <item>5 Minutten</item>
+        <item>1 Stonn</item>
+        <item>Ni oflafen</item>
+    </string-array>
+    <string-array name="captioning_edge_type_selector_titles">
+        <item>Standard</item>
+        <item>Keng</item>
+        <item>Glidderung</item>
+        <item>Projektiounsschiet</item>
+        <item>Héichgestallt</item>
+        <item>Déifgestallt</item>
+    </string-array>
+    <string-array name="captioning_font_size_selector_titles">
+        <item>Butzeg</item>
+        <item>Kleng</item>
+        <item>Normal</item>
+        <item>Grouss</item>
+        <item>Riseg</item>
+    </string-array>
+    <string-array name="captioning_opacity_selector_titles">
+        <item>25 %</item>
+        <item>50 %</item>
+        <item>75 %</item>
+        <item>100%</item>
+    </string-array>
+    <string-array name="captioning_preset_selector_titles">
+        <item>App-Standarde benotzen</item>
+        <item>Wäiss op Schwaarz</item>
+        <item>Schwaarz op Wäiss</item>
+        <item>Giel op Schwaarz</item>
+        <item>Giel op Blo</item>
+        <item>Personaliséiert</item>
+    </string-array>
+    <string-array name="captioning_typeface_selector_titles">
+        <item>Standard</item>
+        <item>Sans-Serif</item>
+        <item>Sans-Serif condensed</item>
+        <item>Sans-Serif Monospace</item>
+        <item>Serif</item>
+        <item>Serif Monospace</item>
+        <item>Casual</item>
+        <item>Kursiv</item>
+        <item>Kleng Groussbuschtawen</item>
+    </string-array>
+    <string-array name="color_picker">
+        <item>Cyan</item>
+        <item>Blo</item>
+        <item>Indigoblo</item>
+        <item>Mof</item>
+        <item>Rosa</item>
+        <item>Rout</item>
+    </string-array>
+    <string-array name="data_usage_data_range">
+        <item>Lescht 30 Deeg</item>
+        <item>Notzungszyklen festleeën …</item>
+    </string-array>
+    <string-array name="default_volume_type">
+        <item>Schelltounvolume</item>
+        <item>Volume vum Medium</item>
+    </string-array>
+    <string-array name="dream_timeout_entries">
+        <item>Ni</item>
+        <item>15 Sekonnen</item>
+        <item>30 Sekonnen</item>
+        <item>1 Minutt</item>
+        <item>2 Minutten</item>
+        <item>5 Minutten</item>
+        <item>10 Minutten</item>
+        <item>30 Minutten</item>
+    </string-array>
+    <string-array name="entries_font_size">
+        <item>Kleng</item>
+        <item>Standard</item>
+        <item>Grouss</item>
+        <item>Maximum</item>
+    </string-array>
+    <string-array name="eq_preset_names">
+        <item>Aus</item>
+        <item>Pop</item>
+        <item>Fiels</item>
+        <item>Land</item>
+        <item>Jazz</item>
+        <item>Klassesch</item>
+        <item>Metall</item>
+        <item>Blues</item>
+        <item>Hip-Hop</item>
+        <item>Dance</item>
+        <item>Electro</item>
+        <item>Personaliséiert</item>
+    </string-array>
+    <string-array name="format_type_entries">
+        <item>FAT32 (Standard)</item>
+        <item>exFAT</item>
+    </string-array>
+    <string-array name="format_type_summarys">
+        <item>Am meeschte benotzten Dateisystemtyp fir mobil Späicherapparater</item>
+        <item>"Verbesserten Dateisystemtyp, ënnerstëtzt eenzel Dateien iwwer 4G, wa mat engem PC verbonnen, musst Dir eventuell fir d'éischt en Dreiwer installéieren"</item>
+    </string-array>
+    <string-array name="incomming_call_type_name">
+        <item>VIP Kontakter</item>
+        <item>Liiblingskontakter</item>
+        <item>All Kontakter</item>
+        <item>All Uriff</item>
+        <item>Keen</item>
+    </string-array>
+    <string-array name="long_press_timeout_selector_titles">
+        <item>Kuerz</item>
+        <item>Mëttel</item>
+        <item>Laang</item>
+    </string-array>
+    <string-array name="notification_prompt_mode_entries">
+        <item>Benoriichtegungssymbol</item>
+        <item>Unzuel vu Benoriichtegungen</item>
+        <item>Keng Opfuerderung</item>
+    </string-array>
+    <string-array name="oppo_app_install_location_entries_removable_sd">
+        <item>Systemspäicher</item>
+        <item>Telefonsspäicher</item>
+        <item>Systemstandard</item>
+    </string-array>
+    <string-array name="oppo_app_install_location_entries_unremovable_sd">
+        <item>Systemplaz</item>
+        <item>Telefonsspäicher</item>
+        <item>Hänkt vum System of</item>
+    </string-array>
+    <string-array name="presskey_backlight_timeout_entries">
+        <item>6 s</item>
+        <item>Ëmmer Un</item>
+        <item>Aus</item>
+    </string-array>
+    <string-array name="privacy_question_list">
+        <item>Wéi heescht ee vun Äre Proffen?</item>
+        <item>Wéi heescht Är Mamm mat Virnumm?</item>
+        <item>Wéi heescht Äre Papp mat Virnumm?</item>
+        <item>Wéi heescht Äre Lycée?</item>
+        <item>Wéi heescht Äre Liiblingsrestaurant?</item>
+    </string-array>
+    <string-array name="proc_stats_memory_states">
+        <item>Normal</item>
+        <item>Moderat</item>
+        <item>Niddereg</item>
+        <item>Kritesch</item>
+    </string-array>
+    <string-array name="ram_states">
+        <item>Normal</item>
+        <item>Moderat</item>
+        <item>Niddereg</item>
+        <item>Ganz niddereg</item>
+        <item>onbekannt</item>
+    </string-array>
+    <string-array name="screen_timeout_entries">
+        <item>15 Sekonnen</item>
+        <item>30 Sekonnen</item>
+        <item>1 Minutt</item>
+        <item>2 Minutten</item>
+        <item>5 Minutten</item>
+        <item>10 Minutten</item>
+        <item>30 Minutten</item>
+    </string-array>
+    <string-array name="security_settings_premium_sms_values">
+        <item>Nofroen</item>
+        <item>Ni erlaben</item>
+        <item>Ëmmer erlaben</item>
+    </string-array>
+    <string-array name="timezone_filters">
+        <item>Amerika</item>
+        <item>Europa</item>
+        <item>Afrika</item>
+        <item>Asien</item>
+        <item>Australien</item>
+        <item>Pazifik</item>
+        <item>Alles</item>
+    </string-array>
+    <string-array name="usage_stats_display_order_types">
+        <item>Notzungszäit</item>
+        <item>"Fir d'lescht benotzt"</item>
+        <item>App-Numm</item>
+    </string-array>
+    <string-array name="vpn_states">
+        <item>Getrennt</item>
+        <item>Gëtt initialiséiert …</item>
+        <item>Gëtt verbonnen …</item>
+        <item>Verbonnen</item>
+        <item>Time-out</item>
+        <item>Net erfollegräich</item>
+    </string-array>
+    <string-array name="vpn_types_long">
+        <item>PPTP-VPN</item>
+        <item>L2TP/IPSec-VPN mat am Viraus gedeelte Schlësselen</item>
+        <item>L2TP/IPSec-VPN mat Zertifikater</item>
+        <item>IPSec-VPN mat am Viraus gedeelte Schlësselen an Xauth-Authentifikatioun</item>
+        <item>IPSec-VPN mat Zertifikater an Xauth-Authentifikatioun</item>
+        <item>IPSec-VPN mat Zertifikater an Hybridauthentifikatioun</item>
+    </string-array>
+    <string-array name="wifi_eap_entries">
+        <item>PEAP</item>
+        <item>TLS</item>
+        <item>TTLS</item>
+        <item>PWD</item>
+    </string-array>
+    <string-array name="wifi_ip_settings">
+        <item>DHCP</item>
+        <item>Statesch</item>
+    </string-array>
+    <string-array name="wifi_p2p_status">
+        <item>Verbonnen</item>
+        <item>Agelueden</item>
+        <item>Net erfollegräich</item>
+        <item>Verfügbar</item>
+        <item>Ausser Reechwäit</item>
+    </string-array>
+    <string-array name="wifi_peap_phase2_entries">
+        <item>Keng</item>
+        <item>MSCHAPV2</item>
+        <item>GTC</item>
+    </string-array>
+    <string-array name="wifi_phase2_entries">
+        <item>Keng</item>
+        <item>PAP</item>
+        <item>MSCHAP</item>
+        <item>MSCHAPV2</item>
+        <item>GTC</item>
+    </string-array>
+    <string-array name="wifi_proxy_settings">
+        <item>Keng</item>
+        <item>Manuell</item>
+        <item>Automatesch Proxykonfiguratioun</item>
+    </string-array>
+</resources>

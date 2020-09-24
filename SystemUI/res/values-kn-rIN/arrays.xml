@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="battery_options">
+        <item>ಪರ್ಸಂಟೇಜ್‌ನಲ್ಲಿ ಯಾವಾಗಲೂ ಪ್ರದರ್ಶಿಸಿ</item>
+        <item>ಚಾರ್ಜ್‌ ಮಾಡುವಾಗ ಬ್ಯಾಟರಿ ಪವರ್‌ನ ಪೆರಚೆನತಗೆ ಅನ್ನು ಪ್ರದರ್ಶಿಸಿಪ್ರದರ್ಶಿಸಿ (ಡೀಫಾಲ್ಟ್)</item>
+        <item>ಈ ಐಕಾನ್ ಅನ್ನು ಪ್ರದರ್ಶಿಸಬೇಡಿ</item>
+    </string-array>
+    <string-array name="clock_options">
+        <item>ಗಂಟೆಗಳು, ನಿಮಿಷಗಳು ಮತ್ತು ಸೆಕೆಂಡುಗಳನ್ನು ಪ್ರದರ್ಶಿಸಿ</item>
+        <item>ಗಂಟೆಗಳು ಮತ್ತು ನಿಮಿಷಗಳನ್ನು ಪ್ರದರ್ಶಿಸಿ (ಡೀಫಾಲ್ಟ್)</item>
+        <item>ಈ ಐಕಾನ್ ಅನ್ನು ಪ್ರದರ್ಶಿಸಬೇಡಿ</item>
+    </string-array>
+    <string-array name="color_lunar_mounth">
+        <item>正月</item>
+        <item>二月</item>
+        <item>三月</item>
+        <item>四月</item>
+        <item>五月</item>
+        <item>六月</item>
+        <item>七月</item>
+        <item>八月</item>
+        <item>九月</item>
+        <item>十月</item>
+        <item>冬月</item>
+        <item>腊月</item>
+    </string-array>
+    <string-array name="color_solor_mounth">
+        <item>ಜನವರಿ</item>
+        <item>ಫೆಬ್ರವರಿ</item>
+        <item>ಮಾರ್ಚ್</item>
+        <item>ಏಪ್ರಿಲ್</item>
+        <item>ಮೇ</item>
+        <item>ಜೂನ್</item>
+        <item>ಜುಲೈ</item>
+        <item>ಆಗಸ್ಟ್</item>
+        <item>ಸೆಪ್ಟೆಂಬರ್</item>
+        <item>ಅಕ್ಟೋಬರ್</item>
+        <item>ನವೆಂಬರ್</item>
+        <item>ಡಿಸೆಂಬರ್</item>
+    </string-array>
+    <string-array name="nav_bar_layouts">
+        <item>ಸಾಮಾನ್ಯ</item>
+        <item>ಕಾಂಪೆಕ್ಟ್</item>
+        <item>ಎಡಕ್ಕೆ ಇಡಿ</item>
+        <item>ಬಲಕ್ಕೆ ಇಡಿ</item>
+    </string-array>
+    <string-array name="oppo_time_picker_ampm">
+        <item>AM</item>
+        <item>PM</item>
+    </string-array>
+    <string-array name="usb_type_select">
+        <item>ಚಾರ್ಜ್ ಮಾತ್ರ</item>
+        <item>ಫೈಲ್‍ಗಳ ವರ್ಗಾವಣೆ</item>
+        <item>ಫೋಟೋಗಳ ವರ್ಗಾವಣೆ</item>
+    </string-array>
+</resources>

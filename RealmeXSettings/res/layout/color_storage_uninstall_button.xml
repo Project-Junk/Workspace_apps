@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Button android:layout_gravity="bottom|center" android:id="@id/btn_uninstall" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="30.0dip" android:layout_marginRight="30.0dip" android:layout_marginBottom="30.0dip" android:minWidth="260.0dip" android:minHeight="44.0dip" android:text="@string/storage_operation_uninstall" android:forceDarkAllowed="false" style="?colorButtonColorfulDefaultStyle"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

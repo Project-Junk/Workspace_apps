@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.coloros.systemui.navbar.GestureUpGuideBarView android:gravity="bottom|center" android:orientation="horizontal" android:id="@id/gesture_guide_bar" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/oppo_navigation_bar_edge1" android:layout_width="@dimen/oppo_gesture_guide_bar_edge" android:layout_height="fill_parent" />
+    <ImageView android:id="@id/oppo_navigation_bar_recent" android:background="@drawable/navbar_gesture_bar_left" android:layout_width="@dimen/oppo_gesture_up_guide_bar_icon_width" android:layout_height="wrap_content" />
+    <View android:id="@id/oppo_navigation_bar_gap1" android:layout_width="@dimen/oppo_gesture_guide_bar_gap" android:layout_height="fill_parent" />
+    <ImageView android:id="@id/oppo_navigation_bar_home" android:background="@drawable/navbar_gesture_bar_middle" android:layout_width="@dimen/oppo_gesture_up_guide_bar_icon_width" android:layout_height="wrap_content" />
+    <View android:id="@id/oppo_navigation_bar_gap2" android:layout_width="@dimen/oppo_gesture_guide_bar_gap" android:layout_height="fill_parent" />
+    <ImageView android:id="@id/oppo_navigation_bar_back" android:background="@drawable/navbar_gesture_bar_right" android:layout_width="@dimen/oppo_gesture_up_guide_bar_icon_width" android:layout_height="wrap_content" />
+    <View android:id="@id/oppo_navigation_bar_edge2" android:layout_width="@dimen/oppo_gesture_guide_bar_edge" android:layout_height="fill_parent" />
+</com.coloros.systemui.navbar.GestureUpGuideBarView>

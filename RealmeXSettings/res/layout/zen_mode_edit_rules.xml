@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout android:id="@id/zen_mode_edit_container" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto">
+    <com.coloros.settings.widget.SettingsColorListView android:id="@id/rules_list" android:background="@drawable/color_list_preference_bg" android:layout_width="fill_parent" android:layout_height="fill_parent" android:listSelector="@android:color/transparent" settings:layout_behavior="@string/follow_color_appbarlayout_behavior" />
+    <com.color.support.widget.navigation.ColorNavigationView android:layout_gravity="bottom" android:id="@id/rules_delete" android:background="@drawable/color_tool_navigation_view_bg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="@dimen/color_bottom_tool_navigation_margin_horizontal" android:layout_marginEnd="@dimen/color_bottom_tool_navigation_margin_horizontal" settings:colorNaviMenu="@menu/oppo_navigation_tool_delete" />
+    <include layout="@layout/color_appbar_layout" />
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

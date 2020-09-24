@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto">
+    <com.coloros.settings.widget.preference.SettingsColorPreferenceCategory android:key="edit_user_info_category" settings:isFirstCategory="true">
+        <com.android.settingslib.widget.LayoutPreference android:layout="@layout/color_user_detail_settings_header" android:key="edit_info" android:order="1" />
+        <com.coloros.settings.widget.preference.SettingsColorInputPreference android:singleLine="true" android:title="@string/user_detail_settings_name" android:key="input_user_name" android:order="5" settings:colorHint="@string/user_input_name" />
+    </com.coloros.settings.widget.preference.SettingsColorPreferenceCategory>
+    <com.coloros.settings.widget.preference.SettingSwitchPreference android:title="@string/user_enable_calling_sms" android:key="enable_calling" android:order="10" />
+    <PreferenceCategory android:key="remove_user_category" android:order="15">
+        <com.coloros.settings.widget.preference.ColorRedRestrictedPreference android:title="@string/user_remove_user" android:key="remove_user" android:order="20" settings:useAdminDisabledSummary="true" settings:userRestriction="no_remove_user" />
+    </PreferenceCategory>
+    <PreferenceCategory android:key="remove_user_divider_category" android:order="16" />
+</PreferenceScreen>

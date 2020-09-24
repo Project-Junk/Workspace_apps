@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/main_layout" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <FrameLayout android:id="@android:id/list_container" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <com.coloros.settings.widget.SettingsColorListView android:scrollbarAlwaysDrawVerticalTrack="true" android:id="@android:id/list" android:paddingTop="@dimen/list_padding_top" android:paddingBottom="@dimen/M5" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:listSelector="@android:color/transparent" android:drawSelectorOnTop="false" android:requiresFadingEdge="none" />
+        </FrameLayout>
+        <com.color.support.widget.ColorButton android:layout_gravity="bottom|center" android:id="@id/preview_btn" android:background="@drawable/color_large_main_button_bg" android:layout_width="220.0dip" android:layout_height="wrap_content" android:layout_marginBottom="16.0dip" android:layout_marginStart="24.0dip" android:layout_marginEnd="24.0dip" style="?colorButtonColorfulDefaultStyle" />
+    </FrameLayout>
+    <include layout="@layout/color_appbar_layout" />
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

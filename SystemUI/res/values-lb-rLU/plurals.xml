@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="kg_password_default_pin_message_multi_sim">
+        <item quantity="other">"Gitt w. e. g. d'PIN fir d'SIM-Kaart an %1$d. %2$d Versich iwwreg."</item>
+        <item quantity="one">"Gitt w. e. g. d'PIN fir d'SIM-Kaart an %1$d. %2$d Versuch iwwreg. Dir musst de Bedreiwer kontaktéieren, fir den Apparat erëm z'entspären, wann en nach eng Kéier falsch ass."</item>
+    </plurals>
+    <plurals name="kg_password_wrong_pin_code_multi_sim">
+        <item quantity="other">Falsch PIN fir SIM-Kaart %1$d. %2$d Versich iwwreg.</item>
+        <item quantity="one">"Falsch PIN fir SIM-Kaart %1$d. %2$d Versuch iwwreg. Dir musst de Bedreiwer kontaktéieren, fir den Apparat erëm z'entspären, wann en nach eng Kéier falsch ass."</item>
+    </plurals>
+    <plurals name="kg_too_many_failed_attempts_countdown">
+        <item quantity="other">Probéiert et w. e. g. erneit no %d Sekonnen.</item>
+        <item quantity="one">Probéiert et w. e. g. erneit no 1 Sekonn.</item>
+    </plurals>
+    <plurals name="snoozeHourOptions">
+        <item quantity="other">%d Stonnen</item>
+        <item quantity="one">%d Stonn</item>
+    </plurals>
+    <plurals name="snoozeMinuteOptions">
+        <item quantity="other">%d Minutten</item>
+        <item quantity="one">%d Minutt</item>
+    </plurals>
+</resources>

@@ -1,0 +1,415 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="accessibility_usage_summary">
+        <item quantity="other">%1$d ແອັບໄດ້ຮັບການເຂົ້າເຖິງອຸປະກອນຂອງທ່ານເຕັມຮູບແບບ</item>
+        <item quantity="one">1 ແອັບໄດ້ຮັບການເຂົ້າເຖິງອຸປະກອນຂອງທ່ານເຕັມຮູບແບບ</item>
+    </plurals>
+    <plurals name="accessibilty_autoclick_preference_subtitle_extremely_short_delay">
+        <item quantity="other">ການເລື່ອນກໍານົດທີ່ສັ້ນຫຼາຍທີ່ສຸດ (%1$d ms)</item>
+        <item quantity="one">ການເລື່ອນກໍານົດທີ່ສັ້ນຫຼາຍທີ່ສຸດ (%1$d ms)</item>
+    </plurals>
+    <plurals name="accessibilty_autoclick_preference_subtitle_long_delay">
+        <item quantity="other">ການເລື່ອນກໍານົດທີ່ດົນ (%1$d ms)</item>
+        <item quantity="one">ການເລື່ອນກໍານົດທີ່ດົນ (%1$d ms)</item>
+    </plurals>
+    <plurals name="accessibilty_autoclick_preference_subtitle_short_delay">
+        <item quantity="other">ການເລື່ອນກໍານົດທີ່ສັ້ນ (%1$d ms)</item>
+        <item quantity="one">ການເລື່ອນກໍານົດທີ່ສັ້ນ (%1$d ms)</item>
+    </plurals>
+    <plurals name="accessibilty_autoclick_preference_subtitle_very_long_delay">
+        <item quantity="other">ການເລື່ອນກໍານົດທີ່ດົນຫຼາຍ (%1$d ms)</item>
+        <item quantity="one">ການເລື່ອນກໍານົດທີ່ດົນຫຼາຍ (%1$d ms)</item>
+    </plurals>
+    <plurals name="accessibilty_autoclick_preference_subtitle_very_short_delay">
+        <item quantity="other">ການເລື່ອນກໍານົດທີ່ສັ້ນຫຼາຍ (%1$d ms)</item>
+        <item quantity="one">ການເລື່ອນກໍານົດທີ່ສັ້ນຫຼາຍ (%1$d ms)</item>
+    </plurals>
+    <plurals name="app_notification_listing_summary_others">
+        <item quantity="other">ປິດສຳລັບ %d ແອັບ</item>
+        <item quantity="one">ປິດສຳລັບ %d ແອັບ</item>
+    </plurals>
+    <plurals name="battery_manager_app_restricted">
+        <item quantity="other">ຈຳກັດແລ້ວ %1$d ແອັບ</item>
+        <item quantity="one">ຈຳກັດແລ້ວ %1$d ແອັບ</item>
+    </plurals>
+    <plurals name="battery_tip_restrict_app_dialog_title">
+        <item quantity="other">ຈຳກັດ %1$d ແອັບບໍ?</item>
+        <item quantity="one">ຈຳກັດແອັບບໍ?</item>
+    </plurals>
+    <plurals name="battery_tip_restrict_handled_summary">
+        <item quantity="other">ແອັບເຫຼົ່ານີ້ບໍ່ສາມາດໃຊ້ງານໃນພື້ນຫຼັງ</item>
+        <item quantity="one">ແອັບນີ້ບໍ່ສາມາດໃຊ້ງານໃນພື້ນຫຼັງ</item>
+    </plurals>
+    <plurals name="battery_tip_restrict_handled_title">
+        <item quantity="other">ຈຳກັດແລ້ວ %2$d ແອັບຖືກຫຼ້າສຸດ</item>
+        <item quantity="one">%1$s ຖືກຈຳກັດຫຼ້າສຸດ</item>
+    </plurals>
+    <plurals name="battery_tip_restrict_summary">
+        <item quantity="other">%2$d ແອັບ​ມີ​ການ​ໃຊ້​ແບັດ​ເຕີ​ຣີ​ໃນ​ພື້ນຫຼັງຫຼາຍ</item>
+        <item quantity="one">%1$s ມີການໃຊ້ແບັດເຕີຣີໃນພື້ນຫຼັງຫຼາຍ</item>
+    </plurals>
+    <plurals name="battery_tip_restrict_title">
+        <item quantity="other">ຈຳກັດ %1$d ແອັບ</item>
+        <item quantity="one">ຈຳກັດ %1$d ແອັບ</item>
+    </plurals>
+    <plurals name="billing_cycle_days_left">
+        <item quantity="other">ຍັງເຫຼືອ %d ມື້</item>
+        <item quantity="one">ຍັງເຫຼືອ %d ມື້</item>
+    </plurals>
+    <plurals name="bugreport_countdown">
+        <item quantity="other">ລະບົບຈະຈັບພາບໜ້າຈໍທີ່ມີການລາຍງານຂໍ້ຜິດພາດເປັນເວລາ %1$d ວິນາທີ.</item>
+        <item quantity="one">ລະບົບຈະຈັບພາບໜ້າຈໍທີ່ມີການລາຍງານຂໍ້ຜິດພາດເປັນເວລາ %1$d ວິນາທີ.</item>
+    </plurals>
+    <plurals name="codebook_saved_account_number">
+        <item quantity="other">ຄູ່ຊື່ຜູ້ໃຊ້ ແລະ ລະຫັດຜ່ານ %d ຄູ່ຈະຖືກບັນທຶກໃສ່ໃນລະຫັດຜ່ານ.</item>
+        <item quantity="one">ຄູ່ຊື່ຜູ້ໃຊ້ ແລະ ລະຫັດຜ່ານ %d ຄູ່ຈະຖືກບັນທຶກໃສ່ໃນລະຫັດຜ່ານ.</item>
+    </plurals>
+    <plurals name="data_saver_unrestricted_summary">
+        <item quantity="other">%1$d ແອັບໄດ້ຮັບອະນຸຍາດໃຫ້ໃຊ້ງານຂໍ້ມູນບໍ່ຈໍາກັດເມື່ອມີການເປີດໃຊ້ຕົວບັນທຶກຂໍ້ມູນ.</item>
+        <item quantity="one">1 ແອັບໄດ້ຮັບອະນຸຍາດໃຫ້ໃຊ້ງານຂໍ້ມູນບໍ່ຈໍາກັດເມື່ອມີການເປີດໃຊ້ຕົວບັນທຶກຂໍ້ມູນ.</item>
+    </plurals>
+    <plurals name="default_camera_app_title">
+        <item quantity="other">ແອັບກ້ອງຖ່າຍຮູບ</item>
+        <item quantity="one">ແອັບກ້ອງຖ່າຍຮູບ</item>
+    </plurals>
+    <plurals name="default_email_app_title">
+        <item quantity="other">ແອັບລູກຂ່າຍອີເມວ</item>
+        <item quantity="one">ແອັບລູກຂ່າຍອີເມວ</item>
+    </plurals>
+    <plurals name="default_phone_app_title">
+        <item quantity="other">ແອັບໂທລະສັບ</item>
+        <item quantity="one">ແອັບໂທລະສັບ</item>
+    </plurals>
+    <plurals name="deleted_channels">
+        <item quantity="other">ລຶບ %d ປະເພດແລ້ວ</item>
+        <item quantity="one">ລຶບ %d ປະເພດແລ້ວ</item>
+    </plurals>
+    <plurals name="dlg_remove_locales_title">
+        <item quantity="other">ລຶບ​ພາສາທີ່ເລືອກອອກ?</item>
+        <item quantity="one">ລຶບ​ພາສາທີ່ເລືອກອອກ?</item>
+    </plurals>
+    <plurals name="domain_urls_apps_summary_on">
+        <item quantity="other">%d ແອັບກຳລັງເປີດລິ້ງເຊື່ອມໂຍງທີ່ຮອງຮັບ</item>
+        <item quantity="one">ໜຶ່ງແອັບກຳລັງເປີດລິ້ງເຊື່ອມໂຍງທີ່ຮອງຮັບ</item>
+    </plurals>
+    <plurals name="enterprise_privacy_number_ca_certs">
+        <item quantity="other">%d ຢ່າງໜ້ອຍໃບຢັ້ງຢືນ CA</item>
+        <item quantity="one">%d ຢ່າງໜ້ອຍໃບຢັ້ງຢືນ CA</item>
+    </plurals>
+    <plurals name="enterprise_privacy_number_failed_password_wipe">
+        <item quantity="other">ພະຍາຍາມ %d ຄັ້ງແລ້ວ</item>
+        <item quantity="one">ພະຍາຍາມ %d ຄັ້ງແລ້ວ</item>
+    </plurals>
+    <plurals name="enterprise_privacy_number_packages">
+        <item quantity="other">%d ແອັບ</item>
+        <item quantity="one">%d ແອັບ</item>
+    </plurals>
+    <plurals name="enterprise_privacy_number_packages_lower_bound">
+        <item quantity="other">ຢ່າງໜ້ອຍ %d ແອັບ</item>
+        <item quantity="one">ຢ່າງໜ້ອຍ %d ແອັບ</item>
+    </plurals>
+    <plurals name="hours">
+        <item quantity="other">%s ຊົ່ວໂມງ</item>
+        <item quantity="one">1 ຊົ່ວໂມງ</item>
+    </plurals>
+    <plurals name="location_app_permission_summary_location_on">
+        <item quantity="other">%1$d ໃນ %2$d ແອັບໄດ້ຮັບການເຂົ້າເຖິງຈຸດທີ່ຕັ້ງ</item>
+        <item quantity="one">%1$d ໃນ %2$d ແອັບໄດ້ຮັບການເຂົ້າເຖິງຈຸດທີ່ຕັ້ງ</item>
+    </plurals>
+    <plurals name="location_settings_summary_location_on">
+        <item quantity="other">ເປີດຢູ່ - %1$d ແອັບໄດ້ຮັບການເຂົ້າເຖິງຈຸດທີ່ຕັ້ງ</item>
+        <item quantity="one">ເປີດຢູ່ - %1$d ແອັບໄດ້ຮັບການເຂົ້າເຖິງຈຸດທີ່ຕັ້ງ</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_letters">
+        <item quantity="other">ຕ້ອງປະກອບມີຕົວອັກສອນຢ່າງໜ້ອຍ %d ຕົວ</item>
+        <item quantity="one">ຕ້ອງປະ​ກອບມີຕົວອັກສອນຢ່າງໜ້ອຍ 1 ຕົວ</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_lowercase">
+        <item quantity="other">ຕ້ອງປະກອບມີຕົວພິມນ້ອຍຢ່າງໜ້ອຍ %d ຕົວ</item>
+        <item quantity="one">ຕ້ອງປະກອບມີຕົວພິມນ້ອຍຢ່າງໜ້ອຍ 1 ຕົວ</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_nonletter">
+        <item quantity="other">ຕ້ອງປະກອບມີຕົວອັກຂະລະທີ່ບໍ່ແມ່ນຕົວອັກສອນຢ່າງໜ້ອຍ %d ຕົວ</item>
+        <item quantity="one">ຕ້ອງປະກອບມີຕົວອັກຂະລະທີ່ບໍ່ແມ່ນຕົວອັກສອນຢ່າງໜ້ອຍ 1 ຕົວ</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_numeric">
+        <item quantity="other">ຕ້ອງປະກອບມີຕົວເລກຢ່າງໜ້ອຍ %d ຕົວ</item>
+        <item quantity="one">ຕ້ອງປະກອບມີຕົວເລກຢ່າງໜ້ອຍ 1 ຕົວ</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_symbols">
+        <item quantity="other">ຕ້ອງປະກອບມີສັນຍາລັກຢ່າງໜ້ອຍ %d ອັນ</item>
+        <item quantity="one">ຕ້ອງປະກອບມີສັນຍາລັກຢ່າງໜ້ອຍ 1 ອັນ</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_uppercase">
+        <item quantity="other">ຕ້ອງປະກອບມີຕົວພິມໃຫຍ່ຢ່າງໜ້ອຍ %d ຕົວ</item>
+        <item quantity="one">ຕ້ອງປະກອບມີຕົວພິມໃຫຍ່ຢ່າງໜ້ອຍ 1 ຕົວ</item>
+    </plurals>
+    <plurals name="lockpassword_password_too_long">
+        <item quantity="other">ຕ້ອງມີອັກຂະລະໜ້ອຍກວ່າ %d ຕົວ</item>
+        <item quantity="one">ຕ້ອງມີອັກຂະລະໜ້ອຍກວ່າ %d ຕົວ</item>
+    </plurals>
+    <plurals name="lockpassword_password_too_short">
+        <item quantity="other">ຕ້ອງມີຕົວອັກຂະລະຢ່າງໜ້ອຍ %d ຕົວ</item>
+        <item quantity="one">ຕ້ອງປະ​ກອບມີຕົວອັກຂະລະຢ່າງໜ້ອຍ %d ຕົວ</item>
+    </plurals>
+    <plurals name="lockpassword_pin_too_long">
+        <item quantity="other">ຕ້ອງມີຕົວເລກໜ້ອຍກວ່າ %d ຕົວ</item>
+        <item quantity="one">ຕ້ອງມີຕົວເລກໜ້ອຍກວ່າ %d ຕົວ</item>
+    </plurals>
+    <plurals name="lockpassword_pin_too_short">
+        <item quantity="other">PIN ຕ້ອງມີຕົວເລກຢ່າງໜ້ອຍ %d ຕົວ</item>
+        <item quantity="one">PIN ຕ້ອງປະກອບມີຕົວເລກຢ່າງໜ້ອຍ %d ຕົວ</item>
+    </plurals>
+    <plurals name="manage_notification_access_summary_nonzero">
+        <item quantity="other">%d ແອັບສາມາດອ່ານການແຈ້ງເຕືອນ</item>
+        <item quantity="one">%d ແອັບສາມາດອ່ານການແຈ້ງເຕືອນ</item>
+    </plurals>
+    <plurals name="manage_trust_agents_summary_on">
+        <item quantity="other">%d ຕົວແທນທີ່ເຊື່ອຖືກໄດ້ທີ່ໃຊ້ງານຢູ່</item>
+        <item quantity="one">1 ຕົວແທນທີ່ເຊື່ອຖືກໄດ້ທີ່ໃຊ້ງານຢູ່</item>
+    </plurals>
+    <plurals name="memory_usage_apps_summary">
+        <item quantity="other">%1$d ແອັບໃຊ້ຄວາມຈຳໃນ %2$s ຜ່ານມາ</item>
+        <item quantity="one">1 ແອັບໃຊ້ຄວາມຈຳໃນ %2$s ຜ່ານມາ</item>
+    </plurals>
+    <plurals name="minutes">
+        <item quantity="other">%s ນາທີ</item>
+        <item quantity="one">1 ນາທີ</item>
+    </plurals>
+    <plurals name="mobile_network_summary_count">
+        <item quantity="other">%1$d SIM</item>
+        <item quantity="one">%1$d SIM</item>
+    </plurals>
+    <plurals name="network_restrictions_summary">
+        <item quantity="other">%1$d ຂໍ້ຈຳກັດ</item>
+        <item quantity="one">1 ຂໍ້ຈຳກັດ</item>
+    </plurals>
+    <plurals name="notification_few_channel_count_summary">
+        <item quantity="other">%1$d ຊ່ອງທາງການແຈ້ງເຕືອນ.</item>
+        <item quantity="one">%1$d ຊ່ອງທາງການແຈ້ງເຕືອນ.</item>
+    </plurals>
+    <plurals name="notification_group_summary">
+        <item quantity="other">%d ປະເພດ</item>
+        <item quantity="one">%d ປະເພດ</item>
+    </plurals>
+    <plurals name="notification_summary">
+        <item quantity="other">ປິດສຳລັບ %d ແອັບ</item>
+        <item quantity="one">ປິດສຳລັບ 1 ແອັບ</item>
+    </plurals>
+    <plurals name="notifications_categories_off">
+        <item quantity="other">ປິດ %d ປະເພດແລ້ວ</item>
+        <item quantity="one">ປິດ %d ປະເພດແລ້ວ</item>
+    </plurals>
+    <plurals name="notifications_sent_daily">
+        <item quantity="other">~%d ການແຈ້ງເຕືອນຕໍ່ມື້</item>
+        <item quantity="one">~%d ການແຈ້ງເຕືອນຕໍ່ມື້</item>
+    </plurals>
+    <plurals name="notifications_sent_weekly">
+        <item quantity="other">~%d ການແຈ້ງເຕືອນຕໍ່ອາທິດ</item>
+        <item quantity="one">~%d ການແຈ້ງເຕືອນຕໍ່ອາທິດ</item>
+    </plurals>
+    <plurals name="number_of_device_admins">
+        <item quantity="other">%d ແອັບທີ່ໃຊ້ງານຢູ່</item>
+        <item quantity="one">%d ແອັບທີ່ໃຊ້ງານຢູ່</item>
+    </plurals>
+    <plurals name="optimizable_count">
+        <item quantity="other">%1$d ລາຍການສາມາດຖືກເພີ່ມປະສິດທິພາບການທໍາງານ</item>
+        <item quantity="one">%1$d ລາຍການສາມາດຖືກເພີ່ມປະສິດທິພາບການທໍາງານ</item>
+    </plurals>
+    <plurals name="permission_bar_chart_label">
+        <item quantity="other">%s ແອັບ</item>
+        <item quantity="one">1 ແອັບ</item>
+    </plurals>
+    <plurals name="permissions_summary">
+        <item quantity="other">%d ການອະນຸຍາດຍອມຮັບແລ້ວ</item>
+        <item quantity="one">%d ການອະນຸຍາດຍອມຮັບແລ້ວ</item>
+    </plurals>
+    <plurals name="power_high_usage_summary">
+        <item quantity="other">%2$d ແອັບກຳລັງທຳງານຜິດປົກກະຕິ</item>
+        <item quantity="one">%1$s ກຳລັງທຳງານຜິດປົກກະຕິ</item>
+    </plurals>
+    <plurals name="power_high_usage_title">
+        <item quantity="other">ແອັບກຳລັງຈະໃຊ້ແບັດເຕີຣີໝົດ</item>
+        <item quantity="one">%1$s ກຳລັງຈະໃຊ້ແບັດເຕີຣີໝົດ</item>
+    </plurals>
+    <plurals name="print_jobs_summary">
+        <item quantity="other">%1$d ໜ້າວຽກພິມ</item>
+        <item quantity="one">1 ໜ້າວຽກພິມ</item>
+    </plurals>
+    <plurals name="print_settings_summary">
+        <item quantity="other">%1$d ບໍລິການພິມເປີດຢູ່</item>
+        <item quantity="one">1 ບໍລິການພິມເປີດຢູ່</item>
+    </plurals>
+    <plurals name="restricted_app_summary">
+        <item quantity="other">ກຳລັງຈຳກັດການໃຊ້ແບັດເຕີຣີສຳລັບ %1$d ແອັບ</item>
+        <item quantity="one">ກຳລັງຈຳກັດການໃຊ້ແບັດເຕີຣີສຳລັບ %1$d ແອັບ</item>
+    </plurals>
+    <plurals name="retry_count_ticker">
+        <item quantity="other">ລອງໃໝ່ໃນອີກ %d ວິ</item>
+        <item quantity="one">ລອງໃໝ່ໃນອີກ %d ​ວິ</item>
+    </plurals>
+    <plurals name="runtime_permissions_additional_count">
+        <item quantity="other">%d ການອະນຸຍາດເພີ່ມເຕີມ</item>
+        <item quantity="one">%d ການອະນຸຍາດເພີ່ມເຕີມ</item>
+    </plurals>
+    <plurals name="runtime_permissions_summary">
+        <item quantity="other">%1$d (ຈາກ %2$d) ການອະນຸຍາດຍອມຮັບແລ້ວ</item>
+        <item quantity="one">%1$d (out of %2$d) ການອະນຸຍາດຍອມຮັບແລ້ວ</item>
+    </plurals>
+    <plurals name="seconds">
+        <item quantity="other">%s ​ວິ</item>
+        <item quantity="one">1 ວິ</item>
+    </plurals>
+    <plurals name="security_settings_fingerprint_preference_summary">
+        <item quantity="other">%1$d ລາຍນິ້ວມືປັບຕັ້ງແລ້ວ</item>
+        <item quantity="one">%1$d ລາຍນິ້ວມືປັບຕັ້ງແລ້ວ</item>
+    </plurals>
+    <plurals name="security_summary_apps_security">
+        <item quantity="other">ລັອກແລ້ວ %1$d ແອັບ</item>
+        <item quantity="one">ລັອກແລ້ວ %1$d ແອັບ</item>
+    </plurals>
+    <plurals name="security_summary_float_window">
+        <item quantity="other">ບລັອກ %1$d ຄັ້ງແລ້ວ</item>
+        <item quantity="one">ບລັອກ %1$d ຄັ້ງແລ້ວ</item>
+    </plurals>
+    <plurals name="security_summary_harassment_call">
+        <item quantity="other">%1$d ສາຍໂທ</item>
+        <item quantity="one">%1$d ສາຍໂທ</item>
+    </plurals>
+    <plurals name="security_summary_harassment_sms">
+        <item quantity="other">%1$d ຂໍ້ຄວາມ SMS</item>
+        <item quantity="one">%1$d ຂໍ້ຄວາມ SMS</item>
+    </plurals>
+    <plurals name="security_summary_intelligent_identification_contact">
+        <item quantity="other">ລະບຸ %1$d ໝາຍເລກແລ້ວ</item>
+        <item quantity="one">ລະບຸ %1$d ໝາຍເລກແລ້ວ</item>
+    </plurals>
+    <plurals name="security_summary_payment_protection">
+        <item quantity="other">ການ​ຊຳ​ລະ​ເງິນ %1$d ​ຄັ້ງ​ທີ່​ໄດ້​ຮັບ​ການ​ປົກ​ປ້ອງ</item>
+        <item quantity="one">ການ​ຊຳ​ລະ​ເງິນ %1$d ​ຄັ້ງ​ທີ່​ໄດ້​ຮັບ​ການ​ປົກ​ປ້ອງ</item>
+    </plurals>
+    <plurals name="security_summary_permission_manager">
+        <item quantity="other">ບລັອກ %1$d ຄັ້ງແລ້ວ</item>
+        <item quantity="one">ບລັອກ %1$d ຄັ້ງແລ້ວ</item>
+    </plurals>
+    <plurals name="security_summary_private_info_protect">
+        <item quantity="other">ປົກປ້ອງ %1$d ລາຍການຂອງຂໍ້ມູນສ່ວນບຸກຄົນແລ້ວ</item>
+        <item quantity="one">ປົກປ້ອງ %1$d ລາຍການຂອງຂໍ້ມູນສ່ວນບຸກຄົນແລ້ວ</item>
+    </plurals>
+    <plurals name="security_summary_pseudo_base_station">
+        <item quantity="other">ບລັອກ %1$d ສະຖານີຖານແອບແຝງແລ້ວ</item>
+        <item quantity="one">ບລັອກ %1$d ສະຖານີຖານແອບແຝງແລ້ວ</item>
+    </plurals>
+    <plurals name="settings_optimizable_count">
+        <item quantity="other">%1$d ລາຍການສາມາດຖືກເພີ່ມປະສິດທິພາບການທໍາງານ</item>
+        <item quantity="one">%1$d ລາຍການສາມາດຖືກເພີ່ມປະສິດທິພາບການທໍາງານ</item>
+    </plurals>
+    <plurals name="settings_suggestion_header_summary_hidden_items">
+        <item quantity="other">ສະແດງ %d ລາຍການທີ່ເຊື່ອງ</item>
+        <item quantity="one">ສະແດງ %d ລາຍການທີ່ເຊື່ອງ</item>
+    </plurals>
+    <plurals name="show_bluetooth_devices">
+        <item quantity="other">%1$d ​ອຸ​ປະ​ກອນ​ຖືກ​ເຊື່ອມ​ຕໍ່​ແລ້ວ</item>
+        <item quantity="one">%1$d ​ອຸ​ປະ​ກອນ​ຖືກ​ເຊື່ອມ​ຕໍ່​ແລ້ວ</item>
+    </plurals>
+    <plurals name="show_dev_countdown">
+        <item quantity="other">ຕອນນີ້ທ່ານຢູ່ຫ່າງຈາກການເປັນຜູ້ພັດທະນາ %1$d ບາດກ້າວ.</item>
+        <item quantity="one">ຕອນນີ້ທ່ານຢູ່ຫ່າງຈາກການເປັນຜູ້ພັດທະນາ %1$d ບາດກ້າວ.</item>
+    </plurals>
+    <plurals name="show_number_hearingaid_count">
+        <item quantity="other">%1$d ເຄື່ອງຊ່ວຍຟັງທີ່ບັນທຶກໄວ້</item>
+        <item quantity="one">%1$d ເຄື່ອງຊ່ວຍຟັງທີ່ບັນທຶກໄວ້</item>
+    </plurals>
+    <plurals name="special_access_summary">
+        <item quantity="other">%d ແອັບສາມາດໃຊ້ຂໍ້ມູນທີ່ບໍ່ໄດ້ຈຳກັດ</item>
+        <item quantity="one">1 ແອັບສາມາດໃຊ້ຂໍ້ມູນທີ່ບໍ່ໄດ້ຈຳກັດ</item>
+    </plurals>
+    <plurals name="ssl_ca_cert_dialog_title">
+        <item quantity="other">ເຊື່ອຖື ຫຼືຍ້າຍໃບຢັ້ງຢືນອອກ</item>
+        <item quantity="one">ເຊື່ອຖື ຫຼືຍ້າຍໃບຢັ້ງຢືນອອກ</item>
+    </plurals>
+    <plurals name="ssl_ca_cert_info_message">
+        <item quantity="other">"%s ໄດ້ຕິດຕັ້ງສິດອຳນາດຫຼາຍຢ່າງໃຫ້ແກ່ໃບຢັ້ງຢືນສໍາລັບໂປຣໄຟລບ່ອນເຮັດວຽກຂອງທ່ານ. ສິ່ງເຫຼົ່ານີ້ສາມາດນໍາໃຊ້ເຂົ້າໃນການຕິດຕາມກິດຈະກໍາເຄືອຂ່າຍຂອງທ່ານ (ລວມເຖິງການໃຊ້ອີເມວ, ແອັບ, ແລະເວັບໄຊທ໌ທີ່ເຊື່ອຖືໄດ້) ໃນຂະນະທີ່ທ່ານເຮັດວຽກ.
+
+ສໍາລັບລາຍລະອຽດເພີ່ມເຕີມກ່ຽວກັບໃບຢັ້ງຢືນເຫຼົ່ານີ້, ກະລຸນາຕິດຕໍ່ຫາຜູ້ດູແລລະບົບຂອງທ່ານ."</item>
+        <item quantity="one">"%s ໄດ້ຕິດຕັ້ງສິດອຳນາດດຽວໃຫ້ແກ່ໃບຢັ້ງຢືນສໍາລັບໂປຣໄຟລບ່ອນເຮັດວຽກຂອງທ່ານ. ສິ່ງນີ້ສາມາດນໍາໃຊ້ເຂົ້າໃນການຕິດຕາມກິດຈະກໍາເຄືອຂ່າຍຂອງທ່ານ (ລວມເຖິງການໃຊ້ອີເມວ, ແອັບ, ແລະເວັບໄຊທ໌ທີ່ເຊື່ອຖືໄດ້) ໃນຂະນະທີ່ທ່ານເຮັດວຽກ.
+
+ສໍາລັບລາຍລະອຽດເພີ່ມເຕີມກ່ຽວກັບໃບຢັ້ງຢືນນີ້, ກະລຸນາຕິດຕໍ່ຫາຜູ້ດູແລລະບົບຂອງທ່ານ."</item>
+    </plurals>
+    <plurals name="ssl_ca_cert_info_message_device_owner">
+        <item quantity="other">"%s ໄດ້ຕິດຕັ້ງສິດອຳນາດຫຼາຍຢ່າງໃຫ້ແກ່ໃບຢັ້ງຢືນເທິງອຸປະກອນຂອງທ່ານ. ສິ່ງເຫຼົ່ານີ້ສາມາດນໍາໃຊ້ເຂົ້າໃນການຕິດຕາມກິດຈະກໍາເຄືອຂ່າຍຂອງອຸປະກອນທ່ານ (ລວມເຖິງການໃຊ້ອີເມວ, ແອັບ, ແລະເວັບໄຊທ໌ທີ່ເຊື່ອຖືໄດ້).
+
+ສໍາລັບລາຍລະອຽດເພີ່ມເຕີມກ່ຽວກັບໃບຢັ້ງຢືນເຫຼົ່ານີ້, ກະລຸນາຕິດຕໍ່ຫາຜູ້ດູແລລະບົບຂອງທ່ານ."</item>
+        <item quantity="one">"%s ໄດ້ຕິດຕັ້ງສິດອຳນາດດຽວໃຫ້ແກ່ໃບຢັ້ງຢືນເທິງອຸປະກອນຂອງທ່ານ. ສິ່ງນີ້ສາມາດນໍາໃຊ້ເຂົ້າໃນການຕິດຕາມກິດຈະກໍາເຄືອຂ່າຍຂອງອຸປະກອນທ່ານ (ລວມເຖິງການໃຊ້ອີເມວ, ແອັບ, ແລະເວັບໄຊທ໌ທີ່ເຊື່ອຖືໄດ້).
+
+ສໍາລັບລາຍລະອຽດເພີ່ມເຕີມກ່ຽວກັບໃບຢັ້ງຢືນນີ້, ກະລຸນາຕິດຕໍ່ຫາຜູ້ດູແລລະບົບຂອງທ່ານ."</item>
+    </plurals>
+    <plurals name="ssl_ca_cert_settings_button">
+        <item quantity="other">ກວດເບິ່ງໃບຢັ້ງຢືນ</item>
+        <item quantity="one">ກວດເບິ່ງໃບຢັ້ງຢືນ</item>
+    </plurals>
+    <plurals name="suggestions_collapsed_summary">
+        <item quantity="other">+​%1$d ຄຳແນະນຳ</item>
+        <item quantity="one">+1 ຄຳແນະນຳ</item>
+    </plurals>
+    <plurals name="suggestions_collapsed_title">
+        <item quantity="other">%1$d ຄຳແນະນຳ</item>
+        <item quantity="one">1 ຄຳແນະນຳ</item>
+    </plurals>
+    <plurals name="uri_permissions_text">
+        <item quantity="other">%d ລາຍການ</item>
+        <item quantity="one">1 ລາຍການ</item>
+    </plurals>
+    <plurals name="wifi_saved_access_points_summary">
+        <item quantity="other">%d ເຄືອຂ່າຍ</item>
+        <item quantity="one">1 ເຄືອຂ່າຍ</item>
+    </plurals>
+    <plurals name="wifi_saved_all_access_points_summary">
+        <item quantity="other">%d ເຄືອຂ່າຍ ແລະ ການສະໝັກໃຊ້</item>
+        <item quantity="one">1 ເຄືອຂ່າຍ ແລະ ການສະໝັກໃຊ້</item>
+    </plurals>
+    <plurals name="wifi_saved_passpoint_access_points_summary">
+        <item quantity="other">%d ການສະໝັກໃຊ້</item>
+        <item quantity="one">1 ການສະໝັກໃຊ້</item>
+    </plurals>
+    <plurals name="wifi_tether_connected_summary">
+        <item quantity="other">%1$d ​ອຸ​ປະ​ກອນ​ຖືກ​ເຊື່ອມ​ຕໍ່​ແລ້ວ</item>
+        <item quantity="one">%1$d ​ອຸ​ປະ​ກອນ​ຖືກ​ເຊື່ອມ​ຕໍ່​ແລ້ວ</item>
+    </plurals>
+    <plurals name="wrong_pin_code">
+        <item quantity="other">ລະຫັດ PIN ຂອງ SIM ບໍ່ຖືກຕ້ອງ, ທ່ານຍັງເຫຼືອຄວາມພະຍາຍາມອີກ %d ຄັ້ງ.</item>
+        <item quantity="one">ລະຫັດ PIN ຂອງ SIM ບໍ່ຖືກຕ້ອງ, ທ່ານຍັງເຫຼືອຄວາມພະຍາຍາມອີກ %d ຄັ້ງ ກ່ອນທີ່ທ່ານຈະຕ້ອງຕິດຕໍ່ຫາຜູ້ໃຫ້ບໍລິການເຄືອຂ່າຍຂອງທ່ານ ເພື່ອປົດລັອກອຸປະກອນຂອງທ່ານ.</item>
+    </plurals>
+    <plurals name="zen_mode_duration_summary_time_hours">
+        <item quantity="other">%d ຊົ່ວໂມງ</item>
+        <item quantity="one">1 ຊົ່ວໂມງ</item>
+    </plurals>
+    <plurals name="zen_mode_rules_new">
+        <item quantity="other">ເລືອກລະບຽບ %1$d ຂໍ້ແລ້ວ</item>
+        <item quantity="one">ເລືອກລະບຽບ %1$d ຂໍ້ແລ້ວ</item>
+    </plurals>
+    <plurals name="zen_mode_settings_summary_on">
+        <item quantity="other">%d ຖືກເປີດໃຊ້ງານ</item>
+        <item quantity="one">1 ຖືກເປີດໃຊ້ງານ</item>
+    </plurals>
+    <plurals name="zen_mode_settings_summary_on_new">
+        <item quantity="other">ມີການໃຊ້ລະບຽບ %d ຂໍ້</item>
+        <item quantity="one">ມີການໃຊ້ລະບຽບ %d ຂໍ້</item>
+    </plurals>
+    <plurals name="zen_mode_sound_summary_summary_off_info">
+        <item quantity="other">%d ກຳນົດເວລາສາມາດເປີດໃຊ້ໂດຍອັດຕະໂນມັດ</item>
+        <item quantity="one">1 ກຳນົດເວລາສາມາດເປີດໃຊ້ໂດຍອັດຕະໂນມັດ</item>
+    </plurals>
+    <plurals name="zen_mode_starred_contacts_summary_additional_contacts">
+        <item quantity="other">ຜູ້ອື່ນໆ %d ຄົນ</item>
+        <item quantity="one">ຜູ້ອື່ນ 1 ຄົນ</item>
+    </plurals>
+    <plurals name="zen_mode_summary_alarms_only_by_hour">
+        <item quantity="other">ປ່ຽນໄປເປັນໂມງປຸກເທົ່ານັ້ນ, ໃຊ້ໄດ້ສໍາລັບ %1$d ຊົ່ວໂມງ (ຈົນກວ່າ %2$s)</item>
+        <item quantity="one">ປ່ຽນໄປເປັນໂມງປຸກເທົ່ານັ້ນ, ໃຊ້ໄດ້ສໍາລັບ 1 ຊົ່ວໂມງ (ຈົນກວ່າ %2$s)</item>
+    </plurals>
+    <plurals name="zen_mode_summary_alarms_only_by_minute">
+        <item quantity="other">ປ່ຽນໄປເປັນໂມງປຸກເທົ່ານັ້ນ, ໃຊ້ໄດ້ສໍາລັບ %1$d ນາທີ (ຈົນກວ່າ %2$s)</item>
+        <item quantity="one">ປ່ຽນໄປເປັນໂມງປຸກເທົ່ານັ້ນ, ໃຊ້ໄດ້ສໍາລັບ 1 ນາທີ (ຈົນກວ່າ %2$s)</item>
+    </plurals>
+</resources>

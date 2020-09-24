@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="usb_type_select">
+        <item>Luchtaigh Amháin</item>
+        <item>Aistrigh Doiciméid</item>
+        <item>Aistrigh Grianghraif</item>
+    </string-array>
+</resources>

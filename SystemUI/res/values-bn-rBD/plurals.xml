@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="kg_password_default_pin_message_multi_sim">
+        <item quantity="other">%1$d SIM কার্ডের PIN লিখুন। %2$d টি প্রচেষ্টা বাকী আছে।</item>
+        <item quantity="one">%1$d SIM কার্ডের PIN লিখুন। %2$d টি প্রচেষ্টা বাকী আছে। আবার ভুল হলে ডিভাইসটি আনলক করার জন্য আপনাকে কেরিয়ারের সাথে যোগাযোগ করতে হবে।</item>
+    </plurals>
+    <plurals name="kg_password_wrong_pin_code">
+        <item quantity="other">ভুল সিম পিন। %d চেষ্টা বাকি।</item>
+        <item quantity="one">ভুল সিম পিন। %d চেষ্টা বাকি। আবার ভুল হলে ডিভাইসটি আনলক করার জন্য আপনাকে পরিষেবা প্রদানকারীর সাথে যোগাযোগ করতে হবে।</item>
+    </plurals>
+    <plurals name="kg_password_wrong_pin_code_multi_sim">
+        <item quantity="other">%1$d SIM কার্ডের ভুল PIN, %2$d টি প্রচেষ্টা বাকী আছে।</item>
+        <item quantity="one">%1$d SIM কার্ডের ভুল PIN, %2$d টি প্রচেষ্টা বাকী আছে। আবার ভুল হলে ডিভাইসটি আনলক করার জন্য আপনাকে কেরিয়ারের সাথে যোগাযোগ করতে হবে।</item>
+    </plurals>
+    <plurals name="kg_password_wrong_puk_code">
+        <item quantity="other">ভুল সিম পাক কোড। %d চেষ্টা বাকি। আবার ভুল হলে সিম স্থায়ীভাবে নিষ্ক্রিয় করা হবে।</item>
+        <item quantity="one">ভুল সিম পাক কোড। %d চেষ্টা বাকি। আবার ভুল হলে সিম স্থায়ীভাবে নিষ্ক্রিয় করা হবে।</item>
+    </plurals>
+    <plurals name="kg_prompt_reason_time_password">
+        <item quantity="other">%d ঘণ্টা ধরে ডিভাইসটি লক হয়ে ছিল৷ অনুগ্রহ করে পাসওয়ার্ড নিশ্চিত করুন</item>
+        <item quantity="one">%d ঘণ্টা ধরে ডিভাইসটি লক হয়ে ছিল৷ অনুগ্রহ করে পাসওয়ার্ড নিশ্চিত করুন</item>
+    </plurals>
+    <plurals name="kg_prompt_reason_time_pattern">
+        <item quantity="other">ডিভাইসটি %d ঘন্টা ধরে লক হয়ে আছে। আনলক প্যাটার্নটি নিশ্চিত করুন।</item>
+        <item quantity="one">ডিভাইসটি %d ঘন্টা ধরে লক হয়ে আছে। আনলক প্যাটার্নটি নিশ্চিত করুন।</item>
+    </plurals>
+    <plurals name="kg_prompt_reason_time_pin">
+        <item quantity="other">ডিভাইসটি %d ঘন্টা ধরে লক হয়ে আছে। পিনটি নিশ্চিত করুন।</item>
+        <item quantity="one">ডিভাইসটি %d ঘন্টা ধরে লক হয়ে আছে। পিন নিশ্চিত করুন।</item>
+    </plurals>
+    <plurals name="kg_too_many_failed_attempts_countdown">
+        <item quantity="other">%d সেকেন্ড পরে আবার চেষ্টা করুন।</item>
+        <item quantity="one">১ সেকেন্ড পরে আবার চেষ্টা করুন।</item>
+    </plurals>
+    <plurals name="notification_group_overflow_description">
+        <item quantity="other">এই গ্রুপেএখনও %s নোটিফিকেশন আছে।</item>
+        <item quantity="one">এখনও এই গ্রুপে %s নোটিফিকেশন আছে।</item>
+    </plurals>
+    <plurals name="snoozeHourOptions">
+        <item quantity="other">%d ঘ</item>
+        <item quantity="one">%d ঘ</item>
+    </plurals>
+    <plurals name="snoozeMinuteOptions">
+        <item quantity="other">%d মি</item>
+        <item quantity="one">%d মি</item>
+    </plurals>
+    <plurals name="wifi_tether_connected_summary">
+        <item quantity="other">%1$d টি ডিভাইস সংযুক্ত হয়েছে</item>
+        <item quantity="one">%1$d টি ডিভাইস সংযুক্ত হয়েছে</item>
+    </plurals>
+</resources>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/aod_clock_horizontal_two_bg" android:layout_width="fill_parent" android:layout_height="150.0dip" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/aod_clock_horizontal_two_container" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="3.0dip" android:layout_below="@id/aod_clock_horizontal_two_bg" android:layout_centerHorizontal="true">
+        <ImageView android:id="@id/aod_clock_horizontal_two_hour_1" android:layout_width="26.0dip" android:layout_height="48.0dip" />
+        <ImageView android:id="@id/aod_clock_horizontal_two_hour_2" android:layout_width="26.0dip" android:layout_height="48.0dip" />
+        <ImageView android:id="@id/aod_horizontal_two_colon" android:layout_width="17.0dip" android:layout_height="48.0dip" />
+        <ImageView android:id="@id/aod_clock_horizontal_two_minute_1" android:layout_width="26.0dip" android:layout_height="48.0dip" />
+        <ImageView android:id="@id/aod_clock_horizontal_two_minute_2" android:layout_width="26.0dip" android:layout_height="48.0dip" />
+    </LinearLayout>
+</RelativeLayout>

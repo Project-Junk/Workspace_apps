@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="application_manage_status_text">
+        <item quantity="other">%1$d एपहरू</item>
+        <item quantity="one">%1$d एप</item>
+    </plurals>
+    <plurals name="third_app_status_text">
+        <item quantity="other">%1$d एपहरू सक्रिय छन्</item>
+        <item quantity="one">%1$d एप सक्रिय छ</item>
+    </plurals>
+</resources>

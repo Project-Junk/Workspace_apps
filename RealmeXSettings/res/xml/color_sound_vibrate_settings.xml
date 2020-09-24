@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/sound_and_vibrator" android:key="sound_settings" settings:keywords="@string/keywords_sounds"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto">
+    <com.coloros.settings.widget.preference.SettingsColorPreferenceCategory android:title="@string/vibrate_title" android:key="scence_mode_category" settings:isFirstCategory="true">
+        <com.coloros.settings.widget.preference.SettingSwitchPreference android:persistent="false" android:title="@string/settings_calling_vibrate_title" android:key="vibrate_when_ringing" android:disableDependentsState="true" />
+        <com.coloros.settings.widget.preference.NoLinearVibrationSwitchPreference android:persistent="false" android:layout="@layout/color_preference" android:title="@string/vibrate_when_silent" android:key="vibrate_when_silent" android:disableDependentsState="true" />
+    </com.coloros.settings.widget.preference.SettingsColorPreferenceCategory>
+    <PreferenceCategory android:key="vibration_intensity_category">
+        <com.coloros.settings.widget.preference.SettingColorJumpPreference android:layout="@layout/color_preference" android:title="@string/string_vibration_intensity" android:key="vibration_intensity" android:fragment="com.coloros.settings.feature.sound.ColorVibrationSettingsFragment" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/string_vibration_intensity" android:key="common_vibration_intensity_category">
+        <com.coloros.settings.widget.preference.ColorCommonVibrationPreference android:selectable="false" android:key="common_vibration_intensity" />
+    </PreferenceCategory>
+    <PreferenceCategory>
+        <com.coloros.settings.widget.preference.NoLinearVibrationSwitchPreference android:persistent="false" android:layout="@layout/color_preference" android:title="@string/volume_silent" android:key="volume_silent" android:disableDependentsState="true" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/volume_regulator" android:key="volume_category">
+        <com.coloros.settings.widget.preference.SettingsVolumeSeekBarPreference android:persistent="false" android:title="@string/media_volume_option_title" android:selectable="false" android:key="media_volume" settings:colorClickStyle="unclick" settings:color_jump_mark="@null" />
+        <com.coloros.settings.widget.preference.SettingsVolumeSeekBarPreference android:persistent="false" android:title="@string/ring_volume_option_title" android:selectable="false" android:key="ring_volume" settings:colorClickStyle="unclick" settings:color_jump_mark="@null" />
+        <com.coloros.settings.widget.preference.SettingsVolumeSeekBarPreference android:persistent="false" android:title="@string/alarm_volume_option_title" android:selectable="false" android:key="alarm_volume" settings:colorClickStyle="unclick" settings:color_jump_mark="@null" />
+    </PreferenceCategory>
+    <PreferenceCategory>
+        <com.coloros.settings.widget.preference.SettingsSingleSelectListPreference android:entries="@array/default_volume_type" android:layout="@layout/color_preference" android:title="@string/default_volume_type" android:key="default_volume_type" android:entryValues="@array/default_volume_type_value" />
+    </PreferenceCategory>
+    <PreferenceCategory android:key="ring_tone_category">
+        <com.coloros.settings.widget.preference.ColorRingtonePreference android:persistent="false" android:title="@string/ringtone_title" android:key="ringtone_sim1" android:ringtoneType="ringtone" android:showSilent="false" settings:colorRingtoneType="ringtone" settings:simSlot="sim1" />
+        <com.coloros.settings.widget.preference.ColorRingtonePreference android:persistent="false" android:title="@string/ringtone_title" android:key="ringtone_sim2" android:ringtoneType="ringtone" android:showSilent="false" settings:colorRingtoneType="ringtone_sim2" settings:simSlot="sim2" />
+        <com.coloros.settings.widget.preference.ColorRingtonePreference android:persistent="false" android:title="@string/oppo_sms_notification_sound_title" android:key="sms_notification_ringtone_1" android:ringtoneType="notification" settings:colorRingtoneType="notification_sms" settings:simSlot="sim1" />
+        <com.coloros.settings.widget.preference.ColorRingtonePreference android:persistent="false" android:title="@string/oppo_sms_notification_sound_title" android:key="sms_notification_ringtone_2" android:ringtoneType="notification" settings:colorRingtoneType="notification_sms_sim2" settings:simSlot="sim2" />
+        <com.coloros.settings.widget.preference.ColorRingtonePreference android:persistent="false" android:title="@string/oppo_calendar_remind_sound_title" android:key="calendar_remind_ringtone" android:ringtoneType="notification" settings:colorRingtoneType="calendar" />
+        <com.coloros.settings.widget.preference.ColorRingtonePreference android:persistent="false" android:title="@string/notification_ringtone_title" android:key="notification_ringtone" android:ringtoneType="notification" settings:colorRingtoneType="notification" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/sound_category_system_title" android:key="sound_feedback_category">
+        <com.coloros.settings.widget.preference.SettingSwitchPreference android:title="@string/oppo_dial_sound_title" android:key="dial_pad_tones" android:defaultValue="true" />
+        <com.coloros.settings.widget.preference.SettingSwitchPreference android:title="@string/touch_sounds_title" android:key="touch_sounds" />
+        <com.coloros.settings.widget.preference.SettingSwitchPreference android:title="@string/lock_sounds_enable_title" android:key="screen_locking_sounds" />
+        <com.coloros.settings.widget.preference.SettingSwitchPreference android:title="@string/haptic_feedback_enable_title" android:key="vibrate_on_touch" android:defaultValue="true" />
+        <com.coloros.settings.widget.preference.SettingSwitchPreference android:title="@string/screen_capture_sound" android:key="screen_capture_sound" android:defaultValue="true" />
+        <com.coloros.settings.widget.preference.SettingSwitchPreference android:layout="@layout/color_preference" android:title="@string/front_finger_sound" android:key="front_finger_sound" android:defaultValue="true" />
+        <com.coloros.settings.widget.preference.SettingSwitchPreference android:layout="@layout/color_preference" android:title="@string/global_delete_sound" android:key="global_delete_sound" android:defaultValue="true" />
+    </PreferenceCategory>
+    <com.android.settings.widget.WorkOnlyCategory android:title="@string/sound_work_settings" android:key="sound_work_settings_section">
+        <SwitchPreference android:title="@string/work_use_personal_sounds_title" android:key="work_use_personal_sounds" android:summary="@string/work_use_personal_sounds_summary" android:disableDependentsState="true" />
+        <com.coloros.settings.widget.preference.ColorRingtonePreference android:persistent="false" android:title="@string/work_ringtone_title" android:key="work_ringtone_sim1" android:dependency="work_use_personal_sounds" android:dialogTitle="@string/work_alarm_ringtone_title" android:ringtoneType="ringtone" settings:colorRingtoneType="ringtone" settings:simSlot="sim1" settings:workRingtone="true" />
+        <com.coloros.settings.widget.preference.ColorRingtonePreference android:persistent="false" android:title="@string/work_ringtone_title" android:key="work_ringtone_sim2" android:dependency="work_use_personal_sounds" android:dialogTitle="@string/work_alarm_ringtone_title" android:ringtoneType="ringtone" settings:colorRingtoneType="ringtone_sim2" settings:simSlot="sim2" settings:workRingtone="true" />
+        <com.coloros.settings.widget.preference.ColorRingtonePreference android:persistent="false" android:title="@string/work_notification_ringtone_title" android:key="work_notification_ringtone" android:dependency="work_use_personal_sounds" android:dialogTitle="@string/work_alarm_ringtone_title" android:ringtoneType="notification" settings:colorRingtoneType="notification" settings:workRingtone="true" />
+        <com.coloros.settings.widget.preference.ColorRingtonePreference android:persistent="false" android:title="@string/work_alarm_ringtone_title" android:key="work_alarm_ringtone" android:dependency="work_use_personal_sounds" android:dialogTitle="@string/work_alarm_ringtone_title" android:ringtoneType="alarm" settings:colorRingtoneType="alarm" settings:workRingtone="true" />
+    </com.android.settings.widget.WorkOnlyCategory>
+    <PreferenceCategory android:title="@string/sound_effect_category" android:key="sound_effect_settings_category">
+        <com.coloros.settings.widget.preference.SettingColorJumpPreference android:title="@string/waves_effect_title" android:key="key_waves">
+            <intent android:targetPackage="com.oppo.maxxaudio" android:action="android.intent.action.MAIN" android:targetClass="com.oppo.maxxaudio.MainActivity" />
+        </com.coloros.settings.widget.preference.SettingColorJumpPreference>
+        <com.coloros.settings.widget.preference.SettingColorJumpPreference android:layout="@layout/color_preference" android:title="@string/oppo_sound_effect_dirac_title" android:key="key_dirac">
+            <intent android:action="com.coloros.partners.dirac.DiracMainActivity" />
+        </com.coloros.settings.widget.preference.SettingColorJumpPreference>
+        <com.coloros.settings.widget.preference.SettingColorJumpPreference android:layout="@layout/color_preference" android:title="@string/dolby_name" android:key="key_dolby">
+            <intent android:action="com.coloros.partners.dolby.DolbyMainActivity" />
+        </com.coloros.settings.widget.preference.SettingColorJumpPreference>
+    </PreferenceCategory>
+    <PreferenceCategory android:key="ktv_loopback_category">
+        <com.coloros.settings.widget.preference.SettingColorJumpPreference android:layout="@layout/color_preference" android:title="@string/sound_settings_default_sound_device_title" android:key="sound_settings_default_sound_device" android:fragment="com.coloros.settings.feature.sound.ColorSoundInputDeviceFragment" settings:showNormalColor="true" />
+        <com.coloros.settings.widget.preference.SettingSwitchPreference android:persistent="false" android:layout="@layout/color_preference" android:title="@string/oppo_ktv_loopback_switch" android:key="ktv_loopback" android:summary="@string/oppo_ktv_loopback_switch_summer" />
+        <com.coloros.settings.widget.preference.SettingColorJumpPreference android:persistent="false" android:layout="@layout/color_preference" android:title="@string/oppo_ktv_loopback_switch" android:key="ktv_loopback_support" android:summary="@string/oppo_ktv_loopback_summary">
+            <intent android:targetPackage="com.coloros.karaoke" android:action="oppo.intent.action.KARAOKE_SETTINGS" />
+        </com.coloros.settings.widget.preference.SettingColorJumpPreference>
+    </PreferenceCategory>
+    <PreferenceCategory android:key="sound_bottom" />
+    <com.coloros.settings.widget.preference.ColorRecommendedPreference android:key="sound_vibrate_bottom_recommended" />
+</PreferenceScreen>

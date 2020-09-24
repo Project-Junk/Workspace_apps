@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.coloros.systemui.keyguard.view.KeyguardGlideTipView android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/keyguard_glide_tip_view" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/keyguard_unlock_tip_text_size" android:textColor="?wallpaperTextColor" android:layout_gravity="center|top" android:id="@id/tip_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/unlockAuthor" />
+    <ImageView android:id="@id/tip_image" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/keyguard_glide_tip_image_margin_top" android:src="@drawable/ic_up_arrow" />
+</com.coloros.systemui.keyguard.view.KeyguardGlideTipView>

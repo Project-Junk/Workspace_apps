@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="50.0dip" android:width="50.0dip" android:viewportWidth="150.0" android:viewportHeight="150.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <path android:fillColor="@color/divider_meun_button_press_background_color" android:pathData="M75,75m-75,0a75,75 0,1 1,150 0a75,75 0,1 1,-150 0" android:strokeColor="#00000000" android:strokeWidth="1.0" android:fillType="evenOdd" />
+    <path android:fillColor="@color/divider_meun_button_path_color" android:pathData="M65.107,56.529L55.8,66.524L53,63.716L63.98,51.925C64.53,51.334 65.288,51 66.08,51C67.693,51 69,52.357 69,54.031L69,99L65.107,99L65.107,56.529ZM85.893,93.471L95.2,83.476L98,86.284L87.02,98.075C86.47,98.666 85.712,99 84.92,99C83.307,99 82,97.643 82,95.969L82,51L85.893,51L85.893,93.471Z" android:strokeColor="#00000000" android:strokeWidth="1.0" android:fillType="nonZero" />
+</vector>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="8.0">
+        <ImageView android:id="@id/empty_iv" android:layout_width="@dimen/empty_content_img_width" android:layout_height="@dimen/empty_content_img_height" android:src="@drawable/file_empty" android:layout_centerInParent="true" />
+        <TextView android:textSize="16.0sp" android:gravity="center" android:id="@id/emptybottle" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/empty_file" android:layout_below="@id/empty_iv" android:layout_centerInParent="true" android:alpha="0.2" style="@style/Widget.ColorSupport.ColorNoContentStyle" />
+    </RelativeLayout>
+    <TextView android:textSize="12.0sp" android:textColor="@color/black_55_percent" android:gravity="bottom|center" android:id="@id/empty_bottom_tip" android:paddingBottom="30.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/show_30d_recently_files" android:layout_weight="1.0" />
+</LinearLayout>

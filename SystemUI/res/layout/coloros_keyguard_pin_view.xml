@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.coloros.systemui.keyguard.security.view.ColorKeyguardPINView android:theme="@style/Theme.ColorSupport" android:id="@id/coloros_keyguard_pin_view" android:paddingTop="@dimen/kgd_security_padding_top" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/coloros_keyguard_security_message_area" />
+    <com.color.support.widget.ColorSimpleLock android:id="@id/coloros_keyguard_simple_lock" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/coloros_keyguard_message_area" android:layout_centerHorizontal="true" style="?simpleLock" />
+    <include layout="@layout/coloros_keyguard_navigation_layout" />
+    <com.color.support.widget.ColorNumericKeyboard android:id="@id/coloros_keyguard_numeric_keyboard" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_above="@id/keyguard_navigation_bar" android:layout_centerHorizontal="true" style="?numericKeyboardStyle" />
+    <include layout="@layout/coloros_keyguard_security_bridge_view" />
+</com.coloros.systemui.keyguard.security.view.ColorKeyguardPINView>

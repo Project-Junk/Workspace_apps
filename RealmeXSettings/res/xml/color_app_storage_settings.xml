@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/storage_use"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto">
+    <com.android.settings.applications.SpacePreference android:layout_height="8.0dip" android:key="storage_space" />
+    <com.coloros.settings.widget.preference.SettingColorJumpPreference android:layout="@layout/color_horizontal_preference" android:title="@string/storage_used" android:selectable="false" android:key="storage_used" android:summary="@string/storage_type_internal" settings:showSummary="true" />
+    <com.android.settingslib.widget.LayoutPreference android:layout="@layout/single_button_panel" android:selectable="false" android:key="change_storage_button" />
+    <com.android.settingslib.widget.LayoutPreference android:layout="@layout/app_data_details_head_view" android:selectable="false" android:key="header_view" />
+    <com.coloros.settings.widget.preference.SettingsColorPreferenceCategory android:key="storage_category" settings:allowDividerAbove="false" settings:allowDividerBelow="false" settings:isFirstCategory="true">
+        <com.android.settings.applications.SpacePreference android:layout_height="24.0dip" />
+        <com.coloros.settings.widget.preference.SettingColorJumpPreference android:layout="@layout/color_horizontal_preference" android:title="@string/total_size_label" android:selectable="false" android:key="total_size" settings:showSummary="true" />
+        <com.coloros.settings.widget.preference.SettingColorJumpPreference android:layout="@layout/color_horizontal_preference" android:title="@string/application_size_label" android:selectable="false" android:key="app_size" settings:showSummary="true" />
+        <com.coloros.settings.widget.preference.SettingColorJumpPreference android:layout="@layout/color_horizontal_preference" android:title="@string/data_size_label" android:selectable="false" android:key="data_size" settings:showSummary="true" />
+        <com.android.settingslib.widget.LayoutPreference android:layout="@layout/color_storage_clear_button" android:selectable="false" android:key="clear_data_button" />
+        <com.android.settings.applications.SpacePreference android:layout_height="24.0dip" />
+        <com.coloros.settings.widget.preference.SettingColorJumpPreference android:layout="@layout/color_horizontal_preference" android:title="@string/cache_size_label" android:selectable="false" android:key="cache_size" settings:showSummary="true" />
+        <com.android.settingslib.widget.LayoutPreference android:layout="@layout/color_storage_clear_button" android:selectable="false" android:key="clear_cache_button" />
+    </com.coloros.settings.widget.preference.SettingsColorPreferenceCategory>
+    <PreferenceCategory android:layout="@layout/headerless_preference_category" android:key="uri_category" settings:allowDividerAbove="false" settings:allowDividerBelow="false">
+        <com.android.settingslib.widget.LayoutPreference android:layout="@layout/single_button_panel" android:selectable="false" android:key="clear_uri_button" />
+    </PreferenceCategory>
+</PreferenceScreen>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/oppo_osie_title"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto">
+    <com.coloros.settings.widget.preference.SettingsColorPreferenceCategory settings:isFirstCategory="true">
+        <com.android.settingslib.widget.LayoutPreference android:layout="@layout/oppo_osie_animation_view" android:key="oppo_osie_animation" />
+        <com.coloros.settings.widget.preference.SettingSwitchPreference android:persistent="false" android:title="@string/oppo_osie_title" android:key="oppo_osie_switch" />
+    </com.coloros.settings.widget.preference.SettingsColorPreferenceCategory>
+    <PreferenceCategory android:key="oppo_osie_apps_category">
+        <com.coloros.settings.widget.preference.SettingColorJumpPreference android:layout="@layout/color_preference" android:title="@string/oppo_osie_apps" android:key="oppo_osie_apps" />
+    </PreferenceCategory>
+    <PreferenceCategory />
+</PreferenceScreen>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="70.0dip" android:paddingStart="@dimen/common_margin" android:paddingEnd="@dimen/common_margin"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/img_icon" android:layout_width="36.0dip" android:layout_height="36.0dip" android:layout_marginTop="17.0dip" />
+    <ImageView android:id="@id/color_jump" android:background="@drawable/color_btn_next" android:focusable="false" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_alignParentEnd="true" />
+    <TextView android:textSize="18.0sp" android:id="@id/tv_app_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="17.0dip" android:maxLines="1" android:layout_marginStart="16.0dip" android:layout_toEndOf="@id/img_icon" style="?android:textAppearanceLarge" />
+    <RelativeLayout android:orientation="horizontal" android:id="@id/ll_contain" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/tv_app_name" android:layout_alignBottom="@id/img_icon" android:layout_toEndOf="@id/img_icon" android:layout_alignStart="@id/tv_app_name">
+        <View android:id="@id/view_bar" android:background="@drawable/oppo_progressbar_progress_full" android:layout_width="0.0dip" android:layout_height="3.0dip" android:layout_centerVertical="true" />
+        <TextView android:textSize="10.0sp" android:gravity="center_vertical" android:id="@id/tv_memory" android:layout_width="60.0dip" android:layout_height="wrap_content" android:layout_toRightOf="@id/view_bar" android:paddingStart="5.0dip" style="?android:textAppearanceSmall" />
+    </RelativeLayout>
+</RelativeLayout>

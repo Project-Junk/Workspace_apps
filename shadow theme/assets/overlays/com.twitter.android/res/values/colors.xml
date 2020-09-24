@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="twitter_blue">@*android:color/holo_red_dark</color>
+    <color name="text_blue">@*android:color/holo_red_dark</color>
+    <color name="twitter_blue_fill_pressed">@*android:color/holo_red_dark</color>
+ <color name="black_opacity_8">@*android:color/holo_red_dark</color>
+    <color name="cardview_light_background">@*android:color/black</color>
+    <color name="ps__white">@*android:color/black</color>
+    <color name="white">@*android:color/black</color>
+    <color name="cardview_dark_background">#ffffffff</color>
+    <color name="deep_gray">@*com.twitter.android:color/white</color>
+    <color name="deep_gray_30">@*com.twitter.android:color/white</color>
+    <color name="deep_gray_50">@*com.twitter.android:color/white</color>
+    <color name="pressed_overlay">@*com.twitter.android:color/white</color>
+    <color name="ps__light_blue">@*com.twitter.android:color/white</color>
+    <color name="ps__light_grey">@*com.twitter.android:color/white</color>
+    <color name="ps__light_grey_20">@*com.twitter.android:color/white</color>
+    <color name="ps__light_grey_30">@*com.twitter.android:color/white</color>
+    <color name="ps__light_grey_40">@*com.twitter.android:color/white</color>
+    <color name="ps__light_grey_50">@*com.twitter.android:color/white</color>
+    <color name="ps__light_grey_60">@*com.twitter.android:color/white</color>
+    <color name="ps__light_grey_90">@*com.twitter.android:color/white</color>
+    <color name="ps__hint_text">@*com.twitter.android:color/white</color>
+    <color name="ps__primary_text">@*com.twitter.android:color/white</color>
+    <color name="ps__text_disabled">@*com.twitter.android:color/white</color>
+    <color name="text_black">@*com.twitter.android:color/white</color>
+    <color name="gray_opacity_30">@*com.twitter.android:color/white</color>
+    <color name="chyron_black">@*com.twitter.android:color/white</color>
+    <color name="video_segment_selected">@*com.twitter.android:color/white</color>
+</resources>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="kg_password_default_pin_message_multi_sim">
+        <item quantity="other">অনুগ্ৰহ কৰি SIM কাৰ্ড %1$d-ৰ বাবে PIN প্ৰৱেশ কৰাওক৷ %2$d টা প্ৰয়াস বাকী আছে৷</item>
+        <item quantity="one">অনুগ্ৰহ কৰি SIM কাৰ্ড %1$d-ৰ বাবে PIN প্ৰৱেশ কৰাওক৷ %2$d টা প্ৰয়াস বাকী আছে৷ এইটো পুনৰ অশুদ্ধ হ’লে ডিভাইচটো আনলক কৰাত সহায় কৰিবলৈ আপুনি বাহকৰ সৈতে যোগাযোগ কৰিব লাগিব৷</item>
+    </plurals>
+    <plurals name="kg_password_wrong_pin_code">
+        <item quantity="other">অশুদ্ধ SIM PIN। %d প্ৰয়াস বাকী আছে।</item>
+        <item quantity="one">"অশুদ্ধ SIM PIN। %d প্ৰয়াস বাকী আছে। যদি ডিভাইচটো পুনৰ অশুদ্ধ হয় তেন্তে এইটো আনলক কৰাত সহায়ৰ অৰ্থে আপুনি কেৰিয়াৰৰ লগত যোগাযোগ কৰাটো প্ৰয়োজনীয় হ'ব।"</item>
+    </plurals>
+    <plurals name="kg_password_wrong_pin_code_multi_sim">
+        <item quantity="other">SIM কাৰ্ড %1$d-ৰ বাবে অশুদ্ধ PIN৷ %2$d টা প্ৰয়াস বাকী আছে৷</item>
+        <item quantity="one">SIM কাৰ্ড %1$d-ৰ বাবে অশুদ্ধ PIN৷ %2$d টা প্ৰয়াস বাকী আছে৷ এইটো পুনৰ অশুদ্ধ হ’লে ডিভাইচটো আনলক কৰাত সহায় কৰিবলৈ আপুনি বাহকৰ সৈতে যোগাযোগ কৰিব লাগিব৷</item>
+    </plurals>
+    <plurals name="kg_password_wrong_puk_code">
+        <item quantity="other">"অশুদ্ধ SIM PUK কোড। %d প্ৰয়াস বাকী আছে। SIMসমূহ স্থায়ীভাবে অক্ষম হ'ব যদিহে এইটো পুনৰ অশুদ্ধ হয়।"</item>
+        <item quantity="one">"অশুদ্ধ SIM PUK কোড। %d প্ৰয়াস বাকী আছে। SIM স্থায়ীভাবে অক্ষম হ'ব যদিহে এইটো পুনৰ অশুদ্ধ হয়।"</item>
+    </plurals>
+    <plurals name="kg_prompt_reason_time_password">
+        <item quantity="other">এই ডিভাইচটো %d ঘণ্টাৰ কাৰণে লক কৰি থৈ দিয়া হৈছিল। অনুগ্ৰহ কৰি পাছৱৰ্ড নিশ্চিত কৰক।</item>
+        <item quantity="one">এই ডিভাইচটো %d ঘণ্টাৰ কাৰণে লক কৰি থৈ দিয়া হৈছিল। অনুগ্ৰহ কৰি পাছৱৰ্ড নিশ্চিত কৰক।</item>
+    </plurals>
+    <plurals name="kg_prompt_reason_time_pattern">
+        <item quantity="other">এই ডিভাইচটো %d ঘণ্টাৰ কাৰণে লক কৰি থৈ দিয়া হৈছিল। অনুগ্ৰহ কৰি আনলক আৰ্হি নিশ্চিত কৰক।</item>
+        <item quantity="one">এই ডিভাইচটো %d ঘণ্টাৰ কাৰণে লক কৰি থৈ দিয়া হৈছিল। অনুগ্ৰহ কৰি আনলক আৰ্হি নিশ্চিত কৰক।</item>
+    </plurals>
+    <plurals name="kg_prompt_reason_time_pin">
+        <item quantity="other">এই ডিভাইচটো %d ঘণ্টাৰ কাৰণে লক কৰি থৈ দিয়া হৈছিল। অনুগ্ৰহ কৰি PIN নিশ্চিত কৰক।</item>
+        <item quantity="one">এই ডিভাইচটো %d ঘণ্টাৰ কাৰণে লক কৰি থৈ দিয়া হৈছিল। অনুগ্ৰহ কৰি PIN নিশ্চিত কৰক।</item>
+    </plurals>
+    <plurals name="kg_too_many_failed_attempts_countdown">
+        <item quantity="other">অনুগ্ৰহ কৰি %d ছেকেণ্ডৰ পিছত পুনঃচেষ্টা কৰক৷</item>
+        <item quantity="one">অনুগ্ৰহ কৰি 1 ছেকেণ্ডৰ পিছত পুনঃচেষ্টা কৰক৷</item>
+    </plurals>
+    <plurals name="notification_group_overflow_description">
+        <item quantity="other">এইটো গোটত এতিয়াও %sটা জাননী আছে।</item>
+        <item quantity="one">এইটো গোটত এতিয়াও %sটা জাননী আছে।</item>
+    </plurals>
+    <plurals name="snoozeHourOptions">
+        <item quantity="other">%d ঘণ্টা</item>
+        <item quantity="one">%d ঘন্টা</item>
+    </plurals>
+    <plurals name="snoozeMinuteOptions">
+        <item quantity="other">%d মিনিট</item>
+        <item quantity="one">%d মিনিট</item>
+    </plurals>
+</resources>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout android:id="@id/privacy_answer_layout" android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:gravity="center_horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent"
+      xmlns:android="http://schemas.android.com/apk/res/android">
+        <color.support.v7.widget.Toolbar android:id="@id/toolbar" android:background="@drawable/color_toolbar_bg" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <TextView android:textAppearance="?android:textAppearanceLarge" android:gravity="center_horizontal" android:id="@id/privacy_answer_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="100.0dip" android:text="@string/privacy_answer_title" android:paddingStart="10.0dip" android:paddingEnd="10.0dip" />
+        <TextView android:textAppearance="?android:textAppearanceMedium" android:gravity="center_horizontal" android:id="@id/question_setting" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="30.0dip" android:layout_marginBottom="21.0dip" android:layout_below="@id/privacy_answer_title" android:paddingStart="10.0dip" android:paddingEnd="10.0dip" />
+        <com.color.support.widget.ColorEditText android:textAppearance="?android:textAppearanceLarge" android:gravity="center_horizontal" android:id="@id/answer" android:paddingTop="@dimen/oppo_list_item_top_padding" android:paddingBottom="@dimen/oppo_list_item_top_padding" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:maxLength="@integer/max_answer_input" android:layout_below="@id/question_setting" android:inputType="text" android:imeOptions="actionDone" android:layout_marginStart="16.0dip" android:layout_marginEnd="16.0dip" />
+    </RelativeLayout>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

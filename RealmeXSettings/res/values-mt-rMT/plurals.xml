@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="accessibilty_autoclick_preference_subtitle_extremely_short_delay">
+        <item quantity="other">Dewmien estremament qasir (%1$d ms)</item>
+        <item quantity="one">Dewmien estremament qasir (%1$d ms)</item>
+    </plurals>
+    <plurals name="accessibilty_autoclick_preference_subtitle_long_delay">
+        <item quantity="other">Dewmien twil (%1$d ms)</item>
+        <item quantity="one">Dewmien twil (%1$d ms)</item>
+    </plurals>
+    <plurals name="accessibilty_autoclick_preference_subtitle_short_delay">
+        <item quantity="other">Dewmien qasir (%1$d ms)</item>
+        <item quantity="one">Dewmien qasir (%1$d ms)</item>
+    </plurals>
+    <plurals name="accessibilty_autoclick_preference_subtitle_very_long_delay">
+        <item quantity="other">Dewmien twil ħafna (%1$d ms)</item>
+        <item quantity="one">Dewmien twil ħafna (%1$d ms)</item>
+    </plurals>
+    <plurals name="accessibilty_autoclick_preference_subtitle_very_short_delay">
+        <item quantity="other">Dewmien qasir ħafna (%1$d ms)</item>
+        <item quantity="one">Dewmien qasir ħafna (%1$d ms)</item>
+    </plurals>
+    <plurals name="bugreport_countdown">
+        <item quantity="other">Is-sistema se tiġbed ritratt tal-iscreen li fih ir-rapport tal-iżball f’%1$d sekondi.</item>
+        <item quantity="one">Is-sistema se tiġbed ritratt tal-iscreen li fih ir-rapport tal-iżball f’%1$d sekonda.</item>
+    </plurals>
+    <plurals name="data_saver_unrestricted_summary">
+        <item quantity="other">%1$d apps għandhom il-permess li jużaw data bla limitu meta d-Data Saver ikun mixgħul.</item>
+        <item quantity="one">App waħda għandha l-permess li tuża data bla limitu meta d-Data Saver ikun mixgħul.</item>
+    </plurals>
+    <plurals name="dlg_remove_locales_title">
+        <item quantity="other">Trid tneħħi l-lingwi magħżula?</item>
+        <item quantity="one">Trid tneħħi l-lingwa magħżula?</item>
+    </plurals>
+    <plurals name="enterprise_privacy_number_ca_certs">
+        <item quantity="other">%d Ċertifikati CA mill-inqas</item>
+        <item quantity="one">%d Ċertifikat CA mill-inqas</item>
+    </plurals>
+    <plurals name="enterprise_privacy_number_failed_password_wipe">
+        <item quantity="other">Ippruvajt %d darbiet</item>
+        <item quantity="one">Ippruvajt %d darba</item>
+    </plurals>
+    <plurals name="enterprise_privacy_number_packages">
+        <item quantity="other">%d apps</item>
+        <item quantity="one">%d app</item>
+    </plurals>
+    <plurals name="enterprise_privacy_number_packages_lower_bound">
+        <item quantity="other">%d apps tal-inqas</item>
+        <item quantity="one">%d app tal-inqas</item>
+    </plurals>
+    <plurals name="hours">
+        <item quantity="other">%s Sigħat</item>
+        <item quantity="one">1 Siegħa</item>
+    </plurals>
+    <plurals name="memory_usage_apps_summary">
+        <item quantity="other">%1$d apps użaw il-memorja fl-aħħar %2$s</item>
+        <item quantity="one">1 app użat il-memorja fl-aħħar %2$s</item>
+    </plurals>
+    <plurals name="minutes">
+        <item quantity="other">%s Minuti</item>
+        <item quantity="one">1 Minuta</item>
+    </plurals>
+    <plurals name="optimizable_count">
+        <item quantity="other">%1$d oġġetti jistgħu jiġu ottimizzati</item>
+        <item quantity="one">%1$d oġġett jistgħu jiġu ottimizzati</item>
+    </plurals>
+    <plurals name="permissions_summary">
+        <item quantity="other">%d permessi mogħtija</item>
+        <item quantity="one">%d permessi mogħtija</item>
+    </plurals>
+    <plurals name="runtime_permissions_additional_count">
+        <item quantity="other">%d permessi addizzjonali</item>
+        <item quantity="one">%d permess addizzjonali</item>
+    </plurals>
+    <plurals name="runtime_permissions_summary">
+        <item quantity="other">%1$d (minn %2$d) permessi mogħtija</item>
+        <item quantity="one">%1$d (minn %2$d) permess mogħti</item>
+    </plurals>
+    <plurals name="seconds">
+        <item quantity="other">%s Sekondi</item>
+        <item quantity="one">1 Sekonda</item>
+    </plurals>
+    <plurals name="security_settings_fingerprint_preference_summary">
+        <item quantity="other">%1$d marki tas-swaba’ kkonfigurati</item>
+        <item quantity="one">%1$d marka tas-swaba’ kkonfigurata</item>
+    </plurals>
+    <plurals name="security_summary_apps_security">
+        <item quantity="other">Encrypted %1$d Apps</item>
+        <item quantity="one">Encrypted %1$d App</item>
+    </plurals>
+    <plurals name="security_summary_float_window">
+        <item quantity="other">Imblukkat %1$d Drabi</item>
+        <item quantity="one">Imblukkat %1$d Darba</item>
+    </plurals>
+    <plurals name="security_summary_harassment_call">
+        <item quantity="other">%1$d Telefonati</item>
+        <item quantity="one">%1$d Telefonata</item>
+    </plurals>
+    <plurals name="security_summary_harassment_sms">
+        <item quantity="other">%1$d Messaġġi SMS</item>
+        <item quantity="one">"%1$d Messaġġ SMS "</item>
+    </plurals>
+    <plurals name="security_summary_intelligent_identification_contact">
+        <item quantity="other">Identifikati %1$d Numri</item>
+        <item quantity="one">Identifikat %1$d Numru</item>
+    </plurals>
+    <plurals name="security_summary_payment_protection">
+        <item quantity="other">Protetti %1$d Operazzjonijiet tal-Pagament</item>
+        <item quantity="one">Protetta %1$d Operazzjoni tal-Pagament</item>
+    </plurals>
+    <plurals name="security_summary_permission_manager">
+        <item quantity="other">Imblukkat %1$d drabi</item>
+        <item quantity="one">Imblukkat %1$d darba</item>
+    </plurals>
+    <plurals name="security_summary_private_info_protect">
+        <item quantity="other">Protetti %1$d Oġġetti</item>
+        <item quantity="one">Protett %1$d Oġġett</item>
+    </plurals>
+    <plurals name="security_summary_pseudo_base_station">
+        <item quantity="other">Imblukkati %1$d Pseudo Base Stations</item>
+        <item quantity="one">Imblukkat %1$d Pseudo Base Station</item>
+    </plurals>
+    <plurals name="settings_optimizable_count">
+        <item quantity="other">%1$d oġġetti jistgħu jiġu ottimizzati</item>
+        <item quantity="one">%1$d oġġett jistgħu jiġu ottimizzati</item>
+    </plurals>
+    <plurals name="settings_suggestion_header_summary_hidden_items">
+        <item quantity="other">Uri %d l-Oġġetti Moħbija</item>
+        <item quantity="one">Uri %d l-Oġġett Moħbi</item>
+    </plurals>
+    <plurals name="ssl_ca_cert_dialog_title">
+        <item quantity="other">Afda jew Neħħi ċ-Ċertifikati</item>
+        <item quantity="one">Afda jew Neħħi ċ-Ċertifikat</item>
+    </plurals>
+    <plurals name="ssl_ca_cert_info_message">
+        <item quantity="other">"%s installa numru ta’ certificate authorities fuq il-profil tax-xogħol tiegħek. Dawn jistgħu jintużaw biex tagħmel monitoraġġ tal-attività tan-network tiegħek (inkluż l-użu tal-email, apps u websites siguri) matul ix-xogħol.
+
+Għal aktar dettalji dwar dawn iċ-ċertifikati, jekk jogħġbok ikkuntattja l-amministratur tiegħek"</item>
+        <item quantity="one">"%s installa certificate authority waħda fuq il-profil tax-xogħol tiegħek. Din tista’ tintuża biex tagħmel monitoraġġ tal-attività tan-network tiegħek (inkluż l-użu tal-email, apps u websites siguri) matul ix-xogħol.
+
+Għal aktar dettalji dwar dan iċ-ċertifikat, jekk jogħġbok ikkuntattja l-amministratur tiegħek."</item>
+    </plurals>
+    <plurals name="ssl_ca_cert_info_message_device_owner">
+        <item quantity="other">"%s installa numru ta’ certificate authorities fuq l-apparat tiegħek. Dawn jistgħu jintużaw biex tagħmel monitoraġġ tal-attività tan-network tal-apparat tiegħek (inkluż l-użu tal-email, apps u websites siguri).
+
+Għal aktar dettalji dwar dawn iċ-ċertifikati, jekk jogħġbok ikkuntattja l-amministratur tiegħek"</item>
+        <item quantity="one">"%s installa certificate authority waħda fuq l-apparat tiegħek. Din tista’ tintuża biex tagħmel monitoraġġ tal-attività tan-network tal-apparat tiegħek (inkluż l-użu tal-email, apps u websites siguri).
+
+Għal aktar dettalji dwar dan iċ-ċertifikat, jekk jogħġbok ikkuntattja l-amministratur tiegħek."</item>
+    </plurals>
+    <plurals name="ssl_ca_cert_settings_button">
+        <item quantity="other">Iċċekkja ċ-Ċertifikati</item>
+        <item quantity="one">Iċċekkja ċ-Ċertifikat</item>
+    </plurals>
+    <plurals name="uri_permissions_text">
+        <item quantity="other">%d oġġetti</item>
+        <item quantity="one">Oġġett wieħed</item>
+    </plurals>
+    <plurals name="zen_mode_summary_alarms_only_by_hour">
+        <item quantity="other">Ibdel f’Allarmi Biss, għal %1$d sigħat (sa %2$s)</item>
+        <item quantity="one">Ibdel f’Allarmi Biss, għal siegħa (sa %2$s)</item>
+    </plurals>
+    <plurals name="zen_mode_summary_alarms_only_by_minute">
+        <item quantity="other">Ibdel f’Allarmi Biss, għal %1$d minuti (sa %2$s)</item>
+        <item quantity="one">Ibdel f’Allarmi Biss, għal minuta (sa %2$s)</item>
+    </plurals>
+</resources>

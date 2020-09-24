@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@android:id/progress" android:top="@dimen/battery_progress_padding_top" android:bottom="@dimen/battery_progress_padding_bottom" android:start="@dimen/battery_progress_padding_start" android:end="@dimen/battery_progress_padding_end">
+        <clip android:gravity="start" android:drawable="@drawable/stat_battery_pb" android:clipOrientation="horizontal" />
+    </item>
+</layer-list>

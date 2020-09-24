@@ -1,0 +1,415 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="accessibility_usage_summary">
+        <item quantity="other">%1$d programos turi visišką prieigą prie jūsų įrenginio</item>
+        <item quantity="one">1 programa turi visišką prieigą prie jūsų įrenginio</item>
+    </plurals>
+    <plurals name="accessibilty_autoclick_preference_subtitle_extremely_short_delay">
+        <item quantity="other">Ypač trumpa delsa (%1$d ms)</item>
+        <item quantity="one">Ypač trumpa delsa (%1$d ms)</item>
+    </plurals>
+    <plurals name="accessibilty_autoclick_preference_subtitle_long_delay">
+        <item quantity="other">Ilga delsa (%1$d ms)</item>
+        <item quantity="one">Ilga delsa (%1$d ms)</item>
+    </plurals>
+    <plurals name="accessibilty_autoclick_preference_subtitle_short_delay">
+        <item quantity="other">Trumpa delsa (%1$d ms)</item>
+        <item quantity="one">Trumpa delsa (%1$d ms)</item>
+    </plurals>
+    <plurals name="accessibilty_autoclick_preference_subtitle_very_long_delay">
+        <item quantity="other">Labai ilga delsa (%1$d ms)</item>
+        <item quantity="one">Labai ilga delsa (%1$d ms)</item>
+    </plurals>
+    <plurals name="accessibilty_autoclick_preference_subtitle_very_short_delay">
+        <item quantity="other">Labai trumpa delsa (%1$d ms)</item>
+        <item quantity="one">Labai trumpa delsa (%1$d ms)</item>
+    </plurals>
+    <plurals name="app_notification_listing_summary_others">
+        <item quantity="other">Išjungta %d programoms</item>
+        <item quantity="one">Išjungta %d programai</item>
+    </plurals>
+    <plurals name="battery_manager_app_restricted">
+        <item quantity="other">%1$d programos apribotos</item>
+        <item quantity="one">%1$d programa apribota</item>
+    </plurals>
+    <plurals name="battery_tip_restrict_app_dialog_title">
+        <item quantity="other">Apriboti %1$d programas?</item>
+        <item quantity="one">Apriboti programą?</item>
+    </plurals>
+    <plurals name="battery_tip_restrict_handled_summary">
+        <item quantity="other">Šios programos negali veikti fone</item>
+        <item quantity="one">Ši programa negali veikti fone</item>
+    </plurals>
+    <plurals name="battery_tip_restrict_handled_title">
+        <item quantity="other">%2$d vėliausiai apribotos programos</item>
+        <item quantity="one">%1$s vėliausiai apribotos</item>
+    </plurals>
+    <plurals name="battery_tip_restrict_summary">
+        <item quantity="other">%2$d programos fone eikvoja daug akumuliatoriaus energijos</item>
+        <item quantity="one">%1$s fone eikvoja daug akumuliatoriaus energijos</item>
+    </plurals>
+    <plurals name="battery_tip_restrict_title">
+        <item quantity="other">Apriboti %1$d programas</item>
+        <item quantity="one">Apriboti %1$d programą</item>
+    </plurals>
+    <plurals name="billing_cycle_days_left">
+        <item quantity="other">Liko %d dienos</item>
+        <item quantity="one">Liko %d diena</item>
+    </plurals>
+    <plurals name="bugreport_countdown">
+        <item quantity="other">Sistema įrašys ekraną su klaidų ataskaita po %1$d sek.</item>
+        <item quantity="one">Sistema įrašys ekraną su klaidų ataskaita po %1$d sek.</item>
+    </plurals>
+    <plurals name="codebook_saved_account_number">
+        <item quantity="other">%d naudotojo vardų ir slaptažodžių junginiai (-ių) išsaugoti (-a) prie slaptažodžių.</item>
+        <item quantity="one">%d naudotojo vardo ir slaptažodžio junginys išsaugotas prie slaptažodžių.</item>
+    </plurals>
+    <plurals name="data_saver_unrestricted_summary">
+        <item quantity="other">%1$d program. leidžiama sunaudoti neribotą duomenų kiekį, kai įjungta duomenų taupymo programa.</item>
+        <item quantity="one">1 programai leidžiama sunaudoti neribotą duomenų kiekį, kai įjungta duomenų taupymo programa.</item>
+    </plurals>
+    <plurals name="default_camera_app_title">
+        <item quantity="other">Fotoaparato programos</item>
+        <item quantity="one">Fotoaparato programa</item>
+    </plurals>
+    <plurals name="default_email_app_title">
+        <item quantity="other">El. pašto kliento programos</item>
+        <item quantity="one">El. pašto kliento programa</item>
+    </plurals>
+    <plurals name="default_phone_app_title">
+        <item quantity="other">Telefono programos</item>
+        <item quantity="one">Telefono programa</item>
+    </plurals>
+    <plurals name="deleted_channels">
+        <item quantity="other">%d kategorijos ištrintos</item>
+        <item quantity="one">%d kategorija ištrinta</item>
+    </plurals>
+    <plurals name="dlg_remove_locales_title">
+        <item quantity="other">Pašalinti pasirinktas kalbas?</item>
+        <item quantity="one">Pašalinti pasirinktą kalbą?</item>
+    </plurals>
+    <plurals name="domain_urls_apps_summary_on">
+        <item quantity="other">%d palaikomas nuorodas atidarančios programos</item>
+        <item quantity="one">Viena palaikomas nuorodas atidaranti programa</item>
+    </plurals>
+    <plurals name="enterprise_privacy_number_ca_certs">
+        <item quantity="other">Bent %d CA sertifikat.</item>
+        <item quantity="one">Bent %d CA sertifikatas</item>
+    </plurals>
+    <plurals name="enterprise_privacy_number_failed_password_wipe">
+        <item quantity="other">Bandyta %d k.</item>
+        <item quantity="one">Bandyta %d k.</item>
+    </plurals>
+    <plurals name="enterprise_privacy_number_packages">
+        <item quantity="other">%d program.</item>
+        <item quantity="one">%d programa</item>
+    </plurals>
+    <plurals name="enterprise_privacy_number_packages_lower_bound">
+        <item quantity="other">Bent %d program.</item>
+        <item quantity="one">Bent %d programa</item>
+    </plurals>
+    <plurals name="hours">
+        <item quantity="other">%s val.</item>
+        <item quantity="one">1 val.</item>
+    </plurals>
+    <plurals name="location_app_permission_summary_location_on">
+        <item quantity="other">%1$d iš %2$d programų turi prieigą prie vietos</item>
+        <item quantity="one">%1$d iš %2$d programų turi prieigą prie vietos</item>
+    </plurals>
+    <plurals name="location_settings_summary_location_on">
+        <item quantity="other">Įjungta – %1$d programos turi prieigą prie vietos</item>
+        <item quantity="one">Įjungta – %1$d programa turi prieigą prie vietos</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_letters">
+        <item quantity="other">Turi būti bent %d raidės</item>
+        <item quantity="one">Turi būti bent 1 raidė</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_lowercase">
+        <item quantity="other">Turi būti mažiausiai %d mažosios raidės</item>
+        <item quantity="one">Turi būti bent 1 mažoji raidė</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_nonletter">
+        <item quantity="other">Turi būti bent %d neraidiniai simboliai</item>
+        <item quantity="one">Turi būti bent 1 neraidinis simbolis</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_numeric">
+        <item quantity="other">Turi būti bent %d skaičiai</item>
+        <item quantity="one">Turi būti bent 1 skaičius</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_symbols">
+        <item quantity="other">Turi būti bent %d specialieji simboliai</item>
+        <item quantity="one">Turi būti bent 1 specialusis simbolis</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_uppercase">
+        <item quantity="other">Turi būti bent %d didžiosios raidės</item>
+        <item quantity="one">Turi būti bent 1 didžioji raidė</item>
+    </plurals>
+    <plurals name="lockpassword_password_too_long">
+        <item quantity="other">Turi būti mažiau nei %d simboliai</item>
+        <item quantity="one">Turi būti mažiau nei %d simbolis</item>
+    </plurals>
+    <plurals name="lockpassword_password_too_short">
+        <item quantity="other">Turi būti bent %d simboliai</item>
+        <item quantity="one">Turi būti bent %d simbolis</item>
+    </plurals>
+    <plurals name="lockpassword_pin_too_long">
+        <item quantity="other">Turi būti mažiau nei %d skaičiai</item>
+        <item quantity="one">Turi būti mažiau nei %d skaičius</item>
+    </plurals>
+    <plurals name="lockpassword_pin_too_short">
+        <item quantity="other">PIN turi sudaryti bent %d skaičiai</item>
+        <item quantity="one">PIN turi sudaryti bent %d skaičius</item>
+    </plurals>
+    <plurals name="manage_notification_access_summary_nonzero">
+        <item quantity="other">%d programos gali skaityti pranešimus</item>
+        <item quantity="one">%d programa gali skaityti pranešimus</item>
+    </plurals>
+    <plurals name="manage_trust_agents_summary_on">
+        <item quantity="other">%d aktyvūs patikimi agentai</item>
+        <item quantity="one">1 aktyvus patikimas agentas</item>
+    </plurals>
+    <plurals name="memory_usage_apps_summary">
+        <item quantity="other">%1$d program. naudojo atmintį per paskutines %2$s</item>
+        <item quantity="one">1 programa naudojo atmintį per paskutines %2$s</item>
+    </plurals>
+    <plurals name="minutes">
+        <item quantity="other">%s min.</item>
+        <item quantity="one">1 min.</item>
+    </plurals>
+    <plurals name="mobile_network_summary_count">
+        <item quantity="other">%1$d SIM</item>
+        <item quantity="one">%1$d SIM</item>
+    </plurals>
+    <plurals name="network_restrictions_summary">
+        <item quantity="other">%1$d apribojimai</item>
+        <item quantity="one">1 apribojimas</item>
+    </plurals>
+    <plurals name="notification_few_channel_count_summary">
+        <item quantity="other">%1$d pranešimo kanalai.</item>
+        <item quantity="one">%1$d pranešimo kanalas.</item>
+    </plurals>
+    <plurals name="notification_group_summary">
+        <item quantity="other">%d kategorijos</item>
+        <item quantity="one">%d kategorija</item>
+    </plurals>
+    <plurals name="notification_summary">
+        <item quantity="other">Išjungta %d programoms</item>
+        <item quantity="one">Išjungta 1 programai</item>
+    </plurals>
+    <plurals name="notifications_categories_off">
+        <item quantity="other">%d kategorijos išjungtos</item>
+        <item quantity="one">%d kategorija išjungta</item>
+    </plurals>
+    <plurals name="notifications_sent_daily">
+        <item quantity="other">~%d pranešimų per dieną</item>
+        <item quantity="one">~%d pranešimo per dieną</item>
+    </plurals>
+    <plurals name="notifications_sent_weekly">
+        <item quantity="other">~%d pranešimų per savaitę</item>
+        <item quantity="one">~%d pranešimo per savaitę</item>
+    </plurals>
+    <plurals name="number_of_device_admins">
+        <item quantity="other">%d aktyvios programos</item>
+        <item quantity="one">%d aktyvi programa</item>
+    </plurals>
+    <plurals name="optimizable_count">
+        <item quantity="other">%1$d elementai gali būti optimizuoti</item>
+        <item quantity="one">%1$d elementas gali būti optimizuotas</item>
+    </plurals>
+    <plurals name="permission_bar_chart_label">
+        <item quantity="other">%s programos</item>
+        <item quantity="one">1 programa</item>
+    </plurals>
+    <plurals name="permissions_summary">
+        <item quantity="other">Suteikta %d leidim.</item>
+        <item quantity="one">Suteiktas %d leidimas</item>
+    </plurals>
+    <plurals name="power_high_usage_summary">
+        <item quantity="other">%2$d programos veikia neįprastai</item>
+        <item quantity="one">%1$s veikia neįprastai</item>
+    </plurals>
+    <plurals name="power_high_usage_title">
+        <item quantity="other">Programos eikvoja akumuliatoriaus energiją</item>
+        <item quantity="one">%1$s eikvoja akumuliatoriaus energiją</item>
+    </plurals>
+    <plurals name="print_jobs_summary">
+        <item quantity="other">%1$d spausdinimo darbai</item>
+        <item quantity="one">1 spausdinimo darbas</item>
+    </plurals>
+    <plurals name="print_settings_summary">
+        <item quantity="other">%1$d spausdinimo paslaugos įjungtos</item>
+        <item quantity="one">1 spausdinimo paslauga įjungta</item>
+    </plurals>
+    <plurals name="restricted_app_summary">
+        <item quantity="other">Akumuliatoriaus naudojimo apribojimas %1$d programoms</item>
+        <item quantity="one">Akumuliatoriaus naudojimo apribojimas %1$d programai</item>
+    </plurals>
+    <plurals name="retry_count_ticker">
+        <item quantity="other">Po %d sek. bandykite dar kartą</item>
+        <item quantity="one">Po %d sek. bandykite dar kartą</item>
+    </plurals>
+    <plurals name="runtime_permissions_additional_count">
+        <item quantity="other">%d papildom. leidim.</item>
+        <item quantity="one">%d papildomas leidimas</item>
+    </plurals>
+    <plurals name="runtime_permissions_summary">
+        <item quantity="other">Suteikta %1$d leidim. (iš %2$d)</item>
+        <item quantity="one">Suteiktas %1$d leidimas (iš %2$d)</item>
+    </plurals>
+    <plurals name="seconds">
+        <item quantity="other">%s sek.</item>
+        <item quantity="one">1 sek.</item>
+    </plurals>
+    <plurals name="security_settings_fingerprint_preference_summary">
+        <item quantity="other">Sukonfigūruoti %1$d pirštų atspaudai</item>
+        <item quantity="one">Sukonfigūruotas %1$d piršto atspaudas</item>
+    </plurals>
+    <plurals name="security_summary_apps_security">
+        <item quantity="other">%1$d programos užrakintos</item>
+        <item quantity="one">%1$d programa užrakinta</item>
+    </plurals>
+    <plurals name="security_summary_float_window">
+        <item quantity="other">Užblokuota %1$d kartus</item>
+        <item quantity="one">Užblokuota %1$d kartą</item>
+    </plurals>
+    <plurals name="security_summary_harassment_call">
+        <item quantity="other">%1$d skambučiai</item>
+        <item quantity="one">%1$d skambutis</item>
+    </plurals>
+    <plurals name="security_summary_harassment_sms">
+        <item quantity="other">%1$d SMS žinučių</item>
+        <item quantity="one">%1$d SMS žinutė</item>
+    </plurals>
+    <plurals name="security_summary_intelligent_identification_contact">
+        <item quantity="other">Atpažinti %1$d numeriai</item>
+        <item quantity="one">Atpažintas %1$d numeris</item>
+    </plurals>
+    <plurals name="security_summary_payment_protection">
+        <item quantity="other">Apsaugotos %1$d mokėjimo operacijos</item>
+        <item quantity="one">Apsaugota %1$d mokėjimo operacija</item>
+    </plurals>
+    <plurals name="security_summary_permission_manager">
+        <item quantity="other">Užblokuota %1$d kartus</item>
+        <item quantity="one">Užblokuota %1$d kartą</item>
+    </plurals>
+    <plurals name="security_summary_private_info_protect">
+        <item quantity="other">Apsaugoti %1$d elementai</item>
+        <item quantity="one">Apsaugotas %1$d elementas</item>
+    </plurals>
+    <plurals name="security_summary_pseudo_base_station">
+        <item quantity="other">Užblokuotos %1$d netikros bazinės stotys</item>
+        <item quantity="one">Užblokuota %1$d netikra bazinė stotis</item>
+    </plurals>
+    <plurals name="settings_optimizable_count">
+        <item quantity="other">%1$d elementai gali būti optimizuoti</item>
+        <item quantity="one">%1$d elementas gali būti optimizuotas</item>
+    </plurals>
+    <plurals name="settings_suggestion_header_summary_hidden_items">
+        <item quantity="other">Rodyti %d paslėptus (-ų) elementus (-ų)</item>
+        <item quantity="one">Rodyti %d paslėptą elementą</item>
+    </plurals>
+    <plurals name="show_bluetooth_devices">
+        <item quantity="other">%1$d įrenginiai prijungti</item>
+        <item quantity="one">%1$d įrenginys prijungtas</item>
+    </plurals>
+    <plurals name="show_dev_countdown">
+        <item quantity="other">Jums liko %1$d žingsnių ir būsite gamintojas.</item>
+        <item quantity="one">Jums liko %1$d žingsnis ir būsite gamintojas.</item>
+    </plurals>
+    <plurals name="show_number_hearingaid_count">
+        <item quantity="other">%1$d išsaugoti klausos aparatai</item>
+        <item quantity="one">%1$d išsaugotas klausos aparatas</item>
+    </plurals>
+    <plurals name="special_access_summary">
+        <item quantity="other">%d programos gali naudoti duomenis neribotai</item>
+        <item quantity="one">1 programa gali naudoti duomenis neribotai</item>
+    </plurals>
+    <plurals name="ssl_ca_cert_dialog_title">
+        <item quantity="other">Pasitikėti arba pašalinti sertifikatus</item>
+        <item quantity="one">Pasitikėti arba pašalinti sertifikatą</item>
+    </plurals>
+    <plurals name="ssl_ca_cert_info_message">
+        <item quantity="other">"%s įdiegė kelias darbo profilio sertifikavimo tarnybas. Jos gali būti naudojamos veiklai tinkle stebėti (įskaitant el. pašto, programų ir saugių svetainių naudojimą), kai dirbate.
+
+Jei reikia daugiau informacijos apie šiuos sertifikatus, susisiekite su administratoriumi."</item>
+        <item quantity="one">"%s įdiegė vieną darbo profilio sertifikavimo tarnybą. Ji gali būti naudojama veiklai tinkle stebėti (įskaitant el. pašto, programų ir saugių svetainių naudojimą), kai dirbate.
+
+Jei reikia daugiau informacijos apie šį sertifikatą, susisiekite su administratoriumi."</item>
+    </plurals>
+    <plurals name="ssl_ca_cert_info_message_device_owner">
+        <item quantity="other">"%s įrenginyje įdiegė kelias sertifikavimo tarnybas. Jos gali būti naudojamos įrenginio veiklai tinkle stebėti (įskaitant el. pašto, programų ir saugių svetainių naudojimą).
+
+Jei reikia daugiau informacijos apie šiuos sertifikatus, susisiekite su administratoriumi."</item>
+        <item quantity="one">"%s įrenginyje įdiegė vieną sertifikavimo tarnybą. Ji gali būti naudojama įrenginio veiklai tinkle stebėti (įskaitant el. pašto, programų ir saugių svetainių naudojimą).
+
+Jei reikia daugiau informacijos apie šį sertifikatą, susisiekite su administratoriumi."</item>
+    </plurals>
+    <plurals name="ssl_ca_cert_settings_button">
+        <item quantity="other">Patikrinti sertifikatus</item>
+        <item quantity="one">Patikrinti sertifikatą</item>
+    </plurals>
+    <plurals name="suggestions_collapsed_summary">
+        <item quantity="other">+%1$d pasiūlymai</item>
+        <item quantity="one">+1 pasiūlymas</item>
+    </plurals>
+    <plurals name="suggestions_collapsed_title">
+        <item quantity="other">%1$d pasiūlymai</item>
+        <item quantity="one">1 pasiūlymas</item>
+    </plurals>
+    <plurals name="uri_permissions_text">
+        <item quantity="other">%d element.</item>
+        <item quantity="one">1 elementas</item>
+    </plurals>
+    <plurals name="wifi_saved_access_points_summary">
+        <item quantity="other">%d tinklai</item>
+        <item quantity="one">1 tinklas</item>
+    </plurals>
+    <plurals name="wifi_saved_all_access_points_summary">
+        <item quantity="other">%d tinklai ir prenumeratos</item>
+        <item quantity="one">1 tinklas ir prenumerata</item>
+    </plurals>
+    <plurals name="wifi_saved_passpoint_access_points_summary">
+        <item quantity="other">%d prenumeratos</item>
+        <item quantity="one">1 prenumerata</item>
+    </plurals>
+    <plurals name="wifi_tether_connected_summary">
+        <item quantity="other">%1$d įrenginiai prijungti</item>
+        <item quantity="one">%1$d įrenginys prijungtas</item>
+    </plurals>
+    <plurals name="wrong_pin_code">
+        <item quantity="other">Neteisingas SIM kortelės PIN kodas. Jums liko %d bandymų.</item>
+        <item quantity="one">Neteisingas SIM kortelės PIN kodas. Jums liko %d bandymas, o tada turėsite kreiptis į operatorių, kad atrakintumėte įrenginį.</item>
+    </plurals>
+    <plurals name="zen_mode_duration_summary_time_hours">
+        <item quantity="other">%d val.</item>
+        <item quantity="one">1 val.</item>
+    </plurals>
+    <plurals name="zen_mode_rules_new">
+        <item quantity="other">Pasirinkta taisyklių: %1$d</item>
+        <item quantity="one">Pasirinkta %1$d taisyklė</item>
+    </plurals>
+    <plurals name="zen_mode_settings_summary_on">
+        <item quantity="other">%d įjungtos</item>
+        <item quantity="one">1 įjungta</item>
+    </plurals>
+    <plurals name="zen_mode_settings_summary_on_new">
+        <item quantity="other">Pritaikyta taisyklių: %d</item>
+        <item quantity="one">Pritaikyta %d taisyklė</item>
+    </plurals>
+    <plurals name="zen_mode_sound_summary_summary_off_info">
+        <item quantity="other">%d tvarkaraščiai gali įsijungti automatiškai</item>
+        <item quantity="one">1 tvarkaraštis gali įsijungti automatiškai</item>
+    </plurals>
+    <plurals name="zen_mode_starred_contacts_summary_additional_contacts">
+        <item quantity="other">%d kiti</item>
+        <item quantity="one">1 kitas</item>
+    </plurals>
+    <plurals name="zen_mode_summary_alarms_only_by_hour">
+        <item quantity="other">Keisti tik signalus, galioja %1$d val. (iki %2$s)</item>
+        <item quantity="one">Keisti tik signalus, galioja 1 valandą (iki %2$s)</item>
+    </plurals>
+    <plurals name="zen_mode_summary_alarms_only_by_minute">
+        <item quantity="other">Keisti tik signalus, galioja %1$d min. (iki %2$s)</item>
+        <item quantity="one">Keisti tik signalus, galioja 1 minutę (iki %2$s)</item>
+    </plurals>
+</resources>

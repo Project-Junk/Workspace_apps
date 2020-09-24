@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="kg_password_default_pin_message_multi_sim">
+        <item quantity="other">ກະ​ລຸ​ນາປ້ອນ PIN ສຳ​ລັບແຜ່ນ SIM %1$d. ​ຍັງ​ເຫຼືອ​ຄວາມ​ພະ​ຍາ​ຍາມ​ອີກ %2$d ຄັ້ງ.</item>
+        <item quantity="one">ກະ​ລຸ​ນາ​ປ້ອນ PIN ສຳ​ລັບ​ແຜ່ນ SIM %1$d. ຍັງ​ເຫຼືອ​ຄວາມ​ພະ​ຍາ​ຍາມ​ອີກ %2$d ຄັ້ງ. ທ່ານຈະຈຳ​ເປັນຕ້ອງຕິດຕໍ່​ຫາຜູ້ໃຫ້ບໍລິການເພື່ອໃຫ້ຊ່ວຍປົດລັອກອຸປະກອນຖ້າ​ມັນບໍ່ຖືກຕ້ອງອີກ​ຄັ້ງ.</item>
+    </plurals>
+    <plurals name="kg_password_wrong_pin_code">
+        <item quantity="other">ລະຫັດ PIN ຂອງ SIM ບໍ່ຖືກຕ້ອງ. ເຫຼືອການລອງອີກ %d ຄັ້ງ.</item>
+        <item quantity="one">ລະຫັດ PIN ຂອງ SIM ບໍ່ຖືກຕ້ອງ. ເຫຼືອການລອງອີກ %d ຄັ້ງ. ທ່ານຈະຕ້ອງຕິດຕໍ່ຜູ້ໃຫ້ບໍລິການເພື່ອໃຫ້ຊ່ວຍປົດລັອກອຸປະກອນຖ້າວ່າບໍ່ຖືກຕ້ອງອີກ.</item>
+    </plurals>
+    <plurals name="kg_password_wrong_pin_code_multi_sim">
+        <item quantity="other">PIN ບໍ່​ຖືກ​ຕ້ອງສຳ​ລັບແຜ່ນ SIM %1$d. ຍັງ​ເຫຼືອ​ຄວາມ​ພະ​ຍາ​ຍາມ​ອີກ %2$d ​ຄັ້ງ.</item>
+        <item quantity="one">PIN ບໍ່​ຖືກ​ຕ້ອງ​ສຳ​ລັບແຜ່ນ SIM %1$d. ຍັງ​ເຫຼືອ​ຄວາມ​ພະ​ຍາ​ຍາມ​ອີກ %2$d ຄັ້ງ. ທ່ານຈະຈຳ​ເປັນຕ້ອງຕິດຕໍ່​ຫາຜູ້ໃຫ້ບໍລິການເພື່ອໃຫ້ຊ່ວຍປົດລັອກອຸປະກອນຖ້າ​ມັນບໍ່ຖືກຕ້ອງອີກ​ຄັ້ງ.</item>
+    </plurals>
+    <plurals name="kg_password_wrong_puk_code">
+        <item quantity="other">ລະຫັດ PUK ຂອງ SIM ບໍ່ຖືກຕ້ອງ. ເຫຼືອການລອງອີກ %d ຄັ້ງ. SIM ຈະຖືກປິດໃຊ້ງານຢ່າງຖາວອນຖ້າວ່າບໍ່ຖືກຕ້ອງອີກ.</item>
+        <item quantity="one">ລະຫັດ PUK ຂອງ SIM ບໍ່ຖືກຕ້ອງ. ເຫຼືອການລອງອີກ %d ຄັ້ງ. SIM ຈະຖືກປິດໃຊ້ງານຢ່າງຖາວອນຖ້າວ່າບໍ່ຖືກຕ້ອງອີກ.</item>
+    </plurals>
+    <plurals name="kg_prompt_reason_time_password">
+        <item quantity="other">ອຸປະກອນໄດ້ຖືກລັອກໄວ້ເປັນເວລາ %d ຊົ່ວໂມງແລ້ວ. ກະລຸນາຢືນຢັນລະຫັດຜ່ານ.</item>
+        <item quantity="one">ອຸປະກອນໄດ້ຖືກລັອກໄວ້ເປັນເວລາ %d ຊົ່ວໂມງແລ້ວ.​ ກະລຸນາຢືນຢັນລະຫັດຜ່ານ.</item>
+    </plurals>
+    <plurals name="kg_prompt_reason_time_pattern">
+        <item quantity="other">ອຸປະກອນໄດ້ຖືກລັອກເປັນເວລາ %d ຊົ່ວໂມງ.ກະລຸນາຢືນຢັນຮູບແບບການປົດລັອກ.</item>
+        <item quantity="one">ອຸປະກອນໄດ້ຖືກລັອກເປັນເວລາ %d ຊົ່ວໂມງ.ກະລຸນາຢືນຢັນຮູບແບບການປົດລັອກ.</item>
+    </plurals>
+    <plurals name="kg_prompt_reason_time_pin">
+        <item quantity="other">ອຸປະກອນໄດ້ຖືກລັອກເປັນເວລາ %d ຊົ່ວໂມງ.ກະລຸນາຢືນຢັນລະຫັດ PIN.</item>
+        <item quantity="one">ອຸປະກອນໄດ້ຖືກລັອກເປັນເວລາ %d ຊົ່ວໂມງ.ກະລຸນາຢືນຢັນລະຫັດ PIN.</item>
+    </plurals>
+    <plurals name="kg_too_many_failed_attempts_countdown">
+        <item quantity="other">ກະ​ລຸ​ນາ​ລອງ​ໃໝ່​ຫຼັງ​ຈາກ %d ວິ​ນາ​ທີ.</item>
+        <item quantity="one">ກະ​ລຸ​ນາ​ລອງ​ໃໝ່​ຫຼັງ​ຈາກ 1 ວິ​ນາ​ທີ.</item>
+    </plurals>
+    <plurals name="notification_group_overflow_description">
+        <item quantity="other">ຍັງມີ %s ການແຈ້ງເຕືອນໃນກຸ່ມນີ້.</item>
+        <item quantity="one">ຍັງມີ %s ການແຈ້ງເຕືອນໃນກຸ່ມນີ້.</item>
+    </plurals>
+    <plurals name="snoozeHourOptions">
+        <item quantity="other">%d ຊົ່ວໂມງ</item>
+        <item quantity="one">%d ຊົ່ວໂມງ</item>
+    </plurals>
+    <plurals name="snoozeMinuteOptions">
+        <item quantity="other">%d ນາທີ</item>
+        <item quantity="one">%d ນາທີ</item>
+    </plurals>
+    <plurals name="wifi_tether_connected_summary">
+        <item quantity="other">%1$d ​ອຸ​ປະ​ກອນ​ຖືກ​ເຊື່ອມ​ຕໍ່​ແລ້ວ</item>
+        <item quantity="one">%1$d ​ອຸ​ປະ​ກອນ​ຖືກ​ເຊື່ອມ​ຕໍ່​ແລ້ວ</item>
+    </plurals>
+</resources>

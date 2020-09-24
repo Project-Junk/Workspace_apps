@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="24.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textAppearance="?android:textAppearanceLarge" android:textColor="@color/color_preference_title_color" android:gravity="start|center" android:id="@id/list_title" android:layout_width="wrap_content" android:layout_height="50.0dip" android:layout_centerVertical="true" />
+    <CheckBox android:id="@id/oppo_listview_scrollchoice_checkbox" android:focusable="false" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:paddingEnd="@dimen/M8" android:layout_alignParentEnd="true" />
+</RelativeLayout>

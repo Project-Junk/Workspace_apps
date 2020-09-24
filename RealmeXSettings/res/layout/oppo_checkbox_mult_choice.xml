@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/zen_mode_costom_item" android:descendantFocusability="blocksDescendants" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/color_zenmode_padding_start" android:paddingEnd="@dimen/color_zenmode_padding_end"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/TD09" android:textColor="@color/C20" android:id="@id/zen_mode_custom_title" android:paddingTop="@dimen/M15" android:paddingBottom="@dimen/M5" android:focusable="false" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" android:layout_marginEnd="@dimen/M4" />
+    <CheckBox android:layout_gravity="center_vertical" android:id="@id/oppo_listview_scrollchoice_checkbox" android:focusable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:checked="false" android:layout_centerVertical="true" android:paddingStart="0.0dip" android:layout_marginStart="0.0dip" android:layout_marginEnd="0.0dip" />
+</LinearLayout>

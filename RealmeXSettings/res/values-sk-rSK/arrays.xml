@@ -1,0 +1,920 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="animator_duration_scale_entries">
+        <item>Animácia vypnutá</item>
+        <item>Mierka animácie 0,5x</item>
+        <item>Mierka animácie 1x</item>
+        <item>Mierka animácie 1,5x</item>
+        <item>Mierka animácie 2x</item>
+        <item>Mierka animácie 5x</item>
+        <item>Mierka animácie 10x</item>
+    </string-array>
+    <string-array name="aod_date_entries">
+        <item>Zobraziť Gregoriánsky kalendár</item>
+        <item>Zobraziť Gregoriánsky a lunárny kalendár</item>
+        <item>Nezobrazovať</item>
+    </string-array>
+    <string-array name="apn_auth_entries">
+        <item>Žiadne</item>
+        <item>PAP</item>
+        <item>CHAP</item>
+        <item>PAP alebo CHAP</item>
+    </string-array>
+    <string-array name="apn_protocol_entries">
+        <item>IPv4</item>
+        <item>IPv6</item>
+        <item>IPv4/IPv6</item>
+    </string-array>
+    <string-array name="app_install_location_entries">
+        <item>Interné úložisko zariadenia</item>
+        <item>Odnímateľná karta SD</item>
+        <item>Nechať rozhodnúť systém</item>
+    </string-array>
+    <string-array name="app_ops_categories">
+        <item>Poloha</item>
+        <item>Osobné</item>
+        <item>SMS</item>
+        <item>Médiá</item>
+        <item>Zariadenie</item>
+    </string-array>
+    <string-array name="app_ops_labels">
+        <item>Poloha</item>
+        <item>Poloha</item>
+        <item>Poloha</item>
+        <item>Vibrovať</item>
+        <item>Načítať kontakty</item>
+        <item>Upraviť kontakty</item>
+        <item>Načítať denník hovorov</item>
+        <item>Upraviť denník hovorov</item>
+        <item>Načítať kalendár</item>
+        <item>Upraviť kalendár</item>
+        <item>Poloha</item>
+        <item>Zverejniť oznámenie</item>
+        <item>Poloha</item>
+        <item>Vytočiť telefón</item>
+        <item>Načítať SMS/MMS</item>
+        <item>Zapisovať SMS/MMS</item>
+        <item>Prijímať SMS/MMS</item>
+        <item>Prijímať SMS/MMS</item>
+        <item>Prijímať SMS/MMS</item>
+        <item>Prijímať SMS/MMS</item>
+        <item>Odoslať SMS/MMS</item>
+        <item>Načítať SMS/MMS</item>
+        <item>Zapisovať SMS/MMS</item>
+        <item>Upraviť nastavenia</item>
+        <item>Vykresľovať na popredí</item>
+        <item>Prístup k oznámeniam</item>
+        <item>Fotoaparát</item>
+        <item>Zaznamenať zvuk</item>
+        <item>Prehrať zvuk</item>
+        <item>Načítať schránku</item>
+        <item>Upraviť schránku</item>
+        <item>Tlačidlá médií</item>
+        <item>Zdroj zvuku</item>
+        <item>Hlavná hlasitosť</item>
+        <item>Hlasitosť hlasu</item>
+        <item>Hlasitosť zvonenia</item>
+        <item>Hlasitosť médií</item>
+        <item>Hlasitosť budíka</item>
+        <item>Hlasitosť oznámení</item>
+        <item>Hlasitosť Bluetooth</item>
+        <item>Neuspávať</item>
+        <item>Poloha</item>
+        <item>Poloha</item>
+        <item>Získať štatistiky používania</item>
+        <item>Stlmiť/zrušiť stlmenie mikrofónu</item>
+        <item>Zobraziť oznam</item>
+        <item>Premietať médiá</item>
+        <item>Aktivovať VPN</item>
+        <item>Zapisovať tapetu</item>
+        <item>Asistenčná štruktúra</item>
+        <item>Asistenčná snímka obrazovky</item>
+        <item>Čítať stav telefónu</item>
+        <item>Pridať hlasovú schránku</item>
+        <item>Použiť sip</item>
+        <item>Spracúvať odchádzajúce hovory</item>
+        <item>Odtlačok prsta</item>
+        <item>Snímače telesných dát</item>
+        <item>Načítať mobilné vysielania</item>
+        <item>Falošná poloha</item>
+        <item>Načítať úložisko</item>
+        <item>Zapisovať na úložisko</item>
+        <item>Zapnúť obrazovku</item>
+        <item>Získať účty</item>
+        <item>Fungovať na pozadí</item>
+        <item>Hlasitosť zjednodušenia</item>
+    </string-array>
+    <string-array name="app_ops_summaries">
+        <item>približná poloha</item>
+        <item>presná poloha</item>
+        <item>GPS</item>
+        <item>vibrovať</item>
+        <item>načítať kontakty</item>
+        <item>upraviť kontakty</item>
+        <item>načítať denník hovorov</item>
+        <item>upraviť denník hovorov</item>
+        <item>načítať kalendár</item>
+        <item>upraviť kalendár</item>
+        <item>vyhľadať Wi-Fi</item>
+        <item>oznámenie</item>
+        <item>vyhľadať telefón</item>
+        <item>vytočiť telefón</item>
+        <item>načítať SMS</item>
+        <item>zapisovať SMS</item>
+        <item>prijímať SMS</item>
+        <item>prijímať núdzové SMS</item>
+        <item>prijímať MMS</item>
+        <item>prijímať WAP push</item>
+        <item>odoslať SMS</item>
+        <item>načítať ICC SMS</item>
+        <item>zapisovať ICC SMS</item>
+        <item>upraviť nastavenia</item>
+        <item>vykresľovať na popredí</item>
+        <item>prístup k oznámeniam</item>
+        <item>fotoaparát</item>
+        <item>zaznamenať zvuk</item>
+        <item>prehrať zvuk</item>
+        <item>načítať schránku</item>
+        <item>upraviť schránku</item>
+        <item>tlačidlá médií</item>
+        <item>zdroj zvuku</item>
+        <item>hlavná hlasitosť</item>
+        <item>hlasitosť hlasu</item>
+        <item>hlasitosť zvonenia</item>
+        <item>hlasitosť médií</item>
+        <item>hlasitosť budíka</item>
+        <item>hlasitosť oznámení</item>
+        <item>hlasitosť bluetooth</item>
+        <item>neuspávať</item>
+        <item>sledovať polohu</item>
+        <item>monitorovať polohu s vysokým výkonom</item>
+        <item>získať štatistiky používania</item>
+        <item>stlmiť/zrušiť stlmenie mikrofónu</item>
+        <item>zobraziť oznam</item>
+        <item>premietať médiá</item>
+        <item>aktivovať VPN</item>
+        <item>zapisovať tapetu</item>
+        <item>asistenčná štruktúra</item>
+        <item>asistenčná snímka obrazovky</item>
+        <item>čítať stav telefónu</item>
+        <item>pridať hlasovú schránku</item>
+        <item>použiť sip</item>
+        <item>spracúvať odchádzajúce hovory</item>
+        <item>odtlačok prsta</item>
+        <item>snímače telesných dát</item>
+        <item>načítať mobilné vysielania</item>
+        <item>falošná poloha</item>
+        <item>načítať úložisko</item>
+        <item>zapisovať na úložisko</item>
+        <item>zapnúť obrazovku</item>
+        <item>získať účty</item>
+        <item>fungovať na pozadí</item>
+        <item>hlasitosť zjednodušenia</item>
+    </string-array>
+    <string-array name="app_process_limit_entries">
+        <item>Štandardný limit</item>
+        <item>Žiadne procesy na pozadí</item>
+        <item>Maximálne 1 proces</item>
+        <item>Maximálne 2 procesy</item>
+        <item>Maximálne 3 procesy</item>
+        <item>Maximálne 4 procesy</item>
+    </string-array>
+    <string-array name="authentication_frequency_entries">
+        <item>Vždy vyžadované</item>
+        <item>Vyžadované po 15 minútach</item>
+    </string-array>
+    <string-array name="autofill_logging_level_entries">
+        <item>Vypnuté</item>
+        <item>Ladenie</item>
+        <item>Podrobný</item>
+    </string-array>
+    <string-array name="automatic_storage_management_days">
+        <item>Viac ako 30 dní</item>
+        <item>Viac ako 60 dní</item>
+        <item>Viac ako 90 dní</item>
+    </string-array>
+    <string-array name="battery_labels">
+        <item>0 %</item>
+        <item>50 %</item>
+        <item>100 %</item>
+    </string-array>
+    <string-array name="bearer_entries">
+        <item>Nespresnené</item>
+        <item>LTE</item>
+        <item>HSPAP</item>
+        <item>HSPA</item>
+        <item>HSUPA</item>
+        <item>HSDPA</item>
+        <item>UMTS</item>
+        <item>EDGE</item>
+        <item>GPRS</item>
+        <item>eHRPD</item>
+        <item>EVDO_B</item>
+        <item>EVDO_A</item>
+        <item>EVDO_0</item>
+        <item>1xRTT</item>
+        <item>IS95B</item>
+        <item>IS95A</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_bits_per_sample_summaries">
+        <item>Použiť vybrané systémom (predvolené)</item>
+        <item>16 bitov/vzorku</item>
+        <item>24 bitov/vzorku</item>
+        <item>32 bitov/vzorku</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_bits_per_sample_titles">
+        <item>Použiť vybrané systémom (predvolené)</item>
+        <item>16 bitov/vzorku</item>
+        <item>24 bitov/vzorku</item>
+        <item>32 bitov/vzorku</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_channel_mode_summaries">
+        <item>Použiť vybrané systémom (predvolené)</item>
+        <item>Mono</item>
+        <item>Stereo</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_channel_mode_titles">
+        <item>Použiť vybrané systémom (predvolené)</item>
+        <item>Mono</item>
+        <item>Stereo</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_ldac_playback_quality_summaries">
+        <item>Optimalizované pre kvalitu zvuku</item>
+        <item>Vyvážená kvalita zvuku a pripojenia</item>
+        <item>Optimalizované pre kvalitu pripojenia</item>
+        <item>Najlepšie možné (prispôsobivá bitová rýchlosť)</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_ldac_playback_quality_titles">
+        <item>Optimalizované pre kvalitu zvuku (990 kbps/909 kbps)</item>
+        <item>Vyvážená kvalita zvuku a pripojenia (660 kbps/606 kbps)</item>
+        <item>Optimalizované pre kvalitu pripojenia (330 kbps/303 kbps)</item>
+        <item>Najlepšie možné (prispôsobivá bitová rýchlosť)</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_sample_rate_summaries">
+        <item>Použiť vybrané systémom (predvolené)</item>
+        <item>44,1 kHz</item>
+        <item>48,0 kHz</item>
+        <item>88,2 kHz</item>
+        <item>96,0 kHz</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_sample_rate_titles">
+        <item>Použiť vybrané systémom (predvolené)</item>
+        <item>44,1 kHz</item>
+        <item>48,0 kHz</item>
+        <item>88,2 kHz</item>
+        <item>96,0 kHz</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_summaries">
+        <item>Použiť vybrané systémom (predvolené)</item>
+        <item>SBC</item>
+        <item>AAC</item>
+        <item>Qualcomm® aptX™ zvuk</item>
+        <item>Qualcomm® aptX™ HD zvuk</item>
+        <item>LDAC</item>
+        <item>Qualcomm® aptX™ Adaptive zvuk</item>
+        <item>Qualcomm® aptX™ TWS+ zvuk</item>
+        <item>Zapnúť voliteľné kodeky</item>
+        <item>Vypnúť voliteľné kodeky</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_summaries_new">
+        <item>Použiť vybrané systémom (predvolené)</item>
+        <item>SBC</item>
+        <item>AAC</item>
+        <item>Zvuk Qualcomm® aptX™</item>
+        <item>HD zvuk Qualcomm® aptX™</item>
+        <item>LDAC</item>
+        <item>LHDC</item>
+        <item>Zvuk Qualcomm® aptX™ Adaptive</item>
+        <item>Zvuk Qualcomm® aptX™ TWS+</item>
+        <item>Zapnúť voliteľné kodeky</item>
+        <item>Vypnúť voliteľné kodeky</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_titles">
+        <item>Použiť vybrané systémom (predvolené)</item>
+        <item>SBC</item>
+        <item>AAC</item>
+        <item>Qualcomm® aptX™ zvuk</item>
+        <item>Qualcomm® aptX™ HD zvuk</item>
+        <item>LDAC</item>
+        <item>Qualcomm® aptX™ Adaptive zvuk</item>
+        <item>Qualcomm® aptX™ TWS+ zvuk</item>
+        <item>Zapnúť voliteľné kodeky</item>
+        <item>Vypnúť voliteľné kodeky</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_titles_new">
+        <item>Použiť vybrané systémom (predvolené)</item>
+        <item>SBC</item>
+        <item>AAC</item>
+        <item>Zvuk Qualcomm® aptX™</item>
+        <item>HD zvuk Qualcomm® aptX™</item>
+        <item>LDAC</item>
+        <item>LHDC</item>
+        <item>Zvuk Qualcomm® aptX™ Adaptive</item>
+        <item>Zvuk Qualcomm® aptX™ TWS+</item>
+        <item>Zapnúť voliteľné kodeky</item>
+        <item>Vypnúť voliteľné kodeky</item>
+    </string-array>
+    <string-array name="bluetooth_audio_active_device_summaries">
+        <item></item>
+        <item>, aktívne</item>
+        <item>, aktívne (médiá)</item>
+        <item>, aktívne (telefón)</item>
+    </string-array>
+    <string-array name="bluetooth_avrcp_version_values">
+        <item>avrcp14</item>
+        <item>avrcp13</item>
+        <item>avrcp15</item>
+        <item>avrcp16</item>
+    </string-array>
+    <string-array name="bluetooth_avrcp_versions">
+        <item>AVRCP 1.4 (predvolené)</item>
+        <item>AVRCP 1.3</item>
+        <item>AVRCP 1.5</item>
+        <item>AVRCP 1.6</item>
+    </string-array>
+    <string-array name="bluetooth_max_connected_audio_devices">
+        <item>Použiť predvolené systémom: %1$d</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+    <string-array name="bluetooth_visibility_timeout_entries">
+        <item>2 minúty</item>
+        <item>5 minút</item>
+        <item>1 hodina</item>
+        <item>Nikdy neexpirovať</item>
+    </string-array>
+    <string-array name="bt_hci_snoop_log_entries">
+        <item>Vypnuté</item>
+        <item>Filtrované zapnuté</item>
+        <item>Filtrované hlavičky zapnuté</item>
+        <item>Filtrované pakety médií zapnuté</item>
+        <item>Zapnuté</item>
+    </string-array>
+    <string-array name="captioning_edge_type_selector_titles">
+        <item>Predvolený</item>
+        <item>Žiadny</item>
+        <item>Obtiahnutý</item>
+        <item>Tieňovaný</item>
+        <item>Vystúpeny</item>
+        <item>Zatlačený</item>
+    </string-array>
+    <string-array name="captioning_font_size_selector_titles">
+        <item>Veľmi malé</item>
+        <item>Malé</item>
+        <item>Normálne</item>
+        <item>Veľké</item>
+        <item>Veľmi veľké</item>
+    </string-array>
+    <string-array name="captioning_opacity_selector_titles">
+        <item>25 %</item>
+        <item>50 %</item>
+        <item>75 %</item>
+        <item>100 %</item>
+    </string-array>
+    <string-array name="captioning_preset_selector_titles">
+        <item>Použiť predvolené nastavenia aplikácie</item>
+        <item>Biele na čiernom</item>
+        <item>Čierne na bielom</item>
+        <item>Žlté na čiernom</item>
+        <item>Žlté na modrom</item>
+        <item>Vlastné</item>
+    </string-array>
+    <string-array name="captioning_typeface_selector_titles">
+        <item>Predvolené</item>
+        <item>Sans-Serif</item>
+        <item>Sans-Serif zhustené</item>
+        <item>Sans-Serif Monospace</item>
+        <item>Serif</item>
+        <item>Serif Monospace</item>
+        <item>Neformálne</item>
+        <item>Kurzíva</item>
+        <item>Kapitálky</item>
+    </string-array>
+    <string-array name="cdma_subscription_choices">
+        <item>RUIM/SIM</item>
+        <item>NV</item>
+    </string-array>
+    <string-array name="cdma_system_select_choices">
+        <item>Iba domovský stránka</item>
+        <item>Automaticky</item>
+    </string-array>
+    <string-array name="color_mode_descriptions">
+        <item>Vylepšené farby</item>
+        <item>Prirodzené farby, ako ich vidia oči</item>
+        <item>Farby optimalizované pre digitálny obsah</item>
+    </string-array>
+    <string-array name="color_mode_names">
+        <item>Živé (predvolené)</item>
+        <item>Prirodzené</item>
+        <item>Štandardné</item>
+    </string-array>
+    <string-array name="color_picker">
+        <item>Azúrová</item>
+        <item>Modrá</item>
+        <item>Indigo</item>
+        <item>Fialová</item>
+        <item>Ružová</item>
+        <item>Červená</item>
+    </string-array>
+    <string-array name="color_solor_mounth">
+        <item>Január</item>
+        <item>Február</item>
+        <item>Marec</item>
+        <item>Apríl</item>
+        <item>Máj</item>
+        <item>Jún</item>
+        <item>Júl</item>
+        <item>August</item>
+        <item>September</item>
+        <item>Október</item>
+        <item>November</item>
+        <item>December</item>
+    </string-array>
+    <string-array name="cut_mode_entries">
+        <item>Prispôsobiť automaticky</item>
+        <item>Zobraziť predný fotoaparát</item>
+        <item>Skryť predný fotoaparát (celá obrazovka)</item>
+    </string-array>
+    <string-array name="dark_ui_mode_entries">
+        <item>Tmavý</item>
+        <item>Svetlý</item>
+    </string-array>
+    <string-array name="data_usage_data_range">
+        <item>Posledných 30 dní</item>
+        <item>Nastaviť cyklus používania...</item>
+    </string-array>
+    <string-array name="debug_hw_overdraw_entries">
+        <item>Vypnuté</item>
+        <item>Zobraziť prekreslené oblasti</item>
+        <item>Zobraziť oblasti deuteranomálie</item>
+    </string-array>
+    <string-array name="default_volume_type">
+        <item>Hlasitosť zvonenia</item>
+        <item>Hlasitosť médií</item>
+    </string-array>
+    <string-array name="dream_timeout_entries">
+        <item>Nikdy</item>
+        <item>15 sekúnd</item>
+        <item>30 sekúnd</item>
+        <item>1 min.</item>
+        <item>2 minúty</item>
+        <item>5 minút</item>
+        <item>10 minút</item>
+        <item>30 minút</item>
+    </string-array>
+    <string-array name="enable_opengl_traces_entries">
+        <item>Žiadne</item>
+        <item>Logcat</item>
+        <item>Systrace (Grafika)</item>
+        <item>Volať stack pri glGetError</item>
+    </string-array>
+    <string-array name="entries_font_size">
+        <item>Malé</item>
+        <item>Predvolené</item>
+        <item>Veľké</item>
+        <item>Maximum</item>
+    </string-array>
+    <string-array name="eq_preset_names">
+        <item>Vypnuté</item>
+        <item>Pop</item>
+        <item>Rock</item>
+        <item>Country</item>
+        <item>Džez</item>
+        <item>Klasická</item>
+        <item>Metal</item>
+        <item>Blues</item>
+        <item>Hip Hop</item>
+        <item>Dance</item>
+        <item>Electro</item>
+        <item>Vlastné</item>
+    </string-array>
+    <string-array name="format_type_entries">
+        <item>FAT32 (predvolené)</item>
+        <item>exFAT</item>
+    </string-array>
+    <string-array name="format_type_summarys">
+        <item>Najčastejšie použitý typ súborového systému pre zariadenia mobilného úložiska</item>
+        <item>Vylepšený súborový systém, podporuje súbory väčšie ako 4 GB, pri pripájaní k PC môže byť vyžadovaná inštalácia ovládača</item>
+    </string-array>
+    <string-array name="hdcp_checking_summaries">
+        <item>Nepoužívať kontrolu HDCP</item>
+        <item>Používať kontrolu HDCP len pre obsah DRM</item>
+        <item>Vždy používať kontrolu HDCP</item>
+    </string-array>
+    <string-array name="hdcp_checking_titles">
+        <item>Nikdy nekontrolovať</item>
+        <item>Kontrolovať len pre obsah DRM</item>
+        <item>Vždy kontrolovať</item>
+    </string-array>
+    <string-array name="incomming_call_color_type_name">
+        <item>Neónová fialová</item>
+        <item>Morská modrá</item>
+        <item>Jantárová oranžová</item>
+    </string-array>
+    <string-array name="incomming_call_type_name">
+        <item>VIP kontakty</item>
+        <item>Obľúbené kontakty</item>
+        <item>Všetky kontakty</item>
+        <item>Všetky hovory</item>
+        <item>Žiadne</item>
+    </string-array>
+    <string-array name="lock_after_timeout_entries">
+        <item>Okamžite</item>
+        <item>5 s</item>
+        <item>15 s</item>
+        <item>30 s</item>
+        <item>1 min.</item>
+        <item>2 min.</item>
+        <item>5 min.</item>
+        <item>10 min.</item>
+        <item>30 min.</item>
+    </string-array>
+    <string-array name="long_press_timeout_selector_titles">
+        <item>Krátke</item>
+        <item>Stredné</item>
+        <item>Dlhé</item>
+    </string-array>
+    <string-array name="mvno_type_entries">
+        <item>Žiadne</item>
+        <item>SPN</item>
+        <item>IMSI</item>
+        <item>GID</item>
+        <item>ICCID</item>
+    </string-array>
+    <string-array name="notification_prompt_mode_entries">
+        <item>Ikona</item>
+        <item>Počet oznámení</item>
+        <item>Nezobrazovať</item>
+    </string-array>
+    <string-array name="oppo_app_install_location_entries_removable_sd">
+        <item>Úložisko systému</item>
+        <item>Úložisko telefónu</item>
+        <item>Predvolené systémom</item>
+    </string-array>
+    <string-array name="oppo_app_install_location_entries_unremovable_sd">
+        <item>Systémový priestor</item>
+        <item>Úložisko telefónu</item>
+        <item>V závislosti na systéme</item>
+    </string-array>
+    <string-array name="oppo_time_picker_ampm">
+        <item>AM</item>
+        <item>PM</item>
+    </string-array>
+    <string-array name="overlay_display_devices_entries">
+        <item>Žiadne</item>
+        <item>480p</item>
+        <item>480p (zabezpečené)</item>
+        <item>720p</item>
+        <item>720p (zabezpečené)</item>
+        <item>1080p</item>
+        <item>1080p (zabezpečené)</item>
+        <item>4K</item>
+        <item>4K (zabezpečené)</item>
+        <item>4K (prevzorkované)</item>
+        <item>4K (prevzorkované, zabezpečené)</item>
+        <item>720p, 1080p (dve obrazovky)</item>
+    </string-array>
+    <string-array name="preferred_network_mode_choices">
+        <item>Preferované GSM/WCDMA</item>
+        <item>Len GSM</item>
+        <item>Len WCDMA</item>
+        <item>Aut. GSM/WCDMA</item>
+        <item>Aut. CDMA/EvDo</item>
+        <item>CDMA bez EvDo</item>
+        <item>Len EvDo</item>
+        <item>CDMA/EvDo/GSM/WCDMA</item>
+        <item>CDMA + LTE/EvDo</item>
+        <item>GSM/WCDMA/LTE</item>
+        <item>Globálne</item>
+        <item>LTE</item>
+        <item>LTE/WCDMA</item>
+        <item>Len TDSCDMA</item>
+        <item>TDSCDMA/WCDMA</item>
+        <item>LTE/TDSCDMA</item>
+        <item>TDSCDMA/GSM</item>
+        <item>LTE/TDSCDMA/GSM</item>
+        <item>TDSCDMA/GSM/WCDMA</item>
+        <item>LTE/TDSCDMA/WCDMA</item>
+        <item>LTE/TDSCDMA/GSM/WCDMA</item>
+        <item>TDSCDMA/CDMA/EVDO/GSM/WCDMA</item>
+        <item>LTE/TDSCDMA/CDMA/EVDO/GSM/WCDMA</item>
+    </string-array>
+    <string-array name="preferred_network_mode_choices_world_mode">
+        <item>Globálne</item>
+        <item>LTE/CDMA</item>
+        <item>LTE/GSM/UMTS</item>
+    </string-array>
+    <string-array name="presskey_backlight_timeout_entries">
+        <item>6 s</item>
+        <item>Vždy zapnuté</item>
+        <item>Vypnuté</item>
+    </string-array>
+    <string-array name="print_pages">
+        <item>Všetky strany</item>
+        <item>Vybrať strany</item>
+    </string-array>
+    <string-array name="print_sides">
+        <item>Jednostranný</item>
+        <item>Obojstranný</item>
+    </string-array>
+    <string-array name="print_size">
+        <item>ISO A4</item>
+        <item>5 x 7</item>
+        <item>4 x 6</item>
+        <item>List</item>
+    </string-array>
+    <string-array name="privacy_question_list">
+        <item>Ako sa volá jeden z vašich učiteľov?</item>
+        <item>Ako sa volá vaša matka?</item>
+        <item>Ako sa volá váš otec?</item>
+        <item>Aký je názov vašej strednej školy?</item>
+        <item>Aký je názov vašej obľúbenej reštaurácie?</item>
+    </string-array>
+    <string-array name="proc_stats_memory_states">
+        <item>Normálne</item>
+        <item>Mierne</item>
+        <item>Nízke</item>
+        <item>Kritické</item>
+    </string-array>
+    <string-array name="proc_stats_process_states">
+        <item>Trvalé</item>
+        <item>Najvyššia aktivita</item>
+        <item>Dôležité (na popredí)</item>
+        <item>Dôležité (na pozadí)</item>
+        <item>Zálohovanie</item>
+        <item>Ťažká váha</item>
+        <item>Služba (v prevádzke)</item>
+        <item>Služba (reštartuje sa)</item>
+        <item>Prijímač (slúchadlo)</item>
+        <item>Domov</item>
+        <item>Posledná aktivita</item>
+        <item>V medzipamäti (aktivita)</item>
+        <item>V medzipamäti (klient aktivity)</item>
+        <item>V medzipamäti (prázdne)</item>
+    </string-array>
+    <string-array name="ram_states">
+        <item>Normálne</item>
+        <item>Mierne</item>
+        <item>Nízke</item>
+        <item>Veľmi nízke</item>
+        <item>neznáme</item>
+    </string-array>
+    <string-array name="realme_preset_names">
+        <item>Predvolené</item>
+        <item>Pop</item>
+        <item>Rock</item>
+        <item>Country</item>
+        <item>Džez</item>
+        <item>Klasická</item>
+        <item>Metal</item>
+        <item>Blues</item>
+        <item>Hip-hop</item>
+        <item>Tanec</item>
+        <item>Elektronická</item>
+        <item>Vlastné</item>
+    </string-array>
+    <string-array name="running_applications_tabs">
+        <item>Externé aplikácie</item>
+        <item>Systémové aplikácie</item>
+    </string-array>
+    <string-array name="screen_timeout_entries">
+        <item>15 sekúnd</item>
+        <item>30 sekúnd</item>
+        <item>1 minúta</item>
+        <item>2 minúty</item>
+        <item>5 minút</item>
+        <item>10 minút</item>
+        <item>30 minút</item>
+    </string-array>
+    <string-array name="security_settings_premium_sms_values">
+        <item>Pýtať sa</item>
+        <item>Nikdy nepovoliť</item>
+        <item>Vždy povoliť</item>
+    </string-array>
+    <string-array name="select_logd_size_lowram_titles">
+        <item>Vypnuté</item>
+        <item>64 KB</item>
+        <item>256 KB</item>
+        <item>1 MB</item>
+    </string-array>
+    <string-array name="select_logd_size_summaries">
+        <item>Vypnuté</item>
+        <item>64 KB na medzipamäť denníka</item>
+        <item>256 KB na medzipamäť denníka</item>
+        <item>1 MB na medzipamäť denníka</item>
+        <item>4 MB na medzipamäť denníka</item>
+        <item>16 MB na medzipamäť denníka</item>
+    </string-array>
+    <string-array name="select_logd_size_titles">
+        <item>Vypnuté</item>
+        <item>64 KB</item>
+        <item>256 KB</item>
+        <item>1 MB</item>
+        <item>4 MB</item>
+        <item>16 MB</item>
+    </string-array>
+    <string-array name="select_logpersist_summaries">
+        <item>Vypnuté</item>
+        <item>Medzipamäť všetkých denníkov</item>
+        <item>Medzipamäť všetkých denníkov okrem rádia</item>
+        <item>Medzipamäť iba pre denníky kernelu</item>
+    </string-array>
+    <string-array name="select_logpersist_titles">
+        <item>Vypnuté</item>
+        <item>Všetko</item>
+        <item>Všetko okrem rádia</item>
+        <item>iba kernel</item>
+    </string-array>
+    <string-array name="show_non_rect_clip_entries">
+        <item>Vypnuté</item>
+        <item>Vykreslovať neobdĺžnikové oblasti klipu modro</item>
+        <item>Zvýrazniť príkazy testovacieho vykresľovania zeleno</item>
+    </string-array>
+    <string-array name="swipe_direction_values">
+        <item>1</item>
+        <item>0</item>
+    </string-array>
+    <string-array name="timezone_filters">
+        <item>Amerika</item>
+        <item>Európa</item>
+        <item>Afrika</item>
+        <item>Ázia</item>
+        <item>Austrália</item>
+        <item>Pacifik</item>
+        <item>Všetko</item>
+    </string-array>
+    <string-array name="track_frame_time_entries">
+        <item>Vypnuté</item>
+        <item>Na obrazovke ako paličky</item>
+        <item>V adb rozhraní dumpsys gfxinfo</item>
+    </string-array>
+    <string-array name="transition_animation_scale_entries">
+        <item>Animácia vypnutá</item>
+        <item>Mierka animácie 0,5x</item>
+        <item>Mierka animácie 1x</item>
+        <item>Mierka animácie 1,5x</item>
+        <item>Mierka animácie 2x</item>
+        <item>Mierka animácie 5x</item>
+        <item>Mierka animácie 10x</item>
+    </string-array>
+    <string-array name="tts_rate_entries">
+        <item>Veľmi pomalé</item>
+        <item>Pomalé</item>
+        <item>Normálne</item>
+        <item>Rýchle</item>
+        <item>Rýchlejšie</item>
+        <item>Veľmi rýchle</item>
+        <item>Bleskové</item>
+        <item>Bleskovejšie</item>
+        <item>Najrýchlejšie</item>
+    </string-array>
+    <string-array name="usage_stats_display_order_types">
+        <item>Čas používania</item>
+        <item>Naposledy použité</item>
+        <item>Názov aplikácie</item>
+    </string-array>
+    <string-array name="usb_configuration_titles">
+        <item>Nabíja sa</item>
+        <item>MTP (Media Transfer Protocol)</item>
+        <item>PTP (Picture Transfer Protocol)</item>
+        <item>RNDIS (USB Ethernet)</item>
+        <item>Zdroj zvuku</item>
+        <item>MIDI</item>
+    </string-array>
+    <string-array name="vpn_proxy_settings">
+        <item>Žiadne</item>
+        <item>Ručne</item>
+    </string-array>
+    <string-array name="vpn_states">
+        <item>Odpojené</item>
+        <item>Inicializovanie...</item>
+        <item>Pripája sa...</item>
+        <item>Pripojené</item>
+        <item>Čas vypršal</item>
+        <item>Neúspešné</item>
+    </string-array>
+    <string-array name="vpn_types_long">
+        <item>PPTP VPN</item>
+        <item>L2TP/IPSec VPN s predzdieľanými kľúčmi</item>
+        <item>L2TP/IPSec VPN s certifikátmi</item>
+        <item>IPSec VPN s predzdieľanými kľúčmi a overením Xauth</item>
+        <item>IPSec VPN s certifikátmi a overením Xauth</item>
+        <item>IPSec VPN s certifikátmi a hybridným overením</item>
+    </string-array>
+    <string-array name="wifi_calling_mode_choices_v2">
+        <item>Wi-Fi</item>
+        <item>Mobil</item>
+        <item>Len Wi-Fi</item>
+    </string-array>
+    <string-array name="wifi_calling_mode_choices_v2_without_wifi_only">
+        <item>Wi-Fi</item>
+        <item>Mobil</item>
+    </string-array>
+    <string-array name="wifi_eap_entries">
+        <item>PEAP</item>
+        <item>TLS</item>
+        <item>TTLS</item>
+        <item>PWD</item>
+    </string-array>
+    <string-array name="wifi_hidden_entries">
+        <item>Nie</item>
+        <item>Áno</item>
+    </string-array>
+    <string-array name="wifi_ip_settings">
+        <item>DHCP</item>
+        <item>Statická</item>
+    </string-array>
+    <string-array name="wifi_metered_entries">
+        <item>Zistiť automaticky</item>
+        <item>Považovať za merané</item>
+        <item>Považovať za nemerané</item>
+    </string-array>
+    <string-array name="wifi_p2p_status">
+        <item>Pripojené</item>
+        <item>Pozvané</item>
+        <item>Neúspešné</item>
+        <item>Dostupné</item>
+        <item>Mimo dosah</item>
+    </string-array>
+    <string-array name="wifi_p2p_wps_setup">
+        <item>Stlačte tlačidlo</item>
+        <item>PIN z pripojeného zariadenia</item>
+        <item>PIN z tohto zariadenia</item>
+    </string-array>
+    <string-array name="wifi_peap_phase2_entries">
+        <item>Žiadne</item>
+        <item>MSCHAPV2</item>
+        <item>GTC</item>
+    </string-array>
+    <string-array name="wifi_peap_phase2_entries_with_sim_auth">
+        <item>Žiadne</item>
+        <item>MSCHAPV2</item>
+        <item>GTC</item>
+        <item>SIM</item>
+        <item>AKA</item>
+        <item>"AKA'"</item>
+    </string-array>
+    <string-array name="wifi_phase2_entries">
+        <item>Žiadne</item>
+        <item>PAP</item>
+        <item>MSCHAP</item>
+        <item>MSCHAPV2</item>
+        <item>GTC</item>
+    </string-array>
+    <string-array name="wifi_privacy_entries">
+        <item>Náhodná adresa MAC (predvolené)</item>
+        <item>Adresa MAC zariadenia</item>
+    </string-array>
+    <string-array name="wifi_proxy_settings">
+        <item>Žiadne</item>
+        <item>Ručná</item>
+        <item>Aut. konfigurácia proxy</item>
+    </string-array>
+    <string-array name="wifi_signal">
+        <item>Zlá</item>
+        <item>Zlá</item>
+        <item>Dostatočná</item>
+        <item>Dobrá</item>
+        <item>Výborná</item>
+    </string-array>
+    <string-array name="wifi_status">
+        <item></item>
+        <item>Skenuje sa…</item>
+        <item>Pripája sa…</item>
+        <item>Overuje sa…</item>
+        <item>Získava sa adresa IP…</item>
+        <item>Pripojené</item>
+        <item>Prerušené</item>
+        <item>Odpája sa…</item>
+        <item>Odpojené</item>
+        <item>Neúspešné</item>
+        <item>Blokované</item>
+        <item>Dočasne sa vyhýbať nekvalitným pripojeniam</item>
+    </string-array>
+    <string-array name="wifi_status_with_ssid">
+        <item></item>
+        <item>Skenuje sa…</item>
+        <item>Pripája sa k %1$s…</item>
+        <item>Overuje sa %1$s…</item>
+        <item>Získava sa adresa IP z %1$s…</item>
+        <item>Pripojené k %1$s</item>
+        <item>Prerušené</item>
+        <item>Odpája sa od %1$s…</item>
+        <item>Odpojené</item>
+        <item>Neúspešné</item>
+        <item>Blokované</item>
+        <item>Dočasne sa vyhýbať nekvalitným pripojeniam</item>
+    </string-array>
+    <string-array name="window_animation_scale_entries">
+        <item>Animácia vypnutá</item>
+        <item>Mierka animácie 0,5x</item>
+        <item>Mierka animácie 1x</item>
+        <item>Mierka animácie 1,5x</item>
+        <item>Mierka animácie 2x</item>
+        <item>Mierka animácie 5x</item>
+        <item>Mierka animácie 10x</item>
+    </string-array>
+</resources>

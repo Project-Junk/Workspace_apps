@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="end|center" android:orientation="vertical" android:id="@id/statusTexts" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginEnd="@dimen/M3">
+        <TextView android:textSize="@dimen/color_preference_widget_focus_jump_tv" android:textColor="@color/color_preference_secondary_text_color" android:id="@id/color_statusText1" android:focusable="false" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="@dimen/color_preference_status_text_phone_name_max_width" android:lineSpacingMultiplier="1.15" android:textAlignment="viewEnd" android:paddingStart="@dimen/color_preference_widget_focus_jump_margin_start" />
+    </LinearLayout>
+    <ImageView android:id="@id/color_preference_widget_jump" android:background="@drawable/color_btn_next" android:focusable="false" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="@dimen/color_preference_image_padding_start" />
+</LinearLayout>

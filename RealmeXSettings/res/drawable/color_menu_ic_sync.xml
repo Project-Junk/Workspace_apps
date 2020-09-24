@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="true">
+        <bitmap android:src="@drawable/color_menu_ic_sync_normal" android:tint="@color/tint_pressed_default" />
+    </item>
+    <item android:state_enabled="false">
+        <bitmap android:src="@drawable/color_menu_ic_sync_normal" android:tint="@color/tint_disabled_default" />
+    </item>
+    <item>
+        <bitmap android:src="@drawable/color_menu_ic_sync_normal" android:tint="@color/tint_normal_default" />
+    </item>
+</selector>

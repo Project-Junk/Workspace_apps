@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/rule_item" android:layout_width="fill_parent" android:layout_height="@dimen/color_zenmode_list_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@id/rule" android:background="@drawable/color_group_list_selector_item" android:layout_width="fill_parent" android:layout_height="fill_parent" android:paddingStart="@dimen/color_zenmode_padding_start" android:layout_marginEnd="@dimen/color_zenmode_list_margin_right">
+        <TextView android:textSize="@dimen/color_zenmode_item_title_font_size" android:textColor="@color/color_preference_title_color_normal" android:id="@id/rule_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" />
+        <TextView android:textSize="@dimen/color_zenmode_item_summary_font_size" android:textColor="@color/color_preference_secondary_text_color_normal" android:id="@id/rule_summary" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </LinearLayout>
+    <ImageView android:background="@color/color_preference_category_divider_color" android:layout_width="0.70000005dip" android:layout_height="22.0dip" android:layout_centerVertical="true" android:layout_toStartOf="@id/rule_enabled" android:forceDarkAllowed="false" />
+    <com.color.support.widget.ColorSwitch android:id="@id/rule_enabled" android:focusable="false" android:clickable="false" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_centerVertical="true" android:layout_marginStart="@dimen/color_zenmode_padding_start" android:layout_marginEnd="@dimen/color_zenmode_padding_end" android:layout_alignParentEnd="true" />
+</RelativeLayout>

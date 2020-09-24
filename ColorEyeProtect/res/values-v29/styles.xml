@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AppCommonTheme.ApplicationManagePreference.Common" parent="@style/AppCommonTheme.ApplicationManagePreference">
+        <item name="android:forceDarkAllowed">true</item>
+        <item name="android:isLightTheme">true</item>
+    </style>
+    <style name="AppCommonTheme.PreferenceFragment.Common" parent="@style/AppCommonTheme.PreferenceFragment">
+        <item name="android:forceDarkAllowed">true</item>
+        <item name="android:isLightTheme">true</item>
+    </style>
+</resources>

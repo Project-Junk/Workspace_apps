@@ -1,0 +1,920 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="animator_duration_scale_entries">
+        <item>Animazioa desaktibatuta</item>
+        <item>0,5x animazio-eskala</item>
+        <item>1x animazio-eskala</item>
+        <item>1,5x animazio-eskala</item>
+        <item>2x animazio-eskala</item>
+        <item>5x animazio-eskala</item>
+        <item>10x animazio-eskala</item>
+    </string-array>
+    <string-array name="aod_date_entries">
+        <item>Bistaratu egutegi gregoriarra</item>
+        <item>Bistaratu egutegi gregoriarra eta ilargi-egutegia</item>
+        <item>Ez bistaratu</item>
+    </string-array>
+    <string-array name="apn_auth_entries">
+        <item>Bat ere ez</item>
+        <item>PAP</item>
+        <item>CHAP</item>
+        <item>PAP edo CHAP</item>
+    </string-array>
+    <string-array name="apn_protocol_entries">
+        <item>IPv4</item>
+        <item>IPv6</item>
+        <item>IPv4/IPv6</item>
+    </string-array>
+    <string-array name="app_install_location_entries">
+        <item>Gailuaren barne-biltegiratzea</item>
+        <item>SD txartel eramangarria</item>
+        <item>Utzi sistemari erabakitzen</item>
+    </string-array>
+    <string-array name="app_ops_categories">
+        <item>Kokapena</item>
+        <item>Pertsonala</item>
+        <item>SMSa</item>
+        <item>Multimedia</item>
+        <item>Gailua</item>
+    </string-array>
+    <string-array name="app_ops_labels">
+        <item>Kokapena</item>
+        <item>Kokapena</item>
+        <item>Kokapena</item>
+        <item>Bibratu</item>
+        <item>Irakurri kontaktuak</item>
+        <item>Aldatu kontaktuak</item>
+        <item>Irakurri dei-erregistroa</item>
+        <item>Aldatu deien erregistroa</item>
+        <item>Irakurri egutegia</item>
+        <item>Aldatu egutegia</item>
+        <item>Kokapena</item>
+        <item>Argitaratu jakinarazpena</item>
+        <item>Kokapena</item>
+        <item>Deitu telefono honetara</item>
+        <item>Irakurri SMS/MMS</item>
+        <item>Idatzi SMS/MMS</item>
+        <item>Jaso SMS/MMS</item>
+        <item>Jaso SMS/MMS</item>
+        <item>Jaso SMS/MMS</item>
+        <item>Jaso SMS/MMS</item>
+        <item>Bidali SMS/MMS</item>
+        <item>Irakurri SMS/MMS</item>
+        <item>Idatzi SMS/MMS</item>
+        <item>Aldatu ezarpenak</item>
+        <item>Marraztu goian</item>
+        <item>Sartu jakinarazpenetan</item>
+        <item>Kamera</item>
+        <item>Grabatu audioa</item>
+        <item>Erreproduzitu audioa</item>
+        <item>Irakurri arbela</item>
+        <item>Aldatu arbela</item>
+        <item>Multimedia-botoiak</item>
+        <item>Audio-fokatzea</item>
+        <item>Bolumen nagusia</item>
+        <item>Ahots-bolumena</item>
+        <item>Jotzeko bolumena</item>
+        <item>Multimedia-bolumena</item>
+        <item>Alarmaren bolumena</item>
+        <item>Jakinarazpenen bolumena</item>
+        <item>Bluetooth bolumena</item>
+        <item>Jarraitu aktibo</item>
+        <item>Kokapena</item>
+        <item>Kokapena</item>
+        <item>Lortu erabilera-estatistikak</item>
+        <item>Isildu/Aktibatu mikrofonoa</item>
+        <item>Erakutsi oharra</item>
+        <item>Proiektuaren multimedia</item>
+        <item>Aktibatu VPN</item>
+        <item>Idatzi horma-papera</item>
+        <item>Laguntzaren egitura</item>
+        <item>Laguntzaren pantaila-argazkia</item>
+        <item>Irakurri telefonoaren egoera</item>
+        <item>Gehitu ahots-posta</item>
+        <item>Erabili sip</item>
+        <item>Prozesatu irteerako deiak</item>
+        <item>Hatz-marka</item>
+        <item>Gorputzeko sentsoreak</item>
+        <item>Irakurri gelaxka-difusioak</item>
+        <item>Gezurrezko kokapena</item>
+        <item>Irakurri biltegiratzea</item>
+        <item>Idatzi biltegiratzea</item>
+        <item>Aktibatu pantaila</item>
+        <item>Lortu kontuak</item>
+        <item>Exekutatu atzeko planoan</item>
+        <item>Erabilerraztasun-bolumena</item>
+    </string-array>
+    <string-array name="app_ops_summaries">
+        <item>gutxi gorabeherak kokapena</item>
+        <item>kokapen zehatza</item>
+        <item>GPSa</item>
+        <item>bibratu</item>
+        <item>irakurri kontaktuak</item>
+        <item>aldatu kontaktuak</item>
+        <item>irakurri dei-erregistroa</item>
+        <item>aldatu dei-erregistroa</item>
+        <item>irakurri egutegia</item>
+        <item>aldatu egutegia</item>
+        <item>wi-fi arakatzea</item>
+        <item>jakinarazpena</item>
+        <item>sare mugikorra arakatzea</item>
+        <item>deitu telefonoa</item>
+        <item>irakurri SMSa</item>
+        <item>idatzi SMSa</item>
+        <item>jaso SMSa</item>
+        <item>jaso larrialdiko SMSa</item>
+        <item>jaso MMSa</item>
+        <item>jaso WAP push</item>
+        <item>SMSa bidali</item>
+        <item>irakurri ICC SMSa</item>
+        <item>idatzi ICC SMSa</item>
+        <item>aldatu ezarpenak</item>
+        <item>marraztu goran</item>
+        <item>atzitu jakinarazpenak</item>
+        <item>kamera</item>
+        <item>grabatu audioa</item>
+        <item>erreproduzitu audioa</item>
+        <item>irakurri arbela</item>
+        <item>aldatu arbela</item>
+        <item>multimedia-botoiak</item>
+        <item>audioaren fokuratzea</item>
+        <item>bolumen nagusia</item>
+        <item>ahotsaren bolumena</item>
+        <item>jotzeko bolumena</item>
+        <item>multimedia-edukiaren bolumena</item>
+        <item>alarmaren bolumena</item>
+        <item>jakinarazpenaren bolumena</item>
+        <item>bluetootharen bolumena</item>
+        <item>mantedu esna</item>
+        <item>monitorizatu kokapena</item>
+        <item>monitorizatu kontsumo handiko kokapena</item>
+        <item>lortu erabilera-estatistikak</item>
+        <item>isildu/aktibatu mikrofonoa</item>
+        <item>erakutsi oharra</item>
+        <item>proiektuaren multimedia</item>
+        <item>aktibatu VPN</item>
+        <item>idatzi horma-papera</item>
+        <item>laguntzaren egitura</item>
+        <item>laguntzaren pantaila-argazkia</item>
+        <item>irakurri telefonoaren egoera</item>
+        <item>ahots-posta gehitu</item>
+        <item>erabili sip</item>
+        <item>prozesatu irteerako deia</item>
+        <item>hatz-marka</item>
+        <item>gorputzeko sentsoreak</item>
+        <item>irakurri gelaxka-difusioak</item>
+        <item>gezurrezko kokapena</item>
+        <item>irakurri biltegiratzea</item>
+        <item>idatzi biltegiratzea</item>
+        <item>aktibatu pantaila</item>
+        <item>lortu kontuak</item>
+        <item>exekutatu atzeko planoan</item>
+        <item>erabilerraztasun-bolumena</item>
+    </string-array>
+    <string-array name="app_process_limit_entries">
+        <item>Muga estandarra</item>
+        <item>Ez dago atzeko planoko prozesurik</item>
+        <item>Gehienez 1 prozesu</item>
+        <item>Gehienez 2 prozesu</item>
+        <item>Gehienez 3 prozesu</item>
+        <item>Gehienez 4 prozesu</item>
+    </string-array>
+    <string-array name="authentication_frequency_entries">
+        <item>Beti behar da</item>
+        <item>15 minutu eta gero behar da</item>
+    </string-array>
+    <string-array name="autofill_logging_level_entries">
+        <item>Desaktibatuta</item>
+        <item>Araztu</item>
+        <item>Jarioa</item>
+    </string-array>
+    <string-array name="automatic_storage_management_days">
+        <item>30 egun baino gehiago</item>
+        <item>60 egun baino gehiago</item>
+        <item>90 egun baino gehiago</item>
+    </string-array>
+    <string-array name="battery_labels">
+        <item>% 0</item>
+        <item>% 50</item>
+        <item>% 100</item>
+    </string-array>
+    <string-array name="bearer_entries">
+        <item>Zehaztu gabea</item>
+        <item>LTE</item>
+        <item>HSPAP</item>
+        <item>HSPA</item>
+        <item>HSUPA</item>
+        <item>HSDPA</item>
+        <item>UMTS</item>
+        <item>EDGE</item>
+        <item>GPRS</item>
+        <item>eHRPD</item>
+        <item>EVDO_B</item>
+        <item>EVDO_A</item>
+        <item>EVDO_0</item>
+        <item>1xRTT</item>
+        <item>IS95B</item>
+        <item>IS95A</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_bits_per_sample_summaries">
+        <item>Erabili sistemaren hautapena (lehenetsia)</item>
+        <item>16 bit/lagina</item>
+        <item>24 bit/lagina</item>
+        <item>32 bit/lagina</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_bits_per_sample_titles">
+        <item>Erabili sistemaren hautapena (lehenetsia)</item>
+        <item>16 bit/lagina</item>
+        <item>24 bit/lagina</item>
+        <item>32 bit/lagina</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_channel_mode_summaries">
+        <item>Erabili sistemaren hautapena (lehenetsia)</item>
+        <item>Monoa</item>
+        <item>Estereoa</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_channel_mode_titles">
+        <item>Erabili sistemaren hautapena (lehenetsia)</item>
+        <item>Monoa</item>
+        <item>Estereoa</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_ldac_playback_quality_summaries">
+        <item>Audio-kalitaterako optimizatua</item>
+        <item>Audioaren eta konexioaren kalitate orekatua</item>
+        <item>Konexioa-kalitaterako optimizatua</item>
+        <item>Ahalegin onena (Bit-abiadura moldakorra)</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_ldac_playback_quality_titles">
+        <item>Audio-kalitaterako optimizatua (990kbps/909kbps)</item>
+        <item>Audioaren eta konexioaren kalitate orekatua (660kbps/606kbps)</item>
+        <item>Konexio-kalitaterako optimizatua (330kbps/303kbps)</item>
+        <item>Ahalegin onena (Bit-abiadura moldakorra)</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_sample_rate_summaries">
+        <item>Erabili sistemaren hautapena (lehenetsia)</item>
+        <item>44,1 kHz</item>
+        <item>48,0 kHz</item>
+        <item>88,2 kHz</item>
+        <item>96,0 kHz</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_sample_rate_titles">
+        <item>Erabili sistemaren hautapena (lehenetsia)</item>
+        <item>44,1 kHz</item>
+        <item>48,0 kHz</item>
+        <item>88,2 kHz</item>
+        <item>96,0 kHz</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_summaries">
+        <item>Erabili sistemaren hautapena (lehenetsia)</item>
+        <item>SBC</item>
+        <item>AAC</item>
+        <item>Qualcomm® aptX™ Audio</item>
+        <item>Qualcomm® aptX™ HD Audio</item>
+        <item>LDAC</item>
+        <item>Qualcomm® aptX™ Adaptive Audio</item>
+        <item>Qualcomm® aptX™ TWS+ Audio</item>
+        <item>Gaitu aukerako kodekak</item>
+        <item>Desgaitu aukerako kodekak</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_summaries_new">
+        <item>Erabili sistemaren hautapena (lehenetsia)</item>
+        <item>SBC</item>
+        <item>AAC</item>
+        <item>Qualcomm® aptX™ audioa</item>
+        <item>Qualcomm® aptX™ HD audioa</item>
+        <item>LDAC</item>
+        <item>LHDC</item>
+        <item>Qualcomm® aptX™ audio moldagarria</item>
+        <item>Qualcomm® aptX™ TWS+ audioa</item>
+        <item>Gaitu aukerako kodekak</item>
+        <item>Desgaitu aukerako kodekak</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_titles">
+        <item>Erabili sistemaren hautapena (lehenetsia)</item>
+        <item>SBC</item>
+        <item>AAC</item>
+        <item>Qualcomm® aptX™ Audio</item>
+        <item>Qualcomm® aptX™ HD Audio</item>
+        <item>LDAC</item>
+        <item>Qualcomm® aptX™ Adaptive Audio</item>
+        <item>Qualcomm® aptX™ TWS+ Audio</item>
+        <item>Gaitu aukerako kodekak</item>
+        <item>Desgaitu aukerako kodekak</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_titles_new">
+        <item>Erabili sistemaren hautapena (lehenetsia)</item>
+        <item>SBC</item>
+        <item>AAC</item>
+        <item>Qualcomm® aptX™ audioa</item>
+        <item>Qualcomm® aptX™ HD audioa</item>
+        <item>LDAC</item>
+        <item>LHDC</item>
+        <item>Qualcomm® aptX™ audio moldagarria</item>
+        <item>Qualcomm® aptX™ TWS+ audioa</item>
+        <item>Gaitu aukerako kodekak</item>
+        <item>Desgaitu aukerako kodekak</item>
+    </string-array>
+    <string-array name="bluetooth_audio_active_device_summaries">
+        <item></item>
+        <item>, aktibo</item>
+        <item>, aktibo (multimedia-edukia)</item>
+        <item>, aktibo (telefonoa)</item>
+    </string-array>
+    <string-array name="bluetooth_avrcp_version_values">
+        <item>avrcp14</item>
+        <item>avrcp13</item>
+        <item>avrcp15</item>
+        <item>avrcp16</item>
+    </string-array>
+    <string-array name="bluetooth_avrcp_versions">
+        <item>AVRCP 1.4 (lehenetsia)</item>
+        <item>AVRCP 1.3</item>
+        <item>AVRCP 1.5</item>
+        <item>AVRCP 1.6</item>
+    </string-array>
+    <string-array name="bluetooth_max_connected_audio_devices">
+        <item>Erabili sistemak lehenetsia: %1$d</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+    <string-array name="bluetooth_visibility_timeout_entries">
+        <item>2 minutu</item>
+        <item>5 minutu</item>
+        <item>1 ordu</item>
+        <item>Denbora-mugarik gabe</item>
+    </string-array>
+    <string-array name="bt_hci_snoop_log_entries">
+        <item>Desgaituta</item>
+        <item>Iragaztea gaituta</item>
+        <item>Entzungailuak iragaztea gaituta</item>
+        <item>Multimedia-paketeak iragaztea gaitua</item>
+        <item>Gaituta</item>
+    </string-array>
+    <string-array name="captioning_edge_type_selector_titles">
+        <item>Lehenetsia</item>
+        <item>Bat ere ez</item>
+        <item>Ingerada</item>
+        <item>Jaregin itzala</item>
+        <item>Altxatuta</item>
+        <item>Beheratuta</item>
+    </string-array>
+    <string-array name="captioning_font_size_selector_titles">
+        <item>Ñimiñoa</item>
+        <item>Txikia</item>
+        <item>Normala</item>
+        <item>Handia</item>
+        <item>Oso handia</item>
+    </string-array>
+    <string-array name="captioning_opacity_selector_titles">
+        <item>% 25</item>
+        <item>% 50</item>
+        <item>% 75</item>
+        <item>% 100</item>
+    </string-array>
+    <string-array name="captioning_preset_selector_titles">
+        <item>Erabili aplikazio lehenetsiak</item>
+        <item>Zuria beltzean</item>
+        <item>Beltza zurian</item>
+        <item>Horia beltzean</item>
+        <item>Horia urdinean</item>
+        <item>Pertsonalizatu</item>
+    </string-array>
+    <string-array name="captioning_typeface_selector_titles">
+        <item>Lehenetsia</item>
+        <item>Sans-Serif</item>
+        <item>Sans-Serif condensed</item>
+        <item>Sans-Serif Monospace</item>
+        <item>Serif</item>
+        <item>Serif Monospace</item>
+        <item>Informala</item>
+        <item>Etzana</item>
+        <item>Maiuskula txikiak</item>
+    </string-array>
+    <string-array name="cdma_subscription_choices">
+        <item>RUIM/SIM</item>
+        <item>NV</item>
+    </string-array>
+    <string-array name="cdma_system_select_choices">
+        <item>Etxea soilik</item>
+        <item>Automatikoa</item>
+    </string-array>
+    <string-array name="color_mode_descriptions">
+        <item>Kolore hobetuak</item>
+        <item>Kolore naturalak begiak ikusten dituen moduan</item>
+        <item>Kolore optimizatuak eduki digitaletarako</item>
+    </string-array>
+    <string-array name="color_mode_names">
+        <item>Bizia (lehenetsia)</item>
+        <item>Naturala</item>
+        <item>Estandarra</item>
+    </string-array>
+    <string-array name="color_picker">
+        <item>Ziana</item>
+        <item>Urdina</item>
+        <item>Indigoa</item>
+        <item>Morea</item>
+        <item>Arrosa</item>
+        <item>Gorria</item>
+    </string-array>
+    <string-array name="color_solor_mounth">
+        <item>Urtarrila</item>
+        <item>Otsaila</item>
+        <item>Martxoa</item>
+        <item>Apirila</item>
+        <item>Maiatza</item>
+        <item>Ekaina</item>
+        <item>Uztaila</item>
+        <item>Abuztua</item>
+        <item>Iraila</item>
+        <item>Urria</item>
+        <item>Azaroa</item>
+        <item>Abendua</item>
+    </string-array>
+    <string-array name="cut_mode_entries">
+        <item>Egokitze automatikoa</item>
+        <item>Erakutsi aurreko kamera</item>
+        <item>Ezkutatu aurreko kamera (pantaila osoa)</item>
+    </string-array>
+    <string-array name="dark_ui_mode_entries">
+        <item>Iluna</item>
+        <item>Argia</item>
+    </string-array>
+    <string-array name="data_usage_data_range">
+        <item>Azken 30 egunak</item>
+        <item>Ezarri erabilera-zikloa…</item>
+    </string-array>
+    <string-array name="debug_hw_overdraw_entries">
+        <item>Desaktibatuta</item>
+        <item>Erakutsi gehiegi marraztutako eremuak</item>
+        <item>Erakutsi deuteranomaliaren eremuak</item>
+    </string-array>
+    <string-array name="default_volume_type">
+        <item>Dei-tonuaren bolumena</item>
+        <item>Multimedia-bolumena</item>
+    </string-array>
+    <string-array name="dream_timeout_entries">
+        <item>Inoiz ez</item>
+        <item>15 segundo</item>
+        <item>30 segundo</item>
+        <item>1 minutu</item>
+        <item>2 minutu</item>
+        <item>5 minutu</item>
+        <item>10 minutu</item>
+        <item>30 minutu</item>
+    </string-array>
+    <string-array name="enable_opengl_traces_entries">
+        <item>Bat ere ez</item>
+        <item>Logcat</item>
+        <item>Systrace (grafikoak)</item>
+        <item>Dei pila glGetError-en</item>
+    </string-array>
+    <string-array name="entries_font_size">
+        <item>Txikia</item>
+        <item>Lehenetsia</item>
+        <item>Handia</item>
+        <item>Maximoa</item>
+    </string-array>
+    <string-array name="eq_preset_names">
+        <item>Desakt.</item>
+        <item>Popa</item>
+        <item>Rocka</item>
+        <item>Country</item>
+        <item>Jazza</item>
+        <item>Klasikoa</item>
+        <item>Metala</item>
+        <item>Bluesa</item>
+        <item>Hip hop</item>
+        <item>Dance</item>
+        <item>Elektr.</item>
+        <item>Pertson.</item>
+    </string-array>
+    <string-array name="format_type_entries">
+        <item>FAT32 (lehenetsia)</item>
+        <item>exFAT</item>
+    </string-array>
+    <string-array name="format_type_summarys">
+        <item>Mugikorreko biltegiratze-gailuetan gehien erabilitako fitxategi-sistema mota</item>
+        <item>Fitxategi-sistema mota hobetua, fitxategi bakarrak onartzen ditu 4G bidez, lehenik kontrolatzailea instalatu behar duzun PCra konektatzean</item>
+    </string-array>
+    <string-array name="hdcp_checking_summaries">
+        <item>Ez erabili inoiz HDCP azterketa</item>
+        <item>Erabili HDCP azterketa DRM edukietarako soilik</item>
+        <item>Erabili beti HDCP azterketa</item>
+    </string-array>
+    <string-array name="hdcp_checking_titles">
+        <item>Ez egiaztatu inoiz</item>
+        <item>Egiaztatu DRM edukia soilik</item>
+        <item>Egiaztatu beti</item>
+    </string-array>
+    <string-array name="incomming_call_color_type_name">
+        <item>Neoi morea</item>
+        <item>Urdin ozeanoa</item>
+        <item>Anbar laranja</item>
+    </string-array>
+    <string-array name="incomming_call_type_name">
+        <item>VIP kontaktuak</item>
+        <item>Gogoko kontaktuak</item>
+        <item>Kontaktu guztiak</item>
+        <item>Dei guztiak</item>
+        <item>Bat ere ez</item>
+    </string-array>
+    <string-array name="lock_after_timeout_entries">
+        <item>Oraintxe bertan</item>
+        <item>5 segundo</item>
+        <item>15 segundo</item>
+        <item>30 segundo</item>
+        <item>1 minutu</item>
+        <item>2 minutu</item>
+        <item>5 minutu</item>
+        <item>10 minutu</item>
+        <item>30 minutu</item>
+    </string-array>
+    <string-array name="long_press_timeout_selector_titles">
+        <item>Laburra</item>
+        <item>Ertaina</item>
+        <item>Luzea</item>
+    </string-array>
+    <string-array name="mvno_type_entries">
+        <item>Bat ere ez</item>
+        <item>SPN</item>
+        <item>IMSI</item>
+        <item>GID</item>
+        <item>ICCID</item>
+    </string-array>
+    <string-array name="notification_prompt_mode_entries">
+        <item>Ikonoa</item>
+        <item>Jakinarazpen kopurua</item>
+        <item>Ez erakutsi</item>
+    </string-array>
+    <string-array name="oppo_app_install_location_entries_removable_sd">
+        <item>Sistemaren biltegiratzea</item>
+        <item>Telefonoko biltegiratzea</item>
+        <item>Sistemak lehenetsia</item>
+    </string-array>
+    <string-array name="oppo_app_install_location_entries_unremovable_sd">
+        <item>Sistemako tokia</item>
+        <item>Telefonoko biltegiratzea</item>
+        <item>Sistemaren araberakoa</item>
+    </string-array>
+    <string-array name="oppo_time_picker_ampm">
+        <item>AM</item>
+        <item>PM</item>
+    </string-array>
+    <string-array name="overlay_display_devices_entries">
+        <item>Bat ere ez</item>
+        <item>480p</item>
+        <item>480p (segurua)</item>
+        <item>720p</item>
+        <item>720p (segurua)</item>
+        <item>1080p</item>
+        <item>1080p (segurua)</item>
+        <item>4K</item>
+        <item>4K (segurua)</item>
+        <item>4K (hobetua)</item>
+        <item>4K (hobetua, segurua)</item>
+        <item>720p, 1080p (pantaila duala)</item>
+    </string-array>
+    <string-array name="preferred_network_mode_choices">
+        <item>GSM/WCDMA hobetsia</item>
+        <item>GSM soilik</item>
+        <item>WCDMA soilik</item>
+        <item>GSM/WCDMA automatikoa</item>
+        <item>CDMA/EvDo automatikoa</item>
+        <item>CDMA EvDo gabe</item>
+        <item>EvDo soilik</item>
+        <item>CDMA/EvDo/GSM/WCDMA</item>
+        <item>CDMA + LTE/EvDo</item>
+        <item>GSM/WCDMA/LTE</item>
+        <item>Orokorra</item>
+        <item>LTE</item>
+        <item>LTE / WCDMA</item>
+        <item>TDSCDMA soilik</item>
+        <item>TDSCDMA/WCDMA</item>
+        <item>LTE/TDSCDMA</item>
+        <item>TDSCDMA/GSM</item>
+        <item>LTE/TDSCDMA/GSM</item>
+        <item>TDSCDMA/GSM/WCDMA</item>
+        <item>LTE/TDSCDMA/WCDMA</item>
+        <item>LTE/TDSCDMA/GSM/WCDMA</item>
+        <item>TDSCDMA/CDMA/EVDO/GSM/WCDMA</item>
+        <item>LTE/TDSCDMA/CDMA/EVDO/GSM/WCDMA</item>
+    </string-array>
+    <string-array name="preferred_network_mode_choices_world_mode">
+        <item>Orokorra</item>
+        <item>LTE / CDMA</item>
+        <item>LTE / GSM / UMTS</item>
+    </string-array>
+    <string-array name="presskey_backlight_timeout_entries">
+        <item>6 s</item>
+        <item>Aktibatuta beti</item>
+        <item>Desaktibatuta</item>
+    </string-array>
+    <string-array name="print_pages">
+        <item>Orrialde guztiak</item>
+        <item>Hautatu orrialdeak</item>
+    </string-array>
+    <string-array name="print_sides">
+        <item>Alde batetik</item>
+        <item>Bi aldetatik</item>
+    </string-array>
+    <string-array name="print_size">
+        <item>ISO A4</item>
+        <item>5 x 7</item>
+        <item>4 x 6</item>
+        <item>Gutuna</item>
+    </string-array>
+    <string-array name="privacy_question_list">
+        <item>Zein da zure irakaslearen izena?</item>
+        <item>Zein da zure amaren izena?</item>
+        <item>Zein da zure aitaren izena?</item>
+        <item>Zein da institutuaren izana?</item>
+        <item>Zein da zure jatetxe gogokoenaren izena?</item>
+    </string-array>
+    <string-array name="proc_stats_memory_states">
+        <item>Normala</item>
+        <item>Ertaina</item>
+        <item>Baxua</item>
+        <item>Oso gutxi</item>
+    </string-array>
+    <string-array name="proc_stats_process_states">
+        <item>Iraunkorra</item>
+        <item>Jarduera nagusia</item>
+        <item>Garrantzitsua (aurreko planoa)</item>
+        <item>Garrantzitsua (atzeko planoa)</item>
+        <item>Babeskopiak</item>
+        <item>Pisu handia</item>
+        <item>Zerbitzua (exekutatuta)</item>
+        <item>Zerbitzua (berrabiarazten)</item>
+        <item>Hargailua</item>
+        <item>Hasiera</item>
+        <item>Azken jarduera</item>
+        <item>Cacheratuta (jarduera)</item>
+        <item>Cacheratuta (bezero-jarduera)</item>
+        <item>Cacheratuta (hutsik)</item>
+    </string-array>
+    <string-array name="ram_states">
+        <item>Normala</item>
+        <item>Ertaina</item>
+        <item>Baxua</item>
+        <item>Oso baxua</item>
+        <item>Ezezaguna</item>
+    </string-array>
+    <string-array name="realme_preset_names">
+        <item>Lehenetsia</item>
+        <item>Popa</item>
+        <item>Rocka</item>
+        <item>Herrialdea</item>
+        <item>Jazza</item>
+        <item>Klasikoa</item>
+        <item>Metala</item>
+        <item>Bluesa</item>
+        <item>Hip hop</item>
+        <item>Dantza</item>
+        <item>Elektronikoa</item>
+        <item>Pertsonalizatu</item>
+    </string-array>
+    <string-array name="running_applications_tabs">
+        <item>Hirugarrenen aplikazioak</item>
+        <item>Sistemaren aplikazioak</item>
+    </string-array>
+    <string-array name="screen_timeout_entries">
+        <item>15 segundo</item>
+        <item>30 segundo</item>
+        <item>1 minutu</item>
+        <item>2 minutu</item>
+        <item>5 minutu</item>
+        <item>10 minutu</item>
+        <item>30 minutu</item>
+    </string-array>
+    <string-array name="security_settings_premium_sms_values">
+        <item>Galdetu</item>
+        <item>Ez baimendu inoiz</item>
+        <item>Baimendu beti</item>
+    </string-array>
+    <string-array name="select_logd_size_lowram_titles">
+        <item>Desaktibatuta</item>
+        <item>64K</item>
+        <item>256K</item>
+        <item>1M</item>
+    </string-array>
+    <string-array name="select_logd_size_summaries">
+        <item>Desaktibatuta</item>
+        <item>64K erregistro-buffer bakoitzeko</item>
+        <item>256K erregistro-buffer bakoitzeko</item>
+        <item>1M erregistro-buffer bakoitzeko</item>
+        <item>4M erregistro-buffer bakoitzeko</item>
+        <item>16M erregistro-buffer bakoitzeko</item>
+    </string-array>
+    <string-array name="select_logd_size_titles">
+        <item>Desaktibatuta</item>
+        <item>64K</item>
+        <item>256K</item>
+        <item>1M</item>
+        <item>4M</item>
+        <item>16M</item>
+    </string-array>
+    <string-array name="select_logpersist_summaries">
+        <item>Desaktibatuta</item>
+        <item>Erregistroen buffer guztiak</item>
+        <item>Guztiak irrati-erregistroen bufferrak izan ezik</item>
+        <item>Kernel erregistroen bufferrak soilik</item>
+    </string-array>
+    <string-array name="select_logpersist_titles">
+        <item>Desaktibatuta</item>
+        <item>Guztiak</item>
+        <item>Guztiak, irratia izan ezik</item>
+        <item>kernel soilik</item>
+    </string-array>
+    <string-array name="show_non_rect_clip_entries">
+        <item>Desaktibatuta</item>
+        <item>Marraztu lauki zuzena ez den klip-eskualdea urdinez</item>
+        <item>Nabarmendu aztertutako marrazketa-aginduak berdez</item>
+    </string-array>
+    <string-array name="swipe_direction_values">
+        <item>1</item>
+        <item>0</item>
+    </string-array>
+    <string-array name="timezone_filters">
+        <item>Amerika</item>
+        <item>Europa</item>
+        <item>Afrika</item>
+        <item>Asia</item>
+        <item>Australia</item>
+        <item>Pazifikoa</item>
+        <item>Guztiak</item>
+    </string-array>
+    <string-array name="track_frame_time_entries">
+        <item>Desaktibatuta</item>
+        <item>Pantailan barra gisa</item>
+        <item>adb aterpe dumpsys gfxinfo</item>
+    </string-array>
+    <string-array name="transition_animation_scale_entries">
+        <item>Animazioa desaktibatuta</item>
+        <item>0,5x animazio-eskala</item>
+        <item>1x animazio-eskala</item>
+        <item>1,5x animazio-eskala</item>
+        <item>2x animazio-eskala</item>
+        <item>5x animazio-eskala</item>
+        <item>10x animazio-eskala</item>
+    </string-array>
+    <string-array name="tts_rate_entries">
+        <item>Oso mantso</item>
+        <item>Mantso</item>
+        <item>Normala</item>
+        <item>Azkar</item>
+        <item>Azkarrago</item>
+        <item>Oso azkar</item>
+        <item>Azkar</item>
+        <item>Oso azkar</item>
+        <item>Ahalik eta azkarren</item>
+    </string-array>
+    <string-array name="usage_stats_display_order_types">
+        <item>Erabilera-denbora</item>
+        <item>Erabilitako azken aldia</item>
+        <item>Aplikazioaren izena</item>
+    </string-array>
+    <string-array name="usb_configuration_titles">
+        <item>Kargatzen</item>
+        <item>MTP (Multimedia transferitzeko protokoloa)</item>
+        <item>PTP (Argazkiak transferitzeko protokoloa)</item>
+        <item>RNDIS (USB Ethernet)</item>
+        <item>Audio-iturria</item>
+        <item>MIDI</item>
+    </string-array>
+    <string-array name="vpn_proxy_settings">
+        <item>Bat ere ez</item>
+        <item>Eskuzkoa</item>
+    </string-array>
+    <string-array name="vpn_states">
+        <item>Deskonektatuta</item>
+        <item>Abiarazten...</item>
+        <item>Konektatzen...</item>
+        <item>Konektatuta</item>
+        <item>Denbora-muga</item>
+        <item>Ezin izan da egin</item>
+    </string-array>
+    <string-array name="vpn_types_long">
+        <item>PPTP VPN</item>
+        <item>L2TP/IPSec VPN aurrepartekatutako teklekin</item>
+        <item>L2TP/IPSec VPN ziurtagiriekin</item>
+        <item>IPSec VPN aurrepartekatutako teklekin eta Xauth autentifikazioarekin</item>
+        <item>IPSec VPN ziurtagiriekin eta Xauth autentifikazioarekin</item>
+        <item>IPSec VPN ziurtagiriekin eta autentifikazio hibridoarekin</item>
+    </string-array>
+    <string-array name="wifi_calling_mode_choices_v2">
+        <item>Wi-Fi</item>
+        <item>Mugikorra</item>
+        <item>Wi-Fi bakarrik</item>
+    </string-array>
+    <string-array name="wifi_calling_mode_choices_v2_without_wifi_only">
+        <item>Wi-Fi</item>
+        <item>Mugikorra</item>
+    </string-array>
+    <string-array name="wifi_eap_entries">
+        <item>PEAP</item>
+        <item>TLS</item>
+        <item>TTLS</item>
+        <item>PWD</item>
+    </string-array>
+    <string-array name="wifi_hidden_entries">
+        <item>Ez</item>
+        <item>Bai</item>
+    </string-array>
+    <string-array name="wifi_ip_settings">
+        <item>DHCP</item>
+        <item>Estatikoa</item>
+    </string-array>
+    <string-array name="wifi_metered_entries">
+        <item>Detektatu automatikoki</item>
+        <item>Tratatu neurtu gisa</item>
+        <item>Tratatu neurtu gabeko gisa</item>
+    </string-array>
+    <string-array name="wifi_p2p_status">
+        <item>Konektatuta</item>
+        <item>Gonbidatuta</item>
+        <item>Ezin izan da egin</item>
+        <item>Libre</item>
+        <item>Barrutitik kanpo</item>
+    </string-array>
+    <string-array name="wifi_p2p_wps_setup">
+        <item>Push botoia</item>
+        <item>PINa pareko gailutik</item>
+        <item>PINa gailutik</item>
+    </string-array>
+    <string-array name="wifi_peap_phase2_entries">
+        <item>Bat ere ez</item>
+        <item>MSCHAPV2</item>
+        <item>GTC</item>
+    </string-array>
+    <string-array name="wifi_peap_phase2_entries_with_sim_auth">
+        <item>Bat ere ez</item>
+        <item>MSCHAPV2</item>
+        <item>GTC</item>
+        <item>SIMa</item>
+        <item>AKA</item>
+        <item>"AKA'"</item>
+    </string-array>
+    <string-array name="wifi_phase2_entries">
+        <item>Bat ere ez</item>
+        <item>PAP</item>
+        <item>MSCHAP</item>
+        <item>MSCHAPV2</item>
+        <item>GTC</item>
+    </string-array>
+    <string-array name="wifi_privacy_entries">
+        <item>Ausazko MAC (lehenetsia)</item>
+        <item>Gailuaren MAC</item>
+    </string-array>
+    <string-array name="wifi_proxy_settings">
+        <item>Bat ere ez</item>
+        <item>Eskuzkoa</item>
+        <item>Proxyren konfigurazio automatikoa</item>
+    </string-array>
+    <string-array name="wifi_signal">
+        <item>Txarra</item>
+        <item>Txarra</item>
+        <item>Nahiko ona</item>
+        <item>Ona</item>
+        <item>Bikaina</item>
+    </string-array>
+    <string-array name="wifi_status">
+        <item></item>
+        <item>Aztertzen…</item>
+        <item>Konektatzen…</item>
+        <item>Autentifikatzen…</item>
+        <item>IP helbidea eskuratzen…</item>
+        <item>Konektatuta</item>
+        <item>Esekita</item>
+        <item>Deskonektatzen…</item>
+        <item>Deskonektatuta</item>
+        <item>Ezin izan da egin</item>
+        <item>Blokeatuta</item>
+        <item>Konexio txarra saihesten aldi batez</item>
+    </string-array>
+    <string-array name="wifi_status_with_ssid">
+        <item></item>
+        <item>Aztertzen…</item>
+        <item>%1$s sarera konektatzen…</item>
+        <item>%1$s bidez autentifikatzen…</item>
+        <item>%1$s sarearen IP helbidea eskuratzen…</item>
+        <item>Hona konektatuta: %1$s</item>
+        <item>Esekita</item>
+        <item>%1$s saretik deskonektatzen…</item>
+        <item>Deskonektatuta</item>
+        <item>Ezin izan da egin</item>
+        <item>Blokeatuta</item>
+        <item>Konexio txarra saihesten aldi batez</item>
+    </string-array>
+    <string-array name="window_animation_scale_entries">
+        <item>Animazioa desaktibatuta</item>
+        <item>0,5x animazio-eskala</item>
+        <item>1x animazio-eskala</item>
+        <item>1,5x animazio-eskala</item>
+        <item>2x animazio-eskala</item>
+        <item>5x animazio-eskala</item>
+        <item>10x animazio-eskala</item>
+    </string-array>
+</resources>

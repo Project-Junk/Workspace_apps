@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="kg_password_default_pin_message_multi_sim">
+        <item quantity="other">Unesite PIN za SIM karticu %1$d. Preostalo pokušaja: %2$d.</item>
+        <item quantity="one">Unesite PIN za SIM karticu %1$d. Preostalo pokušaja: %2$d. Kontaktirajte operatera koji će vam pomoći otključati uređaj u slučaju ponovnog netočnog unosa.</item>
+    </plurals>
+    <plurals name="kg_password_wrong_pin_code_multi_sim">
+        <item quantity="other">Netočan PIN za SIM karticu %1$d. Preostalo pokušaja: %2$d.</item>
+        <item quantity="one">Netočan PIN za SIM karticu %1$d. Preostalo pokušaja: %2$d. Kontaktirajte operatera koji će vam pomoći otključati uređaj u slučaju ponovnog netočnog unosa.</item>
+    </plurals>
+    <plurals name="kg_prompt_reason_time_password">
+        <item quantity="other">Uređaj je bio zaključan %d h. Potvrdite lozinku.</item>
+        <item quantity="one">Uređaj je bio zaključan %d h. Potvrdite lozinku.</item>
+    </plurals>
+    <plurals name="kg_too_many_failed_attempts_countdown">
+        <item quantity="other">Pokušajte ponovno nakon %d s.</item>
+        <item quantity="one">Pokušajte ponovno nakon 1 sekunde.</item>
+    </plurals>
+    <plurals name="snoozeHourOptions">
+        <item quantity="other">%d h</item>
+        <item quantity="one">%d h</item>
+    </plurals>
+    <plurals name="snoozeMinuteOptions">
+        <item quantity="other">%d min</item>
+        <item quantity="one">%d min</item>
+    </plurals>
+</resources>

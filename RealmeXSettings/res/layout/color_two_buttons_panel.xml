@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Button android:textColor="@color/color_preference_assignment_text_color" android:gravity="start|center" android:id="@id/left_button" android:background="@null" android:layout_width="0.0dip" android:layout_height="30.0dip" android:text="@string/ok" android:singleLine="true" android:layout_weight="1.0" style="@style/TextAppearance.OPPO.FocusTitle" />
+    <Space android:id="@id/buttons_spacer_left" android:visibility="invisible" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="2.0" />
+    <Button android:textColor="@color/color_preference_assignment_text_color" android:gravity="end|center" android:id="@id/right_button" android:background="@null" android:layout_width="0.0dip" android:layout_height="30.0dip" android:text="@string/cancel" android:singleLine="true" android:layout_weight="1.0" style="@style/TextAppearance.OPPO.FocusTitle" />
+</LinearLayout>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@id/main_layout" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <RelativeLayout android:orientation="vertical" android:id="@id/list_container" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <androidx.recyclerview.widget.ColorRecyclerView android:id="@id/apps_list" android:scrollbars="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" settings:fastScrollEnabled="false" settings:fastScrollHorizontalThumbDrawable="@drawable/thumb_drawable" settings:fastScrollHorizontalTrackDrawable="@drawable/line_drawable" settings:fastScrollVerticalThumbDrawable="@drawable/thumb_drawable" settings:fastScrollVerticalTrackDrawable="@drawable/line_drawable" />
+                <com.coloros.settings.feature.appmanager.search.SearchEmptyLayout android:gravity="center" android:id="@android:id/empty" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+            </FrameLayout>
+            <FrameLayout android:id="@id/pinned_header" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="60.0dip" />
+            <FrameLayout android:id="@id/search_fragment" android:background="@color/search_view_window_mask" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        </RelativeLayout>
+        <include layout="@layout/color_loading_container" />
+    </FrameLayout>
+    <color.support.design.widget.ColorAppBarLayout android:id="@id/abl" android:background="@null" android:layout_width="fill_parent" android:layout_height="wrap_content" android:elevation="0.0dip" settings:layout_behavior="@string/color_app_list_search_behavior">
+        <color.support.v7.widget.Toolbar android:id="@id/toolbar" android:background="@drawable/color_toolbar_bg" android:paddingTop="@dimen/toolbar_margin_top" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/toolbar_min_height" settings:colorLayoutScrollFlags="exitUntilCollapsed|scroll" settings:supportTitleTextAppearance="@style/textAppearanceSecondTitle" />
+        <com.color.support.widget.ColorSearchViewAnimate android:id="@id/search_view" android:layout_width="fill_parent" android:layout_height="@dimen/app_list_search_bar_height" android:layout_marginBottom="@dimen/app_list_search_view_margin_bottom" android:paddingStart="@dimen/common_margin" android:paddingEnd="@dimen/common_margin" />
+        <View android:layout_gravity="center_horizontal" android:id="@id/divider_line" android:background="?colorDividerBackgroundColor" android:layout_width="fill_parent" android:layout_height="@dimen/divider_background_height" android:alpha="0.0" android:paddingStart="@dimen/common_margin" android:paddingEnd="@dimen/common_margin" android:forceDarkAllowed="false" />
+    </color.support.design.widget.ColorAppBarLayout>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

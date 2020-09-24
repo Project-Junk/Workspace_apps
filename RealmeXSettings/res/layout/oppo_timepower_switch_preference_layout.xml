@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:baselineAligned="false"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:id="@id/content_layout" android:background="@drawable/color_group_list_selector_item" android:paddingTop="11.0dip" android:paddingBottom="@dimen/M5" android:descendantFocusability="blocksDescendants" android:layout_width="0.0dip" android:layout_height="wrap_content" android:minHeight="?android:listPreferredItemHeightLarge" android:layout_weight="1.0" android:paddingStart="@dimen/M10" android:paddingEnd="@dimen/android_preference_switch_margin_left">
+        <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="@dimen/TD17" android:textColor="@color/color_preference_title_color" android:id="@id/timepower_time" android:layout_width="wrap_content" android:layout_height="wrap_content" android:includeFontPadding="false" />
+            <TextView android:textSize="@dimen/TD05" android:textColor="@color/color_preference_secondary_text_color" android:id="@id/timepower_repeat" android:layout_width="wrap_content" android:layout_height="wrap_content" android:includeFontPadding="false" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:gravity="center_vertical" android:layout_gravity="center_vertical" android:id="@id/widget_layout" android:focusable="true" android:clickable="true" android:layout_width="wrap_content" android:layout_height="fill_parent" android:paddingEnd="@dimen/M10">
+        <ImageView android:background="@color/color_preference_category_divider_color" android:layout_width="0.70000005dip" android:layout_height="22.0dip" android:layout_marginEnd="8.0dip" android:forceDarkAllowed="false" />
+        <com.color.support.widget.ColorSwitch android:layout_gravity="end|center" android:id="@id/switchWidget" android:focusable="true" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="@dimen/android_preference_switch_margin_left" />
+    </LinearLayout>
+</LinearLayout>

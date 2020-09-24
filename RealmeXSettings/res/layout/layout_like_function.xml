@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textSize="@dimen/color_font_size_14SP" android:id="@id/laboratory_like_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/setting_laboratory_like_title" android:layout_marginStart="@dimen/double_ear_tip_margin_20dp" android:layout_marginEnd="@dimen/double_ear_tip_margin_20dp" />
+    <TextView android:id="@id/laboratory_like_summary" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/setting_laboratory_summary" android:layout_marginStart="@dimen/double_ear_tip_margin_20dp" android:layout_marginEnd="@dimen/double_ear_tip_margin_20dp" />
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/double_ear_like_or_not_margin_top">
+        <View android:layout_width="0.0dip" android:layout_height="@dimen/double_ear_height_50dp" android:layout_weight="1.0" />
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <ImageView android:id="@id/like_iv" android:layout_width="@dimen/double_ear_height_50dp" android:layout_height="@dimen/double_ear_height_50dp" android:src="@drawable/lab_like_unselect" />
+            <TextView android:id="@id/like_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/setting_laboratory_like" />
+        </LinearLayout>
+        <View android:layout_width="0.0dip" android:layout_height="@dimen/double_ear_height_50dp" android:layout_weight="1.0" />
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <ImageView android:id="@id/dislike_iv" android:layout_width="@dimen/double_ear_height_50dp" android:layout_height="@dimen/double_ear_height_50dp" android:src="@drawable/lab_dislike_unselect" />
+            <TextView android:id="@id/dislike_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/setting_laboratory_dislike" />
+        </LinearLayout>
+        <View android:layout_width="0.0dip" android:layout_height="@dimen/double_ear_height_50dp" android:layout_weight="1.0" />
+    </LinearLayout>
+</LinearLayout>

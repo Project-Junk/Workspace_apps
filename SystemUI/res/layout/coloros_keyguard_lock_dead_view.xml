@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.coloros.systemui.keyguard.security.view.ColorKeyguardLockDeadView android:theme="@style/Theme.ColorSupport" android:id="@id/keyguard_lock_dead_view" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/lock_phone_info" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="120.0dip" android:layout_centerHorizontal="true">
+        <include layout="@layout/coloros_keyguard_security_message_area" />
+        <TextView android:textSize="@dimen/color_font_size_TF06" android:textColor="?kgd_security_message_color" android:gravity="center" android:id="@id/leave_phone_num" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:text="@string/leave_phone_num" android:layout_below="@id/coloros_keyguard_message_area" android:layout_centerHorizontal="true" android:lineSpacingMultiplier="1.2" android:alpha="0.5" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/input_area" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="80.0dip" android:layout_below="@id/lock_phone_info" android:layout_centerHorizontal="true">
+        <com.color.support.widget.ColorKeyboardView android:id="@id/coloros_keyguard_keyboard_view" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" style="?keyboardStyle" />
+        <include layout="@layout/coloros_keyguard_edit_entry_view" />
+    </RelativeLayout>
+</com.coloros.systemui.keyguard.security.view.ColorKeyguardLockDeadView>

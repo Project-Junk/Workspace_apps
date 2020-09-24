@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="kg_password_default_pin_message_multi_sim">
+        <item quantity="other">SIM కార్దు %1$d కొరకు PIN ఎంటర్ చేయండి. ఇంకా %2$d ప్రయత్నాలు మిగిలిఉన్నాయి.</item>
+        <item quantity="one">SIM కార్దు %1$d కొరకు PIN ఎంటర్ చేయండి. ఇంకా %2$d ప్రయత్నాలు మిగిలిఉన్నాయి. ఇది మళ్ళీ తప్పు అయితే మీ పరికరాన్ని అన్ లాక్ చేయడంలో సహాయం కొరకు మీరు, క్యారియర్ ను సంప్రదించాల్సి ఉంటుంది.</item>
+    </plurals>
+    <plurals name="kg_password_wrong_pin_code">
+        <item quantity="other">తప్పు SIM పిన్. %d ప్రయత్నాలు మిగిలి ఉన్నాయి.</item>
+        <item quantity="one">తప్పు SIM పిన్. %d ప్రయత్నం మిగిలి ఉంది. ఒకవేళ మళ్లీ తప్పు అయితే పరికరాన్ని అన్‌లాక్ చేయడంలో సహాయపడటానికి మీరు క్యారియర్‌ని సంప్రదించాల్సి ఉంటుంది.</item>
+    </plurals>
+    <plurals name="kg_password_wrong_pin_code_multi_sim">
+        <item quantity="other">SIM కార్దు %1$d కొరకు సరికాని PIN. ఇంకా %2$d ప్రయత్నాలు మిగిలిఉన్నాయి.</item>
+        <item quantity="one">SIM కార్దు %1$d కొరకు సరికాని PIN. ఇంకా %2$d ప్రయత్నాలు మిగిలిఉన్నాయి. ఇది సరికాని పిన్ అయితే మీ పరికరాన్ని అన్ లాక్ చేయడంలో సహాయం కొరకు మీరు, క్యారియర్ ను సంప్రదించాల్సి ఉంటుంది.</item>
+    </plurals>
+    <plurals name="kg_password_wrong_puk_code">
+        <item quantity="other">తప్పు సిమ్ PUK కోడ్. %d ప్రయత్నాలు మిగిలి ఉన్నాయి. ఒకవేళ మళ్లీ తప్పు అయితే SIMలు శాశ్వతంగా నిలిపివేయబడతాయి.</item>
+        <item quantity="one">తప్పు సిమ్‌ PUK కోడ్. %d ప్రయత్నం మిగిలి ఉంది. ఒకవేళ ఇది మళ్లీ తప్పు అయితే SIM శాశ్వతంగా నిలిపివేయబడుతుంది.</item>
+    </plurals>
+    <plurals name="kg_prompt_reason_time_password">
+        <item quantity="other">పరికరం %d గంటలకు లాక్ చేయబడుతుంది. దయచేసి పాస్‌కోడ్‌ని ధృవీకరించండి.</item>
+        <item quantity="one">పరికరం %d గంటకు లాక్ చేయబడుతుంది. దయచేసి పాస్‌కోడ్‌ని ధృవీకరించండి.</item>
+    </plurals>
+    <plurals name="kg_prompt_reason_time_pattern">
+        <item quantity="other">పరికరం %d గంటలకు లాక్ చేయబడుతుంది. దయచేసి అన్‌లాక్ ప్యాట్రన్ ధృవీకరించండి.</item>
+        <item quantity="one">పరికరం %d గంటకు లాక్ చేయబడుతుంది. దయచేసి అన్‌లాక్ ప్యాట్రన్ ధృవీకరించండి.</item>
+    </plurals>
+    <plurals name="kg_prompt_reason_time_pin">
+        <item quantity="other">పరికరం %d గంటలకు లాక్ చేయబడుతుంది. దయచేసి PIN ధృవీకరించండి.</item>
+        <item quantity="one">పరికరం %d గంటకు లాక్ చేయబడుతుంది. దయచేసి PINని ధృవీకరించండి.</item>
+    </plurals>
+    <plurals name="kg_too_many_failed_attempts_countdown">
+        <item quantity="other">దయచేసి %d సెకనుల తరువాత తిరిగి ప్రయత్నించండి.</item>
+        <item quantity="one">దయచేసి 1 సెకను తరువాత తిరిగి ప్రయత్నించండి.</item>
+    </plurals>
+    <plurals name="notification_group_overflow_description">
+        <item quantity="other">ఈ గ్రూపులో ఇంకా %s నోటిఫికేషన్‌లున్నాయి.</item>
+        <item quantity="one">ఈ గ్రూపులో ఇంకా %s నోటిఫికేషన్ ఉంది.</item>
+    </plurals>
+    <plurals name="snoozeHourOptions">
+        <item quantity="other">%d గంటలు</item>
+        <item quantity="one">%d గంట</item>
+    </plurals>
+    <plurals name="snoozeMinuteOptions">
+        <item quantity="other">%d నిమిషాలు</item>
+        <item quantity="one">%d నిమిషం</item>
+    </plurals>
+</resources>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_gravity="center_vertical" android:id="@id/aod_clock_digital_bg_layout" android:background="@drawable/aod_clock_no_select_bg" android:layout_width="@dimen/aod_preview_clock_layout" android:layout_height="@dimen/aod_preview_clock_layout"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/aod_digital_view" android:layout_width="wrap_content" android:layout_height="44.299988dip" android:layout_marginTop="13.299988dip" android:layout_centerHorizontal="true" />
+    <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="28.5dip" android:layout_centerHorizontal="true">
+        <TextClock android:textSize="12.0dip" android:textColor="@color/aod_clock_white" android:id="@id/aod_preview_digital_clock_hour" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentTop="true" android:layout_alignParentStart="true" android:format12Hour="h" android:format24Hour="HH" />
+        <TextClock android:textSize="12.0dip" android:textColor="@color/aod_clock_white" android:id="@id/aod_preview_digital_clock_minute" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="0.6dip" android:layout_below="@id/aod_preview_digital_clock_hour" android:layout_alignParentStart="true" android:format12Hour="mm" android:format24Hour="mm" />
+    </RelativeLayout>
+</RelativeLayout>

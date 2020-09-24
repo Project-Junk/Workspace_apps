@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:theme="@style/AppBaseTheme" android:orientation="vertical" android:paddingLeft="@dimen/M10" android:paddingTop="@dimen/color_alert_dialog_content_panel_padding_top" android:paddingRight="@dimen/M10" android:paddingBottom="@dimen/M10" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <TextView android:textAppearance="?android:textAppearanceMedium" android:textColor="@color/color_alert_dialog_content_text_color" android:id="@id/message" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/accessibility_summery" />
+        <RelativeLayout android:id="@id/ver_center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/M5" android:layout_below="@id/message">
+            <com.coloros.settings.utils.VerificationView android:id="@id/verification_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+            <com.color.support.widget.ColorEditText android:ellipsize="end" android:id="@id/edittext_view" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginRight="@dimen/M4" android:hint="@string/verification_text" android:singleLine="true" android:maxLength="4" android:layout_toLeftOf="@id/verification_view" android:layout_centerVertical="true" android:inputType="text" settings:quickDelete="true" />
+        </RelativeLayout>
+    </RelativeLayout>
+</ScrollView>

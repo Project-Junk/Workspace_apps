@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:fitsSystemWindows="true" android:title="@string/facial_feature_used_for" android:key="parent_screen"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto">
+    <com.coloros.settings.widget.preference.SettingsColorPreferenceCategory android:key="face_usedfor_category" settings:isFirstCategory="true">
+        <com.coloros.settings.widget.preference.SettingSwitchPreference android:title="@string/fingerprint_unlock" android:key="face_unlock" android:defaultValue="false" />
+        <com.coloros.settings.widget.preference.SettingSwitchPreference android:title="@string/fingerprint_encrypt_application" android:key="face_encrypt_application" android:defaultValue="false" />
+        <com.coloros.settings.widget.preference.SettingSwitchPreference android:title="@string/fingerprint_encrypt_file" android:key="face_encrypt_file_switch" android:defaultValue="false" />
+        <com.coloros.settings.widget.preference.SettingSwitchPreference android:layout="@layout/color_preference" android:title="@string/fingerprint_security_center_switch" android:key="face_security_center_switch" android:defaultValue="false" />
+    </com.coloros.settings.widget.preference.SettingsColorPreferenceCategory>
+</PreferenceScreen>

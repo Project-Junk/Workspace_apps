@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="application_manage_status_text">
+        <item quantity="other">ཉེར་སྤྱོད་ %1$d</item>
+        <item quantity="one">ཉེར་སྤྱོད་ %1$d</item>
+    </plurals>
+    <plurals name="third_app_status_text">
+        <item quantity="other">ཉེར་སྤྱོད་ %1$d སྤར་འདུག</item>
+        <item quantity="one">ཉེར་སྤྱོད་ %1$d སྤར་འདུག</item>
+    </plurals>
+</resources>

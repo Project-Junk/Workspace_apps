@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/protect_eyes_mode"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto">
+    <com.coloros.settings.widget.preference.SettingsColorPreferenceCategory settings:isFirstCategory="true">
+        <com.coloros.settings.widget.preference.SettingSwitchPreference android:persistent="false" android:layout="@layout/color_preference" android:title="@string/immediately_open" android:key="key_immediately_open" />
+        <com.coloros.settings.widget.preference.SettingSwitchPreference android:persistent="false" android:layout="@layout/color_preference" android:title="@string/fixed_time_open" android:key="key_fixed_time_open" />
+    </com.coloros.settings.widget.preference.SettingsColorPreferenceCategory>
+    <com.coloros.settings.feature.display.nightmode.ProtectEyesSettingTimePreference android:key="key_fixed_time_settings" />
+    <PreferenceCategory android:title="@string/screen_color_temperature_title">
+        <com.coloros.settings.feature.display.nightmode.ColorTemperaturePreference android:selectable="false" android:key="color_temperature" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/protect_eye_category" android:key="key_group_saturation">
+        <com.coloros.settings.widget.preference.SettingsColorMarkPreference android:layout="@layout/color_preference" android:title="@string/eyeprotect_normal" android:key="key_normal" android:summary="@string/protect_eyes_display_color" />
+        <com.coloros.settings.widget.preference.SettingsColorMarkPreference android:layout="@layout/color_preference" android:title="@string/reduce_saturation" android:key="key_saturation" android:summary="@string/protect_eyes_black_and_white" />
+    </PreferenceCategory>
+    <PreferenceCategory>
+        <Preference android:layout="@layout/color_detail_preference_without_shadow" android:selectable="false" android:summary="@string/protect_eye_mode_introducation" />
+    </PreferenceCategory>
+</PreferenceScreen>

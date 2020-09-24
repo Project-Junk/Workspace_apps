@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:paddingTop="@dimen/color_font_size_14DP" android:paddingBottom="@dimen/color_font_size_14DP" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/open_time_root" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="52.0dip" android:paddingStart="@dimen/color_zenmode_padding_start" android:paddingEnd="@dimen/color_zenmode_padding_end">
+        <TextView android:textSize="@dimen/color_font_size_9" android:textColor="@color/color_zenmode_time_picker" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/open_protect_eye_time" />
+        <TextView android:textSize="@dimen/color_font_size_12SP" android:textColor="@color/colorGreenTintControlNormal" android:id="@id/open_time" android:paddingTop="8.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </LinearLayout>
+    <com.coloros.settings.widget.LocalOppoTimePicker android:id="@id/open_time_picker" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_centerHorizontal="true" />
+    <ImageView android:background="@drawable/color_divider_horizontal_without_padding" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginStart="@dimen/oppo_list_item_left_margin" android:layout_marginEnd="@dimen/M3" />
+    <LinearLayout android:orientation="vertical" android:id="@id/close_time_root" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="29.0dip" android:minHeight="52.0dip" android:paddingStart="@dimen/color_zenmode_padding_start" android:paddingEnd="@dimen/color_zenmode_padding_end">
+        <TextView android:textSize="@dimen/color_font_size_9" android:textColor="@color/color_zenmode_time_picker" android:id="@id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/close_protect_eye_time" />
+        <TextView android:textSize="@dimen/color_font_size_12SP" android:textColor="@color/colorGreenTintControlNormal" android:id="@id/close_time" android:paddingTop="8.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </LinearLayout>
+    <com.coloros.settings.widget.LocalOppoTimePicker android:id="@id/close_time_picker" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_centerHorizontal="true" />
+</LinearLayout>

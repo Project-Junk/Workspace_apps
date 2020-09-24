@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.coloros.systemui.keyguard.security.view.MSimKeyguardSimPinView android:theme="@style/Theme.ColorSupport" android:id="@id/msim_keyguard_sim_pin_view" android:paddingTop="@dimen/kgd_security_padding_top" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/abs_security_sim_view" />
+</com.coloros.systemui.keyguard.security.view.MSimKeyguardSimPinView>

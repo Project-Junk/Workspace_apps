@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="kg_password_default_pin_message_multi_sim">
+        <item quantity="other">Please enter the PIN for SIM card %1$d. %2$d attempts remaining.</item>
+        <item quantity="one">"Please enter the PIN for SIM card %1$d. %2$d attempt remaining. If it is incorrect again, you'll need to contact the carrier to help unlock the device."</item>
+    </plurals>
+    <plurals name="kg_password_wrong_pin_code">
+        <item quantity="other">Incorrect SIM PIN. %d attempts remaining.</item>
+        <item quantity="one">"Incorrect SIM PIN. %d attempt remaining. You'll need to contact the carrier to help unlock the device if it is incorrect again."</item>
+    </plurals>
+    <plurals name="kg_password_wrong_pin_code_multi_sim">
+        <item quantity="other">Incorrect PIN for SIM card %1$d. %2$d attempts remaining.</item>
+        <item quantity="one">"Incorrect PIN for SIM card %1$d. %2$d attempt remaining. If it is incorrect again, you'll need to contact the carrier to help unlock the device."</item>
+    </plurals>
+    <plurals name="kg_password_wrong_puk_code">
+        <item quantity="other">Incorrect SIM PUK code. %d attempts remaining. SIMs will be permanently disabled if it is incorrect again.</item>
+        <item quantity="one">Incorrect SIM PUK code. %d attempts remaining. SIM will be permanently disabled if it is incorrect again.</item>
+    </plurals>
+    <plurals name="kg_prompt_reason_time_password">
+        <item quantity="other">The device has been locked for %d hours. Please confirm the password.</item>
+        <item quantity="one">The device has been locked for %d hour. Please confirm the password.</item>
+    </plurals>
+    <plurals name="kg_prompt_reason_time_pattern">
+        <item quantity="other">The device has been locked for %d hours. Please confirm the unlock pattern.</item>
+        <item quantity="one">The device has been locked for %d hour. Please confirm the unlock pattern.</item>
+    </plurals>
+    <plurals name="kg_prompt_reason_time_pin">
+        <item quantity="other">The device has been locked for %d hours. Please confirm the PIN.</item>
+        <item quantity="one">The device has been locked for %d hour. Please confirm the PIN.</item>
+    </plurals>
+    <plurals name="kg_too_many_failed_attempts_countdown">
+        <item quantity="other">Please try again after %d seconds.</item>
+        <item quantity="one">Please try again after 1 second.</item>
+    </plurals>
+    <plurals name="notification_group_overflow_description">
+        <item quantity="other">There are still %s notifications in this group.</item>
+        <item quantity="one">There is still %s notification in this group.</item>
+    </plurals>
+    <plurals name="snoozeHourOptions">
+        <item quantity="other">%d hours</item>
+        <item quantity="one">%d hour</item>
+    </plurals>
+    <plurals name="snoozeMinuteOptions">
+        <item quantity="other">%d minutes</item>
+        <item quantity="one">%d minute</item>
+    </plurals>
+    <plurals name="wifi_tether_connected_summary">
+        <item quantity="other">%1$d devices connected</item>
+        <item quantity="one">%1$d device connected</item>
+    </plurals>
+</resources>

@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SwitchPreference android:layout="@layout/color_preference_divider_ex_icon"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

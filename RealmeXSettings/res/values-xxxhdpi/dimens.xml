@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="oppo_choose_lock_pattern_tutorial_padding">48.0dip</dimen>
+    <dimen name="oppo_install_app_details_button_text_size">16.0dip</dimen>
+    <dimen name="oppo_manage_application_loading_margin_tab">133.0dip</dimen>
+    <dimen name="oppo_simple_anim_textview_margin_tab">105.0dip</dimen>
+    <dimen name="oppo_simple_anim_textview_margin_top">145.0dip</dimen>
+    <dimen name="oppo_storage_overview_cicle_diameter">257.0dip</dimen>
+    <dimen name="oppo_storage_overview_viewpager">280.0dip</dimen>
+    <dimen name="color_search_linear_divider_width">2.0px</dimen>
+    <dimen name="display_font_preview_divider">2.0px</dimen>
+    <dimen name="manage_application_lock_height">27.0dip</dimen>
+    <dimen name="manage_application_lock_padding">23.0dip</dimen>
+    <dimen name="manage_application_lock_width">27.0dip</dimen>
+    <dimen name="manage_application_button_height">25.0dip</dimen>
+    <dimen name="oppo_device_info_separator_height">8.0dip</dimen>
+</resources>

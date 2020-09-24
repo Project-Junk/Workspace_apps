@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:id="@id/instructions_area" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <TextView android:textSize="@dimen/color_font_size_TF05" android:textColor="@color/color_preference_secondary_text_color_normal" android:id="@id/screen_pinning_description" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/envelope_settings_warnings" android:lineSpacingExtra="@dimen/envelope_settings_instructions_line_spacing" android:textAlignment="viewStart" android:paddingStart="@dimen/envelope_settings_side_margin" android:paddingEnd="@dimen/envelope_settings_side_margin" style="?android:textAppearanceSmall" />
+    </LinearLayout>
+</ScrollView>

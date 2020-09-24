@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="dimen" name="color_lock_pattern_outer_circle_max_alpha">0.2</item>
+    <item type="dimen" name="color_numeric_keyboard_dark_circle_max_alpha">0.12</item>
+    <dimen name="notification_divider_height">1.0dip</dimen>
+</resources>

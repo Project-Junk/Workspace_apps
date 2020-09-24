@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="battery_options">
+        <item>प्रत्येकवेळी टक्केवारी मध्ये प्रदर्शित करा</item>
+        <item>चार्ज होत असताना बॅटरी पॉवरची टक्केवारी प्रदर्शित करा (पूर्वनिर्धारित)</item>
+        <item>हे चिन्ह प्रदर्शित करू नका</item>
+    </string-array>
+    <string-array name="clock_options">
+        <item>तास, मिनिटे आणि सेकंद प्रदर्शित करा</item>
+        <item>तास आणि मिनिटे प्रदर्शित करा (पूर्वनिर्धारित)</item>
+        <item>हे चिन्ह प्रदर्शित करू नका</item>
+    </string-array>
+    <string-array name="color_lunar_mounth">
+        <item>正月</item>
+        <item>二月</item>
+        <item>三月</item>
+        <item>四月</item>
+        <item>五月</item>
+        <item>六月</item>
+        <item>七月</item>
+        <item>八月</item>
+        <item>九月</item>
+        <item>十月</item>
+        <item>冬月</item>
+        <item>腊月</item>
+    </string-array>
+    <string-array name="color_solor_mounth">
+        <item>जानेवारी</item>
+        <item>फेब्रुवारी</item>
+        <item>मार्च</item>
+        <item>एप्रिल</item>
+        <item>मे</item>
+        <item>जून</item>
+        <item>जुलै</item>
+        <item>ऑगस्ट</item>
+        <item>सप्टेंबर</item>
+        <item>ऑक्टोंबर</item>
+        <item>नोव्हेंबर</item>
+        <item>डिसेंबर</item>
+    </string-array>
+    <string-array name="nav_bar_layouts">
+        <item>सामान्य</item>
+        <item>संक्षिप्त</item>
+        <item>डावीकडे ठेवा</item>
+        <item>उजवीकडे ठेवा</item>
+    </string-array>
+    <string-array name="oppo_time_picker_ampm">
+        <item>AM</item>
+        <item>PM</item>
+    </string-array>
+    <string-array name="usb_type_select">
+        <item>केवळ चार्ज करा</item>
+        <item>फायली स्थानांतर करा</item>
+        <item>फोटो स्थानांतर करा</item>
+    </string-array>
+</resources>

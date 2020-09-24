@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ProgressBar android:id="@id/battery_percent" android:layout_width="@dimen/battery_background_width" android:layout_height="@dimen/battery_background_height" android:foreground="@drawable/stat_battery" android:max="100" android:progressDrawable="@drawable/status_bar_battery_progress_with_padding" android:mirrorForRtl="true" android:foregroundTint="@color/black_screen_overlay_widget" style="@android:style/Widget.ProgressBar.Horizontal" />
+    <TextView android:textSize="@dimen/black_screen_overlay_battery" android:textColor="@color/black_screen_overlay_widget" android:layout_gravity="center" android:id="@id/battery_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:includeFontPadding="false" android:importantForAccessibility="no" android:fontFamily="ColorFont-Medium" android:layout_marginStart="@dimen/black_screen_overlay_battery_percent_margin_left" />
+    <ImageView android:id="@id/battery_charge" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="@dimen/black_screen_overlay_battery_charge_margin_left" />
+</LinearLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="application_manage_status_text">
+        <item quantity="other">Programu %1$d</item>
+        <item quantity="one">Programu %1$d</item>
+    </plurals>
+    <plurals name="third_app_status_text">
+        <item quantity="other">Programu za %1$d Zimewashwa</item>
+        <item quantity="one">Programu ya %1$d Imewashwa</item>
+    </plurals>
+</resources>

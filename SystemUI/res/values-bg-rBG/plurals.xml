@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="kg_password_default_pin_message_multi_sim">
+        <item quantity="other">Моля, въведете PIN кода за SIM картата %1$d. %2$d оставащи опита.</item>
+        <item quantity="one">Моля, въведете PIN кода за SIM картата %1$d. %2$d оставащ опит. Ако отново е грешен, ще трябва да се свържете с оператора, за да ви помогне да отключите устройството.</item>
+    </plurals>
+    <plurals name="kg_password_wrong_pin_code_multi_sim">
+        <item quantity="other">Грешен PIN код за SIM карта %1$d. %2$d оставащи опита.</item>
+        <item quantity="one">Грешен PIN код за SIM карта %1$d. %2$d оставащ опит. Ако отново е грешен, ще трябва да се свържете с оператора, за да ви помогне да отключите устройството.</item>
+    </plurals>
+    <plurals name="kg_prompt_reason_time_password">
+        <item quantity="other">Устройството е заключено за %d часа. Моля, потвърдете паролата.</item>
+        <item quantity="one">Устройството е заключено за %d час. Моля, потвърдете паролата.</item>
+    </plurals>
+    <plurals name="kg_too_many_failed_attempts_countdown">
+        <item quantity="other">Моля, направете нов опит след %d секунди.</item>
+        <item quantity="one">Моля, направете нов опит след 1 секунда.</item>
+    </plurals>
+    <plurals name="snoozeHourOptions">
+        <item quantity="other">%d часа</item>
+        <item quantity="one">%d час</item>
+    </plurals>
+    <plurals name="snoozeMinuteOptions">
+        <item quantity="other">%d минути</item>
+        <item quantity="one">%d минута</item>
+    </plurals>
+</resources>

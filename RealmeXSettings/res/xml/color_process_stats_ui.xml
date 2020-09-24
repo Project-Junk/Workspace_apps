@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/memory_usage_apps"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto">
+    <com.coloros.settings.widget.preference.AverageMemoryPreference android:key="average_head" />
+    <com.coloros.settings.widget.preference.SettingsColorPreferenceCategory android:key="app_list" settings:isFirstCategory="true" />
+</PreferenceScreen>

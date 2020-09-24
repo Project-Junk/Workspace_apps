@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="kg_password_default_pin_message_multi_sim">
+        <item quantity="other">אנא הזן PIN של SIM %1$d. %2$d ניסיונות נותרו.</item>
+        <item quantity="one">אנא הזן PIN של SIM %1$d. %2$d ניסיון נותר. עליך ליצור קשר עם הספק כדי לעזור בנעילת המכשיר אם הוא שוב לא נכון.</item>
+    </plurals>
+    <plurals name="kg_password_wrong_pin_code">
+        <item quantity="other">SIM PIN לא תקין. %d ניסיונות נותרו.</item>
+        <item quantity="one">SIM PIN שגוי. %d ניסיון נותר. עליך ליצור קשר עם הספק כדי לעזור בנעילת המכשיר אם הוא שוב לא נכון.</item>
+    </plurals>
+    <plurals name="kg_password_wrong_pin_code_multi_sim">
+        <item quantity="other">PIN SIM לא תקין %1$d. %2$d ניסיונות נותרו.</item>
+        <item quantity="one">PIN של SIM שגוי %1$d. %2$d ניסיון נותר. עליך ליצור קשר עם הספק כדי לעזור בנעילת המכשיר אם הוא שוב לא נכון.</item>
+    </plurals>
+    <plurals name="kg_password_wrong_puk_code">
+        <item quantity="other">קוד PUK של SIM שגוי. %d ניסיונות שנותרו. ה-SIM יושבת לצמיתות אם הוא שוב לא נכון.</item>
+        <item quantity="one">קוד PUK של SIM שגוי. %d ניסיונות שנותרו. ה-SIM יושבת לצמיתות אם הוא שוב לא נכון.</item>
+    </plurals>
+    <plurals name="kg_prompt_reason_time_password">
+        <item quantity="other">מכשיר זה ננעל למשך %d שעות. אנא אשר את הסיסמה.</item>
+        <item quantity="one">מכשיר זה ננעל למשך %d שעה. אנא אשר את הסיסמה.</item>
+    </plurals>
+    <plurals name="kg_prompt_reason_time_pattern">
+        <item quantity="other">מכשיר זה ננעל למשך %d שעות. אנא אשר את דפוס הנעילה.</item>
+        <item quantity="one">מכשיר זה ננעל למשך %d שעה. אנא אשר את דפוס הנעילה.</item>
+    </plurals>
+    <plurals name="kg_prompt_reason_time_pin">
+        <item quantity="other">מכשיר זה ננעל למשך %d שעות. אנא אשר את קוד ה-PIN.</item>
+        <item quantity="one">מכשיר זה ננעל למשך %d שעה. אנא אשר את קוד ה-PIN.</item>
+    </plurals>
+    <plurals name="kg_too_many_failed_attempts_countdown">
+        <item quantity="other">נסה שוב לאחר %d שניות.</item>
+        <item quantity="one">נסה שוב לאחר שנייה.</item>
+    </plurals>
+    <plurals name="notification_group_overflow_description">
+        <item quantity="other">עדיין יש %s התראות בקבוצה זו.</item>
+        <item quantity="one">עדיין יש %s התראה בקבוצה זו.</item>
+    </plurals>
+    <plurals name="snoozeHourOptions">
+        <item quantity="other">%d שעות</item>
+        <item quantity="one">%d שעה</item>
+    </plurals>
+    <plurals name="snoozeMinuteOptions">
+        <item quantity="other">%d דקות</item>
+        <item quantity="one">%d דקה</item>
+    </plurals>
+</resources>

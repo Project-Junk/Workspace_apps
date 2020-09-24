@@ -1,0 +1,371 @@
+.class public Lcom/coloros/backup/sdk/v2/common/host/BREngineConfig;
+.super Ljava/lang/Object;
+.source "BREngineConfig.java"
+
+
+# static fields
+.field private static final BACKUP_ROOT_PATH:Ljava/lang/String; = "backup_root_path"
+
+.field public static final BACKUP_TYPE:I = 0x0
+
+.field private static final BR_TYPE:Ljava/lang/String; = "br_type"
+
+.field public static final CACHE_APP_DATA_FOLDER:Ljava/lang/String; = "cache_app_data_folder"
+
+.field private static final LOG_LEVEL:Ljava/lang/String; = "log_level"
+
+.field public static final PAIRED_PHONE_ANDROID_VERSION:Ljava/lang/String; = "paired_phone_android_version"
+
+.field public static final PAIRED_PHONE_COLOROS_VERSION:Ljava/lang/String; = "paired_phone_coloros_version"
+
+.field private static final RESTORE_ROOT_PATH:Ljava/lang/String; = "restore_root_path"
+
+.field public static final RESTORE_TYPE:I = 0x1
+
+.field private static final SOURCE:Ljava/lang/String; = "source"
+
+
+# instance fields
+.field private mBundle:Landroid/os/Bundle;
+
+
+# direct methods
+.method public constructor <init>()V
+    .locals 1
+
+    .line 35
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    .line 36
+    new-instance v0, Landroid/os/Bundle;
+
+    invoke-direct {v0}, Landroid/os/Bundle;-><init>()V
+
+    iput-object v0, p0, Lcom/coloros/backup/sdk/v2/common/host/BREngineConfig;->mBundle:Landroid/os/Bundle;
+
+    return-void
+.end method
+
+.method public constructor <init>(Landroid/os/Bundle;)V
+    .locals 0
+
+    .line 39
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    .line 40
+    iput-object p1, p0, Lcom/coloros/backup/sdk/v2/common/host/BREngineConfig;->mBundle:Landroid/os/Bundle;
+
+    return-void
+.end method
+
+.method public static parse(Landroid/os/Bundle;)Lcom/coloros/backup/sdk/v2/common/host/BREngineConfig;
+    .locals 1
+
+    .line 92
+    new-instance v0, Lcom/coloros/backup/sdk/v2/common/host/BREngineConfig;
+
+    invoke-direct {v0, p0}, Lcom/coloros/backup/sdk/v2/common/host/BREngineConfig;-><init>(Landroid/os/Bundle;)V
+
+    return-object v0
+.end method
+
+
+# virtual methods
+.method public getBRType()I
+    .locals 2
+
+    .line 60
+    iget-object v0, p0, Lcom/coloros/backup/sdk/v2/common/host/BREngineConfig;->mBundle:Landroid/os/Bundle;
+
+    const-string v1, "br_type"
+
+    invoke-virtual {v0, v1}, Landroid/os/Bundle;->getInt(Ljava/lang/String;)I
+
+    move-result v0
+
+    return v0
+.end method
+
+.method public getBackupRootPath()Ljava/lang/String;
+    .locals 2
+
+    .line 64
+    iget-object v0, p0, Lcom/coloros/backup/sdk/v2/common/host/BREngineConfig;->mBundle:Landroid/os/Bundle;
+
+    const-string v1, "backup_root_path"
+
+    invoke-virtual {v0, v1}, Landroid/os/Bundle;->getString(Ljava/lang/String;)Ljava/lang/String;
+
+    move-result-object v0
+
+    return-object v0
+.end method
+
+.method public getBundle()Landroid/os/Bundle;
+    .locals 1
+
+    .line 80
+    iget-object v0, p0, Lcom/coloros/backup/sdk/v2/common/host/BREngineConfig;->mBundle:Landroid/os/Bundle;
+
+    return-object v0
+.end method
+
+.method public getCacheAppDataFolder()Ljava/lang/String;
+    .locals 2
+
+    .line 72
+    iget-object v0, p0, Lcom/coloros/backup/sdk/v2/common/host/BREngineConfig;->mBundle:Landroid/os/Bundle;
+
+    const-string v1, "cache_app_data_folder"
+
+    invoke-virtual {v0, v1}, Landroid/os/Bundle;->getString(Ljava/lang/String;)Ljava/lang/String;
+
+    move-result-object v0
+
+    return-object v0
+.end method
+
+.method public getLogLevel()I
+    .locals 3
+
+    .line 88
+    iget-object v0, p0, Lcom/coloros/backup/sdk/v2/common/host/BREngineConfig;->mBundle:Landroid/os/Bundle;
+
+    const-string v1, "log_level"
+
+    const/4 v2, 0x5
+
+    invoke-virtual {v0, v1, v2}, Landroid/os/Bundle;->getInt(Ljava/lang/String;I)I
+
+    move-result v0
+
+    return v0
+.end method
+
+.method public getOldPhoneAndroidVersion()Ljava/lang/String;
+    .locals 2
+
+    .line 108
+    iget-object v0, p0, Lcom/coloros/backup/sdk/v2/common/host/BREngineConfig;->mBundle:Landroid/os/Bundle;
+
+    const-string v1, "paired_phone_android_version"
+
+    invoke-virtual {v0, v1}, Landroid/os/Bundle;->getString(Ljava/lang/String;)Ljava/lang/String;
+
+    move-result-object v0
+
+    return-object v0
+.end method
+
+.method public getOldPhoneColorosVersion()I
+    .locals 2
+
+    .line 104
+    iget-object v0, p0, Lcom/coloros/backup/sdk/v2/common/host/BREngineConfig;->mBundle:Landroid/os/Bundle;
+
+    const-string v1, "paired_phone_coloros_version"
+
+    invoke-virtual {v0, v1}, Landroid/os/Bundle;->getInt(Ljava/lang/String;)I
+
+    move-result v0
+
+    return v0
+.end method
+
+.method public getRestoreRootPath()Ljava/lang/String;
+    .locals 2
+
+    .line 68
+    iget-object v0, p0, Lcom/coloros/backup/sdk/v2/common/host/BREngineConfig;->mBundle:Landroid/os/Bundle;
+
+    const-string v1, "restore_root_path"
+
+    invoke-virtual {v0, v1}, Landroid/os/Bundle;->getString(Ljava/lang/String;)Ljava/lang/String;
+
+    move-result-object v0
+
+    return-object v0
+.end method
+
+.method public getSource()Ljava/lang/String;
+    .locals 2
+
+    .line 76
+    iget-object v0, p0, Lcom/coloros/backup/sdk/v2/common/host/BREngineConfig;->mBundle:Landroid/os/Bundle;
+
+    const-string v1, "source"
+
+    invoke-virtual {v0, v1}, Landroid/os/Bundle;->getString(Ljava/lang/String;)Ljava/lang/String;
+
+    move-result-object v0
+
+    return-object v0
+.end method
+
+.method public putValue(Ljava/lang/String;Ljava/lang/String;)V
+    .locals 1
+
+    .line 96
+    iget-object v0, p0, Lcom/coloros/backup/sdk/v2/common/host/BREngineConfig;->mBundle:Landroid/os/Bundle;
+
+    invoke-virtual {v0, p1, p2}, Landroid/os/Bundle;->putString(Ljava/lang/String;Ljava/lang/String;)V
+
+    return-void
+.end method
+
+.method public putValue(Ljava/lang/String;[Ljava/lang/String;)V
+    .locals 1
+
+    .line 100
+    iget-object v0, p0, Lcom/coloros/backup/sdk/v2/common/host/BREngineConfig;->mBundle:Landroid/os/Bundle;
+
+    invoke-virtual {v0, p1, p2}, Landroid/os/Bundle;->putStringArray(Ljava/lang/String;[Ljava/lang/String;)V
+
+    return-void
+.end method
+
+.method public setBRType(I)V
+    .locals 2
+
+    .line 56
+    iget-object v0, p0, Lcom/coloros/backup/sdk/v2/common/host/BREngineConfig;->mBundle:Landroid/os/Bundle;
+
+    const-string v1, "br_type"
+
+    invoke-virtual {v0, v1, p1}, Landroid/os/Bundle;->putInt(Ljava/lang/String;I)V
+
+    return-void
+.end method
+
+.method public setBackupRootPath(Ljava/lang/String;)V
+    .locals 2
+
+    .line 44
+    iget-object v0, p0, Lcom/coloros/backup/sdk/v2/common/host/BREngineConfig;->mBundle:Landroid/os/Bundle;
+
+    const-string v1, "backup_root_path"
+
+    invoke-virtual {v0, v1, p1}, Landroid/os/Bundle;->putString(Ljava/lang/String;Ljava/lang/String;)V
+
+    return-void
+.end method
+
+.method public setLogLevel(I)V
+    .locals 2
+
+    .line 84
+    iget-object v0, p0, Lcom/coloros/backup/sdk/v2/common/host/BREngineConfig;->mBundle:Landroid/os/Bundle;
+
+    const-string v1, "log_level"
+
+    invoke-virtual {v0, v1, p1}, Landroid/os/Bundle;->putInt(Ljava/lang/String;I)V
+
+    return-void
+.end method
+
+.method public setRestoreRootPath(Ljava/lang/String;)V
+    .locals 2
+
+    .line 48
+    iget-object v0, p0, Lcom/coloros/backup/sdk/v2/common/host/BREngineConfig;->mBundle:Landroid/os/Bundle;
+
+    const-string v1, "restore_root_path"
+
+    invoke-virtual {v0, v1, p1}, Landroid/os/Bundle;->putString(Ljava/lang/String;Ljava/lang/String;)V
+
+    return-void
+.end method
+
+.method public setSource(Ljava/lang/String;)V
+    .locals 2
+
+    .line 52
+    iget-object v0, p0, Lcom/coloros/backup/sdk/v2/common/host/BREngineConfig;->mBundle:Landroid/os/Bundle;
+
+    const-string v1, "source"
+
+    invoke-virtual {v0, v1, p1}, Landroid/os/Bundle;->putString(Ljava/lang/String;Ljava/lang/String;)V
+
+    return-void
+.end method
+
+.method public toString()Ljava/lang/String;
+    .locals 3
+
+    .line 113
+    new-instance v0, Ljava/lang/StringBuilder;
+
+    const-string v1, "BREngineConfig:["
+
+    invoke-direct {v0, v1}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
+
+    invoke-virtual {p0}, Lcom/coloros/backup/sdk/v2/common/host/BREngineConfig;->getBRType()I
+
+    move-result v1
+
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
+
+    const-string v1, ", "
+
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    invoke-virtual {p0}, Lcom/coloros/backup/sdk/v2/common/host/BREngineConfig;->getBackupRootPath()Ljava/lang/String;
+
+    move-result-object v2
+
+    invoke-virtual {v0, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    invoke-virtual {p0}, Lcom/coloros/backup/sdk/v2/common/host/BREngineConfig;->getRestoreRootPath()Ljava/lang/String;
+
+    move-result-object v2
+
+    invoke-virtual {v0, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    invoke-virtual {p0}, Lcom/coloros/backup/sdk/v2/common/host/BREngineConfig;->getSource()Ljava/lang/String;
+
+    move-result-object v2
+
+    invoke-virtual {v0, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    invoke-virtual {p0}, Lcom/coloros/backup/sdk/v2/common/host/BREngineConfig;->getLogLevel()I
+
+    move-result v1
+
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
+
+    const-string v1, ",colorosVersion "
+
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    invoke-virtual {p0}, Lcom/coloros/backup/sdk/v2/common/host/BREngineConfig;->getOldPhoneColorosVersion()I
+
+    move-result v1
+
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
+
+    const-string v1, ", androidVersion "
+
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    invoke-virtual {p0}, Lcom/coloros/backup/sdk/v2/common/host/BREngineConfig;->getOldPhoneAndroidVersion()Ljava/lang/String;
+
+    move-result-object v1
+
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    const-string v1, "]"
+
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+
+    move-result-object v0
+
+    return-object v0
+.end method

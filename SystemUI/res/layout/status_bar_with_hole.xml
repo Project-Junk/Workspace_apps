@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.coloros.systemui.statusbar.phone.PhoneStatusBarViewEx android:orientation="vertical" android:id="@id/status_bar" android:background="@drawable/system_bar_background" android:focusable="false" android:descendantFocusability="afterDescendants" android:layout_width="fill_parent" android:layout_height="@dimen/status_bar_height" android:accessibilityPaneTitle="@string/status_bar"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:systemui="http://schemas.android.com/apk/res/com.android.systemui">
+    <View android:id="@id/highlight_background" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <ImageView android:id="@id/notification_lights_out" android:paddingBottom="2.0dip" android:visibility="gone" android:layout_width="@dimen/status_bar_icon_size" android:layout_height="fill_parent" android:src="@drawable/ic_sysbar_lights_out_dot_small" android:scaleType="center" android:paddingStart="@dimen/status_bar_padding_start" />
+    <LinearLayout android:layout_gravity="bottom" android:orientation="horizontal" android:id="@id/status_bar_contents" android:layout_width="fill_parent" android:layout_height="@dimen/status_bar_contents_height" android:paddingStart="@dimen/status_bar_padding_start" android:paddingEnd="@dimen/status_bar_padding_end">
+        <FrameLayout android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <include layout="@layout/heads_up_status_bar_layout" />
+            <LinearLayout android:id="@id/status_bar_left_side" android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <com.coloros.systemui.statusbar.widget.OppoClock android:textSize="@dimen/stat_clock_size" android:textColor="@color/status_bar_clock_color" android:gravity="start|center" android:id="@id/clock" android:layout_width="wrap_content" android:layout_height="fill_parent" android:singleLine="true" android:paddingEnd="@dimen/status_bar_left_clock_end_padding" systemui:amPmStyle="gone" style="@style/FontOppoSansEnOSMedium" />
+                <ViewStub android:id="@id/custom_operator_name" android:layout="@layout/status_bar_custom_operator_name" android:layout_width="wrap_content" android:layout_height="fill_parent" />
+                <com.coloros.systemui.statusbar.widget.ColorSystemPromptView android:gravity="center" android:id="@id/system_prompt_view" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="fill_parent" android:scaleType="center" />
+                <ViewStub android:id="@id/sell_mode_display" android:layout="@layout/sell_mode_display" android:layout_width="wrap_content" android:layout_height="fill_parent" />
+                <FrameLayout android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+                    <com.coloros.systemui.statusbar.widget.ColorOperatorNameView android:textSize="@dimen/status_bar_operator_name_text_size" android:ellipsize="marquee" android:gravity="start|center" android:id="@id/operator_name" android:layout_width="wrap_content" android:layout_height="fill_parent" android:singleLine="true" android:marqueeRepeatLimit="1" />
+                    <com.android.systemui.statusbar.AlphaOptimizedFrameLayout android:layout_gravity="center_vertical" android:orientation="horizontal" android:id="@id/notification_icon_area" android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="@dimen/status_bar_notification_height" />
+                </FrameLayout>
+            </LinearLayout>
+        </FrameLayout>
+        <com.android.systemui.statusbar.AlphaOptimizedFrameLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="fill_parent">
+            <android.widget.Space android:id="@id/cutout_space_view" android:layout_width="0.0dip" android:layout_height="fill_parent" />
+            <ViewStub android:id="@id/center_clock" android:visibility="gone" android:layout="@layout/center_clock" android:layout_width="wrap_content" android:layout_height="fill_parent" />
+        </com.android.systemui.statusbar.AlphaOptimizedFrameLayout>
+        <com.android.systemui.statusbar.AlphaOptimizedFrameLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/centered_icon_area" android:clipChildren="false" android:layout_width="wrap_content" android:layout_height="fill_parent" />
+        <com.android.keyguard.AlphaOptimizedLinearLayout android:gravity="end|center" android:orientation="horizontal" android:id="@id/system_icon_area" android:layout_width="wrap_content" android:layout_height="fill_parent">
+            <include layout="@layout/coloros_system_icons" />
+        </com.android.keyguard.AlphaOptimizedLinearLayout>
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/oppo_secure_payment_warning" android:background="@color/oppo_status_bar_payment_warning_background" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ImageView android:background="@drawable/stat_high_light_payment_outline" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/stat_high_light_payment_icon_symbol" android:contentDescription="@null" />
+        <TextView android:textSize="@dimen/stat_clock_size" android:textColor="@color/state_payment_text_color" android:id="@id/oppo_secure_payment_warning_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/stat_secure_payment_warning_text" android:layout_marginEnd="@dimen/ear_screen_statusbar_paddings" />
+    </LinearLayout>
+    <ViewStub android:id="@id/emergency_cryptkeeper_text" android:layout="@layout/emergency_cryptkeeper_text" android:layout_width="wrap_content" android:layout_height="fill_parent" />
+</com.coloros.systemui.statusbar.phone.PhoneStatusBarViewEx>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:fitsSystemWindows="true" android:key="parent_screen"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto">
+    <com.coloros.settings.widget.preference.SettingsColorPreferenceCategory android:key="face_category" settings:isFirstCategory="true">
+        <com.coloros.settings.widget.preference.SettingColorJumpPreference android:layout="@layout/color_preference" android:title="@string/facial_feature_used_for" android:key="face_usage" android:order="4" android:fragment="com.coloros.settings.feature.face.FaceUsage" />
+        <com.coloros.settings.widget.preference.SettingSwitchPreference android:title="@string/fill_screen_light_in_dark_light" android:key="face_screen_light" android:order="5" android:defaultValue="false" />
+        <com.coloros.settings.widget.preference.SettingSwitchPreference android:title="@string/dont_recongnize_while_eyes_closed" android:key="dont_recongnize_while_eyes_closed" android:order="6" android:defaultValue="false" />
+    </com.coloros.settings.widget.preference.SettingsColorPreferenceCategory>
+    <PreferenceCategory android:key="keyguard_method_category">
+        <com.coloros.settings.widget.preference.SettingColorJumpPreference android:layout="@layout/color_preference" android:title="@string/recongnize_facial_feature" android:key="face_recognize_type" settings:color_jump_mark="@null" />
+    </PreferenceCategory>
+</PreferenceScreen>

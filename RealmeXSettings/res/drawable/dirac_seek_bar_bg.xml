@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape android:shape="rectangle"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="@color/dirac_seek_bar_bg" />
+    <size android:height="155.0dip" android:width="2.669983dip" />
+    <corners android:radius="1.3999939dip" />
+</shape>

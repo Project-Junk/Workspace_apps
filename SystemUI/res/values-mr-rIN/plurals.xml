@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="kg_password_default_pin_message_multi_sim">
+        <item quantity="other">कृपया सिम कार्ड साठी PIN प्रविष्ट करा %1$d. %2$d प्रयत्न शिल्लक.</item>
+        <item quantity="one">कृपया सिम कार्ड साठी PIN प्रविष्ट करा %1$d. %2$d प्रयत्न शिल्लक. जर हे पुन्हा चुकीचे असेल तर डिव्हाइस अनलॉक करण्यात मदत होण्यासाठी आपल्याला वाहकासोबत संपर्क साधावा लागेल.</item>
+    </plurals>
+    <plurals name="kg_password_wrong_pin_code">
+        <item quantity="other">अयोग्य सिम पिन. %d प्रयत्न उर्वरित.</item>
+        <item quantity="one">अयोग्य सिम पिन. %d प्रयत्न उर्वरित. जर हे चुकीचे असेल तर डिव्हाइस अनलॉक करण्यात मदत होण्यासाठी आपल्याला वाहकासोबत संपर्क साधावा लागेल.</item>
+    </plurals>
+    <plurals name="kg_password_wrong_pin_code_multi_sim">
+        <item quantity="other">सिम कार्ड साठी PIN चुकीची %1$d. %2$d प्रयत्न शिल्लक.</item>
+        <item quantity="one">सिम कार्डसाठी चुकीचा PIN %1$d. %2$d प्रयत्न शिल्लक. जर हे पुन्हा चुकीचे असेल तर डिव्हाइस अनलॉक करण्यात मदत होण्यासाठी आपल्याला वाहकासोबत संपर्क साधावा लागेल.</item>
+    </plurals>
+    <plurals name="kg_password_wrong_puk_code">
+        <item quantity="other">अयोग्य सिम PUK कोड. %d प्रयत्न उर्वरित. जर हे परत चुकीचे असेल तर सिम कायमचे अक्षम केले जातील.</item>
+        <item quantity="one">अयोग्य सिम PUK कोड. %d प्रयत्न उर्वरित. जर हे परत चुकीचे असेल तर सिम कायमचे अक्षम केले जाईल.</item>
+    </plurals>
+    <plurals name="kg_prompt_reason_time_password">
+        <item quantity="other">%d तासांसाठी डिव्हाइस लॉक केले गेले. कृपया पासवर्डची पुष्टी करा.</item>
+        <item quantity="one">%d तासासाठी डिव्हाइस लॉक केले गेले. कृपया पासवर्डची पुष्टी करा.</item>
+    </plurals>
+    <plurals name="kg_prompt_reason_time_pattern">
+        <item quantity="other">%d तासांसाठी डिव्हाइस लॉक केले गेले. कृपया अनलॉक नमुन्याची पुष्टी करा.</item>
+        <item quantity="one">%d तासासाठी डिव्हाइस लॉक केले गेले. कृपया अनलॉक नमुन्याची पुष्टी करा.</item>
+    </plurals>
+    <plurals name="kg_prompt_reason_time_pin">
+        <item quantity="other">%d तासांसाठी डिव्हाइस लॉक केले गेले. कृपया पिनची पुष्टी करा.</item>
+        <item quantity="one">%d तासासाठी डिव्हाइस लॉक केले गेले. कृपया पिनची पुष्टी करा.</item>
+    </plurals>
+    <plurals name="kg_too_many_failed_attempts_countdown">
+        <item quantity="other">कृपया %d सेकंदांनंतर पुन्हा प्रयत्न करा.</item>
+        <item quantity="one">कृपया 1 सेकंदानंतर पुन्हा प्रयत्न करा.</item>
+    </plurals>
+    <plurals name="notification_group_overflow_description">
+        <item quantity="other">या गटात आताही %s सूचना आहेत.</item>
+        <item quantity="one">या गटात आताही %s सूचना आहे.</item>
+    </plurals>
+    <plurals name="snoozeHourOptions">
+        <item quantity="other">%d तास</item>
+        <item quantity="one">%d तास</item>
+    </plurals>
+    <plurals name="snoozeMinuteOptions">
+        <item quantity="other">%d मिनिटे</item>
+        <item quantity="one">%dमिनिट</item>
+    </plurals>
+</resources>

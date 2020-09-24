@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_gravity="center_horizontal" android:id="@id/clock_root_view" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.coloros.systemui.aod.aodclock.off.clock.ClockLayout android:id="@id/clock_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerHorizontal="true" />
+    <com.coloros.systemui.aod.aodclock.off.date.DateLayout android:id="@id/date_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/clock_layout" android:layout_centerHorizontal="true" />
+    <com.coloros.systemui.aod.aodclock.off.media.AodMediaLayout android:id="@id/media_layout" android:visibility="gone" android:layout_width="@dimen/aod_music_width" android:layout_height="wrap_content" android:layout_marginTop="@dimen/aod_clock_preview_common_margin_top" android:layout_below="@id/date_layout" android:layout_centerHorizontal="true" />
+    <com.coloros.systemui.aod.aodclock.off.battery.BatteryLayout android:id="@id/battery_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/aod_clock_preview_common_margin_top" android:layout_below="@id/media_layout" android:layout_centerHorizontal="true" />
+    <com.coloros.systemui.aod.aodclock.off.notification.NotificationLayout android:id="@id/notification_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/aod_notification_margin_top" android:layout_below="@id/battery_layout" android:layout_centerHorizontal="true" />
+</RelativeLayout>

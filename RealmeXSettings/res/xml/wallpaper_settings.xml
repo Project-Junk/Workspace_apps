@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.preference.PreferenceScreen android:title="@string/wallpaper_settings_fragment_title" android:key="choose_wallpaper_from"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto">
+    <com.coloros.settings.widget.preference.SettingsColorPreferenceCategory android:key="wallpaper_type" settings:controller="com.android.settings.wallpaper.WallpaperTypePreferenceController" settings:isFirstCategory="true" />
+</androidx.preference.PreferenceScreen>

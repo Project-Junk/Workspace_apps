@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:layout="@layout/color_preference_category_layout_without_shadow">
+        <com.coloros.settings.widget.preference.SettingSwitchPreference android:persistent="false" android:title="@string/oppo_lock_screen_password_title" android:key="lock_screen_password_state" android:disableDependentsState="true" />
+        <com.coloros.settings.widget.preference.SettingColorJumpPreference android:persistent="false" android:title="@string/oppo_lock_screen_change_password" android:key="change_password" android:disableDependentsState="true" />
+    </PreferenceCategory>
+</PreferenceScreen>

@@ -1,0 +1,24 @@
+{
+  "route": {
+    "market": {
+      "IN": "jf.heytapmobi.com",
+      "OTHER": "jf.heytapmobi.com",
+      "CN": "jf.heytapmobi.com"
+    },
+    "credit": {
+      "IN": "icredits.heytapmobi.com",
+      "OTHER": "icredits.heytapmobi.com",
+      "CN": "icredits.heytapmobi.com"
+    },
+    "account": {
+      "VN": "client-uc.heytapmobi.com",
+      "CN": "client-uc.heytapmobi.com",
+      "OTHER": "client-uc.heytapmobi.com"
+    },
+    "vip": {
+      "CN": "vip-client.heytapmobi.com",
+      "IN": "vip-client.heytapmobi.com",
+      "OTHER": "vip-client.heytapmobi.com"
+    }
+  }
+}

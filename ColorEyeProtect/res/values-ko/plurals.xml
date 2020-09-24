@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="application_manage_status_text">
+        <item quantity="other">%1$d개의 앱</item>
+        <item quantity="one">%1$d 개의 앱</item>
+    </plurals>
+    <plurals name="third_app_status_text">
+        <item quantity="other">%1$d 앱 켜짐</item>
+        <item quantity="one">%1$d 앱 켜짐</item>
+    </plurals>
+</resources>

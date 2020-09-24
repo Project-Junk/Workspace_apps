@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.color.darkmode.ui.widget.LocalOppoTimePicker android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_centerHorizontal="true" app:colorPickerRowNumber="3"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" />

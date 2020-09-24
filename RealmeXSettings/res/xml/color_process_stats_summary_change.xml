@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/app_memory_use" android:key="app_list"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto">
+    <com.coloros.settings.widget.preference.ColorSummaryPreference android:selectable="false" android:key="status_header" />
+    <com.android.settings.applications.SpacePreference android:layout_height="5.0dip" />
+    <com.color.support.preference.ColorPreference android:layout="@layout/setting_memory_summary_preference" android:title="@string/memory_performance" android:key="performance" />
+    <com.color.support.preference.ColorPreference android:layout="@layout/setting_memory_summary_preference" android:title="@string/total_memory" android:key="total_memory" />
+    <com.color.support.preference.ColorPreference android:layout="@layout/setting_memory_summary_preference" android:title="@string/average_used" android:key="average_used" />
+    <com.color.support.preference.ColorPreference android:layout="@layout/setting_memory_summary_preference" android:title="@string/free_memory" android:key="free" />
+    <com.coloros.settings.widget.preference.SettingsColorPreferenceCategory android:key="apps_list_category">
+        <com.coloros.settings.widget.preference.SettingsColorJumpIconPreference android:title="@string/memory_usage_apps" android:key="apps_list" />
+    </com.coloros.settings.widget.preference.SettingsColorPreferenceCategory>
+    <PreferenceCategory android:key="app_listtst" />
+</PreferenceScreen>

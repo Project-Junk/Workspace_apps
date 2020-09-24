@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.preference.PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto">
+    <androidx.preference.Preference android:layout="@layout/color_layout_preference_header" android:selectable="false" />
+    <com.coloros.settings.widget.preference.SettingsColorPreferenceCategory android:key="vibrate_category_key" settings:isFirstCategory="true">
+        <com.color.support.preference.ColorJumpPreference android:key="vibrate_key" />
+    </com.coloros.settings.widget.preference.SettingsColorPreferenceCategory>
+    <com.coloros.settings.ringtone.OppoRadioPreferencesGroup android:title="@string/ringtone_default" android:key="ringtone_default_category_key" />
+    <com.coloros.settings.widget.preference.SettingsColorPreferenceCategory android:title="@string/ringtone_custom_title" android:key="ringtone_custom_category_key">
+        <com.color.support.preference.ColorJumpPreference android:key="from_filemanager" />
+        <com.color.support.preference.ColorJumpPreference android:key="from_network" />
+    </com.coloros.settings.widget.preference.SettingsColorPreferenceCategory>
+</androidx.preference.PreferenceScreen>

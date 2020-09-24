@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="kg_password_default_pin_message_multi_sim">
+        <item quantity="other">"Daħħal il-PIN għas-SIM Card %1$d. %2$d Qed Jipprova Jiqba'."</item>
+        <item quantity="one">"Daħħal il-PIN għas-SIM Card %1$d. %2$d Qed Jipprova Jiqba'. Se Jkollok Tikkuntattja t-Trasportatur biex Jgħinek Tiftaħ it-Tagħmir Jekk Jerġa' Jkun Ħażin."</item>
+    </plurals>
+    <plurals name="kg_password_wrong_pin_code_multi_sim">
+        <item quantity="other">"PIN ħażin għas-SIM Card %1$d. %2$d Qed Jipprova Jiqba'."</item>
+        <item quantity="one">"PIN ħażin għas-SIM Card %1$d. %2$d Qed Jipprova Jiqba'. Se Jkollok Tikkuntattja t-Trasportatur biex Jgħinek Tiftaħ it-Tagħmir Jekk Jerġa' Jkun Ħażin."</item>
+    </plurals>
+    <plurals name="kg_too_many_failed_attempts_countdown">
+        <item quantity="other">"Erġa' Pprova Wara %d Sekondi."</item>
+        <item quantity="one">"Erġa' Pprova Wara Sekonda 1."</item>
+    </plurals>
+    <plurals name="snoozeHourOptions">
+        <item quantity="other">%d sigħat</item>
+        <item quantity="one">%d siegħa</item>
+    </plurals>
+    <plurals name="snoozeMinuteOptions">
+        <item quantity="other">%d minuti</item>
+        <item quantity="one">%d minuta</item>
+    </plurals>
+</resources>

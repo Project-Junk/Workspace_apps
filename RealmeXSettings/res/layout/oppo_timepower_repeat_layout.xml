@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout android:orientation="vertical" android:id="@id/root_view" android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@id/main_layout" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="@dimen/color_appbar_layout_height">
+        <com.coloros.settings.widget.SettingsColorListView android:id="@android:id/list" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="@dimen/list_padding_top" android:divider="@null" />
+        <TextView android:layout_gravity="center" android:id="@android:id/empty" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/Widget.ColorSupport.ColorNoContentStyle" />
+    </FrameLayout>
+    <include layout="@layout/color_appbar_layout" />
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

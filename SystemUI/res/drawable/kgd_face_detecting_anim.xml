@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list android:oneshot="false"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:duration="32" android:drawable="@drawable/kgd_face_detecting_anim_001" />
+    <item android:duration="32" android:drawable="@drawable/kgd_face_detecting_anim_002" />
+    <item android:duration="32" android:drawable="@drawable/kgd_face_detecting_anim_003" />
+    <item android:duration="32" android:drawable="@drawable/kgd_face_detecting_anim_004" />
+    <item android:duration="32" android:drawable="@drawable/kgd_face_detecting_anim_005" />
+    <item android:duration="32" android:drawable="@drawable/kgd_face_detecting_anim_006" />
+    <item android:duration="32" android:drawable="@drawable/kgd_face_detecting_anim_007" />
+    <item android:duration="32" android:drawable="@drawable/kgd_face_detecting_anim_008" />
+    <item android:duration="32" android:drawable="@drawable/kgd_face_detecting_anim_009" />
+    <item android:duration="32" android:drawable="@drawable/kgd_face_detecting_anim_010" />
+    <item android:duration="32" android:drawable="@drawable/kgd_face_detecting_anim_011" />
+    <item android:duration="32" android:drawable="@drawable/kgd_face_detecting_anim_012" />
+    <item android:duration="32" android:drawable="@drawable/kgd_face_detecting_anim_013" />
+    <item android:duration="32" android:drawable="@drawable/kgd_face_detecting_anim_014" />
+    <item android:duration="32" android:drawable="@drawable/kgd_face_detecting_anim_015" />
+    <item android:duration="32" android:drawable="@drawable/kgd_face_detecting_anim_016" />
+    <item android:duration="32" android:drawable="@drawable/kgd_face_detecting_anim_017" />
+    <item android:duration="32" android:drawable="@drawable/kgd_face_detecting_anim_018" />
+    <item android:duration="32" android:drawable="@drawable/kgd_face_detecting_anim_019" />
+    <item android:duration="32" android:drawable="@drawable/kgd_face_detecting_anim_020" />
+    <item android:duration="32" android:drawable="@drawable/kgd_face_detecting_anim_021" />
+    <item android:duration="32" android:drawable="@drawable/kgd_face_detecting_anim_022" />
+    <item android:duration="32" android:drawable="@drawable/kgd_face_detecting_anim_023" />
+    <item android:duration="32" android:drawable="@drawable/kgd_face_detecting_anim_024" />
+    <item android:duration="32" android:drawable="@drawable/kgd_face_detecting_anim_025" />
+    <item android:duration="32" android:drawable="@drawable/kgd_face_detecting_anim_026" />
+    <item android:duration="32" android:drawable="@drawable/kgd_face_detecting_anim_027" />
+    <item android:duration="32" android:drawable="@drawable/kgd_face_detecting_anim_028" />
+    <item android:duration="32" android:drawable="@drawable/kgd_face_detecting_anim_029" />
+    <item android:duration="32" android:drawable="@drawable/kgd_face_detecting_anim_030" />
+    <item android:duration="32" android:drawable="@drawable/kgd_face_detecting_anim_031" />
+    <item android:duration="32" android:drawable="@drawable/kgd_face_detecting_anim_032" />
+    <item android:duration="32" android:drawable="@drawable/kgd_face_detecting_anim_033" />
+    <item android:duration="32" android:drawable="@drawable/kgd_face_detecting_anim_034" />
+    <item android:duration="32" android:drawable="@drawable/kgd_face_detecting_anim_035" />
+    <item android:duration="32" android:drawable="@drawable/kgd_face_detecting_anim_036" />
+    <item android:duration="32" android:drawable="@drawable/kgd_face_detecting_anim_037" />
+    <item android:duration="32" android:drawable="@drawable/kgd_face_detecting_anim_038" />
+    <item android:duration="32" android:drawable="@drawable/kgd_face_detecting_anim_039" />
+    <item android:duration="32" android:drawable="@drawable/kgd_face_detecting_anim_040" />
+    <item android:duration="32" android:drawable="@drawable/kgd_face_detecting_anim_041" />
+    <item android:duration="32" android:drawable="@drawable/kgd_face_detecting_anim_042" />
+    <item android:duration="32" android:drawable="@drawable/kgd_face_detecting_anim_043" />
+    <item android:duration="32" android:drawable="@drawable/kgd_face_detecting_anim_044" />
+    <item android:duration="32" android:drawable="@drawable/kgd_face_detecting_anim_045" />
+    <item android:duration="32" android:drawable="@drawable/kgd_face_detecting_anim_046" />
+    <item android:duration="32" android:drawable="@drawable/kgd_face_detecting_anim_047" />
+    <item android:duration="32" android:drawable="@drawable/kgd_face_detecting_anim_048" />
+    <item android:duration="32" android:drawable="@drawable/kgd_face_detecting_anim_049" />
+    <item android:duration="32" android:drawable="@drawable/kgd_face_detecting_anim_050" />
+</animation-list>

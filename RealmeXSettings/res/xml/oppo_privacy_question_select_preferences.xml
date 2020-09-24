@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/privacy_question_select"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto">
+    <com.coloros.settings.widget.preference.SettingsColorPreferenceCategory android:key="question_list" settings:isFirstCategory="true" />
+    <PreferenceCategory>
+        <com.color.support.preference.ColorEditTextPreference android:persistent="false" android:title="@string/privacy_question_select_customize" android:key="question_customize" android:dialogTitle="@string/privacy_question_select_customize" />
+    </PreferenceCategory>
+    <PreferenceCategory />
+</PreferenceScreen>

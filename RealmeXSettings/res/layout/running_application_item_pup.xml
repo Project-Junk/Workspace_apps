@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@drawable/running_application_popup_background" android:layout_width="wrap_content" android:layout_height="@dimen/running_application_popup_height" android:paddingStart="@dimen/running_applications_padding" android:paddingEnd="@dimen/running_applications_padding"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/force_stop" android:layout_width="@dimen/running_application_popup_item_width" android:layout_height="fill_parent">
+        <ImageView android:layout_width="@dimen/running_application_item_more_size" android:layout_height="@dimen/running_application_item_more_size" android:layout_marginTop="@dimen/running_application_popup_marginTop" android:src="@drawable/running_application_ending" />
+        <TextView android:textAppearance="?android:textAppearanceLarge" android:textSize="@dimen/running_applications_popup_text_size" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/running_applications_force_stop" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/freeze" android:layout_width="@dimen/running_application_popup_item_width" android:layout_height="fill_parent" android:layout_toRightOf="@id/force_stop">
+        <ImageView android:layout_width="@dimen/running_application_item_more_size" android:layout_height="@dimen/running_application_item_more_size" android:layout_marginTop="@dimen/running_application_popup_marginTop" android:src="@drawable/running_application_freeze" />
+        <TextView android:textAppearance="?android:textAppearanceLarge" android:textSize="@dimen/running_applications_popup_text_size" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/running_applications_freeze" />
+    </LinearLayout>
+</RelativeLayout>

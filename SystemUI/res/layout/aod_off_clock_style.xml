@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_gravity="center_horizontal" android:id="@id/clock_root_view" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.coloros.systemui.aod.aodclock.off.clock.DialClockView android:layout_gravity="center_horizontal" android:id="@id/aod_analog_clock_view" android:layout_width="190.0dip" android:layout_height="190.0dip" />
+    <com.coloros.systemui.aod.aodclock.off.clock.DefaultClockView android:layout_gravity="center_horizontal" android:id="@id/aod_default_clock_view" android:visibility="gone" android:layout_width="190.0dip" android:layout_height="190.0dip" />
+    <com.coloros.systemui.aod.aodclock.widget.ClockStyleHorizontalOne android:layout_gravity="center_horizontal" android:id="@id/aod_horizontal_clock_one_view" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="190.0dip" />
+    <com.coloros.systemui.aod.aodclock.widget.ClockStyleHorizontalTwo android:layout_gravity="center_horizontal" android:id="@id/aod_horizontal_clock_two_view" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="205.0dip" />
+    <com.coloros.systemui.aod.aodclock.widget.ClockStyleVerticalOne android:layout_gravity="center_horizontal" android:id="@id/aod_vertical_clock_one_view" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="190.0dip" />
+</FrameLayout>

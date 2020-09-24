@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/coloros_keyguard_edit_entry_container" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/coloros_keyguard_message_area" android:layout_marginStart="@dimen/kgd_security_edit_margin_start_end" android:layout_marginEnd="@dimen/kgd_security_edit_margin_start_end"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.color.support.widget.ColorEditText android:textSize="@dimen/color_font_size_TF07" android:textColor="?kgd_edit_text_color" android:gravity="center" android:layout_gravity="center" android:id="@id/coloros_keyguard_edit_text" android:background="@android:color/transparent" android:longClickable="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" android:inputType="numberPassword" android:textCursorDrawable="@drawable/kgd_edit_text_cursor" android:textAlignment="center" />
+        <CheckBox android:layout_gravity="end|center" android:id="@id/coloros_keyguard_edit_text_check_box" android:background="@drawable/kgd_edit_text_eye_icon" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:checked="false" android:button="@null" />
+        <TextView android:textSize="@dimen/color_font_size_TF08" android:textColor="?kgd_edit_text_done_button_text_color" android:layout_gravity="end|center" android:id="@id/coloros_keyguard_edit_text_done_btn" android:visibility="gone" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/kg_sim_action_done_label" android:textAllCaps="false" />
+    </FrameLayout>
+    <View android:id="@id/coloros_keyguard_edit_text_bg" android:background="?kgd_edit_text_background_line_color" android:layout_width="fill_parent" android:layout_height="@dimen/kgd_security_edit_bg_height" android:layout_marginTop="@dimen/kgd_security_edit_bg_margin_top" />
+</LinearLayout>

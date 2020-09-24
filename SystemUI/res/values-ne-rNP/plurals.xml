@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="kg_password_default_pin_message_multi_sim">
+        <item quantity="other">कृपया SIM कार्ड %1$d को PIN हाल्नुहोस्। %2$d प्रयासहरू बाँकी।</item>
+        <item quantity="one">कृपया SIM कार्ड %1$d को PIN हाल्नुहोस्। %2$d प्रयास बाँकी। यो फेरि गलत भएमा, तपाईंले यस यन्त्रलाई अनलक गर्नका लागि आफ्नो सेवा वाहकलाई सम्पर्क गर्नुपर्नेछ।</item>
+    </plurals>
+    <plurals name="kg_password_wrong_pin_code">
+        <item quantity="other">SIM को PIN गलत छ। %d वटा प्रयासहरू बाँकी छन्।</item>
+        <item quantity="one">SIM को PIN गलत छ। %d प्रयास बाँकी छ। यो फेरि गलत भएमा, तपाईंले यस यन्त्रलाई अनलक गर्नका लागि आफ्नो वाहकलाई सम्पर्क गर्नुपर्नेछ।</item>
+    </plurals>
+    <plurals name="kg_password_wrong_pin_code_multi_sim">
+        <item quantity="other">SIM कार्ड %1$d को PIN गलत भयो। %2$d प्रयासहरू बाँकी।</item>
+        <item quantity="one">SIM कार्ड %1$d को PIN गलत भयो। %2$d प्रयास बाँकी। यो फेरि गलत भएमा, तपाईंले यस यन्त्रलाई अनलक गर्नका लागि आफ्नो सेवा वाहकलाई सम्पर्क गर्नुपर्नेछ।</item>
+    </plurals>
+    <plurals name="kg_password_wrong_puk_code">
+        <item quantity="other">SIM को PUK कोड गलत छ। %d वटा प्रयासहरू बाँकी छन्। यो फेरि गलत भएमा SIM हरूलाई सदाका लागि असक्षम बनाइनेछ।</item>
+        <item quantity="one">SIM को PUK कोड गलत छ। %d प्रयास बाँकी छ। यो फेरि गलत भएमा SIM लाई सदाका लागि असक्षम बनाइनेछ।</item>
+    </plurals>
+    <plurals name="kg_prompt_reason_time_password">
+        <item quantity="other">यन्त्र %d घण्टाका लागि लक गरिएको छ। कृपया पासवर्ड पुष्टि गर्नुहोस्।</item>
+        <item quantity="one">यन्त्र %d घण्टाका लागि लक गरिएको छ। कृपया पासवर्ड पुष्टि गर्नुहोस्।</item>
+    </plurals>
+    <plurals name="kg_prompt_reason_time_pattern">
+        <item quantity="other">यो यन्त्र %d मिनेटको लागि लक भएको छ। कृपया अनलक प्याटर्न पुष्टि गर्नुहोस्।</item>
+        <item quantity="one">यो यन्त्र %d मिनेटको लागि लक भएको छ। कृपया अनलक प्याटर्न पुष्टि गर्नुहोस्।</item>
+    </plurals>
+    <plurals name="kg_prompt_reason_time_pin">
+        <item quantity="other">यो यन्त्र %d मिनेटको लागि लक भएको छ। कृपया PIN पुष्टि गर्नुहोस्।</item>
+        <item quantity="one">यो यन्त्र %d मिनेटको लागि लक भएको छ। कृपया PIN पुष्टि गर्नुहोस्।</item>
+    </plurals>
+    <plurals name="kg_too_many_failed_attempts_countdown">
+        <item quantity="other">कृपया %d सेकेन्ड पछि पुनः प्रयास गर्नुहोस्।</item>
+        <item quantity="one">कृपया 1 सेकेन्ड पछि पुनः प्रयास गर्नुहोस्।</item>
+    </plurals>
+    <plurals name="notification_group_overflow_description">
+        <item quantity="other">यस समूहमा अझै %s सूचनाहरू छन्।</item>
+        <item quantity="one">यस समूहमा अझै %s सूचना छ।</item>
+    </plurals>
+    <plurals name="snoozeHourOptions">
+        <item quantity="other">%d घण्टा</item>
+        <item quantity="one">%d घण्टा</item>
+    </plurals>
+    <plurals name="snoozeMinuteOptions">
+        <item quantity="other">%d मिनेट</item>
+        <item quantity="one">%d मिनेट</item>
+    </plurals>
+    <plurals name="wifi_tether_connected_summary">
+        <item quantity="other">%1$d वटा यन्त्र जोडिएका छन्</item>
+        <item quantity="one">%1$d वटा यन्त्र जोडिएको छ</item>
+    </plurals>
+</resources>

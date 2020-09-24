@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/color_list_overscroll_background_color" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto">
+    <color.support.v7.widget.Toolbar android:id="@id/toolbar" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.color.support.widget.ColorEditText android:id="@id/device_name" android:focusable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/oppo_list_item_top_padding" android:layout_marginBottom="@dimen/oppo_list_item_top_padding" android:hint="@string/device_info_phone_name_hint" android:singleLine="true" android:inputType="text" android:imeOptions="actionDone" android:textAlignment="viewStart" android:layout_marginStart="@dimen/oppo_toolbar_margin" android:layout_marginEnd="@dimen/oppo_toolbar_margin" settings:quickDelete="true" />
+    </LinearLayout>
+    <TextView android:textColor="@color/color_black_30" android:id="@id/descriptions" android:paddingTop="12.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/device_info_phone_name_summary" android:paddingStart="@dimen/oppo_toolbar_margin" android:paddingEnd="@dimen/oppo_toolbar_margin" style="@style/OppoListViewTextAppearance.Small" />
+</LinearLayout>

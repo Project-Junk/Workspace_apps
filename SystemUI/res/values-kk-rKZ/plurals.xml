@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="kg_password_default_pin_message_multi_sim">
+        <item quantity="other">SIM карта %1$d PIN кодын енгізіңіз. %2$d әрекет қалды.</item>
+        <item quantity="one">SIM карта %1$d PIN кодын енгізіңіз. %2$d әрекет қалды. Ол қайтадан қате болса, құрылғы бекітпесін ашу бойынша көмек алу үшін операторға хабарласуыңыз қажет болады.</item>
+    </plurals>
+    <plurals name="kg_password_wrong_pin_code">
+        <item quantity="other">SIM PIN қате. %d әрекет қалды.</item>
+        <item quantity="one">SIM PIN қате. %d әрекет қалды. Ол қайтадан қате болса, құрылғы бекітпесін ашу бойынша көмек алу үшін операторға хабарласуыңыз қажет болады.</item>
+    </plurals>
+    <plurals name="kg_password_wrong_pin_code_multi_sim">
+        <item quantity="other">SIM карта %1$d PIN коды дұрыс емес. %2$d әрекет қалды.</item>
+        <item quantity="one">SIM карта %1$d PIN коды дұрыс емес. %2$d әрекет қалды. Ол қайтадан қате болса, құрылғы бекітпесін ашу бойынша көмек алу үшін операторға хабарласуыңыз қажет болады.</item>
+    </plurals>
+    <plurals name="kg_password_wrong_puk_code">
+        <item quantity="other">SIM PUK коды қате. %d әрекет қалды. Ол қайтадан қате болса, SIM карталар біржолата ажыратылады.</item>
+        <item quantity="one">SIM PUK коды қате. %d әрекет қалды. Ол қайтадан қате болса, SIM біржолата ажыратылады.</item>
+    </plurals>
+    <plurals name="kg_prompt_reason_time_password">
+        <item quantity="other">Құрылғы %d сағат бойы бекітіліп тұрған. Құпия сөзді растаңыз.</item>
+        <item quantity="one">Құрылғы %d сағат бойы бекітіліп тұрған. Құпия сөзді растаңыз.</item>
+    </plurals>
+    <plurals name="kg_prompt_reason_time_pattern">
+        <item quantity="other">Құрылғы %d сағат бойы бекітіліп тұр.Бекітпені ашу өрнегін растаңыз.</item>
+        <item quantity="one">Құрылғы %d сағат бойы бекітіліп тұр.Бекітпені ашу өрнегін растаңыз.</item>
+    </plurals>
+    <plurals name="kg_prompt_reason_time_pin">
+        <item quantity="other">Құрылғы %d сағат бойы бекітіліп тұр.PIN кодты растаңыз.</item>
+        <item quantity="one">Құрылғы %d сағат бойы бекітіліп тұр.PIN кодты растаңыз.</item>
+    </plurals>
+    <plurals name="kg_too_many_failed_attempts_countdown">
+        <item quantity="other">Әрекетті %d секундтан кейін қайталаңыз.</item>
+        <item quantity="one">Әрекетті 1 секундтан кейін қайталаңыз.</item>
+    </plurals>
+    <plurals name="notification_group_overflow_description">
+        <item quantity="other">Бұл топта әлі %s хабарландыру бар.</item>
+        <item quantity="one">Бұл топта әлі %s хабарландыру бар.</item>
+    </plurals>
+    <plurals name="snoozeHourOptions">
+        <item quantity="other">%d сағат</item>
+        <item quantity="one">%d сағат</item>
+    </plurals>
+    <plurals name="snoozeMinuteOptions">
+        <item quantity="other">%d минут</item>
+        <item quantity="one">%d минут</item>
+    </plurals>
+    <plurals name="wifi_tether_connected_summary">
+        <item quantity="other">%1$d құрылғы жалғанды</item>
+        <item quantity="one">%1$d құрылғы жалғанды</item>
+    </plurals>
+</resources>

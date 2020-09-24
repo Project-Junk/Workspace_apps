@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/other_advanced_settings" android:key="parent_screen"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto">
+    <com.coloros.settings.widget.preference.SettingsColorPreferenceCategory android:key="power_and_storage_category" settings:isFirstCategory="true">
+        <com.coloros.settings.widget.preference.SettingColorJumpPreference android:targetPackage="com.android.settings" android:title="@string/storage_settings_new" android:key="storage_settings" android:fragment="com.coloros.settings.feature.storage.ColorStorageDashboardFragment">
+            <intent android:targetPackage="com.android.settings" android:action="android.intent.action.MAIN" android:targetClass="com.android.settings.Settings$StorageDashboardActivity" />
+        </com.coloros.settings.widget.preference.SettingColorJumpPreference>
+        <com.coloros.settings.widget.preference.SettingColorJumpPreference android:targetPackage="com.android.settings" android:title="@string/running_applications_title" android:key="processes_settings">
+            <intent android:targetPackage="com.android.settings" android:action="android.intent.action.MAIN" android:targetClass="com.coloros.settings.feature.process.RunningApplicationActivity" />
+        </com.coloros.settings.widget.preference.SettingColorJumpPreference>
+        <com.coloros.settings.widget.preference.SettingColorJumpPreference android:title="@string/date_and_time_settings_title" android:key="date_time_settings" android:fragment="com.coloros.settings.feature.othersettings.datetime.ColorDateTimeSettingFragment" />
+        <com.coloros.settings.widget.preference.SettingColorJumpPreference android:layout="@layout/color_preference" android:title="@string/language_settings" android:key="language_settings" android:fragment="com.coloros.settings.feature.othersettings.input.ColorInputMethodSettingsFragment" />
+        <com.coloros.settings.widget.preference.SettingColorJumpPreference android:title="@string/oppo_other_screen_capture" android:key="key_oppo_screen_capture">
+            <intent android:targetPackage="com.coloros.screenshot" android:action="oppo.intent.action.SCREENSHOT_SETTINGS" />
+        </com.coloros.settings.widget.preference.SettingColorJumpPreference>
+        <com.coloros.settings.widget.preference.SettingColorJumpPreference android:title="@string/oppo_other_screen_recording" android:key="key_oppo_screen_recording">
+            <intent android:targetPackage="com.coloros.screenrecorder" android:action="oppo.intent.action.SCREENRECORDER_SETTINGS" />
+        </com.coloros.settings.widget.preference.SettingColorJumpPreference>
+    </com.coloros.settings.widget.preference.SettingsColorPreferenceCategory>
+    <PreferenceCategory android:key="video_call_effects_category">
+        <com.coloros.settings.widget.preference.SettingColorJumpPreference android:title="@string/video_call_effects" android:key="video_call_effects">
+            <intent android:action="oppo.intent.action.VIDEO_CALL_SETTINGS" />
+        </com.coloros.settings.widget.preference.SettingColorJumpPreference>
+    </PreferenceCategory>
+    <PreferenceCategory android:key="more_apps">
+        <com.coloros.settings.widget.preference.SettingColorJumpPreference android:title="@string/search_setting_title" android:key="search">
+            <intent android:action="com.android.quicksearchbox.action.SEARCHABLE_ITEMS" />
+        </com.coloros.settings.widget.preference.SettingColorJumpPreference>
+        <com.coloros.settings.widget.preference.SettingColorJumpPreference android:title="@string/settings_label" android:key="com.nearme.ocloud">
+            <intent android:targetPackage="com.nearme.ocloud" android:action="oppo.intent.action.APP_SETTINGS" />
+        </com.coloros.settings.widget.preference.SettingColorJumpPreference>
+        <com.coloros.settings.widget.preference.SettingColorJumpPreference android:title="@string/settings_label" android:key="com.coloros.providers.downloads.ui">
+            <intent android:targetPackage="com.coloros.providers.downloads.ui" android:action="oppo.intent.action.APP_SETTINGS" />
+        </com.coloros.settings.widget.preference.SettingColorJumpPreference>
+        <com.coloros.settings.widget.preference.SettingColorJumpPreference android:title="@string/settings_label" android:key="com.coloros.operationManual">
+            <intent android:targetPackage="com.coloros.operationManual" android:action="oppo.intent.action.APP_SETTINGS" />
+        </com.coloros.settings.widget.preference.SettingColorJumpPreference>
+        <com.coloros.settings.widget.preference.SettingColorJumpPreference android:title="@string/settings_label" android:key="com.oppo.operationManual">
+            <intent android:targetPackage="com.oppo.operationManual" android:action="oppo.intent.action.APP_SETTINGS" />
+        </com.coloros.settings.widget.preference.SettingColorJumpPreference>
+    </PreferenceCategory>
+    <PreferenceCategory android:key="complex_category">
+        <com.coloros.settings.widget.preference.SettingColorJumpPreference android:title="@string/camera_3d_effect" android:key="camera_effect_settings" android:order="0" android:fragment="com.coloros.settings.feature.othersettings.cameraeffect.CameraEffectFragment" />
+        <com.coloros.settings.widget.preference.SettingColorJumpPreference android:title="@string/video_call_beauty" android:key="video_beauty_settings" android:order="1" android:fragment="com.coloros.settings.feature.othersettings.videobeauty.VideoBeautySettingFragment" />
+        <com.coloros.settings.widget.preference.SettingColorJumpPreference android:title="@string/timepower_settings_title" android:key="timepower_settings" android:order="2" android:fragment="com.coloros.settings.feature.othersettings.timepower.TimePowerSettingFragment" />
+        <com.coloros.settings.widget.preference.SettingColorJumpPreference android:title="@string/oppo_security_settings_title" android:key="security_settings" android:order="3" android:fragment="com.coloros.settings.feature.security.ColorSecuritySettings">
+            <extra android:name="attach_to_base_layout" android:value="true" />
+        </com.coloros.settings.widget.preference.SettingColorJumpPreference>
+        <com.coloros.settings.widget.preference.SettingColorJumpPreference android:title="@string/oppo_sim_toolkit" android:key="sim_toolkit_settings" android:order="4" />
+        <com.coloros.settings.widget.preference.SettingColorJumpPreference android:title="@string/accessibility_settings" android:key="accessibility_settings" android:order="5" android:fragment="com.coloros.settings.feature.othersettings.accessibility.ColorAccessibilitySettings" />
+        <com.coloros.settings.widget.preference.SettingColorJumpPreference android:title="@string/development_settings_title" android:key="development_settings" android:order="6" android:fragment="com.coloros.settings.feature.othersettings.development.ColorDevelopmentSettingsDashboardFragment">
+            <intent android:targetPackage="com.android.settings" android:action="android.settings.APPLICATION_DEVELOPMENT_SETTINGS" />
+        </com.coloros.settings.widget.preference.SettingColorJumpPreference>
+        <com.coloros.settings.widget.preference.SettingSwitchPreference android:persistent="false" android:title="@string/play_sellmode_title" android:key="play_sellmode" android:order="7" />
+        <com.coloros.settings.widget.preference.SettingColorJumpPreference android:title="@string/oppo_title_recent_task_management" android:key="recent_task_management" android:order="8">
+            <intent android:targetPackage="com.android.launcher3" android:action="coloros.intent.action.quickstep.LOCK_SETTINGS" />
+        </com.coloros.settings.widget.preference.SettingColorJumpPreference>
+        <com.coloros.settings.widget.preference.SettingSwitchPreference android:persistent="false" android:layout="@layout/color_preference" android:title="@string/oppo_otg_connection" android:key="oppo_otg_connection" android:summary="@string/auto_close_after_ten_min" android:order="9" />
+        <com.coloros.settings.widget.preference.SettingColorJumpPreference android:title="@string/recommend_settings_title" android:key="recommend_settings" android:order="10" android:fragment="com.coloros.settings.feature.othersettings.recommends.RecommendSettings" />
+    </PreferenceCategory>
+    <PreferenceCategory android:key="privacy_settings_category">
+        <com.coloros.settings.widget.preference.SettingColorJumpPreference android:persistent="false" android:title="@string/backup_restore" android:key="backup_restore">
+            <intent android:action="oppo.intent.action.BACKUP_MAIN" />
+        </com.coloros.settings.widget.preference.SettingColorJumpPreference>
+        <com.coloros.settings.widget.preference.ColorRestrictedJumpPreference android:layout="@layout/color_preference" android:title="@string/oppo_reset" android:key="privacy_settings" settings:keywords="@string/keywords_factory_data_reset" settings:useAdminDisabledSummary="true" settings:userRestriction="no_factory_reset" />
+    </PreferenceCategory>
+    <com.coloros.settings.widget.preference.SettingColorJumpPreference android:layout="@layout/color_preference" android:title="@string/privacy_settings_title" android:key="privacy_settings_exp" android:fragment="com.coloros.settings.feature.othersettings.backup.PrivacySettingsExp" />
+    <com.coloros.settings.widget.preference.SettingsColorPreferenceCategory android:key="more_google_settings">
+        <com.coloros.settings.widget.preference.SettingColorJumpPreference android:layout="@layout/color_preference" android:title="@string/title_google_settings" android:key="google_settings">
+            <intent android:action="com.android.settings.action.EXTRA_SETTINGS" />
+        </com.coloros.settings.widget.preference.SettingColorJumpPreference>
+    </com.coloros.settings.widget.preference.SettingsColorPreferenceCategory>
+    <PreferenceCategory />
+    <com.coloros.settings.widget.preference.ColorRecommendedPreference android:key="addition_settings_bottom_recommended" />
+</PreferenceScreen>

@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.coloros.systemui.keyguard.slider.KeyguardSliderLayout android:id="@id/keyguard_slider_layout" android:background="@android:color/transparent" android:fadingEdge="none" android:clipChildren="true" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:overScrollMode="never" android:layoutDirection="ltr"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

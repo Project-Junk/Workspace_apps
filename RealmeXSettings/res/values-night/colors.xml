@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="color_navigation_item_color_disabled">#26ffffff</color>
+    <color name="color_navigation_item_color_normal">#ffffffff</color>
+    <color name="color_primary_dark">@android:color/background_dark</color>
+    <color name="contextual_card_background">@android:color/material_grey_800</color>
+    <color name="dialog_background">@android:color/material_grey_50</color>
+    <color name="dirac_seek_bar_bg">#14ffffff</color>
+    <color name="dolby_seek_bar_bg">#1affffff</color>
+    <color name="homepage_accessibility_background">#ff783be5</color>
+    <color name="homepage_support_background">#ff3f5fbd</color>
+    <color name="notification_importance_button_selected">#ffaecbfa</color>
+    <color name="notification_importance_button_unselected">#ff5f6368</color>
+    <color name="notification_importance_selection_bg">@android:color/material_grey_50</color>
+    <color name="search_bar_background">@android:color/material_grey_50</color>
+    <color name="settings_biometric_pwd_btn_text_color_normal">#8cffffff</color>
+    <color name="settings_biometric_pwd_btn_text_color_pressed">#40ffffff</color>
+    <color name="settings_city_add_default_stroke_color">#30ffffff</color>
+    <color name="settings_dictionary_empty_icon_tint_color">#66ffffff</color>
+    <color name="settings_ic_sync_fill_color">#ffffffff</color>
+    <color name="settings_recommended_recycler_view_bg">#ff1a1a1a</color>
+    <color name="settings_search_empty_text_color">#ffffffff</color>
+    <color name="settings_spinner_bg">#ff515151</color>
+    <color name="settings_storage_category_default">#1affffff</color>
+    <color name="switchbar_switch_thumb_tint">@android:color/black</color>
+    <color name="switchbar_switch_track_tint">#82000000</color>
+    <color name="homepage_card_dismissal_background">@android:color/material_grey_800</color>
+</resources>

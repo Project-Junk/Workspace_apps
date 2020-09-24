@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/install_authentication"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto">
+    <com.coloros.settings.widget.preference.SettingsColorPreferenceCategory android:title="@string/install_authentication" android:key="install_authentication_category" settings:isFirstCategory="true">
+        <com.coloros.settings.widget.preference.SettingsColorMarkPreference android:persistent="false" android:layout="@layout/color_preference" android:title="@string/install_authentication_all" android:key="install_authentication_all" />
+        <com.coloros.settings.widget.preference.SettingsColorMarkPreference android:persistent="false" android:layout="@layout/color_preference" android:title="@string/install_authentication_not_appstore" android:key="install_authentication_not_appstore" />
+        <com.coloros.settings.widget.preference.SettingsColorMarkPreference android:persistent="false" android:layout="@layout/color_preference" android:title="@string/install_authentication_none" android:key="install_authentication_none" />
+    </com.coloros.settings.widget.preference.SettingsColorPreferenceCategory>
+    <PreferenceCategory android:title="@string/authentication_settings" android:key="authentication_settings_category_key">
+        <com.coloros.settings.widget.preference.SettingsSingleSelectListPreference android:entries="@array/authentication_frequency_entries" android:layout="@layout/color_preference" android:title="@string/authentication_frequency_settings" android:key="authentication_frequency_settings" android:entryValues="@array/authentication_frequency_values" settings:color_jump_mark="@null" settings:keywords="@string/keywords_screen_timeout" settings:showNormalColor="true" settings:useAdminDisabledSummary="true" />
+    </PreferenceCategory>
+    <PreferenceCategory />
+</PreferenceScreen>

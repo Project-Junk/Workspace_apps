@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/color_list_overscroll_background_color" android:fitsSystemWindows="true" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:overScrollMode="always"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto">
+    <color.support.v7.widget.Toolbar android:id="@id/toolbar" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <LinearLayout android:orientation="vertical" android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginStart="@dimen/oppo_list_item_left_margin" android:layout_marginEnd="@dimen/oppo_list_item_left_margin">
+        <com.color.support.widget.ColorEditText android:textSize="@dimen/TD09" android:gravity="center_vertical" android:id="@id/finger_name" android:paddingLeft="20.0dip" android:paddingRight="20.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/M11" android:minHeight="?android:listPreferredItemHeightSmall" android:singleLine="true" android:maxLength="20" settings:quickDelete="true" />
+        <View android:background="@drawable/color_divider_horizontal_without_padding" android:layout_width="fill_parent" android:layout_height="2.0px" android:layout_marginTop="@dimen/M6" android:layout_marginBottom="@dimen/M6" />
+        <TextView android:textSize="@dimen/TD09" android:textColor="#ffea3347" android:gravity="center" android:id="@id/shortcut_button" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="?android:listPreferredItemHeightSmall" android:text="@string/delete_fingerprint" />
+    </LinearLayout>
+</LinearLayout>

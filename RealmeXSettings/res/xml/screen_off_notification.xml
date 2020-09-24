@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/realme_aod_notification_icon"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto">
+    <PreferenceCategory>
+        <com.coloros.settings.feature.display.screenoffreminder.notification.AodNotificationTipsPreference android:layout="@layout/aod_notification_tips_layout" android:selectable="false" android:key="key_hint_summary" android:summary="@string/realme_aod_notification_hint" settings:showNormalColor="true" />
+    </PreferenceCategory>
+    <com.coloros.settings.widget.preference.SettingSwitchPreference android:persistent="false" android:title="@string/realme_aod_notification_all" android:key="key_realme_all" />
+    <PreferenceCategory android:layout="@layout/oppo_preference_category_layout_without_divider" android:key="key_aod_preference_category" />
+    <PreferenceCategory />
+</PreferenceScreen>

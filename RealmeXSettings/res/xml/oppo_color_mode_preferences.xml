@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/color_settings_title" android:key="color_settings_title"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:layout="@layout/oppo_preference_category_layout_without_divider" android:key="color_mode_category">
+        <com.coloros.settings.widget.preference.SettingsColorMarkPreference android:persistent="false" android:title="@string/color_mode_colorful_title" android:key="color_mode_colorful" android:summary="@string/color_mode_colorful_summary" />
+        <com.coloros.settings.widget.preference.SettingsColorMarkPreference android:persistent="false" android:title="@string/color_mode_vivid_title" android:key="color_mode_vivid" android:summary="@string/color_mode_vivid_summary" />
+        <com.coloros.settings.widget.preference.SettingsColorMarkPreference android:persistent="false" android:title="@string/color_mode_soft_title" android:key="color_mode_soft" android:summary="@string/color_mode_soft_summary" />
+        <com.coloros.settings.widget.preference.SettingsColorMarkPreference android:persistent="false" android:title="@string/color_mode_adaptive_title" android:key="color_mode_adaptive" android:summary="@string/color_mode_adaptive_summery" />
+        <com.coloros.settings.widget.preference.SettingsColorMarkPreference android:persistent="false" android:title="@string/color_mode_cinema_title" android:key="color_mode_cinema" android:summary="@string/color_mode_cinema_summary" />
+    </PreferenceCategory>
+</PreferenceScreen>

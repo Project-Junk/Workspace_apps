@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="kg_password_default_pin_message_multi_sim">
+        <item quantity="other">SIM ਕਾਰਡ %1$d PIN ਦਾਖਲ ਕਰੋ। %2$d ਕੋਸ਼ਿਸ਼ਾਂ ਬਾਕੀ ਹਨ।</item>
+        <item quantity="one">"SIM ਕਾਰਡ %1$d PIN ਦਾਖਲ ਕਰੋ। %2$d ਕੋਸ਼ਿਸ਼ਾਂ ਬਾਕੀ ਹਨ। ਇਸਦੇ ਦੁਬਾਰਾ ਗਲਤ ਹੋਣ 'ਤੇ ਡੀਵਾਈਸ ਅਣਲੌਕ ਕਰਨ ਵਿੱਚ ਮਦਦ ਕਰਨ ਲਈ ਤੁਹਾਨੂੰ ਕੈਰੀਅਰ ਨਾਲ ਸੰਪਰਕ ਕਰਨ ਦੀ ਲੋੜ ਹੋਵੇਗੀ।"</item>
+    </plurals>
+    <plurals name="kg_password_wrong_pin_code">
+        <item quantity="other">SIM PIN ਗਲਤ ਹੈ। %d ਕੋਸ਼ਿਸ਼ਾਂ ਬਾਕੀ ਹਨ।</item>
+        <item quantity="one">SIM PIN ਗਲਤ ਹੈ। %d ਕੋਸ਼ਿਸ਼ ਬਾਕੀ ਹੈ। ਜੇਕਰ ਇਹ ਦੁਬਾਰਾ ਗਲਤ ਹੁੰਦਾ ਹੈ ਤਾਂ ਆਪਣਾ ਡਿਵਾਈਸ ਅਨਲੌਕ ਕਰਨ ਲਈ ਮਦਦ ਪ੍ਰਾਪਤ ਕਰਨ ਲਈ ਤੁਹਾਨੂੰ ਆਪਣੇ ਕੈਰੀਅਰ ਨਾਲ ਸੰਪਰਕ ਕਰਨਾ ਹੋਵੇਗਾ।</item>
+    </plurals>
+    <plurals name="kg_password_wrong_pin_code_multi_sim">
+        <item quantity="other">SIM ਕਾਰਡ %1$d ਲਈ PIN ਗਲਤ ਹੈ। %2$d ਕੋਸ਼ਿਸ਼ਾਂ ਬਾਕੀ ਹਨ।</item>
+        <item quantity="one">"SIM ਕਾਰਡ %1$d ਲਈ PIN ਗਲਤ ਹੈ। %2$d ਕੋਸ਼ਿਸ਼ਾਂ ਬਾਕੀ ਹਨ। ਇਸਦੇ ਦੁਬਾਰਾ ਗਲਤ ਹੋਣ 'ਤੇ ਡੀਵਾਈਸ ਅਣਲੌਕ ਕਰਨ ਵਿੱਚ ਮਦਦ ਕਰਨ ਲਈ ਤੁਹਾਨੂੰ ਕੈਰੀਅਰ ਨਾਲ ਸੰਪਰਕ ਕਰਨ ਦੀ ਲੋੜ ਹੋਵੇਗੀ।"</item>
+    </plurals>
+    <plurals name="kg_password_wrong_puk_code">
+        <item quantity="other">SIM PUK ਕੋਡ ਗਲਤ ਹੈ। %d ਕੋਸ਼ਿਸ਼ਾਂ ਬਾਕੀ ਹਨ। ਜੇਕਰ ਇਹ ਦੁਬਾਰਾ ਗਲਤ ਹੁੰਦਾ ਹੈ ਤਾਂ SIMs ਨੂੰ ਸਥਾਈ ਤੌਰ ਤੇ ਅਸਮਰੱਥ ਕਰ ਦਿੱਤਾ ਜਾਵੇਗਾ।</item>
+        <item quantity="one">SIM PUK ਕੋਡ ਗਲਤ ਹੈ। %d ਕੋਸ਼ਿਸ਼ ਬਾਕੀ ਹੈ। ਜੇਕਰ ਇਹ ਦੁਬਾਰਾ ਗਲਤ ਹੁੰਦਾ ਹੈ ਤਾਂ SIM ਨੂੰ ਸਥਾਈ ਤੌਰ ਤੇ ਅਸਮਰੱਥ ਕਰ ਦਿੱਤਾ ਜਾਵੇਗਾ।</item>
+    </plurals>
+    <plurals name="kg_prompt_reason_time_password">
+        <item quantity="other">ਡਿਵਾਈਸ ਨੂੰ %d ਘੰਟੇ ਲਈ ਲੌਕ ਕਰ ਦਿੱਤਾ ਗਿਆ ਹੈ। ਕਿਰਪਾ ਕਰਕੇ ਪਾਸਵਰਡ ਦੀ ਪੁਸ਼ਟੀ ਕਰੋ।</item>
+        <item quantity="one">ਡਿਵਾਈਸ ਨੂੰ %d ਘੰਟੇ ਲਈ ਲੌਕ ਕਰ ਦਿੱਤਾ ਗਿਆ ਹੈ। ਕਿਰਪਾ ਕਰਕੇ ਪਾਸਵਰਡ ਦੀ ਪੁਸ਼ਟੀ ਕਰੋ।</item>
+    </plurals>
+    <plurals name="kg_prompt_reason_time_pattern">
+        <item quantity="other">ਡਿਵਾਈਸ ਨੂੰ %d ਘੰਟੇ ਲਈ ਲੌਕ ਕਰ ਦਿੱਤਾ ਗਿਆ ਹੈ। ਕਿਰਪਾ ਕਰਕੇ ਅਨਲੌਕ ਸ਼ੈਲੀ ਦੀ ਪੁਸ਼ਟੀ ਕਰੋ।</item>
+        <item quantity="one">ਡਿਵਾਈਸ ਨੂੰ %d ਘੰਟੇ ਲਈ ਲੌਕ ਕਰ ਦਿੱਤਾ ਗਿਆ ਹੈ। ਕਿਰਪਾ ਕਰਕੇ ਅਨਲੌਕ ਸ਼ੈਲੀ ਦੀ ਪੁਸ਼ਟੀ ਕਰੋ।</item>
+    </plurals>
+    <plurals name="kg_prompt_reason_time_pin">
+        <item quantity="other">ਡਿਵਾਈਸ ਨੂੰ %d ਘੰਟੇ ਲਈ ਲੌਕ ਕਰ ਦਿੱਤਾ ਗਿਆ ਹੈ। ਕਿਰਪਾ ਕਰਕੇ PIN ਦੀ ਪੁਸ਼ਟੀ ਕਰੋ।</item>
+        <item quantity="one">ਡਿਵਾਈਸ ਨੂੰ %d ਘੰਟੇ ਲਈ ਲੌਕ ਕਰ ਦਿੱਤਾ ਗਿਆ ਹੈ। ਕਿਰਪਾ ਕਰਕੇ PIN ਦੀ ਪੁਸ਼ਟੀ ਕਰੋ।</item>
+    </plurals>
+    <plurals name="kg_too_many_failed_attempts_countdown">
+        <item quantity="other">ਕਿਰਪਾ ਕਰਕੇ %d ਸਕਿੰਟਾਂ ਬਾਅਦ ਮੁੜ-ਕੋਸ਼ਿਸ਼ ਕਰੋ।</item>
+        <item quantity="one">ਕਿਰਪਾ ਕਰਕੇ 1 ਸਕਿੰਟ ਬਾਅਦ ਮੁੜ-ਕੋਸ਼ਿਸ਼ ਕਰੋ।</item>
+    </plurals>
+    <plurals name="notification_group_overflow_description">
+        <item quantity="other">ਇਸ ਸਮੂਹ ਵਿੱਚ ਅਜੇ ਵੀ %s ਸੂਚਨਾਵਾਂ ਉਪਲਬਧ ਹਨ।</item>
+        <item quantity="one">ਇਸ ਸਮੂਹ ਵਿੱਚ ਅਜੇ ਵੀ %s ਸੂਚਨਾ ਉਪਲਬਧ ਹੈ।</item>
+    </plurals>
+    <plurals name="snoozeHourOptions">
+        <item quantity="other">%d ਘੰਟਾ</item>
+        <item quantity="one">%d ਘੰਟਾ</item>
+    </plurals>
+    <plurals name="snoozeMinuteOptions">
+        <item quantity="other">%d ਮਿੰਟ</item>
+        <item quantity="one">%d ਮਿੰਟ</item>
+    </plurals>
+</resources>

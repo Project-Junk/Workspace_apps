@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:fitsSystemWindows="true" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <color.support.v7.widget.Toolbar android:id="@id/toolbar" android:paddingTop="@dimen/toolbar_margin_top" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/toolbar">
+        <TextView android:gravity="center_horizontal" android:id="@id/prompt_text_large" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="14.0dip" android:layout_centerHorizontal="true" style="@style/EnrollLargeTextStyle" />
+        <TextView android:gravity="center_horizontal" android:id="@id/prompt_text_large_animation" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="14.0dip" android:layout_centerHorizontal="true" style="@style/EnrollLargeTextStyle" />
+        <TextView android:gravity="center" android:id="@id/prompt_text_small" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="19.0dip" android:layout_below="@id/prompt_text_large" android:layout_centerHorizontal="true" style="@style/EnrollSmallTextStyle" />
+        <TextView android:gravity="center" android:id="@id/prompt_text_small_animation" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="19.0dip" android:layout_below="@id/prompt_text_large_animation" android:layout_centerHorizontal="true" style="@style/EnrollSmallTextStyle" />
+    </RelativeLayout>
+    <com.coloros.settings.feature.fingerprint.view.EnrollAnimationLayout android:id="@id/enroll_view" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/toolbar" />
+    <LinearLayout android:gravity="bottom|center" android:id="@id/ll_container" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+        <include layout="@layout/security_shield_fingerprint_footer" />
+    </LinearLayout>
+    <com.coloros.settings.widget.SettingsColorButton android:textSize="@dimen/color_font_size_14DP" android:id="@id/enroll_done" android:background="@drawable/color_large_main_button_bg" android:visibility="invisible" android:layout_width="220.0dip" android:layout_height="44.0dip" android:layout_marginBottom="16.0dip" android:text="@string/next" android:layout_above="@id/ll_container" android:layout_centerHorizontal="true" android:layout_marginStart="24.0dip" android:layout_marginEnd="24.0dip" style="?colorButtonColorfulDefaultStyle" />
+    <com.coloros.settings.widget.SettingsColorButton android:textSize="@dimen/color_font_size_14DP" android:id="@id/btn_continue" android:background="@drawable/color_large_main_button_bg" android:visibility="invisible" android:layout_width="220.0dip" android:layout_height="44.0dip" android:layout_marginBottom="16.0dip" android:text="@string/next" android:layout_above="@id/ll_container" android:layout_centerHorizontal="true" android:layout_marginStart="24.0dip" android:layout_marginEnd="24.0dip" style="?colorButtonColorfulDefaultStyle" />
+</RelativeLayout>

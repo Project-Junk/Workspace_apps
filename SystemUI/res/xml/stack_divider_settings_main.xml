@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.preference.PreferenceScreen android:title="@string/oppo_setting_split_screen_title" android:key="split_screen"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.coloros.systemui.stackdivider.setting.SplitScreenGuidePreference android:key="setting_split_screen_guide_key" />
+    <com.color.support.preference.ColorSwitchPreference android:title="@string/oppo_setting_split_screen_title" android:key="setting_split_screen_switch_key" />
+    <com.color.support.preference.ColorSwitchPreference android:title="@string/oppo_setting_split_screen_user_guide_trible_finger_title" android:key="setting_double_finger_split_screen_switch_key" />
+</androidx.preference.PreferenceScreen>

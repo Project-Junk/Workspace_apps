@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@id/seek_bar_title" android:paddingTop="6.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingStart="22.0dip" />
+    <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:minHeight="?android:listPreferredItemHeight" android:layout_below="@id/seek_bar_title" android:paddingStart="@dimen/oppo_list_item_left_margin" android:paddingEnd="@dimen/oppo_list_item_right_margin">
+        <LinearLayout android:id="@id/left_tip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_alignParentStart="true">
+            <ImageView android:id="@id/left_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <TextView android:textSize="@dimen/text_descripe_seekbar_value" android:textColor="@android:color/black" android:layout_gravity="center_vertical" android:id="@id/left_vertical_center_text" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingEnd="@dimen/text_descripe_seekbar_padding" />
+        </LinearLayout>
+        <LinearLayout android:id="@id/right_tip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_alignParentEnd="true">
+            <ImageView android:id="@id/right_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <TextView android:textSize="@dimen/text_descripe_seekbar_value" android:textColor="@android:color/black" android:layout_gravity="center_vertical" android:id="@id/right_vertical_center_text" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingStart="10.0dip" />
+        </LinearLayout>
+        <TextView android:textColor="@color/C24" android:id="@id/right_text" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="0.5dip" android:text="@string/seek_bar_right_text" android:layout_alignParentBottom="true" android:layout_alignEnd="@id/right_tip" />
+        <com.color.support.widget.seekbar.ColorSeekBar android:id="@id/seekbar" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_toStartOf="@id/right_tip" android:layout_toEndOf="@id/left_tip" />
+    </RelativeLayout>
+    <ImageView android:gravity="bottom" android:id="@id/color_divider" android:background="@null" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" android:contentDescription="@null" android:layout_marginStart="18.0dip" />
+</RelativeLayout>

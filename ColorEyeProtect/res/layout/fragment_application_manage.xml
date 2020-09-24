@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@android:id/list_container" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <RelativeLayout android:gravity="center" android:id="@id/rl_loading_layout" android:background="@drawable/color_window_background_selector" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.color.support.widget.ColorLoadingView android:id="@id/loadingView" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@null" android:layout_centerHorizontal="true" style="?colorLoadingViewLargeStyle" />
+        <TextView android:textSize="@dimen/text_size_forteen_sp" android:textColor="@color/text_black" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:text="@string/fragment_is_loading" android:layout_below="@id/loadingView" android:layout_centerHorizontal="true" android:alpha="0.3" />
+    </RelativeLayout>
+    <TextView android:gravity="center" android:id="@android:id/empty" android:padding="8.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <color.support.design.widget.ColorAppBarLayout android:id="@id/appBarLayout" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_behavior="@string/second_activity_behavior">
+        <color.support.v7.widget.Toolbar android:id="@id/toolbar" android:background="@drawable/color_toolbar_bg" android:paddingTop="@dimen/toolbar_margin_top" android:layout_width="fill_parent" android:layout_height="wrap_content" app:colorLayoutScrollFlags="exitUntilCollapsed|scroll" app:supportTitleTextAppearance="@style/textAppearanceSecondTitle" />
+        <View android:layout_gravity="center_horizontal" android:id="@id/divider_line" android:background="@color/color_divider_line_bg_color" android:layout_width="fill_parent" android:layout_height="@dimen/divider_background_height" android:layout_marginLeft="@dimen/common_margin" android:layout_marginRight="@dimen/common_margin" android:alpha="0.0" android:forceDarkAllowed="false" />
+    </color.support.design.widget.ColorAppBarLayout>
+    <com.oppo.support.widget.OppoTouchSearchView android:layout_gravity="end" android:id="@id/oppo_spell_bar" android:layout_width="@dimen/M10" android:layout_height="fill_parent" android:layout_marginTop="184.0dip" android:layout_marginBottom="111.0dip" android:layout_marginEnd="6.0dip" app:oppoFirstIsCharacter="true" app:oppoMarginLeft="0.0dip" app:oppoMarginRigh="0.0dip" app:oppoUnionEnable="true" />
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

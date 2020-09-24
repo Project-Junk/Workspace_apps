@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/dual_clock_settings"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto">
+    <com.coloros.settings.widget.preference.SettingSwitchPreference android:layout="@layout/color_preference" android:title="@string/dual_clock_enable" android:key="key_dual_clock_switch" android:order="1" />
+    <com.coloros.settings.widget.preference.SettingColorJumpPreference android:title="@string/dual_clock_resident_city" android:key="key_resident_city" android:order="2" settings:showNormalColor="true">
+        <intent android:action="oppo.intent.action.SETTINGS_WEATHER_ADD_CITY" />
+    </com.coloros.settings.widget.preference.SettingColorJumpPreference>
+    <com.coloros.settings.widget.preference.ColorRestrictedJumpPreference android:layout="@layout/color_preference" android:title="@string/dual_clock_show_following_location" android:key="key_show_location" android:order="3" settings:color_jump_mark="@null" settings:showNormalColor="true" settings:userRestriction="no_config_date_time" />
+</PreferenceScreen>

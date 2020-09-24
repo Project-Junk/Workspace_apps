@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.preference.PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto">
+    <com.coloros.settings.widget.preference.SettingsColorPreferenceCategory android:key="side_fingerprint_category" settings:isFirstCategory="true">
+        <com.coloros.settings.widget.preference.SettingColorJumpPreference android:title="@string/unlock_while_screen_off" android:key="way_to_unlock_when_screen_off" settings:color_jump_mark="@null" />
+    </com.coloros.settings.widget.preference.SettingsColorPreferenceCategory>
+    <PreferenceCategory android:key="side_fingerprint_category_line" />
+</androidx.preference.PreferenceScreen>

@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LegalInfos version="1.0">
+    <MODEL_CPH1707>
+        <item drawable="@drawable/network_access_license_common_eu_exp" />
+    </MODEL_CPH1707>
+    <MODEL_CPH1717>
+        <item drawable="@drawable/ex2_network_access_license_eu" />
+        <item drawable="@drawable/ex2_network_access_license_ma" />
+        <item drawable="@drawable/ex2_network_access_license_ph" />
+        <item drawable="@drawable/ex2_network_access_license_th" />
+        <item drawable="@drawable/ex2_network_access_license_id" />
+    </MODEL_CPH1717>
+    <MODEL_CPH1719>
+        <item drawable="@drawable/ex2_network_access_license_eu" />
+        <item drawable="@drawable/ex2_network_access_license_au" />
+    </MODEL_CPH1719>
+    <MODEL_CPH1721>
+        <item drawable="@drawable/ex2_network_access_license_eu" />
+        <item drawable="@drawable/ex2_network_access_license_au" />
+    </MODEL_CPH1721>
+    <MODEL_CPH1923>
+        <item drawable="@drawable/ex2_network_access_license_eu" />
+        <item drawable="@drawable/ex2_network_access_license_ma" />
+    </MODEL_CPH1923>
+    <MODEL_RMX1801>
+        <item drawable="@drawable/ex2_network_access_license_eu" />
+        <item drawable="@drawable/ex2_network_access_license_ma" />
+        <item drawable="@drawable/ex2_network_access_license_in_1801" />
+        <item drawable="@drawable/ex2_network_access_license_th_1801" />
+    </MODEL_RMX1801>
+    <MODEL_RMX1803>
+        <item drawable="@drawable/ex2_network_access_license_eu" />
+    </MODEL_RMX1803>
+    <MODEL_CPH1803>
+        <item drawable="@drawable/ex2_network_access_license_eu" />
+        <item drawable="@drawable/ex2_network_access_license_ma" />
+        <item drawable="@drawable/ex2_network_access_license_in" />
+        <item drawable="@drawable/ex2_network_access_license_th_1803" />
+        <item drawable="@drawable/ex2_network_access_license_ph_1803" />
+        <item drawable="@drawable/ex2_network_access_license_au" />
+    </MODEL_CPH1803>
+    <MODEL_CPH1823>
+        <item drawable="@drawable/ex2_network_access_license_eu" />
+        <item drawable="@drawable/ex2_network_access_license_ma" />
+        <item drawable="@drawable/ex2_network_access_license_in_1823" />
+        <item drawable="@drawable/ex2_network_access_license_th_1823" />
+        <item drawable="@drawable/ex2_network_access_license_ph_1823" />
+    </MODEL_CPH1823>
+    <MODEL_CPH1853>
+        <item drawable="@drawable/ex2_network_access_license_eu" />
+        <item drawable="@drawable/ex2_network_access_license_ma" />
+        <item drawable="@drawable/ex2_network_access_license_th_1853" />
+        <item drawable="@drawable/ex2_network_access_license_ph_1853" />
+        <item drawable="@drawable/ex2_network_access_license_in_1853" />
+        <item drawable="@drawable/ex2_network_access_license_sa_1853" />
+    </MODEL_CPH1853>
+    <MODEL_CPH1851>
+        <item drawable="@drawable/ex2_network_access_license_eu" />
+        <item drawable="@drawable/ex2_network_access_license_au" />
+        <item drawable="@drawable/ex2_network_access_license_jp_1851" />
+    </MODEL_CPH1851>
+    <MODEL_CPH1875>
+        <item drawable="@drawable/ex2_network_access_license_eu" />
+        <item drawable="@drawable/ex2_network_access_license_au" />
+        <item drawable="@drawable/ex2_network_access_license_th_1875" />
+        <item drawable="@drawable/ex2_network_access_license_sa_1875" />
+        <item drawable="@drawable/ex2_network_access_license_jp_1875" />
+    </MODEL_CPH1875>
+    <MODEL_RMX1805>
+        <item drawable="@drawable/ex2_network_access_license_eu" />
+        <item drawable="@drawable/ex2_network_access_license_in_1805" />
+        <item drawable="@drawable/ex2_network_access_license_th_1805" />
+    </MODEL_RMX1805>
+    <MODEL_RMX1809>
+        <item drawable="@drawable/ex2_network_access_license_eu" />
+        <item drawable="@drawable/ex2_network_access_license_ma" />
+    </MODEL_RMX1809>
+    <MODEL_CPH1879>
+        <item drawable="@drawable/ex2_network_access_license_eu" />
+        <item drawable="@drawable/ex2_network_access_license_au" />
+        <item drawable="@drawable/ex2_network_access_license_ma" />
+        <item drawable="@drawable/ex2_network_access_license_ph_1879" />
+        <item drawable="@drawable/ex2_network_access_license_th_1879" />
+        <item drawable="@drawable/ex2_network_access_license_sa_1879" />
+    </MODEL_CPH1879>
+    <MODEL_CPH1893>
+        <item drawable="@drawable/ex2_network_access_license_eu" />
+        <item drawable="@drawable/ex2_network_access_license_jp_1893" />
+    </MODEL_CPH1893>
+    <MODEL_RMX1807>
+        <item drawable="@drawable/ex2_network_access_license_eu" />
+        <item drawable="@drawable/ex2_network_access_license_ma" />
+        <item drawable="@drawable/ex2_network_access_license_in_1807" />
+        <item drawable="@drawable/ex2_network_access_license_th_1807" />
+    </MODEL_RMX1807>
+    <MODEL_RMX1811>
+        <item drawable="@drawable/ex2_network_access_license_eu" />
+        <item drawable="@drawable/ex2_network_access_license_ma" />
+        <item drawable="@drawable/ex2_network_access_license_ph_1811" />
+        <item drawable="@drawable/ex2_network_access_license_in_1811" />
+        <item drawable="@drawable/ex2_network_access_license_th_1811" />
+    </MODEL_RMX1811>
+    <MODEL_CPH1877>
+        <item drawable="@drawable/ex2_network_access_license_eu" />
+        <item drawable="@drawable/ex2_network_access_license_au" />
+        <item drawable="@drawable/ex2_network_access_license_ma" />
+        <item drawable="@drawable/ex2_network_access_license_ph_1877" />
+        <item drawable="@drawable/ex2_network_access_license_th_1877" />
+        <item drawable="@drawable/ex2_network_access_license_sa_1877" />
+        <item drawable="@drawable/ex2_network_access_license_in_1877" />
+        <item drawable="@drawable/ex2_network_access_license_ja_1877" />
+    </MODEL_CPH1877>
+    <MODEL_CPH1901>
+        <item drawable="@drawable/ex2_network_access_license_eu" />
+        <item drawable="@drawable/ex2_network_access_license_ma" />
+        <item drawable="@drawable/ex2_network_access_license_in_1901" />
+        <item drawable="@drawable/ex2_network_access_license_th_1901" />
+    </MODEL_CPH1901>
+    <MODEL_CPH1903>
+        <item drawable="@drawable/ex2_network_access_license_eu" />
+        <item drawable="@drawable/ex2_network_access_license_au" />
+        <item drawable="@drawable/ex2_network_access_license_ph_1903" />
+        <item drawable="@drawable/ex2_network_access_license_jp_1903" />
+    </MODEL_CPH1903>
+    <MODEL_RMX1831>
+        <item drawable="@drawable/ex2_network_access_license_eu" />
+        <item drawable="@drawable/ex2_network_access_license_in_rmx_1831" />
+    </MODEL_RMX1831>
+    <MODEL_RMX1833>
+        <item drawable="@drawable/ex2_network_access_license_eu" />
+    </MODEL_RMX1833>
+    <MODEL_CPH1909>
+        <item drawable="@drawable/ex2_network_access_license_eu" />
+        <item drawable="@drawable/ex2_network_access_license_ma" />
+        <item drawable="@drawable/ex2_network_access_license_ph_1909" />
+        <item drawable="@drawable/ex2_network_access_license_th_1909" />
+        <item drawable="@drawable/ex2_network_access_license_ki_1909" />
+        <item drawable="@drawable/ex2_network_access_license_in_1909" />
+    </MODEL_CPH1909>
+    <MODEL_CPH1920>
+        <item drawable="@drawable/ex2_network_access_license_eu" />
+        <item drawable="@drawable/ex2_network_access_license_nz_cph1920" />
+    </MODEL_CPH1920>
+    <MODEL_CPH1819>
+        <item drawable="@drawable/ex2_network_access_license_eu" />
+        <item drawable="@drawable/ex2_network_access_license_ph_1819" />
+        <item drawable="@drawable/ex2_network_access_license_ma" />
+        <item drawable="@drawable/ex2_network_access_license_in_1819" />
+        <item drawable="@drawable/ex2_network_access_license_th_1819" />
+    </MODEL_CPH1819>
+    <MODEL_CPH1821>
+        <item drawable="@drawable/ex2_network_access_license_eu" />
+        <item drawable="@drawable/ex2_network_access_license_ph_1821" />
+        <item drawable="@drawable/ex2_network_access_license_ma" />
+        <item drawable="@drawable/ex2_network_access_license_in_1821" />
+        <item drawable="@drawable/ex2_network_access_license_th_1821" />
+    </MODEL_CPH1821>
+    <MODEL_CPH1831>
+        <item drawable="@drawable/ex2_network_access_license_eu" />
+        <item drawable="@drawable/ex2_network_access_license_ma" />
+        <item drawable="@drawable/ex2_network_access_license_th_1831" />
+        <item drawable="@drawable/ex2_network_access_license_au" />
+    </MODEL_CPH1831>
+    <MODEL_CPH1859>
+        <item drawable="@drawable/ex2_network_access_license_eu" />
+        <item drawable="@drawable/ex2_network_access_license_ma" />
+        <item drawable="@drawable/ex2_network_access_license_in_1859" />
+        <item drawable="@drawable/ex2_network_access_license_th_1859" />
+        <item drawable="@drawable/ex2_network_access_license_au" />
+        <item drawable="@drawable/ex2_network_access_license_ph_1859" />
+    </MODEL_CPH1859>
+    <MODEL_CPH1835>
+        <item drawable="@drawable/ex2_network_access_license_eu" />
+        <item drawable="@drawable/ex2_network_access_license_au" />
+    </MODEL_CPH1835>
+    <MODEL_CPH1837>
+        <item drawable="@drawable/ex2_network_access_license_eu" />
+    </MODEL_CPH1837>
+    <MODEL_CPH1833>
+        <item drawable="@drawable/ex2_network_access_license_jp_1833" />
+    </MODEL_CPH1833>
+    <MODEL_CPH1871>
+        <item drawable="@drawable/ex2_network_access_license_eu" />
+        <item drawable="@drawable/ex2_network_access_license_ma" />
+        <item drawable="@drawable/ex2_network_access_license_in_1871" />
+        <item drawable="@drawable/ex2_network_access_license_th_1871" />
+        <item drawable="@drawable/ex2_network_access_license_au" />
+        <item drawable="@drawable/ex2_network_access_license_ph_1871" />
+    </MODEL_CPH1871>
+    <MODEL_CPH1809>
+        <item drawable="@drawable/ex2_network_access_license_eu" />
+        <item drawable="@drawable/ex2_network_access_license_ma" />
+        <item drawable="@drawable/ex2_network_access_license_ph_1809" />
+        <item drawable="@drawable/ex2_network_access_license_in_1809" />
+        <item drawable="@drawable/ex2_network_access_license_th_1809" />
+    </MODEL_CPH1809>
+</LegalInfos>

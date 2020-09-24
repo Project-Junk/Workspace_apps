@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="kg_password_default_pin_message_multi_sim">
+        <item quantity="other">Indtast pinkoden for SIM-kort%1$d. %2$d forsøg tilbage.</item>
+        <item quantity="one">Indtast pinkoden for SIM-kort %1$d. %2$d forsøg tilbage. Hvis det er forkert igen, er du nød til at kontakte dit mobilselskab for at få hjælp til at låse enheden op.</item>
+    </plurals>
+    <plurals name="kg_password_wrong_pin_code_multi_sim">
+        <item quantity="other">Forkert pinkode til SIM-kort %1$d. %2$d forsøg tilbage.</item>
+        <item quantity="one">Forkert pinkode til SIM-kort %1$d. %2$d forsøg tilbage. Hvis det er forkert igen, er du nød til at kontakte dit mobilselskab for at få hjælp til at låse enheden op.</item>
+    </plurals>
+    <plurals name="kg_prompt_reason_time_password">
+        <item quantity="other">Enheden er blevet låst i %d timer. Bekræft adgangskoden.</item>
+        <item quantity="one">Enheden er blevet låst i %d time. Bekræft adgangskoden.</item>
+    </plurals>
+    <plurals name="kg_too_many_failed_attempts_countdown">
+        <item quantity="other">Prøv igen efter %d sekunder.</item>
+        <item quantity="one">Prøv igen efter 1 sekund.</item>
+    </plurals>
+    <plurals name="snoozeHourOptions">
+        <item quantity="other">%d timer</item>
+        <item quantity="one">%d time</item>
+    </plurals>
+    <plurals name="snoozeMinuteOptions">
+        <item quantity="other">%d minutter</item>
+        <item quantity="one">%d minut</item>
+    </plurals>
+</resources>

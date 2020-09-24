@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/application_info_label"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto">
+    <com.android.settingslib.widget.LayoutPreference android:layout="@layout/installed_app_details_header" android:selectable="false" android:key="header_view" />
+    <PreferenceCategory android:key="state_control_category">
+        <com.coloros.settings.widget.preference.SettingColorJumpPreference android:title="@string/storage_use" android:key="storage_use" android:order="1" settings:controller="com.coloros.settings.feature.appmanager.details.controller.ColorAppStoragePreferenceController" />
+        <com.coloros.settings.widget.preference.SettingColorJumpPreference android:title="@string/oppo_data_useage" android:key="key_data_usage" android:order="2" settings:controller="com.coloros.settings.feature.appmanager.details.controller.ColorAppDataUsagePreferenceController" settings:showNormalColor="true" />
+        <com.coloros.settings.widget.preference.SettingsColorJumpIconPreference android:title="@string/power_management" android:key="battery" android:order="3" />
+    </PreferenceCategory>
+    <PreferenceCategory android:key="permission_control_category">
+        <com.coloros.settings.widget.preference.SettingColorJumpPreference android:title="@string/oppo_manage_notification" android:key="key_notification_manager" settings:controller="com.coloros.settings.feature.appmanager.details.controller.ColorAppNotificationPreferenceController" />
+        <com.coloros.settings.widget.preference.SettingColorJumpPreference android:title="@string/oppo_permission_manage" android:key="key_permission_manager" settings:controller="com.coloros.settings.feature.appmanager.details.controller.ColorAppPermissionPreferenceController" settings:showNormalColor="true" />
+        <com.coloros.settings.widget.preference.SettingSwitchPreference android:title="@string/floating_window" android:key="floating_window" settings:controller="com.coloros.settings.feature.appmanager.details.controller.ColorFloatWindowSwitchPreferenceController" />
+        <com.coloros.settings.widget.preference.SettingColorJumpPreference android:title="@string/picture_in_picture_title" android:key="picture_in_picture" android:fragment="com.coloros.settings.feature.appmanager.details.ColorPictureInPictureDetails" settings:controller="com.coloros.settings.feature.appmanager.details.controller.ColorPictureInPictureDetailPreferenceController" settings:showNormalColor="true" />
+    </PreferenceCategory>
+    <PreferenceCategory android:key="display_control_category" settings:controller="com.coloros.settings.feature.appmanager.details.controller.ColorDisplayCategoryPreferenceController">
+        <SwitchPreference android:title="@string/display_compat" android:key="display_compat" />
+        <com.coloros.settings.widget.preference.SettingsSingleSelectListPreference android:entries="@array/cut_mode_entries" android:layout="@layout/color_preference" android:title="@string/cutout_mode_choose" android:key="cutout_mode_choose" android:entryValues="@array/cut_mode_entries_values" settings:color_jump_mark="@drawable/color_btn_next" settings:showNormalColor="true" />
+    </PreferenceCategory>
+    <PreferenceCategory>
+        <com.coloros.settings.widget.preference.SettingColorJumpPreference android:title="@string/launch_by_default" android:selectable="true" android:key="preferred_settings" settings:controller="com.coloros.settings.feature.appmanager.details.controller.ColorDefaultLaunchPreferenceController" />
+    </PreferenceCategory>
+    <PreferenceCategory />
+</PreferenceScreen>

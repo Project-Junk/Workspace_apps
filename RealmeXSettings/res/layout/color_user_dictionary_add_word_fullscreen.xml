@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:id="@id/user_dict_settings_add_dialog_top" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginStart="@dimen/common_margin" android:layout_marginEnd="@dimen/common_margin"
+      xmlns:android="http://schemas.android.com/apk/res/android">
+        <com.google.android.material.textfield.TextInputLayout android:id="@id/user_dictionary_add_word_text_layout" android:paddingBottom="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="49.0dip" android:hint="@string/user_dict_settings_add_word_hint" settings:hintAnimationEnabled="true" settings:hintEnabled="true" settings:hintTextAppearance="@style/TextAppearance.AppCompatSupport.Dictionary.Add" settings:hintTextColor="?colorTintControlNormal">
+            <com.color.support.widget.ColorEditText android:textSize="14.0sp" android:layout_gravity="fill_horizontal|center" android:id="@id/user_dictionary_add_word_text" android:paddingTop="5.0dip" android:paddingBottom="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLength="@integer/maximum_user_dictionary_word_length" android:inputType="textNoSuggestions" android:imeOptions="flagNoFullscreen" settings:quickDelete="true">
+                <requestFocus />
+            </com.color.support.widget.ColorEditText>
+        </com.google.android.material.textfield.TextInputLayout>
+        <com.google.android.material.textfield.TextInputLayout android:id="@id/user_dictionary_add_shortcut_layout" android:paddingBottom="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:minHeight="49.0dip" android:hint="@string/user_dict_settings_add_shortcut_hint" settings:hintAnimationEnabled="true" settings:hintEnabled="true" settings:hintTextAppearance="@style/TextAppearance.AppCompatSupport.Dictionary.Add" settings:hintTextColor="?colorTintControlNormal">
+            <com.color.support.widget.ColorEditText android:textSize="14.0sp" android:layout_gravity="fill_horizontal|center" android:id="@id/user_dictionary_add_shortcut" android:paddingTop="5.0dip" android:paddingBottom="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLength="@integer/maximum_user_dictionary_word_length" settings:quickDelete="true" />
+        </com.google.android.material.textfield.TextInputLayout>
+    </LinearLayout>
+    <include layout="@layout/color_appbar_layout" />
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

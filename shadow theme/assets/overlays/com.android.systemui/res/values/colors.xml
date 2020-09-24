@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+ <color name="qs_customize_background">#ff000000</color>
+ <color name="qs_tile_disabled_color">#ff5c0000</color>
+ <color name="qs_batterymeter_frame_color">#ffb81d1d</color>
+ <color name="material_blue_grey_950">#ff000000</color>
+</resources>

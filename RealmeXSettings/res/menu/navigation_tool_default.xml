@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:icon="@drawable/ic_color_menu_ic_search_normal" android:id="@id/navigation_search" android:title="search" />
+    <item android:icon="@drawable/ic_color_menu_ic_send_normal" android:id="@id/navigation_send" android:title="send" />
+    <item android:icon="@drawable/ic_color_menu_ic_move_normal" android:id="@id/navigation_cut" android:title="cut" />
+    <item android:icon="@drawable/ic_color_menu_ic_copy_normal" android:id="@id/navigation_copy1" android:title="copy" />
+    <item android:icon="@drawable/ic_color_menu_ic_delete_normal" android:enabled="false" android:id="@id/navigation_delete" android:title="delete" />
+</menu>

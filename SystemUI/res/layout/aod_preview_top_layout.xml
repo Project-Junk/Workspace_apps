@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.coloros.systemui.aod.aodclock.settings.clock.ClockPreviewLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.coloros.systemui.aod.aodclock.settings.clock.PreviewClockLayout android:id="@id/clock_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerHorizontal="true" />
+    <com.coloros.systemui.aod.aodclock.settings.date.PreviewDateLayout android:id="@id/date_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/clock_layout" android:layout_centerHorizontal="true" />
+    <com.coloros.systemui.aod.aodclock.settings.battery.PreviewBatteryLayout android:id="@id/battery_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/aod_clock_common_margin_top" android:layout_below="@id/date_layout" android:layout_centerHorizontal="true" />
+</com.coloros.systemui.aod.aodclock.settings.clock.ClockPreviewLayout>

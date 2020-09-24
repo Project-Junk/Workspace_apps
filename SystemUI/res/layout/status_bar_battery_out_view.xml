@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView android:textColor="@color/status_bar_clock_color" android:gravity="center" android:layout_gravity="center" android:id="@id/battery_text_out" android:visibility="gone" android:layout_width="@dimen/battery_background_width" android:layout_height="@dimen/battery_background_height" android:maxLines="1" android:includeFontPadding="false" android:importantForAccessibility="no" android:layout_marginStart="@dimen/battery_margin_start" style="@style/FontOppoSansEnOSMedium"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

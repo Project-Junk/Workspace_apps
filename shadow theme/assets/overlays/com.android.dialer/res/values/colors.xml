@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<color name="answered_outgoing_call">#ffff0000</color>
+<color name="dialer_secondary_color">#ffc30303</color>
+<color name="dialer_background_color">#ffffffff</color>
+<color name="dialer_theme_color_dark">#ff7c0000</color>
+<color name="dialer_theme_color">#fff40000</color>
+<color name="cardview_light_background">#ff747272</color>
+<color name="dialer_call_green">#ffff0000</color>
+    <color name="cardview_dark_background">#ff000000</color>
+    <color name="design_fab_stroke_top_inner_color">#ff000000</color>
+    <color name="design_fab_stroke_top_outer_color">#ff000000</color>
+
+
+</resources>

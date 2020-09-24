@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="battery_options">
+        <item>Visualizza sempre in percentuale</item>
+        <item>Visualizza la percentuale di batteria durante la carica (predefinita)</item>
+        <item>Non visualizzare questa icona</item>
+    </string-array>
+    <string-array name="clock_options">
+        <item>Visualizza ore, minuti e secondi</item>
+        <item>Visualizza ore e minuti (predefinito)</item>
+        <item>Non visualizzare questa icona</item>
+    </string-array>
+    <string-array name="color_lunar_mounth">
+        <item>正月</item>
+        <item>二月</item>
+        <item>三月</item>
+        <item>四月</item>
+        <item>五月</item>
+        <item>六月</item>
+        <item>七月</item>
+        <item>八月</item>
+        <item>九月</item>
+        <item>十月</item>
+        <item>冬月</item>
+        <item>腊月</item>
+    </string-array>
+    <string-array name="color_solor_mounth">
+        <item>Gennaio</item>
+        <item>Febbraio</item>
+        <item>Marzo</item>
+        <item>Aprile</item>
+        <item>Maggio</item>
+        <item>Giugno</item>
+        <item>Luglio</item>
+        <item>Agosto</item>
+        <item>Settembre</item>
+        <item>Ottobre</item>
+        <item>Novembre</item>
+        <item>Dicembre</item>
+    </string-array>
+    <string-array name="nav_bar_layouts">
+        <item>Normale</item>
+        <item>Compatta</item>
+        <item>Tieni la sinistra</item>
+        <item>Tieni la destra</item>
+    </string-array>
+    <string-array name="oppo_time_picker_ampm">
+        <item>AM</item>
+        <item>PM</item>
+    </string-array>
+    <string-array name="usb_type_select">
+        <item>Solo carica</item>
+        <item>Trasferisci file</item>
+        <item>Trasferisci foto</item>
+    </string-array>
+</resources>

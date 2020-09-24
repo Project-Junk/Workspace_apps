@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="material_blue_grey_800">#ff000000</color>
+    <color name="material_blue_grey_900">#ff000000</color>
+    <color name="material_blue_grey_950">#ff000000</color>
+    <color name="sud_navbar_bg_dark">#ff000000</color>
+    <color name="homepage_about_background">#ffbf0101</color>
+    <color name="homepage_accessibility_background">#ffbf0101</color>
+    <color name="homepage_accounts_background">#ffbf0101</color>
+    <color name="homepage_app_and_notification_background">#ffbf0101</color>
+    <color name="homepage_battery_background">#ffbf0101</color>
+    <color name="homepage_connected_device_background">#ffbf0101</color>
+    <color name="homepage_display_background">#ffbf0101</color>
+    <color name="homepage_generic_icon_background">#ffbf0101</color>
+    <color name="homepage_location_background">#ffbf0101</color>
+    <color name="homepage_network_background">#ffbf0101</color>
+    <color name="homepage_privacy_background">#ffbf0101</color>
+    <color name="homepage_security_background">#ffbf0101</color>
+    <color name="homepage_sound_background">#ffbf0101</color>
+    <color name="homepage_storage_background">#ffbf0101</color>
+    <color name="homepage_support_background">#ffbf0101</color>
+    <color name="homepage_system_background">#ffbf0101</color>
+    <color name="material_deep_teal_200">#ffc50000</color>
+    <color name="material_deep_teal_500">#ff9a0505</color>
+    <color name="settings_action_bar_background">#00000000</color>
+
+
+</resources>

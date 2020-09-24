@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.tabs.TabLayout android:theme="@style/Theme.AppCompat" android:background="#ff181818" android:layout_width="fill_parent" android:layout_height="42.69998dip" app:tabIndicatorColor="@color/aod_accessibility_color" app:tabIndicatorFullWidth="false" app:tabIndicatorHeight="1.2999878dip" app:tabMode="fixed" app:tabRippleColor="#0d000000" app:tabSelectedTextColor="@color/aod_accessibility_color" app:tabTextAppearance="@style/aod_tab_text_appearance" app:tabTextColor="#ffffffff"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" />

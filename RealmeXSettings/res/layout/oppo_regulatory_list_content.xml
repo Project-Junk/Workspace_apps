@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/root_view" android:background="@android:color/white" android:layout_width="fill_parent" android:layout_height="fill_parent" android:forceDarkAllowed="false"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/color_appbar_layout" />
+    <FrameLayout android:id="@id/main_layout" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.coloros.settings.widget.SettingsColorListView android:id="@android:id/list" android:background="@android:color/white" android:paddingTop="@dimen/list_padding_top" android:layout_width="fill_parent" android:layout_height="fill_parent" android:divider="@color/white" android:dividerHeight="@dimen/TF13" />
+        <TextView android:layout_gravity="center" android:id="@android:id/empty" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/Widget.ColorSupport.ColorNoContentStyle" />
+    </FrameLayout>
+</LinearLayout>

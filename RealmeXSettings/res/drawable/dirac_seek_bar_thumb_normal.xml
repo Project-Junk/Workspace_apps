@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="oval">
+            <stroke android:width="0.6700001dip" android:color="@color/dirac_seek_bar_thumb_border" />
+            <size android:height="22.0dip" android:width="22.0dip" />
+        </shape>
+    </item>
+    <item android:left="0.6700001dip" android:top="0.6700001dip" android:right="0.6700001dip" android:bottom="0.6700001dip">
+        <shape android:shape="oval">
+            <solid android:color="@color/white" />
+            <size android:height="20.659973dip" android:width="20.659973dip" />
+        </shape>
+    </item>
+</layer-list>

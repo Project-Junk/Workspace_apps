@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="kg_password_default_pin_message_multi_sim">
+        <item quantity="other">Įveskite SIM kortelės PIN kodą %1$d. Liko bandymų: %2$d.</item>
+        <item quantity="one">Įveskite SIM kortelės PIN kodą %1$d. Liko bandymų: %2$d. Jei vėl įvesite neteisingai, turėsite susisiekti su operatoriumi, kad jis padėtų atrakinti įrenginį.</item>
+    </plurals>
+    <plurals name="kg_password_wrong_pin_code_multi_sim">
+        <item quantity="other">Neteisingas SIM kortelės PIN %1$d. Liko bandymų: %2$d.</item>
+        <item quantity="one">Neteisingas SIM kortelės PIN %1$d. Liko bandymų: %2$d. Jei vėl įvesite neteisingai, turėsite susisiekti su operatoriumi, kad jis padėtų atrakinti įrenginį.</item>
+    </plurals>
+    <plurals name="kg_prompt_reason_time_password">
+        <item quantity="other">Įrenginys užrakintas %d val. Patvirtinkite slaptažodį.</item>
+        <item quantity="one">Įrenginys užrakintas %d val. Patvirtinkite slaptažodį.</item>
+    </plurals>
+    <plurals name="kg_too_many_failed_attempts_countdown">
+        <item quantity="other">Bandykite dar kartą po %d sek.</item>
+        <item quantity="one">Bandykite dar kartą po 1 sek.</item>
+    </plurals>
+    <plurals name="snoozeHourOptions">
+        <item quantity="other">%d val.</item>
+        <item quantity="one">%d val.</item>
+    </plurals>
+    <plurals name="snoozeMinuteOptions">
+        <item quantity="other">%d minutės (-ių)</item>
+        <item quantity="one">%d minutė</item>
+    </plurals>
+</resources>

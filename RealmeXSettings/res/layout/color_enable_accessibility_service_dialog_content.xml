@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:scrollbarStyle="outsideOverlay" android:gravity="top" android:layout_width="fill_parent" android:layout_height="fill_parent" android:textDirection="locale"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:paddingLeft="@dimen/M10" android:paddingTop="@dimen/color_alert_dialog_content_panel_padding_top" android:paddingRight="@dimen/M10" android:paddingBottom="@dimen/M10" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textAppearance="?android:textAppearanceMedium" android:id="@id/encryption_warning" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/M5" android:textAlignment="viewStart" />
+        <TextView android:textAppearance="?android:textAppearanceMedium" android:id="@id/capabilities_header" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/M5" android:textAlignment="viewStart" />
+        <LinearLayout android:orientation="vertical" android:id="@id/capabilities" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/M5" />
+        <TextView android:textAppearance="?android:textAppearanceMedium" android:textColor="@color/red" android:id="@id/open_service_warning" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/M5" android:text="@string/open_service_warning" android:textAlignment="viewStart" />
+    </LinearLayout>
+</ScrollView>

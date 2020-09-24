@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="accessibilty_autoclick_preference_subtitle_extremely_short_delay">
+        <item quantity="other">Extrem kuerz Verzögerung (%1$d ms)</item>
+        <item quantity="one">Extrem kuerz Verzögerung (%1$d ms)</item>
+    </plurals>
+    <plurals name="accessibilty_autoclick_preference_subtitle_long_delay">
+        <item quantity="other">Laang Verzögerung (%1$d ms)</item>
+        <item quantity="one">Laang Verzögerung (%1$d ms)</item>
+    </plurals>
+    <plurals name="accessibilty_autoclick_preference_subtitle_short_delay">
+        <item quantity="other">Kuerz Verzögerung (%1$d ms)</item>
+        <item quantity="one">Kuerz Verzögerung (%1$d ms)</item>
+    </plurals>
+    <plurals name="accessibilty_autoclick_preference_subtitle_very_long_delay">
+        <item quantity="other">Ganz laang Verzögerung (%1$d ms)</item>
+        <item quantity="one">Ganz laang Verzögerung (%1$d ms)</item>
+    </plurals>
+    <plurals name="accessibilty_autoclick_preference_subtitle_very_short_delay">
+        <item quantity="other">Ganz kuerz Verzögerung (%1$d ms)</item>
+        <item quantity="one">Ganz kuerz Verzögerung (%1$d ms)</item>
+    </plurals>
+    <plurals name="bugreport_countdown">
+        <item quantity="other">De System erfaasst de Bildschierm mam Feelerrapport a(n) %1$d Sekonnen.</item>
+        <item quantity="one">De System erfaasst de Bildschierm mam Feelerrapport an %1$d Sekonn.</item>
+    </plurals>
+    <plurals name="data_saver_unrestricted_summary">
+        <item quantity="other">%1$d Appen ass et erlaabt, onbegrenzt Daten ze notzen, wann \"Datespueren\" aktivéiert ass.</item>
+        <item quantity="one">1 App ass et erlaabt, onbegrenzt Daten ze notzen, wann \"Datespueren\" aktivéiert ass.</item>
+    </plurals>
+    <plurals name="dlg_remove_locales_title">
+        <item quantity="other">Déi ausgewielt Sproochen ewechhuelen?</item>
+        <item quantity="one">Déi ausgewielt Sprooch ewechhuelen?</item>
+    </plurals>
+    <plurals name="enterprise_privacy_number_ca_certs">
+        <item quantity="other">Op mannst %d CA-Zertifikater</item>
+        <item quantity="one">Op mannst %d CA-Zertifikat</item>
+    </plurals>
+    <plurals name="enterprise_privacy_number_failed_password_wipe">
+        <item quantity="other">%d Mol versicht</item>
+        <item quantity="one">%d Mol versicht</item>
+    </plurals>
+    <plurals name="enterprise_privacy_number_packages">
+        <item quantity="other">%d Appen</item>
+        <item quantity="one">%d App</item>
+    </plurals>
+    <plurals name="enterprise_privacy_number_packages_lower_bound">
+        <item quantity="other">Op mannst %d Appen</item>
+        <item quantity="one">Op mannst %d App</item>
+    </plurals>
+    <plurals name="hours">
+        <item quantity="other">%s Stonnen</item>
+        <item quantity="one">1 Stonn</item>
+    </plurals>
+    <plurals name="memory_usage_apps_summary">
+        <item quantity="other">%1$d Appen hu Späicher bannent de leschte(n) %2$s genotzt</item>
+        <item quantity="one">1 App huet Späicher bannent de leschte(n) %2$s genotzt</item>
+    </plurals>
+    <plurals name="minutes">
+        <item quantity="other">%s Minutten</item>
+        <item quantity="one">1 Minutt</item>
+    </plurals>
+    <plurals name="optimizable_count">
+        <item quantity="other">%1$d Elementer kënnen optiméiert ginn</item>
+        <item quantity="one">%1$d Element kann optiméiert ginn</item>
+    </plurals>
+    <plurals name="permissions_summary">
+        <item quantity="other">%d Berechtegunge verléint</item>
+        <item quantity="one">%d Berechtegung verléint</item>
+    </plurals>
+    <plurals name="runtime_permissions_additional_count">
+        <item quantity="other">%d zousätzlech Berechtegungen</item>
+        <item quantity="one">%d zousätzlech Berechtegung</item>
+    </plurals>
+    <plurals name="runtime_permissions_summary">
+        <item quantity="other">%1$d (vu(n) %2$d) Berechtegunge verléint</item>
+        <item quantity="one">%1$d (vu(n) %2$d) Berechtegung verléint</item>
+    </plurals>
+    <plurals name="seconds">
+        <item quantity="other">%s Sekonnen</item>
+        <item quantity="one">1 Sekonn</item>
+    </plurals>
+    <plurals name="security_settings_fingerprint_preference_summary">
+        <item quantity="other">%1$d Fangerofdréck konfiguréiert</item>
+        <item quantity="one">%1$d Fangerofdrock konfiguréiert</item>
+    </plurals>
+    <plurals name="security_summary_apps_security">
+        <item quantity="other">%1$d Appe verschlësselt</item>
+        <item quantity="one">%1$d App verschlësselt</item>
+    </plurals>
+    <plurals name="security_summary_float_window">
+        <item quantity="other">%1$d Mol blockéiert</item>
+        <item quantity="one">%1$d Mol blockéiert</item>
+    </plurals>
+    <plurals name="security_summary_harassment_call">
+        <item quantity="other">%1$d Uriff</item>
+        <item quantity="one">%1$d Uruff</item>
+    </plurals>
+    <plurals name="security_summary_harassment_sms">
+        <item quantity="other">%1$d SMS-Noriichten</item>
+        <item quantity="one">%1$d SMS-Noriicht</item>
+    </plurals>
+    <plurals name="security_summary_intelligent_identification_contact">
+        <item quantity="other">%1$d Nummeren identifizéiert</item>
+        <item quantity="one">%1$d Nummer identifizéiert</item>
+    </plurals>
+    <plurals name="security_summary_payment_protection">
+        <item quantity="other">%1$d Bezuelvirgäng geschützt</item>
+        <item quantity="one">%1$d Bezuelvirgang geschützt</item>
+    </plurals>
+    <plurals name="security_summary_permission_manager">
+        <item quantity="other">%1$d Mol blockéiert</item>
+        <item quantity="one">%1$d Mol blockéiert</item>
+    </plurals>
+    <plurals name="security_summary_private_info_protect">
+        <item quantity="other">%1$d Elementer geschützt</item>
+        <item quantity="one">%1$d Element geschützt</item>
+    </plurals>
+    <plurals name="security_summary_pseudo_base_station">
+        <item quantity="other">%1$d Pseudobasisstatioune blockéiert</item>
+        <item quantity="one">%1$d Pseudobasisstatioun blockéiert</item>
+    </plurals>
+    <plurals name="settings_optimizable_count">
+        <item quantity="other">%1$d Elementer kënnen optiméiert ginn</item>
+        <item quantity="one">%1$d Element kann optiméiert ginn</item>
+    </plurals>
+    <plurals name="settings_suggestion_header_summary_hidden_items">
+        <item quantity="other">%d verstoppt Elementer uweisen</item>
+        <item quantity="one">%d verstoppt Element uweisen</item>
+    </plurals>
+    <plurals name="ssl_ca_cert_dialog_title">
+        <item quantity="other">Zertifikater vertrauen oder ewechhuelen</item>
+        <item quantity="one">Zertifikat vertrauen oder ewechhuelen</item>
+    </plurals>
+    <plurals name="ssl_ca_cert_info_message">
+        <item quantity="other">"%s huet e puer Zertifikatautoritéiten fir Ären Aarbechtsprofil installéiert. Se kënne benotzt ginn, fir Är Netzwierkaktivitéit z'iwwerwaachen (inklusiv der Notzung vun E-Mailen, Appen a séchere Websiten), wann Dir schafft.
+
+Fir méi Detailer iwwer dës Zertifikater kontaktéiert w. e. g. Ären Administrateur."</item>
+        <item quantity="one">"%s huet eng Zertifikatautoritéit fir Ären Aarbechtsprofil installéiert. Se ka benotzt ginn, fir Är Netzwierkaktivitéit z'iwwerwaachen (inklusiv der Notzung vun E-Mailen, Appen a séchere Websiten), wann Dir schafft.
+
+Fir méi Detailer iwwer dësen Zertifikat kontaktéiert w. e. g. Ären Administrateur."</item>
+    </plurals>
+    <plurals name="ssl_ca_cert_info_message_device_owner">
+        <item quantity="other">"%s huet e puer Zertifikatautoritéiten op Ärem Apparat installéiert. Se kënne benotzt ginn, fir d'Netzwierkaktivitéit vun Ärem Apparat z'iwwerwaachen (inklusiv der Notzung vun E-Mailen, Appen a séchere Websiten).
+
+Fir méi Detailer iwwer dës Zertifikater kontaktéiert w. e. g. Ären Administrateur."</item>
+        <item quantity="one">"%s huet eng Zertifikatautoritéit op Ärem Apparat installéiert. Se ka benotzt ginn, fir d'Netzwierkaktivitéit vun Ärem Apparat z'iwwerwaachen (inklusiv der Notzung vun E-Mailen, Appen a séchere Websiten).
+
+Fir méi Detailer iwwer dësen Zertifikat kontaktéiert w. e. g. Ären Administrateur."</item>
+    </plurals>
+    <plurals name="ssl_ca_cert_settings_button">
+        <item quantity="other">Zertifikater iwwerpréiwen</item>
+        <item quantity="one">Zertifikat iwwerpréiwen</item>
+    </plurals>
+    <plurals name="uri_permissions_text">
+        <item quantity="other">%d Element(er)</item>
+        <item quantity="one">1 Element</item>
+    </plurals>
+    <plurals name="zen_mode_summary_alarms_only_by_hour">
+        <item quantity="other">Änneren op \"Nëmmen Alarmer\", gëllt %1$d Stonne laang (bis %2$s)</item>
+        <item quantity="one">Änneren op \"Nëmmen Alarmer\", gëllt 1 Stonn laang (bis %2$s)</item>
+    </plurals>
+    <plurals name="zen_mode_summary_alarms_only_by_minute">
+        <item quantity="other">Änneren op \"Nëmmen Alarmer\", gëllt %1$d Minutte laang (bis %2$s)</item>
+        <item quantity="one">Änneren op \"Nëmmen Alarmer\", gëllt 1 Minutt laang (bis %2$s)</item>
+    </plurals>
+</resources>

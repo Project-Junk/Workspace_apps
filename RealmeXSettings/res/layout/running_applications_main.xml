@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout android:id="@id/color_running_applications" android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.android.settings.widget.viewpager.RtlViewPager android:id="@id/pager" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/loading_container" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="@android:dimen/preference_fragment_padding_bottom" android:layout_marginRight="@android:dimen/preference_fragment_padding_bottom">
+        <com.color.support.widget.ColorLoadingView android:layout_width="wrap_content" android:layout_height="wrap_content" style="?colorLoadingViewLargeStyle" />
+        <TextView android:textAppearance="?android:textAppearanceSmall" android:paddingTop="4.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/settings_safetylegal_activity_loading" android:singleLine="true" />
+    </LinearLayout>
+    <color.support.design.widget.ColorAppBarLayout android:id="@id/abl" android:layout_width="fill_parent" android:layout_height="wrap_content" android:elevation="0.0dip" settings:layout_behavior="@string/color_appbarlayout_collapse_behavior"
+      xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto">
+        <color.support.v7.widget.Toolbar android:id="@id/toolbar" android:background="@drawable/color_toolbar_bg" android:paddingTop="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="60.0dip" settings:colorLayoutScrollFlags="exitUntilCollapsed|scroll" settings:supportTitleTextAppearance="@style/textAppearanceSecondTitle" />
+        <color.support.design.widget.ColorTabLayout android:id="@id/tab_layout" style="@style/ColorSmallTabLayoutStyle" />
+        <View android:layout_gravity="center_horizontal" android:id="@id/divider_line" android:background="?colorDividerBackgroundColor" android:layout_width="fill_parent" android:layout_height="@dimen/divider_background_height" android:layout_marginLeft="@dimen/common_margin" android:layout_marginRight="@dimen/common_margin" android:alpha="0.0" android:forceDarkAllowed="false" />
+    </color.support.design.widget.ColorAppBarLayout>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

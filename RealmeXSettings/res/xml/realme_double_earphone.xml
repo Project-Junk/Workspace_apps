@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/dual_earphone_setting_title" android:key="display_double_earphone_screen" settings:keywords="@string/keywords_display"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto">
+    <com.coloros.settings.widget.preference.SettingsColorPreferenceCategory android:key="double_earphone_category" settings:isFirstCategory="true">
+        <com.coloros.settings.widget.preference.ColorRestrictedSwitchPreference android:persistent="false" android:title="@string/dual_earphone_setting_title" android:key="double_earphone_switch" android:summary="@string/dual_earphone_setting_summary" settings:controller="com.coloros.settings.doubleears.controller.DoubleEarphoneController" />
+    </com.coloros.settings.widget.preference.SettingsColorPreferenceCategory>
+    <com.coloros.settings.widget.preference.SettingsColorPreferenceCategory android:title="@string/dual_earphone_media_channel_title" android:selectable="false" android:key="media_channel_ear_phone_choice" settings:colorClickStyle="unclick">
+        <com.coloros.settings.widget.preference.MediaEarphoneChannelPreference android:key="double_earphone_media_bluetooth" settings:itemIcon="@drawable/double_bluetooth_icon" />
+        <com.coloros.settings.widget.preference.MediaEarphoneChannelPreference android:key="double_earphone_headset" settings:itemIcon="@drawable/double_headset_icon" settings:itemTitle="@string/dual_earphone_headset" />
+        <com.coloros.settings.widget.preference.MediaEarphoneChannelPreference android:key="double_earphone_media_speaker" settings:itemIcon="@drawable/double_speaker" settings:itemTitle="@string/dual_earphone_speaker" />
+    </com.coloros.settings.widget.preference.SettingsColorPreferenceCategory>
+    <com.coloros.settings.widget.preference.SettingsColorPreferenceCategory android:selectable="false" android:key="double_ear_page_tips" settings:colorClickStyle="unclick">
+        <com.coloros.settings.widget.preference.DoubleEarTipPreference android:key="double_earphone_page_tip" settings:colorClickStyle="unclick" />
+    </com.coloros.settings.widget.preference.SettingsColorPreferenceCategory>
+    <com.coloros.settings.widget.preference.SettingsColorPreferenceCategory android:selectable="false" android:key="double_ear_page_lab_like_contain" settings:colorClickStyle="unclick">
+        <com.coloros.settings.widget.preference.LikeFunctionPreference android:key="double_ear_page_lab_like_key" />
+    </com.coloros.settings.widget.preference.SettingsColorPreferenceCategory>
+</PreferenceScreen>

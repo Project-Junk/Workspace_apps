@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/gentle_notifications_title" android:key="gentle_notification_settings"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto">
+    <com.android.settingslib.widget.LayoutPreference android:persistent="false" android:layout="@layout/drawable_layout" android:title="@string/summary_placeholder" android:selectable="false" android:key="gentle_notifications_drawable" android:order="1" settings:allowDividerBelow="true" settings:controller="com.android.settings.notification.GentleDrawablePreferenceController" />
+    <Preference android:icon="@drawable/ic_info_outline_24" android:clickable="false" android:title="@string/gentle_notifications_education" android:selectable="false" android:key="gentle_notifications_footer" android:order="2" settings:allowDividerAbove="true" style="?footerPreferenceStyle" />
+    <PreferenceCategory android:title="@string/gentle_notifications_also_display" android:key="gentle_notifications_settings" android:order="3">
+        <SwitchPreference android:title="@string/gentle_notifications_display_status" android:key="silent_icons" settings:controller="com.android.settings.notification.SilentStatusBarPreferenceController" />
+        <SwitchPreference android:title="@string/gentle_notifications_display_lock" android:key="lock_screen" settings:controller="com.android.settings.notification.SilentLockscreenPreferenceController" />
+    </PreferenceCategory>
+</PreferenceScreen>

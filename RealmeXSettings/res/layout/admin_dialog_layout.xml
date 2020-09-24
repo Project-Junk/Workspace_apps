@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:paddingBottom="@dimen/M10" android:layout_width="fill_parent" android:layout_height="fill_parent" android:paddingStart="@dimen/M10" android:paddingEnd="@dimen/M10"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/TD05" android:textColor="@color/C17" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/admin_tips" />
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/M5">
+        <TextView android:textSize="10.0dip" android:textColor="@color/C12" android:gravity="center" android:layout_gravity="center_vertical" android:background="@drawable/oppo_admin_mark_background" android:layout_width="14.0dip" android:layout_height="14.0dip" android:text="1" />
+        <TextView android:textSize="@dimen/TD07" android:textColor="@color/C20" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/admin_tips_1" android:layout_marginStart="@dimen/M11" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/M5">
+        <TextView android:textSize="10.0dip" android:textColor="@color/C12" android:gravity="center" android:layout_gravity="center_vertical" android:background="@drawable/oppo_admin_mark_background" android:layout_width="14.0dip" android:layout_height="14.0dip" android:text="2" />
+        <TextView android:textSize="@dimen/TD07" android:textColor="@color/C20" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/admin_tips_2" android:layout_marginStart="@dimen/M11" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/M5">
+        <TextView android:textSize="10.0dip" android:textColor="@color/C12" android:gravity="center" android:layout_gravity="center_vertical" android:background="@drawable/oppo_admin_mark_background" android:layout_width="14.0dip" android:layout_height="14.0dip" android:text="3" />
+        <TextView android:textSize="@dimen/TD07" android:textColor="@color/C20" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/admin_tips_3" android:layout_marginStart="@dimen/M11" />
+    </LinearLayout>
+</LinearLayout>

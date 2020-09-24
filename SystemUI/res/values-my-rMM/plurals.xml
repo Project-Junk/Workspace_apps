@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="kg_password_default_pin_message_multi_sim">
+        <item quantity="other">SIM ကတ် %1$d အတွက် PIN ထည့်ပေးပါ။ %2$d ကြိမ် ကြိုးပမ်းခွင့် ကျန်သည်။</item>
+        <item quantity="one">SIM ကတ် %1$d အတွက် PIN ထည့်ပေးပါ။ %2$d ကြိမ် ကြိုးပမ်းခွင့် ကျန်သည်။ ထပ်၍မှားနေလျှင် ဖုန်းအားသော့ဖွင့်ရန် သင့်မိုဘိုင်းအော်ပရေတာထံ ဆက်သွယ်ရန် လိုပါသည်။</item>
+    </plurals>
+    <plurals name="kg_password_wrong_pin_code">
+        <item quantity="other">SIM PIN မှားနေသည်။ ကြိုးပမ်းရန် %d ကြိမ် ကျန်သည်။</item>
+        <item quantity="one">SIM PIN မှားနေသည်။ ကြိုးပမ်းရန် %d ကြိမ်ကျန်သည်။ ထပ်၍မှားနေလျှင် ဖုန်းအားသော့ဖွင့်ရန် သင့်မိုဘိုင်းအော်ပရေတာထံ ဆက်သွယ်ရန် လိုပါသည်။</item>
+    </plurals>
+    <plurals name="kg_password_wrong_pin_code_multi_sim">
+        <item quantity="other">SIM ကတ် %1$d အတွက် PIN မှားနေသည်။ %2$d ကြိမ် ကြိုးပမ်းခွင့် ကျန်သည်။</item>
+        <item quantity="one">SIM ကတ် %1$d အတွက် PIN မှားနေသည်။ %2$d ကြိမ် ကြိုးပမ်းခွင့် ကျန်သည်။ ထပ်၍မှားနေလျှင် ဖုန်းအားသော့ဖွင့်ရန် သင့်မိုဘိုင်းအော်ပရေတာထံ ဆက်သွယ်ရန် လိုပါသည်။</item>
+    </plurals>
+    <plurals name="kg_password_wrong_puk_code">
+        <item quantity="other">SIM PUK ကုဒ် မှားနေသည်။ ကြိုးပမ်းရန် %d ကြိမ် ကျန်သည်။ ထပ်မှားနေလျှင် SIM များကို အပြီး ပိတ်လိုက်ပါလိမ့်မည်။</item>
+        <item quantity="one">SIM PUK ကုဒ် မှားနေသည်။ ကြိုးပမ်းရန် %d ကြိမ်ကျန်သည်။ ထပ်မှားနေလျှင် SIM ကို အပြီး ပိတ်လိုက်ပါလိမ့်မည်။</item>
+    </plurals>
+    <plurals name="kg_prompt_reason_time_password">
+        <item quantity="other">%d နာရီကြာအောင် စက်ကို သော့ခတ်ထားပါသည်။ စကားဝှက် အတည်ပြုပေးပါ။</item>
+        <item quantity="one">%d နာရီကြာအောင် စက်ကို သော့ခတ်ထားပါသည်။ စကားဝှက် အတည်ပြုပေးပါ။</item>
+    </plurals>
+    <plurals name="kg_prompt_reason_time_pattern">
+        <item quantity="other">စက်ကို %d နာရီကြာ သော့ခတ်လိုက်ပါသည်။ သော့ဖွင့်ပတ်တန်ကို အတည်ပြုပေးပါ။</item>
+        <item quantity="one">စက်ကို %d နာရီကြာ သော့ခတ်လိုက်ပါသည်။ သော့ဖွင့်ပတ်တန်ကို အတည်ပြုပေးပါ။</item>
+    </plurals>
+    <plurals name="kg_prompt_reason_time_pin">
+        <item quantity="other">စက်ကို %d နာရီကြာ သော့ခတ်လိုက်ပါသည်။ PIN ကို အတည်ပြုပေးပါ။</item>
+        <item quantity="one">စက်ကို %d နာရီကြာ သော့ခတ်လိုက်ပါသည်။ PIN ကို အတည်ပြုပေးပါ။</item>
+    </plurals>
+    <plurals name="kg_too_many_failed_attempts_countdown">
+        <item quantity="other">%d စက္ကန့်ကြာပြီးနောက် ထပ်ကြိုးစားပါ။</item>
+        <item quantity="one">1 စက္ကန့်ကြာပြီးနောက် ထပ်ကြိုးစားပါ။</item>
+    </plurals>
+    <plurals name="notification_group_overflow_description">
+        <item quantity="other">သင်သည် ဤအုပ်စုထဲတွင် အသိပေးချက် %s ခု ရှိနေသေးသည်။</item>
+        <item quantity="one">ဤအုပ်စုထဲတွင် အသိပေးချက် %s ခု ရှိနေသေးသည်။</item>
+    </plurals>
+    <plurals name="snoozeHourOptions">
+        <item quantity="other">%d နာရီ</item>
+        <item quantity="one">%d နာရီ</item>
+    </plurals>
+    <plurals name="snoozeMinuteOptions">
+        <item quantity="other">%d မိနစ်</item>
+        <item quantity="one">%d မိနစ်</item>
+    </plurals>
+</resources>

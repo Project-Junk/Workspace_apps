@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="kg_password_default_pin_message_multi_sim">
+        <item quantity="other">Cuir Isteach an PIN le haghaidh Cárta SIM%1$d. %2$d Iarracht Fágtha.</item>
+        <item quantity="one">Le do thoil, Iontráil PIN don Chárta SIM %1$d. %2$d iarracht fágtha. Beidh ort Labhairt leis an Iompróir chun Cabhrú leat an Gléas a Dhíghlasáil má bhíonn sé Mícheart Arís.</item>
+    </plurals>
+    <plurals name="kg_password_wrong_pin_code_multi_sim">
+        <item quantity="other">PIN mícheart don Chárta SIM %1$d. %2$d Iarracht fágtha.</item>
+        <item quantity="one">PIN mícheart don Chárta SIM%1$d. %2$d iarracht fágtha. Beidh ort Labhairt leis an Iompróir chun Cabhrú leat an Gléas a Dhíghlasáil má bhíonn sé Mícheart Arís.</item>
+    </plurals>
+    <plurals name="kg_too_many_failed_attempts_countdown">
+        <item quantity="other">Atriail i nDiaidh %d Soicind.</item>
+        <item quantity="one">Atriail i nDiaidh 1 Soicind.</item>
+    </plurals>
+    <plurals name="snoozeHourOptions">
+        <item quantity="other">%d uaireanta</item>
+        <item quantity="one">%d uair</item>
+    </plurals>
+    <plurals name="snoozeMinuteOptions">
+        <item quantity="other">%d nóiméid</item>
+        <item quantity="one">%d nóiméad</item>
+    </plurals>
+</resources>

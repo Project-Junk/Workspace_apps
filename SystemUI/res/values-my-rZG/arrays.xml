@@ -1,0 +1,336 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="animator_duration_scale_entries">
+        <item>အန္နီေမးရွင္း ပိတ္ရန္</item>
+        <item>အန္နီေမး႐ွင္း စေကး .5x</item>
+        <item>အန္နီေမး႐ွင္း စေကး 1x</item>
+        <item>အန္နီေမး႐ွင္း စေကး 1.5x</item>
+        <item>အန္နီေမး႐ွင္း စေကး 2x</item>
+        <item>အန္နီေမး႐ွင္း စေကး 5x</item>
+        <item>အန္နီေမး႐ွင္း စေကး 10x</item>
+    </string-array>
+    <string-array name="app_process_limit_entries">
+        <item>စံႏႈန္း သတ္မွတ္ခ်က္</item>
+        <item>ေနာက္ခံပံု လုပ္ေဆာင္မႈမ်ား မရွိပါ</item>
+        <item>အမ်ားဆံုး လုပ္ငန္းစဥ္ 1 ခု</item>
+        <item>အမ်ားဆံုး လုပ္ငန္းစဥ္ 2 ခု</item>
+        <item>အမ်ားဆံုး လုပ္ငန္းစဥ္ 3 ခု</item>
+        <item>အမ်ားဆံုး လုပ္ငန္းစဥ္ 4 ခု</item>
+    </string-array>
+    <string-array name="battery_labels">
+        <item>0%</item>
+        <item>50%</item>
+        <item>100%</item>
+    </string-array>
+    <string-array name="battery_options">
+        <item>ရာခိုင္ႏႈန္းျဖင့္ အၿမဲျပပါ</item>
+        <item>အားသြင္းေနစဥ္ ဘက္ထရီကို ရာခိုင္ႏႈန္းျဖင့္ ျပပါ (ပံုေသ)</item>
+        <item>ဤအိုင္ကြန္ကို မျပပါႏွင့္</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_bits_per_sample_summaries">
+        <item>စနစ္ေရြးခ်ယ္မႈမ်ားကို သံုးပါ (ပံုေသ)</item>
+        <item>16 ဘစ္/နမူနာ</item>
+        <item>24 ဘစ္/နမူနာ</item>
+        <item>32 ဘစ္/နမူနာ</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_bits_per_sample_titles">
+        <item>စနစ္ေရြးခ်ယ္မႈမ်ားကို သံုးပါ (ပံုေသ)</item>
+        <item>16 ဘစ္/နမူနာ</item>
+        <item>24 ဘစ္/နမူနာ</item>
+        <item>32 ဘစ္/နမူနာ</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_channel_mode_summaries">
+        <item>စနစ္ေရြးခ်ယ္မႈမ်ားကို သံုးပါ (ပံုေသ)</item>
+        <item>မိုႏို</item>
+        <item>စတီရီယို</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_channel_mode_titles">
+        <item>စနစ္ေရြးခ်ယ္မႈမ်ားကို သံုးပါ (ပံုေသ)</item>
+        <item>မိုႏို</item>
+        <item>စတီရီယို</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_ldac_playback_quality_summaries">
+        <item>အသံအရည္အေသြးကို အေကာင္းဆံုးလုပ္ထားသည္</item>
+        <item>အသံႏွင့္ ခ်ိတ္ဆက္မႈ အရည္အေသြးကို မွ်တေအာင္လုပ္ထားသည္</item>
+        <item>ခ်ိတ္ဆက္မႈအရည္အေသြးကို အေကာင္းဆံုးလုပ္ထားသည္</item>
+        <item>အေကာင္းဆံုး အားထုတ္မႈ (အလိုက္သင့္ ဘစ္ႏႈန္းထား)</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_ldac_playback_quality_titles">
+        <item>အသံအရည္အေသြးကို အေကာင္းဆံုးလုပ္ထားသည္ (990kbps/909kbps)</item>
+        <item>အသံႏွင့္ ခ်ိတ္ဆက္မႈ အရည္အေသြးကို မွ်ေအာင္လုပ္ထားသည္ (660kbps/606kbps)</item>
+        <item>ခ်ိတ္ဆက္မႈ အရည္အေသြးကို မွ်တေအာင္လုပ္ထားသည္ (330kbps/303kbps)</item>
+        <item>အေကာင္းဆံုး အားထုတ္မႈ (အလိုက္သင့္ ဘစ္ႏႈန္းထား)</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_sample_rate_summaries">
+        <item>စနစ္ေရြးခ်ယ္မႈမ်ားကို သံုးပါ (ပံုေသ)</item>
+        <item>44.1 kHz</item>
+        <item>48.0 kHz</item>
+        <item>88.2 kHz</item>
+        <item>96.0 kHz</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_sample_rate_titles">
+        <item>စနစ္ေရြးခ်ယ္မႈမ်ားကို သံုးပါ (ပံုေသ)</item>
+        <item>44.1 kHz</item>
+        <item>48.0 kHz</item>
+        <item>88.2 kHz</item>
+        <item>96.0 kHz</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_summaries">
+        <item>စနစ္ေရြးခ်ယ္မႈမ်ားကို သံုးပါ (ပံုေသ)</item>
+        <item>SBC</item>
+        <item>SBC</item>
+        <item>Qualcomm®aptX™ အသံ</item>
+        <item>Qualcomm®aptX™ HD အသံ</item>
+        <item>LDAC</item>
+        <item>Qualcomm®aptX™ Adaptive အသံ</item>
+        <item>Qualcomm®aptX™ TWS+ အသံ</item>
+        <item>ေရြးခ်ယ္စရာ ကိုဒက္မ်ားကို ဖြင့္ရန္</item>
+        <item>ေရြးခ်ယ္စရာ ကိုဒက္မ်ားကို ပိတ္ရန္</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_titles">
+        <item>စနစ္ေရြးခ်ယ္မႈမ်ားကို သံုးပါ (ပံုေသ)</item>
+        <item>SBC</item>
+        <item>SBC</item>
+        <item>Qualcomm®aptX™ အသံ</item>
+        <item>Qualcomm®aptX™ HD အသံ</item>
+        <item>LDAC</item>
+        <item>Qualcomm®aptX™ Adaptive အသံ</item>
+        <item>Qualcomm®aptX™ TWS+ အသံ</item>
+        <item>ေရြးခ်ယ္စရာ ကိုဒက္မ်ားကို ဖြင့္ရန္</item>
+        <item>ေရြးခ်ယ္စရာ ကိုဒက္မ်ားကို ပိတ္ရန္</item>
+    </string-array>
+    <string-array name="bluetooth_audio_active_device_summaries">
+        <item></item>
+        <item>၊ ပြင့္ေန</item>
+        <item>၊ ပြင့္ေန (မီဒီယာ)</item>
+        <item>၊ ပြင့္ေန (ဖုန္း)</item>
+    </string-array>
+    <string-array name="bluetooth_avrcp_version_values">
+        <item>avrcp14</item>
+        <item>avrcp13</item>
+        <item>avrcp15</item>
+        <item>avrcp16</item>
+    </string-array>
+    <string-array name="bluetooth_avrcp_versions">
+        <item>AVRCP 1.4 (ပံုေသ)</item>
+        <item>AVRCP 1.3</item>
+        <item>AVRCP 1.5</item>
+        <item>AVRCP 1.6</item>
+    </string-array>
+    <string-array name="bt_hci_snoop_log_entries">
+        <item>ပိတ္ထားသည္</item>
+        <item>စစ္ထုတ္ျခင္း ဖြင့္ထားသည္</item>
+        <item>ေခါင္းစီး စစ္ထုတ္ျခင္း ဖြင့္ထားသည္</item>
+        <item>မီဒီယာ Pkts စစ္ထုတ္ျခင္းကို ဖြင့္ထားသည္</item>
+        <item>ဖြင့္ထားသည္</item>
+    </string-array>
+    <string-array name="clock_options">
+        <item>နာရီမ်ား၊ မိနစ္မ်ားႏွင့္ စကၠန္႔မ်ားကို ျပပါ</item>
+        <item>နာရီမ်ားႏွင့္ မိနစ္မ်ားကို ျပပါ (ပံုေသ)</item>
+        <item>ဤအိုင္ကြန္ကို မျပပါႏွင့္</item>
+    </string-array>
+    <string-array name="color_lunar_mounth">
+        <item>正月</item>
+        <item>二月</item>
+        <item>三月</item>
+        <item>四月</item>
+        <item>五月</item>
+        <item>六月</item>
+        <item>七月</item>
+        <item>八月</item>
+        <item>九月</item>
+        <item>十月</item>
+        <item>冬月</item>
+        <item>腊月</item>
+    </string-array>
+    <string-array name="color_mode_descriptions">
+        <item>ျမွင့္တင္ၿပီး အေရာင္မ်ား</item>
+        <item>မ်က္လံုးမွ ျမင္ရသည့္အတိုင္း သဘာဝအေရာင္မ်ား</item>
+        <item>ဒစ္ဂ်ယ္တယ္ အေၾကာင္းအရာအတြက္ အေရာင္မ်ားကို အေကာင္းဆံုးလုပ္ထားသည္</item>
+    </string-array>
+    <string-array name="color_mode_names">
+        <item>စုိလြင္ (ပံုေသ)</item>
+        <item>သဘာဝ</item>
+        <item>စံမီ</item>
+    </string-array>
+    <string-array name="color_solor_mounth">
+        <item>ဇန္နဝါရီ</item>
+        <item>ေဖေဖာ္ဝါရီ</item>
+        <item>မတ္</item>
+        <item>ဧၿပီ</item>
+        <item>ေမ</item>
+        <item>ဇြန္</item>
+        <item>ဇူလိုင္</item>
+        <item>ၾသဂုတ္</item>
+        <item>စက္တင္ဘာ</item>
+        <item>ေအာက္တုိဘာ</item>
+        <item>ႏိုဝင္ဘာ</item>
+        <item>ဒီဇင္ဘာ</item>
+    </string-array>
+    <string-array name="debug_hw_overdraw_entries">
+        <item>ပိတ္</item>
+        <item>အေရာင္ထပ္ ဆြဲေသာ ေနရာမ်ားကို ျပပါ</item>
+        <item>ဒူတာရာႏိုမလီအတြက္ ေနရာမ်ားကို ျပပါ</item>
+    </string-array>
+    <string-array name="enable_opengl_traces_entries">
+        <item>ဘာမွမရွိ</item>
+        <item>Logcat</item>
+        <item>Systrace (ဂရပ္ဖစ္မ်ား)</item>
+        <item>glGetError ေပၚ႐ွိ ပံုေနေသာ ဖုန္းေခၚဆိုမႈ</item>
+    </string-array>
+    <string-array name="hdcp_checking_summaries">
+        <item>HDCP စစ္ေဆးျခင္းကို ဘယ္ေတာ့မွ အသံုးမျပဳပါႏွင့္</item>
+        <item>DRM အေၾကာင္းအရာအတြက္သာ HDCP စစ္ေဆးျခင္းကို အသံုးျပဳပါ</item>
+        <item>HDCP စစ္ေဆးျခင္းကို အၿမဲအသံုးျပဳပါ</item>
+    </string-array>
+    <string-array name="hdcp_checking_titles">
+        <item>ဘယ္ေတာ့မွ မစစ္ေဆးပါႏွင့္</item>
+        <item>DRM အေၾကာင္းအရာအတြက္သာ စစ္ေဆးပါ</item>
+        <item>အၿမဲ စစ္ေဆးပါ</item>
+    </string-array>
+    <string-array name="nav_bar_layouts">
+        <item>ပံုမွန္</item>
+        <item>က်စ္လ်စ္</item>
+        <item>ဘယ္တြင္ထား</item>
+        <item>ညာတြင္ထား</item>
+    </string-array>
+    <string-array name="oppo_time_picker_ampm">
+        <item>AM</item>
+        <item>PM</item>
+    </string-array>
+    <string-array name="overlay_display_devices_entries">
+        <item>ဘာမွမရွိ</item>
+        <item>480p</item>
+        <item>480p (စိတ္ခ်ရ)</item>
+        <item>720p</item>
+        <item>720p (စိတ္ခ်ရ)</item>
+        <item>1080p</item>
+        <item>1080p (စိတ္ခ်ရ)</item>
+        <item>4K</item>
+        <item>4K (စိတ္ခ်ရ)</item>
+        <item>4K (စေကးျမွင့္ထား)</item>
+        <item>4K (စေကးျမွင့္ထား၊ စိတ္ခ်ရ)</item>
+        <item>720p, 1080p (စခရင္ ႏွစ္ခု)</item>
+    </string-array>
+    <integer-array name="qs_color_clock_size">
+        <item>33</item>
+        <item>33</item>
+        <item>33</item>
+        <item>33</item>
+        <item>30</item>
+    </integer-array>
+    <string-array name="select_logd_size_lowram_titles">
+        <item>ပိတ္</item>
+        <item>64K</item>
+        <item>256K</item>
+        <item>1M</item>
+    </string-array>
+    <string-array name="select_logd_size_summaries">
+        <item>ပိတ္</item>
+        <item>ေလာ့ဂ္ဘတ္ဖာတစ္ခုတြင္ 64K</item>
+        <item>ေလာ့ဂ္ဘတ္ဖာတစ္ခုတြင္ 256K</item>
+        <item>ေလာ့ဂ္ဘတ္ဖာတစ္ခုတြင္ 1M</item>
+        <item>ေလာ့ဂ္ဘတ္ဖာတစ္ခုတြင္ 4M</item>
+        <item>ေလာ့ဂ္ဘတ္ဖာတစ္ခုတြင္ 16M</item>
+    </string-array>
+    <string-array name="select_logd_size_titles">
+        <item>ပိတ္</item>
+        <item>64K</item>
+        <item>256K</item>
+        <item>1M</item>
+        <item>4M</item>
+        <item>16M</item>
+    </string-array>
+    <string-array name="select_logpersist_summaries">
+        <item>ပိတ္</item>
+        <item>ေလာ့ဘတ္ဖာမ်ား အားလံုး</item>
+        <item>ေရဒီယိုေလာ့ဂ္ဘတ္ဖာမ်ားမွလြဲ၍ အားလံုး</item>
+        <item>kernel ေလာ့ဂ္ဘတ္ဖာမ်ားသာ</item>
+    </string-array>
+    <string-array name="select_logpersist_titles">
+        <item>ပိတ္</item>
+        <item>အားလံုး</item>
+        <item>ေရဒီယိုမွလြဲ၍ အားလံုး</item>
+        <item>Kernel မွ်သာ</item>
+    </string-array>
+    <string-array name="show_non_rect_clip_entries">
+        <item>ပိတ္</item>
+        <item>အျပာထဲတြင္ စတုဂံမဟုတ္ေသာ ကလစ္အပိုင္းကို ဆြဲပါ</item>
+        <item>အစိမ္းထဲတြင္ စမ္းသပ္ထားေသာ အမိန္႔မ်ားကို ျမင္သာေအာင္လုပ္ပါ</item>
+    </string-array>
+    <string-array name="track_frame_time_entries">
+        <item>ပိတ္</item>
+        <item>စခရင္ေပၚတြင္ ဘားမ်ားအျဖစ္</item>
+        <item>adb shell dumpsys gfxinfo တြင္</item>
+    </string-array>
+    <string-array name="transition_animation_scale_entries">
+        <item>အန္နီေမးရွင္း ပိတ္ရန္</item>
+        <item>အန္နီေမး႐ွင္း စေကး .5x</item>
+        <item>အန္နီေမး႐ွင္း စေကး 1x</item>
+        <item>အန္နီေမး႐ွင္း စေကး 1.5x</item>
+        <item>အန္နီေမး႐ွင္း စေကး 2x</item>
+        <item>အန္နီေမး႐ွင္း စေကး 5x</item>
+        <item>အန္နီေမး႐ွင္း စေကး 10x</item>
+    </string-array>
+    <string-array name="tts_rate_entries">
+        <item>အလြန္ေႏွး</item>
+        <item>ေႏွး</item>
+        <item>ပံုမွန္</item>
+        <item>ျမန္</item>
+        <item>ပိုျမန္</item>
+        <item>အလြန္ျမန္</item>
+        <item>ျမန္ဆန္</item>
+        <item>အလြန္ျမန္ဆန္</item>
+        <item>အျမန္ဆံုး</item>
+    </string-array>
+    <string-array name="usb_configuration_titles">
+        <item>အားသြင္းေနသည္</item>
+        <item>MTP (မီဒီယာ လႊဲေျပာင္းမႈ ပ႐ိုတိုေကာ)</item>
+        <item>PTP (ပံုလႊဲေျပာင္းမႈ ပ႐ိုတိုေကာ)</item>
+        <item>RNDIS (USB အီသာနက္)</item>
+        <item>ေအာ္ဒီယို ရင္းျမစ္</item>
+        <item>MIDI</item>
+    </string-array>
+    <string-array name="usb_type_select">
+        <item>အားသြင္းရန္သာ</item>
+        <item>ဖုိင္မ်ား လႊဲေျပာင္းရန္</item>
+        <item>ပံုမ်ား လႊဲေျပာင္းရန္</item>
+    </string-array>
+    <string-array name="wifi_status">
+        <item></item>
+        <item>စကန္ဖတ္ေနသည္…</item>
+        <item>ခ်ိတ္ဆက္ေနသည္…</item>
+        <item>စစ္မွန္မႈစိစစ္ေန…</item>
+        <item>IP လိပ္စာ ရယူေနသည္…</item>
+        <item>ခ်ိတ္ဆက္ထားသည္</item>
+        <item>ဆိုင္းငံ့ထား</item>
+        <item>ခ်ိတ္ဆက္မႈ ပယ္ဖ်က္ေနသည္…</item>
+        <item>ကြန္ရက္ခ်ိတ္မထားပါ</item>
+        <item>မေအာင္ျမင္ပါ</item>
+        <item>ပိတ္ဆုိ႔ထား</item>
+        <item>ကြန္နက္ရွင္မေကာင္းျခင္းကို ယာယီ ေရွာင္ထားသည္</item>
+    </string-array>
+    <string-array name="wifi_status_with_ssid">
+        <item></item>
+        <item>စကန္ဖတ္ေနသည္…</item>
+        <item>%1$s ႏွင့္ ခ်ိတ္ေနသည္…</item>
+        <item>%1$s ျဖင့္ ခြင့္ျပဳခ်က္ေပးေနသည္…</item>
+        <item>%1$s ထံမွ IP လိပ္စာ ရယူေနသည္…</item>
+        <item>%1$s ႏွင့္ ခ်ိတ္ထားသည္</item>
+        <item>ဆိုင္းငံ့ထား</item>
+        <item>%1$s ထံမွ ခ်ိတ္ဆက္မႈျဖတ္ေနသည္…</item>
+        <item>ကြန္ရက္ခ်ိတ္မထားပါ</item>
+        <item>မေအာင္ျမင္ပါ</item>
+        <item>ပိတ္ဆုိ႔ထား</item>
+        <item>ကြန္နက္ရွင္မေကာင္းျခင္းကို ယာယီ ေရွာင္ထားသည္</item>
+    </string-array>
+    <string-array name="window_animation_scale_entries">
+        <item>အန္နီေမးရွင္း ပိတ္ရန္</item>
+        <item>အန္နီေမး႐ွင္း စေကး .5x</item>
+        <item>အန္နီေမး႐ွင္း စေကး 1x</item>
+        <item>အန္နီေမး႐ွင္း စေကး 1.5x</item>
+        <item>အန္နီေမး႐ွင္း စေကး 2x</item>
+        <item>အန္နီေမး႐ွင္း စေကး 5x</item>
+        <item>အန္နီေမး႐ွင္း စေကး 10x</item>
+    </string-array>
+</resources>

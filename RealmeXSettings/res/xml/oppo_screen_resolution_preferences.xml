@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/screen_resolution" android:key="key_screen_resolution"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto">
+    <com.coloros.settings.widget.preference.SettingsColorPreferenceCategory android:title="@string/screen_resolution_change_tips_new" android:key="screen_resolution_category" settings:isFirstCategory="true">
+        <com.coloros.settings.widget.preference.SettingsColorMarkPreference android:persistent="false" android:title="@string/screen_refresh_rate_auto_switch" android:key="screen_resolution_auto" android:summary="@string/screen_resolution_change_auto" android:order="1" />
+        <com.coloros.settings.widget.preference.SettingsColorMarkPreference android:persistent="false" android:title="@string/screen_resolution_fhd" android:key="screen_resolution_fhd" android:summary="@string/screen_resolution_fhd_summery" android:order="2" />
+        <com.coloros.settings.widget.preference.SettingsColorMarkPreference android:persistent="false" android:title="@string/screen_resolution_qhd" android:key="screen_resolution_qhd" android:summary="@string/screen_resolution_qhd_summery" android:order="3" />
+    </com.coloros.settings.widget.preference.SettingsColorPreferenceCategory>
+    <com.coloros.settings.widget.preference.SettingsColorPreferenceCategory android:key="disable_qhd_category">
+        <com.coloros.settings.widget.preference.SettingsColorSpannablePreference android:persistent="false" android:layout="@layout/color_detail_preference" android:key="disable_qhd_preference" android:fragment="com.coloros.settings.feature.display.video.Iris5MotionFluencySettingsFragment" />
+    </com.coloros.settings.widget.preference.SettingsColorPreferenceCategory>
+</PreferenceScreen>

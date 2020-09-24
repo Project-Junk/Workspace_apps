@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:id="@id/oppo_preference" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/support_preference_min_height" android:paddingEnd="@dimen/support_preference_titel_padding_end"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:oppo="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:id="@id/ll_jump_container" android:background="@color/color_list_selector_color_disabled" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" android:paddingStart="@dimen/support_preference_titel_padding_start" android:paddingEnd="@dimen/color_vertial_switch_divider_padding_end" android:layout_marginStart="@dimen/oppo_preference_text_margin_left" style="@style/PreferenceContent">
+        <ImageView android:id="@id/title_img" android:layout_width="@dimen/color_app_icon_size" android:layout_height="@dimen/color_app_icon_size" android:layout_alignTop="@id/ll_title" android:layout_marginEnd="@dimen/title_image_margin_end" android:forceDarkAllowed="false" />
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/ll_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toEndOf="@id/title_img">
+            <TextView android:id="@id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/NotificationPreferenceTitle" />
+        </LinearLayout>
+        <TextView android:id="@id/summary" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/support_preference_margin_between_line" android:layout_below="@id/ll_title" android:layout_alignStart="@id/ll_title" style="@style/NotificationPreferenceSummary" />
+    </RelativeLayout>
+    <View android:background="@color/color_preference_category_divider_color" android:visibility="invisible" android:layout_width="2.0px" android:layout_height="22.0dip" android:forceDarkAllowed="false" />
+    <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@id/widget_frame" android:paddingTop="@dimen/color_vertial_switch_divider_padding_top" android:paddingBottom="@dimen/color_vertial_switch_divider_padding_bottom" android:clipChildren="false" android:clipToPadding="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingStart="@dimen/color_vertial_switch_divider_padding_start">
+        <com.color.support.widget.ColorSwitch android:layout_gravity="end|center" android:id="@id/switchWidget" android:focusable="true" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="kg_password_default_pin_message_multi_sim">
+        <item quantity="other">ದಯವಿಟ್ಟು SIM ಕಾರ್ಡ್ %1$dರ PIN ನಮೂದಿಸಿ. %2$d ಪ್ರಯತ್ನಗಳು ಉಳಿದಿವೆ.</item>
+        <item quantity="one">ದಯವಿಟ್ಟು SIM ಕಾರ್ಡ್ %1$dರ PIN ನಮೂದಿಸಿ. %2$d ಪ್ರಯತ್ನ ಉಳಿದಿದೆ. ಅದು ಪುನಃ ತಪ್ಪಾದರೆ ನಿಮ್ಮ ಸಾಧನವನ್ನು ಅನ್‌ಲಾಕ್ ಮಾಡಲು ನೀವು ಕ್ಯಾರಿಯರ್ ಅನ್ನು ಸಂಪರ್ಕಿಸಬೇಕಾಗುತ್ತದೆ.</item>
+    </plurals>
+    <plurals name="kg_password_wrong_pin_code">
+        <item quantity="other">ತಪ್ಪು SIM PIN. %d ಪ್ರಯತ್ನಗಳು ಉಳಿದಿವೆ.</item>
+        <item quantity="one">ತಪ್ಪು SIM PIN. %d ಪ್ರಯತ್ನ ಉಳಿದಿದೆ. ಅದು ಮತ್ತೆ ತಪ್ಪಾದರೆ, ನೀವು ಸಾಧನವನ್ನು ಅನ್ ಲಾಕ್ ಮಾಡಲು ಸಹಾಯಕ್ಕಾಗಿ ವಾಹಕವನ್ನು ಸಂಪರ್ಕಿಸತಕ್ಕದ್ದು.</item>
+    </plurals>
+    <plurals name="kg_password_wrong_pin_code_multi_sim">
+        <item quantity="other">SIM ಕಾರ್ಡ್ %1$dರ PIN ತಪ್ಪಾಗಿದೆ. %2$d ಪ್ರಯತ್ನಗಳು ಉಳಿದಿವೆ.</item>
+        <item quantity="one">SIM ಕಾರ್ಡ್ %1$dರ PIN ತಪ್ಪಾಗಿದೆ. %2$d ಪ್ರಯತ್ನ ಉಳಿದಿದೆ. ಅದು ಪುನಃ ತಪ್ಪಾದರೆ ನಿಮ್ಮ ಸಾಧನವನ್ನು ಅನ್‌ಲಾಕ್ ಮಾಡಲು ನೀವು ಕ್ಯಾರಿಯರ್ ಅನ್ನು ಸಂಪರ್ಕಿಸಬೇಕಾಗುತ್ತದೆ.</item>
+    </plurals>
+    <plurals name="kg_password_wrong_puk_code">
+        <item quantity="other">ತಪ್ಪು SIM PUK ಕೋಡ್. %d ಪ್ರಯತ್ನಗಳು ಉಳಿದಿವೆ. ಅದು ಮತ್ತೆ ತಪ್ಪಾದರೆ SIM ಗಳು ಶಾಶ್ವತವಾಗಿ ನಿಷ್ಕ್ರಿಯಗೊಳ್ಳುತ್ತದೆ.</item>
+        <item quantity="one">ತಪ್ಪು SIM PUK ಕೋಡ್. %d ಪ್ರಯತ್ನ ಉಳಿದಿದೆ. ಅದು ಮತ್ತೆ ತಪ್ಪಾದರೆ SIM ಶಾಶ್ವತವಾಗಿ ನಿಷ್ಕ್ರಿಯಗೊಳ್ಳುತ್ತದೆ.</item>
+    </plurals>
+    <plurals name="kg_prompt_reason_time_password">
+        <item quantity="other">ಸಾಧನವು %d ಗಂಟೆಗಳ ತನಕ ಲಾಕ್ ಆಗಿದೆ. ದಯವಿಟ್ಟು ಪಾಸ್‍ಕೋಡನ್ನು ದೃಢೀಕರಿಸಿ.</item>
+        <item quantity="one">ಸಾಧನವು %d ಗಂಟೆಯ ತನಕ ಲಾಕ್ ಆಗಿದೆ. ದಯವಿಟ್ಟು ಪಾಸ್‍ಕೋಡನ್ನು ದೃಢೀಕರಿಸಿ.</item>
+    </plurals>
+    <plurals name="kg_prompt_reason_time_pattern">
+        <item quantity="other">ಸಾಧನವು %d ಗಂಟೆಗಳ ತನಕ ಲಾಕ್ ಆಗಿದೆ. ದಯವಿಟ್ಟು ಅನ್‍ಲಾಕ್ ವಿನ್ಯಾಸವನ್ನು ದೃಢೀಕರಿಸಿ.</item>
+        <item quantity="one">ಸಾಧನವು %d ಗಂಟೆಯ ತನಕ ಲಾಕ್ ಆಗಿದೆ. ದಯವಿಟ್ಟು ಅನ್‍ಲಾಕ್ ವಿನ್ಯಾಸವನ್ನು ದೃಢೀಕರಿಸಿ.</item>
+    </plurals>
+    <plurals name="kg_prompt_reason_time_pin">
+        <item quantity="other">ಸಾಧನವು %d ಗಂಟೆಗಳ ತನಕ ಲಾಕ್ ಆಗಿದೆ. ದಯವಿಟ್ಟು PIN ಅನ್ನು ದೃಢೀಕರಿಸಿ.</item>
+        <item quantity="one">ಸಾಧನವು %d ಗಂಟೆಯ ತನಕ ಲಾಕ್ ಆಗಿದೆ. ದಯವಿಟ್ಟು PIN ಅನ್ನು ದೃಢೀಕರಿಸಿ.</item>
+    </plurals>
+    <plurals name="kg_too_many_failed_attempts_countdown">
+        <item quantity="other">ದಯವಿಟ್ಟು %d ಸೆಕೆಂಡುಗಳ ಬಳಿಕ ಮರುಪ್ರಯತ್ನಿಸಿ.</item>
+        <item quantity="one">ದಯವಿಟ್ಟು 1 ಸೆಕೆಂಡಿನ ಬಳಿಕ ಮರುಪ್ರಯತ್ನಿಸಿ.</item>
+    </plurals>
+    <plurals name="notification_group_overflow_description">
+        <item quantity="other">ಈ ಗುಂಪಿನಲ್ಲಿ ಇನ್ನೂ %s ಅಧಿಸೂಚನೆಗಳಿವೆ.</item>
+        <item quantity="one">ಈ ಗುಂಪಿನಲ್ಲಿ ಇನ್ನೂ %s ಅಧಿಸೂಚನೆ ಇದೆ.</item>
+    </plurals>
+    <plurals name="snoozeHourOptions">
+        <item quantity="other">%d ಗಂಟೆಗಳು</item>
+        <item quantity="one">%d ಗಂಟೆ</item>
+    </plurals>
+    <plurals name="snoozeMinuteOptions">
+        <item quantity="other">%d ನಿಮಿಷಗಳು</item>
+        <item quantity="one">%d ನಿಮಿಷ</item>
+    </plurals>
+</resources>

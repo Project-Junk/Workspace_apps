@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:id="@id/oppo_category_top_for_loading" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="@dimen/support_preference_category_layout_divider_parent_height">
+        <View android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="@dimen/support_preference_category_layout_divider_height" android:layout_marginStart="@dimen/support_preference_category_layout_divider_margin_start" android:layout_marginEnd="@dimen/support_preference_category_layout_divider_margin_end" android:forceDarkAllowed="false" />
+    </LinearLayout>
+    <com.color.support.widget.ColorLoadingView android:layout_gravity="end|center" android:id="@id/scanning_progress" android:clickable="true" android:layout_width="@dimen/color_preference_category_layout_loading_view_width" android:layout_height="wrap_content" android:layout_marginTop="@dimen/oppo_common_category_text_padding_top" android:text="@string/progress_scanning" android:layout_marginStart="14.0dip" android:layout_marginEnd="24.0dip" style="@style/OppoPreferenceCategoryStyle.Title" />
+    <CheckBox android:textColor="?colorPrimaryColor" android:layout_gravity="end|center" android:id="@id/checkbox" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:checked="false" android:button="@null" android:text="@string/menu_stats_refresh" android:layout_marginStart="14.0dip" android:layout_marginEnd="24.0dip" android:forceDarkAllowed="false" style="@style/OppoPreferenceCategoryStyle.Title" />
+</LinearLayout>

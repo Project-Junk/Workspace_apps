@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/accessibility_captioning_title" android:key="captioning_preference_screen_key" android:fragment="com.coloros.settings.feature.othersettings.accessibility.ColorCaptionPropertiesFragment"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto">
+    <com.coloros.settings.widget.preference.SettingsColorPreferenceCategory settings:isFirstCategory="true" />
+    <com.android.settingslib.widget.LayoutPreference android:layout="@layout/color_captioning_preview" android:title="@string/summary_placeholder" android:key="caption_preview" settings:searchable="false" />
+    <com.coloros.settings.widget.preference.SettingSwitchPreference android:persistent="false" android:layout="@layout/color_preference" android:title="@string/oppo_enable_captioning" android:key="enable_captioning" />
+    <PreferenceCategory android:title="@string/captioning_standard_options_title" android:key="standard">
+        <com.android.settings.accessibility.LocalePreference android:persistent="false" android:title="@string/captioning_locale" android:key="captioning_locale" />
+        <com.coloros.settings.widget.preference.ColorListPreference android:persistent="false" android:entries="@array/captioning_font_size_selector_titles" android:title="@string/captioning_text_size" android:key="captioning_font_size" android:entryValues="@array/captioning_font_size_selector_values" />
+        <com.coloros.settings.feature.othersettings.accessibility.ColorPresetPreference android:persistent="false" android:layout="@layout/color_preference" android:title="@string/captioning_preset" android:key="captioning_preset" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/captioning_custom_options_title" android:key="custom">
+        <com.coloros.settings.widget.preference.ColorListPreference android:persistent="false" android:entries="@array/captioning_typeface_selector_titles" android:title="@string/captioning_typeface" android:key="captioning_typeface" android:entryValues="@array/captioning_typeface_selector_values" />
+        <com.coloros.settings.feature.othersettings.accessibility.ColorOSColorPreference android:persistent="false" android:title="@string/captioning_foreground_color" android:key="captioning_foreground_color" />
+        <com.coloros.settings.feature.othersettings.accessibility.ColorOSColorPreference android:persistent="false" android:title="@string/captioning_foreground_opacity" android:key="captioning_foreground_opacity" />
+        <com.coloros.settings.feature.othersettings.accessibility.ColorEdgeTypePreference android:persistent="false" android:title="@string/captioning_edge_type" android:key="captioning_edge_type" />
+        <com.coloros.settings.feature.othersettings.accessibility.ColorOSColorPreference android:persistent="false" android:title="@string/captioning_edge_color" android:key="captioning_edge_color" android:dependency="captioning_edge_type" />
+        <com.coloros.settings.feature.othersettings.accessibility.ColorOSColorPreference android:persistent="false" android:title="@string/captioning_background_color" android:key="captioning_background_color" />
+        <com.coloros.settings.feature.othersettings.accessibility.ColorOSColorPreference android:persistent="false" android:title="@string/captioning_background_opacity" android:key="captioning_background_opacity" android:dependency="captioning_background_color" />
+        <com.coloros.settings.feature.othersettings.accessibility.ColorOSColorPreference android:persistent="false" android:title="@string/captioning_window_color" android:key="captioning_window_color" />
+        <com.coloros.settings.feature.othersettings.accessibility.ColorOSColorPreference android:persistent="false" android:layout="@layout/color_preference" android:title="@string/captioning_window_opacity" android:key="captioning_window_opacity" android:dependency="captioning_window_color" />
+    </PreferenceCategory>
+    <PreferenceCategory />
+</PreferenceScreen>

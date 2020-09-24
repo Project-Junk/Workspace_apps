@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.coloros.systemui.keyguard.charginganim.siphonanim.WiredChargingSiphonAnimLayout android:layout_gravity="bottom" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/wired_charging_anim_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.coloros.systemui.keyguard.charginganim.siphonanim.WiredChargingNormalAnimationView android:id="@id/wired_charging_normal_animation_view" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="center" />
+    <com.coloros.systemui.keyguard.charginganim.siphonanim.WiredChargingVoocAnimationView android:layout_gravity="center_horizontal" android:id="@id/wired_charging_vooc_animation_view" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="center" android:alpha="0.0" />
+    <include android:layout_gravity="center" android:id="@id/charge_level_and_logo" android:layout_width="wrap_content" android:layout_height="wrap_content" layout="@layout/kgd_wired_charging_siphon_level_and_logo_view" />
+    <com.coloros.systemui.keyguard.charginganim.siphonanim.WiredChargingLiziAnimationView android:layout_gravity="bottom|center" android:id="@id/wired_charging_lizi_animation_view" android:visibility="gone" android:layout_width="@dimen/wired_charging_siphon_anim_lizi_view_width" android:layout_height="@dimen/wired_charging_siphon_anim_lizi_view_height" />
+</com.coloros.systemui.keyguard.charginganim.siphonanim.WiredChargingSiphonAnimLayout>

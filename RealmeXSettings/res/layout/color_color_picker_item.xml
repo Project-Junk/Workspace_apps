@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="?android:listPreferredItemHeightSmall"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="center" android:id="@id/color_swatch" android:layout_width="28.0dip" android:layout_height="28.0dip" android:layout_centerVertical="true" android:contentDescription="@null" android:layout_marginStart="@dimen/oppo_toolbar_margin" />
+    <CheckedTextView android:textAppearance="?android:textAppearanceLarge" android:ellipsize="marquee" android:gravity="center_vertical" android:layout_gravity="center_vertical" android:id="@id/summary" android:layout_width="fill_parent" android:layout_height="wrap_content" android:checkMark="?android:listChoiceIndicatorSingle" android:layout_centerVertical="true" android:paddingStart="@dimen/M11" android:paddingEnd="@dimen/M9" android:layout_toEndOf="@id/color_swatch" />
+    <include android:id="@id/item_divider" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" layout="@layout/color_preference_divider_ex_icon" />
+</RelativeLayout>

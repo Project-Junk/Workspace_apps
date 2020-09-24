@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:paddingLeft="32.0dip" android:paddingRight="32.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/cutout_container_left" android:layout_width="132.0dip" android:layout_height="wrap_content" android:layout_marginTop="24.0dip">
+        <ImageView android:id="@id/cutout_image_left" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/cutout_left_enable" />
+        <TextView android:gravity="center" android:id="@id/cutout_text_left" android:paddingTop="20.0dip" android:paddingBottom="6.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/cutout_mode_default" />
+        <RadioButton android:id="@id/cutout_radio_left" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/cutout_container_right" android:clickable="true" android:layout_width="132.0dip" android:layout_height="wrap_content" android:layout_marginTop="24.0dip" android:layout_marginStart="32.0dip">
+        <ImageView android:id="@id/cutout_image_right" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/cutout_left_disable" />
+        <TextView android:gravity="center" android:id="@id/cutout_text_right" android:paddingTop="20.0dip" android:paddingBottom="6.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/cutout_mode_hide" />
+        <RadioButton android:id="@id/cutout_radio_right" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:gravity="center" android:id="@id/fail_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="344.0dip" style="@style/EnrollSmallTextStyle" />
+    <TextView android:gravity="center_horizontal" android:id="@id/retry_btn" android:paddingTop="3.0dip" android:paddingBottom="3.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="60.0dip" android:text="@string/enroll_again" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" android:paddingStart="5.0dip" android:paddingEnd="5.0dip" style="@style/FocusTextStyle" />
+</RelativeLayout>

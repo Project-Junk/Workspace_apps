@@ -1,0 +1,329 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="animator_duration_scale_entries">
+        <item>បិទជីវចលនា</item>
+        <item>មាត្រដ្ឋានជីវចលនា .5x</item>
+        <item>មាត្រដ្ឋានជីវចលនា .1x</item>
+        <item>មាត្រដ្ឋានជីវចលនា 1.5x</item>
+        <item>មាត្រដ្ឋានជីវចលនា 2x</item>
+        <item>មាត្រដ្ឋានជីវចលនា 5x</item>
+        <item>មាត្រដ្ឋានជីវចលនា 10x</item>
+    </string-array>
+    <string-array name="app_process_limit_entries">
+        <item>ការកំណត់ស្តង់ដារ</item>
+        <item>គ្មានដំណើរការផ្ទៃខាងក្រោយ</item>
+        <item>1 ដំណើរការភាគច្រើន</item>
+        <item>2 ដំណើរការភាគច្រើន</item>
+        <item>3 ដំណើរការភាគច្រើន</item>
+        <item>4 ដំណើរការភាគច្រើន</item>
+    </string-array>
+    <string-array name="battery_labels">
+        <item>0%</item>
+        <item>50%</item>
+        <item>100%</item>
+    </string-array>
+    <string-array name="battery_options">
+        <item>បង្ហាញជាភាគរយជានិច្ច</item>
+        <item>បង្ហាញភាគរយថាមពលថ្មខណៈពេលបញ្ចូលថ្ម (លំនាំដើម)</item>
+        <item>កុំបង្ហាញរូបតំណាងនេះ</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_bits_per_sample_summaries">
+        <item>ប្រើការជ្រើសរើសប្រព័ន្ធ (លំនាំដើម)</item>
+        <item>16 ប៊ីត/គំរូ</item>
+        <item>24 ប៊ីត/គំរូ</item>
+        <item>32 ប៊ីត/គំរូ</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_bits_per_sample_titles">
+        <item>ប្រើការជ្រើសរើសប្រព័ន្ធ (លំនាំដើម)</item>
+        <item>16 ប៊ីត/គំរូ</item>
+        <item>24 ប៊ីត/គំរូ</item>
+        <item>32 ប៊ីត/គំរូ</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_channel_mode_summaries">
+        <item>ប្រើការជ្រើសរើសប្រព័ន្ធ (លំនាំដើម)</item>
+        <item>ម៉ូណូ</item>
+        <item>ស្តេរ៉េអូ</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_channel_mode_titles">
+        <item>ប្រើការជ្រើសរើសប្រព័ន្ធ (លំនាំដើម)</item>
+        <item>ម៉ូណូ</item>
+        <item>ស្តេរ៉េអូ</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_ldac_playback_quality_summaries">
+        <item>បានធ្វើឲ្យប្រសើរសម្រាប់គុណភាពសំឡេង</item>
+        <item>គុណភាពសំឡេង និងការតភ្ជាប់ដែលមានតុល្យភាព</item>
+        <item>បានធ្វើឲ្យប្រសើរសម្រាប់គុណភាពការតភ្ជាប់</item>
+        <item>ការប្រឹងប្រែងល្អបំផុត (អត្រាប៊ីតដែលសម្រួល បាន)</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_ldac_playback_quality_titles">
+        <item>បានធ្វើឲ្យប្រសើរសម្រាប់គុណភាពសំឡេង (990 kbps/909kbps)</item>
+        <item>គុណភាពសំឡេង និងការតភ្ជាប់ដែលមានតុល្យភាព (660kbps/606kbps)</item>
+        <item>បានធ្វើឲ្យប្រសើរសម្រាប់គុណភាពការតភ្ជាប់ (330kbps/303kbps</item>
+        <item>ការប្រឹងប្រែងល្អបំផុត (អត្រាប៊ីតដែលសម្រួល បាន)</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_sample_rate_summaries">
+        <item>ប្រើការជ្រើសរើសប្រព័ន្ធ (លំនាំដើម)</item>
+        <item>44.1 kHz</item>
+        <item>48.0 kHz</item>
+        <item>88.2 kHz</item>
+        <item>96.0 kHz</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_sample_rate_titles">
+        <item>ប្រើការជ្រើសរើសប្រព័ន្ធ (លំនាំដើម)</item>
+        <item>44.1 kHz</item>
+        <item>48.0 kHz</item>
+        <item>88.2 kHz</item>
+        <item>96.0 kHz</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_summaries">
+        <item>ប្រើការជ្រើសរើសប្រព័ន្ធ (លំនាំដើម)</item>
+        <item>SBC</item>
+        <item>AAC</item>
+        <item>សំឡេង Qualcomm®aptX™</item>
+        <item>សំឡេង Qualcomm®aptX™ HD</item>
+        <item>LDAC</item>
+        <item>សំឡេង Qualcomm®aptX™ Adaptive</item>
+        <item>សំឡេង Qualcomm®aptX™ TWS+</item>
+        <item>បើកកូដិចជាជម្រើស</item>
+        <item>បិទកូដិចជាជម្រើស</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_titles">
+        <item>ប្រើការជ្រើសរើសប្រព័ន្ធ (លំនាំដើម)</item>
+        <item>SBC</item>
+        <item>AAC</item>
+        <item>សំឡេង Qualcomm®aptX™</item>
+        <item>សំឡេង Qualcomm®aptX™ HD</item>
+        <item>LDAC</item>
+        <item>សំឡេង Qualcomm®aptX™ Adaptive</item>
+        <item>សំឡេង Qualcomm®aptX™ TWS+</item>
+        <item>បើកកូដិចជាជម្រើស</item>
+        <item>បិទកូដិចជាជម្រើស</item>
+    </string-array>
+    <string-array name="bluetooth_audio_active_device_summaries">
+        <item></item>
+        <item>, សកម្ម</item>
+        <item>, សកម្ម (មេឌៀ)</item>
+        <item>, សកម្ម (ទូរសព្ទ)</item>
+    </string-array>
+    <string-array name="bluetooth_avrcp_version_values">
+        <item>avrcp14</item>
+        <item>avrcp13</item>
+        <item>avrcp15</item>
+        <item>avrcp16</item>
+    </string-array>
+    <string-array name="bluetooth_avrcp_versions">
+        <item>AVRCP 1.4 (លំនាំដើម)</item>
+        <item>AVRCP 1.3</item>
+        <item>AVRCP 1.5</item>
+        <item>AVRCP 1.6</item>
+    </string-array>
+    <string-array name="bt_hci_snoop_log_entries">
+        <item>បានបិទដំណើរការ</item>
+        <item>បានបើកការ ច្រោះ</item>
+        <item>បានបើកការច្រោះក្បាលទំព័រ</item>
+        <item>បានបើកការច្រោះកញ្ចប់មេឌៀ</item>
+        <item>បានបើកដំណើរការ</item>
+    </string-array>
+    <string-array name="clock_options">
+        <item>បង្ហាញម៉ោង នាទី និងវិនាទី</item>
+        <item>បង្ហាញម៉ោង និងនាទី (លំនាំដើម)</item>
+        <item>កុំបង្ហាញរូបតំណាងនេះ</item>
+    </string-array>
+    <string-array name="color_lunar_mounth">
+        <item>正月</item>
+        <item>二月</item>
+        <item>三月</item>
+        <item>四月</item>
+        <item>五月</item>
+        <item>六月</item>
+        <item>七月</item>
+        <item>八月</item>
+        <item>九月</item>
+        <item>十月</item>
+        <item>冬月</item>
+        <item>腊月</item>
+    </string-array>
+    <string-array name="color_mode_descriptions">
+        <item>ពណ៌ដែលត្រូវបានបង្កើន</item>
+        <item>ពណ៌ធម្មជាតិដូចដែលភ្នែកមើលឃើញ</item>
+        <item>ពណ៌ត្រូវបានបង្កើនសម្រាប់មាតិកាឌីជីថល</item>
+    </string-array>
+    <string-array name="color_mode_names">
+        <item>ដែលញ័រ (លំនាំដើម)</item>
+        <item>ធម្មជាតិ</item>
+        <item>ស្តង់ដារ</item>
+    </string-array>
+    <string-array name="color_solor_mounth">
+        <item>មករា</item>
+        <item>កុម្ភៈ</item>
+        <item>មីនា</item>
+        <item>មេសា</item>
+        <item>ឧសភា</item>
+        <item>មិថុនា</item>
+        <item>កក្កដា</item>
+        <item>សីហា</item>
+        <item>កញ្ញា</item>
+        <item>តុលា</item>
+        <item>វិច្ឆិកា</item>
+        <item>ធ្នូ</item>
+    </string-array>
+    <string-array name="debug_hw_overdraw_entries">
+        <item>បិទ</item>
+        <item>បង្ហាញតំបន់គូរលើស</item>
+        <item>បង្ហាញតំបន់សម្រាប់ Deuteranomaly</item>
+    </string-array>
+    <string-array name="enable_opengl_traces_entries">
+        <item>គ្មាន</item>
+        <item>Logcat</item>
+        <item>Systrace (ក្រាហ្វិក)</item>
+        <item>ហៅជាន់ពីលើ glGetError</item>
+    </string-array>
+    <string-array name="hdcp_checking_summaries">
+        <item>មិនដែលប្រើការពិនិត្យ HDCP</item>
+        <item>ប្រើការពិនិត្យ HDCP សម្រាប់មាតិកា DRM ប៉ុណ្ណោះ</item>
+        <item>ប្រើការពិនិត្យ HDCP ជានិច្ច</item>
+    </string-array>
+    <string-array name="hdcp_checking_titles">
+        <item>មិនដែលពិនិត្យ</item>
+        <item>ពិនិត្យរកមើលមាតិកា DRM ប៉ុណ្ណោះ</item>
+        <item>ពិនិត្យជានិច្ច</item>
+    </string-array>
+    <string-array name="nav_bar_layouts">
+        <item>ធម្មតា</item>
+        <item>បង្រួម</item>
+        <item>រក្សាទុកខាងឆ្វេង</item>
+        <item>រក្សាទុកខាងស្ដាំ</item>
+    </string-array>
+    <string-array name="oppo_time_picker_ampm">
+        <item>AM</item>
+        <item>PM</item>
+    </string-array>
+    <string-array name="overlay_display_devices_entries">
+        <item>គ្មាន</item>
+        <item>480p</item>
+        <item>480p (មានសុវត្ថិភាព)</item>
+        <item>720p</item>
+        <item>720p (មានសុវត្ថិភាព)</item>
+        <item>1080p</item>
+        <item>1080p (មានសុវត្ថិភាព)</item>
+        <item>4K</item>
+        <item>4K (មានសុវត្ថិភាព)</item>
+        <item>4K (បានបង្កើនគុណភាព)</item>
+        <item>4K (បានបង្កើនគុណភាព មានសុវត្ថិភាព)</item>
+        <item>720p, 1080p (អេក្រង់ពីរ)</item>
+    </string-array>
+    <string-array name="select_logd_size_lowram_titles">
+        <item>បិទ</item>
+        <item>64K</item>
+        <item>256K</item>
+        <item>1M</item>
+    </string-array>
+    <string-array name="select_logd_size_summaries">
+        <item>បិទ</item>
+        <item>64K ក្នុងមួយប៊ូហ្វើឡុក</item>
+        <item>256K ក្នុងមួយប៊ូហ្វើឡុក</item>
+        <item>1M ក្នុងមួយប៊ូហ្វើឡុក</item>
+        <item>4M ក្នុងមួយប៊ូហ្វើឡុក</item>
+        <item>16M ក្នុងមួយប៊ូហ្វើឡុក</item>
+    </string-array>
+    <string-array name="select_logd_size_titles">
+        <item>បិទ</item>
+        <item>64K</item>
+        <item>256K</item>
+        <item>1M</item>
+        <item>4M</item>
+        <item>16M</item>
+    </string-array>
+    <string-array name="select_logpersist_summaries">
+        <item>បិទ</item>
+        <item>ប៊ូហ្វើចូលប្រព័ន្ធទាំងអស់</item>
+        <item>ទាំងអស់ក្រៅពីប៊ូហ្វើកំណត់ហេតុ</item>
+        <item>តែប៊ូហ្វើកំណត់ហេតុខឺណេលប៉ុណ្ណោះ</item>
+    </string-array>
+    <string-array name="select_logpersist_titles">
+        <item>បិទ</item>
+        <item>ទាំងអស់</item>
+        <item>ទាំងអស់ក្រៅពីវិទ្យុ</item>
+        <item>តែខឺណេលប៉ុណ្ណោះ</item>
+    </string-array>
+    <string-array name="show_non_rect_clip_entries">
+        <item>បិទ</item>
+        <item>គូរតំបន់ឃ្លីបដែលមិនមែនជាចតុកោណនៅក្នុងពណ៌ខៀវ</item>
+        <item>រំលេចពាក្យបញ្ជាដែលបានគូរដោយសាកល្បងក្នុងពណ៌បៃតង</item>
+    </string-array>
+    <string-array name="track_frame_time_entries">
+        <item>បិទ</item>
+        <item>លើអេក្រង់ដូចជារបារ</item>
+        <item>ក្នុង adb shell dumpsys gfxinfo</item>
+    </string-array>
+    <string-array name="transition_animation_scale_entries">
+        <item>បិទជីវចលនា</item>
+        <item>មាត្រដ្ឋានជីវចលនា .5x</item>
+        <item>មាត្រដ្ឋានជីវចលនា .1x</item>
+        <item>មាត្រដ្ឋានជីវចលនា 1.5x</item>
+        <item>មាត្រដ្ឋានជីវចលនា 2x</item>
+        <item>មាត្រដ្ឋានជីវចលនា 5x</item>
+        <item>មាត្រដ្ឋានជីវចលនា 10x</item>
+    </string-array>
+    <string-array name="tts_rate_entries">
+        <item>យឺតណាស់</item>
+        <item>យឺត</item>
+        <item>ធម្មតា</item>
+        <item>លឿន</item>
+        <item>លឿនជាង</item>
+        <item>លឿនណាស់</item>
+        <item>រហ័ស</item>
+        <item>រហ័សណាស់</item>
+        <item>រហ័សបំផុត</item>
+    </string-array>
+    <string-array name="usb_configuration_titles">
+        <item>កំពុងសាកថ្ម</item>
+        <item>MTP (ប្រូតូកូលផ្ទេរមេឌៀ)</item>
+        <item>PTP (ប្រូតូកូលផ្ទេររូបភាព)</item>
+        <item>RNDIS (អ៊ីសឺរណិត USB)</item>
+        <item>ប្រភពសំឡេង</item>
+        <item>MIDI</item>
+    </string-array>
+    <string-array name="usb_type_select">
+        <item>បញ្ចូលថ្មតែប៉ុណ្ណោះ</item>
+        <item>ឯកសារផ្ទេរ</item>
+        <item>ផ្ទេររូបថត</item>
+    </string-array>
+    <string-array name="wifi_status">
+        <item></item>
+        <item>កំពុងស្កេន …</item>
+        <item>កំពុងភ្ជាប់…</item>
+        <item>កំពុងពិនិត្យផ្ទៀងផ្ទាត់…</item>
+        <item>កំពុងទទួលបានអាសយដ្ឋាន IP…</item>
+        <item>បានភ្ជាប់</item>
+        <item>បានពន្យាពេល</item>
+        <item>កំពុងផ្តាច់…</item>
+        <item>បានផ្តាច់</item>
+        <item>មិនជោគជ័យ</item>
+        <item>បានរាំងខ្ទប់</item>
+        <item>ចៀសវាងការភ្ជាប់ខ្សោយបណ្តោះអាសន្ន</item>
+    </string-array>
+    <string-array name="wifi_status_with_ssid">
+        <item></item>
+        <item>កំពុងស្កេន …</item>
+        <item>កំពុងភ្ជាប់ទៅ %1$s…</item>
+        <item>កំពុងធ្វើការពិនិត្យភាពត្រឹមត្រូវជាមួយ %1$s …</item>
+        <item>កំពុងទទួលបានអាសយដ្ឋាន IP ពី %1$s …</item>
+        <item>បានភ្ជាប់ទៅកាន់ %1$s</item>
+        <item>បានពន្យាពេល</item>
+        <item>កំពុងផ្តាច់ពី %1$s …</item>
+        <item>បានផ្តាច់</item>
+        <item>មិនជោគជ័យ</item>
+        <item>បានរាំងខ្ទប់</item>
+        <item>ចៀសវាងការភ្ជាប់ខ្សោយបណ្តោះអាសន្ន</item>
+    </string-array>
+    <string-array name="window_animation_scale_entries">
+        <item>បិទជីវចលនា</item>
+        <item>មាត្រដ្ឋានជីវចលនា .5x</item>
+        <item>មាត្រដ្ឋានជីវចលនា .1x</item>
+        <item>មាត្រដ្ឋានជីវចលនា 1.5x</item>
+        <item>មាត្រដ្ឋានជីវចលនា 2x</item>
+        <item>មាត្រដ្ឋានជីវចលនា 5x</item>
+        <item>មាត្រដ្ឋានជីវចលនា 10x</item>
+    </string-array>
+</resources>

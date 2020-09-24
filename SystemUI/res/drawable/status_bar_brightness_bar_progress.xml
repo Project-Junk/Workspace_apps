@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@android:id/progress">
+        <clip android:drawable="@drawable/status_bar_brightness_seek_bar_progress" />
+    </item>
+</layer-list>

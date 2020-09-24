@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/zen_mode_priority_settings_title" android:key="zen_mode_priority_settings"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto">
+    <com.coloros.settings.widget.preference.SettingSwitchPreference android:persistent="false" android:title="@string/zen_mode_reminders" android:key="reminders" />
+    <com.coloros.settings.widget.preference.SettingSwitchPreference android:persistent="false" android:title="@string/zen_mode_events" android:key="events" android:summary="@string/zen_mode_events_summary" />
+    <com.coloros.settings.feature.zenmode.OppoZenModeListPreference android:persistent="false" android:title="@string/zen_mode_messages" android:key="messages" />
+    <com.coloros.settings.feature.zenmode.OppoZenModeListPreference android:persistent="false" android:title="@string/zen_mode_calls" android:key="calls" />
+    <PreferenceCategory android:key="repeat_callers_category">
+        <com.coloros.settings.widget.preference.SettingSwitchPreference android:persistent="false" android:layout="@layout/color_preference" android:title="@string/zen_mode_repeat_callers" android:key="repeat_callers" />
+    </PreferenceCategory>
+</PreferenceScreen>

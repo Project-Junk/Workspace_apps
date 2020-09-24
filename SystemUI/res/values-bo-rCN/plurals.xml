@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="kg_password_default_pin_message_multi_sim">
+        <item quantity="other">སིམ་བྱང་བུ་ %1$d ཆེད་པིན་འཇུག་རོགས་གནང་། ལྷག་འཕྲོས་འབད་རྩོལ་ %2$d</item>
+        <item quantity="one">སིམ་བྱང་བུ་ %1$d ཆེད་པིན་འཇུག་རོགས་གནང་། ལྷག་འཕྲོས་འབད་རྩོལ་ %2$d གལ་ཏེ་དེ་ཡང་བསྐྱར་ནོར་བ་ཡིན་ན། སྒྲིག་ཆས་སྒོ་འབྱེད་བྱེད་པར་ཁྱེད་ཀྱིས་སྐྱེལ་འདྲེན་པ་ལ་འབྲེལ་གཏུག་བྱེད་དགོས་པ་ཡིན།</item>
+    </plurals>
+    <plurals name="kg_password_wrong_pin_code">
+        <item quantity="other">ནོར་བའི་ SIM PIN གྲངས། འཇུག་ཐེངས་ %d ལྷག་ཡོད།</item>
+        <item quantity="one">ནོར་བའི་ SIM PIN གྲངས། འཇུག་ཐེངས་ %d ལྷག་ཡོད། གལ་ཏེ་དེ་ཡང་བསྐྱར་ནོར་བ་ཡིན་ན། སྒྲིག་ཆས་སྒོ་འབྱེད་བྱེད་པར་ཁྱེད་ཀྱིས་སྐྱེལ་འདྲེན་པ་ལ་འབྲེལ་གཏུག་བྱེད་དགོས་པ་ཡིན།</item>
+    </plurals>
+    <plurals name="kg_password_wrong_pin_code_multi_sim">
+        <item quantity="other">སིམ་བྱང་བུ་ %1$d ཆེད་པིན་ནོར་བ། ལྷག་འཕྲོས་འབད་རྩོལ་ %2$d</item>
+        <item quantity="one">སིམ་བྱང་བུ་ %1$d ཆེད་པིན་ནོར་བ། ལྷག་འཕྲོས་འབད་རྩོལ་ %2$d གལ་ཏེ་དེ་ཡང་བསྐྱར་ནོར་བ་ཡིན་ན། སྒྲིག་ཆས་སྒོ་འབྱེད་བྱེད་པར་ཁྱེད་ཀྱིས་སྐྱེལ་འདྲེན་པ་ལ་འབྲེལ་གཏུག་བྱེད་དགོས་པ་ཡིན།</item>
+    </plurals>
+    <plurals name="kg_password_wrong_puk_code">
+        <item quantity="other">ནོར་བའི་ SIM PUK གྲངས། འཇུག་ཐེངས་ %d ལྷག་ཡོད། གལ་ཏེ་དེ་ཡང་བསྐྱར་ནོར་བ་ཡིན་ན། སིམ་དེ་གཏན་འཇགས་ངང་ནུས་མེད་ཆགས་པ་ཡིན།</item>
+        <item quantity="one">ནོར་བའི་SIM PUK གསང་གྲངས། འཇུག་ཐེངས་ %d ལྷག་ཡོད། གལ་ཏེ་དེ་ཡང་བསྐྱར་ནོར་བ་ཡིན་ན། སིམ་དེ་གཏན་འཇགས་ངང་ནུས་མེད་ཆགས་པ་ཡིན།</item>
+    </plurals>
+    <plurals name="kg_prompt_reason_time_password">
+        <item quantity="other">སྒྲིག་ཆས་དེ་ཚོུད་ %d རིང་སྒོ་བརྒྱབ། གསང་ཡིག་གཏན་འཁེལ་བྱེད་རོགས།</item>
+        <item quantity="one">སྒྲིག་ཆས་དེ་ཚོུད་ %d རིང་སྒོ་བརྒྱབ་འདུག གསང་ཡིག་གཏན་འཁེལ་བྱེད་རོགས།</item>
+    </plurals>
+    <plurals name="kg_prompt_reason_time_pattern">
+        <item quantity="other">སྒྲིག་ཆས་དེར་ཟྭ་བརྒྱབས་ནས་ཆུ་ཚོད་ %d འགོར། ཟྭ་འབྱེད་དཔེ་རིས་དེ་གཏན་འཁེལ་བྱེད་རོགས།</item>
+        <item quantity="one">སྒྲིག་ཆས་དེར་ཟྭ་བརྒྱབས་ནས་ཆུ་ཚོད་ %d འགོར། ཟྭ་འབྱེད་དཔེ་རིས་དེ་གཏན་འཁེལ་བྱེད་རོགས།</item>
+    </plurals>
+    <plurals name="kg_prompt_reason_time_pin">
+        <item quantity="other">སྒྲིག་ཆས་དེར་ཟྭ་བརྒྱབས་ནས་ཆུ་ཚོད་ %d འགོར། PIN གྲངས་དེ་གཏན་འཁེལ་བྱེད་རོགས།</item>
+        <item quantity="one">སྒྲིག་ཆས་དེར་ཟྭ་བརྒྱབས་ནས་ཆུ་ཚོད་ %d འགོར། PIN གྲངས་དེ་གཏན་འཁེལ་བྱེད་རོགས།</item>
+    </plurals>
+    <plurals name="kg_too_many_failed_attempts_countdown">
+        <item quantity="other">སྐར་ཆ་ %d རྗེས་ཡང་བསྐྱར་འབད་རྩོལ་གནང་རོགས།</item>
+        <item quantity="one">སྐར་ཆ་ 1 རྗེས་ཡང་བསྐྱར་འབད་རྩོལ་གནང་རོགས།</item>
+    </plurals>
+    <plurals name="notification_group_overflow_description">
+        <item quantity="other">སྡེ་ཚན་འདི་ནང་ད་དུང་བརྡ་ཐོ་ %s དག་འདུག</item>
+        <item quantity="one">སྡེ་ཚན་འདི་ནང་ད་དུང་བརྡ་ཐོ་ %s འདུག</item>
+    </plurals>
+    <plurals name="snoozeHourOptions">
+        <item quantity="other">ཆུ་ཚོད་ %d</item>
+        <item quantity="one">ཆུ་ཚོད། %d</item>
+    </plurals>
+    <plurals name="snoozeMinuteOptions">
+        <item quantity="other">སྐར་མ། %d</item>
+        <item quantity="one">སྐར་ %d</item>
+    </plurals>
+    <plurals name="wifi_tether_connected_summary">
+        <item quantity="other">%1$d སྒྲིག་ཆས་དག་ལ་སྦྲེལ་མེད།</item>
+        <item quantity="one">%1$d སྒྲིག་ཆས་ལ་སྦྲེལ་འདུག</item>
+    </plurals>
+</resources>

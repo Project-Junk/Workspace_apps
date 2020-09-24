@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/screen_pinning_title"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto">
+    <com.coloros.settings.widget.preference.SettingsColorPreferenceCategory settings:isFirstCategory="true" />
+    <com.coloros.settings.widget.preference.ColorRestrictedSwitchPreference android:layout="@layout/color_preference" android:title="@string/screen_pinning_title" android:key="screen_pinning_enable" settings:useAdminDisabledSummary="true" />
+    <com.coloros.settings.widget.preference.SettingSwitchPreference android:persistent="false" android:title="@string/screen_pinning_unlock_none" android:key="use_screen_lock" />
+    <PreferenceCategory />
+</PreferenceScreen>

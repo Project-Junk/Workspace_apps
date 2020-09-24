@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/notifycenter_and_statusbar" android:key="notifycenter_and_statusbar"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto">
+    <com.coloros.settings.widget.preference.SettingsColorPreferenceCategory android:title="@string/notification_bar_title" android:key="notification_title_category" settings:isFirstCategory="true">
+        <com.coloros.settings.widget.preference.SettingsSingleSelectListPreference android:entries="@array/slide_notification" android:layout="@layout/color_preference" android:title="@string/notification_slide_direction" android:key="slide_notification" android:entryValues="@array/slide_notification_value" />
+        <com.coloros.settings.widget.preference.ColorStatusBarEnablePreference android:persistent="false" android:layout="@layout/color_preference" android:title="@string/allow_status_bar_when_locked_title" android:key="status_bar_lock_set" />
+        <com.coloros.settings.widget.preference.SettingSwitchPreference android:persistent="false" android:layout="@layout/color_preference" android:title="@string/notification_bar_show_data_usage_info_top" android:key="show_data_usage_info" />
+    </com.coloros.settings.widget.preference.SettingsColorPreferenceCategory>
+    <com.coloros.settings.widget.preference.SettingsColorPreferenceCategory settings:isFirstCategory="true">
+        <com.coloros.settings.widget.preference.SettingColorJumpPreference android:persistent="false" android:layout="@layout/color_preference" android:title="@string/oppo_manage_notification" android:key="manage_notificaiton">
+            <intent android:targetPackage="com.coloros.notificationmanager" android:action="android.intent.action.MAIN" android:targetClass="com.coloros.notificationmanager.NotificationCenterActivity" />
+        </com.coloros.settings.widget.preference.SettingColorJumpPreference>
+    </com.coloros.settings.widget.preference.SettingsColorPreferenceCategory>
+    <com.coloros.settings.widget.preference.SettingsColorPreferenceCategory android:title="@string/statusbar_title" android:key="statusbar_category">
+        <com.coloros.settings.widget.preference.SettingSwitchPreference android:persistent="false" android:title="@string/show_power_level" android:key="show_power_level" />
+        <com.coloros.settings.widget.preference.SettingSwitchPreference android:persistent="false" android:title="@string/oppo_display_electricity_title" android:key="oppo_ring_power" android:summary="@string/oppo_display_electricity_des" settings:controller="com.coloros.settings.feature.notification.controller.RingPowerPreferenceController" />
+        <com.coloros.settings.widget.preference.SettingsSingleSelectListPreference android:entries="@array/battery_percentage_setting_arrys" android:layout="@layout/color_preference" android:title="@string/battery_percentage_setting_switch" android:key="show_realme_power_level" android:entryValues="@array/battery_percentage_setting_values" />
+        <com.coloros.settings.widget.preference.SettingSwitchPreference android:persistent="false" android:title="@string/show_network_speed" android:key="show_network_speed" />
+        <com.coloros.settings.widget.preference.SettingsSingleSelectListPreference android:entries="@array/notification_prompt_mode_entries" android:layout="@layout/color_preference" android:title="@string/oppo_notification_prompt_mode" android:key="key_notification_prompt_mode" android:entryValues="@array/notification_prompt_mode_values" />
+        <com.coloros.settings.widget.preference.SettingSwitchPreference android:persistent="false" android:layout="@layout/color_preference" android:title="@string/oppo_carrier_info" android:key="carrier_info_settings_show_single" />
+        <com.coloros.settings.widget.preference.SettingColorJumpPreference android:layout="@layout/color_preference" android:title="@string/oppo_carrier_info" android:key="carrier_info_settings_show_two" android:fragment="com.coloros.settings.feature.notification.ChooseShowCarrierNameFragment" />
+    </com.coloros.settings.widget.preference.SettingsColorPreferenceCategory>
+    <com.coloros.settings.widget.preference.SettingsColorPreferenceCategory android:title="@string/misc_usage_title" android:key="other_category">
+        <com.coloros.settings.widget.preference.SettingSwitchPreference android:persistent="false" android:title="@string/led_notification_title" android:key="led_notification" />
+        <com.coloros.settings.widget.preference.SettingSwitchPreference android:persistent="false" android:layout="@layout/color_preference" android:title="@string/notice_wake_up_title" android:key="notice_wake_up" android:summary="@string/notice_wake_up_summery" />
+    </com.coloros.settings.widget.preference.SettingsColorPreferenceCategory>
+    <com.coloros.settings.widget.preference.SettingsColorPreferenceCategory android:key="full_screen_simple_banner" settings:isFirstCategory="true">
+        <com.coloros.settings.widget.preference.SettingSwitchPreference android:persistent="false" android:title="@string/full_screen_simple_banner_title" android:key="full_screen_simple_banner_switch" android:summary="@string/full_screen_simple_banner_summary" />
+    </com.coloros.settings.widget.preference.SettingsColorPreferenceCategory>
+    <com.coloros.settings.widget.preference.SettingsColorPreferenceCategory />
+    <com.coloros.settings.widget.preference.ColorRecommendedPreference android:key="notification_status_bar_bottom_recommended" />
+</PreferenceScreen>

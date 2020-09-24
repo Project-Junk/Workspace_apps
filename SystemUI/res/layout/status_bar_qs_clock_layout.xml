@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:systemui="http://schemas.android.com/apk/res-auto">
+    <com.coloros.systemui.statusbar.widget.ColorClock android:textSize="@dimen/qs_color_clock_text_size" android:textColor="@color/status_bar_qs_expand_clock_color" android:gravity="center" android:id="@id/color_clock" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minHeight="@dimen/qs_color_clock_min_height" android:singleLine="true" android:includeFontPadding="false" systemui:amPmStyle="gone" systemui:isQSClock="true" systemui:showDark="false" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/global_clock_layout" android:focusable="true" android:visibility="gone" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layoutDirection="ltr">
+        <ImageView android:id="@id/clock_hour_1" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <ImageView android:id="@id/clock_hour_2" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <ImageView android:id="@id/clock_colon" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <ImageView android:id="@id/clock_min_1" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <ImageView android:id="@id/clock_min_2" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </LinearLayout>
+</LinearLayout>

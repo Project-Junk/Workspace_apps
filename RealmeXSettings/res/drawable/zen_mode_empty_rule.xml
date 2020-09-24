@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animated-vector android:drawable="@drawable/$zen_mode_empty_rule__0"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt">
+    <target android:name="_R_G_L_7_G_D_0_P_0" android:animation="@drawable/$zen_mode_empty_rule__1" />
+    <target android:name="_R_G_L_7_G_D_0_P_0" android:animation="@drawable/$zen_mode_empty_rule__2" />
+    <target android:name="_R_G_L_7_G_D_1_P_0" android:animation="@drawable/$zen_mode_empty_rule__3" />
+    <target android:name="_R_G_L_7_G_D_1_P_0" android:animation="@drawable/$zen_mode_empty_rule__4" />
+    <target android:name="_R_G_L_7_G_T_1" android:animation="@drawable/$zen_mode_empty_rule__5" />
+    <target android:name="_R_G_L_7_G_T_1" android:animation="@drawable/$zen_mode_empty_rule__6" />
+    <target android:name="_R_G_L_6_G_D_0_P_0" android:animation="@drawable/$zen_mode_empty_rule__7" />
+    <target android:name="_R_G_L_6_G_D_0_P_0" android:animation="@drawable/$zen_mode_empty_rule__8" />
+    <target android:name="_R_G_L_6_G_D_1_P_0" android:animation="@drawable/$zen_mode_empty_rule__9" />
+    <target android:name="_R_G_L_6_G_D_1_P_0" android:animation="@drawable/$zen_mode_empty_rule__10" />
+    <target android:name="_R_G_L_6_G_T_1" android:animation="@drawable/$zen_mode_empty_rule__11" />
+    <target android:name="_R_G_L_6_G_T_1" android:animation="@drawable/$zen_mode_empty_rule__12" />
+    <target android:name="_R_G_L_5_G_D_0_P_0" android:animation="@drawable/$zen_mode_empty_rule__13" />
+    <target android:name="_R_G_L_5_G_D_0_P_0" android:animation="@drawable/$zen_mode_empty_rule__14" />
+    <target android:name="_R_G_L_5_G_D_1_P_0" android:animation="@drawable/$zen_mode_empty_rule__15" />
+    <target android:name="_R_G_L_5_G_D_1_P_0" android:animation="@drawable/$zen_mode_empty_rule__16" />
+    <target android:name="_R_G_L_5_G_T_1" android:animation="@drawable/$zen_mode_empty_rule__17" />
+    <target android:name="_R_G_L_5_G_T_1" android:animation="@drawable/$zen_mode_empty_rule__18" />
+    <target android:name="_R_G_L_4_G_D_0_P_0" android:animation="@drawable/$zen_mode_empty_rule__19" />
+    <target android:name="_R_G_L_4_G_D_0_P_0" android:animation="@drawable/$zen_mode_empty_rule__20" />
+    <target android:name="_R_G_L_4_G_D_1_P_0" android:animation="@drawable/$zen_mode_empty_rule__21" />
+    <target android:name="_R_G_L_4_G_D_1_P_0" android:animation="@drawable/$zen_mode_empty_rule__22" />
+    <target android:name="_R_G_L_4_G_T_1" android:animation="@drawable/$zen_mode_empty_rule__23" />
+    <target android:name="_R_G_L_4_G_T_1" android:animation="@drawable/$zen_mode_empty_rule__24" />
+    <target android:name="_R_G_L_3_G" android:animation="@drawable/$zen_mode_empty_rule__25" />
+    <target android:name="_R_G_L_3_G_N_1_T_0" android:animation="@drawable/$zen_mode_empty_rule__26" />
+    <target android:name="_R_G_L_2_C_0" android:animation="@drawable/$zen_mode_empty_rule__27" />
+    <target android:name="_R_G_L_2_G_N_1_T_0" android:animation="@drawable/$zen_mode_empty_rule__28" />
+    <target android:name="_R_G_L_1_G" android:animation="@drawable/$zen_mode_empty_rule__29" />
+    <target android:name="_R_G_L_1_G_N_1_T_0" android:animation="@drawable/$zen_mode_empty_rule__30" />
+    <target android:name="_R_G_L_0_G_N_3_T_0" android:animation="@drawable/$zen_mode_empty_rule__31" />
+    <target android:name="_R_G_L_0_G_N_3_N_1_T_0" android:animation="@drawable/$zen_mode_empty_rule__32" />
+    <target android:name="time_group" android:animation="@drawable/$zen_mode_empty_rule__33" />
+</animated-vector>

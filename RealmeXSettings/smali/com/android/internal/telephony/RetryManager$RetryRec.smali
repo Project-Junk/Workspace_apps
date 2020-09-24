@@ -1,0 +1,37 @@
+.class Lcom/android/internal/telephony/RetryManager$RetryRec;
+.super Ljava/lang/Object;
+.source "RetryManager.java"
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lcom/android/internal/telephony/RetryManager;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x8
+    name = "RetryRec"
+.end annotation
+
+
+# instance fields
+.field mDelayTime:I
+
+.field mRandomizationTime:I
+
+
+# direct methods
+.method constructor <init>(II)V
+    .locals 0
+
+    .line 168
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    .line 169
+    iput p1, p0, Lcom/android/internal/telephony/RetryManager$RetryRec;->mDelayTime:I
+
+    .line 170
+    iput p2, p0, Lcom/android/internal/telephony/RetryManager$RetryRec;->mRandomizationTime:I
+
+    return-void
+.end method

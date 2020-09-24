@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="kg_password_default_pin_message_multi_sim">
+        <item quantity="other">Inserisci il PIN per la scheda SIM %1$d. %2$d Tentativi rimanenti.</item>
+        <item quantity="one">Inserisci il PIN per la scheda SIM %1$d. %2$d Tentativo rimanente. Se il PIN è di nuovo errato, devi contattare il gestore per sbloccare il dispositivo.</item>
+    </plurals>
+    <plurals name="kg_password_wrong_pin_code">
+        <item quantity="other">SIM PIN errato. %d tentativi restanti.</item>
+        <item quantity="one">PIN SIM errato. %d tentativo restante. Sarà necessario contattare il gestore telefonico per consentire di sbloccare il dispositivo se è nuovamente errato.</item>
+    </plurals>
+    <plurals name="kg_password_wrong_pin_code_multi_sim">
+        <item quantity="other">PIN errato per la scheda SIM %1$d. %2$dTentativi rimanenti.</item>
+        <item quantity="one">PIN errato per la scheda SIM %1$d. %2$d Tentativo rimanente. Se il PIN è di nuovo errato, devi contattare il gestore per sbloccare il dispositivo.</item>
+    </plurals>
+    <plurals name="kg_password_wrong_puk_code">
+        <item quantity="other">Codice PUK SIM errato. %d tentativi restanti. Se è nuovamente errato, le SIM verranno sbloccate definitivamente.</item>
+        <item quantity="one">Codice PUK SIM errato. %d tentativo restante. La SIM sarà disabilitata definitivamente se è ancora errato.</item>
+    </plurals>
+    <plurals name="kg_prompt_reason_time_password">
+        <item quantity="other">Il dispositivo è stato bloccato per %d ore. Conferma la password.</item>
+        <item quantity="one">Il dispositivo è stato bloccato per %d ora. Conferma la password.</item>
+    </plurals>
+    <plurals name="kg_prompt_reason_time_pattern">
+        <item quantity="other">Il dispositivo è stato bloccato per %d ore.-Conferma la sequenza di sblocco.</item>
+        <item quantity="one">Il dispositivo è stato bloccato per %d ora. Conferma la sequenza di sblocco.</item>
+    </plurals>
+    <plurals name="kg_prompt_reason_time_pin">
+        <item quantity="other">Il dispositivo è stato bloccato per %d ore. Conferma il PIN.</item>
+        <item quantity="one">Il dispositivo è stato bloccato per %d ora. Conferma il PIN.</item>
+    </plurals>
+    <plurals name="kg_too_many_failed_attempts_countdown">
+        <item quantity="other">Riprova dopo %dsecondi.</item>
+        <item quantity="one">Riprova dopo 1 secondo.</item>
+    </plurals>
+    <plurals name="notification_group_overflow_description">
+        <item quantity="other">Sono presenti ancora %s notifiche in questo gruppo.</item>
+        <item quantity="one">È presente ancora %s notifica in questo gruppo.</item>
+    </plurals>
+    <plurals name="snoozeHourOptions">
+        <item quantity="other">%d ore</item>
+        <item quantity="one">%d ora</item>
+    </plurals>
+    <plurals name="snoozeMinuteOptions">
+        <item quantity="other">%d minuti</item>
+        <item quantity="one">%d minuto</item>
+    </plurals>
+</resources>

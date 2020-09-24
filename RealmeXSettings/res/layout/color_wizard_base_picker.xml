@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:background="@color/white" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <color.support.v7.widget.Toolbar android:id="@id/toolbar" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <TextView android:textSize="24.0sp" android:textStyle="bold" android:textColor="@color/C20" android:id="@id/remind_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="30.0dip" android:text="@string/character_encoding" android:layout_below="@id/toolbar" android:layout_centerHorizontal="true" />
+    <FrameLayout android:id="@id/fragment_container" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="@dimen/wizard_bottom_divider" android:drawSelectorOnTop="false" android:layout_above="@id/set_next" android:layout_below="@id/toolbar" android:requiresFadingEdge="vertical" />
+    <Button android:id="@id/set_next" android:layout_width="fill_parent" android:layout_height="44.0dip" android:layout_marginTop="@dimen/go_on_margin_top" android:layout_marginBottom="16.0dip" android:text="@string/next" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" android:layout_marginStart="24.0dip" android:layout_marginEnd="24.0dip" style="?colorButtonColorfulDefaultStyle" />
+</RelativeLayout>

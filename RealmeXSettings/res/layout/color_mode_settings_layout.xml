@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:id="@id/main_layout" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.color.widget.ColorViewPager android:id="@id/preview_pager" android:layout_width="fill_parent" android:layout_height="270.0dip" />
+        <color.support.v7.widget.pageindicator.ColorPageIndicator android:id="@id/cpi_indicator" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:layout_marginBottom="10.0dip" android:layout_below="@id/preview_pager" android:layout_centerHorizontal="true" settings:dotColor="@color/settings_page_indicator_dot_color" settings:dotSize="6.0dip" settings:dotSpacing="3.0dip" />
+        <FrameLayout android:id="@android:id/list_container" android:paddingTop="@dimen/list_padding_top" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0" android:layout_below="@id/cpi_indicator" />
+    </RelativeLayout>
+    <include layout="@layout/color_appbar_layout" />
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

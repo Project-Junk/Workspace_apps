@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/wireless_networks_settings_title"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto">
+    <com.coloros.settings.widget.preference.ColorRestrictedSwitchPreference android:persistent="false" android:title="@string/airplane_mode" android:key="toggle_airplane" android:disableDependentsState="true" settings:controller="com.coloros.settings.feature.network.ColorAirplaneController" settings:userRestriction="no_airplane_mode" />
+    <com.coloros.settings.widget.preference.ColorRestrictedJumpPreference android:title="@string/wifi_settings_title" android:key="wifi_settings">
+        <intent android:targetPackage="com.coloros.wirelesssettings" android:action="android.settings.WIFI_SETTINGS" android:targetClass="com.coloros.wirelesssettings.OppoWirelessSettingsActivity" />
+    </com.coloros.settings.widget.preference.ColorRestrictedJumpPreference>
+    <com.coloros.settings.widget.preference.ColorRestrictedJumpPreference android:title="@string/tether_settings_title_all" android:key="tether_settings" settings:controller="com.coloros.settings.feature.network.ColorTetherController" settings:useAdminDisabledSummary="true" settings:userRestriction="no_config_tethering">
+        <intent android:targetPackage="com.coloros.wirelesssettings" android:action="android.settings.OPPO_TETHER_SETTINGS" android:targetClass="com.coloros.wirelesssettings.OppoWirelessSettingsActivity" />
+    </com.coloros.settings.widget.preference.ColorRestrictedJumpPreference>
+    <com.coloros.settings.widget.preference.ColorRestrictedJumpPreference android:title="@string/vpn_settings_title" android:key="vpn_settings" settings:controller="com.coloros.settings.feature.network.ColorVpnController" settings:useAdminDisabledSummary="true" settings:userRestriction="no_config_vpn">
+        <intent android:targetPackage="com.coloros.wirelesssettings" android:action="android.net.vpn.SETTINGS" android:targetClass="com.coloros.wirelesssettings.OppoWirelessSettingsActivity" />
+    </com.coloros.settings.widget.preference.ColorRestrictedJumpPreference>
+    <com.coloros.settings.widget.preference.ColorRestrictedSwitchPreference android:persistent="false" android:title="@string/nfc_quick_toggle_title" android:key="toggle_nfc" android:disableDependentsState="true" settings:controller="com.android.settings.nfc.NfcPreferenceController" />
+    <com.coloros.settings.widget.preference.ColorRestrictedJumpPreference android:title="@string/sim_and_network_settings" android:key="mobile_network_settings" android:dependency="toggle_airplane" settings:controller="com.coloros.settings.feature.network.ColorMobileController" settings:useAdminDisabledSummary="true" settings:userRestriction="no_config_mobile_networks" />
+    <PreferenceScreen android:title="@string/wimax_settings" android:key="wimax_settings" settings:controller="com.coloros.settings.feature.network.ColorWiMaxController">
+        <intent android:targetPackage="com.android.settings.wimax" android:action="android.intent.action.MAIN" android:targetClass="com.android.settings.wimax.WimaxSettings" />
+    </PreferenceScreen>
+    <com.coloros.settings.widget.preference.ColorRestrictedJumpPreference android:layout="@layout/color_preference" android:title="@string/reset_network_title" android:key="network_reset" android:fragment="com.android.settings.ResetNetwork" settings:controller="com.coloros.settings.feature.network.ColorWifiResetController" settings:keywords="@string/keywords_network_reset" settings:useAdminDisabledSummary="true" settings:userRestriction="no_network_reset" />
+</PreferenceScreen>

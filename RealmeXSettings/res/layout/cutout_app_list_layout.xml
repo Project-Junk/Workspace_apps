@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@id/main_layout" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <FrameLayout android:id="@android:id/list_container" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <RelativeLayout android:layout_gravity="center" android:id="@id/empty_container" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <ImageView android:id="@id/empty_image" android:layout_width="110.0dip" android:layout_height="110.0dip" android:src="@drawable/no_content_anim" android:layout_centerHorizontal="true" />
+            <TextView android:textSize="16.0sp" android:textColor="@color/settings_empty_text_color" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/no_applications" android:layout_below="@id/empty_image" android:layout_centerHorizontal="true" />
+            <View android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="48.0dip" android:layout_below="@id/textView" />
+        </RelativeLayout>
+        <include layout="@layout/loading_container" />
+        <FrameLayout android:gravity="center" android:layout_gravity="end" android:id="@id/touch_search_container" android:visibility="visible" android:layout_width="22.0dip" android:layout_height="fill_parent" android:layout_marginTop="0.0dip" android:layout_marginBottom="0.0dip" android:layout_marginEnd="7.0dip">
+            <com.oppo.support.widget.OppoTouchSearchView android:layout_gravity="center" android:id="@id/touch_search_view" android:layout_width="wrap_content" android:layout_height="469.0dip" settings:oppoFirstIsCharacter="true" />
+        </FrameLayout>
+    </FrameLayout>
+    <include layout="@layout/color_appbar_layout" />
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

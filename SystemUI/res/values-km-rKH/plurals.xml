@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="kg_password_default_pin_message_multi_sim">
+        <item quantity="other">សូមបញ្ចូលលេខ PIN សម្រាប់ស៊ីមកាត %1$d។ នៅសល់ការព្យាយាម %2$d ដងទៀត។</item>
+        <item quantity="one">សូមបញ្ចូលលេខ PIN សម្រាប់ស៊ីមកាត %1$d។ នៅសល់ការព្យាយាម %2$d ដងទៀត។ អ្នកនឹងចាំបាច់ត្រូវទាក់ទងក្រុមហ៊ុនផ្ដល់សេវាទូរស័ព្ទដើម្បីជួយដោះសោឧបករណ៍ ប្រសិនបើវាមិនត្រឹមត្រូវម្ដងទៀត។</item>
+    </plurals>
+    <plurals name="kg_password_wrong_pin_code">
+        <item quantity="other">PIN ស៊ីមមិនត្រឹមត្រូវ។ %d ការប៉ុនប៉ងដែលនៅសល់។</item>
+        <item quantity="one">PIN ស៊ីមមិនត្រឹមត្រូវ។ %d ការប៉ុនប៉ងដែលនៅសល់។ អ្នកនឹងត្រូវការទាក់ទងក្រុមហ៊ុនផ្ដល់សេវាទូរស័ព្ទដើម្បីជួយដោះសោឧបករណ៍ ប្រសិនបើវាមិនត្រឹមត្រូវម្ដងទៀត។</item>
+    </plurals>
+    <plurals name="kg_password_wrong_pin_code_multi_sim">
+        <item quantity="other">លេខ PIN មិនត្រឹមត្រូវសម្រាប់ស៊ីមកាត %1$d។ នៅសល់ការព្យាយាម %2$d ដងទៀត។</item>
+        <item quantity="one">លេខ PIN មិនត្រឹមត្រូវសម្រាប់ស៊ីមកាត %1$d។ នៅសល់ការព្យាយាម %2$d ដងទៀត។ អ្នកនឹងចាំបាច់ត្រូវទាក់ទងក្រុមហ៊ុនផ្ដល់សេវាទូរស័ព្ទដើម្បីជួយដោះសោឧបករណ៍ ប្រសិនបើវាមិនត្រឹមត្រូវម្ដងទៀត។</item>
+    </plurals>
+    <plurals name="kg_password_wrong_puk_code">
+        <item quantity="other">កូដ PUK ស៊ីមមិនត្រឹមត្រូវ។ %d ការប៉ុនប៉ងដែលនៅសល់។ SIMs នឹងត្រូវបិទជាអចិន្ត្រៃយ៍ ប្រសិនបើវាមិនត្រឹមត្រូវម្ដងទៀត។</item>
+        <item quantity="one">កូដ PUK ស៊ីមមិនត្រឹមត្រូវ។ %d ការប៉ុនប៉ងដែលនៅសល់។ SIM នឹងត្រូវបិទជាអចិន្ត្រៃយ៍ ប្រសិនបើវាមិនត្រឹមត្រូវម្ដងទៀត។</item>
+    </plurals>
+    <plurals name="kg_prompt_reason_time_password">
+        <item quantity="other">ឧបករណ៍ត្រូវបានចាក់សោអស់រយៈពេល %d ម៉ោង។ សូមបញ្ជាក់ពាក្យសម្ងាត់។</item>
+        <item quantity="one">ឧបករណ៍ត្រូវបានចាក់សោអស់រយៈពេល %d ម៉ោង។ សូមបញ្ជាក់ពាក្យសម្ងាត់។</item>
+    </plurals>
+    <plurals name="kg_prompt_reason_time_pattern">
+        <item quantity="other">ឧបករណ៍ត្រូវបានចាក់សោរយៈពេល %d ម៉ោង។ សូមបញ្ជាក់គំរូដោះសោ។</item>
+        <item quantity="one">ឧបករណ៍ត្រូវបានចាក់សោរយៈពេល %d ម៉ោង។ សូមបញ្ជាក់គំរូដោះសោ។</item>
+    </plurals>
+    <plurals name="kg_prompt_reason_time_pin">
+        <item quantity="other">ឧបករណ៍ត្រូវបានចាក់សោរយៈពេល %d ម៉ោង។ សូមបញ្ជាក់ PIN។</item>
+        <item quantity="one">ឧបករណ៍ត្រូវបានចាក់សោរយៈពេល %d ម៉ោង។ សូមបញ្ជាក់កូដសម្ងាត់។</item>
+    </plurals>
+    <plurals name="kg_too_many_failed_attempts_countdown">
+        <item quantity="other">សូមព្យាយាមម្ដងទៀត ក្រោយពី %d វិនាទី។</item>
+        <item quantity="one">សូមព្យាយាមម្ដងទៀត ក្រោយពី 1 វិនាទី។</item>
+    </plurals>
+    <plurals name="notification_group_overflow_description">
+        <item quantity="other">នៅតែមានការជូនដំណឹង %s នៅក្នុងក្រុមនេះ។</item>
+        <item quantity="one">នៅតែមានការជូនដំណឹង %s នៅក្នុងក្រុមនេះ។</item>
+    </plurals>
+    <plurals name="snoozeHourOptions">
+        <item quantity="other">%d ម៉</item>
+        <item quantity="one">%d ម៉</item>
+    </plurals>
+    <plurals name="snoozeMinuteOptions">
+        <item quantity="other">%d ន</item>
+        <item quantity="one">%d ន</item>
+    </plurals>
+    <plurals name="wifi_tether_connected_summary">
+        <item quantity="other">ឧបករណ៍ %1$d ត្រូវបានតភ្ជាប់</item>
+        <item quantity="one">ឧបករណ៍ %1$d ត្រូវបានតភ្ជាប់</item>
+    </plurals>
+</resources>

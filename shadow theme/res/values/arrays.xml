@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="ThemeChangelog">
+        <item>enable total dark youtube</item>
+        <item>enable total dark to whatsapp</item>
+        <item>enable total dark to QS Tiles</item>
+        <item>Fix: Internal theme crashing issue</item>
+        <item></item>
+    </string-array>
+</resources>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@drawable/color_group_list_selector_item" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@id/about_finger_recognition_title" android:text="@string/fingerprint_change_protective_film_tip" style="@style/OppoFaceAboutStyle" />
+</RelativeLayout>

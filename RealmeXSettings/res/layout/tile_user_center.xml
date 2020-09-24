@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="?android:selectableItemBackground" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:id="@id/dashboard_tile" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/dashboard_tile_minimum_height" android:layout_marginStart="@dimen/dashboard_tile_image_margin" android:layout_marginEnd="@dimen/dashboard_tile_image_margin"
+      xmlns:android="http://schemas.android.com/apk/res/android">
+        <ImageView android:layout_gravity="center" android:id="@android:id/icon" android:layout_width="36.0dip" android:layout_height="36.0dip" android:layout_marginTop="@dimen/user_tile_icon_margin_left" android:layout_marginBottom="@dimen/user_tile_icon_margin_left" android:src="@drawable/settings_usercenter_default_profile_ic" android:contentDescription="@null" android:layout_marginStart="@dimen/user_tile_icon_margin_left" android:layout_marginEnd="@dimen/user_tile_icon_margin_right" />
+        <LinearLayout android:orientation="vertical" android:paddingTop="11.0dip" android:paddingBottom="@dimen/M5" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" android:layout_marginStart="@dimen/M4" android:layout_marginEnd="@dimen/M4">
+            <TextView android:theme="@style/AppBaseTheme" android:textColor="#ff000000" android:id="@android:id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/usercenter_default_title_heytap" style="?android:textAppearanceLarge" />
+            <TextView android:theme="@style/AppBaseTheme" android:id="@android:id/summary" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/usercenter_summary_heytap" style="?android:textAppearanceSmall" />
+        </LinearLayout>
+        <ImageView android:id="@id/iv_tile_jump" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/color_btn_next" />
+    </LinearLayout>
+    <ImageView android:gravity="bottom" android:id="@id/color_divider" android:background="@null" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" android:contentDescription="@null" android:layout_marginStart="@dimen/M12" />
+</LinearLayout>

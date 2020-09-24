@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="apn_auth_entries">
+        <item>Xejn</item>
+        <item>PAP</item>
+        <item>CHAP</item>
+        <item>PAP jew CHAP</item>
+    </string-array>
+    <string-array name="apn_protocol_entries">
+        <item>IPv4</item>
+        <item>IPv6</item>
+        <item>IPv4/IPv6</item>
+    </string-array>
+    <string-array name="app_install_location_entries">
+        <item>Ħażna interna tal-apparat</item>
+        <item>SD card li tista’ titneħħa</item>
+        <item>Ħalli lis-sistema tiddeċiedi hi</item>
+    </string-array>
+    <string-array name="app_ops_categories">
+        <item>Post</item>
+        <item>Personali</item>
+        <item>SMS</item>
+        <item>Media</item>
+        <item>Apparat</item>
+    </string-array>
+    <string-array name="authentication_frequency_entries">
+        <item>Dejjem meħtieġ</item>
+        <item>Meħtieġ Wara 15-il Minuta</item>
+    </string-array>
+    <string-array name="automatic_storage_management_days">
+        <item>Aktar minn 30 Jum</item>
+        <item>Aktar minn 60 Jum</item>
+        <item>Aktar minn 90 Jum</item>
+    </string-array>
+    <string-array name="bearer_entries">
+        <item>Mhux speċifikat</item>
+        <item>LTE</item>
+        <item>HSPAP</item>
+        <item>HSPA</item>
+        <item>HSUPA</item>
+        <item>HSDPA</item>
+        <item>UMTS</item>
+        <item>EDGE</item>
+        <item>GPRS</item>
+        <item>eHRPD</item>
+        <item>EVDO_B</item>
+        <item>EVDO_A</item>
+        <item>EVDO_0</item>
+        <item>1xRTT</item>
+        <item>IS95B</item>
+        <item>IS95A</item>
+    </string-array>
+    <string-array name="bluetooth_visibility_timeout_entries">
+        <item>2 minuti</item>
+        <item>5 minuti</item>
+        <item>1 siegħa</item>
+        <item>Qatt ma jagħmel timeout</item>
+    </string-array>
+    <string-array name="captioning_edge_type_selector_titles">
+        <item>Default</item>
+        <item>Xejn</item>
+        <item>Outline</item>
+        <item>Drop Shadow</item>
+        <item>Imtella’</item>
+        <item>Imniżżel</item>
+    </string-array>
+    <string-array name="captioning_font_size_selector_titles">
+        <item>Żgħir Ħafna</item>
+        <item>Żgħir</item>
+        <item>Normali</item>
+        <item>Kbir</item>
+        <item>Enormi</item>
+    </string-array>
+    <string-array name="captioning_opacity_selector_titles">
+        <item>25%</item>
+        <item>50%</item>
+        <item>75%</item>
+        <item>100%</item>
+    </string-array>
+    <string-array name="captioning_preset_selector_titles">
+        <item>Uża l-App Defaults</item>
+        <item>Abjad fuq l-Iswed</item>
+        <item>Iswed fuq l-Abjad</item>
+        <item>Isfar fuq l-Iswed</item>
+        <item>Isfar fuq il-Blu</item>
+        <item>Ippersonalizzat</item>
+    </string-array>
+    <string-array name="captioning_typeface_selector_titles">
+        <item>Default</item>
+        <item>Sans-Serif</item>
+        <item>Sans-Serif condensed</item>
+        <item>Sans-Serif Monospace</item>
+        <item>Serif</item>
+        <item>Serif Monospace</item>
+        <item>Casual</item>
+        <item>Cursive</item>
+        <item>Small Capitals</item>
+    </string-array>
+    <string-array name="color_picker">
+        <item>Cyan</item>
+        <item>Blu</item>
+        <item>Indigo</item>
+        <item>Vjola</item>
+        <item>Roża</item>
+        <item>Aħmar</item>
+    </string-array>
+    <string-array name="data_usage_data_range">
+        <item>L-aħħar 30 jum</item>
+        <item>Issettja ċ-ċiklu tal-użu...</item>
+    </string-array>
+    <string-array name="default_volume_type">
+        <item>Volum tar-Ringtone</item>
+        <item>Volum tal-Media</item>
+    </string-array>
+    <string-array name="dream_timeout_entries">
+        <item>Qatt</item>
+        <item>15-il sekonda</item>
+        <item>30 sekonda</item>
+        <item>1 minuta</item>
+        <item>2 minuti</item>
+        <item>5 minuti</item>
+        <item>10 minuti</item>
+        <item>30 minuta</item>
+    </string-array>
+    <string-array name="entries_font_size">
+        <item>Żgħir</item>
+        <item>Default</item>
+        <item>Kbir</item>
+        <item>Massimu</item>
+    </string-array>
+    <string-array name="eq_preset_names">
+        <item>Mitfi</item>
+        <item>Pop</item>
+        <item>Rock</item>
+        <item>Country</item>
+        <item>Jazz</item>
+        <item>Klassika</item>
+        <item>Metal</item>
+        <item>Blues</item>
+        <item>Hip Hop</item>
+        <item>Dance</item>
+        <item>Electro</item>
+        <item>Ippersonalizzat</item>
+    </string-array>
+    <string-array name="format_type_entries">
+        <item>FAT32 (Default)</item>
+        <item>exFAT</item>
+    </string-array>
+    <string-array name="format_type_summarys">
+        <item>L-aktar tip ta’ sistema ta’ files użata fuq mobile storage devices</item>
+        <item>Tip ta’ sistema ta’ files imtejba, taċċetta files waħidhom permezz tal-4G, meta tikkonnettja ma’ PC jista’ jkollok bżonn tinstalla driver qabel</item>
+    </string-array>
+    <string-array name="incomming_call_type_name">
+        <item>Kuntatti VIP</item>
+        <item>Kuntatti Favoriti</item>
+        <item>Kuntatti Kollha</item>
+        <item>Telefonati Kollha</item>
+        <item>Xejn</item>
+    </string-array>
+    <string-array name="long_press_timeout_selector_titles">
+        <item>Qasir</item>
+        <item>Medju</item>
+        <item>Twil</item>
+    </string-array>
+    <string-array name="notification_prompt_mode_entries">
+        <item>"Ikona ta' Notifika"</item>
+        <item>"Għadd ta' Notifiki"</item>
+        <item>Ebda Prompt</item>
+    </string-array>
+    <string-array name="oppo_app_install_location_entries_removable_sd">
+        <item>Ħażna tas-sistema</item>
+        <item>Ħażna tat-telefon</item>
+        <item>Default tas-sistema</item>
+    </string-array>
+    <string-array name="oppo_app_install_location_entries_unremovable_sd">
+        <item>Spazju tas-sistema</item>
+        <item>Ħażna tat-telefon</item>
+        <item>Jiddependi mis-sistema</item>
+    </string-array>
+    <string-array name="presskey_backlight_timeout_entries">
+        <item>6s</item>
+        <item>Dejjem Mixgħul</item>
+        <item>Mitfi</item>
+    </string-array>
+    <string-array name="privacy_question_list">
+        <item>X’inhu l-isem ta’ wieħed mill-għalliema tiegħek?</item>
+        <item>X’jisimha ommok?</item>
+        <item>X’jismu missierek?</item>
+        <item>X’inhu l-isem tal-iskola post-sekondarja tiegħek?</item>
+        <item>X’inhu l-isem tar-restorant favorit tiegħek?</item>
+    </string-array>
+    <string-array name="proc_stats_memory_states">
+        <item>Normali</item>
+        <item>Moderat</item>
+        <item>Baxx</item>
+        <item>Kritiku</item>
+    </string-array>
+    <string-array name="ram_states">
+        <item>Normali</item>
+        <item>Moderat</item>
+        <item>Baxx</item>
+        <item>Baxx ħafna</item>
+        <item>mhux magħruf</item>
+    </string-array>
+    <string-array name="screen_timeout_entries">
+        <item>15-il sekonda</item>
+        <item>30 sekonda</item>
+        <item>1 Minuta</item>
+        <item>2 Minuti</item>
+        <item>5 Minuti</item>
+        <item>10 Minuti</item>
+        <item>30 Minuta</item>
+    </string-array>
+    <string-array name="security_settings_premium_sms_values">
+        <item>Staqsi</item>
+        <item>Tippermetti qatt</item>
+        <item>Ippermetti dejjem</item>
+    </string-array>
+    <string-array name="timezone_filters">
+        <item>Amerika</item>
+        <item>Ewropa</item>
+        <item>Afrika</item>
+        <item>Asja</item>
+        <item>Awstralja</item>
+        <item>Paċifiku</item>
+        <item>Kollha</item>
+    </string-array>
+    <string-array name="usage_stats_display_order_types">
+        <item>Ħin tal-użu</item>
+        <item>L-aħħar darba li ntuża</item>
+        <item>Isem tal-app</item>
+    </string-array>
+    <string-array name="vpn_states">
+        <item>Skonnettjat</item>
+        <item>Qed jibda...</item>
+        <item>Qed jikkonnettja...</item>
+        <item>Ikkonnettjat</item>
+        <item>Timeout</item>
+        <item>Ma rnexxiex</item>
+    </string-array>
+    <string-array name="vpn_types_long">
+        <item>PPTP VPN</item>
+        <item>L2TP/IPSec VPN bi pre-shared keys</item>
+        <item>L2TP/IPSec VPN biċ-ċertifikati</item>
+        <item>IPSec VPN bi pre-shared keys u awtentikazzjoni Xauth</item>
+        <item>IPSec VPN biċ-ċertifikati u awtentikazzjoni Xauth</item>
+        <item>IPSec VPN biċ-ċertifikati u awtentikazzjoni ibrida</item>
+    </string-array>
+    <string-array name="wifi_eap_entries">
+        <item>PEAP</item>
+        <item>TLS</item>
+        <item>TTLS</item>
+        <item>PWD</item>
+    </string-array>
+    <string-array name="wifi_ip_settings">
+        <item>DHCP</item>
+        <item>Statiku</item>
+    </string-array>
+    <string-array name="wifi_p2p_status">
+        <item>Ikkonnettjat</item>
+        <item>Mistieden</item>
+        <item>Ma rnexxiex</item>
+        <item>Disponibbli</item>
+        <item>Barra mill-medda</item>
+    </string-array>
+    <string-array name="wifi_peap_phase2_entries">
+        <item>Xejn</item>
+        <item>MSCHAPV2</item>
+        <item>GTC</item>
+    </string-array>
+    <string-array name="wifi_phase2_entries">
+        <item>Xejn</item>
+        <item>PAP</item>
+        <item>MSCHAP</item>
+        <item>MSCHAPV2</item>
+        <item>GTC</item>
+    </string-array>
+    <string-array name="wifi_proxy_settings">
+        <item>Xejn</item>
+        <item>Manwali</item>
+        <item>Proxy Auto-Config</item>
+    </string-array>
+</resources>

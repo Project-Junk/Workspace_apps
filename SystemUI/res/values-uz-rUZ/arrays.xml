@@ -1,0 +1,329 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="animator_duration_scale_entries">
+        <item>"Animatsiya o'ch."</item>
+        <item>Animatsiya masshtabi .5x</item>
+        <item>Animatsiya masshtabi 1x</item>
+        <item>Animatsiya masshtabi 1.5x</item>
+        <item>Animatsiya masshtabi 2x</item>
+        <item>Animatsiya masshtabi 5x</item>
+        <item>Animatsiya masshtabi 10x</item>
+    </string-array>
+    <string-array name="app_process_limit_entries">
+        <item>Standart limit</item>
+        <item>Orqa fonda hech narsa ishlamayapti</item>
+        <item>"Ko'pi bilan 1 jarayon"</item>
+        <item>"Ko'pi bilan 2 jarayon"</item>
+        <item>"Ko'pi bilan 3 jarayon"</item>
+        <item>"Ko'pi bilan 4 jarayon"</item>
+    </string-array>
+    <string-array name="battery_labels">
+        <item>0%</item>
+        <item>50%</item>
+        <item>100%</item>
+    </string-array>
+    <string-array name="battery_options">
+        <item>Doim foizda ko‘rsatilsin</item>
+        <item>Quvvatlanayotganda batareya quvvatini foizda ko‘rsatish (birlamchi)</item>
+        <item>Bu ikonka ko‘rsatilmasin</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_bits_per_sample_summaries">
+        <item>Tizim tanlovidan foydalanish (odatiy)</item>
+        <item>16 bit/sample</item>
+        <item>24 bit/sample</item>
+        <item>32 bit/sample</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_bits_per_sample_titles">
+        <item>Tizim tanlovidan foydalanish (odatiy)</item>
+        <item>16 bit/sample</item>
+        <item>24 bit/sample</item>
+        <item>32 bit/sample</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_channel_mode_summaries">
+        <item>Tizim tanlovidan foydalanish (odatiy)</item>
+        <item>Mono</item>
+        <item>Stereo</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_channel_mode_titles">
+        <item>Tizim tanlovidan foydalanish (odatiy)</item>
+        <item>Mono</item>
+        <item>Stereo</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_ldac_playback_quality_summaries">
+        <item>Ovoz sifatini optimallash</item>
+        <item>Ovoz va ulanish sifati balansi</item>
+        <item>Ulanish tezligini optimallash</item>
+        <item>Eng yaxshi natija (moslashuvchan bitreyt)</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_ldac_playback_quality_titles">
+        <item>Ovoz sifatini optimallash (990/909 kbit/s)</item>
+        <item>Ovoz va ulanish sifati balansi (660/606 kbit/s)</item>
+        <item>Ulanish tezligini optimallash (330/303 kbit/s)</item>
+        <item>Eng yaxshi natija (moslashuvchan bitreyt)</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_sample_rate_summaries">
+        <item>Tizim tanlovidan foydalanish (odatiy)</item>
+        <item>44,1 kGs</item>
+        <item>48,0 kGs</item>
+        <item>88,2 kGs</item>
+        <item>96,0 kGs</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_sample_rate_titles">
+        <item>Tizim tanlovidan foydalanish (odatiy)</item>
+        <item>44,1 kGs</item>
+        <item>48,0 kGs</item>
+        <item>88,2 kGs</item>
+        <item>96,0 kGs</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_summaries">
+        <item>Tizim tanlovidan foydalanish (odatiy)</item>
+        <item>SBC</item>
+        <item>AAC</item>
+        <item>Qualcomm®aptX™ audio</item>
+        <item>Qualcomm®aptX™ HD audio</item>
+        <item>LDAC</item>
+        <item>Qualcomm®aptX™ Adaptive audio</item>
+        <item>Qualcomm®aptX™ TWS+ audio</item>
+        <item>Boshqa kodeklarni yoqish</item>
+        <item>Boshqa kodeklarni faolsizlantirish</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_titles">
+        <item>Tizim tanlovidan foydalanish (odatiy)</item>
+        <item>SBC</item>
+        <item>AAC</item>
+        <item>Qualcomm®aptX™ audio</item>
+        <item>Qualcomm®aptX™ HD audio</item>
+        <item>LDAC</item>
+        <item>Qualcomm®aptX™ Adaptive audio</item>
+        <item>Qualcomm®aptX™ TWS+ audio</item>
+        <item>Boshqa kodeklarni yoqish</item>
+        <item>Boshqa kodeklarni faolsizlantirish</item>
+    </string-array>
+    <string-array name="bluetooth_audio_active_device_summaries">
+        <item></item>
+        <item>, faol</item>
+        <item>, faol (media)</item>
+        <item>, faol (telefon)</item>
+    </string-array>
+    <string-array name="bluetooth_avrcp_version_values">
+        <item>avrcp14</item>
+        <item>avrcp13</item>
+        <item>avrcp15</item>
+        <item>avrcp16</item>
+    </string-array>
+    <string-array name="bluetooth_avrcp_versions">
+        <item>AVRCP 1.4 (odatiy)</item>
+        <item>AVRCP 1.3</item>
+        <item>AVRCP 1.5</item>
+        <item>AVRCP 1.6</item>
+    </string-array>
+    <string-array name="bt_hci_snoop_log_entries">
+        <item>Nofaol</item>
+        <item>Yoqilganlar filtrlandi</item>
+        <item>Yoqilgan sarlavhalar filtrlandi</item>
+        <item>Yoqilgan multimedia qurilmalar filtrlandi</item>
+        <item>Yoqilgan</item>
+    </string-array>
+    <string-array name="clock_options">
+        <item>Soat, daqiqa va soniyalarni ko‘rsatish</item>
+        <item>Soat va daqiqalarni ko‘rsatish (birlamchi)</item>
+        <item>Bu ikonka ko‘rsatilmasin</item>
+    </string-array>
+    <string-array name="color_lunar_mounth">
+        <item>正月</item>
+        <item>二月</item>
+        <item>三月</item>
+        <item>四月</item>
+        <item>五月</item>
+        <item>六月</item>
+        <item>七月</item>
+        <item>八月</item>
+        <item>九月</item>
+        <item>十月</item>
+        <item>冬月</item>
+        <item>腊月</item>
+    </string-array>
+    <string-array name="color_mode_descriptions">
+        <item>Kengaytirilgan ranglar</item>
+        <item>Koʻz bilan koʻrilgandagi kabi tabiiy ranglar</item>
+        <item>Raqamli kontent uchun optimallangan ranglar</item>
+    </string-array>
+    <string-array name="color_mode_names">
+        <item>Yorqin (odatiy)</item>
+        <item>Tabiiy</item>
+        <item>Standart</item>
+    </string-array>
+    <string-array name="color_solor_mounth">
+        <item>Yanvar</item>
+        <item>Fevral</item>
+        <item>Mart</item>
+        <item>Aprel</item>
+        <item>May</item>
+        <item>Iyun</item>
+        <item>Iyul</item>
+        <item>Avgust</item>
+        <item>Sentabr</item>
+        <item>Oktabr</item>
+        <item>Noyabr</item>
+        <item>Dekabr</item>
+    </string-array>
+    <string-array name="debug_hw_overdraw_entries">
+        <item>Yoqilmagan</item>
+        <item>"Chegaradan oshgan hududlarni ko'rsatish"</item>
+        <item>"Deyteranomaliya uchun hududlarni ko'rsatish"</item>
+    </string-array>
+    <string-array name="enable_opengl_traces_entries">
+        <item>Hech qanday</item>
+        <item>Logcat</item>
+        <item>Systrace (Grafika)</item>
+        <item>"glGetError da qo'ng'iroqlar steki"</item>
+    </string-array>
+    <string-array name="hdcp_checking_summaries">
+        <item>HDCP tekshirishdan hech qachon foydalanmaslik</item>
+        <item>Faqat DRM kontent uchun HDCP tekshirishdan foydalanish</item>
+        <item>Doim HDCP tekshirishdan foydalanish</item>
+    </string-array>
+    <string-array name="hdcp_checking_titles">
+        <item>Hech qachon tekshirilmasin</item>
+        <item>Faqat DRM kontent borligini tekshirish</item>
+        <item>Doim tekshirish</item>
+    </string-array>
+    <string-array name="nav_bar_layouts">
+        <item>Odatiy</item>
+        <item>Qulay</item>
+        <item>Chapda qoldirish</item>
+        <item>O‘ngda qoldirish</item>
+    </string-array>
+    <string-array name="oppo_time_picker_ampm">
+        <item>AM</item>
+        <item>PM</item>
+    </string-array>
+    <string-array name="overlay_display_devices_entries">
+        <item>Hech qanday</item>
+        <item>480p</item>
+        <item>480p (xavfsiz)</item>
+        <item>720p</item>
+        <item>720p (xavfsiz)</item>
+        <item>1080p</item>
+        <item>1080p (xavfsiz)</item>
+        <item>4K</item>
+        <item>4K (xavfsiz)</item>
+        <item>4K (masshtablangan)</item>
+        <item>4K (masshtablangan, xavfsiz)</item>
+        <item>720p, 1080p (qo‘sh ekran)</item>
+    </string-array>
+    <string-array name="select_logd_size_lowram_titles">
+        <item>Yoqilmagan</item>
+        <item>64K</item>
+        <item>256K</item>
+        <item>1M</item>
+    </string-array>
+    <string-array name="select_logd_size_summaries">
+        <item>Yoqilmagan</item>
+        <item>Har jurnal buferiga 64K</item>
+        <item>Har jurnal buferiga 256K</item>
+        <item>Har jurnal buferiga 1M</item>
+        <item>Har jurnal buferiga 4M</item>
+        <item>Har jurnal buferiga 16M</item>
+    </string-array>
+    <string-array name="select_logd_size_titles">
+        <item>Yoqilmagan</item>
+        <item>64K</item>
+        <item>256K</item>
+        <item>1M</item>
+        <item>4M</item>
+        <item>16M</item>
+    </string-array>
+    <string-array name="select_logpersist_summaries">
+        <item>Yoqilmagan</item>
+        <item>Barcha jurnallar buferlari</item>
+        <item>Radiomodullar jurnallaridan tashqari barcha jurnallar buferlari</item>
+        <item>Faqat yadro jurnali buferi</item>
+    </string-array>
+    <string-array name="select_logpersist_titles">
+        <item>Yoqilmagan</item>
+        <item>Hammasi</item>
+        <item>Radiomodullardan tashqari hammasi</item>
+        <item>faqat yadro</item>
+    </string-array>
+    <string-array name="show_non_rect_clip_entries">
+        <item>Yoqilmagan</item>
+        <item>"To'g'ri burchakli bo'lmagan kesish sohasini ko'k bilan chizish"</item>
+        <item>Sinalgan chizish buyruqlarini yashil bilan ajratish</item>
+    </string-array>
+    <string-array name="track_frame_time_entries">
+        <item>Yoqilmagan</item>
+        <item>"Ekranda shkalalar ko'rinishida"</item>
+        <item>adb shell dumpsys gfxinfo ichida</item>
+    </string-array>
+    <string-array name="transition_animation_scale_entries">
+        <item>"Animatsiya o'ch."</item>
+        <item>Animatsiya masshtabi .5x</item>
+        <item>Animatsiya masshtabi 1x</item>
+        <item>Animatsiya masshtabi 1.5x</item>
+        <item>Animatsiya masshtabi 2x</item>
+        <item>Animatsiya masshtabi 5x</item>
+        <item>Animatsiya masshtabi 10x</item>
+    </string-array>
+    <string-array name="tts_rate_entries">
+        <item>Juda sekin</item>
+        <item>Sekin</item>
+        <item>Odatiy</item>
+        <item>Tez</item>
+        <item>Tezroq</item>
+        <item>Juda tez</item>
+        <item>Tez</item>
+        <item>Juda tez</item>
+        <item>Eng tez</item>
+    </string-array>
+    <string-array name="usb_configuration_titles">
+        <item>Quvvatlanmoqda</item>
+        <item>MTP (Multimedia o‘tkazish protokoli)</item>
+        <item>PTP (Rasm o‘tkazish protokoli)</item>
+        <item>RNDIS (USB Ethernet)</item>
+        <item>Audio manba</item>
+        <item>MIDI</item>
+    </string-array>
+    <string-array name="usb_type_select">
+        <item>Faqat quvvatlash</item>
+        <item>Fayllarni uzatish</item>
+        <item>Fotosuratlarni uzatish</item>
+    </string-array>
+    <string-array name="wifi_status">
+        <item></item>
+        <item>Tekshirilmoqda…</item>
+        <item>Ulanmoqda…</item>
+        <item>Autentifikatsiyalanmoqda…</item>
+        <item>IP-manzil olinmoqda…</item>
+        <item>Ulandi</item>
+        <item>"To'xtatildi"</item>
+        <item>Aloqa uzilmoqda…</item>
+        <item>Aloqa uzildi</item>
+        <item>Muvaffaqiyatsiz</item>
+        <item>Bloklangan</item>
+        <item>Aloqa sifati yomonligi tufayli vaqtincha faolsizlantirilgan</item>
+    </string-array>
+    <string-array name="wifi_status_with_ssid">
+        <item></item>
+        <item>Tekshirilmoqda…</item>
+        <item>%1$s nomli tarmoqqa ulanilmoqda…</item>
+        <item>%1$s bilan autentifikatsiyalanmoqda …</item>
+        <item>%1$s dan IP-manzil olinmoqda …</item>
+        <item>%1$s ga ulandi</item>
+        <item>"To'xtatildi"</item>
+        <item>%1$s dan uzilmoqda …</item>
+        <item>Aloqa uzildi</item>
+        <item>Muvaffaqiyatsiz</item>
+        <item>Bloklangan</item>
+        <item>Aloqa sifati yomonligi tufayli vaqtincha faolsizlantirilgan</item>
+    </string-array>
+    <string-array name="window_animation_scale_entries">
+        <item>Animatsiyasiz</item>
+        <item>Animatsiya masshtabi .5x</item>
+        <item>Animatsiya masshtabi 1x</item>
+        <item>Animatsiya masshtabi 1.5x</item>
+        <item>Animatsiya masshtabi 2x</item>
+        <item>Animatsiya masshtabi 5x</item>
+        <item>Animatsiya masshtabi 10x</item>
+    </string-array>
+</resources>

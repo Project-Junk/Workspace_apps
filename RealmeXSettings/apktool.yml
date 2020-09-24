@@ -1,0 +1,131 @@
+!!brut.androlib.meta.MetaInfo
+apkFileName: Settings.apk
+compressionType: false
+doNotCompress:
+- classes.dex
+- resources.arsc
+- assets/app_sdcard_dir
+- png
+- jpg
+- res/drawable-nodpi-v4/osie_000.webp
+- res/drawable-nodpi-v4/osie_001.webp
+- res/drawable-nodpi-v4/osie_002.webp
+- res/drawable-nodpi-v4/osie_003.webp
+- res/drawable-nodpi-v4/osie_004.webp
+- res/drawable-nodpi-v4/osie_005.webp
+- res/drawable-nodpi-v4/osie_006.webp
+- res/drawable-nodpi-v4/osie_007.webp
+- res/drawable-nodpi-v4/osie_008.webp
+- res/drawable-nodpi-v4/osie_009.webp
+- res/drawable-nodpi-v4/osie_010.webp
+- res/drawable-nodpi-v4/osie_011.webp
+- res/drawable-nodpi-v4/osie_012.webp
+- res/drawable-nodpi-v4/osie_013.webp
+- res/drawable-nodpi-v4/osie_014.webp
+- res/drawable-nodpi-v4/osie_015.webp
+- res/drawable-nodpi-v4/osie_016.webp
+- res/drawable-nodpi-v4/osie_017.webp
+- res/drawable-nodpi-v4/osie_018.webp
+- res/drawable-nodpi-v4/osie_019.webp
+- res/drawable-nodpi-v4/osie_020.webp
+- res/drawable-nodpi-v4/osie_021.webp
+- res/drawable-nodpi-v4/osie_022.webp
+- res/drawable-nodpi-v4/osie_023.webp
+- res/drawable-nodpi-v4/osie_024.webp
+- res/drawable-nodpi-v4/osie_025.webp
+- res/drawable-nodpi-v4/osie_026.webp
+- res/drawable-nodpi-v4/osie_027.webp
+- res/drawable-nodpi-v4/osie_028.webp
+- res/drawable-nodpi-v4/osie_029.webp
+- res/drawable-nodpi-v4/osie_030.webp
+- res/drawable-xhdpi-v4/color_mode_object.webp
+- res/drawable-xhdpi-v4/color_mode_persion.webp
+- res/drawable-xhdpi-v4/color_mode_view.webp
+- res/drawable-xxhdpi-v4/color_mode_object.webp
+- res/drawable-xxhdpi-v4/color_mode_persion.webp
+- res/drawable-xxhdpi-v4/color_mode_view.webp
+- res/drawable-xxxhdpi-v4/color_mode_object.webp
+- res/drawable-xxxhdpi-v4/color_mode_persion.webp
+- res/drawable-xxxhdpi-v4/color_mode_view.webp
+- res/drawable-zh-rCN-xhdpi-v4/curved_preview_display_notification_bg.webp
+- res/drawable-zh-rCN-xhdpi-v4/curved_preview_display_notification_blue.webp
+- res/drawable-zh-rCN-xhdpi-v4/curved_preview_display_notification_orange.webp
+- res/drawable-zh-rCN-xhdpi-v4/curved_preview_display_notification_red.webp
+- res/drawable-zh-rCN-xxhdpi-v4/curved_preview_display_notification_bg.webp
+- res/drawable-zh-rCN-xxhdpi-v4/curved_preview_display_notification_blue.webp
+- res/drawable-zh-rCN-xxhdpi-v4/curved_preview_display_notification_orange.webp
+- res/drawable-zh-rCN-xxhdpi-v4/curved_preview_display_notification_red.webp
+- res/drawable-zh-rCN-xxxhdpi-v4/curved_preview_display_notification_bg.webp
+- res/drawable-zh-rCN-xxxhdpi-v4/curved_preview_display_notification_blue.webp
+- res/drawable-zh-rCN-xxxhdpi-v4/curved_preview_display_notification_orange.webp
+- res/drawable-zh-rCN-xxxhdpi-v4/curved_preview_display_notification_red.webp
+- mp4
+- ogg
+isFrameworkApk: false
+packageInfo:
+  forcedPackageId: '127'
+  renameManifestPackage: null
+sdkInfo:
+  minSdkVersion: '26'
+  targetSdkVersion: '29'
+sharedLibrary: false
+sparseResources: false
+unknownFiles:
+  com/android/settings/EventLogTags.logtags: '8'
+  com/android/settings/accessibility/OWNERS: '8'
+  com/android/settings/applications/specialaccess/zenaccess/OWNERS: '8'
+  com/android/settings/backup/OWNERS: '8'
+  com/android/settings/biometrics/OWNERS: '8'
+  com/android/settings/bluetooth/OWNERS: '8'
+  com/android/settings/connecteddevice/usb/OWNERS: '8'
+  com/android/settings/datetime/timezone/OWNERS: '8'
+  com/android/settings/development/OWNERS: '8'
+  com/android/settings/enterprise/OWNERS: '8'
+  com/android/settings/fuelgauge/OWNERS: '8'
+  com/android/settings/inputmethod/OWNERS: '8'
+  com/android/settings/location/OWNERS: '8'
+  com/android/settings/nfc/OWNERS: '8'
+  com/android/settings/notification/OWNERS: '8'
+  com/android/settings/password/OWNERS: '8'
+  com/android/settings/security/OWNERS: '8'
+  com/android/settings/tts/OWNERS: '8'
+  com/android/settings/users/OWNERS: '8'
+  com/android/settings/vpn2/OWNERS: '8'
+  com/android/settings/wifi/OWNERS: '8'
+  com/android/settingslib/bluetooth/OWNERS: '8'
+  com/android/settingslib/fuelgauge/Estimate.kt: '8'
+  com/android/settingslib/graph/ThemedBatteryDrawable.kt: '8'
+  com/android/settingslib/inputmethod/OWNERS: '8'
+  com/android/settingslib/wifi/OWNERS: '8'
+  com/coloros/aidl/CityInfo.aidl: '8'
+  com/coloros/aidl/ICityActionListener.aidl: '8'
+  com/coloros/clear/aidl/service/ICleardroidScan.aidl: '8'
+  com/coloros/clear/aidl/service/ISafeCleaner.aidl: '8'
+  com/coloros/weather/app/aidl/IUpdateWeatherListener.aidl: '8'
+  com/coloros/weather/app/aidl/IWeatherAppService.aidl: '8'
+  com/oppo/multimedia/dirac/service/IDiracServiceCallback.aidl: '8'
+  com/oppo/multimedia/dirac/service/IOppoDiracService.aidl: '8'
+  com/oppo/multimedia/dolby/service/IDolbyServiceCallback.aidl: '8'
+  com/oppo/multimedia/dolby/service/IOppoDolbyService.aidl: '8'
+  google/protobuf/any.proto: '8'
+  google/protobuf/api.proto: '8'
+  google/protobuf/descriptor.proto: '8'
+  google/protobuf/duration.proto: '8'
+  google/protobuf/empty.proto: '8'
+  google/protobuf/field_mask.proto: '8'
+  google/protobuf/source_context.proto: '8'
+  google/protobuf/struct.proto: '8'
+  google/protobuf/timestamp.proto: '8'
+  google/protobuf/type.proto: '8'
+  google/protobuf/wrappers.proto: '8'
+  google/protobuf/compiler/plugin.proto: '8'
+  okhttp3/internal/publicsuffix/publicsuffixes.gz: '8'
+usesFramework:
+  ids:
+  - 1
+  - 12
+  tag: null
+version: 2.4.1
+versionInfo:
+  versionCode: '7000002'
+  versionName: 7.0.2

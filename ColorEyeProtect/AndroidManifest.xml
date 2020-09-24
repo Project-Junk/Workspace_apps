@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?><manifest xmlns:android="http://schemas.android.com/apk/res/android" android:compileSdkVersion="29" android:compileSdkVersionCodename="10" android:sharedUserId="android.uid.system" package="com.color.eyeprotect" platformBuildVersionCode="1" platformBuildVersionName="1.0">
+    <permission android:name="com.color.eyeprotect.USER_CHANGE_SAFE" android:protectionLevel="signatureOrSystem"/>
+    <uses-permission android:name="com.color.eyeprotect.USER_CHANGE_SAFE"/>
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
+    <uses-permission android:name="android.permission.READ_SETTINGS"/>
+    <uses-permission android:name="android.permission.WRITE_SETTINGS"/>
+    <uses-permission android:name="android.permission.CONTROL_DISPLAY_BRIGHTNESS"/>
+    <uses-permission android:name="android.permission.WRITE_MEDIA_STORAGE"/>
+    <uses-permission android:name="android.permission.SUBSTITUTE_NOTIFICATION_APP_NAME"/>
+    <application android:allowBackup="false" android:appComponentFactory="androidx.core.app.CoreComponentFactory" android:directBootAware="true" android:icon="@drawable/ic_launcher_eyeprotect" android:label="@string/protect_eyes_mode" android:name="com.color.eyeprotect.ColorEyeProtectApp" android:persistent="true" android:requestLegacyExternalStorage="true" android:supportsRtl="true">
+        <meta-data android:name="color.support.options" android:value="@string/color_support_value"/>
+        <uses-library android:name="com.coloros.statistics" android:required="false"/>
+        <meta-data android:name="versionCommit" android:value="_97eec14"/>
+        <meta-data android:name="versionDate" android:value="191220"/>
+        <meta-data android:name="AppCode" android:value="20130"/>
+        <meta-data android:name="theme_version_metadata" android:value="700.001.000"/>
+        <service android:directBootAware="true" android:name="com.color.eyeprotect.services.ColorEyeProtectManagerService"/>
+        <activity android:label="@string/dark_mode" android:name="com.color.darkmode.ui.activity.DarkModeSettingActivity" android:screenOrientation="portrait" android:theme="@style/AppCommonTheme.PreferenceFragment.Common" android:uiOptions="splitActionBarWhenNarrow">
+            <intent-filter>
+                <action android:name="com.color.darkmode.settings"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:name="com.color.eyeprotect.ui.activity.ProtectEyesActivity" android:screenOrientation="portrait" android:theme="@style/AppCommonTheme.PreferenceFragment.Common" android:uiOptions="splitActionBarWhenNarrow">
+            <intent-filter>
+                <action android:name="android.service.quicksettings.action.QS_TILE_PREFERENCES"/>
+                <action android:name="com.color.eyeprotect.settings"/>
+                <action android:name="com.color.eyeprotect.action.enter"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:label="@string/dark_mode" android:name="com.color.darkmode.ui.activity.DarkModeApplicationManageActivity" android:screenOrientation="portrait" android:theme="@style/AppCommonTheme.ApplicationManagePreference.Common" android:uiOptions="splitActionBarWhenNarrow"/>
+        <receiver android:name="com.color.darkmode.romupdate.RomUpdateReceiver">
+            <intent-filter>
+                <action android:name="oppo.intent.action.ROM_UPDATE_CONFIG_SUCCESS"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:exported="false" android:name="com.color.darkmode.receiver.NotificationClickReceiver"/>
+        <service android:name="com.color.common.service.UserChangedCompletedService" android:permission="com.color.eyeprotect.USER_CHANGE_SAFE">
+            <intent-filter>
+                <action android:name="com.color.eyeprotect.USER_CHANGED_COMPLETE"/>
+            </intent-filter>
+        </service>
+        <service android:exported="true" android:name="com.color.darkmode.recovery.DarkModeRecoveryService" android:permission="oppo.permission.OPPO_COMPONENT_SAFE">
+            <intent-filter>
+                <action android:name="com.color.eyeprotect.RecoverySettingsService"/>
+            </intent-filter>
+        </service>
+        <service android:exported="true" android:name="com.color.common.recovery.CommonBRPluginService" android:permission="oppo.permission.OPPO_COMPONENT_SAFE">
+            <meta-data android:name="uniqueID" android:value="1060"/>
+            <meta-data android:name="groupID" android:value="384"/>
+            <meta-data android:name="version" android:value="1"/>
+            <meta-data android:name="isColorOSSupport" android:value="true"/>
+            <intent-filter>
+                <action android:name="com.coloros.br.service"/>
+                <category android:name="android.intent.category.default"/>
+            </intent-filter>
+        </service>
+        <service android:icon="@drawable/status_bar_darkmode_off" android:label="@string/dark_mode" android:name="com.color.darkmode.tile.DarkModeTileService" android:permission="android.permission.BIND_QUICK_SETTINGS_TILE">
+            <intent-filter>
+                <action android:name="android.service.quicksettings.action.QS_TILE"/>
+            </intent-filter>
+        </service>
+        <provider android:authorities="com.color.darkmode.settings" android:exported="true" android:grantUriPermissions="true" android:multiprocess="false" android:name="com.color.darkmode.search.DarkModeSettingProvider" android:permission="android.permission.READ_SEARCH_INDEXABLES">
+            <intent-filter>
+                <action android:name="android.content.action.SEARCH_INDEXABLES_PROVIDER"/>
+            </intent-filter>
+        </provider>
+        <provider android:authorities="com.color.eyeprotect.ColorEyeProtectSearchProvider2" android:exported="true" android:grantUriPermissions="true" android:multiprocess="false" android:name="com.color.eyeprotect.search.ColorEyeProtectSearchProvider" android:permission="android.permission.READ_SEARCH_INDEXABLES">
+            <intent-filter>
+                <action android:name="android.content.action.SEARCH_INDEXABLES_PROVIDER"/>
+            </intent-filter>
+        </provider>
+        <service android:directBootAware="true" android:icon="@drawable/online_status_bar_eyes" android:label="@string/protect_eyes_mode" android:name="com.color.eyeprotect.services.ColorEyeProtectTileService" android:permission="android.permission.BIND_QUICK_SETTINGS_TILE">
+            <intent-filter>
+                <action android:name="android.service.quicksettings.action.QS_TILE"/>
+            </intent-filter>
+        </service>
+        <service android:directBootAware="true" android:icon="@drawable/status_bar_screen_temperature" android:label="@string/auto_screen_temperature" android:name="com.color.eyeprotect.services.AutoScreenTemperatureTileService" android:permission="android.permission.BIND_QUICK_SETTINGS_TILE">
+            <intent-filter>
+                <action android:name="android.service.quicksettings.action.QS_TILE"/>
+            </intent-filter>
+        </service>
+        <meta-data android:name="cx.xx.a.cx" android:value="1700017"/>
+        <meta-data android:name="cx.xx.a.vx" android:value="17.0.0.0.17"/>
+    </application>
+</manifest>

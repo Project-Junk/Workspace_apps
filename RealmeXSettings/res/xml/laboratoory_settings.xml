@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/string_laboratory_title" android:key="laboratory_settings"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto">
+    <com.coloros.settings.widget.preference.SettingsColorPreferenceCategory android:key="lab_features_category" settings:isFirstCategory="true" />
+    <com.coloros.settings.widget.preference.SettingColorJumpPreference android:title="@string/dual_earphone_setting_title" android:key="realme_lab_double_ear" android:fragment="com.coloros.settings.doubleears.DoubleEarphoneSettingFragment" settings:keywords="@string/dual_earphone_setting_title" />
+    <com.coloros.settings.widget.preference.SettingSwitchPreference android:title="@string/list_optimize_title" android:key="realme_lab_list_optimize" android:summary="@string/list_optimize_summary" />
+    <com.coloros.settings.widget.preference.SettingSwitchPreference android:title="@string/super_sleep_title" android:key="realme_lab_ex_deep_sleep" android:summary="@string/super_sleep_summary" />
+    <com.coloros.settings.widget.preference.SettingsColorPreferenceCategory android:key="laboratory_description">
+        <Preference android:summary="@string/string_laboratory_summary" />
+    </com.coloros.settings.widget.preference.SettingsColorPreferenceCategory>
+</PreferenceScreen>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/city_info_id" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layoutDirection="locale"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/M5" android:textStyle="bold" android:textColor="@color/color_preference_secondary_text_color" android:gravity="center_vertical" android:id="@id/selected_cities_id" android:layout_width="wrap_content" android:layout_height="@dimen/TF30" android:layout_marginTop="@dimen/list_view_margin_top" android:text="@string/selected_cities" android:textDirection="locale" style="?android:textAppearanceMedium" />
+    <TextView android:textAppearance="?android:textAppearanceMedium" android:textSize="@dimen/TD13" android:textColor="@color/color_preference_secondary_text_color" android:id="@id/not_chosen_id" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/city_margin_top" android:text="@string/not_yet_chosen" android:layout_below="@id/selected_cities_id" android:textDirection="locale" />
+    <RelativeLayout android:id="@id/city_name_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/city_margin_top" android:layout_below="@id/selected_cities_id" android:layoutDirection="locale">
+        <TextView android:textAppearance="?android:textAppearanceMedium" android:textSize="@dimen/TD13" android:id="@id/city_name_id" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:textDirection="locale" />
+        <ImageView android:id="@id/delete_city_image_id" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/delete_city_drawable" android:layout_centerVertical="true" android:layout_marginStart="@dimen/selected_city_margin_end" android:layout_toEndOf="@id/city_name_id" />
+    </RelativeLayout>
+</RelativeLayout>

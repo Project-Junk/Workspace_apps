@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="kg_password_default_pin_message_multi_sim">
+        <item quantity="other">Anna SIM-kortin %1$d PIN. %2$d yritystä jäljellä.</item>
+        <item quantity="one">Anna SIM-kortin %1$d PIN. %2$d yritys jäljellä. Jos se on vielä väärä, sinun on pyydettävä operaattoria auttamaan laitteen lukituksen avaamisessa.</item>
+    </plurals>
+    <plurals name="kg_password_wrong_pin_code_multi_sim">
+        <item quantity="other">Väärä SIM-kortin %1$d PIN. %2$d yritystä jäljellä.</item>
+        <item quantity="one">Väärä SIM-kortin %1$d PIN. %2$d yritys jäljellä. Jos se on vielä väärä, sinun on pyydettävä operaattoria auttamaan laitteen lukituksen avaamisessa.</item>
+    </plurals>
+    <plurals name="kg_prompt_reason_time_password">
+        <item quantity="other">Laite on ollut lukittuna %d tuntia. Vahvista salasana.</item>
+        <item quantity="one">Laite on ollut lukittuna %d tuntia. Vahvista salasana.</item>
+    </plurals>
+    <plurals name="kg_too_many_failed_attempts_countdown">
+        <item quantity="other">Yritä uudelleen %d sekunnin kuluttua.</item>
+        <item quantity="one">Yritä uudelleen 1 sekunnin kuluttua.</item>
+    </plurals>
+    <plurals name="snoozeHourOptions">
+        <item quantity="other">%d tuntia</item>
+        <item quantity="one">%d tunti</item>
+    </plurals>
+    <plurals name="snoozeMinuteOptions">
+        <item quantity="other">%d minuuttia</item>
+        <item quantity="one">%d minuutti</item>
+    </plurals>
+</resources>

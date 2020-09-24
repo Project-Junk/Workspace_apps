@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/operator_name_frame" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/status_bar_notification_badge_round_text_size" android:layout_marginRight="@dimen/status_bar_notification_badge_round_text_size"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:systemui="http://schemas.android.com/apk/res/com.android.systemui">
+    <com.coloros.systemui.statusbar.widget.OppoClock android:textSize="@dimen/stat_clock_size" android:textColor="@color/status_bar_clock_color" android:gravity="center" android:id="@id/clock" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:paddingStart="@dimen/status_bar_left_clock_end_padding" android:paddingEnd="@dimen/status_bar_left_clock_end_padding" systemui:amPmStyle="gone" style="@style/FontOppoSansEnOSMedium" />
+</LinearLayout>

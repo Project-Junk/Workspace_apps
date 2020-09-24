@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/privacy_settings_title"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto">
+    <com.coloros.settings.widget.preference.SettingsColorPreferenceCategory android:title="@string/data_backup_category" android:key="locale_backup_category" settings:isFirstCategory="true">
+        <com.coloros.settings.widget.preference.SettingColorJumpPreference android:persistent="false" android:layout="@layout/color_preference" android:title="@string/backup_restore" android:key="local_backup">
+            <intent android:action="oppo.intent.action.BACKUP_MAIN" />
+        </com.coloros.settings.widget.preference.SettingColorJumpPreference>
+    </com.coloros.settings.widget.preference.SettingsColorPreferenceCategory>
+    <com.coloros.settings.widget.preference.SettingsColorPreferenceCategory android:title="@string/google_backup_category" android:key="backup_category">
+        <com.coloros.settings.widget.preference.SettingSwitchPreference android:persistent="false" android:title="@string/backup_data_title" android:key="backup_data" android:summary="@string/backup_data_summary" />
+        <PreferenceScreen android:persistent="false" android:title="@string/backup_configure_account_title" android:key="configure_account">
+            <intent android:action="dummy" />
+        </PreferenceScreen>
+        <com.coloros.settings.widget.preference.SettingSwitchPreference android:persistent="false" android:title="@string/auto_restore_title" android:key="auto_restore" android:summary="@string/auto_restore_summary" />
+        <Preference android:persistent="false" android:enabled="false" android:title="@string/backup_inactive_title" android:selectable="false" android:key="backup_inactive" android:summary="@string/backup_inactive_summary" />
+    </com.coloros.settings.widget.preference.SettingsColorPreferenceCategory>
+    <PreferenceCategory android:title="@string/personal_data_section_title" android:key="personal_data_category">
+        <com.coloros.settings.widget.preference.ColorRestrictedJumpPreference android:layout="@layout/color_preference" android:title="@string/master_clear_title" android:key="master_clear" android:summary="@string/master_clear_summary" settings:keywords="@string/keywords_factory_data_reset" settings:useAdminDisabledSummary="true" settings:userRestriction="no_factory_reset" />
+    </PreferenceCategory>
+    <PreferenceCategory />
+</PreferenceScreen>

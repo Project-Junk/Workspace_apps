@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.preference.PreferenceScreen android:title="@string/protect_eyes_mode"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.preference.Preference android:layout="@layout/color_preference_header" android:selectable="false" />
+    <com.color.support.preference.ColorSwitchPreference android:persistent="false" android:title="@string/eyeprotect_enable_immediately" android:key="key_immediately_open" />
+    <com.color.support.preference.ColorSwitchPreference android:persistent="false" android:title="@string/fixed_time_open" android:key="key_fixed_time_open" />
+    <com.color.eyeprotect.ui.widget.ProtectEyesSettingTimePreference android:key="key_fixed_time_settings" />
+    <com.color.support.preference.ColorPreferenceCategory android:title="@string/screen_color_temperature_title" android:key="key_adjust_color_temperature">
+        <com.color.eyeprotect.util.ColorTemperaturePreference android:selectable="false" android:key="color_temperature" />
+    </com.color.support.preference.ColorPreferenceCategory>
+    <com.color.support.preference.ColorPreferenceCategory android:title="@string/protect_eye_category" android:key="key_group_saturation">
+        <com.color.eyeprotect.ui.widget.FixColorPreference android:title="@string/eyeprotect_normal" android:key="key_normal" android:summary="@string/normal_summary" />
+        <com.color.eyeprotect.ui.widget.FixColorPreference android:title="@string/reduce_saturation" android:key="key_saturation" android:summary="@string/grayscale_summary" />
+    </com.color.support.preference.ColorPreferenceCategory>
+    <Preference android:layout="@layout/color_preference_bottom_devider" android:selectable="false" />
+    <Preference android:layout="@layout/color_pager_footer_preference" android:selectable="false" android:summary="@string/protect_eye_mode_introducation" />
+</androidx.preference.PreferenceScreen>

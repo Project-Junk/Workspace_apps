@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:persistent="false" android:title="@string/accessibility_control_timeout_preference_title" android:key="accessibility_control_timeout_preference"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto">
+    <com.android.settings.widget.RadioButtonPreference android:persistent="false" android:title="@string/accessibility_timeout_default" android:key="accessibility_control_timeout_default" settings:allowDividerAbove="true" />
+    <com.android.settings.widget.RadioButtonPreference android:persistent="false" android:title="@string/accessibility_timeout_10secs" android:key="accessibility_control_timeout_10secs" />
+    <com.android.settings.widget.RadioButtonPreference android:persistent="false" android:title="@string/accessibility_timeout_30secs" android:key="accessibility_control_timeout_30secs" />
+    <com.android.settings.widget.RadioButtonPreference android:persistent="false" android:title="@string/accessibility_timeout_1min" android:key="accessibility_control_timeout_1min" />
+    <com.android.settings.widget.RadioButtonPreference android:persistent="false" android:title="@string/accessibility_timeout_2mins" android:key="accessibility_control_timeout_2mins" />
+    <PreferenceCategory android:key="footer_description">
+        <Preference android:persistent="false" android:layout="@layout/text_description_preference" android:selectable="false" android:key="footer_description_pref" android:summary="@string/accessibility_control_timeout_preference_summary" />
+    </PreferenceCategory>
+</PreferenceScreen>

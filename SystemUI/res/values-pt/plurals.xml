@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="abc_slice_duration_days">
+        <item quantity="other">%d dias atrás</item>
+        <item quantity="one">%d dia atrás</item>
+    </plurals>
+    <plurals name="abc_slice_duration_min">
+        <item quantity="other">%d min atrás</item>
+        <item quantity="one">%d min atrás</item>
+    </plurals>
+    <plurals name="abc_slice_duration_years">
+        <item quantity="other">%d anos atrás</item>
+        <item quantity="one">%d ano atrás</item>
+    </plurals>
+    <plurals name="kg_password_default_pin_message">
+        <item quantity="other">Informe o PIN do chip. Você tem %d tentativas restantes.</item>
+        <item quantity="one">Informe o PIN do chip. Você tem %d tentativa restante.</item>
+    </plurals>
+    <plurals name="kg_password_default_pin_message_multi_sim">
+        <item quantity="other">Introduza o PIN para o cartão SIM %1$d. %2$d tentativas restantes.</item>
+        <item quantity="one">Introduza o PIN para o cartão SIM %1$d. %2$d tentativas restantes. Se estiver errado novamente, terá de entrar em contacto com a operadora para obter ajuda a desbloquear o dispositivo.</item>
+    </plurals>
+    <plurals name="kg_password_default_puk_message">
+        <item quantity="other">O chip agora está desativado. Informe o código PUK para continuar. Você tem %d tentativas restantes antes de o chip se tornar permanentemente inutilizável. Entre em contato com a operadora para saber mais detalhes.</item>
+        <item quantity="one">O chip agora está desativado. Informe o código PUK para continuar. Você tem %d tentativa restante antes de o chip se tornar permanentemente inutilizável. Entre em contato com a operadora para saber mais detalhes.</item>
+    </plurals>
+    <plurals name="kg_password_wrong_pin_code">
+        <item quantity="other">PIN do SIM incorreto. Tem %d tentativas restantes.</item>
+        <item quantity="one">PIN do SIM incorreto. Tem %d tentativa restante. Se estiver errado novamente, terá de entrar em contacto com a operadora para que o ajudem a desbloquear o dispositivo.</item>
+    </plurals>
+    <plurals name="kg_password_wrong_pin_code_multi_sim">
+        <item quantity="other">PIN incorreto para cartão SIM %1$d. %2$d tentativas restantes.</item>
+        <item quantity="one">PIN incorreto para cartão SIM %1$d. %2$d tentativas restantes. Se estiver errado novamente, terá de entrar em contacto com a operadora para obter ajuda a desbloquear o dispositivo.</item>
+    </plurals>
+    <plurals name="kg_password_wrong_puk_code">
+        <item quantity="other">Código PUK do SIM incorreto. %d tentativas restantes. Se estiver errado novamente, os SIM serão desativados de forma permanente.</item>
+        <item quantity="one">Código PUK do SIM incorreto. %d tentativa restante. Se estiver errado novamente, o SIM será desativado de forma permanente.</item>
+    </plurals>
+    <plurals name="kg_prompt_reason_time_password">
+        <item quantity="other">O dispositivo foi bloqueado por %d horas. Confirme a palavra-passe.</item>
+        <item quantity="one">O dispositivo foi bloqueado por %d hora. Confirme a palavra-passe.</item>
+    </plurals>
+    <plurals name="kg_prompt_reason_time_pattern">
+        <item quantity="other">O dispositivo foi bloqueado por %d horas. Confirme o padrão de desbloqueio.</item>
+        <item quantity="one">O dispositivo foi bloqueado por %d hora. Confirme o padrão de desbloqueio.</item>
+    </plurals>
+    <plurals name="kg_prompt_reason_time_pin">
+        <item quantity="other">O dispositivo foi bloqueado por %d horas. Confirme o PIN.</item>
+        <item quantity="one">O dispositivo foi bloqueado por %d hora. Confirme o PIN.</item>
+    </plurals>
+    <plurals name="kg_too_many_failed_attempts_countdown">
+        <item quantity="other">Volte a tentar após %d segundos.</item>
+        <item quantity="one">Volte a tentar após 1 segundo.</item>
+    </plurals>
+    <plurals name="notification_group_overflow_description">
+        <item quantity="other">Ainda existem %s notificações neste grupo.</item>
+        <item quantity="one">Ainda existe %s notificação neste grupo.</item>
+    </plurals>
+    <plurals name="quick_settings_hotspot_secondary_label_num_devices">
+        <item quantity="other">%d dispositivos</item>
+        <item quantity="one">%d dispositivo</item>
+    </plurals>
+    <plurals name="snoozeHourOptions">
+        <item quantity="other">%d horas</item>
+        <item quantity="one">%d hora</item>
+    </plurals>
+    <plurals name="snoozeMinuteOptions">
+        <item quantity="other">%d minutos</item>
+        <item quantity="one">%d minuto</item>
+    </plurals>
+    <plurals name="user_limit_reached_message">
+        <item quantity="other">É possível adicionar até %d usuários.</item>
+        <item quantity="one">É possível adicionar até %d usuário.</item>
+    </plurals>
+    <plurals name="wifi_tether_connected_summary">
+        <item quantity="other">%1$d dispositivos conectados</item>
+        <item quantity="one">%1$d dispositivo conectado</item>
+    </plurals>
+</resources>

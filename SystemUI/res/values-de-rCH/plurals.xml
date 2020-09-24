@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="kg_password_default_pin_message_multi_sim">
+        <item quantity="other">Bitte geben Sie die PIN ein für die SIM-Karte %1$d. %2$d Verbleibende Versuche.</item>
+        <item quantity="one">Bitte geben Sie die PIN ein für die SIM-Karte %1$d. %2$d Verbleibender Versuch. Sie müssen sich an den Betreiber wenden, um das Gerät zu entsperren, falls der Versuch erneut fehlschlägt.</item>
+    </plurals>
+    <plurals name="kg_password_wrong_pin_code">
+        <item quantity="other">Falsche PIN für SIM. %d Versuche übrig.</item>
+        <item quantity="one">Falsche PIN für SIM. %d Versuch übrig. Ist die Eingabe erneut falsch, müssen Sie sich für Hilfe bei der Entsperrung des Geräts an den Anbieter wenden.</item>
+    </plurals>
+    <plurals name="kg_password_wrong_pin_code_multi_sim">
+        <item quantity="other">Falsche PIN für SIM-Karte %1$d. %2$d Verbleibende Versuche.</item>
+        <item quantity="one">Falsche PIN für SIM-Karte %1$d. %2$d Verbleibender Versuch. Sie müssen sich an den Betreiber wenden, um das Gerät zu entsperren, falls der Versuch erneut fehlschlägt.</item>
+    </plurals>
+    <plurals name="kg_password_wrong_puk_code">
+        <item quantity="other">Falscher PUK-Code für SIM. %d Versuche übrig. Ist die Eingabe erneut falsch, wird die SIM dauerhaft deaktiviert.</item>
+        <item quantity="one">Falscher PUK-Code für SIM. %d Versuch übrig. Ist die Eingabe erneut falsch, wird die SIM dauerhaft deaktiviert.</item>
+    </plurals>
+    <plurals name="kg_prompt_reason_time_password">
+        <item quantity="other">Das Gerät wurde für%d Stunden nicht mehr gesperrt. Bitte Passwort bestätigen</item>
+        <item quantity="one">. Das Gerät wurde für%dStunde nicht mehr gesperrt. Bitte Passwort bestätigen.</item>
+    </plurals>
+    <plurals name="kg_prompt_reason_time_pattern">
+        <item quantity="other">Das Gerät wurde für %d Stunden gesperrt. Bitte bestätigen Sie das Entsperrungsmuster.</item>
+        <item quantity="one">Das Gerät wurde für %d Stunde gesperrt. Bitte bestätigen Sie das Entsperrungsmuster.</item>
+    </plurals>
+    <plurals name="kg_prompt_reason_time_pin">
+        <item quantity="other">Das Gerät wurde für %d Stunden gesperrt. Bitte bestätigen Sie die PIN.</item>
+        <item quantity="one">Das Gerät wurde für %d Stunde gesperrt. Bitte bestätigen Sie die PIN.</item>
+    </plurals>
+    <plurals name="kg_too_many_failed_attempts_countdown">
+        <item quantity="other">Bitte versuchen Sie es nach %d Sekunden erneut.</item>
+        <item quantity="one">Bitte versuchen Sie es nach 1 Sekunde erneut.</item>
+    </plurals>
+    <plurals name="notification_group_overflow_description">
+        <item quantity="other">Es sind immer noch %s Benachrichtigungen in dieser Gruppe vorhanden.</item>
+        <item quantity="one">Es ist immer noch %s Benachrichtigung in dieser Gruppe vorhanden.</item>
+    </plurals>
+    <plurals name="snoozeHourOptions">
+        <item quantity="other">%d Stunden</item>
+        <item quantity="one">%d Stunde</item>
+    </plurals>
+    <plurals name="snoozeMinuteOptions">
+        <item quantity="other">%d Minuten</item>
+        <item quantity="one">%d Minute</item>
+    </plurals>
+</resources>

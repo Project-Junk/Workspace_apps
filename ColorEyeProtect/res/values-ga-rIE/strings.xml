@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="after_turn_on">Tar Éis</string>
+    <string name="application_manage">Modh Dorch Cliste</string>
+    <string name="before_turn_on">Roimhe</string>
+    <string name="color_allow_text">Aontaigh</string>
+    <string name="color_hour">uair</string>
+    <string name="color_install_download_progress_textview">Íoslódáil</string>
+    <string name="color_keyboard_view_access_close_button">Leacaigh méarchlár</string>
+    <string name="color_keyboard_view_access_detail_button">Malartaigh go gnáth-mhéarchlár</string>
+    <string name="color_keyboard_view_keycode_low_shift">Malartaigh go cás íochtair</string>
+    <string name="color_keyboardview_keycode_letters">Malartaigh go haibítrí</string>
+    <string name="color_keyboardview_keycode_number">Malartaigh Uimhir</string>
+    <string name="color_keyboardview_keycode_shift">Malartaigh go cás uachtair</string>
+    <string name="color_keyboardview_keycode_symbol">Malartaigh go siombailí</string>
+    <string name="color_minute">nóiméad</string>
+    <string name="color_reject_text">Scoir</string>
+    <string name="color_search_view_text">Cealaigh</string>
+    <string name="color_security_alertdailog_privacy">Polasaí Príobháideachta</string>
+    <string name="color_security_alertdailog_statement">Tapáil agus féach ar %1$s le haghaidh níos mó eolais.</string>
+    <string name="color_security_alertdialog_checkbox_msg">Ná meabhraigh</string>
+    <string name="color_time_picker_today">Inniu</string>
+    <string name="dark_mode">Modh Dorch</string>
+    <string name="enable_immediately">Modh Dorch</string>
+    <string name="end">Deireadh</string>
+    <string name="eyeprotect_normal">Scáileán Daite</string>
+    <string name="fixed_time_open">Am Sceidealaithe</string>
+    <string name="go_to_settings">Am Sceidealaithe</string>
+    <string name="protect_eye_category">ÉIFEACHT SCÁILEÁIN</string>
+    <string name="reduce_saturation">Scáileán i nDubh agus Bán</string>
+    <string name="relative_cold">Níos Fionnuaire</string>
+    <string name="relative_warm">Níos Teolaí</string>
+    <string name="screen_color_temperature_title">SOCRÚ THEOCHT DATHA AN SCÁILEÁIN</string>
+    <string name="set_time">Am Sceidealaithe</string>
+    <string name="start">Tosaigh</string>
+    <string name="tomorrow">Amárach</string>
+    <string name="turn_on_hint">Má bhíonn lasc aipe casta air, socrófar é go huathoibríoch mar Mhodh Dorch. Má tá a mhodh dorch féin ag an aip, cas as an “Modh Dorch Cliste” chun na coimhlintí a bhaint.</string>
+    <string name="use_dialog_negative_button_text">Cealaigh</string>
+    <string name="use_dialog_positive_button_text">Cas Air</string>
+    <string name="use_dialog_positive_check_text">Ná fiafraigh arís</string>
+    <string name="use_dialog_positive_message">Má bhíonn sé casta air, athrófar an téama reatha. Cas air é?</string>
+    <string name="use_dialog_positive_title">Cas Air Modh Dorch</string>
+</resources>

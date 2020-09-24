@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="battery_options">
+        <item>הצג תמיד באחוזים</item>
+        <item>הצג אחוזים של עוצמת הסוללה במהלך הטעינה (ברירת מחדל)</item>
+        <item>אל תציג סמל זה</item>
+    </string-array>
+    <string-array name="clock_options">
+        <item>הצג שעות, דקות ושניות</item>
+        <item>הצג שעות ודקות (ברירת מחדל)</item>
+        <item>אל תציג סמל זה</item>
+    </string-array>
+    <string-array name="nav_bar_layouts">
+        <item>רגיל</item>
+        <item>קומפקטי</item>
+        <item>הישאר בשמאל</item>
+        <item>הישאר בימין</item>
+    </string-array>
+    <string-array name="usb_type_select">
+        <item>טעינה בלבד</item>
+        <item>העבר קבצים</item>
+        <item>העבר תמונות</item>
+    </string-array>
+</resources>

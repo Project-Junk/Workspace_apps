@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<color.support.v7.app.CheckableLayout android:descendantFocusability="blocksDescendants" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/alert_dialog_list_item_min_height" android:paddingStart="@dimen/alert_dialog_single_list_padding_left" android:paddingEnd="@dimen/alert_dialog_single_list_padding_right"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RadioButton android:id="@id/radio_button" android:focusable="false" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_alignParentEnd="true" android:forceDarkAllowed="false" />
+    <TextView android:textSize="16.0sp" android:textColor="@color/color_bottom_alert_dialog_button_text_color" android:ellipsize="marquee" android:id="@android:id/text1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:lineSpacingMultiplier="1.2" android:layout_marginEnd="16.0dip" android:layout_toStartOf="@id/radio_button" android:layout_alignParentStart="true" />
+</color.support.v7.app.CheckableLayout>

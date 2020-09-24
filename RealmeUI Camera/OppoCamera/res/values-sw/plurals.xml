@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="sticker_recycle_bin_title_has_selected">
+        <item quantity="other">"Vib'diko %1$d Vim'guliwa"</item>
+        <item quantity="one">"Kib'diko %1$d Kim'guliwa"</item>
+    </plurals>
+</resources>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/devices_id_and_advertise" android:key="anonymous_devices_id"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto">
+    <com.coloros.settings.widget.preference.SettingsColorPreferenceCategory android:title="@string/devices_identify" android:key="id_category" settings:isFirstCategory="true">
+        <com.coloros.settings.widget.preference.SettingSwitchPreference android:layout="@layout/color_preference" android:title="@string/restrict_advertise" android:key="restrict_advertise_switch" android:summary="@string/restrict_advertise_info" />
+        <androidx.preference.Preference android:title="@string/reset_ouid" android:key="reset_advertise_id" />
+    </com.coloros.settings.widget.preference.SettingsColorPreferenceCategory>
+    <PreferenceCategory android:title="@string/about_advertise" android:key="devices_category">
+        <com.coloros.settings.widget.preference.SettingColorJumpPreference android:persistent="false" android:title="@string/advertise_and_privacy" android:key="auto_rules2">
+            <intent android:targetPackage="com.android.settings" android:action="android.intent.action.VIEW " android:targetClass="com.coloros.settings.feature.notification.DevicesIdPrivacyActivity" /> > </com.coloros.settings.widget.preference.SettingColorJumpPreference>
+    </PreferenceCategory>
+    <PreferenceCategory android:order="140" />
+</PreferenceScreen>

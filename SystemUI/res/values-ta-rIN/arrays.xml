@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="battery_options">
+        <item>எப்போதும் சதவிகிதத்தில் காட்டு</item>
+        <item>சார்ஜாகும் போது பேட்டரி பவரின் சதவிகிதத்தை காட்டு (இயல்புநிலை)</item>
+        <item>இந்த ஐகானை காட்டாதே</item>
+    </string-array>
+    <string-array name="clock_options">
+        <item>காட்சி மணிநேரம், நிமிடங்கள் மற்றும் வினாடிகள்</item>
+        <item>காட்சி மணிநேரம் மற்றும் நிமிடங்கள் (இயல்புநிலை)</item>
+        <item>இந்த ஐகானை காட்டாதே</item>
+    </string-array>
+    <string-array name="color_lunar_mounth">
+        <item>正月</item>
+        <item>二月</item>
+        <item>三月</item>
+        <item>四月</item>
+        <item>五月</item>
+        <item>六月</item>
+        <item>七月</item>
+        <item>八月</item>
+        <item>九月</item>
+        <item>十月</item>
+        <item>冬月</item>
+        <item>腊月</item>
+    </string-array>
+    <string-array name="color_solor_mounth">
+        <item>ஜனவரி</item>
+        <item>பிப்ரவரி</item>
+        <item>மார்ச்</item>
+        <item>ஏப்ரல்</item>
+        <item>மே</item>
+        <item>ஜூன்</item>
+        <item>ஜூலை</item>
+        <item>ஆகஸ்ட்</item>
+        <item>செப்டம்பர்</item>
+        <item>அக்டோபர்</item>
+        <item>நவம்பர்</item>
+        <item>டிசம்பர்</item>
+    </string-array>
+    <string-array name="nav_bar_layouts">
+        <item>இயல்பு</item>
+        <item>கச்சிதம்</item>
+        <item>இடது புறமாய்</item>
+        <item>வலது புறமாய்</item>
+    </string-array>
+    <string-array name="oppo_time_picker_ampm">
+        <item>AM</item>
+        <item>PM</item>
+    </string-array>
+    <string-array name="usb_type_select">
+        <item>சார்ஜிங் போது மட்டும்</item>
+        <item>கோப்புகளை பரிமாற்று</item>
+        <item>படங்களை பரிமாற்று</item>
+    </string-array>
+</resources>

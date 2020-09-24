@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="15.0sp" android:textStyle="bold" android:textColor="@android:color/black" android:layout_gravity="center_horizontal" android:id="@id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/fcc_us_country" android:fontFamily="@string/dolby_font_family_medium" />
+    <TextView android:textSize="16.0sp" android:textColor="@android:color/black" android:layout_gravity="center_horizontal" android:id="@id/model_name" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" />
+    <TextView android:textSize="16.0sp" android:textColor="@android:color/black" android:layout_gravity="center_horizontal" android:id="@id/fcc_id_txt" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:text="@string/fcc_us_id" />
+    <TextView android:textSize="12.0sp" android:textColor="@android:color/black" android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:id="@id/mader" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:text="@string/oppo_regulatory_mader" />
+</LinearLayout>

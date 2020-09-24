@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.coloros.systemui.stackdivider.DividerMenuView android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/divider_menu_view_bg" android:background="@drawable/divider_menu_view_down_bg" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <RelativeLayout android:id="@id/divider_menu_operation_layout" style="@style/DividerMenuOperation">
+        <com.coloros.systemui.stackdivider.DividerOperationButton android:id="@id/divider_menu_view_exchange" android:background="@drawable/divider_menu_view_exchange_selector" android:layout_width="50.0dip" android:layout_height="50.0dip" android:scaleType="fitCenter" />
+        <com.coloros.systemui.stackdivider.DividerOperationButton android:id="@id/divider_menu_view_close" android:background="@drawable/divider_menu_view_close_selector" android:layout_width="50.0dip" android:layout_height="50.0dip" android:scaleType="fitCenter" />
+    </RelativeLayout>
+</com.coloros.systemui.stackdivider.DividerMenuView>

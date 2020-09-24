@@ -1,0 +1,82 @@
+!!brut.androlib.meta.MetaInfo
+apkFileName: OppoCamera.apk
+compressionType: false
+doNotCompress:
+- classes.dex
+- resources.arsc
+- assets/3542-139-eec0b0dcecc5d98cf43896461f46c51e.lic
+- jpg
+- lib/armeabi/lib3DSlender.so
+- lib/armeabi/libAPSClient-jni.so
+- lib/armeabi/libArcsoftRectifyJni710.so
+- lib/armeabi/libFNPanoramaApp.so
+- lib/armeabi/libFormatConverter.so
+- lib/armeabi/libNvStreamingSdkCore.so
+- lib/armeabi/libOppoFFDJni.so
+- lib/armeabi/libOppoFaceBeauty.so
+- lib/armeabi/libOppoFaceBeautyJni.so
+- lib/armeabi/libOppoFaceInfo.so
+- lib/armeabi/libOppoNativeBufferProducer.so
+- lib/armeabi/libOppoUpscaleJni.so
+- lib/armeabi/libOppoWatermarkJni.so
+- lib/armeabi/libOppoYuvProcessUtil.so
+- lib/armeabi/libPolarrRender.so
+- lib/armeabi/libPolarrRenderJNI.so
+- lib/armeabi/libSingleBokeh.so
+- lib/armeabi/libSloganJni_qualcomm.so
+- lib/armeabi/libVDEyeEnhance.so
+- lib/armeabi/libVDSelfiePanorama.so
+- lib/armeabi/libVDUpScale.so
+- lib/armeabi/libarcsoft_beautyshot.so
+- lib/armeabi/libarcsoft_distortion_correction_710.so
+- lib/armeabi/libarcsoft_gpuvideobokeh_advanced.so
+- lib/armeabi/libarcsoft_relighting_pro_image.so
+- lib/armeabi/libarcsoft_singlecam_bokeh.so
+- lib/armeabi/libface_slender_2d.so
+- lib/armeabi/libjnistblur_capture_api.so
+- lib/armeabi/libjnistblur_preview_api.so
+- lib/armeabi/libmpbase.so
+- lib/armeabi/libsingle_camera_bokeh_native.so
+- lib/armeabi/libstblur_capture_api.so
+- lib/armeabi/libstblur_preview_api.so
+- lib/armeabi/libstface_fd_api.so
+- lib/armeabi/libtouchless_a3d.so
+- lib/armeabi/libtouchless_a3d_jni.so
+- png
+- ogg
+isFrameworkApk: false
+packageInfo:
+  forcedPackageId: '127'
+  renameManifestPackage: null
+sdkInfo:
+  minSdkVersion: '28'
+  targetSdkVersion: '28'
+sharedLibrary: false
+sparseResources: false
+unknownFiles:
+  LICENSE-junit.txt: '8'
+  rotator.rs: '8'
+  junit/runner/logo.gif: '0'
+  junit/runner/smalllogo.gif: '0'
+  com/oppo/gallery3d/predecode/IPreDecode.aidl: '8'
+  google/protobuf/any.proto: '8'
+  google/protobuf/api.proto: '8'
+  google/protobuf/descriptor.proto: '8'
+  google/protobuf/duration.proto: '8'
+  google/protobuf/empty.proto: '8'
+  google/protobuf/field_mask.proto: '8'
+  google/protobuf/source_context.proto: '8'
+  google/protobuf/struct.proto: '8'
+  google/protobuf/timestamp.proto: '8'
+  google/protobuf/type.proto: '8'
+  google/protobuf/wrappers.proto: '8'
+  google/protobuf/compiler/plugin.proto: '8'
+  okhttp3/internal/publicsuffix/publicsuffixes.gz: '8'
+usesFramework:
+  ids:
+  - 1
+  tag: null
+version: 2.4.1
+versionInfo:
+  versionCode: '40026'
+  versionName: 3.1.0

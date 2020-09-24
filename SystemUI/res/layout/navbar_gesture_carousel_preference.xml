@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.coloros.systemui.navbar.settings.CarouselViewPager android:layout_gravity="center" android:id="@id/guide_viewpager" android:layout_width="wrap_content" android:layout_height="285.0dip" android:layout_marginTop="4.0dip" android:layout_marginBottom="@dimen/M6" android:overScrollMode="never" android:layout_marginStart="@dimen/M9" android:layout_marginEnd="@dimen/M9" />
+    <color.support.v7.widget.pageindicator.ColorPageIndicator android:layout_gravity="center" android:id="@id/color_page_indicator" android:layout_width="wrap_content" android:layout_height="wrap_content" app:dotColor="@color/nav_setting_dot_color" app:dotSize="6.0dip" app:dotSpacing="3.0dip" app:dotStrokeWidth="0.70000005dip" app:traceDotColor="@color/nav_setting_trace_dot_color" />
+</LinearLayout>

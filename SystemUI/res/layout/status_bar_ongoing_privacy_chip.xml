@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.coloros.systemui.qs.privacy.OngoingPrivacyChip android:gravity="end|center" android:layout_gravity="center_vertical" android:orientation="horizontal" android:id="@id/privacy_chip" android:focusable="true" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/background" android:layout_width="wrap_content" android:layout_height="@dimen/ongoing_appops_chip_height">
+        <com.coloros.systemui.qs.widget.ColorPrivacyIconContainer android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/icons_container" android:layout_width="wrap_content" android:layout_height="fill_parent" />
+    </FrameLayout>
+</com.coloros.systemui.qs.privacy.OngoingPrivacyChip>

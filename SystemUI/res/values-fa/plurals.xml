@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="abc_slice_duration_days">
+        <item quantity="other">%d روز قبل</item>
+        <item quantity="one">%d روز قبل</item>
+    </plurals>
+    <plurals name="abc_slice_duration_min">
+        <item quantity="other">%d دقیقه قبل</item>
+        <item quantity="one">%d دقیقه قبل</item>
+    </plurals>
+    <plurals name="abc_slice_duration_years">
+        <item quantity="other">%d سال قبل</item>
+        <item quantity="one">%d سال قبل</item>
+    </plurals>
+    <plurals name="kg_password_default_pin_message">
+        <item quantity="other">پین سیم‌کارت را وارد کنید. %d تلاش دیگری باقی مانده است.</item>
+        <item quantity="one">پین سیم‌کارت را وارد کنید. %d تلاش دیگری باقی مانده است.</item>
+    </plurals>
+    <plurals name="kg_password_default_pin_message_multi_sim">
+        <item quantity="other">پین سیم‌کارت %1$d را وارد کنید. %2$d تلاش باقی مانده است.</item>
+        <item quantity="one">پین سیم‌کارت %1$d را وارد کنید. %2$d تلاش باقی مانده است. اگر همچنان اشتباه است، برای کمک به بازکردن قفل دستگاه، باید با شرکت تلفن همراه تماس بگیرید.</item>
+    </plurals>
+    <plurals name="kg_password_default_puk_message">
+        <item quantity="other">‏سیم‌کارت اکنون غیرفعال است. برای ادامه دادن کد PUK را وارد کنید. %d تلاش دیگر باقی مانده است و پس از آن سیم‌کارت برای همیشه غیرقابل‌استفاده می‌شود. برای اطلاع از جزئیات با شرکت مخابراتی تماس بگیرید.</item>
+        <item quantity="one">‏سیم‌کارت اکنون غیرفعال است. برای ادامه دادن کد PUK را وارد کنید. %d تلاش دیگر باقی مانده است و پس از آن سیم‌کارت برای همیشه غیرقابل‌استفاده می‌شود. برای اطلاع از جزئیات با شرکت مخابراتی تماس بگیرید.</item>
+    </plurals>
+    <plurals name="kg_password_wrong_pin_code">
+        <item quantity="other">پین سیم‌کارت اشتباه است. %d تلاش باقی مانده است.</item>
+        <item quantity="one">پین سیم‌کارت اشتباه است. %d تلاش باقی مانده است. اگر همچنان اشتباه است، برای کمک به بازکردن قفل دستگاه، باید با شرکت تلفن همراه تماس بگیرید.</item>
+    </plurals>
+    <plurals name="kg_password_wrong_pin_code_multi_sim">
+        <item quantity="other">پین سیم‌کارت %1$d نادرست است. %2$d تلاش باقی مانده است.</item>
+        <item quantity="one">پین سیم‌کارت %1$d نادرست است. %2$d تلاش باقی مانده است. اگر همچنان اشتباه است، برای کمک به بازکردن قفل دستگاه، باید با شرکت تلفن همراه تماس بگیرید.</item>
+    </plurals>
+    <plurals name="kg_password_wrong_puk_code">
+        <item quantity="other">کد PUK سیم‌کارت اشتباه است. %d تلاش باقی مانده است. چنانچه همچنان اشتباه باشد، سیم‌کارت‌ها به صورت دائم غیرفعال خواهند شد.</item>
+        <item quantity="one">کد PUK سیم‌کارت اشتباه است. %d تلاش باقی مانده است. چنانچه همچنان اشتباه باشد، سیم‌کارت به صورت دائم غیرفعال خواهد شد.</item>
+    </plurals>
+    <plurals name="kg_prompt_reason_time_password">
+        <item quantity="other">دستگاه مدت %d ساعت قفل شده است. لطفاً رمز ورود را تأیید کنید.</item>
+        <item quantity="one">دستگاه مدت %d ساعت قفل شده است. لطفاً رمز ورود را تأیید کنید.</item>
+    </plurals>
+    <plurals name="kg_prompt_reason_time_pattern">
+        <item quantity="other">دستگاه به مدت %d ساعت قفل شده است. لطفاً الگوی بازگشایی قفل را تأیید کنید.</item>
+        <item quantity="one">دستگاه به مدت %d ساعت قفل شده است. لطفاً الگوی بازگشایی قفل را تأیید کنید.</item>
+    </plurals>
+    <plurals name="kg_prompt_reason_time_pin">
+        <item quantity="other">دستگاه به مدت %d ساعت قفل شده است. لطفاً پین را تأیید کنید.</item>
+        <item quantity="one">دستگاه به مدت %d ساعت قفل شده است. لطفاً پین را تأیید کنید.</item>
+    </plurals>
+    <plurals name="kg_too_many_failed_attempts_countdown">
+        <item quantity="other">پس از %d ثانیه دوباره امتحان کنید.</item>
+        <item quantity="one">پس از ۱ ثانیه دوباره امتحان کنید.</item>
+    </plurals>
+    <plurals name="notification_group_overflow_description">
+        <item quantity="other">هنوز %s اعلان در این گروه وجود دارد.</item>
+        <item quantity="one">هنوز %s اعلان در این گروه وجود دارد.</item>
+    </plurals>
+    <plurals name="quick_settings_hotspot_secondary_label_num_devices">
+        <item quantity="other">‏%d دستگاه</item>
+        <item quantity="one">‏%d دستگاه</item>
+    </plurals>
+    <plurals name="snoozeHourOptions">
+        <item quantity="other">%d ساعت</item>
+        <item quantity="one">%d hour</item>
+    </plurals>
+    <plurals name="snoozeMinuteOptions">
+        <item quantity="other">%d دقیقه</item>
+        <item quantity="one">%d دقیقه</item>
+    </plurals>
+    <plurals name="user_limit_reached_message">
+        <item quantity="other">می‌توانید حداکثر %d کاربر اضافه کنید.</item>
+        <item quantity="one">می‌توانید حداکثر %d کاربر اضافه کنید.</item>
+    </plurals>
+    <plurals name="wifi_tether_connected_summary">
+        <item quantity="other">‏%1$d دستگاه متصل</item>
+        <item quantity="one">‏%1$d دستگاه متصل</item>
+    </plurals>
+</resources>

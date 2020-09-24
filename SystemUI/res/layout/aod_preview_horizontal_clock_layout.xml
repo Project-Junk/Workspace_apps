@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/aod_clock_horizontal_bg_layout" android:background="@drawable/aod_clock_no_select_bg" android:layout_width="@dimen/aod_preview_clock_layout" android:layout_height="@dimen/aod_preview_clock_layout"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/aod_horizontal_view" android:layout_width="wrap_content" android:layout_height="43.899994dip" android:layout_marginTop="13.699982dip" android:layout_centerHorizontal="true" />
+    <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="38.19998dip" android:layout_centerHorizontal="true">
+        <TextClock android:textSize="13.0dip" android:textColor="#ffffffff" android:id="@id/aod_preview_horizontal_clock_hour" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentTop="true" android:layout_alignParentStart="true" android:format12Hour="h:mm" android:format24Hour="HH:mm" />
+    </RelativeLayout>
+</RelativeLayout>

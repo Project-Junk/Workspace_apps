@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/convenient_aid" android:key="parent_screen"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto">
+    <com.coloros.settings.widget.preference.SettingsColorPreferenceCategory android:key="google_asssist_category" settings:isFirstCategory="true">
+        <SwitchPreference android:persistent="false" android:layout="@layout/color_preference" android:title="@string/google_asssist_title" android:key="google_asssist" android:summary="@string/google_asssist_footer" />
+    </com.coloros.settings.widget.preference.SettingsColorPreferenceCategory>
+    <com.coloros.settings.widget.preference.SettingsColorPreferenceCategory android:key="shortcut_category">
+        <com.coloros.settings.widget.preference.SettingColorJumpPreference android:title="@string/navigation_bar" android:key="navigation_bar">
+            <intent android:action="oppo.intent.action.NAVIGATION_BAR_SETTINGS" />
+        </com.coloros.settings.widget.preference.SettingColorJumpPreference>
+        <com.coloros.settings.widget.preference.SettingColorJumpPreference android:title="@string/floating_ball" android:key="floating_assistant">
+            <intent android:action="oppo.intent.action.FLOATING_BALL_SETTINGS" />
+        </com.coloros.settings.widget.preference.SettingColorJumpPreference>
+        <com.coloros.settings.widget.preference.SettingColorJumpPreference android:key="flash_back_button" settings:controller="com.coloros.settings.feature.convenient.controller.FlashBackButtonController">
+            <intent android:action="oppo.intent.action.AIR_VIEW_MAIN_SETTINGS" />
+        </com.coloros.settings.widget.preference.SettingColorJumpPreference>
+        <com.coloros.settings.widget.preference.SettingColorJumpPreference android:persistent="false" android:title="@string/land_scape_assistant" android:key="land_scape_assistant">
+            <intent android:action="oppo.intent.action.SCREENASSISTANT_SETTINGS" />
+        </com.coloros.settings.widget.preference.SettingColorJumpPreference>
+    </com.coloros.settings.widget.preference.SettingsColorPreferenceCategory>
+    <PreferenceCategory android:key="key_gesture_control_category">
+        <com.coloros.settings.widget.preference.SettingColorJumpPreference android:persistent="false" android:title="@string/smart_apperceive_control_settings" android:key="gesture_control_settings">
+            <intent android:action="com.oppo.action.oppoGestureGuide" />
+        </com.coloros.settings.widget.preference.SettingColorJumpPreference>
+    </PreferenceCategory>
+    <PreferenceCategory android:key="key_assistant_red_envelope_category">
+        <com.coloros.settings.widget.preference.SettingColorJumpPreference android:persistent="false" android:layout="@layout/color_preference" android:title="@string/oppo_title_red_envelope_assistant" android:key="key_assistant_red_envelope">
+            <intent android:action="oppo.intent.action.ENVELOP_SETTINGS" />
+        </com.coloros.settings.widget.preference.SettingColorJumpPreference>
+    </PreferenceCategory>
+    <PreferenceCategory android:key="key_non_sensing_certification_category">
+        <SwitchPreference android:persistent="false" android:title="@string/non_sensing_certification" android:key="key_non_sensing_certification" android:summary="@string/non_sensing_certification_summary" />
+    </PreferenceCategory>
+    <PreferenceCategory />
+    <com.coloros.settings.widget.preference.ColorRecommendedPreference android:key="convenient_aid_bottom_recommended" />
+</PreferenceScreen>

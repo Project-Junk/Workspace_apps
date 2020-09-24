@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set android:ordering="together"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt">
+    <objectAnimator android:interpolator="@drawable/$$qs_tile_hotspot_loading__2__0" android:duration="83" android:startOffset="617" android:valueFrom="0.35" android:valueTo="0.7" android:valueType="floatType" android:propertyName="fillAlpha" />
+    <objectAnimator android:interpolator="@drawable/$$qs_tile_hotspot_loading__2__1" android:duration="150" android:startOffset="700" android:valueFrom="0.7" android:valueTo="0.7" android:valueType="floatType" android:propertyName="fillAlpha" />
+    <objectAnimator android:interpolator="@drawable/$$qs_tile_hotspot_loading__2__2" android:duration="67" android:startOffset="850" android:valueFrom="0.7" android:valueTo="0.35" android:valueType="floatType" android:propertyName="fillAlpha" />
+</set>

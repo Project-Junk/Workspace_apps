@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="application_manage_status_text">
+        <item quantity="other">%1$d កម្មវិធី</item>
+        <item quantity="one">កម្មវិធី %1$d</item>
+    </plurals>
+    <plurals name="third_app_status_text">
+        <item quantity="other">កម្មវិធី %1$d បើក</item>
+        <item quantity="one">កម្មវិធី %1$d បើក</item>
+    </plurals>
+</resources>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/main_layout" android:background="@color/black" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto">
+    <color.support.v7.widget.Toolbar android:id="@id/toolbar" android:background="@color/black" android:paddingTop="@dimen/toolbar_margin_top" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="60.0dip" android:title="@string/anim_styles" settings:colorLayoutScrollFlags="exitUntilCollapsed|scroll" />
+    <Space android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="23.0" />
+    <VideoView android:id="@id/anim_style_video_view" android:clickable="false" android:layout_width="@dimen/optical_fp_anim_style_video_width" android:layout_height="@dimen/optical_fp_anim_style_video_height" android:layout_centerHorizontal="true" />
+    <Space android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="30.0" />
+    <HorizontalScrollView android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="60.0dip">
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/anim_ic_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="24.0dip" android:paddingEnd="8.0dip" />
+    </HorizontalScrollView>
+</LinearLayout>

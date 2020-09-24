@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="kg_password_default_pin_message_multi_sim">
+        <item quantity="other">SIM കാർഡ് %1$d എന്നതിനുള്ള PIN നൽകുക. %2$d ശ്രമങ്ങൾ ശേഷിക്കുന്നു.</item>
+        <item quantity="one">SIM കാർഡ് %1$d എന്നതിനുള്ള PIN നൽകുക. %2$d ശ്രമം ശേഷിക്കുന്നു. ഇത് വീണ്ടും തെറ്റാവുകയാണെങ്കിൽ നിങ്ങൾ ഉപകരണം അൺലോക്ക് ചെയ്യാൻ സഹായത്തിന് കാരിയറെ ബന്ധപ്പെടേണ്ടിവരും.</item>
+    </plurals>
+    <plurals name="kg_password_wrong_pin_code">
+        <item quantity="other">തെറ്റായ SIM ‌PIN. %d പരിശ്രമങ്ങൾ അവശേഷിക്കുന്നു.</item>
+        <item quantity="one">തെറ്റായ SIM ‌PIN. %d പരിശ്രമങ്ങൾ അവശേഷിക്കുന്നു. ഇത് വീണ്ടും തെറ്റുകയാണെങ്കിൽ, ഉപകരണം അൺലോക്കുചെയ്യാൻ നിങ്ങൾ കാരിയറെ ബന്ധപ്പെടേണ്ടി വരും.</item>
+    </plurals>
+    <plurals name="kg_password_wrong_pin_code_multi_sim">
+        <item quantity="other">SIM കാർഡ് %1$d എന്നതിനുള്ള PIN തെറ്റാണ്. %2$d ശ്രമങ്ങൾ ശേഷിക്കുന്നു.</item>
+        <item quantity="one">SIM കാർഡ് %1$d എന്നതിനുള്ള PIN തെറ്റാണ്. %2$d ശ്രമം ശേഷിക്കുന്നു. ഇത് വീണ്ടും തെറ്റാവുകയാണെങ്കിൽ നിങ്ങൾ ഉപകരണം അൺലോക്ക് ചെയ്യാൻ സഹായത്തിന് കാരിയറെ ബന്ധപ്പെടേണ്ടിവരും.</item>
+    </plurals>
+    <plurals name="kg_password_wrong_puk_code">
+        <item quantity="other">‌തെറ്റായ SIM PUK ‌കോഡ്. %d പരിശ്രമങ്ങൾ അവശേഷിക്കുന്നു. ഇത് വീണ്ടും തെറ്റുകയാണെങ്കിൽ, SIM-കൾ ശാശ്വതമായി പ്രവർത്തനരഹിതമാക്കും.</item>
+        <item quantity="one">‌തെറ്റായ SIM PUK ‌കോഡ്. %d പരിശ്രമങ്ങൾ അവശേഷിക്കുന്നു. ഇത് വീണ്ടും തെറ്റുകയാണെങ്കിൽ, SIM ശാശ്വതമായി പ്രവർത്തനരഹിതമാക്കും.</item>
+    </plurals>
+    <plurals name="kg_prompt_reason_time_password">
+        <item quantity="other">ഉപകരണം %d മണിക്കൂർ ‌ലോക്കുചെയ്തിരിക്കുന്നു.പാസ്‌വേഡ് ‌സ്ഥിരീകരിക്കുക.</item>
+        <item quantity="one">ഉപകരണം %d മണിക്കൂർ ‌ലോക്കുചെയ്തിരിക്കുന്നു.പാസ്‌വേഡ് ‌സ്ഥിരീകരിക്കുക.</item>
+    </plurals>
+    <plurals name="kg_prompt_reason_time_pattern">
+        <item quantity="other">ഉപകരണം %d മണിക്കൂർ ‌ലോക്കുചെയ്തിരിക്കുന്നു.‌അണ്‍‍ലോക്ക് പാറ്റേണ്‍ ‌സ്ഥിരീകരിക്കുക.</item>
+        <item quantity="one">ഉപകരണം %d മണിക്കൂർ ‌ലോക്കുചെയ്തിരിക്കുന്നു.‌അണ്‍‍ലോക്ക് പാറ്റേണ്‍ ‌സ്ഥിരീകരിക്കുക.</item>
+    </plurals>
+    <plurals name="kg_prompt_reason_time_pin">
+        <item quantity="other">ഉപകരണം %d മണിക്കൂർ ‌ലോക്കുചെയ്തിരിക്കുന്നു.PIN ‌സ്ഥിരീകരിക്കുക.</item>
+        <item quantity="one">ഉപകരണം %d മണിക്കൂർ ‌ലോക്കുചെയ്തിരിക്കുന്നു.PIN ‌സ്ഥിരീകരിക്കുക.</item>
+    </plurals>
+    <plurals name="kg_too_many_failed_attempts_countdown">
+        <item quantity="other">%d സെക്കൻഡിന് ശേഷം വീണ്ടും ശ്രമിക്കുക.</item>
+        <item quantity="one">1 സെക്കൻഡിന് ശേഷം വീണ്ടും ശ്രമിക്കുക.</item>
+    </plurals>
+    <plurals name="notification_group_overflow_description">
+        <item quantity="other">ഈ ഗ്രൂപ്പിൽ ഇപ്പോഴും %s അറിയിപ്പുകളുണ്ട്.</item>
+        <item quantity="one">ഈ ഗ്രൂപ്പിൽ ഇപ്പോഴും %s അറിയിപ്പുണ്ട്.</item>
+    </plurals>
+    <plurals name="snoozeHourOptions">
+        <item quantity="other">%d മണിക്കൂർ</item>
+        <item quantity="one">%d മണിക്കൂർ</item>
+    </plurals>
+    <plurals name="snoozeMinuteOptions">
+        <item quantity="other">%d മിനിറ്റ്</item>
+        <item quantity="one">%d മിനിറ്റ്</item>
+    </plurals>
+</resources>

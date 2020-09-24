@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:id="@id/textPanel" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textAppearance="@style/VibrationText" android:gravity="center" android:id="@id/relative_weak" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/color_temperature_left_text_margin_top" android:text="@string/string_weak" android:layout_weight="1.0" />
+        <TextView android:textAppearance="@style/VibrationText" android:gravity="center" android:id="@id/relative_weaker" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/color_temperature_left_text_margin_top" android:text="@string/string_weaker" android:layout_weight="1.0" />
+        <TextView android:textAppearance="@style/VibrationText" android:gravity="center" android:id="@id/relative_in" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/color_temperature_left_text_margin_top" android:text="@string/string_in" android:layout_weight="1.0" />
+        <TextView android:textAppearance="@style/VibrationText" android:gravity="center" android:id="@id/relative_stronger" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/color_temperature_left_text_margin_top" android:text="@string/string_stronger" android:layout_weight="1.0" />
+        <TextView android:textAppearance="@style/VibrationText" android:gravity="center" android:id="@id/relative_strong" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/color_temperature_right_text_margin_top" android:text="@string/string_strong" android:layout_weight="1.0" />
+    </LinearLayout>
+    <com.color.support.widget.seekbar.ColorSectionSeekBar android:id="@id/seekbar" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/color_temperature_progressbar_margin_top" android:layout_marginBottom="@dimen/color_temperature_progressbar_margin_bottom" android:layout_below="@id/textPanel" android:layout_centerHorizontal="true" android:layout_marginStart="@dimen/common_margin" android:layout_marginEnd="@dimen/common_margin" />
+</LinearLayout>

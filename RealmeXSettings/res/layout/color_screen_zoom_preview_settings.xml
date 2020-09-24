@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true" android:importantForAccessibility="noHideDescendants"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <view android:id="@id/frame" android:layout_width="fill_parent" android:layout_height="wrap_content" class="com.android.settings.TouchBlockingFrameLayout">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <com.coloros.settings.widget.ColorIconJumpView android:layout_width="fill_parent" android:layout_height="wrap_content" app:icon="@drawable/settings_airplane_settings_ic" app:isShowArrow="false" app:isShowSwitch="true" app:title="@string/airplane_mode" />
+            <com.coloros.settings.widget.ColorIconJumpView android:layout_width="fill_parent" android:layout_height="wrap_content" android:forceDarkAllowed="false" app:icon="@drawable/settings_mobile_network_ic" app:title="@string/sim_and_network_settings" />
+            <com.coloros.settings.widget.ColorIconJumpView android:layout_width="fill_parent" android:layout_height="wrap_content" android:forceDarkAllowed="false" app:icon="@drawable/settings_wifi_ic" app:title="@string/wifi_settings_title" />
+            <com.coloros.settings.widget.ColorIconJumpView android:layout_width="fill_parent" android:layout_height="wrap_content" android:forceDarkAllowed="false" app:icon="@drawable/settings_bluetooh_ic" app:title="@string/bluetooth_settings_title" />
+            <com.coloros.settings.widget.ColorIconJumpView android:layout_width="fill_parent" android:layout_height="wrap_content" android:forceDarkAllowed="false" app:icon="@drawable/settings_more_settings_ic" app:isShowDiver="false" app:title="@string/oppo_other_wireless_settings" />
+            <View android:id="@id/view_divier" android:background="@color/color_preference_category_divider_color" android:layout_width="fill_parent" android:layout_height="@dimen/display_font_preview_divider" android:layout_marginTop="14.0dip" android:layout_marginBottom="14.0dip" android:layout_marginStart="@dimen/start_margin_for_home_page_category" android:layout_marginEnd="@dimen/color_preference_category_layout_divider_margin_start" android:forceDarkAllowed="false" />
+            <com.coloros.settings.widget.ColorIconJumpView android:layout_width="fill_parent" android:layout_height="wrap_content" android:forceDarkAllowed="false" app:icon="@drawable/settings_notify_center_ic" app:title="@string/notifycenter_and_statusbar" />
+            <com.coloros.settings.widget.ColorIconJumpView android:layout_width="fill_parent" android:layout_height="wrap_content" android:forceDarkAllowed="false" app:icon="@drawable/settings_brightness_ic" app:title="@string/display_and_brightness" />
+            <com.coloros.settings.widget.ColorIconJumpView android:id="@id/oppo_wallpaper" android:layout_width="fill_parent" android:layout_height="wrap_content" android:forceDarkAllowed="false" app:icon="@drawable/settings_wallpaper_ic" app:title="@string/wallpaper_settings_title" />
+            <com.coloros.settings.widget.ColorIconJumpView android:layout_width="fill_parent" android:layout_height="wrap_content" android:forceDarkAllowed="false" app:icon="@drawable/settings_sound_settings_ic" app:title="@string/sound_and_vibrator" />
+        </LinearLayout>
+    </view>
+</androidx.core.widget.NestedScrollView>

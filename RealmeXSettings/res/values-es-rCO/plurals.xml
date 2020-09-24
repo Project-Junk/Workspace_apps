@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="accessibilty_autoclick_preference_subtitle_extremely_short_delay">
+        <item quantity="other">Demora extremadamente corta (%1$d ms)</item>
+        <item quantity="one">Demora extremadamente corta (%1$d ms)</item>
+    </plurals>
+    <plurals name="accessibilty_autoclick_preference_subtitle_long_delay">
+        <item quantity="other">Demora larga (%1$d ms)</item>
+        <item quantity="one">Demora larga (%1$d ms)</item>
+    </plurals>
+    <plurals name="accessibilty_autoclick_preference_subtitle_short_delay">
+        <item quantity="other">Demora corta (%1$d ms)</item>
+        <item quantity="one">Demora corta (%1$d ms)</item>
+    </plurals>
+    <plurals name="accessibilty_autoclick_preference_subtitle_very_long_delay">
+        <item quantity="other">Demora muy larga (%1$d ms)</item>
+        <item quantity="one">Demora muy larga (%1$d ms)</item>
+    </plurals>
+    <plurals name="accessibilty_autoclick_preference_subtitle_very_short_delay">
+        <item quantity="other">Demora muy corta (%1$d ms)</item>
+        <item quantity="one">Demora muy corta (%1$d ms)</item>
+    </plurals>
+    <plurals name="bugreport_countdown">
+        <item quantity="other">El sistema capturará la pantalla que contiene el informe de errores en %1$d segundos.</item>
+        <item quantity="one">El sistema capturará la pantalla que contiene el informe de errores en %1$d segundo.</item>
+    </plurals>
+    <plurals name="data_saver_unrestricted_summary">
+        <item quantity="other">%1$d aplicaciones tienen permiso de consumir datos ilimitados cuando está activado Ahorro de datos.</item>
+        <item quantity="one">1 aplicación tiene permiso de consumir datos ilimitados cuando está activado Ahorro de datos.</item>
+    </plurals>
+    <plurals name="dlg_remove_locales_title">
+        <item quantity="other">¿Eliminar los idiomas seleccionados?</item>
+        <item quantity="one">¿Eliminar el idioma seleccionado?</item>
+    </plurals>
+    <plurals name="enterprise_privacy_number_ca_certs">
+        <item quantity="other">%d Certificados CA por lo menos</item>
+        <item quantity="one">%d Certificado CA por lo menos</item>
+    </plurals>
+    <plurals name="enterprise_privacy_number_failed_password_wipe">
+        <item quantity="other">Se intentó %d veces</item>
+        <item quantity="one">Se intentó %d vez</item>
+    </plurals>
+    <plurals name="enterprise_privacy_number_packages">
+        <item quantity="other">%d aplicaciones</item>
+        <item quantity="one">%d aplicación</item>
+    </plurals>
+    <plurals name="enterprise_privacy_number_packages_lower_bound">
+        <item quantity="other">%d aplicaciones por lo menos</item>
+        <item quantity="one">%d aplicaciones por lo menos</item>
+    </plurals>
+    <plurals name="hours">
+        <item quantity="other">%s horas</item>
+        <item quantity="one">1 Hr</item>
+    </plurals>
+    <plurals name="memory_usage_apps_summary">
+        <item quantity="other">%1$d aplicaciones usaron memoria en los últimos %2$s</item>
+        <item quantity="one">1 aplicación usó memoria en los últimos %2$s</item>
+    </plurals>
+    <plurals name="minutes">
+        <item quantity="other">%s Minutos</item>
+        <item quantity="one">1 Minuto</item>
+    </plurals>
+    <plurals name="optimizable_count">
+        <item quantity="other">Se pueden optimizar %1$d elementos</item>
+        <item quantity="one">Se puede optimizar %1$d elemento</item>
+    </plurals>
+    <plurals name="permissions_summary">
+        <item quantity="other">Se otorgaron %d permisos</item>
+        <item quantity="one">Se otorgó %d permiso</item>
+    </plurals>
+    <plurals name="runtime_permissions_additional_count">
+        <item quantity="other">%d permisos adicionales</item>
+        <item quantity="one">%d permiso adicional</item>
+    </plurals>
+    <plurals name="runtime_permissions_summary">
+        <item quantity="other">Se otorgaron %1$d permisos (de %2$d)</item>
+        <item quantity="one">Se otorgó %1$d permiso (de %2$d)</item>
+    </plurals>
+    <plurals name="seconds">
+        <item quantity="other">%s segundos</item>
+        <item quantity="one">1 seg</item>
+    </plurals>
+    <plurals name="security_settings_fingerprint_preference_summary">
+        <item quantity="other">Se configuraron %1$d huellas digitales</item>
+        <item quantity="one">Se configuró %1$d huella digital</item>
+    </plurals>
+    <plurals name="security_summary_apps_security">
+        <item quantity="other">Se cifraron %1$d aplicaciones</item>
+        <item quantity="one">Se cifró %1$d aplicación</item>
+    </plurals>
+    <plurals name="security_summary_float_window">
+        <item quantity="other">Bloqueado %1$d veces</item>
+        <item quantity="one">Se bloqueó %1$d vez</item>
+    </plurals>
+    <plurals name="security_summary_harassment_call">
+        <item quantity="other">%1$d llamadas</item>
+        <item quantity="one">%1$d llamada</item>
+    </plurals>
+    <plurals name="security_summary_harassment_sms">
+        <item quantity="other">%1$d mensajes SMS</item>
+        <item quantity="one">%1$d mensaje SMS</item>
+    </plurals>
+    <plurals name="security_summary_intelligent_identification_contact">
+        <item quantity="other">Se identificaron %1$d números</item>
+        <item quantity="one">Se identificó %1$d número</item>
+    </plurals>
+    <plurals name="security_summary_payment_protection">
+        <item quantity="other">Se protegieron %1$d operaciones de pago</item>
+        <item quantity="one">Se protegió %1$d operación de pago</item>
+    </plurals>
+    <plurals name="security_summary_permission_manager">
+        <item quantity="other">Bloqueado %1$d veces</item>
+        <item quantity="one">Se bloqueó %1$d vez</item>
+    </plurals>
+    <plurals name="security_summary_private_info_protect">
+        <item quantity="other">Se protegieron %1$d elementos de información personal</item>
+        <item quantity="one">Se protegió %1$d elemento de información personal</item>
+    </plurals>
+    <plurals name="security_summary_pseudo_base_station">
+        <item quantity="other">Se bloquearon %1$d pseudo estaciones base</item>
+        <item quantity="one">Se bloqueó %1$d pseudo estación base</item>
+    </plurals>
+    <plurals name="settings_optimizable_count">
+        <item quantity="other">Se pueden optimizar %1$d elementos</item>
+        <item quantity="one">Se puede optimizar %1$d elemento</item>
+    </plurals>
+    <plurals name="settings_suggestion_header_summary_hidden_items">
+        <item quantity="other">Mostrar %d Elementos Ocultos</item>
+        <item quantity="one">Mostrar %d Elemento Oculto</item>
+    </plurals>
+    <plurals name="ssl_ca_cert_dialog_title">
+        <item quantity="other">Confiar o Eliminar Certificados</item>
+        <item quantity="one">Confiar o Eliminar Certificado</item>
+    </plurals>
+    <plurals name="ssl_ca_cert_info_message">
+        <item quantity="other">"%s ha instalado varias autoridades de certificación para su perfil de trabajo. Estas se pueden usar para monitorear su actividad en la red (incluso el uso del correo electrónico, aplicaciones y sitios web seguros) mientras trabaja.
+
+Para más detalles relacionados con estos certificados, por favor contacte a su administrador."</item>
+        <item quantity="one">"%s ha instalado una autoridad de certificación para su perfil de trabajo. Esta se pueden usar para monitorear su actividad en la red (incluso el uso del correo electrónico, aplicaciones y sitios web seguros) mientras trabaja.
+
+Para más detalles relacionados con este certificado, por favor contacte a su administrador."</item>
+    </plurals>
+    <plurals name="ssl_ca_cert_info_message_device_owner">
+        <item quantity="other">"%s ha instalado varias autoridades de certificación en su dispositivo. Estas se pueden usar para monitorear la actividad en la red de su dispositivo (incluso el uso del correo electrónico, aplicaciones y sitios web seguros).
+
+Para más detalles relacionados con estos certificados, por favor contacte a su administrador."</item>
+        <item quantity="one">"%s ha instalado una autoridad de certificación en su dispositivo. Esta se pueden usar para monitorear la actividad en la red de su dispositivo (incluso el uso del correo electrónico, aplicaciones y sitios web seguros).
+
+Para más detalles relacionados con este certificado, por favor contacte a su administrador."</item>
+    </plurals>
+    <plurals name="ssl_ca_cert_settings_button">
+        <item quantity="other">Verificar Certificados</item>
+        <item quantity="one">Verificar Certificado</item>
+    </plurals>
+    <plurals name="uri_permissions_text">
+        <item quantity="other">%d Elemento(s)</item>
+        <item quantity="one">1 Elemento</item>
+    </plurals>
+    <plurals name="zen_mode_summary_alarms_only_by_hour">
+        <item quantity="other">Cambiar a Solo Alarmas, válido durante %1$d horas (hasta las %2$s)</item>
+        <item quantity="one">Cambiar a Solo Alarmas, válido durante 1 hora (hasta las %2$s)</item>
+    </plurals>
+    <plurals name="zen_mode_summary_alarms_only_by_minute">
+        <item quantity="other">Cambiar a Solo Alarmas, válido durante %1$d minutos (hasta las %2$s)</item>
+        <item quantity="one">Cambiar a Solo Alarmas, válido durante 1 minuto (hasta las %2$s)</item>
+    </plurals>
+</resources>

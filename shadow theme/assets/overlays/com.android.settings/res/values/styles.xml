@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<style name="Theme.SettingsBase" parent="@android:style/Theme.Material">
+    <item name="android:colorAccent">@*com.android.settings:color/notification_block_color</item>
+    <!--item name="android:colorAccent">#ff80cbc4</item-->
+    <!--item name="android:textColor">#ffffffff</item--><!--would override dashboard_category_title_text-->
+    <!--item name="android:textColorPrimary">@android:color/white</item>
+    <item name="android:textColorSecondary">#b3ffffff</item>
+    <item name="android:textColorTertiary">#b3ffffff</item>
+    <item name="android:colorBackground">#ff303030</item>
+    <item name="android:colorControlHighlight">#4dffffff</item-->
+</style>
+    <style name="Theme.ActionBar" parent="@android:style/Widget.Material.ActionBar.Solid">
+        <item name="android:contentInsetStart">16dp</item>
+        <item name="android:popupTheme">@android:style/Widget.Material.PopupMenu</item>
+        <item name="android:colorAccent">@*com.android.settings:color/notification_block_color</item>
+    </style>
+    <style name="ThemeOverlay.SwitchBar.Settings" parent="@*android:style/ThemeOverlay.DeviceDefault.Dark.ActionBar.Accent">
+        <item name="@*com.android.settings:attr/switchBarMarginStart">@*com.android.settings:dimen/switchbar_subsettings_margin_start</item>
+        <item name="@*com.android.settings:attr/switchBarMarginEnd">@*com.android.settings:dimen/switchbar_subsettings_margin_end</item>
+        <!--item name="@*com.android.settings:attr/switchBarBackgroundColor">@color/switchbar_background_color</item-->
+        <item name="@*com.android.settings:attr/switchBarBackgroundColor">#ffff0000</item>
+        <item name="android:colorAccent">@*com.android.settings:color/notification_block_color</item>
+        <item name="android:colorSecondary">#ff000000</item><!--Used as bg in drawable/switchbar_background-->
+    </style>
+
+    <style name="ThemeOverlay.SwitchBar.SubSettings" parent="@android:style/ThemeOverlay.Material.Dark.ActionBar">
+        <item name="@*com.android.settings:attr/switchBarMarginStart">@*com.android.settings:dimen/switchbar_subsettings_margin_start</item>
+        <item name="@*com.android.settings:attr/switchBarMarginEnd">@*com.android.settings:dimen/switchbar_subsettings_margin_end</item>
+        <!--item name="@*com.android.settings:attr/switchBarBackgroundColor">@color/switchbar_background_color</item-->
+        <item name="@*com.android.settings:attr/switchBarBackgroundColor">#ffff0000</item>
+        <item name="android:colorAccent">@*com.android.settings:color/notification_block_color</item>
+        <item name="android:colorSecondary">#ff000000</item><!--Used as bg in drawable/switchbar_background-->
+    </style>
+</resources>

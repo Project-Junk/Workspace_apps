@@ -1,0 +1,431 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="abc_slice_duration_days">
+        <item quantity="other">%d na araw ang nakalipas</item>
+        <item quantity="one">%d araw ang nakalipas</item>
+    </plurals>
+    <plurals name="abc_slice_duration_min">
+        <item quantity="other">%d na min ang nakalipas</item>
+        <item quantity="one">%d min ang nakalipas</item>
+    </plurals>
+    <plurals name="abc_slice_duration_years">
+        <item quantity="other">%d na taon ang nakalipas</item>
+        <item quantity="one">%d taon ang nakalipas</item>
+    </plurals>
+    <plurals name="accessibility_usage_summary">
+        <item quantity="other">%1$d na app ang may kumpletong access sa iyong device</item>
+        <item quantity="one">%1$d app ang may kumpletong access sa iyong device</item>
+    </plurals>
+    <plurals name="accessibilty_autoclick_preference_subtitle_extremely_short_delay">
+        <item quantity="other">Napakasaglit na delay (%1$d ms)</item>
+        <item quantity="one">Napakasaglit na delay (%1$d ms)</item>
+    </plurals>
+    <plurals name="accessibilty_autoclick_preference_subtitle_long_delay">
+        <item quantity="other">Matagal na delay (%1$d ms)</item>
+        <item quantity="one">Matagal na delay (%1$d ms)</item>
+    </plurals>
+    <plurals name="accessibilty_autoclick_preference_subtitle_short_delay">
+        <item quantity="other">Sandaling delay (%1$d ms)</item>
+        <item quantity="one">Sandaling delay (%1$d ms)</item>
+    </plurals>
+    <plurals name="accessibilty_autoclick_preference_subtitle_very_long_delay">
+        <item quantity="other">Napakatagal na delay (%1$d ms)</item>
+        <item quantity="one">Napakatagal na delay (%1$d ms)</item>
+    </plurals>
+    <plurals name="accessibilty_autoclick_preference_subtitle_very_short_delay">
+        <item quantity="other">Napakasaglit na delay (%1$d ms)</item>
+        <item quantity="one">Napakasaglit na delay (%1$d ms)</item>
+    </plurals>
+    <plurals name="app_notification_listing_summary_others">
+        <item quantity="other">Naka-off para sa %d na app</item>
+        <item quantity="one">Naka-off para sa %d app</item>
+    </plurals>
+    <plurals name="battery_manager_app_restricted">
+        <item quantity="other">%1$d na pinaghihigpitang app</item>
+        <item quantity="one">%1$d pinaghihigpitang app</item>
+    </plurals>
+    <plurals name="battery_tip_restrict_app_dialog_title">
+        <item quantity="other">Paghigpitan ang %1$d na app?</item>
+        <item quantity="one">Paghigpitan ang %1$d app?</item>
+    </plurals>
+    <plurals name="battery_tip_restrict_handled_summary">
+        <item quantity="other">Hindi maaaring tumakbo sa background ang mga app na ito</item>
+        <item quantity="one">Hindi maaaring tumakbo sa background ang mga app na ito</item>
+    </plurals>
+    <plurals name="battery_tip_restrict_handled_title">
+        <item quantity="other">%2$d na app ang pinaghigpitan kamakailan</item>
+        <item quantity="one">%2$d app ang pinaghigpitan kamakailan</item>
+    </plurals>
+    <plurals name="battery_tip_restrict_summary">
+        <item quantity="other">%2$d na app ang may malakas na paggamit ng baterya sa background</item>
+        <item quantity="one">%2$d app ang may malakas na paggamit ng baterya sa background</item>
+    </plurals>
+    <plurals name="battery_tip_restrict_title">
+        <item quantity="other">Paghigpitan ang %1$d na app</item>
+        <item quantity="one">Paghigpitan ang %1$d app</item>
+    </plurals>
+    <plurals name="billing_cycle_days_left">
+        <item quantity="other">%d na araw ang natitira</item>
+        <item quantity="one">%d araw ang natitira</item>
+    </plurals>
+    <plurals name="bugreport_countdown">
+        <item quantity="other">Ika-capture ng system ang screen na naglalaman ng ulat sa error sa %1$d (na) segundo.</item>
+        <item quantity="one">Ika-capture ng system ang screen na naglalaman ng ulat sa error sa %1$d segundo.</item>
+    </plurals>
+    <plurals name="codebook_saved_account_number">
+        <item quantity="other">%d (na) pares ng username at password ang naka-save sa Mga password.</item>
+        <item quantity="one">%d pares ng username at password ang naka-save sa Mga password.</item>
+    </plurals>
+    <plurals name="data_saver_unrestricted_summary">
+        <item quantity="other">%1$d app ang pinapayagang gumamit ng unlimited na data kapag naka-on ang Data Saver.</item>
+        <item quantity="one">1 app ang pinapayagang gumamit ng unlimited na data kapag naka-on ang Data Saver.</item>
+    </plurals>
+    <plurals name="default_camera_app_title">
+        <item quantity="other">na app na Camera</item>
+        <item quantity="one">app na Camera</item>
+    </plurals>
+    <plurals name="default_email_app_title">
+        <item quantity="other">na app na Client ng email</item>
+        <item quantity="one">app na Client ng email</item>
+    </plurals>
+    <plurals name="default_phone_app_title">
+        <item quantity="other">na app na Telepono</item>
+        <item quantity="one">app na Telepono</item>
+    </plurals>
+    <plurals name="deleted_channels">
+        <item quantity="other">Na-delete ang %d na kategorya</item>
+        <item quantity="one">Na-delete ang %d kategorya</item>
+    </plurals>
+    <plurals name="dlg_remove_locales_title">
+        <item quantity="other">Alisin ang mga napiling wika?</item>
+        <item quantity="one">Alisin ang napiling wika?</item>
+    </plurals>
+    <plurals name="domain_urls_apps_summary_on">
+        <item quantity="other">Binubuksan ng %d na app ang mga sinusuportahang link</item>
+        <item quantity="one">Binubuksan ng %d app ang mga sinusuportahang link</item>
+    </plurals>
+    <plurals name="enterprise_privacy_number_ca_certs">
+        <item quantity="other">Hindi bababa sa %d (na) CA Certificate</item>
+        <item quantity="one">Hindi bababa sa %d CA Certificate</item>
+    </plurals>
+    <plurals name="enterprise_privacy_number_failed_password_wipe">
+        <item quantity="other">Sumubok nang %d (na) beses</item>
+        <item quantity="one">Sumubok nang %d beses</item>
+    </plurals>
+    <plurals name="enterprise_privacy_number_packages">
+        <item quantity="other">%d (na) app</item>
+        <item quantity="one">%d app</item>
+    </plurals>
+    <plurals name="enterprise_privacy_number_packages_lower_bound">
+        <item quantity="other">Hindi bababa sa %d (na) app</item>
+        <item quantity="one">Hindi bababa sa %d app</item>
+    </plurals>
+    <plurals name="hours">
+        <item quantity="other">%s (na) oras</item>
+        <item quantity="one">1 oras</item>
+    </plurals>
+    <plurals name="location_app_permission_summary_location_on">
+        <item quantity="other">%1$d sa %2$d (na) app ang may access sa lokasyon</item>
+        <item quantity="one">%1$d sa %2$d (na) app ang may access sa lokasyon</item>
+    </plurals>
+    <plurals name="location_settings_summary_location_on">
+        <item quantity="other">Naka-on - %1$d na app ang may access sa lokasyon</item>
+        <item quantity="one">Naka-on - %1$d app ang may access sa lokasyon</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_letters">
+        <item quantity="other">Dapat na maglaman ng kahit %d na titik lang</item>
+        <item quantity="one">Dapat na maglaman ng kahit %d titik lang</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_lowercase">
+        <item quantity="other">Dapat na maglaman ng kahit %d na maliit na titik lang</item>
+        <item quantity="one">Dapat na maglaman ng kahit %d maliit na titik lang</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_nonletter">
+        <item quantity="other">Dapat na maglaman ng kahit %d na hindi titik na character lang</item>
+        <item quantity="one">Dapat na maglaman ng kahit %d hindi titik na character lang</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_numeric">
+        <item quantity="other">Dapat na maglaman ng kahit %d na numero lang</item>
+        <item quantity="one">Dapat na maglaman ng kahit %d numero lang</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_symbols">
+        <item quantity="other">Dapat na maglaman ng kahit %d na espesyal na simbolo lang</item>
+        <item quantity="one">Dapat na maglaman ng kahit %d espesyal na simbolo lang</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_uppercase">
+        <item quantity="other">Dapat na maglaman ng kahit %d na malaking titik lang</item>
+        <item quantity="one">Dapat na maglaman ng kahit %d malaking titik lang</item>
+    </plurals>
+    <plurals name="lockpassword_password_too_long">
+        <item quantity="other">Dapat ay wala pang %d na character</item>
+        <item quantity="one">Dapat ay wala pang %d character</item>
+    </plurals>
+    <plurals name="lockpassword_password_too_short">
+        <item quantity="other">Dapat ay may kahit %d na character</item>
+        <item quantity="one">Dapat ay may kahit %d character</item>
+    </plurals>
+    <plurals name="lockpassword_pin_too_long">
+        <item quantity="other">Dapat ay wala pang %d na digit</item>
+        <item quantity="one">Dapat ay wala pang %d digit</item>
+    </plurals>
+    <plurals name="lockpassword_pin_too_short">
+        <item quantity="other">Dapat ay may kahit %d na digit ang PIN</item>
+        <item quantity="one">Dapat ay may kahit %d digit ang PIN</item>
+    </plurals>
+    <plurals name="manage_notification_access_summary_nonzero">
+        <item quantity="other">%d na app ang makakapagbasa ng mga notification</item>
+        <item quantity="one">%d app ang makakapagbasa ng mga notification</item>
+    </plurals>
+    <plurals name="manage_trust_agents_summary_on">
+        <item quantity="other">%d na aktibong trust agent</item>
+        <item quantity="one">%d aktibong trust agent</item>
+    </plurals>
+    <plurals name="memory_usage_apps_summary">
+        <item quantity="other">%1$d (na) app ang nagamit na memory sa huling %2$s</item>
+        <item quantity="one">1 app ang nagamit na memory sa huling %2$s</item>
+    </plurals>
+    <plurals name="minutes">
+        <item quantity="other">%s (na) oras</item>
+        <item quantity="one">1 min</item>
+    </plurals>
+    <plurals name="mobile_network_summary_count">
+        <item quantity="other">%1$d na SIM</item>
+        <item quantity="one">%1$d SIM</item>
+    </plurals>
+    <plurals name="network_restrictions_summary">
+        <item quantity="other">%1$d na paghihigpit</item>
+        <item quantity="one">%1$d paghihigpit</item>
+    </plurals>
+    <plurals name="notification_few_channel_count_summary">
+        <item quantity="other">%1$d na notification channel.</item>
+        <item quantity="one">%1$d notification channel.</item>
+    </plurals>
+    <plurals name="notification_group_summary">
+        <item quantity="other">%d na kategorya</item>
+        <item quantity="one">%d kategorya</item>
+    </plurals>
+    <plurals name="notification_summary">
+        <item quantity="other">Naka-off para sa %d na app</item>
+        <item quantity="one">Naka-off para sa %d app</item>
+    </plurals>
+    <plurals name="notifications_categories_off">
+        <item quantity="other">%d na kategorya ang na-off</item>
+        <item quantity="one">%d kategorya ang na-off</item>
+    </plurals>
+    <plurals name="notifications_sent_daily">
+        <item quantity="other">~%d na notification bawat araw</item>
+        <item quantity="one">~%d notification bawat araw</item>
+    </plurals>
+    <plurals name="notifications_sent_weekly">
+        <item quantity="other">~%d na notification bawat linggo</item>
+        <item quantity="one">~%d notification bawat linggo</item>
+    </plurals>
+    <plurals name="number_of_device_admins">
+        <item quantity="other">%d na aktibong app</item>
+        <item quantity="one">%d aktibong app</item>
+    </plurals>
+    <plurals name="optimizable_count">
+        <item quantity="other">%1$d (na) item ang maaaring i-optimize</item>
+        <item quantity="one">%1$d item ang maaaring i-optimize</item>
+    </plurals>
+    <plurals name="permission_bar_chart_label">
+        <item quantity="other">%s na app</item>
+        <item quantity="one">%s app</item>
+    </plurals>
+    <plurals name="permissions_summary">
+        <item quantity="other">%d (na) pahintulot ang ibinigay</item>
+        <item quantity="one">%d pahintulot ang ibinigay</item>
+    </plurals>
+    <plurals name="power_high_usage_summary">
+        <item quantity="other">Hindi gumagana nang maayos ang %2$d na app</item>
+        <item quantity="one">Hindi gumagana nang maayos ang %2$d app</item>
+    </plurals>
+    <plurals name="power_high_usage_title">
+        <item quantity="other">Mga app na umuubos ng baterya</item>
+        <item quantity="one">Mga app na umuubos ng baterya</item>
+    </plurals>
+    <plurals name="print_jobs_summary">
+        <item quantity="other">%1$d na pag-print</item>
+        <item quantity="one">%1$d pag-print</item>
+    </plurals>
+    <plurals name="print_settings_summary">
+        <item quantity="other">May %1$d na serbisyo ng pag-print na naka-on</item>
+        <item quantity="one">May %1$d serbisyo ng pag-print na naka-on</item>
+    </plurals>
+    <plurals name="restricted_app_summary">
+        <item quantity="other">Paglimita sa paggamit ng baterya para sa %1$d na app</item>
+        <item quantity="one">Paglimita sa paggamit ng baterya para sa %1$d app</item>
+    </plurals>
+    <plurals name="retry_count_ticker">
+        <item quantity="other">Subukang muli sa loob ng %d s</item>
+        <item quantity="one">Subukang muli sa loob ng %d s</item>
+    </plurals>
+    <plurals name="runtime_permissions_additional_count">
+        <item quantity="other">%d karagdagang pahintulot</item>
+        <item quantity="one">%d karagdagang pahintulot</item>
+    </plurals>
+    <plurals name="runtime_permissions_summary">
+        <item quantity="other">%1$d (sa %2$d) (na) pahintulot ang ibinigay</item>
+        <item quantity="one">%1$d (sa %2$d) pahintulot ang ibinigay</item>
+    </plurals>
+    <plurals name="seconds">
+        <item quantity="other">%s (na) seg</item>
+        <item quantity="one">1 seg</item>
+    </plurals>
+    <plurals name="security_settings_fingerprint_preference_summary">
+        <item quantity="other">%1$d (na) fingerprint ang naka-configure</item>
+        <item quantity="one">%1$d fingerprint ang naka-configure</item>
+    </plurals>
+    <plurals name="security_summary_apps_security">
+        <item quantity="other">Na-lock ang %1$d (na) app</item>
+        <item quantity="one">Na-lock ang %1$d app</item>
+    </plurals>
+    <plurals name="security_summary_float_window">
+        <item quantity="other">Na-block nang %1$d (na) Beses</item>
+        <item quantity="one">Na-block nang %1$d Beses</item>
+    </plurals>
+    <plurals name="security_summary_harassment_call">
+        <item quantity="other">%1$d (na) Tawag</item>
+        <item quantity="one">%1$d Tawag</item>
+    </plurals>
+    <plurals name="security_summary_harassment_sms">
+        <item quantity="other">%1$d (na) Mensaheng SMS</item>
+        <item quantity="one">%1$d SMS Message</item>
+    </plurals>
+    <plurals name="security_summary_intelligent_identification_contact">
+        <item quantity="other">Nakatukoy ng %1$d (na) Numero</item>
+        <item quantity="one">Natukoy ang %1$d Numero</item>
+    </plurals>
+    <plurals name="security_summary_payment_protection">
+        <item quantity="other">Naprotektahan ang %1$d (na) Operasyon ng Pagbabayad</item>
+        <item quantity="one">Pinoprotektahan ang %1$d na Operation ng Pagbabayad</item>
+    </plurals>
+    <plurals name="security_summary_permission_manager">
+        <item quantity="other">Na-block nang %1$d (na) Beses</item>
+        <item quantity="one">Na-block nang %1$d Beses</item>
+    </plurals>
+    <plurals name="security_summary_private_info_protect">
+        <item quantity="other">Pinoprotektahan ang %1$d (na) Item ng Personal na Impormasyon</item>
+        <item quantity="one">Pinoprotektahan ang %1$d Item ng Personal na Impormasyon</item>
+    </plurals>
+    <plurals name="security_summary_pseudo_base_station">
+        <item quantity="other">Nag-block ng %1$d (na) Pseudo Base Station</item>
+        <item quantity="one">Na-block ang %1$d Pseudo Base Station</item>
+    </plurals>
+    <plurals name="settings_optimizable_count">
+        <item quantity="other">%1$d (na) item ang maaaring i-optimize</item>
+        <item quantity="one">%1$d item ang maaaring i-optimize</item>
+    </plurals>
+    <plurals name="settings_suggestion_header_summary_hidden_items">
+        <item quantity="other">Ipakita ang %d (na) Nakatagong Item</item>
+        <item quantity="one">Ipakita ang %d Nakatagong Item</item>
+    </plurals>
+    <plurals name="show_bluetooth_devices">
+        <item quantity="other">%1$d (na) device ang nakakonekta</item>
+        <item quantity="one">%1$d (na) device ang nakakonekta</item>
+    </plurals>
+    <plurals name="show_dev_countdown">
+        <item quantity="other">%1$d na hakbang na lang, magiging developer ka na.</item>
+        <item quantity="one">%1$d hakbang na lang, magiging developer ka na.</item>
+    </plurals>
+    <plurals name="show_number_hearingaid_count">
+        <item quantity="other">%1$d na na-save na hearing aid</item>
+        <item quantity="one">%1$d na-save na hearing aid</item>
+    </plurals>
+    <plurals name="special_access_summary">
+        <item quantity="other">May %d na app na maaaring gumamit ng walang limitasyong data</item>
+        <item quantity="one">May %d app na maaaring gumamit ng walang limitasyong data</item>
+    </plurals>
+    <plurals name="ssl_ca_cert_dialog_title">
+        <item quantity="other">Pagkatiwalaan o Alisin ang Mga Certificate</item>
+        <item quantity="one">Pagkatiwalaan o Alisin ang Certificate</item>
+    </plurals>
+    <plurals name="ssl_ca_cert_info_message">
+        <item quantity="other">"Nag-install ang %s ng ilang certificate authority para sa iyong work profile. Magagamit ang mga ito para masubaybayan ang aktibidad ng iyong network (kabilang ang paggamit ng email, mga app, at mga ligtas na website) habang nagtatrabaho ka.
+
+Para sa higit pang detalye tungkol sa mga certificate na ito, makipag-ugnayan sa iyong administrator."</item>
+        <item quantity="one">"Nag-install ang %s ng isang certificate authority para sa iyong work profile. Magagamit ito para masubaybayan ang aktibidad ng iyong network (kabilang ang paggamit ng email, mga app, at mga ligtas na website) habang nagtatrabaho ka.
+
+Para sa higit pang detalye tungkol sa certificate na ito, makipag-ugnayan sa iyong administrator."</item>
+    </plurals>
+    <plurals name="ssl_ca_cert_info_message_device_owner">
+        <item quantity="other">"Nag-install ang %s ng ilang certificate authority sa iyong device. Magagamit ang mga ito para masubaybayan ang aktibidad ng network ng iyong device (kabilang ang paggamit ng email, mga app, at mga ligtas na website).
+
+Para sa higit pang detalye tungkol sa mga certificate na ito, makipag-ugnayan sa iyong administrator."</item>
+        <item quantity="one">"Nag-install ang %s ng isang certificate authority sa iyong device. Magagamit ang ito para masubaybayan ang aktibidad ng network ng iyong device (kabilang ang paggamit ng email, mga app, at mga ligtas na website).
+
+Para sa higit pang detalye tungkol sa certificate na ito, makipag-ugnayan sa iyong administrator."</item>
+    </plurals>
+    <plurals name="ssl_ca_cert_settings_button">
+        <item quantity="other">Suriin ang Mga Certificate</item>
+        <item quantity="one">Suriin ang Certificate</item>
+    </plurals>
+    <plurals name="suggestions_collapsed_summary">
+        <item quantity="other">+%1$d na suhestyon</item>
+        <item quantity="one">+%1$d suhestyon</item>
+    </plurals>
+    <plurals name="suggestions_collapsed_title">
+        <item quantity="other">%1$d na suhestyon</item>
+        <item quantity="one">%1$d suhestyon</item>
+    </plurals>
+    <plurals name="uri_permissions_text">
+        <item quantity="other">%d (na) Item</item>
+        <item quantity="one">1 Item</item>
+    </plurals>
+    <plurals name="wifi_saved_access_points_summary">
+        <item quantity="other">%d na network</item>
+        <item quantity="one">%d network</item>
+    </plurals>
+    <plurals name="wifi_saved_all_access_points_summary">
+        <item quantity="other">%d na network at subscription</item>
+        <item quantity="one">%d network at subscription</item>
+    </plurals>
+    <plurals name="wifi_saved_passpoint_access_points_summary">
+        <item quantity="other">%d na subscription</item>
+        <item quantity="one">%d subscription</item>
+    </plurals>
+    <plurals name="wifi_tether_connected_summary">
+        <item quantity="other">%1$d na device ang nakakonekta</item>
+        <item quantity="one">%1$d device ang nakakonekta</item>
+    </plurals>
+    <plurals name="wrong_pin_code">
+        <item quantity="other">Maling PIN code ng SIM, %d subok na lang bago mo kailanganing makipag-ugnayan sa carrier mo para i-unlock ang device.</item>
+        <item quantity="one">Maling PIN code ng SIM, %d subok na lang bago mo kailanganing makipag-ugnayan sa carrier mo para i-unlock ang device.</item>
+    </plurals>
+    <plurals name="zen_mode_bypassing_apps_subtext">
+        <item quantity="other">Maaaring i-override ng mga notification mula sa %1$d (na) app ang Huwag Istorbohin</item>
+        <item quantity="one">Maaaring i-override ng mga notification mula sa %1$d (na) app ang Huwag Istorbohin</item>
+    </plurals>
+    <plurals name="zen_mode_duration_summary_time_hours">
+        <item quantity="other">%d na oras</item>
+        <item quantity="one">%d oras</item>
+    </plurals>
+    <plurals name="zen_mode_rules_new">
+        <item quantity="other">%1$d (na) panuntunan ang napili</item>
+        <item quantity="one">%1$d panuntunan ang napili</item>
+    </plurals>
+    <plurals name="zen_mode_settings_summary_on">
+        <item quantity="other">%d ang naka-enable</item>
+        <item quantity="one">%d ang naka-enable</item>
+    </plurals>
+    <plurals name="zen_mode_settings_summary_on_new">
+        <item quantity="other">%d (na) panuntunan ang nailapat</item>
+        <item quantity="one">%d panuntunan ang nailapat</item>
+    </plurals>
+    <plurals name="zen_mode_sound_summary_summary_off_info">
+        <item quantity="other">%d (na) iskedyul ang maaaring awtomatikong mag-on</item>
+        <item quantity="one">%d (na) iskedyul ang maaaring awtomatikong mag-on</item>
+    </plurals>
+    <plurals name="zen_mode_starred_contacts_summary_additional_contacts">
+        <item quantity="other">%d na iba pa</item>
+        <item quantity="one">%d iba pa</item>
+    </plurals>
+    <plurals name="zen_mode_summary_alarms_only_by_hour">
+        <item quantity="other">Gawing Mga Alarm Lang, may bisa sa loob ng %1$d (na) oras (hanggang %2$s)</item>
+        <item quantity="one">Gawing Mga Alarm Lang, may bisa sa loob ng 1 oras (hanggang %2$s)</item>
+    </plurals>
+    <plurals name="zen_mode_summary_alarms_only_by_minute">
+        <item quantity="other">Gawing Mga Alarm Lang, may bisa sa loob ng %1$d (na) minuto (hanggang %2$s)</item>
+        <item quantity="one">Gawing Mga Alarm Lang, may bisa sa loob ng 1 minuto (hanggang %2$s)</item>
+    </plurals>
+</resources>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:paddingTop="@dimen/dolby_music_ieq_item_padding_top" android:paddingBottom="@dimen/dolby_music_ieq_item_padding_bottom" android:descendantFocusability="blocksDescendants" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/tone_image" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <RadioButton android:textSize="@dimen/dolby_music_ieq_item_name_text_size" android:textColor="@color/dolby_music_ieq_item_name_text_color" android:id="@id/radio_button" android:focusable="false" android:focusableInTouchMode="false" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:checked="false" android:maxLines="1" android:fontFamily="sans-serif-medium" />
+</LinearLayout>

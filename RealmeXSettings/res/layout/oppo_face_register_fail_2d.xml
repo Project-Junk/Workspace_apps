@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/register_2d_fail_text_size" android:textColor="@color/white" android:gravity="center_horizontal" android:id="@id/fail_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/register_2d_prompt_text_margin_top" android:text="@string/face_guide_title" android:layout_centerHorizontal="true" android:fontFamily="sans-serif-medium" style="@style/LockText" />
+    <com.coloros.settings.widget.SettingsColorButton android:textSize="@dimen/register_2d_retry_text_size" android:gravity="center" android:id="@id/retry_btn" android:background="@drawable/color_large_main_button_bg" android:layout_width="@dimen/register_2d_retry_width" android:layout_height="@dimen/register_2d_retry_height" android:text="@string/enroll_again" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" android:contentDescription="@string/enroll_again" android:fontFamily="sans-serif-medium" style="?colorButtonColorfulDefaultStyle" />
+</RelativeLayout>

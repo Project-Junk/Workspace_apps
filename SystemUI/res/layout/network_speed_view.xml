@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.coloros.systemui.statusbar.widget.NetworkSpeedView android:id="@id/network_speed" android:layout_width="@dimen/status_bar_network_speed_view_width" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:layout_gravity="center" android:id="@id/ear_network_speed_root" android:layout_width="wrap_content" android:layout_height="fill_parent">
+        <TextView android:textAppearance="@style/TextAppearance.StatusBar.Clock" android:textSize="@dimen/network_speed_number_text_size" android:textStyle="bold" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/number" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginBottom="@dimen/network_speed_number_margin_bottom" android:maxLines="1" android:includeFontPadding="false" android:importantForAccessibility="no" />
+        <TextView android:textAppearance="@style/TextAppearance.StatusBar.Clock" android:textSize="@dimen/network_speed_unit_text_size" android:textStyle="bold" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/unit" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginTop="@dimen/network_speed_unit_margin_top" android:maxLines="1" android:includeFontPadding="false" android:importantForAccessibility="no" />
+    </FrameLayout>
+</com.coloros.systemui.statusbar.widget.NetworkSpeedView>

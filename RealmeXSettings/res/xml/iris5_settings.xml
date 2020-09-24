@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/oppo_osie_irirs5_super_quality_engine" android:key="opppo_oise_iris5"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto">
+    <com.coloros.settings.widget.preference.SettingsColorPreferenceCategory settings:isFirstCategory="true">
+        <com.coloros.settings.widget.preference.ColorIris5VideoViewPagerPreference android:enabled="true" android:key="osie_iris5_video" settings:controller="com.coloros.settings.feature.display.controller.Iris5VideoViewController" />
+        <com.coloros.settings.widget.preference.SettingSwitchPreference android:persistent="false" android:title="@string/oppo_osie_irirs5_quality_engine_open" android:key="osie_iris5_switch" settings:controller="com.coloros.settings.feature.display.controller.Iris5QualityEngineController" />
+    </com.coloros.settings.widget.preference.SettingsColorPreferenceCategory>
+    <PreferenceCategory android:key="oppo_osie_iris5_video_category">
+        <com.coloros.settings.widget.preference.SettingSwitchPreference android:title="@string/video_display_enhancement" android:key="osie_iris5_video_display_enhancement" android:summary="@string/oppo_osie_iris5_video_display_enhancement_des" settings:controller="com.coloros.settings.feature.display.controller.Iris5VideoDisplayEnhancementController" />
+        <com.coloros.settings.widget.preference.SettingsColorSwitchWithDividerPreference android:layout="@layout/color_switch_with_divider_preference" android:title="@string/oppo_osie_iris5_motion_fluency_optimization" android:key="oppo_iris5__motion_fluency_optimization" android:summaryOff="@string/oppo_osie_iris5_motion_fluency_optimization_des" android:fragment="com.coloros.settings.feature.display.video.Iris5MotionFluencySettingsFragment" settings:controller="com.coloros.settings.feature.display.controller.Iris5MotionFluencyController" />
+    </PreferenceCategory>
+    <PreferenceCategory>
+        <Preference android:layout="@layout/color_pager_footer_preference" android:selectable="false" android:key="oppo_osie_iris5_hint_summary" android:summary="@string/oppo_osie_iris5_features_des" settings:showNormalColor="true" />
+    </PreferenceCategory>
+</PreferenceScreen>

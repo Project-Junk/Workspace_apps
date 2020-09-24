@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:theme="@style/AppBaseTheme" android:orientation="vertical" android:paddingTop="9.0dip" android:paddingBottom="@dimen/M3" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/M10" android:paddingEnd="@dimen/M10">
+        <TextView android:textSize="14.0sp" android:textStyle="bold" android:textColor="@color/color_preference_title_color" android:id="@id/sub_title" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="8.669983dip" android:layout_centerHorizontal="true" />
+        <Button android:textSize="@dimen/color_font_size_12DP" android:id="@id/resend" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignBaseline="@id/edittext_view" android:layout_alignParentEnd="true" style="?android:buttonStyleSmall" />
+        <com.color.support.widget.ColorEditText android:ellipsize="end" android:id="@id/edittext_view" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="" android:singleLine="true" android:layout_below="@id/sub_title" android:inputType="textEmailAddress" android:layout_marginEnd="10.0dip" android:layout_toStartOf="@id/resend" settings:quickDelete="true" />
+        <TextView android:textAppearance="?android:textAppearanceSmall" android:textSize="12.0sp" android:textColor="#ffea3447" android:id="@id/message" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" android:layout_below="@id/edittext_view" />
+    </RelativeLayout>
+</ScrollView>

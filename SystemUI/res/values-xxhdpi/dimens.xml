@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="color_internet_label_button_gap">6.0dip</dimen>
+    <dimen name="color_internet_label_button_height">35.0dip</dimen>
+    <dimen name="color_internet_label_button_paddingleft">10.0dip</dimen>
+    <dimen name="color_internet_label_paddingleft">18.0dip</dimen>
+    <dimen name="color_internet_lable_textsize">14.0sp</dimen>
+    <dimen name="color_page_indicator_dot_stroke_width">2.0px</dimen>
+    <dimen name="color_support_menu_width">328.0dip</dimen>
+    <dimen name="half_camera_place_holder">53.0dip</dimen>
+    <dimen name="color_search_linear_divider_width">2.0px</dimen>
+</resources>

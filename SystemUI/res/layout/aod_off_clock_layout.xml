@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_centerInParent="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/aod_off_horizontal_clock_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/aod_horizontal_clock_margin_bottom" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true">
+        <RelativeLayout android:id="@id/aod_default_horizontal_clock_layout" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TextClock android:textSize="@dimen/aod_horizontal_clock_font_size" android:textColor="@color/aod_clock_white" android:id="@id/aod_off_horizontal_clock" android:layout_width="wrap_content" android:layout_height="wrap_content" android:includeFontPadding="false" android:layout_alignParentBottom="true" android:format12Hour="h:mm" android:format24Hour="HH:mm" />
+        </RelativeLayout>
+        <LinearLayout android:orientation="horizontal" android:id="@id/aod_global_horizontal_clock_layout" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+            <ImageView android:id="@id/aod_horizontal_clock_hour_1" android:layout_width="52.0dip" android:layout_height="86.0dip" />
+            <ImageView android:id="@id/aod_horizontal_clock_hour_2" android:layout_width="52.0dip" android:layout_height="86.0dip" />
+            <ImageView android:id="@id/aod_horizontal_clock_colon" android:layout_width="13.0dip" android:layout_height="86.0dip" />
+            <ImageView android:id="@id/aod_horizontal_clock_min_1" android:layout_width="52.0dip" android:layout_height="86.0dip" />
+            <ImageView android:id="@id/aod_horizontal_clock_min_2" android:layout_width="52.0dip" android:layout_height="86.0dip" />
+        </LinearLayout>
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/aod_off_digital_clock_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/aod_digital_clock_margin_bottom" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true">
+        <RelativeLayout android:id="@id/aod_default_vertical_clock_layout" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TextClock android:textSize="@dimen/aod_digital_clock_font_size" android:textColor="@color/aod_clock_white" android:id="@id/aod_off_digital_clock_hour" android:layout_width="wrap_content" android:layout_height="wrap_content" android:includeFontPadding="false" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" android:layout_alignParentStart="true" android:format12Hour="h" android:format24Hour="HH" />
+            <TextClock android:textSize="@dimen/aod_digital_clock_font_size" android:textColor="@color/aod_clock_white" android:id="@id/aod_off_digital_clock_min" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="1.0dip" android:includeFontPadding="false" android:layout_below="@id/aod_off_digital_clock_hour" android:layout_centerHorizontal="true" android:layout_alignParentStart="true" android:format12Hour="mm" android:format24Hour="mm" />
+        </RelativeLayout>
+        <LinearLayout android:orientation="vertical" android:id="@id/aod_global_vertical_clock_layout" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true">
+            <LinearLayout android:orientation="horizontal" android:id="@id/aod_off_clock_hour" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <ImageView android:id="@id/aod_off_clock_hour_1" android:layout_width="68.0dip" android:layout_height="85.0dip" />
+                <ImageView android:id="@id/aod_off_clock_hour_2" android:layout_width="68.0dip" android:layout_height="85.0dip" />
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:id="@id/aod_off_clock_minute" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <ImageView android:id="@id/aod_off_clock_min_1" android:layout_width="68.0dip" android:layout_height="85.0dip" />
+                <ImageView android:id="@id/aod_off_clock_min_2" android:layout_width="68.0dip" android:layout_height="85.0dip" />
+            </LinearLayout>
+        </LinearLayout>
+    </RelativeLayout>
+</RelativeLayout>

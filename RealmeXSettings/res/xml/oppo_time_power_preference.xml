@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.preference.PreferenceScreen android:title="@string/timepower_settings_title" android:key="timepower_settings_title_key"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto">
+    <com.coloros.settings.widget.preference.SettingsColorPreferenceCategory android:title="@string/timepower_power_on" android:key="timepower_power_on_key" settings:isFirstCategory="true">
+        <com.coloros.settings.feature.othersettings.timepower.TimePowerSwitchPreference android:key="power_on_switch" />
+    </com.coloros.settings.widget.preference.SettingsColorPreferenceCategory>
+    <com.coloros.settings.widget.preference.SettingsColorPreferenceCategory android:title="@string/timepower_power_off" android:key="timepower_power_off_key">
+        <com.coloros.settings.feature.othersettings.timepower.TimePowerSwitchPreference android:key="power_off_switch" />
+    </com.coloros.settings.widget.preference.SettingsColorPreferenceCategory>
+    <PreferenceCategory />
+</androidx.preference.PreferenceScreen>

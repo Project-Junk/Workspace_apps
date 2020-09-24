@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:padding="@dimen/TF11" android:layout_width="fill_parent" android:layout_height="fill_parent" style="?android:textAppearanceMedium"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/color_font_size_14SP" android:textColor="@android:color/black" android:gravity="center_horizontal" android:id="@id/hint" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/oppo_irirs5_diglog_msg" />
+    <CheckBox android:textSize="@dimen/oppo_dialog_content_text_size_small" android:textColor="@android:color/black" android:id="@id/checkbox" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/oppo_dialog_customview_padding_top" android:checked="false" android:text="@string/notask" android:layout_below="@id/hint" />
+</RelativeLayout>

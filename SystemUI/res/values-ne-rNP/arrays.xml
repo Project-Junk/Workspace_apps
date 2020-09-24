@@ -1,0 +1,329 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="animator_duration_scale_entries">
+        <item>एनिमेशन निष्क्रिय छ</item>
+        <item>एनिमेशन मापन .५x</item>
+        <item>एनिमेशन मापन १x</item>
+        <item>एनिमेशन मापन १.५x</item>
+        <item>एनिमेशन मापन २x</item>
+        <item>एनिमेशन मापन ५x</item>
+        <item>एनिमेशन मापन १०x</item>
+    </string-array>
+    <string-array name="app_process_limit_entries">
+        <item>मानक सीमा</item>
+        <item>कुनै पृष्ठभूमि प्रक्रियाहरू छैनन्</item>
+        <item>बढीमा १ प्रक्रिया</item>
+        <item>बढीमा २ प्रक्रियाहरू</item>
+        <item>बढीमा ३ प्रक्रियाहरू</item>
+        <item>बढीमा ४ प्रक्रियाहरू</item>
+    </string-array>
+    <string-array name="battery_labels">
+        <item>०%</item>
+        <item>५०%</item>
+        <item>१००%</item>
+    </string-array>
+    <string-array name="battery_options">
+        <item>सधैँ प्रतिशतमा देखिने बनाउनुहोस्</item>
+        <item>चार्ज हुँदा ब्याट्रीको पावर प्रतिशतमा देखिने बनाउनुहोस् (पूर्वनिर्धारित)</item>
+        <item>यो आइकन नदेखिने बनाउनुहोस्</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_bits_per_sample_summaries">
+        <item>प्रणालीको छनौट प्रयोग गर्नुहोस् (पूर्वनिर्धारित)</item>
+        <item>१६ बिट/नमुना</item>
+        <item>२४ बिट/नमुना</item>
+        <item>३२ बिट/नमुना</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_bits_per_sample_titles">
+        <item>प्रणालीको छनौट प्रयोग गर्नुहोस् (पूर्वनिर्धारित)</item>
+        <item>१६ बिट/नमुना</item>
+        <item>२४ बिट/नमुना</item>
+        <item>३२ बिट/नमुना</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_channel_mode_summaries">
+        <item>प्रणालीको छनौट प्रयोग गर्नुहोस् (पूर्वनिर्धारित)</item>
+        <item>मोनो</item>
+        <item>स्टेरियो</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_channel_mode_titles">
+        <item>प्रणालीको छनौट प्रयोग गर्नुहोस् (पूर्वनिर्धारित)</item>
+        <item>मोनो</item>
+        <item>स्टेरियो</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_ldac_playback_quality_summaries">
+        <item>अडियोको गुणस्तर सुधार्न अनुकूलन गरिएको</item>
+        <item>अडियो र जडानको गुणस्तरबीच सन्तुलन</item>
+        <item>जडानको गुणस्तर सुधार्न अनुकूलन गरिएको</item>
+        <item>सक्दो प्रयास (अनुकूल बिट रेट)</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_ldac_playback_quality_titles">
+        <item>अडियोको गुणस्तर सुधार्न अनुकूलन गरिएको (९९०kbps/९०९kbps)</item>
+        <item>अडियो र जडानको गुणस्तरबीच सन्तुलन (६६०kbps/६०६kbps)</item>
+        <item>जडानको गुणस्तर सुधार्न अनुकूलन गरिएको (३३०kbps/३०३kbps)</item>
+        <item>सक्दो प्रयास (अनुकूल बिट रेट)</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_sample_rate_summaries">
+        <item>प्रणालीको छनौट प्रयोग गर्नुहोस् (पूर्वनिर्धारित)</item>
+        <item>४४.१ kHz</item>
+        <item>४८.० kHz</item>
+        <item>८८.२ kHz</item>
+        <item>९६.० kHz</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_sample_rate_titles">
+        <item>प्रणालीको छनौट प्रयोग गर्नुहोस् (पूर्वनिर्धारित)</item>
+        <item>४४.१ kHz</item>
+        <item>४८.० kHz</item>
+        <item>८८.२ kHz</item>
+        <item>९६.० kHz</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_summaries">
+        <item>प्रणालीको छनौट प्रयोग गर्नुहोस् (पूर्वनिर्धारित)</item>
+        <item>SBC</item>
+        <item>AAC</item>
+        <item>Qualcomm®aptX™ अडियो</item>
+        <item>Qualcomm®aptX™ HD अडियो</item>
+        <item>LDAC</item>
+        <item>Qualcomm®aptX™ Adaptive अडियो</item>
+        <item>Qualcomm®aptX™ TWS+ अडियो</item>
+        <item>वैकल्पिक कोडेकहरू सक्षम बनाउनुहोस्</item>
+        <item>वैकल्पिक कोडेकहरू असक्षम बनाउनुहोस्</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_titles">
+        <item>प्रणालीको छनौट प्रयोग गर्नुहोस् (पूर्वनिर्धारित)</item>
+        <item>SBC</item>
+        <item>AAC</item>
+        <item>Qualcomm®aptX™ अडियो</item>
+        <item>Qualcomm®aptX™ HD अडियो</item>
+        <item>LDAC</item>
+        <item>Qualcomm®aptX™ Adaptive अडियो</item>
+        <item>Qualcomm®aptX™ TWS+ अडियो</item>
+        <item>वैकल्पिक कोडेकहरू सक्षम बनाउनुहोस्</item>
+        <item>वैकल्पिक कोडेकहरू असक्षम बनाउनुहोस्</item>
+    </string-array>
+    <string-array name="bluetooth_audio_active_device_summaries">
+        <item></item>
+        <item>, सक्रिय</item>
+        <item>, सक्रिय (मिडिया)</item>
+        <item>, सक्रिय (फोन)</item>
+    </string-array>
+    <string-array name="bluetooth_avrcp_version_values">
+        <item>avrcp14</item>
+        <item>avrcp13</item>
+        <item>avrcp15</item>
+        <item>avrcp16</item>
+    </string-array>
+    <string-array name="bluetooth_avrcp_versions">
+        <item>AVRCP १.४ (पूर्वनिर्धारित)</item>
+        <item>AVRCP १.३</item>
+        <item>AVRCP १.५</item>
+        <item>AVRCP १.६</item>
+    </string-array>
+    <string-array name="bt_hci_snoop_log_entries">
+        <item>असक्षम बनाइयो</item>
+        <item>फिल्टर सक्षम बनाइयो</item>
+        <item>शीर्षकहरूको फिल्टर सक्षम बनाइयो</item>
+        <item>मिडिया Pkts फिल्टर सक्षम बनाइयो</item>
+        <item>सक्षम बनाइयो</item>
+    </string-array>
+    <string-array name="clock_options">
+        <item>घण्टा, मिनेट र सेकेण्ड देखिने बनाउनुहोस्</item>
+        <item>घण्टा र मिनेट देखिने बनाउनुहोस् (पूर्वनिर्धारित)</item>
+        <item>यो आइकन नदेखिने बनाउनुहोस्</item>
+    </string-array>
+    <string-array name="color_lunar_mounth">
+        <item>正月</item>
+        <item>二月</item>
+        <item>三月</item>
+        <item>四月</item>
+        <item>五月</item>
+        <item>六月</item>
+        <item>七月</item>
+        <item>八月</item>
+        <item>九月</item>
+        <item>十月</item>
+        <item>冬月</item>
+        <item>腊月</item>
+    </string-array>
+    <string-array name="color_mode_descriptions">
+        <item>परिष्कृत रङहरू</item>
+        <item>आँखाले देख्ने झैँ प्राकृतिक रङ</item>
+        <item>डिजिटल सामग्रीका लागि अनुकूलन गरिएका रङहरू</item>
+    </string-array>
+    <string-array name="color_mode_names">
+        <item>भाइब्रेन्ट (पूर्वनिर्धारित)</item>
+        <item>प्राकृतिक</item>
+        <item>सामान्य</item>
+    </string-array>
+    <string-array name="color_solor_mounth">
+        <item>जनवरी</item>
+        <item>फेब्रुअरी</item>
+        <item>मार्च</item>
+        <item>अप्रिल</item>
+        <item>मे</item>
+        <item>जुन</item>
+        <item>जुलाइ</item>
+        <item>अगस्ट</item>
+        <item>सेप्टेम्बर</item>
+        <item>अक्टुबर</item>
+        <item>नोभेम्बर</item>
+        <item>डिसेम्बर</item>
+    </string-array>
+    <string-array name="debug_hw_overdraw_entries">
+        <item>निष्क्रिय गर्नुहोस्</item>
+        <item>ओभरड्र क्षेत्रहरू देखाउनुहोस्</item>
+        <item>ड्युट्र्यानोम्यालीका लागि क्षेत्र देखाउनुहोस्</item>
+    </string-array>
+    <string-array name="enable_opengl_traces_entries">
+        <item>कुनै पनि होइन</item>
+        <item>लगक्याट</item>
+        <item>सिसट्रेस (ग्राफिक्स)</item>
+        <item>glGetError मा स्ट्याक कल गर्नुहोस्</item>
+    </string-array>
+    <string-array name="hdcp_checking_summaries">
+        <item>कहिल्यै पनि HDCP जाँच नगर्नुहोस्</item>
+        <item>DRM सामग्रीका लागि मात्र HDCP जाँच प्रयोग गर्नुहोस्</item>
+        <item>सधैँ HDCP जाँच नगर्नुहोस्</item>
+    </string-array>
+    <string-array name="hdcp_checking_titles">
+        <item>कहिल्यै जाँच नगर्नुहोस्</item>
+        <item>DRM सामग्री मात्र जाँच गर्नुहोस्</item>
+        <item>सँधै जाँच गर्नुहोस्</item>
+    </string-array>
+    <string-array name="nav_bar_layouts">
+        <item>सामान्य</item>
+        <item>कम्प्याक्ट</item>
+        <item>बायाँतिर राख्नुहोस्</item>
+        <item>दायाँतिर राख्नुहोस्</item>
+    </string-array>
+    <string-array name="oppo_time_picker_ampm">
+        <item>AM</item>
+        <item>PM</item>
+    </string-array>
+    <string-array name="overlay_display_devices_entries">
+        <item>कुनै पनि होइन</item>
+        <item>४८० पिक्सेल</item>
+        <item>४८० पिक्सेल (सुरक्षित)</item>
+        <item>७२० पिक्सेल</item>
+        <item>७२० पिक्सेल (सुरक्षित)</item>
+        <item>१०८० पिक्सेल</item>
+        <item>१०८० पिक्सेल (सुरक्षित)</item>
+        <item>4K</item>
+        <item>4K (सुरक्षित)</item>
+        <item>4K (स्तरोन्नति गरिएको)</item>
+        <item>4K (स्तरोन्नति गरिएको, सुरक्षित)</item>
+        <item>७२० पिक्सेल, १०८० पिक्सेल (दोहोरो स्क्रिन)</item>
+    </string-array>
+    <string-array name="select_logd_size_lowram_titles">
+        <item>निष्क्रिय गर्नुहोस्</item>
+        <item>64K</item>
+        <item>256K</item>
+        <item>1M</item>
+    </string-array>
+    <string-array name="select_logd_size_summaries">
+        <item>निष्क्रिय गर्नुहोस्</item>
+        <item>64K प्रति लग बफर</item>
+        <item>256K प्रति लग बफर</item>
+        <item>1M प्रति लग बफर</item>
+        <item>4M प्रति लग बफर</item>
+        <item>16M प्रति लग बफर</item>
+    </string-array>
+    <string-array name="select_logd_size_titles">
+        <item>निष्क्रिय गर्नुहोस्</item>
+        <item>64K</item>
+        <item>256K</item>
+        <item>1M</item>
+        <item>4M</item>
+        <item>16M</item>
+    </string-array>
+    <string-array name="select_logpersist_summaries">
+        <item>निष्क्रिय गर्नुहोस्</item>
+        <item>सबै लग बफरहरू</item>
+        <item>रेडियो लग बफरहरूबाहेक सबै</item>
+        <item>कर्नल लग बफरहरू मात्र</item>
+    </string-array>
+    <string-array name="select_logpersist_titles">
+        <item>निष्क्रिय गर्नुहोस्</item>
+        <item>सबै</item>
+        <item>रेडियोबाहेक सबै</item>
+        <item>कर्नल मात्र</item>
+    </string-array>
+    <string-array name="show_non_rect_clip_entries">
+        <item>निष्क्रिय गर्नुहोस्</item>
+        <item>गैर आयाताकार क्लिप क्षेत्र नीलो रङ्गमा कोर्नुहोस्</item>
+        <item>परीक्षण भएको चित्र कोर्ने कमान्डहरू हरियो रङ्गमा उच्चप्रकाश गर्नुहोस्</item>
+    </string-array>
+    <string-array name="track_frame_time_entries">
+        <item>निष्क्रिय गर्नुहोस्</item>
+        <item>स्क्रिनमा धर्काका रुपमा</item>
+        <item>adb shell dumpsys gfxinfo मा</item>
+    </string-array>
+    <string-array name="transition_animation_scale_entries">
+        <item>एनिमेशन निष्क्रिय छ</item>
+        <item>एनिमेशन मापन .५x</item>
+        <item>एनिमेशन मापन १x</item>
+        <item>एनिमेशन मापन १.५x</item>
+        <item>एनिमेशन मापन २x</item>
+        <item>एनिमेशन मापन ५x</item>
+        <item>एनिमेशन मापन १०x</item>
+    </string-array>
+    <string-array name="tts_rate_entries">
+        <item>एकदमै सुस्त ढिलो</item>
+        <item>सुस्त</item>
+        <item>सामान्य</item>
+        <item>तीव्र</item>
+        <item>अझ तीव्र</item>
+        <item>एकदमै तीव्र</item>
+        <item>द्रुत</item>
+        <item>अत्यधिक द्रुत</item>
+        <item>सबैभन्दा तीव्र</item>
+    </string-array>
+    <string-array name="usb_configuration_titles">
+        <item>चार्ज हुँदै छ</item>
+        <item>MTP (मिडिया ट्रान्सफर प्रोटोकल)</item>
+        <item>PTP (पिक्चर ट्रान्सफर प्रोटोकल)</item>
+        <item>RNDIS (USB इथरनेट)</item>
+        <item>अडियो स्रोत</item>
+        <item>MIDI</item>
+    </string-array>
+    <string-array name="usb_type_select">
+        <item>चार्ज मात्र गर्ने</item>
+        <item>फाइलहरू स्थानान्तरण गर्ने</item>
+        <item>फोटोहरू स्थानान्तरण गर्ने</item>
+    </string-array>
+    <string-array name="wifi_status">
+        <item></item>
+        <item>…स्क्यान गर्दै</item>
+        <item>जोडिँदै…</item>
+        <item>प्रमाणीकरण गर्दै…</item>
+        <item>IP ठेगाना प्राप्त गर्दै…</item>
+        <item>जोडिएको छ</item>
+        <item>स्थगित गरिएको छ</item>
+        <item>विच्छेद हुँदै…</item>
+        <item>विच्छेद गरिएको छ</item>
+        <item>असफल</item>
+        <item>ब्लक गरियो</item>
+        <item>केही समयका लागि कमजोर जडानहरू वेवास्ता गर्दै</item>
+    </string-array>
+    <string-array name="wifi_status_with_ssid">
+        <item></item>
+        <item>…स्क्यान गर्दै</item>
+        <item>%1$s… मा जोडिँदै</item>
+        <item>%1$s सँग प्रमाणीकरण गर्दैछ …</item>
+        <item>%1$s बाट IP ठेगाना प्राप्त गर्दै …</item>
+        <item>%1$s मा जडान भएको छ</item>
+        <item>स्थगित गरिएको छ</item>
+        <item>%1$s बाट जडान विच्छेद गर्दै …</item>
+        <item>विच्छेद गरिएको छ</item>
+        <item>असफल</item>
+        <item>ब्लक गरियो</item>
+        <item>केही समयका लागि कमजोर जडानहरू वेवास्ता गर्दै</item>
+    </string-array>
+    <string-array name="window_animation_scale_entries">
+        <item>एनिमेशन निष्क्रिय छ</item>
+        <item>एनिमेशन मापन .५x</item>
+        <item>एनिमेशन मापन १x</item>
+        <item>एनिमेशन मापन १.५x</item>
+        <item>एनिमेशन मापन २x</item>
+        <item>एनिमेशन मापन ५x</item>
+        <item>एनिमेशन मापन १०x</item>
+    </string-array>
+</resources>

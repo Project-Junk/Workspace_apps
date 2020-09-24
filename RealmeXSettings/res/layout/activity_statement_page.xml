@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout android:id="@id/coordinator_layout" android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView android:id="@id/main_layout" android:scrollbars="none" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:nestedScrollingEnabled="true">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="@dimen/TD07" android:textColor="@color/settings_statement_text_color" android:id="@id/statement_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="26.0dip" android:lineSpacingMultiplier="1.4" android:layout_marginStart="@dimen/common_margin" android:layout_marginEnd="@dimen/common_margin" />
+            <TextView android:textSize="@dimen/TD07" android:textColor="@color/settings_statement_text_color" android:id="@id/statement_text2" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="24.0dip" android:lineSpacingMultiplier="1.4" android:fontFamily="sans-serif-medium" android:layout_marginStart="@dimen/common_margin" android:layout_marginEnd="@dimen/common_margin" />
+            <TextView android:textSize="@dimen/TD07" android:textColor="@color/settings_statement_text_color" android:id="@id/statement_privacy" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="24.0dip" android:lineSpacingMultiplier="1.4" android:layout_marginStart="@dimen/common_margin" android:layout_marginEnd="@dimen/common_margin" />
+        </LinearLayout>
+    </ScrollView>
+    <include layout="@layout/color_appbar_layout" />
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

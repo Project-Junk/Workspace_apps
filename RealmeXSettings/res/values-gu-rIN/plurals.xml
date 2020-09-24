@@ -1,0 +1,415 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="accessibility_usage_summary">
+        <item quantity="other">%1$d એપ્સને તમારા ડિવાઇસ માટે સંપૂર્ણ ઍક્સેસ છે</item>
+        <item quantity="one">1 એપને તમારા ડિવાઇસ માટે સંપૂર્ણ ઍક્સેસ છે</item>
+    </plurals>
+    <plurals name="accessibilty_autoclick_preference_subtitle_extremely_short_delay">
+        <item quantity="other">અત્યંત ટૂંકો વિલંબ (%1$d ms)</item>
+        <item quantity="one">અત્યંત ટૂંકો વિલંબ (%1$d ms)</item>
+    </plurals>
+    <plurals name="accessibilty_autoclick_preference_subtitle_long_delay">
+        <item quantity="other">લાંબો વિલંબ (%1$d ms)</item>
+        <item quantity="one">લાંબો વિલંબ (%1$d ms)</item>
+    </plurals>
+    <plurals name="accessibilty_autoclick_preference_subtitle_short_delay">
+        <item quantity="other">ટૂંકો વિલંબ (%1$d ms)</item>
+        <item quantity="one">ટૂંકો વિલંબ (%1$d ms)</item>
+    </plurals>
+    <plurals name="accessibilty_autoclick_preference_subtitle_very_long_delay">
+        <item quantity="other">ખૂબ લાંબો વિલંબ (%1$d ms)</item>
+        <item quantity="one">ખૂબ લાંબો વિલંબ (%1$d ms)</item>
+    </plurals>
+    <plurals name="accessibilty_autoclick_preference_subtitle_very_short_delay">
+        <item quantity="other">ખૂબ ટૂંકો વિલંબ (%1$d ms)</item>
+        <item quantity="one">ખૂબ ટૂંકો વિલંબ (%1$d ms)</item>
+    </plurals>
+    <plurals name="app_notification_listing_summary_others">
+        <item quantity="other">%d એપ્સ માટે બંધ</item>
+        <item quantity="one">%d એપ માટે બંધ</item>
+    </plurals>
+    <plurals name="battery_manager_app_restricted">
+        <item quantity="other">%1$d એપ્સ માર્યાદિત</item>
+        <item quantity="one">%1$d એપ માર્યાદિત</item>
+    </plurals>
+    <plurals name="battery_tip_restrict_app_dialog_title">
+        <item quantity="other">%1$d aએપ્સને માર્યાદિત કરીએ?</item>
+        <item quantity="one">એપને માર્યાદિત કરીએ?</item>
+    </plurals>
+    <plurals name="battery_tip_restrict_handled_summary">
+        <item quantity="other">આ એપ્સ બેકગ્રાઉન્ડમાં ચાલી શકતી નથી</item>
+        <item quantity="one">આ એપ બેકગ્રાઉન્ડમાં ચાલી શકતી નથી</item>
+    </plurals>
+    <plurals name="battery_tip_restrict_handled_title">
+        <item quantity="other">%2$d એપ્સને તાજેતરમાં માર્યાદિત કરેલ છે</item>
+        <item quantity="one">%1$s ને તાજેતરમાં માર્યાદિત કરેલ છે</item>
+    </plurals>
+    <plurals name="battery_tip_restrict_summary">
+        <item quantity="other">%2$d apએપ્સનો બેકગ્રાઉન્ડમાં બેટરીનો વપરાશ વધારે છે</item>
+        <item quantity="one">%1$s નો બેકગ્રાઉન્ડમાં બેટરીનો વપરાશ વધારે છે</item>
+    </plurals>
+    <plurals name="battery_tip_restrict_title">
+        <item quantity="other">%1$d એપ્સને માર્યાદિત કરો</item>
+        <item quantity="one">%1$d એપને માર્યાદિત કરો</item>
+    </plurals>
+    <plurals name="billing_cycle_days_left">
+        <item quantity="other">%d દિવસ બાકી</item>
+        <item quantity="one">%d દિવસ બાકી</item>
+    </plurals>
+    <plurals name="bugreport_countdown">
+        <item quantity="other">સિસ્ટમ ભૂલ રીપોર્ટ ધરાવતી સ્ક્રીન %1$d સેકંડમાં પકડી લેશે.</item>
+        <item quantity="one">સિસ્ટમ ભૂલ રીપોર્ટ ધરાવતી સ્ક્રીન %1$d સેકંડમાં પકડી લેશે.</item>
+    </plurals>
+    <plurals name="codebook_saved_account_number">
+        <item quantity="other">%d વપરાશકર્તાનું નામ અને પાસવર્ડની જોડીઓ પાસવર્ડ્સમાં સાચવવામાં આવે છે.</item>
+        <item quantity="one">%d વપરાશકર્તાનું નામ અને પાસવર્ડની જોડી પાસવર્ડ્સમાં સાચવવામાં આવે છે.</item>
+    </plurals>
+    <plurals name="data_saver_unrestricted_summary">
+        <item quantity="other">જયારે ડેટા બચાવનાર ચાલુ હશે ત્યારે %1$d એપ્લિકેશન્સને વપરાશની મંજુરી છે.</item>
+        <item quantity="one">જયારે ડેટા બચાવનાર ચાલુ હશે ત્યારે 1 એપ્લિકેશનને વપરાશની મંજુરી છે.</item>
+    </plurals>
+    <plurals name="default_camera_app_title">
+        <item quantity="other">કેમેરા એપ્સ</item>
+        <item quantity="one">કેમેરા એપ</item>
+    </plurals>
+    <plurals name="default_email_app_title">
+        <item quantity="other">ઇમેઇલ ક્લાયંટ એપ્સ</item>
+        <item quantity="one">ઇમેઇલ ક્લાયંટ એપ</item>
+    </plurals>
+    <plurals name="default_phone_app_title">
+        <item quantity="other">ફોન એપ્સ</item>
+        <item quantity="one">ફોન એપ</item>
+    </plurals>
+    <plurals name="deleted_channels">
+        <item quantity="other">%d કેટેગરીઓ કાઢી નાખવામાં આવી</item>
+        <item quantity="one">%d કેટેગરી કાઢી નાખવામાં આવી</item>
+    </plurals>
+    <plurals name="dlg_remove_locales_title">
+        <item quantity="other">પસંદ કરેલી ભાષાઓ દૂર કરો?</item>
+        <item quantity="one">પસંદ કરેલી ભાષા દૂર કરો?</item>
+    </plurals>
+    <plurals name="domain_urls_apps_summary_on">
+        <item quantity="other">%d એપ્સ સમર્થિત લિંક્સને ખોલે છે</item>
+        <item quantity="one">એક એપ સમર્થિત લિંક્સને ખોલે છે</item>
+    </plurals>
+    <plurals name="enterprise_privacy_number_ca_certs">
+        <item quantity="other">%d CA ઓછામાં ઓછા પ્રમાણપત્રો</item>
+        <item quantity="one">%d CA ઓછામાં ઓછા પ્રમાણપત્ર</item>
+    </plurals>
+    <plurals name="enterprise_privacy_number_failed_password_wipe">
+        <item quantity="other">%d વખત પ્રયાસ કર્યો</item>
+        <item quantity="one">%d વખત પ્રયાસ કર્યો</item>
+    </plurals>
+    <plurals name="enterprise_privacy_number_packages">
+        <item quantity="other">%d એપ્લિકેશન્સ</item>
+        <item quantity="one">%d એપ્લિકેશન</item>
+    </plurals>
+    <plurals name="enterprise_privacy_number_packages_lower_bound">
+        <item quantity="other">%d ઓછામાં ઓછી એપ્લિકેશન્સ</item>
+        <item quantity="one">%d ઓછામાં ઓછી એપ્લિકેશન</item>
+    </plurals>
+    <plurals name="hours">
+        <item quantity="other">%s કલાક</item>
+        <item quantity="one">1 કલાક</item>
+    </plurals>
+    <plurals name="location_app_permission_summary_location_on">
+        <item quantity="other">%2$d માંથી %1$d એપ્સ પાસે સ્થાનનો ઍક્સેસ છે</item>
+        <item quantity="one">%2$d માંથી %1$d એપ્સને સ્થાનનો ઍક્સેસ છે</item>
+    </plurals>
+    <plurals name="location_settings_summary_location_on">
+        <item quantity="other">ચાલુ - %1$d એપ્સ પાસે સ્થાનનો ઍક્સેસ છે</item>
+        <item quantity="one">ચાલુ - %1$d એપ પાસે સ્થાનનો ઍક્સેસ છે</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_letters">
+        <item quantity="other">ઓછામાં ઓછા %d અપરકેસ હોવા જોઇએ</item>
+        <item quantity="one">ઓછામાં ઓછો 1 અક્ષર હોવો જોઇએ</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_lowercase">
+        <item quantity="other">ઓછામાં ઓછા %d નાના અક્ષરો હોવા જોઇએ</item>
+        <item quantity="one">ઓછામાં ઓછો 1 નાનો અક્ષર હોવો જોઇએ</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_nonletter">
+        <item quantity="other">ઓછામાં ઓછા %d બિન-અક્ષર વર્ણો હોવા જોઇએ</item>
+        <item quantity="one">ઓછામાં ઓછો 1 એક બિન-અક્ષર વર્ણો હોવો જોઇએ</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_numeric">
+        <item quantity="other">ઓછામાં ઓછા %d આંકડાકીય અંક હોવા જોઇએ</item>
+        <item quantity="one">ઓછામાં ઓછો 1 આંકડાકીય અંક હોવો જોઇએ</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_symbols">
+        <item quantity="other">ઓછામાં ઓછા %d ખાસ પ્રતીકો હોવા જોઇએ</item>
+        <item quantity="one">ઓછામાં ઓછો 1 ખાસ પ્રતીક હોવો જોઇએ</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_uppercase">
+        <item quantity="other">ઓછામાં ઓછા %d નાના અપરકેસ હોવા જોઇએ</item>
+        <item quantity="one">ઓછામાં ઓછો 1 અપરકેસ અક્ષર હોવો જોઇએ</item>
+    </plurals>
+    <plurals name="lockpassword_password_too_long">
+        <item quantity="other">%d અક્ષર કરતા ઓછા હોવા જોઈએ</item>
+        <item quantity="one">%d અક્ષર કરતા ઓછા હોવા જોઈએ</item>
+    </plurals>
+    <plurals name="lockpassword_password_too_short">
+        <item quantity="other">ઓછામાં ઓછા %d અક્ષર હોવા જોઇએ</item>
+        <item quantity="one">ઓછામાં ઓછો %d અક્ષર હોવો જોઇએ</item>
+    </plurals>
+    <plurals name="lockpassword_pin_too_long">
+        <item quantity="other">%d અંક કરતા ઓછા હોવા જોઈએ</item>
+        <item quantity="one">%d અંક કરતા ઓછા હોવા જોઈએ</item>
+    </plurals>
+    <plurals name="lockpassword_pin_too_short">
+        <item quantity="other">PIN માં ઓછામાં ઓછા %d અંક હોવા જોઇએ</item>
+        <item quantity="one">PIN માં ઓછામાં ઓછો %d અંક હોવો જોઇએ</item>
+    </plurals>
+    <plurals name="manage_notification_access_summary_nonzero">
+        <item quantity="other">%d એપ્સ સૂચનાઓ વાંચી શકે છે</item>
+        <item quantity="one">%d એપ સૂચનાઓ વાંચી શકે છે</item>
+    </plurals>
+    <plurals name="manage_trust_agents_summary_on">
+        <item quantity="other">%d સક્રિય ટ્રસ્ટ એજન્ટ્સ</item>
+        <item quantity="one">1 સક્રિય ટ્રસ્ટ એજન્ટ</item>
+    </plurals>
+    <plurals name="memory_usage_apps_summary">
+        <item quantity="other">છેલ્લાં %2$s માં %1$d એપ્લિકેશન્સે મેમરીનો ઉપયોગ કરેલ છે</item>
+        <item quantity="one">છેલ્લાં %2$s માં 1 એપ્લિકેશને મેમરીનો ઉપયોગ કરેલ છે</item>
+    </plurals>
+    <plurals name="minutes">
+        <item quantity="other">%s મિનિટ</item>
+        <item quantity="one">1 મિનિટ</item>
+    </plurals>
+    <plurals name="mobile_network_summary_count">
+        <item quantity="other">%1$d SIMs</item>
+        <item quantity="one">%1$d SIM</item>
+    </plurals>
+    <plurals name="network_restrictions_summary">
+        <item quantity="other">%1$d નિયંત્રણો</item>
+        <item quantity="one">1 નિયંત્રણ</item>
+    </plurals>
+    <plurals name="notification_few_channel_count_summary">
+        <item quantity="other">%1$d નોટીફીકેશન ચેનલ્સ.</item>
+        <item quantity="one">%1$d નોટીફીકેશન ચેનલ.</item>
+    </plurals>
+    <plurals name="notification_group_summary">
+        <item quantity="other">%d કેટેગરીઓ</item>
+        <item quantity="one">%d કેટેગરી</item>
+    </plurals>
+    <plurals name="notification_summary">
+        <item quantity="other">%d એપ્સ માટે બંધ</item>
+        <item quantity="one">1 એપ માટે બંધ</item>
+    </plurals>
+    <plurals name="notifications_categories_off">
+        <item quantity="other">%d કેટેગરીઓ બંધ થઇ છે</item>
+        <item quantity="one">%d કેટેગરી બંધ થઇ છે</item>
+    </plurals>
+    <plurals name="notifications_sent_daily">
+        <item quantity="other">દરરોજ ~%d નોટીફીકેશન્સ</item>
+        <item quantity="one">દરરોજ %d નોટીફીકેશન</item>
+    </plurals>
+    <plurals name="notifications_sent_weekly">
+        <item quantity="other">દર અઠવાડિયે~%d નોટીફીકેશન્સ</item>
+        <item quantity="one">દર અઠવાડિયે ~%d નોટીફીકેશન</item>
+    </plurals>
+    <plurals name="number_of_device_admins">
+        <item quantity="other">%d સક્રિય એપ્સ</item>
+        <item quantity="one">%d સક્રિય એપ</item>
+    </plurals>
+    <plurals name="optimizable_count">
+        <item quantity="other">%1$d આઇટમ્સ ઑપ્ટિમાઇઝ કરી શકાય છે</item>
+        <item quantity="one">%1$d આઇટમ ઑપ્ટિમાઇઝ કરી શકાય છે</item>
+    </plurals>
+    <plurals name="permission_bar_chart_label">
+        <item quantity="other">%s એપ્સ</item>
+        <item quantity="one">1 એપ</item>
+    </plurals>
+    <plurals name="permissions_summary">
+        <item quantity="other">%d પરવાનગીઓ મંજુર કરવામાં આવી છે</item>
+        <item quantity="one">%d પરવાનગી મંજુર કરવામાં આવી છે</item>
+    </plurals>
+    <plurals name="power_high_usage_summary">
+        <item quantity="other">%2$d એપ્સ અસામાન્ય રીતે વર્તન કરે છે</item>
+        <item quantity="one">%1$s અસામાન્ય રીતે વર્તન કરે છે</item>
+    </plurals>
+    <plurals name="power_high_usage_title">
+        <item quantity="other">એપ્સ બેટરી ઉતારે છે</item>
+        <item quantity="one">%1$s બેટરી ઉતારે છે</item>
+    </plurals>
+    <plurals name="print_jobs_summary">
+        <item quantity="other">%1$d પ્રિન્ટ જોબ્સ</item>
+        <item quantity="one">1 પ્રિન્ટ જોબ</item>
+    </plurals>
+    <plurals name="print_settings_summary">
+        <item quantity="other">%1$d પ્રિંટ સેવાઓ ચાલુ છે</item>
+        <item quantity="one">1 પ્રિંટ સેવા ચાલુ છે</item>
+    </plurals>
+    <plurals name="restricted_app_summary">
+        <item quantity="other">%1$d એપ્સ માટે બેટરી વપરાશને મર્યાદિત કરવામાં આવ્યો છે</item>
+        <item quantity="one">%1$d એપ માટે બેટરી વપરાશને મર્યાદિત કરવામાં આવ્યો છે</item>
+    </plurals>
+    <plurals name="retry_count_ticker">
+        <item quantity="other">%dસેકંડ માં ફરીથી પ્રયાસ કરો</item>
+        <item quantity="one">%dસેકંડ માં ફરીથી પ્રયાસ કરો</item>
+    </plurals>
+    <plurals name="runtime_permissions_additional_count">
+        <item quantity="other">%d વધારાની પરવાનગીઓ</item>
+        <item quantity="one">%d વધારાની પરવાનગી</item>
+    </plurals>
+    <plurals name="runtime_permissions_summary">
+        <item quantity="other">(ના માંથી %1$d) %2$d પરવાનગીઓ મંજુર કરવામાં આવી છે</item>
+        <item quantity="one">(ના માંથી %1$d) %2$d પરવાનગી મંજુર કરવામાં આવી છે</item>
+    </plurals>
+    <plurals name="seconds">
+        <item quantity="other">%s સેકન્ડ</item>
+        <item quantity="one">1 સેકન્ડ</item>
+    </plurals>
+    <plurals name="security_settings_fingerprint_preference_summary">
+        <item quantity="other">%1$d આંગળીના નિશાનો કન્ફિગર થઇ ગયા છે</item>
+        <item quantity="one">%1$d આંગળીના નિશાન કન્ફિગર થઇ ગયા છે</item>
+    </plurals>
+    <plurals name="security_summary_apps_security">
+        <item quantity="other">%1$d એપ્સ લોક થયેલ છે</item>
+        <item quantity="one">%1$d એપ લોક થયેલ છે</item>
+    </plurals>
+    <plurals name="security_summary_float_window">
+        <item quantity="other">%1$d વખત અવરોધિત કરેલ છે</item>
+        <item quantity="one">%1$d વખત અવરોધિત કરેલ છે</item>
+    </plurals>
+    <plurals name="security_summary_harassment_call">
+        <item quantity="other">%1$d કૉલ્સ</item>
+        <item quantity="one">%1$d કૉલ</item>
+    </plurals>
+    <plurals name="security_summary_harassment_sms">
+        <item quantity="other">%1$d SMS સંદેશા</item>
+        <item quantity="one">%1$d SMS સંદેશ</item>
+    </plurals>
+    <plurals name="security_summary_intelligent_identification_contact">
+        <item quantity="other">%1$d નંબર ઓળખાયેલા છે</item>
+        <item quantity="one">%1$d નંબર ઓળખાયેલ છે</item>
+    </plurals>
+    <plurals name="security_summary_payment_protection">
+        <item quantity="other">સુરક્ષિત %1$d ચુકવણી</item>
+        <item quantity="one">સુરક્ષિત %1$d ચુકવણી</item>
+    </plurals>
+    <plurals name="security_summary_permission_manager">
+        <item quantity="other">%1$d વખત અવરોધિત કરેલ છે</item>
+        <item quantity="one">%1$d વખત અવરોધિત કરેલ છે</item>
+    </plurals>
+    <plurals name="security_summary_private_info_protect">
+        <item quantity="other">વ્યક્તિગત માહિતીની %1$d આઇટમો સંરક્ષિત</item>
+        <item quantity="one">વ્યક્તિગત માહિતીની %1$d આઇટમ સંરક્ષિત</item>
+    </plurals>
+    <plurals name="security_summary_pseudo_base_station">
+        <item quantity="other">%1$d સ્યૂડો બેઝ સ્ટેશન્સ અવરોધિત છે</item>
+        <item quantity="one">%1$d સ્યૂડો બેઝ સ્ટેશન અવરોધિત છે</item>
+    </plurals>
+    <plurals name="settings_optimizable_count">
+        <item quantity="other">%1$d આઇટમ્સ ઑપ્ટિમાઇઝ કરી શકાય છે</item>
+        <item quantity="one">%1$d આઇટમ ઑપ્ટિમાઇઝ કરી શકાય છે</item>
+    </plurals>
+    <plurals name="settings_suggestion_header_summary_hidden_items">
+        <item quantity="other">%d છુપાયેલ આઇટમ્સ બતાવો</item>
+        <item quantity="one">%d છુપાયેલ આઇટમ બતાવો</item>
+    </plurals>
+    <plurals name="show_bluetooth_devices">
+        <item quantity="other">%1$d ડિવાઇસેસ કનેક્ટ કર્યા</item>
+        <item quantity="one">%1$d ડિવાઇસ કનેક્ટ કર્યું</item>
+    </plurals>
+    <plurals name="show_dev_countdown">
+        <item quantity="other">તમે હવે ડેવલોપર બનવાથી %1$d કદમ દૂર છો.</item>
+        <item quantity="one">તમે હવે ડેવલોપર બનવાથી %1$d કદમ દૂર છો.</item>
+    </plurals>
+    <plurals name="show_number_hearingaid_count">
+        <item quantity="other">%1$d સાચવેલ હિયરિંગ એઇડ્સ</item>
+        <item quantity="one">%1$d સાચવેલ હિયરિંગ એઇડ</item>
+    </plurals>
+    <plurals name="special_access_summary">
+        <item quantity="other">%d એપ્સ અનિયંત્રિત ડેટાનો ઉપયોગ કરી શકે છે</item>
+        <item quantity="one">1 એપ અનિયંત્રિત ડેટાનો ઉપયોગ કરી શકે છે</item>
+    </plurals>
+    <plurals name="ssl_ca_cert_dialog_title">
+        <item quantity="other">પ્રમાણપત્રોનો વિશ્વાસ કરો અથવા દૂર કરો</item>
+        <item quantity="one">પ્રમાણપત્રનો વિશ્વાસ કરો અથવા દૂર કરો</item>
+    </plurals>
+    <plurals name="ssl_ca_cert_info_message">
+        <item quantity="other">"%s એ તમારા કાર્ય પ્રોફાઇલ માટે અનેક અધિકારિત પ્રમાણપત્રો ઇન્સ્ટૉલ કર્યા છે. તેમનો ઉપયોગ જયારે તમે કાર્ય કરતા હોવ ત્યારે તમારી નેટવર્ક પ્રવૃત્તિ પર મૉનિટર કરવા માટે થઇ શકે છે (ઇમેઇલ, એપ્લિકેશન, અને સુરક્ષિત વેબસાઇટના ઉપયોગ સહીત)
+
+આ પ્રમાણપત્રોની વધુ વિગતો માટે, કૃપા કરી તમારા વ્યવસ્થાપકનો સંપર્ક કરો."</item>
+        <item quantity="one">"%s એ તમારા કાર્ય પ્રોફાઇલ માટે એક અધિકારિત પ્રમાણપત્રો ઇન્સ્ટૉલ કર્યા છે. આનો ઉપયોગ જયારે તમે કાર્ય કરતા હોવ ત્યારે તમારી નેટવર્ક પ્રવૃત્તિ મૉનિટર કરવા માટે થઇ શકે છે (ઇમેઇલ, એપ્લિકેશન, અને સુરક્ષિત વેબસાઇટના ઉપયોગ સહીત)
+
+આ પ્રમાણપત્રની વધુ વિગતો માટે, કૃપા કરી તમારા વ્યવસ્થાપકનો સંપર્ક કરો."</item>
+    </plurals>
+    <plurals name="ssl_ca_cert_info_message_device_owner">
+        <item quantity="other">"%s એ તમારા ઉપકરણ પર અનેક અધિકારિત પ્રમાણપત્ર ઇન્સ્ટૉલ કર્યા છે. તેમનો ઉપયોગ તમારા ઉપકરણની નેટવર્ક પ્રવૃત્તિ પર મૉનિટર કરવા માટે થઇ શકે છે (ઇમેઇલ, એપ્લિકેશન, અને સુરક્ષિત વેબસાઇટના ઉપયોગ સહીત)
+
+આ પ્રમાણપત્રોની વધુ વિગતો માટે, કૃપા કરી તમારા વ્યવસ્થાપકનો સંપર્ક કરો."</item>
+        <item quantity="one">"%s એ તમારા ઉપકરણ પર એક અધિકારિત પ્રમાણપત્ર ઇન્સ્ટૉલ કર્યું છે. આનો ઉપયોગ તમારા ઉપકરણની નેટવર્ક પ્રવૃત્તિ પર મૉનિટર કરવા માટે થઇ શકે છે (ઇમેઇલ, એપ્લિકેશન, અને સુરક્ષિત વેબસાઇટના ઉપયોગ સહીત)
+
+આ પ્રમાણપત્રની વધુ વિગતો માટે, કૃપા કરી તમારા વ્યવસ્થાપકનો સંપર્ક કરો."</item>
+    </plurals>
+    <plurals name="ssl_ca_cert_settings_button">
+        <item quantity="other">પ્રમાણપત્રો તપાસો</item>
+        <item quantity="one">પ્રમાણપત્ર તપાસો</item>
+    </plurals>
+    <plurals name="suggestions_collapsed_summary">
+        <item quantity="other">+%1$d સૂચનો</item>
+        <item quantity="one">+1 સૂચન</item>
+    </plurals>
+    <plurals name="suggestions_collapsed_title">
+        <item quantity="other">%1$d સૂચનો</item>
+        <item quantity="one">1 સૂચન</item>
+    </plurals>
+    <plurals name="uri_permissions_text">
+        <item quantity="other">%d આઇટમ(આઇટમ્સ)</item>
+        <item quantity="one">1 આઇટમ</item>
+    </plurals>
+    <plurals name="wifi_saved_access_points_summary">
+        <item quantity="other">%d નેટવર્ક</item>
+        <item quantity="one">1 નેટવર્ક</item>
+    </plurals>
+    <plurals name="wifi_saved_all_access_points_summary">
+        <item quantity="other">%d નેટવર્ક &amp; સબ્સ્ક્રિપ્શન્સ</item>
+        <item quantity="one">1 નેટવર્ક &amp; સબ્સ્ક્રિપ્શન</item>
+    </plurals>
+    <plurals name="wifi_saved_passpoint_access_points_summary">
+        <item quantity="other">%d સબ્સ્ક્રિપ્શન્સ</item>
+        <item quantity="one">1 સબ્સ્ક્રિપ્શન</item>
+    </plurals>
+    <plurals name="wifi_tether_connected_summary">
+        <item quantity="other">%1$d ડિવાઇસેસ કનેક્ટ કર્યા</item>
+        <item quantity="one">%1$d ડિવાઇસ કનેક્ટ કર્યું</item>
+    </plurals>
+    <plurals name="wrong_pin_code">
+        <item quantity="other">SIM PIN કોડ ખોટો છે, તમારી પાસે %d પ્રયત્નો બાકી છે.</item>
+        <item quantity="one">SIM PIN કોડ ખોટો છે, તમારા ડિવાઇસને અનલોક કરવા માટે તમારે તમારા કેરિયરનો સંપર્ક કરવો પડશે તે પહેલાં તમારી પાસે %d પ્રયત્ન બાકી છે.</item>
+    </plurals>
+    <plurals name="zen_mode_duration_summary_time_hours">
+        <item quantity="other">%d કલાકો</item>
+        <item quantity="one">1 કલાક</item>
+    </plurals>
+    <plurals name="zen_mode_rules_new">
+        <item quantity="other">%1$d નિયમો પસંદ કર્યા છે</item>
+        <item quantity="one">%1$d નિયમ પસંદ કર્યા છે</item>
+    </plurals>
+    <plurals name="zen_mode_settings_summary_on">
+        <item quantity="other">%d સક્ષમ થયેલ</item>
+        <item quantity="one">1 સક્ષમ થયેલ</item>
+    </plurals>
+    <plurals name="zen_mode_settings_summary_on_new">
+        <item quantity="other">%d નિયમો લાગુ થયા</item>
+        <item quantity="one">%d નિયમ લાગુ થયો</item>
+    </plurals>
+    <plurals name="zen_mode_sound_summary_summary_off_info">
+        <item quantity="other">%d શેડ્યૂલ્સ આપમેળે ચાલુ થઈ શકે છે</item>
+        <item quantity="one">1 શેડ્યૂલ આપમેળે ચાલુ થઈ શકે છે</item>
+    </plurals>
+    <plurals name="zen_mode_starred_contacts_summary_additional_contacts">
+        <item quantity="other">%d અન્ય</item>
+        <item quantity="one">1 અન્ય</item>
+    </plurals>
+    <plurals name="zen_mode_summary_alarms_only_by_hour">
+        <item quantity="other">એલાર્મમાં બદલાવ માત્ર, %1$d કલાકો માટે માન્ય છે (જ્યાં સુધી %2$s)</item>
+        <item quantity="one">એલાર્મમાં બદલાવ માત્ર, 1 કલાક માટે માન્ય છે (જ્યાં સુધી %2$s)</item>
+    </plurals>
+    <plurals name="zen_mode_summary_alarms_only_by_minute">
+        <item quantity="other">એલાર્મમાં બદલાવ માત્ર, %1$d મિનિટ માટે માન્ય છે (જ્યાં સુધી %2$s)</item>
+        <item quantity="one">એલાર્મમાં બદલાવ માત્ર, 1 મિનિટ માટે માન્ય છે (જ્યાં સુધી %2$s)</item>
+    </plurals>
+</resources>

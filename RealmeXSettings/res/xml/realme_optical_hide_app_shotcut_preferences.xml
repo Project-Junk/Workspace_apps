@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto">
+    <PreferenceCategory android:key="optical_hide_app_shortcut_category" settings:isFirstCategory="true">
+        <com.coloros.settings.widget.preference.ColorFullScreenListPreference android:title="@string/hide_apps_shortcut" android:key="hide_app_shortcut" />
+    </PreferenceCategory>
+</PreferenceScreen>

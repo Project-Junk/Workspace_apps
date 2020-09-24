@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/language_and_region_exp"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto">
+    <com.coloros.settings.widget.preference.SettingsColorPreferenceCategory android:title="@string/phone_region_upper_case" android:key="phone_region_category" settings:isFirstCategory="true">
+        <com.coloros.settings.widget.preference.SettingColorJumpPreference android:layout="@layout/color_preference" android:title="@string/phone_region" android:key="phone_region" android:fragment="com.coloros.settings.feature.language.localepicker.RegionPickerFragment" />
+    </com.coloros.settings.widget.preference.SettingsColorPreferenceCategory>
+    <PreferenceCategory android:title="@string/phone_language_upper_case" android:key="phone_language_category">
+        <com.coloros.settings.widget.preference.SettingColorJumpPreference android:layout="@layout/color_preference" android:title="@string/phone_language" android:key="phone_language" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/character_encoding" android:key="phone_encode_category">
+        <com.coloros.settings.widget.preference.SettingColorJumpPreference android:layout="@layout/color_preference" android:title="@string/character_encoding" android:key="phone_encode" android:fragment="com.coloros.settings.feature.language.localepicker.ColorEncodePicker" settings:controller="com.coloros.settings.feature.language.ColorEncodeController" />
+    </PreferenceCategory>
+    <PreferenceCategory android:key="language_update_category">
+        <com.coloros.settings.widget.preference.SettingsCornerMarkPreference android:layout="@layout/color_preference" android:title="@string/language_update" android:key="language_update" settings:controller="com.coloros.settings.feature.language.ColorLanguageUpdateController">
+            <intent android:action="com.coloros.language.lanch" />
+        </com.coloros.settings.widget.preference.SettingsCornerMarkPreference>
+    </PreferenceCategory>
+    <com.coloros.settings.widget.preference.SettingsColorPreferenceCategory />
+    <com.coloros.settings.widget.preference.ColorRecommendedPreference android:key="language_region_bottom_recommended" />
+</PreferenceScreen>

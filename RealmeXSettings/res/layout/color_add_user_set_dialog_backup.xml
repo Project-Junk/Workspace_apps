@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_gravity="center_horizontal" android:orientation="vertical" android:id="@id/edittext_container" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:id="@android:id/message" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" style="?textAppearanceDialogLarge" />
+    <RelativeLayout android:layout_gravity="center" android:id="@id/rl_user_photo" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:layout_marginBottom="8.0dip">
+        <com.color.support.widget.ColorRoundImageView android:id="@android:id/icon" android:layout_width="50.0dip" android:layout_height="50.0dip" android:foreground="@drawable/color_user_add_settings_icon_foreground" android:src="@drawable/settings_usercenter_default_profile_ic" app:colorType="round" style="@style/PreferenceIcon" />
+        <ImageView android:gravity="center" android:id="@id/iv_photo_icon" android:layout_width="12.0dip" android:layout_height="12.0dip" android:layout_marginBottom="1.0dip" android:src="@drawable/moreuser_head_photo" android:layout_alignBottom="@android:id/icon" android:layout_marginEnd="4.0dip" android:layout_alignEnd="@android:id/icon" />
+    </RelativeLayout>
+    <com.color.support.widget.ColorEditText android:textSize="@dimen/support_abc_text_size_body_1_material" android:id="@android:id/edit" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="6.0dip" android:minHeight="34.0dip" android:hint="@string/user_input_name" android:cursorVisible="true" android:paddingStart="24.0dip" android:paddingEnd="24.0dip" />
+</LinearLayout>

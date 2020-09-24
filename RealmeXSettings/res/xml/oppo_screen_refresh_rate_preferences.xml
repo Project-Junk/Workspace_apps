@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/screen_refresh_rate" android:key="key_screen_refresh_rate"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto">
+    <com.coloros.settings.widget.preference.SettingsColorMarkPreference android:persistent="false" android:title="@string/screen_refresh_rate_auto_switch" android:key="refresh_rate_auto" android:summary="@string/screen_refresh_rate_auto_switch_summary" />
+    <com.coloros.settings.widget.preference.SettingsColorMarkPreference android:persistent="false" android:title="@string/screen_refresh_rate_120" android:key="refresh_rate_120Hz" android:summary="@string/screen_refresh_high_rate" />
+    <com.coloros.settings.widget.preference.SettingsColorMarkPreference android:persistent="false" android:title="@string/screen_refresh_rate_90" android:key="refresh_rate_90Hz" android:summary="@string/screen_refresh_high_rate" />
+    <com.coloros.settings.widget.preference.SettingsColorMarkPreference android:persistent="false" android:title="@string/screen_refresh_rate_60" android:key="refresh_rate_60Hz" android:summary="@string/screen_refresh_common_rate" />
+    <com.coloros.settings.widget.preference.SettingsColorPreferenceCategory android:title="@string/string_will_use_refresh_rate_60hz" android:key="refresh_rate_category" settings:textAllCaps="false" />
+</PreferenceScreen>

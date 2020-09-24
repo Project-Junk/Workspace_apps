@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:key="parent_screen"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="@string/preference_formattype_title" android:key="preference_formattype_category" />
+    <PreferenceCategory android:title="@string/preference_information_title" android:key="preference_information_category">
+        <Preference android:layout="@layout/custom_summary_layout" android:key="preference_information_description" />
+    </PreferenceCategory>
+</PreferenceScreen>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/zen_mode_settings_title" android:key="zen_mode_settings"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto">
+    <com.coloros.settings.widget.preference.SettingsColorPreferenceCategory android:key="manu_category" settings:isFirstCategory="true">
+        <com.coloros.settings.widget.preference.SettingSwitchPreference android:layout="@layout/color_preference" android:title="@string/zen_mode_toggle_manual_title" android:key="manal_toggle" android:summary="@string/zen_mode_toggle_summary_new" />
+    </com.coloros.settings.widget.preference.SettingsColorPreferenceCategory>
+    <com.coloros.settings.widget.preference.SettingsColorPreferenceCategory android:title="@string/zen_mode_timed_on" android:key="auto_category">
+        <com.coloros.settings.widget.preference.SettingColorJumpPreference android:persistent="false" android:title="@string/zen_mode_auto_mode" android:key="auto_rules" />
+    </com.coloros.settings.widget.preference.SettingsColorPreferenceCategory>
+    <com.coloros.settings.widget.preference.SettingsColorPreferenceCategory>
+        <com.coloros.settings.widget.preference.SettingSwitchPreference android:persistent="false" android:title="@string/zen_mode_no_media" android:key="no_media" />
+    </com.coloros.settings.widget.preference.SettingsColorPreferenceCategory>
+    <com.coloros.settings.widget.preference.SettingsColorPreferenceCategory android:title="@string/zen_mode_priority_settings_title" android:key="priority_settings">
+        <com.coloros.settings.widget.preference.SettingColorJumpPreference android:persistent="false" android:title="@string/zen_mode_allowed_notification" android:key="allowed_notification" android:fragment="com.coloros.settings.feature.zenmode.ZenModeNotificationSettings" />
+        <com.coloros.settings.widget.preference.SettingSwitchPreference android:persistent="false" android:title="@string/zen_mode_events" android:key="events" android:summary="@string/zen_mode_events_summary" />
+        <com.coloros.settings.widget.preference.SettingsSingleSelectListPreference android:entries="@array/zen_mode_contacts_messages_entries" android:title="@string/zen_mode_messages" android:key="messages" android:entryValues="@array/zen_mode_contacts_values" settings:controller="com.coloros.settings.feature.zenmode.ZenModeMessagePreferenceController" />
+        <com.coloros.settings.widget.preference.SettingsSingleSelectListPreference android:entries="@array/zen_mode_contacts_calls_entries" android:title="@string/zen_mode_calls" android:key="calls" android:entryValues="@array/zen_mode_contacts_values" settings:controller="com.coloros.settings.feature.zenmode.ZenModeCallPreferenceController" />
+    </com.coloros.settings.widget.preference.SettingsColorPreferenceCategory>
+    <com.coloros.settings.widget.preference.SettingsColorPreferenceCategory android:key="repeat_callers_category">
+        <com.coloros.settings.widget.preference.SettingSwitchPreference android:persistent="false" android:layout="@layout/color_preference" android:title="@string/zen_mode_repeat_callers" android:key="repeat_callers" />
+    </com.coloros.settings.widget.preference.SettingsColorPreferenceCategory>
+    <com.coloros.settings.widget.preference.SettingsColorPreferenceCategory android:title="@string/zen_mode_automation_settings_title" android:key="automation_settings" />
+    <com.coloros.settings.widget.preference.SettingsColorPreferenceCategory />
+    <com.coloros.settings.widget.preference.ColorRecommendedPreference android:key="zenmode_bottom_recommended" settings:controller="com.coloros.settings.feature.zenmode.ZenmodeRecommendedController" />
+</PreferenceScreen>

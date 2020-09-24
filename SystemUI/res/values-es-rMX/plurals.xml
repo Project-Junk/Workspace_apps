@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="kg_password_default_pin_message_multi_sim">
+        <item quantity="other">Introduzca el PIN para la tarjeta SIM %1$d. Quedan %2$d intentos.</item>
+        <item quantity="one">Introduzca el PIN para la tarjeta SIM %1$d. Queda %2$d intento. Necesitará contactar al operador para que lo ayude a desbloquear el dispositivo si es incorrecto de nuevo.</item>
+    </plurals>
+    <plurals name="kg_password_wrong_pin_code">
+        <item quantity="other">PIN de la SIM incorrecto. Quedan %d intentos.</item>
+        <item quantity="one">PIN de la SIM incorrecto. Queda %d intento. Necesitará contactar al operador para que lo ayude a desbloquear el dispositivo si es incorrecto de nuevo.</item>
+    </plurals>
+    <plurals name="kg_password_wrong_pin_code_multi_sim">
+        <item quantity="other">PIN incorrecto para tarjeta SIM %1$d. Quedan %2$d intentos.</item>
+        <item quantity="one">PIN incorrecto para tarjeta SIM %1$d. Queda %2$d intento. Necesitará contactar al operador para que lo ayude a desbloquear el dispositivo si es incorrecto de nuevo.</item>
+    </plurals>
+    <plurals name="kg_password_wrong_puk_code">
+        <item quantity="other">Código PUK de la SIM incorrecto. Quedan %d intentos. Las SIM se desactivarán permanentemente si es incorrecto de nuevo.</item>
+        <item quantity="one">Código PUK de la SIM incorrecto. Queda %d intento. La SIM se desactivará permanentemente si es incorrecto de nuevo.</item>
+    </plurals>
+    <plurals name="kg_prompt_reason_time_password">
+        <item quantity="other">El dispositivo se ha bloqueado durante %d horas. Confirme la contraseña.</item>
+        <item quantity="one">El dispositivo ha sido bloqueado durante %d hora. Confirme la contraseña.</item>
+    </plurals>
+    <plurals name="kg_prompt_reason_time_pattern">
+        <item quantity="other">El dispositivo ha estado bloqueado durante %d horas. Por favor confirme el patrón de desbloqueo.</item>
+        <item quantity="one">El dispositivo ha estado bloqueado durante %d hora. Por favor confirme el patrón de desbloqueo.</item>
+    </plurals>
+    <plurals name="kg_prompt_reason_time_pin">
+        <item quantity="other">El dispositivo ha estado bloqueado durante %d horas. Por favor confirme el PIN.</item>
+        <item quantity="one">El dispositivo ha estado bloqueado durante %d hora. Por favor confirme el PIN.</item>
+    </plurals>
+    <plurals name="kg_too_many_failed_attempts_countdown">
+        <item quantity="other">Vuelva a intentar después de %d segundos.</item>
+        <item quantity="one">Reintente después de 1 segundo.</item>
+    </plurals>
+    <plurals name="notification_group_overflow_description">
+        <item quantity="other">Todavía hay %s notificaciones en este grupo.</item>
+        <item quantity="one">Todavía hay %s notificación en este grupo.</item>
+    </plurals>
+    <plurals name="snoozeHourOptions">
+        <item quantity="other">%d horas</item>
+        <item quantity="one">%d hora</item>
+    </plurals>
+    <plurals name="snoozeMinuteOptions">
+        <item quantity="other">%d minutos</item>
+        <item quantity="one">%d minuto</item>
+    </plurals>
+    <plurals name="wifi_tether_connected_summary">
+        <item quantity="other">%1$d dispositivos conectados</item>
+        <item quantity="one">%1$d dispositivo conectado</item>
+    </plurals>
+</resources>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/usb_pref" android:key="usb_default_fragment"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <PreferenceCategory android:key="footer_description">
+        <Preference android:persistent="false" android:layout="@layout/text_description_preference" android:selectable="false" android:key="footer_description_pref" android:summary="@string/usb_default_info" />
+    </PreferenceCategory>
+</PreferenceScreen>

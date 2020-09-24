@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:duration="33" android:drawable="@drawable/face_recording_circle_0000" />
+    <item android:duration="33" android:drawable="@drawable/face_recording_circle_0001" />
+    <item android:duration="33" android:drawable="@drawable/face_recording_circle_0002" />
+    <item android:duration="33" android:drawable="@drawable/face_recording_circle_0003" />
+    <item android:duration="33" android:drawable="@drawable/face_recording_circle_0004" />
+    <item android:duration="33" android:drawable="@drawable/face_recording_circle_0005" />
+    <item android:duration="33" android:drawable="@drawable/face_recording_circle_0006" />
+    <item android:duration="33" android:drawable="@drawable/face_recording_circle_0007" />
+    <item android:duration="33" android:drawable="@drawable/face_recording_circle_0008" />
+    <item android:duration="33" android:drawable="@drawable/face_recording_circle_0009" />
+    <item android:duration="33" android:drawable="@drawable/face_recording_circle_0010" />
+    <item android:duration="33" android:drawable="@drawable/face_recording_circle_0011" />
+    <item android:duration="33" android:drawable="@drawable/face_recording_circle_0012" />
+    <item android:duration="33" android:drawable="@drawable/face_recording_circle_0013" />
+    <item android:duration="33" android:drawable="@drawable/face_recording_circle_0014" />
+    <item android:duration="33" android:drawable="@drawable/face_recording_circle_0015" />
+    <item android:duration="33" android:drawable="@drawable/face_recording_circle_0016" />
+    <item android:duration="33" android:drawable="@drawable/face_recording_circle_0017" />
+    <item android:duration="33" android:drawable="@drawable/face_recording_circle_0018" />
+    <item android:duration="33" android:drawable="@drawable/face_recording_circle_0019" />
+    <item android:duration="33" android:drawable="@drawable/face_recording_circle_0020" />
+    <item android:duration="33" android:drawable="@drawable/face_recording_circle_0021" />
+    <item android:duration="33" android:drawable="@drawable/face_recording_circle_0022" />
+    <item android:duration="33" android:drawable="@drawable/face_recording_circle_0023" />
+    <item android:duration="33" android:drawable="@drawable/face_recording_circle_0024" />
+</animation-list>

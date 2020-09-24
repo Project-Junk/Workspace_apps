@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/guide_Image" android:layout_width="wrap_content" android:layout_height="wrap_content" android:contentDescription="@string/app_name" android:paddingStart="@dimen/color_margin_M7" android:paddingEnd="@dimen/color_margin_M7" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/guide_tip_container" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/color_margin_M9" android:layoutDirection="ltr" android:paddingStart="@dimen/color_margin_M10" android:paddingEnd="@dimen/color_margin_M10">
+        <TextView android:textSize="@dimen/color_font_size_TD05" android:textColor="@color/them_text_color_grey" android:gravity="center_horizontal" android:id="@id/guide_tip_0" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" android:layout_marginStart="@dimen/oppo_guide_tips_gap" android:layout_marginEnd="@dimen/oppo_guide_tips_gap" />
+        <TextView android:textSize="@dimen/color_font_size_TD05" android:textColor="@color/them_text_color_grey" android:gravity="center_horizontal" android:id="@id/guide_tip_1" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" android:layout_marginStart="@dimen/oppo_guide_tips_gap" android:layout_marginEnd="@dimen/oppo_guide_tips_gap" />
+        <TextView android:textSize="@dimen/color_font_size_TD05" android:textColor="@color/them_text_color_grey" android:gravity="center_horizontal" android:id="@id/guide_tip_2" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" android:layout_marginStart="@dimen/oppo_guide_tips_gap" android:layout_marginEnd="@dimen/oppo_guide_tips_gap" />
+    </LinearLayout>
+</LinearLayout>

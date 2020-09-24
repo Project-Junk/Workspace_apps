@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="apn_auth_entries">
+        <item>Ninguno</item>
+        <item>PAP</item>
+        <item>CHAP</item>
+        <item>PAP o CHAP</item>
+    </string-array>
+    <string-array name="apn_protocol_entries">
+        <item>IPv4</item>
+        <item>IPv6</item>
+        <item>IPv4/IPv6</item>
+    </string-array>
+    <string-array name="app_install_location_entries">
+        <item>Almacenamiento dispositivo interno</item>
+        <item>Tarjeta SD extraíble</item>
+        <item>Permitir decidir al sistema</item>
+    </string-array>
+    <string-array name="app_ops_categories">
+        <item>Ubicación</item>
+        <item>Personal</item>
+        <item>SMS</item>
+        <item>Medios</item>
+        <item>Dispositivo</item>
+    </string-array>
+    <string-array name="authentication_frequency_entries">
+        <item>Siempre obligatorio</item>
+        <item>Obligatorio después de 15 minutos</item>
+    </string-array>
+    <string-array name="automatic_storage_management_days">
+        <item>Más de 30 días</item>
+        <item>Más de 60 días</item>
+        <item>Más de 90 días</item>
+    </string-array>
+    <string-array name="bearer_entries">
+        <item>No especificado</item>
+        <item>LTE</item>
+        <item>HSPAP</item>
+        <item>HSPA</item>
+        <item>HSUPA</item>
+        <item>HSDPA</item>
+        <item>UMTS</item>
+        <item>BORDE</item>
+        <item>GPRS</item>
+        <item>eHRPD</item>
+        <item>EVDO_B</item>
+        <item>EVDO_A</item>
+        <item>EVDO_0</item>
+        <item>1xRTT</item>
+        <item>IS95B</item>
+        <item>IS95A</item>
+    </string-array>
+    <string-array name="bluetooth_visibility_timeout_entries">
+        <item>2 minutos</item>
+        <item>5 minutos</item>
+        <item>1 hora</item>
+        <item>Siempre visible</item>
+    </string-array>
+    <string-array name="captioning_edge_type_selector_titles">
+        <item>Predeterminado</item>
+        <item>Ninguno</item>
+        <item>Delinear</item>
+        <item>Quitar sombra</item>
+        <item>Levantado</item>
+        <item>Oprimido</item>
+    </string-array>
+    <string-array name="captioning_font_size_selector_titles">
+        <item>Muy pequeño</item>
+        <item>Pequeño</item>
+        <item>Normal</item>
+        <item>Grande</item>
+        <item>Enorme</item>
+    </string-array>
+    <string-array name="captioning_opacity_selector_titles">
+        <item>25%</item>
+        <item>50%</item>
+        <item>75%</item>
+        <item>100%</item>
+    </string-array>
+    <string-array name="captioning_preset_selector_titles">
+        <item>Usar valores predeterminados de aplicación.</item>
+        <item>Escribir sobre negro</item>
+        <item>Negro sobre blanco</item>
+        <item>Amarillo sobre negro</item>
+        <item>Amarillo sobre azul</item>
+        <item>Personalizado</item>
+    </string-array>
+    <string-array name="captioning_typeface_selector_titles">
+        <item>Predeterminado</item>
+        <item>Sans-serif</item>
+        <item>Sans-serif condensada</item>
+        <item>Sans-serif espacio sencillo</item>
+        <item>Serif</item>
+        <item>Serif espacio sencillo</item>
+        <item>Casual</item>
+        <item>Cursiva</item>
+        <item>Mayúsculas pequeñas</item>
+    </string-array>
+    <string-array name="color_lunar_mounth">
+        <item>正月</item>
+        <item>二月</item>
+        <item>三月</item>
+        <item>四月</item>
+        <item>五月</item>
+        <item>六月</item>
+        <item>七月</item>
+        <item>八月</item>
+        <item>九月</item>
+        <item>十月</item>
+        <item>冬月</item>
+        <item>腊月</item>
+    </string-array>
+    <string-array name="color_picker">
+        <item>Azul</item>
+        <item>Azul</item>
+        <item>Índigo</item>
+        <item>Morado</item>
+        <item>Rosa</item>
+        <item>Rojo</item>
+    </string-array>
+    <string-array name="color_solor_mounth">
+        <item>Enero</item>
+        <item>Febrero</item>
+        <item>Marzo</item>
+        <item>Abril</item>
+        <item>Mayo</item>
+        <item>Junio</item>
+        <item>Julio</item>
+        <item>Agosto</item>
+        <item>Septiembre</item>
+        <item>Octubre</item>
+        <item>Noviembre</item>
+        <item>Diciembre</item>
+    </string-array>
+    <string-array name="data_usage_data_range">
+        <item>Últimos 30 días</item>
+        <item>Establecer ciclo de uso...</item>
+    </string-array>
+    <string-array name="default_volume_type">
+        <item>Volumen del tono de llamadas</item>
+        <item>Volumen de medios</item>
+    </string-array>
+    <string-array name="dream_timeout_entries">
+        <item>Nunca</item>
+        <item>15 segundos</item>
+        <item>30 segundos</item>
+        <item>1 minuto</item>
+        <item>2 minutos</item>
+        <item>5 minutos</item>
+        <item>10 minutos</item>
+        <item>30 minutos</item>
+    </string-array>
+    <string-array name="eq_preset_names">
+        <item>Desactivado</item>
+        <item>Pop</item>
+        <item>Rock</item>
+        <item>País</item>
+        <item>Jazz</item>
+        <item>Clásica</item>
+        <item>Metal</item>
+        <item>Blues</item>
+        <item>Hip Hop</item>
+        <item>Danza</item>
+        <item>Electro</item>
+        <item>Personalizado</item>
+    </string-array>
+    <string-array name="format_type_entries">
+        <item>FAT32 (predeterminado)</item>
+        <item>exFAT</item>
+    </string-array>
+    <string-array name="format_type_summarys">
+        <item>Tipo de sistema de archivos utilizado más ampliamente para dispositivos móviles de almacenamiento</item>
+        <item>Tipo de sistema de archivos mejorado, compatible con archivos individuales a través de 4G, cuando se conecta a una PC es posible que tenga que instalar primero un controlador</item>
+    </string-array>
+    <string-array name="long_press_timeout_selector_titles">
+        <item>Corto</item>
+        <item>Medio</item>
+        <item>Largo</item>
+    </string-array>
+    <string-array name="notification_prompt_mode_entries">
+        <item>Ícono de notificación</item>
+        <item>Número de notificaciones</item>
+        <item>No hay indicación</item>
+    </string-array>
+    <string-array name="oppo_app_install_location_entries_removable_sd">
+        <item>Almacenamiento del sistema</item>
+        <item>Almacenamiento del teléfono</item>
+        <item>Sistema predeterminado</item>
+    </string-array>
+    <string-array name="oppo_app_install_location_entries_unremovable_sd">
+        <item>Espacio del sistema</item>
+        <item>Almacenamiento del teléfono</item>
+        <item>Depende del sistema</item>
+    </string-array>
+    <string-array name="oppo_time_picker_ampm">
+        <item>AM</item>
+        <item>PM</item>
+    </string-array>
+    <string-array name="presskey_backlight_timeout_entries">
+        <item>6s</item>
+        <item>Siempre activada</item>
+        <item>Desactivada</item>
+    </string-array>
+    <string-array name="privacy_question_list">
+        <item>¿Cómo se llama uno de sus profesores?</item>
+        <item>¿Cómo se llama su madre?</item>
+        <item>¿Cómo se llama su padre?</item>
+        <item>¿Cuál es el nombre de su escuela secundaria?</item>
+        <item>¿Cuál es el nombre de su restaurante favorito?</item>
+    </string-array>
+    <string-array name="proc_stats_memory_states">
+        <item>Normal</item>
+        <item>Moderado</item>
+        <item>Bajo</item>
+        <item>Crítico</item>
+    </string-array>
+    <string-array name="ram_states">
+        <item>Normal</item>
+        <item>Moderado</item>
+        <item>Bajo</item>
+        <item>Muy bajo</item>
+        <item>desconocido</item>
+    </string-array>
+    <string-array name="screen_timeout_entries">
+        <item>15 segundos</item>
+        <item>30 segundos</item>
+        <item>1 minuto</item>
+        <item>2 minutos</item>
+        <item>5 minutos</item>
+        <item>10 minutos</item>
+        <item>30 minutos</item>
+    </string-array>
+    <string-array name="security_settings_premium_sms_values">
+        <item>Preguntar</item>
+        <item>No permitir nunca</item>
+        <item>Permitir siempre</item>
+    </string-array>
+    <string-array name="timezone_filters">
+        <item>América</item>
+        <item>Europa</item>
+        <item>África</item>
+        <item>Asia</item>
+        <item>Australia</item>
+        <item>Pacífico</item>
+        <item>Todas</item>
+    </string-array>
+    <string-array name="usage_stats_display_order_types">
+        <item>Tiempo de uso</item>
+        <item>Usado por última vez</item>
+        <item>Nombre de aplicación</item>
+    </string-array>
+    <string-array name="vpn_states">
+        <item>Desconectado</item>
+        <item>Iniciando...</item>
+        <item>Conectando...</item>
+        <item>Conectado</item>
+        <item>Tiempo de espera superado</item>
+        <item>Con error</item>
+    </string-array>
+    <string-array name="vpn_types_long">
+        <item>Red privada virtual PPTP</item>
+        <item>Red privada virtual L2TP/IPSec con claves precompartidas</item>
+        <item>Red privada virtual L2TP/IPSec con certificados</item>
+        <item>Red privada virtual IPSec con claves precompartidas y autenticación XAuth</item>
+        <item>Red privada virtual IPSec con certificados y autenticación XAuth</item>
+        <item>Red privada virtual IPSec con certificados y autenticación híbrida</item>
+    </string-array>
+    <string-array name="wifi_eap_entries">
+        <item>PEAP</item>
+        <item>TLS</item>
+        <item>TTLS</item>
+        <item>PWD</item>
+    </string-array>
+    <string-array name="wifi_ip_settings">
+        <item>Protocolo DHCP</item>
+        <item>IP estática</item>
+    </string-array>
+    <string-array name="wifi_p2p_status">
+        <item>Conectado</item>
+        <item>Invitado</item>
+        <item>Con error</item>
+        <item>Disponible</item>
+        <item>Fuera del alcance</item>
+    </string-array>
+    <string-array name="wifi_peap_phase2_entries">
+        <item>Ninguno</item>
+        <item>MSCHAPV2</item>
+        <item>GTC</item>
+    </string-array>
+    <string-array name="wifi_phase2_entries">
+        <item>Ninguno</item>
+        <item>PAP</item>
+        <item>MSCHAP</item>
+        <item>MSCHAPV2</item>
+        <item>GTC</item>
+    </string-array>
+    <string-array name="wifi_proxy_settings">
+        <item>Ninguno</item>
+        <item>Manual</item>
+        <item>Auto-Config Proxy</item>
+    </string-array>
+</resources>

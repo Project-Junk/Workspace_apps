@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="application_manage_status_text">
+        <item quantity="other">යෙදුම්%1$d ක්</item>
+        <item quantity="one">%1$d යෙදුමක්</item>
+    </plurals>
+    <plurals name="third_app_status_text">
+        <item quantity="other">යෙදුම්%1$d සක්‍රියයි</item>
+        <item quantity="one">%1$d යෙදුමක් සක්‍රීයයි</item>
+    </plurals>
+</resources>

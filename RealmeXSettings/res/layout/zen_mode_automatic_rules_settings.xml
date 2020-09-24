@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto">
+    <com.coloros.settings.widget.SettingsColorListView android:id="@id/rules_list" android:background="@drawable/color_list_preference_bg" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:listSelector="@android:color/transparent" settings:layout_behavior="@string/follow_color_appbarlayout_behavior" />
+    <LinearLayout android:gravity="center_horizontal" android:layout_gravity="center" android:orientation="vertical" android:id="@id/no_rule_layout" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_centerInParent="true">
+        <ImageView android:id="@id/img" android:layout_width="@dimen/color_zenmode_no_rule_image_width" android:layout_height="@dimen/color_zenmode_no_rule_image_height" android:src="@drawable/zen_mode_empty_rule" />
+        <TextView android:textSize="@dimen/color_zenmode_title_font_size" android:textColor="@color/color_zenmode_empty_rule" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/zen_mode_no_rule" />
+        <Space android:layout_width="fill_parent" android:layout_height="@dimen/color_zenmode_no_rule_space" />
+    </LinearLayout>
+    <include layout="@layout/color_appbar_layout" />
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

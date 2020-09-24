@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_centerVertical="true" android:paddingStart="@dimen/oppo_toolbar_margin" android:paddingEnd="@dimen/oppo_toolbar_margin">
+        <ImageView android:layout_gravity="center" android:id="@id/iv_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginEnd="11.0dip" />
+        <RelativeLayout android:paddingTop="@dimen/M11" android:paddingBottom="@dimen/M5" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" android:layout_marginEnd="10.0dip">
+            <TextView android:textColor="@color/color_preference_title_color" android:gravity="start" android:id="@id/tv_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/notifycenter_and_statusbar" style="?android:textAppearanceLarge" />
+        </RelativeLayout>
+        <ImageView android:id="@id/iv_arrow" android:background="@drawable/color_btn_next" android:focusable="false" android:clickable="false" android:layout_width="7.0dip" android:layout_height="13.0dip" />
+    </LinearLayout>
+    <View android:id="@id/view_divier" android:background="@drawable/color_icon_list_divider_jump" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_alignParentBottom="true" />
+    <com.color.support.widget.ColorSwitch android:id="@id/view_switch" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/oppo_toolbar_margin" android:layout_marginRight="@dimen/oppo_toolbar_margin" android:layout_centerVertical="true" android:layout_alignParentEnd="true" />
+</LinearLayout>

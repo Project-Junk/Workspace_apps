@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/running_application_item_height" android:paddingStart="@dimen/running_applications_padding" android:paddingEnd="@dimen/running_applications_padding"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/app_icon" android:layout_width="@dimen/running_application_item_icon_size" android:layout_height="@dimen/running_application_item_icon_size" android:layout_centerVertical="true" />
+    <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_marginStart="16.0dip" android:layout_toStartOf="@id/app_more" android:layout_toEndOf="@id/app_icon">
+        <TextView android:textAppearance="?android:textAppearanceLarge" android:id="@id/app_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="@dimen/running_application_item_name_margin_size" />
+        <TextView android:textAppearance="?android:textAppearanceSmall" android:id="@id/app_used" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:layout_below="@id/app_name" android:layout_alignStart="@id/app_name" />
+    </RelativeLayout>
+    <ImageView android:id="@id/app_more" android:layout_width="@dimen/running_application_item_more_size" android:layout_height="@dimen/running_application_item_more_size" android:layout_centerVertical="true" android:layout_alignParentEnd="true" />
+</RelativeLayout>

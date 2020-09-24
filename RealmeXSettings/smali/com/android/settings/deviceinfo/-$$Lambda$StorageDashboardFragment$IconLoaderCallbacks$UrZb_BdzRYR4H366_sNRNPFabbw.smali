@@ -1,0 +1,46 @@
+.class public final synthetic Lcom/android/settings/deviceinfo/-$$Lambda$StorageDashboardFragment$IconLoaderCallbacks$UrZb_BdzRYR4H366_sNRNPFabbw;
+.super Ljava/lang/Object;
+.source "lambda"
+
+# interfaces
+.implements Ljava/util/function/Predicate;
+
+
+# static fields
+.field public static final synthetic INSTANCE:Lcom/android/settings/deviceinfo/-$$Lambda$StorageDashboardFragment$IconLoaderCallbacks$UrZb_BdzRYR4H366_sNRNPFabbw;
+
+
+# direct methods
+.method static synthetic constructor <clinit>()V
+    .locals 1
+
+    new-instance v0, Lcom/android/settings/deviceinfo/-$$Lambda$StorageDashboardFragment$IconLoaderCallbacks$UrZb_BdzRYR4H366_sNRNPFabbw;
+
+    invoke-direct {v0}, Lcom/android/settings/deviceinfo/-$$Lambda$StorageDashboardFragment$IconLoaderCallbacks$UrZb_BdzRYR4H366_sNRNPFabbw;-><init>()V
+
+    sput-object v0, Lcom/android/settings/deviceinfo/-$$Lambda$StorageDashboardFragment$IconLoaderCallbacks$UrZb_BdzRYR4H366_sNRNPFabbw;->INSTANCE:Lcom/android/settings/deviceinfo/-$$Lambda$StorageDashboardFragment$IconLoaderCallbacks$UrZb_BdzRYR4H366_sNRNPFabbw;
+
+    return-void
+.end method
+
+.method private synthetic constructor <init>()V
+    .locals 0
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final test(Ljava/lang/Object;)Z
+    .locals 0
+
+    check-cast p1, Lcom/android/settingslib/core/a;
+
+    invoke-static {p1}, Lcom/android/settings/deviceinfo/StorageDashboardFragment$IconLoaderCallbacks;->lambda$UrZb_BdzRYR4H366_sNRNPFabbw(Lcom/android/settingslib/core/a;)Z
+
+    move-result p1
+
+    return p1
+.end method

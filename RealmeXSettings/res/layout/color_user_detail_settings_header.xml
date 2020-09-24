@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/common_margin" android:paddingEnd="@dimen/common_margin"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:paddingTop="20.0dip" android:paddingBottom="20.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.color.support.widget.ColorRoundImageView android:id="@id/user_photo" android:layout_width="100.0dip" android:layout_height="100.0dip" android:foreground="@drawable/color_user_detail_settings_icon_foreground" android:src="@drawable/moreuser_head_default" app:colorType="round" style="@style/PreferenceIcon" />
+        <ImageView android:gravity="center" android:id="@id/iv_photo_icon" android:layout_width="24.0dip" android:layout_height="24.0dip" android:layout_marginBottom="1.0dip" android:src="@drawable/moreuser_head_photo" android:layout_alignBottom="@id/user_photo" android:layout_marginEnd="8.0dip" android:layout_alignEnd="@id/user_photo" />
+    </RelativeLayout>
+    <RelativeLayout android:gravity="center_vertical" android:layout_gravity="center_vertical" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="52.0dip">
+        <TextView android:id="@id/tv_user_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/user_detail_settings_name" android:layout_centerVertical="true" android:layout_alignParentStart="true" style="@style/PreferenceTitle" />
+        <com.color.support.widget.ColorEditText android:textSize="@dimen/support_abc_text_size_body_1_material" android:id="@id/user_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:hint="@string/user_input_name" android:cursorVisible="true" android:layout_toRightOf="@id/tv_user_name" android:layout_centerVertical="true" android:layout_marginStart="10.0dip" android:layout_alignParentEnd="true" style="@style/PreferenceTitle" />
+    </RelativeLayout>
+    <View android:background="#19000000" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="2.0px" android:layout_marginTop="14.0dip" />
+</LinearLayout>

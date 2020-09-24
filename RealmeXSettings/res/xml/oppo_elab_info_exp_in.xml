@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<elabinfo version="1.0">
+    <elabinfo factory_number="IN-02" icon="@drawable/oppo_r_3003484_bis" model="CPH1901" phone="OPPO" sar=" 1.370W/kg(Head) \n 0.186W/kg(Body) " />
+    <elabinfo factory_number="IN-02" icon="@drawable/oppo_r_3003484_bis" model="CPH1871" phone="OPPO" sar=" 1.439W/kg(Head) \n 0.823W/kg(Body) " />
+    <elabinfo factory_number="IN-02" icon="@drawable/oppo_r_3003484_bis" model="CPH1877" phone="OPPO" sar=" 1.390W/kg(Head) \n 0.535W/kg(Body) " />
+    <elabinfo factory_number="IN-02" icon="@drawable/oppo_r_3003484_bis" model="CPH1879" phone="OPPO" sar=" 1.335W/kg(Head) \n 0.581W/kg(Body) " />
+    <elabinfo factory_number="IN-02" icon="@drawable/oppo_r_3003484_bis" model="CPH1853" phone="OPPO" sar=" 0.305W/kg(Head) \n 0.720W/kg(Body) " />
+    <elabinfo factory_number="IN-02" icon="@drawable/oppo_r_3003484_bis" model="CPH1809" phone="OPPO" sar=" 0.305W/kg(Head) \n 0.720W/kg(Body) " />
+    <elabinfo factory_number="IN-02" icon="@drawable/oppo_r_3003484_bis" model="CPH1803" phone="OPPO" sar=" 1.166W/kg(Head) \n 0.934W/kg(Body) " />
+    <elabinfo factory_number="IN-02" icon="@drawable/oppo_r_3003484_bis" model="CPH1893" phone="OPPO" sar=" 1.278W/kg(Head) \n 0.861W/kg(Body) " />
+    <elabinfo factory_number="IN-02" icon="@drawable/oppo_r_3003484_bis" model="CPH1909" phone="OPPO" sar=" 0.984W/kg(Head) \n 0.433W/kg(Body) " />
+    <elabinfo factory_number="IN-03" icon="@drawable/oppo_r_93006076_bis" model="CPH1803" phone="OPPO" sar=" 1.166W/kg(Head) \n 0.934W/kg(Body) " />
+    <elabinfo factory_number="IN-03" icon="@drawable/oppo_r_93006076_bis" model="CPH1853" phone="OPPO" sar=" 0.305W/kg(Head) \n 0.720W/kg(Body) " />
+    <elabinfo factory_number="IN-04" icon="@drawable/oppo_r_93005800_bis" model="CPH1901" phone="OPPO" sar=" 1.370W/kg(Head) \n 0.186W/kg(Body) " />
+    <elabinfo factory_number="IN-04" icon="@drawable/oppo_r_93005800_bis" model="CPH1803" phone="OPPO" sar=" 1.166W/kg(Head) \n 0.934W/kg(Body) " />
+    <elabinfo factory_number="IN-04" icon="@drawable/oppo_r_93005800_bis" model="CPH1809" phone="OPPO" sar=" 0.305W/kg(Head) \n 0.720W/kg(Body) " />
+    <elabinfo factory_number="IN-04" icon="@drawable/oppo_r_93005800_bis" model="CPH1881" phone="OPPO" sar=" 0.992W/kg(Head) \n 0.572W/kg(Body) " />
+    <elabinfo factory_number="IN-04" icon="@drawable/oppo_r_93005800_bis" model="CPH1823" phone="OPPO" sar=" 1.312W/kg(Head) \n 0.829W/kg(Body) " />
+    <elabinfo factory_number="IN-04" icon="@drawable/oppo_r_93005800_bis" model="CPH1853" phone="OPPO" sar=" 0.305W/kg(Head) \n 0.720W/kg(Body) " />
+    <elabinfo factory_number="IN-04" icon="@drawable/oppo_r_93005800_bis" model="CPH1893" phone="OPPO" sar=" 1.278W/kg(Head) \n 0.861W/kg(Body) " />
+    <elabinfo factory_number="IN-04" icon="@drawable/oppo_r_93005800_bis" model="CPH1909" phone="OPPO" sar=" 0.984W/kg(Head) \n 0.433W/kg(Body) " />
+    <elabinfo factory_number="CN-" icon="@drawable/oppo_elabel_cn" model="CPH1831" phone="OPPO" sar=" 1.221W/kg(Head) \n 0.480W/kg(Body) " />
+    <elabinfo factory_number="IN-02" icon="@drawable/in_bis_realme_02" model="CPH1859" phone="Realme" sar=" 1.400W/kg(Head) \n 0.909W/kg(Body) " />
+    <elabinfo factory_number="IN-02" icon="@drawable/in_bis_realme_02" model="CPH1861" phone="Realme" sar=" 1.400W/kg(Head) \n 0.909W/kg(Body) " />
+    <elabinfo factory_number="IN-02" icon="@drawable/in_bis_realme_02" model="RMX1801" phone="Realme" sar=" 1.280W/kg(Head) \n 0.831W/kg(Body) " />
+    <elabinfo factory_number="IN-03" icon="@drawable/in_bis_realme_03" model="RMX1801" phone="Realme" sar=" 1.280W/kg(Head) \n 0.831W/kg(Body) " />
+    <elabinfo factory_number="IN-04" icon="@drawable/in_bis_realme_04" model="RMX1801" phone="Realme" sar=" 1.280W/kg(Head) \n 0.831W/kg(Body) " />
+    <elabinfo factory_number="IN-02" icon="@drawable/in_bis_realme_02" model="RMX1805" phone="Realme" sar=" 0.305W/kg(Head) \n 0.720W/kg(Body) " />
+    <elabinfo factory_number="IN-03" icon="@drawable/in_bis_realme_03" model="RMX1805" phone="Realme" sar=" 0.305W/kg(Head) \n 0.720W/kg(Body) " />
+    <elabinfo factory_number="IN-04" icon="@drawable/in_bis_realme_04" model="RMX1805" phone="Realme" sar=" 0.305W/kg(Head) \n 0.720W/kg(Body) " />
+    <elabinfo factory_number="IN-02" icon="@drawable/in_bis_realme_02" model="RMX1807" phone="Realme" sar=" 1.280W/kg(Head) \n 0.831W/kg(Body) " />
+    <elabinfo factory_number="IN-03" icon="@drawable/in_bis_realme_03" model="RMX1807" phone="Realme" sar=" 1.280W/kg(Head) \n 0.831W/kg(Body) " />
+    <elabinfo factory_number="IN-04" icon="@drawable/in_bis_realme_04" model="RMX1807" phone="Realme" sar=" 1.280W/kg(Head) \n 0.831W/kg(Body) " />
+    <elabinfo factory_number="IN-02" icon="@drawable/in_bis_realme_02" model="RMX1811" phone="Realme" sar=" 0.305W/kg(Head) \n 0.720W/kg(Body) " />
+    <elabinfo factory_number="IN-03" icon="@drawable/in_bis_realme_03" model="RMX1811" phone="Realme" sar=" 0.305W/kg(Head) \n 0.720W/kg(Body) " />
+    <elabinfo factory_number="IN-04" icon="@drawable/in_bis_realme_04" model="RMX1811" phone="Realme" sar=" 0.305W/kg(Head) \n 0.720W/kg(Body) " />
+    <elabinfo factory_number="IN-02" icon="@drawable/in_bis_realme_02" model="RMX1831" phone="Realme" sar=" 1.187W/kg(Head) \n 0.529W/kg(Body) " />
+    <elabinfo factory_number="IN-03" icon="@drawable/in_bis_realme_03" model="RMX1831" phone="Realme" sar=" 1.187W/kg(Head) \n 0.529W/kg(Body) " />
+    <elabinfo factory_number="IN-04" icon="@drawable/in_bis_realme_04" model="RMX1831" phone="Realme" sar=" 1.187W/kg(Head) \n 0.529W/kg(Body) " />
+    <elabinfo factory_number="IN-02" icon="@drawable/in_bis_realme_02" model="RMX1833" phone="Realme" sar=" 1.187W/kg(Head) \n 0.529W/kg(Body) " />
+    <elabinfo factory_number="IN-03" icon="@drawable/in_bis_realme_03" model="RMX1833" phone="Realme" sar=" 1.187W/kg(Head) \n 0.529W/kg(Body) " />
+    <elabinfo factory_number="IN-04" icon="@drawable/in_bis_realme_04" model="RMX1833" phone="Realme" sar=" 1.187W/kg(Head) \n 0.529W/kg(Body) " />
+</elabinfo>

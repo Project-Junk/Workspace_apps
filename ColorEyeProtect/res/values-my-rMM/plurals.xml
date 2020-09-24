@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="application_manage_status_text">
+        <item quantity="other">အက်ပ် %1$d ခု</item>
+        <item quantity="one">အက်ပ် %1$d ခု</item>
+    </plurals>
+    <plurals name="third_app_status_text">
+        <item quantity="other">အက်ပ် %1$d ခု ပွင့်နေ</item>
+        <item quantity="one">အက်ပ် %1$d ခု ပွင့်နေ</item>
+    </plurals>
+</resources>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.legacy.widget.Space android:layout_width="fill_parent" android:layout_height="20.0dip" />
+    <com.coloros.settings.widget.SettingsColorButton android:textSize="@dimen/register_2d_retry_text_size" android:gravity="center" android:id="@id/bt_force_stop" android:background="@drawable/color_large_main_button_bg" android:layout_width="@dimen/register_2d_retry_width" android:layout_height="@dimen/register_2d_retry_height" android:text="@string/force_stop" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" android:key="force_stop" android:contentDescription="@string/enroll_again" android:fontFamily="sans-serif-medium" style="?colorButtonColorfulDefaultStyle" />
+</LinearLayout>

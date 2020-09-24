@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout android:id="@id/navigation_choose_lock_pattern_layout" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/color_confirm_password_base" />
+    <com.android.internal.widget.LinearLayoutWithDefaultTouchRecepient android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/topLayout" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <include layout="@layout/color_appbar_layout" />
+        <Space android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+        <RelativeLayout android:gravity="center_horizontal" android:id="@id/layout_with_anim" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textAppearance="?android:textAppearanceLarge" android:textSize="@dimen/color_font_size_16DP" android:gravity="center" android:id="@id/headerText" android:layout_width="fill_parent" android:layout_height="wrap_content" android:fontFamily="sans-serif-medium" style="@style/LockText" />
+            <TextView android:textAppearance="?android:textAppearanceLarge" android:textSize="@dimen/color_font_size_16DP" android:gravity="center" android:id="@id/headerText_animation" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:fontFamily="sans-serif-medium" style="@style/LockText" />
+            <TextView android:textAppearance="?android:textAppearanceSmall" android:textSize="@dimen/color_font_size_12DP" android:gravity="center" android:id="@id/headerSubTitle" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="15.0dip" android:layout_below="@id/headerText" style="@style/LockText" />
+            <TextView android:textAppearance="?android:textAppearanceSmall" android:textSize="@dimen/color_font_size_12DP" android:gravity="center" android:id="@id/headerSubTitle_animation" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="15.0dip" android:layout_below="@id/headerText_animation" style="@style/LockText" />
+            <TextView android:textAppearance="?android:textAppearanceLarge" android:textSize="@dimen/TF07" android:textColor="@color/colorGreenTintControlNormal" android:gravity="center" android:id="@id/other_lock" android:visibility="invisible" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="82.32999dip" android:maxHeight="50.0dip" android:text="@string/oppo_other_lock_type" android:layout_below="@id/headerText" android:layout_centerHorizontal="true" android:fontFamily="sans-serif-medium" style="@style/LockText" />
+        </RelativeLayout>
+        <Space android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+        <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="43.359985dip">
+            <com.color.support.widget.ColorLockPatternView android:id="@id/lockPattern_animation" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <com.color.support.widget.ColorLockPatternView android:id="@id/lockPattern" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </RelativeLayout>
+        <Space android:id="@id/fingerprint_space" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="114.0dip" />
+        <include layout="@layout/security_shield_password_footer" />
+    </com.android.internal.widget.LinearLayoutWithDefaultTouchRecepient>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

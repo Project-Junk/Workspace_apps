@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:duration="1000" android:drawable="@drawable/osie_000" />
+    <item android:duration="86" android:drawable="@drawable/osie_001" />
+    <item android:duration="86" android:drawable="@drawable/osie_002" />
+    <item android:duration="86" android:drawable="@drawable/osie_003" />
+    <item android:duration="86" android:drawable="@drawable/osie_004" />
+    <item android:duration="86" android:drawable="@drawable/osie_005" />
+    <item android:duration="86" android:drawable="@drawable/osie_006" />
+    <item android:duration="86" android:drawable="@drawable/osie_007" />
+    <item android:duration="86" android:drawable="@drawable/osie_008" />
+    <item android:duration="86" android:drawable="@drawable/osie_009" />
+    <item android:duration="86" android:drawable="@drawable/osie_010" />
+    <item android:duration="86" android:drawable="@drawable/osie_011" />
+    <item android:duration="86" android:drawable="@drawable/osie_012" />
+    <item android:duration="86" android:drawable="@drawable/osie_013" />
+    <item android:duration="86" android:drawable="@drawable/osie_014" />
+    <item android:duration="86" android:drawable="@drawable/osie_015" />
+    <item android:duration="86" android:drawable="@drawable/osie_016" />
+    <item android:duration="86" android:drawable="@drawable/osie_017" />
+    <item android:duration="86" android:drawable="@drawable/osie_018" />
+    <item android:duration="86" android:drawable="@drawable/osie_019" />
+    <item android:duration="86" android:drawable="@drawable/osie_020" />
+    <item android:duration="86" android:drawable="@drawable/osie_021" />
+    <item android:duration="86" android:drawable="@drawable/osie_022" />
+    <item android:duration="86" android:drawable="@drawable/osie_023" />
+    <item android:duration="86" android:drawable="@drawable/osie_024" />
+    <item android:duration="86" android:drawable="@drawable/osie_025" />
+    <item android:duration="86" android:drawable="@drawable/osie_026" />
+    <item android:duration="86" android:drawable="@drawable/osie_027" />
+    <item android:duration="86" android:drawable="@drawable/osie_028" />
+    <item android:duration="86" android:drawable="@drawable/osie_029" />
+    <item android:duration="1000" android:drawable="@drawable/osie_030" />
+</animation-list>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="application_manage_status_text">
+        <item quantity="other">%1$d ta ilova</item>
+        <item quantity="one">%1$d ilova</item>
+    </plurals>
+    <plurals name="third_app_status_text">
+        <item quantity="other">%1$d ilovalar yoniq</item>
+        <item quantity="one">%1$d ilova yoniq</item>
+    </plurals>
+</resources>

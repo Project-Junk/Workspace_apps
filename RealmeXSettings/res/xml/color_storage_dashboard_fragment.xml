@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.preference.PreferenceScreen android:title="@string/storage_settings_new" android:orderingFromXml="false" android:key="storage_dashboard_screen"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto">
+    <com.coloros.settings.feature.storage.preferences.ColorVolumeUsagePreference android:enabled="false" android:clickable="false" android:layout="@layout/color_volume_usage_preference" android:title="@string/phone_storage" android:selectable="false" android:key="pref_usage" android:order="0" />
+    <com.coloros.settings.widget.preference.SettingColorJumpPreference android:layout="@layout/color_preference" android:title="@string/storage_detail_images" android:key="pref_photos" android:summary="@string/memory_calculating_size" android:order="1" />
+    <com.coloros.settings.widget.preference.SettingColorJumpPreference android:layout="@layout/color_preference" android:title="@string/storage_detail_videos" android:key="pref_videos" android:summary="@string/memory_calculating_size" android:order="2" />
+    <com.coloros.settings.widget.preference.SettingColorJumpPreference android:layout="@layout/color_preference" android:title="@string/storage_detail_audio" android:key="pref_audios" android:summary="@string/memory_calculating_size" android:order="3" />
+    <com.coloros.settings.widget.preference.SettingColorJumpPreference android:layout="@layout/color_preference" android:title="@string/storage_documents" android:key="pref_documents" android:summary="@string/memory_calculating_size" android:order="4" />
+    <com.coloros.settings.widget.preference.SettingColorJumpPreference android:layout="@layout/color_preference" android:title="@string/storage_install_apks" android:key="pref_apks" android:summary="@string/memory_calculating_size" android:order="5" />
+    <com.coloros.settings.widget.preference.SettingColorJumpPreference android:layout="@layout/color_preference" android:title="@string/storage_application" android:key="pref_apps" android:summary="@string/memory_calculating_size" android:order="6" />
+    <com.coloros.settings.widget.preference.SettingColorJumpPreference android:layout="@layout/color_preference" android:title="@string/storage_detail_other" android:key="pref_others" android:summary="@string/memory_calculating_size" android:order="7" />
+    <com.coloros.settings.widget.preference.SettingColorJumpPreference android:layout="@layout/color_preference" android:title="@string/storage_detail_system" android:key="pref_system" android:summary="@string/memory_calculating_size" android:order="100" settings:colorClickStyle="unclick" settings:color_jump_mark="@null" />
+</androidx.preference.PreferenceScreen>

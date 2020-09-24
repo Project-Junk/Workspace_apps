@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:key="storage_external_volume"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.coloros.settings.feature.storage.preferences.ColorVolumeUsagePreference android:enabled="false" android:clickable="false" android:layout="@layout/color_volume_usage_preference" android:selectable="false" android:key="pref_usage" android:order="0" />
+</PreferenceScreen>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextureView android:id="@id/guide_view" android:layout_width="@dimen/register_2d_guide_texture_width" android:layout_height="@dimen/register_2d_guide_texture_width" android:layout_marginTop="4.0dip" />
+    <Space android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+    <com.coloros.settings.widget.SettingsColorButton android:textSize="@dimen/register_2d_retry_text_size" android:gravity="center" android:id="@id/next_btn" android:background="@drawable/color_large_main_button_bg" android:layout_width="@dimen/register_2d_retry_width" android:layout_height="@dimen/register_2d_retry_height" android:text="@string/next" android:contentDescription="@string/next" android:fontFamily="sans-serif-medium" style="?colorButtonColorfulDefaultStyle" />
+</LinearLayout>

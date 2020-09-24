@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/* //device/apps/common/assets/res/any/colors.xml
+**
+** Copyright 2006, The Android Open Source Project
+**
+** Licensed under the Apache License, Version 2.0 (the "License");
+** you may not use this file except in compliance with the License.
+** You may obtain a copy of the License at
+**
+**     http://www.apache.org/licenses/LICENSE-2.0
+**
+** Unless required by applicable law or agreed to in writing, software
+** distributed under the License is distrsibuted on an "AS IS" BASIS,
+** WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+** See the License for the specific language governing permissions and
+** limitations under the License.
+*/
+-->
+<resources>
+    <color name="aod_accessibility_color">#FF0FAB5D</color>
+    <color name="colorGreenTintControlNormal">#FF0FAB5D</color>
+    <color name="colorGreenTintControlPressed">#FF0D914F</color>
+    
+    <!--Shuang.Ou@ROM.SysApp.SystemUI, 2019/8/26, Add for qs7.0-->
+    <color name="status_bar_qs_tile_bg_color_active">#FF0FAB5D</color>
+    <!--end-->
+    <!--Zhiliang.Wu@ROM.Framework.SplitScreen, 2019/09/04, Add for Split Screen accessible mode-->
+    <color name="divider_focus_window_color">#FF0FAB5D</color>
+    <!--end-->
+    <!--Yonghong.Zhang@ROM.SysApp.SystemUI.StatusBar, 2019/8/30, Add for statusBar battery accessible mode-->
+    <color name="battery_progress_bar_color_save_mode">#FFCC8620</color>
+    <color name="battery_progress_bar_color_svooc2">#FF00A0D1</color>
+    <color name="battery_progress_bar_color_vooc">#FF0FAB5D</color>
+    <!--end-->
+</resources>
+

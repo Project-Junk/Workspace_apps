@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
+    <com.color.support.widget.ColorLoadingView android:id="@id/processpor" android:paddingTop="18.0dip" android:paddingBottom="18.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" style="?colorLoadingViewLargeStyle" />
+    <TextView android:textAppearance="?android:textAppearanceMedium" android:textSize="@dimen/TD08" android:textColor="@color/C20" android:layout_gravity="center_vertical" android:id="@id/empty_text" android:layout_width="wrap_content" android:layout_height="18.0dip" android:layout_marginBottom="2.0dip" android:layout_below="@id/processpor" />
+</RelativeLayout>

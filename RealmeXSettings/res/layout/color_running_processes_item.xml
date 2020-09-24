@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout android:background="@drawable/color_group_list_selector_item" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="?android:listPreferredItemHeight" android:columnCount="2" android:paddingStart="@dimen/common_margin" android:paddingEnd="@dimen/common_margin"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="center_vertical" android:id="@id/icon" android:layout_width="36.0dip" android:layout_height="36.0dip" android:scaleType="fitCenter" android:contentDescription="@null" android:layout_rowSpan="3" android:layout_marginEnd="16.0dip" />
+    <LinearLayout android:layout_gravity="fill_horizontal|center" android:layout_width="0.0dip" android:layout_marginTop="12.0dip">
+        <TextView android:textAppearance="?android:textAppearanceMedium" android:textSize="16.0sp" android:textColor="@color/color_preference_title_color" android:ellipsize="marquee" android:id="@id/name" android:layout_width="0.0dip" android:layout_height="wrap_content" android:singleLine="true" android:layout_weight="1.0" android:textAlignment="viewStart" />
+        <TextView android:textAppearance="?android:textAppearanceSmall" android:textSize="14.0sp" android:textColor="@color/color_preference_secondary_text_color" android:id="@id/size" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="8.0dip" />
+    </LinearLayout>
+    <LinearLayout android:layout_gravity="fill_horizontal|center|top" android:layout_width="0.0dip" android:layout_marginBottom="12.0dip">
+        <TextView android:textAppearance="?android:textAppearanceSmall" android:textSize="12.0sp" android:textColor="@color/color_preference_secondary_text_color" android:id="@id/description" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" android:textAlignment="viewStart" />
+        <TextView android:textAppearance="?android:textAppearanceSmall" android:textSize="14.0sp" android:textColor="@color/color_preference_secondary_text_color" android:id="@id/uptime" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="8.0dip" />
+    </LinearLayout>
+</GridLayout>

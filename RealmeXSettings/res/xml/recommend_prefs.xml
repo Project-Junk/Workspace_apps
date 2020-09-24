@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/recommend_settings_title"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.coloros.settings.widget.preference.SettingSwitchPreference android:persistent="false" android:title="@string/recommend_settings_title" android:key="enable_recommend" android:summary="@string/recommend_settings_content" />
+</PreferenceScreen>

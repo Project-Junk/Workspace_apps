@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/application_info_label"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto">
+    <com.android.settingslib.widget.LayoutPreference android:layout="@layout/app_data_details_head_view" android:selectable="false" android:key="header_view" />
+    <PreferenceCategory android:key="app_date_category">
+        <com.coloros.settings.widget.preference.SettingColorJumpPreference android:title="@string/storage_application" android:selectable="false" android:key="key_app_date_application" settings:colorClickStyle="unclick" settings:color_jump_mark="@null" />
+        <com.coloros.settings.widget.preference.SettingColorJumpPreference android:title="@string/storage_data" android:selectable="false" android:key="key_app_date_storage" settings:colorClickStyle="unclick" settings:color_jump_mark="@null" />
+        <com.coloros.settings.widget.preference.SettingColorJumpPreference android:key="key_app_media_date_storage" />
+    </PreferenceCategory>
+    <PreferenceCategory android:key="app_date_opreation">
+        <Preference android:textColor="@color/oppo_color_green" android:title="@string/storage_operation_delete" android:key="key_opreation_delete_storage" />
+        <Preference android:textColor="@color/oppo_color_green" android:title="@string/storage_operation_uninstall" android:key="key_opreation_uninstall" />
+    </PreferenceCategory>
+</PreferenceScreen>

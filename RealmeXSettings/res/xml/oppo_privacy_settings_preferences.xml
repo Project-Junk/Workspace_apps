@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/privacy_fragment_settings" android:key="privacy_fragment_settings"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto">
+    <com.coloros.settings.widget.preference.SettingsColorPreferenceCategory android:title="@string/privacy_password_settings" android:key="privacy_password_settings" settings:isFirstCategory="true">
+        <com.coloros.settings.widget.preference.ColorFocusPreference android:title="@string/privacy_password_close" android:key="privacy_password" />
+        <com.coloros.settings.widget.preference.ColorFocusPreference android:title="@string/privacy_password_modify" android:key="privacy_password_modify" />
+    </com.coloros.settings.widget.preference.SettingsColorPreferenceCategory>
+    <PreferenceCategory android:title="@string/password_reset_mode" android:key="privacy_password_forget">
+        <com.coloros.settings.widget.preference.SettingColorJumpPreference android:title="@string/safe_question" android:key="privacy_answer_modify" />
+        <com.coloros.settings.widget.preference.SettingColorJumpPreference android:title="@string/safe_email" android:key="privacy_email_modify" />
+        <com.coloros.settings.widget.preference.SettingSwitchPreference android:title="@string/privacy_bind_account" android:key="privacy_account_modify" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/privacy_features" android:key="privacy_features">
+        <com.coloros.settings.widget.preference.SettingColorJumpPreference android:title="@string/privacy_apps_encryption" android:key="privacy_apps_encryption" />
+        <com.coloros.settings.widget.preference.SettingColorJumpPreference android:title="@string/privacy_file_safe" android:key="privacy_file_safe" />
+    </PreferenceCategory>
+    <PreferenceCategory />
+    <Preference android:layout="@layout/color_detail_preference" android:selectable="false" android:key="privacy_footer" android:summary="@string/privacy_footer" />
+</PreferenceScreen>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:id="@id/support_scene" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/dual_earphone_support_scane" android:layout_marginStart="@dimen/double_ear_tip_margin_20dp" android:layout_marginEnd="@dimen/double_ear_tip_margin_20dp" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <TextView android:id="@id/tip_one" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/dual_earphone_support_scane_one" android:layout_marginStart="@dimen/double_ear_tip_margin_20dp" android:layout_marginEnd="@dimen/double_ear_tip_margin_20dp" />
+    <TextView android:id="@id/tip_two" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/dual_earphone_support_scane_two" android:layout_marginStart="@dimen/double_ear_tip_margin_20dp" android:layout_marginEnd="@dimen/double_ear_tip_margin_20dp" app:layout_constraintLeft_toLeftOf="@id/support_scene" app:layout_constraintTop_toBottomOf="@id/tip_one" />
+</LinearLayout>

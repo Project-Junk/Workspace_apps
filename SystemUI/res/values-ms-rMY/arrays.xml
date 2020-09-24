@@ -1,0 +1,329 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="animator_duration_scale_entries">
+        <item>Animasi dimatikan</item>
+        <item>Skala animasi .5x</item>
+        <item>Skala animasi .1x</item>
+        <item>Skala animasi 1.5x</item>
+        <item>Skala animasi 2x</item>
+        <item>Skala animasi 5x</item>
+        <item>Skala animasi 10x</item>
+    </string-array>
+    <string-array name="app_process_limit_entries">
+        <item>Had standard</item>
+        <item>Tiada proses latar belakang</item>
+        <item>1 proses paling banyak</item>
+        <item>2 proses paling banyak</item>
+        <item>3 proses paling banyak</item>
+        <item>4 proses paling banyak</item>
+    </string-array>
+    <string-array name="battery_labels">
+        <item>0%</item>
+        <item>50%</item>
+        <item>100%</item>
+    </string-array>
+    <string-array name="battery_options">
+        <item>Sentiasa paparkan dalam peratusan</item>
+        <item>Paparkan peratusan kuasa bateri semasa mengecas (lalai)</item>
+        <item>Jangan paparkan ikon ini</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_bits_per_sample_summaries">
+        <item>Gunakan Pemilihan Sistem (Lalai)</item>
+        <item>16 bit/sampel</item>
+        <item>24 bit/sampel</item>
+        <item>32 bit/sampel</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_bits_per_sample_titles">
+        <item>Gunakan Pemilihan Sistem (Lalai)</item>
+        <item>16 bit/sampel</item>
+        <item>24 bit/sampel</item>
+        <item>32 bit/sampel</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_channel_mode_summaries">
+        <item>Gunakan Pemilihan Sistem (Lalai)</item>
+        <item>Mono</item>
+        <item>Stereo</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_channel_mode_titles">
+        <item>Gunakan Pemilihan Sistem (Lalai)</item>
+        <item>Mono</item>
+        <item>Stereo</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_ldac_playback_quality_summaries">
+        <item>Dioptimumkan untuk Kualiti Audio</item>
+        <item>Kualiti Audio dan Sambungan Seimbang</item>
+        <item>Dioptimumkan untuk Kualiti Sambungan</item>
+        <item>Usaha Terbaik (Kadar Bit Mudah Suai)</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_ldac_playback_quality_titles">
+        <item>Dioptimumkan untuk Kualiti Audio (990kbps/909kbps)</item>
+        <item>Kualiti Audio dan Sambungan Seimbang (660kbps/606kbps)</item>
+        <item>Dioptimumkan untuk Kualiti Sambungan (330kbps/303kbps)</item>
+        <item>Usaha Terbaik (Kadar Bit Mudah Suai)</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_sample_rate_summaries">
+        <item>Gunakan Pemilihan Sistem (Lalai)</item>
+        <item>44.1 kHz</item>
+        <item>48.0 kHz</item>
+        <item>88.2 kHz</item>
+        <item>96.0 kHz</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_sample_rate_titles">
+        <item>Gunakan Pemilihan Sistem (Lalai)</item>
+        <item>44.1 kHz</item>
+        <item>48.0 kHz</item>
+        <item>88.2 kHz</item>
+        <item>96.0 kHz</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_summaries">
+        <item>Gunakan Pemilihan Sistem (Lalai)</item>
+        <item>SBC</item>
+        <item>AAC</item>
+        <item>Qualcomm®aptX™ audio</item>
+        <item>Qualcomm®aptX™ HD audio</item>
+        <item>LDAC</item>
+        <item>Qualcomm®aptX™ Adaptive audio</item>
+        <item>Qualcomm®aptX™ TWS+ audio</item>
+        <item>Dayakan Kodek Pilihan</item>
+        <item>Nyahdayakan Kodek Pilihan</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_titles">
+        <item>Gunakan Pemilihan Sistem (Lalai)</item>
+        <item>SBC</item>
+        <item>AAC</item>
+        <item>Qualcomm®aptX™ audio</item>
+        <item>Qualcomm®aptX™ HD audio</item>
+        <item>LDAC</item>
+        <item>Qualcomm®aptX™ Adaptive audio</item>
+        <item>Qualcomm®aptX™ TWS+ audio</item>
+        <item>Dayakan Kodek Pilihan</item>
+        <item>Nyahdayakan Kodek Pilihan</item>
+    </string-array>
+    <string-array name="bluetooth_audio_active_device_summaries">
+        <item></item>
+        <item>, aktif</item>
+        <item>, aktif (media)</item>
+        <item>, aktif (telefon)</item>
+    </string-array>
+    <string-array name="bluetooth_avrcp_version_values">
+        <item>avrcp14</item>
+        <item>avrcp13</item>
+        <item>avrcp15</item>
+        <item>avrcp16</item>
+    </string-array>
+    <string-array name="bluetooth_avrcp_versions">
+        <item>AVRCP 1.4 (Lalai)</item>
+        <item>AVRCP 1.3</item>
+        <item>AVRCP 1.5</item>
+        <item>AVRCP 1.6</item>
+    </string-array>
+    <string-array name="bt_hci_snoop_log_entries">
+        <item>Dilumpuhkan</item>
+        <item>Dayakan Yang Ditapis</item>
+        <item>Dayakan Pengepala Yang Ditapis</item>
+        <item>Dayakan Paket Media Yang Ditapis</item>
+        <item>Diaktifkan</item>
+    </string-array>
+    <string-array name="clock_options">
+        <item>Paparkan jam, minit dan saat</item>
+        <item>Paparkan jam dan minit (lalai)</item>
+        <item>Jangan paparkan ikon ini</item>
+    </string-array>
+    <string-array name="color_lunar_mounth">
+        <item>正月</item>
+        <item>二月</item>
+        <item>三月</item>
+        <item>四月</item>
+        <item>五月</item>
+        <item>六月</item>
+        <item>七月</item>
+        <item>八月</item>
+        <item>九月</item>
+        <item>十月</item>
+        <item>冬月</item>
+        <item>腊月</item>
+    </string-array>
+    <string-array name="color_mode_descriptions">
+        <item>Warna yang dipertingkatkan</item>
+        <item>Warna semula jadi seperti yang dilihat oleh mata</item>
+        <item>Warna yang dioptimumkan untuk kandungan digital</item>
+    </string-array>
+    <string-array name="color_mode_names">
+        <item>Terang (lalai)</item>
+        <item>Asli</item>
+        <item>Standard</item>
+    </string-array>
+    <string-array name="color_solor_mounth">
+        <item>Januari</item>
+        <item>Februari</item>
+        <item>Mac</item>
+        <item>April</item>
+        <item>Mei</item>
+        <item>Jun</item>
+        <item>Julai</item>
+        <item>Ogos</item>
+        <item>September</item>
+        <item>Oktober</item>
+        <item>November</item>
+        <item>Disember</item>
+    </string-array>
+    <string-array name="debug_hw_overdraw_entries">
+        <item>Mati</item>
+        <item>Tunjukkan kawasan lebih tarik</item>
+        <item>Tunjukkan kawasan untuk Deuteranomali</item>
+    </string-array>
+    <string-array name="enable_opengl_traces_entries">
+        <item>Tiada</item>
+        <item>Logcat</item>
+        <item>Systrace (Grafik)</item>
+        <item>Tindanan panggilan pada glGetError</item>
+    </string-array>
+    <string-array name="hdcp_checking_summaries">
+        <item>Jangan sekali-kali gunakan penyemakan HDCP</item>
+        <item>Gunakan penyemakan HDCP untuk kandungan DRM sahaja</item>
+        <item>Sentiasa gunakan penyemakan HDCP</item>
+    </string-array>
+    <string-array name="hdcp_checking_titles">
+        <item>Jangan sekali-kali semak</item>
+        <item>Semak untuk kandungan DRM sahaja</item>
+        <item>Sentiasa semak</item>
+    </string-array>
+    <string-array name="nav_bar_layouts">
+        <item>Biasa</item>
+        <item>Kompak</item>
+        <item>Ikut kiri</item>
+        <item>Ikut kanan</item>
+    </string-array>
+    <string-array name="oppo_time_picker_ampm">
+        <item>PG</item>
+        <item>PTG</item>
+    </string-array>
+    <string-array name="overlay_display_devices_entries">
+        <item>Tiada</item>
+        <item>480p</item>
+        <item>480p (selamat)</item>
+        <item>720p</item>
+        <item>720p (selamat)</item>
+        <item>1080p</item>
+        <item>1080p (selamat)</item>
+        <item>4K</item>
+        <item>4K (selamat)</item>
+        <item>4K (dinaikkan)</item>
+        <item>4K (dinaikkan, selamat)</item>
+        <item>720p, 1080p (skrin duaan)</item>
+    </string-array>
+    <string-array name="select_logd_size_lowram_titles">
+        <item>Mati</item>
+        <item>64K</item>
+        <item>256K</item>
+        <item>1M</item>
+    </string-array>
+    <string-array name="select_logd_size_summaries">
+        <item>Mati</item>
+        <item>64K bagi setiap penimbal log</item>
+        <item>256K bagi setiap penimbal log</item>
+        <item>1M bagi setiap penimbal log</item>
+        <item>4M bagi setiap penimbal log</item>
+        <item>16M bagi setiap penimbal log</item>
+    </string-array>
+    <string-array name="select_logd_size_titles">
+        <item>Mati</item>
+        <item>64K</item>
+        <item>256K</item>
+        <item>1M</item>
+        <item>4M</item>
+        <item>16M</item>
+    </string-array>
+    <string-array name="select_logpersist_summaries">
+        <item>Mati</item>
+        <item>Semua penimbal log</item>
+        <item>Semua kecuali penimbal log radio</item>
+        <item>penimbal log kernel sahaja</item>
+    </string-array>
+    <string-array name="select_logpersist_titles">
+        <item>Mati</item>
+        <item>Semua</item>
+        <item>Semua kecuali radio</item>
+        <item>kernel sahaja</item>
+    </string-array>
+    <string-array name="show_non_rect_clip_entries">
+        <item>Mati</item>
+        <item>Lukis rantau klip bukan segi empat dalam warna biru</item>
+        <item>Serlahkan perintah lukisan diuji dalam warna hijau</item>
+    </string-array>
+    <string-array name="track_frame_time_entries">
+        <item>Mati</item>
+        <item>Pada skrin sebagai bar</item>
+        <item>Dalam adb shell dumpsys gfxinfo</item>
+    </string-array>
+    <string-array name="transition_animation_scale_entries">
+        <item>Animasi dimatikan</item>
+        <item>Skala animasi .5x</item>
+        <item>Skala animasi .1x</item>
+        <item>Skala animasi 1.5x</item>
+        <item>Skala animasi 2x</item>
+        <item>Skala animasi 5x</item>
+        <item>Skala animasi 10x</item>
+    </string-array>
+    <string-array name="tts_rate_entries">
+        <item>Sangat perlahan</item>
+        <item>Perlahan</item>
+        <item>Biasa</item>
+        <item>Pantas</item>
+        <item>Lebih Pantas</item>
+        <item>Sangat pantas</item>
+        <item>Cepat</item>
+        <item>Sangat cepat</item>
+        <item>Paling Pantas</item>
+    </string-array>
+    <string-array name="usb_configuration_titles">
+        <item>Mengecas</item>
+        <item>MTP (Protokol Pemindahan Media)</item>
+        <item>PTP (Protokol Pemindahan Gambar)</item>
+        <item>RNDIS (Ethernet USB)</item>
+        <item>Sumber Audio</item>
+        <item>MIDI</item>
+    </string-array>
+    <string-array name="usb_type_select">
+        <item>Cas Sahaja</item>
+        <item>Pindahkan Fail</item>
+        <item>Pindahkan Foto</item>
+    </string-array>
+    <string-array name="wifi_status">
+        <item></item>
+        <item>Mengimbas …</item>
+        <item>Menyambung…</item>
+        <item>Mengesahkan ketulenan…</item>
+        <item>Mendapatkan alamat IP…</item>
+        <item>Bersambung</item>
+        <item>Digantung</item>
+        <item>Memutuskan sambungan…</item>
+        <item>Sambungan terputus</item>
+        <item>Tidak berjaya</item>
+        <item>Disekat</item>
+        <item>Mengelakkan sambungan kurang baik buat sementara waktu</item>
+    </string-array>
+    <string-array name="wifi_status_with_ssid">
+        <item></item>
+        <item>Mengimbas …</item>
+        <item>Menyambung kepada %1$s…</item>
+        <item>Mengesahkan ketulenan dengan %1$s …</item>
+        <item>Mendapatkan alamat IP daripada %1$s…</item>
+        <item>Bersambung ke %1$s</item>
+        <item>Digantung</item>
+        <item>Memutuskan sambungan dari %1$s …</item>
+        <item>Sambungan terputus</item>
+        <item>Tidak berjaya</item>
+        <item>Disekat</item>
+        <item>Mengelakkan sambungan kurang baik buat sementara waktu</item>
+    </string-array>
+    <string-array name="window_animation_scale_entries">
+        <item>Animasi dimatikan</item>
+        <item>Skala animasi .5x</item>
+        <item>Skala animasi .1x</item>
+        <item>Skala animasi 1.5x</item>
+        <item>Skala animasi 2x</item>
+        <item>Skala animasi 5x</item>
+        <item>Skala animasi 10x</item>
+    </string-array>
+</resources>

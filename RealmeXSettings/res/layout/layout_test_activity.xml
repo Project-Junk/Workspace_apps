@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@id/test_activity" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <EditText android:id="@id/et_test" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="Input wifi status text" />
+    <Button android:id="@id/btn_tes" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Wifi Status chang" />
+    <EditText android:id="@id/et_switch" android:layout_width="fill_parent" android:layout_height="wrap_content" android:inputType="number" />
+    <Button android:id="@id/btn_switch_update" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="update switch state" />
+</LinearLayout>

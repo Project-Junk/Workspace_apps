@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.coloros.systemui.keyguard.security.view.ColorKeyguardPatternView android:theme="@style/Theme.ColorSupport" android:id="@id/coloros_keyguard_pattern_view" android:paddingTop="@dimen/kgd_security_padding_top" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/coloros_keyguard_security_message_area" />
+    <include layout="@layout/coloros_keyguard_navigation_layout" />
+    <FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_above="@id/keyguard_navigation_bar" android:layout_centerHorizontal="true">
+        <com.color.support.widget.ColorLockPatternView android:id="@id/lock_pattern_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/kgd_security_pattern_keyboard_margin_bottom" android:contentDescription="@string/keyguard_accessibility_pattern_area" style="?lockPatternView" />
+    </FrameLayout>
+    <include layout="@layout/coloros_keyguard_security_bridge_view" />
+</com.coloros.systemui.keyguard.security.view.ColorKeyguardPatternView>

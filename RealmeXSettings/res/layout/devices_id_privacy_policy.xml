@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout android:orientation="vertical" android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <color.support.v7.widget.Toolbar android:id="@id/toolbar" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <ScrollView android:id="@id/scroll_view" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="@dimen/actionbar_size" android:overScrollMode="always">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginStart="@dimen/oppo_list_item_left_margin" android:layout_marginEnd="@dimen/oppo_list_item_right_margin">
+            <TextView android:textSize="@dimen/color_hint_text_size" android:textColor="@color/C20" android:id="@id/devices_id_public_text" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="null" android:singleLine="false" />
+            <TextView android:textSize="@dimen/color_hint_text_size" android:textColor="@color/C20" android:id="@id/devices_id_privacy_text_14" android:paddingTop="@dimen/color_hint_text_size" android:paddingBottom="@dimen/oppo_list_item_bottom_padding" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/advertise_and_privacy_policy_14" android:singleLine="false" />
+        </LinearLayout>
+    </ScrollView>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

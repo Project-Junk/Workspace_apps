@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.preference.PreferenceScreen android:title="@string/camera_3d_effect"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto">
+    <com.coloros.settings.widget.preference.SettingsColorPreferenceCategory android:key="camera_lifting_descending_light_category" settings:isFirstCategory="true">
+        <com.coloros.settings.widget.preference.SettingSwitchPreference android:persistent="false" android:title="@string/camera_lifting_descending_effect_light" android:key="camera_lifting_descending_effect_light" android:order="1" />
+        <com.coloros.settings.widget.preference.SettingSwitchPreference android:persistent="false" android:title="@string/camera_lifting_descending_random_color" android:key="camera_lifting_descending_random_color" android:order="2" />
+        <com.coloros.settings.feature.othersettings.cameraeffect.CameraColorPickerPreference android:layout="@layout/camera_3d_lifting_descending_color_layout" android:selectable="false" android:key="camera_lifting_descending_color_layout" android:order="3" />
+    </com.coloros.settings.widget.preference.SettingsColorPreferenceCategory>
+    <com.coloros.settings.widget.preference.SettingsColorPreferenceCategory android:key="camera_lifting_descending_sound_category">
+        <com.coloros.settings.widget.preference.SettingSwitchPreference android:persistent="false" android:title="@string/camera_lifting_descending_effect_sound" android:key="camera_lifting_descending_effect_sound" />
+    </com.coloros.settings.widget.preference.SettingsColorPreferenceCategory>
+    <com.coloros.settings.widget.preference.SettingsColorPreferenceCategory android:key="camera_lifting_descending_sound_picker_category" settings:isFirstCategory="true" />
+    <com.coloros.settings.widget.preference.SettingsColorPreferenceCategory />
+</androidx.preference.PreferenceScreen>

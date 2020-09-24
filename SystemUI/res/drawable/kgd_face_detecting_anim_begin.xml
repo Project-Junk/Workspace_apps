@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list android:oneshot="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:duration="32" android:drawable="@drawable/kgd_face_detecting_anim_be_01" />
+    <item android:duration="32" android:drawable="@drawable/kgd_face_detecting_anim_be_02" />
+    <item android:duration="32" android:drawable="@drawable/kgd_face_detecting_anim_be_03" />
+    <item android:duration="32" android:drawable="@drawable/kgd_face_detecting_anim_be_04" />
+    <item android:duration="32" android:drawable="@drawable/kgd_face_detecting_anim_be_05" />
+    <item android:duration="32" android:drawable="@drawable/kgd_face_detecting_anim_be_06" />
+    <item android:duration="32" android:drawable="@drawable/kgd_face_detecting_anim_be_07" />
+    <item android:duration="32" android:drawable="@drawable/kgd_face_detecting_anim_be_08" />
+    <item android:duration="32" android:drawable="@drawable/kgd_face_detecting_anim_be_09" />
+    <item android:duration="32" android:drawable="@drawable/kgd_face_detecting_anim_be_10" />
+    <item android:duration="32" android:drawable="@drawable/kgd_face_detecting_anim_be_11" />
+    <item android:duration="32" android:drawable="@drawable/kgd_face_detecting_anim_be_12" />
+    <item android:duration="32" android:drawable="@drawable/kgd_face_detecting_anim_be_13" />
+    <item android:duration="32" android:drawable="@drawable/kgd_face_detecting_anim_be_14" />
+    <item android:duration="32" android:drawable="@drawable/kgd_face_detecting_anim_be_15" />
+    <item android:duration="32" android:drawable="@drawable/kgd_face_detecting_anim_be_16" />
+    <item android:duration="32" android:drawable="@drawable/kgd_face_detecting_anim_be_17" />
+    <item android:duration="32" android:drawable="@drawable/kgd_face_detecting_anim_be_18" />
+    <item android:duration="32" android:drawable="@drawable/kgd_face_detecting_anim_be_19" />
+</animation-list>

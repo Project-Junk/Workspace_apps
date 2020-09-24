@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.preference.PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto">
+    <androidx.preference.Preference android:layout="@layout/color_layout_preference_header" android:selectable="false" />
+    <com.coloros.settings.widget.preference.SettingsColorPreferenceCategory android:key="ringtone_category_key" settings:isFirstCategory="true" />
+    <androidx.preference.PreferenceCategory android:title="@string/exp_tag_name_481" android:key="special_category_key" />
+    <androidx.preference.PreferenceCategory android:key="none_category_key" />
+    <androidx.preference.PreferenceCategory />
+</androidx.preference.PreferenceScreen>

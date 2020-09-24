@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.coloros.systemui.qs.ColorQSBottomImpl android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/qs_bottom" android:paddingBottom="@dimen/qs_bottom_padding_bottom" android:visibility="visible" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="@dimen/qs_bottom_height"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:layout_gravity="center|top" android:id="@id/qs_drag_handle_view" android:layout_width="24.0dip" android:layout_height="4.0dip" android:layout_marginTop="@dimen/qs_bottom_drag_handle_view_margin_top" android:src="@drawable/status_bar_qs_bottom_drag_handle" android:contentDescription="@string/accessibility_quick_settings_expand" />
+    <com.coloros.systemui.qs.widget.ColorQSPageIndicator android:layout_gravity="center|top" android:id="@id/bottom_page_indicator" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginTop="@dimen/qs_bottom_page_indicator_margin_top" app:dotColor="@color/status_bar_qs_page_indicator_color" app:dotSize="6.0dip" app:dotSpacing="3.0dip" app:dotStrokeWidth="0.70000005dip" app:traceDotColor="@color/status_bar_qs_page_indicator_color" />
+    <include android:id="@id/qs_brightness" layout="@layout/quick_settings_brightness_dialog" />
+</com.coloros.systemui.qs.ColorQSBottomImpl>

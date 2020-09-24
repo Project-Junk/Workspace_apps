@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animated-selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_checked="true" android:id="@id/on" android:drawable="@drawable/kgd_edit_text_eye_icon_on" />
+    <item android:id="@id/off" android:drawable="@drawable/kgd_edit_text_eye_icon_off" />
+    <transition android:drawable="@drawable/kgd_edit_text_eye_icon_off_anim" android:toId="@id/off" android:fromId="@id/on" />
+    <transition android:drawable="@drawable/kgd_edit_text_eye_icon_on_anim" android:toId="@id/on" android:fromId="@id/off" />
+</animated-selector>

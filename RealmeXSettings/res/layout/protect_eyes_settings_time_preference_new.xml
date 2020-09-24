@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/open_time_root" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minHeight="52.0dip" android:paddingStart="@dimen/common_margin" android:paddingEnd="@dimen/common_margin">
+        <TextView android:textAppearance="@style/TextAppearance.MediumText" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/open_protect_eye_time" android:layout_centerVertical="true" android:layout_alignParentStart="true" />
+        <TextView android:textAppearance="@style/TextAppearance.SmallText" android:textColor="@color/protect_eye_time_color_selector" android:id="@id/open_time" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_alignParentEnd="true" />
+    </RelativeLayout>
+    <ViewStub android:id="@id/open_time_picker_stub" android:layout="@layout/protect_eyes_settings_time_picker" android:inflatedId="@id/open_time_picker" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_centerHorizontal="true" />
+    <ImageView android:background="@drawable/color_divider_horizontal_without_padding" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginStart="@dimen/common_margin" />
+    <RelativeLayout android:id="@id/close_time_root" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minHeight="52.0dip" android:paddingStart="@dimen/common_margin" android:paddingEnd="@dimen/common_margin">
+        <TextView android:textAppearance="@style/TextAppearance.MediumText" android:id="@id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/close_protect_eye_time" android:layout_centerVertical="true" android:layout_alignParentStart="true" />
+        <TextView android:textAppearance="@style/TextAppearance.SmallText" android:textColor="@color/protect_eye_time_color_selector" android:id="@id/close_time" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_alignParentEnd="true" />
+    </RelativeLayout>
+    <ViewStub android:id="@id/close_time_picker_stub" android:layout="@layout/protect_eyes_settings_time_picker" android:inflatedId="@id/close_time_picker" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_centerHorizontal="true" />
+</LinearLayout>

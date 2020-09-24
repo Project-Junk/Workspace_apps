@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="battery_options">
+        <item>ရာခိုင်နှုန်းဖြင့် အမြဲပြပါ</item>
+        <item>အားသွင်းနေစဉ် ဘက်ထရီကို ရာခိုင်နှုန်းဖြင့် ပြပါ (ပုံသေ)</item>
+        <item>ဤအိုင်ကွန်ကို မပြပါနှင့်</item>
+    </string-array>
+    <string-array name="clock_options">
+        <item>နာရီများ၊ မိနစ်များနှင့် စက္ကန့်များကို ပြပါ</item>
+        <item>နာရီများနှင့် မိနစ်များကို ပြပါ (ပုံသေ)</item>
+        <item>ဤအိုင်ကွန်ကို မပြပါနှင့်</item>
+    </string-array>
+    <string-array name="color_lunar_mounth">
+        <item>正月</item>
+        <item>二月</item>
+        <item>三月</item>
+        <item>四月</item>
+        <item>五月</item>
+        <item>六月</item>
+        <item>七月</item>
+        <item>八月</item>
+        <item>九月</item>
+        <item>十月</item>
+        <item>冬月</item>
+        <item>腊月</item>
+    </string-array>
+    <string-array name="color_solor_mounth">
+        <item>ဇန်နဝါရီ</item>
+        <item>ဖေဖော်ဝါရီ</item>
+        <item>မတ်</item>
+        <item>ဧပြီ</item>
+        <item>မေ</item>
+        <item>ဇွန်</item>
+        <item>ဇူလိုင်</item>
+        <item>သြဂုတ်</item>
+        <item>စက်တင်ဘာ</item>
+        <item>အောက်တိုဘာ</item>
+        <item>နိုဝင်ဘာ</item>
+        <item>ဒီဇင်ဘာ</item>
+    </string-array>
+    <string-array name="nav_bar_layouts">
+        <item>ပုံမှန်</item>
+        <item>ကျစ်လျစ်</item>
+        <item>ဘယ်တွင်ထား</item>
+        <item>ညာတွင်ထား</item>
+    </string-array>
+    <string-array name="oppo_time_picker_ampm">
+        <item>AM</item>
+        <item>PM</item>
+    </string-array>
+    <integer-array name="qs_color_clock_size">
+        <item>33</item>
+        <item>33</item>
+        <item>33</item>
+        <item>33</item>
+        <item>30</item>
+    </integer-array>
+    <string-array name="usb_type_select">
+        <item>အားသွင်းရန်သာ</item>
+        <item>ဖိုင်များ လွှဲပြောင်းရန်</item>
+        <item>ပုံများ လွှဲပြောင်းရန်</item>
+    </string-array>
+</resources>

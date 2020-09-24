@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/language_settings" android:key="language_keyboard_settings"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto">
+    <com.coloros.settings.widget.preference.SettingsColorPreferenceCategory android:title="@string/oppo_keyboard_settings_category" android:key="keyboard_settings_category" settings:isFirstCategory="true">
+        <com.coloros.settings.widget.preference.SettingColorJumpPreference android:title="@string/current_input_method" android:key="current_input_method" settings:color_jump_mark="@null" />
+        <com.coloros.settings.widget.preference.SettingSwitchPreference android:layout="@layout/color_preference" android:title="@string/security_window_title" android:key="security_window" />
+    </com.coloros.settings.widget.preference.SettingsColorPreferenceCategory>
+    <PreferenceCategory android:persistent="false" android:title="@string/builtin_keyboard_settings_title" android:key="hard_keyboard" />
+    <PreferenceCategory android:persistent="false" android:title="@string/installed_ime_category" android:key="installed_ime_category" />
+    <PreferenceCategory android:title="@string/game_controller_settings_category" android:key="game_controller_settings_category">
+        <com.coloros.settings.widget.preference.SettingSwitchPreference android:persistent="false" android:layout="@layout/color_preference" android:title="@string/vibrate_input_devices" android:key="vibrate_input_devices" android:summaryOn="@string/vibrate_input_devices_summary" android:summaryOff="@string/vibrate_input_devices_summary" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/autofill_app_service" android:key="auto_fill_category">
+        <com.coloros.settings.widget.preference.SettingColorJumpPreference android:title="@string/autofill_app" android:key="auto_fill" android:fragment="com.coloros.settings.feature.othersettings.input.ColorDefaultAutofillPicker" />
+    </PreferenceCategory>
+    <PreferenceCategory android:key="pointer_and_dictionary">
+        <com.coloros.settings.widget.preference.SettingColorJumpPreference android:title="@string/user_dict_settings_title" android:key="key_user_dictionary_settings" android:fragment="com.android.settings.inputmethod.UserDictionaryList" settings:controller="com.coloros.settings.feature.othersettings.input.ColorUserDictionaryPreferenceController" />
+        <com.coloros.settings.feature.othersettings.input.ColorPointerSpeedPreference android:title="@string/pointer_speed" android:key="pointer_speed" android:dialogTitle="@string/pointer_speed" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/keyboard_position_when_navigation_gesture" android:key="ime_position_category">
+        <com.coloros.settings.feature.othersettings.input.IMEPositionPreference android:key="ime_position" />
+    </PreferenceCategory>
+    <com.android.settings.widget.WorkOnlyCategory android:title="@string/language_and_input_for_work_category_title" android:key="language_and_input_for_work_category" settings:searchable="false">
+        <Preference android:title="@string/virtual_keyboards_for_work_title" android:key="virtual_keyboards_for_work_pref" android:fragment="com.coloros.settings.feature.othersettings.input.ColorVirtualKeyboardFragment" settings:controller="com.android.settings.inputmethod.VirtualKeyboardForWorkPreferenceController" />
+    </com.android.settings.widget.WorkOnlyCategory>
+    <PreferenceCategory />
+</PreferenceScreen>

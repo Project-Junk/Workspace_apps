@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="bottom_text_spacing_digital">4.0dip</dimen>
+    <dimen name="keyguard_fill_light_content_font_height">45.0dip</dimen>
+    <dimen name="keyguard_fill_light_title_font_height">42.0dip</dimen>
+</resources>

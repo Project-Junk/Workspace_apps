@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<color.support.v7.widget.pageindicator.ColorPageIndicator android:id="@id/cpi_1" android:layout_width="wrap_content" android:layout_height="wrap_content" app:dotColor="#4dffffff" app:dotSize="6.0dip" app:dotSpacing="3.0dip" app:dotStrokeWidth="0.70000005dip" app:traceDotColor="?colorTintControlNormal"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" />

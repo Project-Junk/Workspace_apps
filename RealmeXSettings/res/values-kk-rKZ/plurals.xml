@@ -1,0 +1,415 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="accessibility_usage_summary">
+        <item quantity="other">%1$d қолданба құрылғыңызға толық қол жеткізе алады</item>
+        <item quantity="one">1 қолданба құрылғыңызға толық қол жеткізе алады</item>
+    </plurals>
+    <plurals name="accessibilty_autoclick_preference_subtitle_extremely_short_delay">
+        <item quantity="other">Аса қысқа кідіріс (%1$d мс)</item>
+        <item quantity="one">Аса қысқа кідіріс (%1$d мс)</item>
+    </plurals>
+    <plurals name="accessibilty_autoclick_preference_subtitle_long_delay">
+        <item quantity="other">Ұзын кідіріс (%1$d мс)</item>
+        <item quantity="one">Ұзын кідіріс (%1$d мс)</item>
+    </plurals>
+    <plurals name="accessibilty_autoclick_preference_subtitle_short_delay">
+        <item quantity="other">Қысқа кідіріс (%1$d мс)</item>
+        <item quantity="one">Қысқа кідіріс (%1$d мс)</item>
+    </plurals>
+    <plurals name="accessibilty_autoclick_preference_subtitle_very_long_delay">
+        <item quantity="other">Өте ұзын кідіріс (%1$d мс)</item>
+        <item quantity="one">Өте ұзын кідіріс (%1$d мс)</item>
+    </plurals>
+    <plurals name="accessibilty_autoclick_preference_subtitle_very_short_delay">
+        <item quantity="other">Өте қысқа кідіріс (%1$d мс)</item>
+        <item quantity="one">Өте қысқа кідіріс (%1$d мс)</item>
+    </plurals>
+    <plurals name="app_notification_listing_summary_others">
+        <item quantity="other">%d қолданба үшін өшірулі</item>
+        <item quantity="one">%d қолданба үшін өшірулі</item>
+    </plurals>
+    <plurals name="battery_manager_app_restricted">
+        <item quantity="other">%1$d қолданбаға тыйым салынған</item>
+        <item quantity="one">%1$d қолданбаға тыйым салынған</item>
+    </plurals>
+    <plurals name="battery_tip_restrict_app_dialog_title">
+        <item quantity="other">%1$d қолданбаны шектеу керек пе?</item>
+        <item quantity="one">Қолданбаны шектеу керек пе?</item>
+    </plurals>
+    <plurals name="battery_tip_restrict_handled_summary">
+        <item quantity="other">Бұл қолданбалар артқы фонда істей алмайды</item>
+        <item quantity="one">Бұл қолданба артқы фонда істей алмайды</item>
+    </plurals>
+    <plurals name="battery_tip_restrict_handled_title">
+        <item quantity="other">%2$d қолданба жақында шектелген</item>
+        <item quantity="one">%1$s жақында шектелген</item>
+    </plurals>
+    <plurals name="battery_tip_restrict_summary">
+        <item quantity="other">%2$d қолданба артқы фонда көп қуат жұмсайды</item>
+        <item quantity="one">%1$s артқы фонда көп қуат жұмсайды</item>
+    </plurals>
+    <plurals name="battery_tip_restrict_title">
+        <item quantity="other">%1$d қолданбаны шектеу</item>
+        <item quantity="one">%1$d қолданбаны шектеу</item>
+    </plurals>
+    <plurals name="billing_cycle_days_left">
+        <item quantity="other">%d күн қалды</item>
+        <item quantity="one">%d күн қалды</item>
+    </plurals>
+    <plurals name="bugreport_countdown">
+        <item quantity="other">Жүйе қателік туралы есебі бар экранды %1$d секунд ішінде түсіреді.</item>
+        <item quantity="one">Жүйе қателік туралы есебі бар экранды %1$d секунд ішінде түсіреді.</item>
+    </plurals>
+    <plurals name="codebook_saved_account_number">
+        <item quantity="other">%d пайдаланушы аты мен құпия сөз жұбы Құпия сөздерде сақталады.</item>
+        <item quantity="one">%d пайдаланушы аты мен құпия сөз жұбы Құпия сөздерде сақталады.</item>
+    </plurals>
+    <plurals name="data_saver_unrestricted_summary">
+        <item quantity="other">Дерек сақтағышы қосылып тұрғанда, %1$d қолданбаның деректерді шексіз пайдалану рұқсаты бар.</item>
+        <item quantity="one">Дерек сақтағышы қосылып тұрғанда, 1 қолданбаның деректерді шексіз пайдалану рұқсаты бар.</item>
+    </plurals>
+    <plurals name="default_camera_app_title">
+        <item quantity="other">Камера қолданбалары</item>
+        <item quantity="one">Камера қолданбасы</item>
+    </plurals>
+    <plurals name="default_email_app_title">
+        <item quantity="other">Электрондық пошта клиенттері</item>
+        <item quantity="one">Электрондық пошта клиенті</item>
+    </plurals>
+    <plurals name="default_phone_app_title">
+        <item quantity="other">Телефон қолданбалары</item>
+        <item quantity="one">Телефон қолданбасы</item>
+    </plurals>
+    <plurals name="deleted_channels">
+        <item quantity="other">%d санат жойылды</item>
+        <item quantity="one">%d санат жойылды</item>
+    </plurals>
+    <plurals name="dlg_remove_locales_title">
+        <item quantity="other">Таңдалған тілдерді алып тастау керек пе?</item>
+        <item quantity="one">Таңдалған тілді алып тастау керек пе?</item>
+    </plurals>
+    <plurals name="domain_urls_apps_summary_on">
+        <item quantity="other">Қолданылатын сілтемелерді ашатын %d қолданба бар</item>
+        <item quantity="one">Қолданылатын сілтемелерді ашатын бір қолданба бар</item>
+    </plurals>
+    <plurals name="enterprise_privacy_number_ca_certs">
+        <item quantity="other">Кемінде %d CA сертификаты</item>
+        <item quantity="one">Кемінде %d CA сертификаты</item>
+    </plurals>
+    <plurals name="enterprise_privacy_number_failed_password_wipe">
+        <item quantity="other">%d рет әрекет жасалды</item>
+        <item quantity="one">%d рет әрекет жасалды</item>
+    </plurals>
+    <plurals name="enterprise_privacy_number_packages">
+        <item quantity="other">%d қолданба</item>
+        <item quantity="one">%d қолданба</item>
+    </plurals>
+    <plurals name="enterprise_privacy_number_packages_lower_bound">
+        <item quantity="other">Кемінде %d қолданба</item>
+        <item quantity="one">Кемінде %d қолданба</item>
+    </plurals>
+    <plurals name="hours">
+        <item quantity="other">%s сағ</item>
+        <item quantity="one">1 сағ</item>
+    </plurals>
+    <plurals name="location_app_permission_summary_location_on">
+        <item quantity="other">%2$d қолданбаның %1$d қолданбасы геолокациялық ақпаратқа қол жеткізе алады</item>
+        <item quantity="one">%2$d қолданбаның %1$d қолданбасы геолокациялық ақпаратқа қол жеткізе алады</item>
+    </plurals>
+    <plurals name="location_settings_summary_location_on">
+        <item quantity="other">Қосу - %1$d қолданбаның геолокациялық ақпаратқа қол жеткізу мүмкіндігі бар</item>
+        <item quantity="one">Қосу - %1$d қолданбаның геолокациялық ақпаратқа қол жеткізу мүмкіндігі бар</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_letters">
+        <item quantity="other">Құрамында кемінде %d әріп болуы керек</item>
+        <item quantity="one">Құрамында кемінде 1 әріп болуы керек</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_lowercase">
+        <item quantity="other">Құрамында кемінде %d кіші әріп болуы керек</item>
+        <item quantity="one">Құрамында кемінде 1 кіші әріп болуы керек</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_nonletter">
+        <item quantity="other">Құрамында кемінде %d әріптік емес таңба болуы керек</item>
+        <item quantity="one">Құрамында кемінде 1 әріптік емес таңба болуы керек</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_numeric">
+        <item quantity="other">Құрамында кемінде %d цифр болуы керек</item>
+        <item quantity="one">Құрамында кемінде 1 цифр болуы керек</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_symbols">
+        <item quantity="other">Құрамында кемінде %d арнайы таңба болуы керек</item>
+        <item quantity="one">Құрамында кемінде 1 арнайы таңба болуы керек</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_uppercase">
+        <item quantity="other">Құрамында кемінде %d бас әріп болуы керек</item>
+        <item quantity="one">Құрамында кемінде 1 бас әріп болуы керек</item>
+    </plurals>
+    <plurals name="lockpassword_password_too_long">
+        <item quantity="other">%d таңбадан кем болуы тиіс</item>
+        <item quantity="one">%d таңбадан кем болуы тиіс</item>
+    </plurals>
+    <plurals name="lockpassword_password_too_short">
+        <item quantity="other">Кемінде %d таңбадан тұруы тиіс</item>
+        <item quantity="one">Құрамында кемінде %d таңба болуы керек</item>
+    </plurals>
+    <plurals name="lockpassword_pin_too_long">
+        <item quantity="other">%d цифрдан кем болуы тиіс</item>
+        <item quantity="one">%d цифрдан кем болуы тиіс</item>
+    </plurals>
+    <plurals name="lockpassword_pin_too_short">
+        <item quantity="other">PIN код кемінде %d цифрдан тұруы тиіс</item>
+        <item quantity="one">PIN кодтың құрамында кемінде %d цифр болуы тиіс</item>
+    </plurals>
+    <plurals name="manage_notification_access_summary_nonzero">
+        <item quantity="other">%d қолданба хабарландыруларды оқи алады</item>
+        <item quantity="one">%d қолданба хабарландыруларды оқи алады</item>
+    </plurals>
+    <plurals name="manage_trust_agents_summary_on">
+        <item quantity="other">%d белсенді сенімді агент</item>
+        <item quantity="one">1 белсенді сенімді агент</item>
+    </plurals>
+    <plurals name="memory_usage_apps_summary">
+        <item quantity="other">Соңғы %2$s ішінде %1$d қолданба пайдаланылды</item>
+        <item quantity="one">%2$s ішінде 1 қолданба жады пайдаланды</item>
+    </plurals>
+    <plurals name="minutes">
+        <item quantity="other">%s мин</item>
+        <item quantity="one">1 мин</item>
+    </plurals>
+    <plurals name="mobile_network_summary_count">
+        <item quantity="other">%1$d SIM карта</item>
+        <item quantity="one">%1$d SIM карта</item>
+    </plurals>
+    <plurals name="network_restrictions_summary">
+        <item quantity="other">%1$d шектеу</item>
+        <item quantity="one">1 шектеу</item>
+    </plurals>
+    <plurals name="notification_few_channel_count_summary">
+        <item quantity="other">%1$d хабарландыру арнасы.</item>
+        <item quantity="one">%1$d хабарландыру арнасы.</item>
+    </plurals>
+    <plurals name="notification_group_summary">
+        <item quantity="other">%d санат</item>
+        <item quantity="one">%d санат</item>
+    </plurals>
+    <plurals name="notification_summary">
+        <item quantity="other">%d қолданба үшін өшірулі</item>
+        <item quantity="one">1 қолданба үшін өшірулі</item>
+    </plurals>
+    <plurals name="notifications_categories_off">
+        <item quantity="other">%d санат өшірілген</item>
+        <item quantity="one">%d санат өшірілген</item>
+    </plurals>
+    <plurals name="notifications_sent_daily">
+        <item quantity="other">Күн сайын шамамен %d хабарландыру</item>
+        <item quantity="one">Күн сайын шамамен %d хабарландыру</item>
+    </plurals>
+    <plurals name="notifications_sent_weekly">
+        <item quantity="other">Апта сайын шамамен %d хабарландыру</item>
+        <item quantity="one">Апта сайын шамамен %d хабарландыру</item>
+    </plurals>
+    <plurals name="number_of_device_admins">
+        <item quantity="other">%d белсенді қолданба</item>
+        <item quantity="one">%d белсенді қолданба</item>
+    </plurals>
+    <plurals name="optimizable_count">
+        <item quantity="other">%1$d элементті оңтайландыруға болады</item>
+        <item quantity="one">%1$d элементті оңтайландыруға болады</item>
+    </plurals>
+    <plurals name="permission_bar_chart_label">
+        <item quantity="other">%s қолданба</item>
+        <item quantity="one">1 қолданба</item>
+    </plurals>
+    <plurals name="permissions_summary">
+        <item quantity="other">%d рұқсат берілді</item>
+        <item quantity="one">%d рұқсат берілді</item>
+    </plurals>
+    <plurals name="power_high_usage_summary">
+        <item quantity="other">%2$d қолданба аномальді түрде әрекет етіп тұр</item>
+        <item quantity="one">%1$s аномальді түрде әрекет етіп тұр</item>
+    </plurals>
+    <plurals name="power_high_usage_title">
+        <item quantity="other">Қолданбалар батарея қуатын тауысып жатыр</item>
+        <item quantity="one">%1$s батарея қуатын тауысып жатыр</item>
+    </plurals>
+    <plurals name="print_jobs_summary">
+        <item quantity="other">%1$d басып шығару тапсырмасы</item>
+        <item quantity="one">1 басып шығару тапсырмасы</item>
+    </plurals>
+    <plurals name="print_settings_summary">
+        <item quantity="other">%1$d басып шығару қызметі қосылып тұр</item>
+        <item quantity="one">1 басып шығару қызметі қосылып тұр</item>
+    </plurals>
+    <plurals name="restricted_app_summary">
+        <item quantity="other">%1$d қолданба үшін батарея қолданысын шектеу</item>
+        <item quantity="one">%1$d қолданба үшін батарея қолданысын шектеу</item>
+    </plurals>
+    <plurals name="retry_count_ticker">
+        <item quantity="other">%d с ішінде қайта орындап көріңіз</item>
+        <item quantity="one">%d с ішінде қайта орындап көріңіз</item>
+    </plurals>
+    <plurals name="runtime_permissions_additional_count">
+        <item quantity="other">%d қосымша рұқсат</item>
+        <item quantity="one">%d қосымша рұқсат</item>
+    </plurals>
+    <plurals name="runtime_permissions_summary">
+        <item quantity="other">%1$d (%2$d ішінен) рұқсат берілді</item>
+        <item quantity="one">%1$d (%2$d ішінен) рұқсат берілді</item>
+    </plurals>
+    <plurals name="seconds">
+        <item quantity="other">%s с</item>
+        <item quantity="one">1 с</item>
+    </plurals>
+    <plurals name="security_settings_fingerprint_preference_summary">
+        <item quantity="other">%1$d саусақ ізі реттелді</item>
+        <item quantity="one">%1$d саусақ ізі реттелді</item>
+    </plurals>
+    <plurals name="security_summary_apps_security">
+        <item quantity="other">%1$d қолданба бекітілді</item>
+        <item quantity="one">%1$d қолданба бекітілді</item>
+    </plurals>
+    <plurals name="security_summary_float_window">
+        <item quantity="other">%1$d рет блокталды</item>
+        <item quantity="one">%1$d рет блокталды</item>
+    </plurals>
+    <plurals name="security_summary_harassment_call">
+        <item quantity="other">%1$d қоңырау</item>
+        <item quantity="one">%1$d қоңырау</item>
+    </plurals>
+    <plurals name="security_summary_harassment_sms">
+        <item quantity="other">%1$d SMS хабары</item>
+        <item quantity="one">%1$d SMS хабары</item>
+    </plurals>
+    <plurals name="security_summary_intelligent_identification_contact">
+        <item quantity="other">%1$d нөмір анықталды</item>
+        <item quantity="one">%1$d нөмір сәйкестендірілді</item>
+    </plurals>
+    <plurals name="security_summary_payment_protection">
+        <item quantity="other">Қорғалған %1$d төлем</item>
+        <item quantity="one">Қорғалған %1$d төлем</item>
+    </plurals>
+    <plurals name="security_summary_permission_manager">
+        <item quantity="other">%1$d рет блокталды</item>
+        <item quantity="one">%1$d рет блокталды</item>
+    </plurals>
+    <plurals name="security_summary_private_info_protect">
+        <item quantity="other">Жеке ақпараттың %1$d элементі қорғалды</item>
+        <item quantity="one">Жеке ақпараттың %1$d элементі қорғалды</item>
+    </plurals>
+    <plurals name="security_summary_pseudo_base_station">
+        <item quantity="other">%1$d жалған базалық станция блокталды</item>
+        <item quantity="one">%1$d жалған базалық станция блокталды</item>
+    </plurals>
+    <plurals name="settings_optimizable_count">
+        <item quantity="other">%1$d элементті оңтайландыруға болады</item>
+        <item quantity="one">%1$d элементті оңтайландыруға болады</item>
+    </plurals>
+    <plurals name="settings_suggestion_header_summary_hidden_items">
+        <item quantity="other">%d жасырын элементті көрсету</item>
+        <item quantity="one">%d жасырын элементті көрсету</item>
+    </plurals>
+    <plurals name="show_bluetooth_devices">
+        <item quantity="other">%1$d құрылғы жалғанды</item>
+        <item quantity="one">%1$d құрылғы жалғанды</item>
+    </plurals>
+    <plurals name="show_dev_countdown">
+        <item quantity="other">Әзірлеуші болуыңызға %1$d қадам қалды.</item>
+        <item quantity="one">Әзірлеуші болуыңызға %1$d қадам қалды.</item>
+    </plurals>
+    <plurals name="show_number_hearingaid_count">
+        <item quantity="other">%1$d есту аппараты сақталды</item>
+        <item quantity="one">%1$d есту аппараты сақталды</item>
+    </plurals>
+    <plurals name="special_access_summary">
+        <item quantity="other">%d қолданба шектеусіз деректерді пайдалана алады</item>
+        <item quantity="one">1 қолданба шектеусіз деректерді пайдалана алады</item>
+    </plurals>
+    <plurals name="ssl_ca_cert_dialog_title">
+        <item quantity="other">Сертификаттарға сену не оларды алып тастау</item>
+        <item quantity="one">Сертификатқа сену не оны алып тастау</item>
+    </plurals>
+    <plurals name="ssl_ca_cert_info_message">
+        <item quantity="other">"%s жұмыс профиліңіз үшін бірнеше сертификат рұқсатын орнатты. Бұлар сіз жұмыс істеп жатқанда желіде жасаған әрекеттеріңізді (соның ішінде электрондық поштаның, қолданбалардың және қорғалған веб сайттардың қолданысын) бақылауға пайдаланылуы мүмкін.
+
+Осы сертификаттар жайлы қосымша мәліметтерді әкімшіңізге хабарласып алыңыз."</item>
+        <item quantity="one">"%s жұмыс профиліңіз үшін бір сертификатты орнатты. Бұл сіз жұмыс істеп жатқанда желіде жасаған әрекеттеріңізді (соның ішінде электрондық поштаның, қолданбалардың және қорғалған веб сайттардың қолданысын) бақылауға пайдаланылуы мүмкін.
+
+Осы сертификат жайлы қосымша мәліметтерді әкімшіңізге хабарласып алыңыз."</item>
+    </plurals>
+    <plurals name="ssl_ca_cert_info_message_device_owner">
+        <item quantity="other">"%s құрылғыңызға бірнеше сертификат рұқсаттарын орнатты. Бұлар құрылғыңыздың желіде жасаған әрекеттерін (соның ішінде электрондық поштаның, қолданбалардың және қорғалған веб сайттардың қолданысын) бақылауға пайдаланылуы мүмкін.
+
+Осы сертификаттар жайлы қосымша мәліметтерді әкімшіңізге хабарласып алыңыз."</item>
+        <item quantity="one">"%s құрылғыңызға бір сертификат рұқсатын орнатты. Бұл құрылғыңыздың желіде жасаған әрекеттерін (соның ішінде электрондық поштаның, қолданбалардың және қорғалған веб сайттардың қолданысын) бақылауға пайдаланылуы мүмкін.
+
+Осы сертификат жайлы қосымша мәліметтерді әкімшіңізге хабарласып алыңыз."</item>
+    </plurals>
+    <plurals name="ssl_ca_cert_settings_button">
+        <item quantity="other">Сертификаттарды тексеру</item>
+        <item quantity="one">Сертификатты тексеру</item>
+    </plurals>
+    <plurals name="suggestions_collapsed_summary">
+        <item quantity="other">+%1$d ұсыныс</item>
+        <item quantity="one">+1 ұсыныс</item>
+    </plurals>
+    <plurals name="suggestions_collapsed_title">
+        <item quantity="other">%1$d ұсыныс</item>
+        <item quantity="one">1 ұсыныс</item>
+    </plurals>
+    <plurals name="uri_permissions_text">
+        <item quantity="other">%d элемент</item>
+        <item quantity="one">1 элемент</item>
+    </plurals>
+    <plurals name="wifi_saved_access_points_summary">
+        <item quantity="other">%d желі</item>
+        <item quantity="one">1 желі</item>
+    </plurals>
+    <plurals name="wifi_saved_all_access_points_summary">
+        <item quantity="other">%d желі және жазылым</item>
+        <item quantity="one">1 желі және жазылым</item>
+    </plurals>
+    <plurals name="wifi_saved_passpoint_access_points_summary">
+        <item quantity="other">%d жазылым</item>
+        <item quantity="one">1 жазылым</item>
+    </plurals>
+    <plurals name="wifi_tether_connected_summary">
+        <item quantity="other">%1$d құрылғы жалғанды</item>
+        <item quantity="one">%1$d құрылғы жалғанды</item>
+    </plurals>
+    <plurals name="wrong_pin_code">
+        <item quantity="other">SIM картаның PIN коды қате, %d әрекетіңіз қалды</item>
+        <item quantity="one">SIM картаның PIN коды қате, %d әрекеттен кейін құрылғыны аштыру үшін операторға хабарласуыңыз қажет болады.</item>
+    </plurals>
+    <plurals name="zen_mode_duration_summary_time_hours">
+        <item quantity="other">%d сағат</item>
+        <item quantity="one">1 сағат</item>
+    </plurals>
+    <plurals name="zen_mode_rules_new">
+        <item quantity="other">%1$d ереже таңдалды</item>
+        <item quantity="one">%1$d ереже таңдалды</item>
+    </plurals>
+    <plurals name="zen_mode_settings_summary_on">
+        <item quantity="other">%d қосылған</item>
+        <item quantity="one">1 қосылған</item>
+    </plurals>
+    <plurals name="zen_mode_settings_summary_on_new">
+        <item quantity="other">%d ереже қолданылды</item>
+        <item quantity="one">%d ереже қолданылды</item>
+    </plurals>
+    <plurals name="zen_mode_sound_summary_summary_off_info">
+        <item quantity="other">%d кесте автоматты түрде қосыла алады</item>
+        <item quantity="one">1 кесте автоматты түрде қосыла алады</item>
+    </plurals>
+    <plurals name="zen_mode_starred_contacts_summary_additional_contacts">
+        <item quantity="other">Басқа %d</item>
+        <item quantity="one">Басқа 1</item>
+    </plurals>
+    <plurals name="zen_mode_summary_alarms_only_by_hour">
+        <item quantity="other">Тек дабылдарға өзгертіңіз, %1$d сағат бойы жарамды (%2$s дейін)</item>
+        <item quantity="one">Тек дабылдарға өзгертіңіз, 1 сағат бойы жарамды (%2$s дейін)</item>
+    </plurals>
+    <plurals name="zen_mode_summary_alarms_only_by_minute">
+        <item quantity="other">Тек дабылдарға өзгертіңіз, %1$d минут бойы жарамды (%2$s дейін)</item>
+        <item quantity="one">Тек дабылдарға өзгертіңіз, 1 минут бойы жарамды (%2$s дейін)</item>
+    </plurals>
+</resources>

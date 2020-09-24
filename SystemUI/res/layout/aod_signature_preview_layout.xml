@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/aod_show_layout" android:background="@color/aod_black_ground_color" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <color.support.design.widget.ColorAppBarLayout android:id="@id/aod_preview_app_bar_layout" android:background="@android:color/transparent" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <color.support.v7.widget.Toolbar android:id="@id/aod_toolbar" android:background="@color/transparent" android:layout_width="fill_parent" android:layout_height="@dimen/toolBarHeightLarge" app:colorLayoutScrollFlags="exitUntilCollapsed|scroll" />
+    </color.support.design.widget.ColorAppBarLayout>
+    <com.coloros.systemui.aod.aodclock.settings.signature.view.PreviewSignatureLayout android:id="@id/review_layout" android:layout_width="@dimen/aod_signture_width" android:layout_height="@dimen/aod_signture_height" />
+    <View android:id="@id/spacing" android:background="@color/aod_divide_color" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+    <FrameLayout android:id="@id/content" android:layout_width="fill_parent" android:layout_height="@dimen/aod_clock_tab_container_height" />
+    <com.coloros.systemui.aod.aodclock.settings.BlurBottomButtonLayout android:id="@id/aod_bottom_button" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="50.0dip" android:layout_marginTop="16.0dip" android:layout_marginBottom="16.0dip">
+        <com.color.support.widget.ColorButton android:textSize="14.0dip" android:id="@id/aod_setting_button" android:layout_width="220.0dip" android:layout_height="44.0dip" android:text="@string/aod_clock_apply" android:layout_centerInParent="true" style="?colorButtonColorfulDefaultStyle" />
+    </com.coloros.systemui.aod.aodclock.settings.BlurBottomButtonLayout>
+</LinearLayout>

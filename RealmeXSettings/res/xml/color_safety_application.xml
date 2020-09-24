@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/recommend_safety_applications"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto">
+    <com.coloros.settings.widget.preference.SettingsColorPreferenceCategory settings:isFirstCategory="true">
+        <com.coloros.settings.widget.preference.SettingSwitchPreference android:persistent="false" android:title="@string/recommend_safety_applications" android:key="safety_application" />
+    </com.coloros.settings.widget.preference.SettingsColorPreferenceCategory>
+    <PreferenceCategory />
+    <Preference android:persistent="false" android:layout="@layout/color_detail_preference" android:selectable="false" android:summary="@string/recommend_safety_applications_tips" settings:colorClickStyle="unclick" settings:color_jump_mark="@null" />
+</PreferenceScreen>

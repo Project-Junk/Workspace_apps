@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="53.0dip" android:width="53.0dip" android:viewportWidth="53.0" android:viewportHeight="53.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <path android:fillColor="@color/aod_aligicon_fill_color" android:pathData="M16.5,11.5l4,0l0,30l-4,0M24.5,11.5l4,0l0,10l-4,0M32.5,11.5l4,0l0,20l-4,0Z" />
+</vector>

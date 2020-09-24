@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.preference.PreferenceScreen android:key="top"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.coloros.systemui.aod.aodclock.settings.signature.preference.AodBasePreference android:layout="@layout/aod_signature_preference" android:title="@string/aod_signature_string" android:key="key_text" />
+    <com.coloros.systemui.aod.aodclock.settings.signature.preference.AodColorSelectPreference android:title="@string/aod_signature_color" android:key="key_color" />
+    <com.coloros.systemui.aod.aodclock.settings.signature.preference.AodAlignTypeSelectPreference android:title="@string/aod_string_alignment" android:key="key_align" />
+    <com.coloros.systemui.aod.aodclock.settings.signature.preference.AodBasePreference android:layout="@layout/aod_preference_font_layout" android:title="@string/aod_font_style" android:key="key_font_typeface" />
+    <com.coloros.systemui.aod.aodclock.settings.signature.preference.AodFontSizePreference android:title="@string/aod_font_size" android:key="key_fontszie" />
+</androidx.preference.PreferenceScreen>

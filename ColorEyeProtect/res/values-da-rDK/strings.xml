@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="color_allow_text">Enig</string>
+    <string name="color_hour">timer</string>
+    <string name="color_install_download_progress_textview">Hent</string>
+    <string name="color_loading_view_access_string">Indlæser</string>
+    <string name="color_minute">min</string>
+    <string name="color_reject_text">Afslut</string>
+    <string name="color_search_view_text">Annuller</string>
+    <string name="color_security_alertdialog_checkbox_msg">Spørg ikke igen</string>
+    <string name="color_slide_delete">Slet</string>
+    <string name="color_time_picker_today">I dag</string>
+    <string name="support_abc_searchview_description_clear">Ryd forespørgsel</string>
+    <string name="support_abc_searchview_description_search">Søg</string>
+    <string name="support_abc_searchview_description_submit">Send forespørgsel</string>
+    <string name="support_abc_searchview_description_voice">Stemmesøgning</string>
+    <string name="support_abc_toolbar_collapse_description">Skjul</string>
+</resources>

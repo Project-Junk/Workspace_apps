@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/firmware_version" android:key="my_device_info_firmware_version"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto">
+    <com.coloros.settings.widget.preference.SettingColorJumpPreference android:title="@string/firmware_version" android:key="android_firmware_version" android:order="10" settings:color_jump_mark="@null" />
+    <com.coloros.settings.widget.preference.SettingColorJumpPreference android:title="@string/security_patch" android:selectable="false" android:key="security_patch" android:order="11" android:shouldDisableView="false" settings:colorClickStyle="unclick" settings:color_jump_mark="@null" settings:showNormalColor="false" />
+</PreferenceScreen>

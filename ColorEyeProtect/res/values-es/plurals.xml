@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="application_manage_status_text">
+        <item quantity="other">%1$d aplicaciones</item>
+        <item quantity="one">%1$d aplicación</item>
+    </plurals>
+    <plurals name="third_app_status_text">
+        <item quantity="other">%1$d aplicaciones activadas</item>
+        <item quantity="one">%1$d aplicación activada</item>
+    </plurals>
+</resources>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.coloros.systemui.keyguard.clock.HorizontalDualClockView android:id="@id/dual_clock_view" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/dual_clock_view_padding_start" android:paddingEnd="@dimen/dual_clock_view_padding_end"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:systemui="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/ll_locate_clock" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/dual_clock_time_area_margin_bottom">
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/ll_clock_time" android:layout_width="@dimen/dual_clock_time_area_width" android:layout_height="wrap_content">
+            <TextView android:id="@id/tv_horizontal_locate_clock_hour" style="@style/horizontal_dual_clock_time_style" />
+            <TextView android:id="@id/tv_horizontal_locate_clock_point" android:text=":" style="@style/horizontal_dual_clock_time_style" />
+            <TextView android:id="@id/tv_horizontal_locate_clock_minute" style="@style/horizontal_dual_clock_time_style" />
+        </LinearLayout>
+        <TextView android:id="@id/tv_locate_city" style="@style/horizontal_dual_clock_city_style" />
+        <TextView android:id="@id/tv_locate_date" style="@style/horizontal_dual_date_style" />
+        <TextView android:id="@id/tv_locate_weather" android:visibility="gone" style="@style/horizontal_dual_weather_style" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/ll_resident_clock" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/dual_clock_time_area_margin_bottom" android:layout_alignParentEnd="true">
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/ll_locate_clock_time" android:layout_width="@dimen/dual_clock_time_area_width" android:layout_height="wrap_content">
+            <TextView android:id="@id/tv_horizontal_resident_clock_hour" style="@style/horizontal_dual_clock_time_style" />
+            <TextView android:id="@id/tv_horizontal_resident_clock_point" android:text=":" style="@style/horizontal_dual_clock_time_style" />
+            <TextView android:id="@id/tv_horizontal_resident_clock_minute" style="@style/horizontal_dual_clock_time_style" />
+        </LinearLayout>
+        <TextView android:id="@id/tv_resident_city" style="@style/horizontal_dual_clock_city_style" />
+        <TextView android:id="@id/tv_resident_date" style="@style/horizontal_dual_date_style" />
+        <TextView android:id="@id/tv_resident_weather" android:visibility="gone" style="@style/horizontal_dual_weather_style" />
+        <com.coloros.systemui.keyguard.clock.CarrierChargingText android:textAppearance="?android:textAppearanceSmall" android:textSize="@dimen/horizontal_single_extra_text_size" android:textColor="@color/clock_text_color" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/tv_dual_extra_content" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dual_clock_charging_margin_top" android:singleLine="true" systemui:showSignatureMsg="false" />
+    </LinearLayout>
+</com.coloros.systemui.keyguard.clock.HorizontalDualClockView>

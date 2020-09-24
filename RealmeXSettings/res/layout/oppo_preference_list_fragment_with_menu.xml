@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:orientation="vertical" android:id="@id/main_layout" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <RelativeLayout android:id="@id/menu" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+            <com.coloros.settings.widget.SettingsColorButton android:enabled="true" android:id="@id/menu_text" android:background="@drawable/color_large_main_button_bg" android:visibility="visible" android:layout_width="220.0dip" android:layout_height="wrap_content" android:layout_marginBottom="16.0dip" android:text="abc" android:layout_centerHorizontal="true" android:layout_marginStart="@dimen/common_margin" android:layout_marginEnd="@dimen/common_margin" style="?colorButtonColorfulDefaultStyle" />
+        </RelativeLayout>
+        <FrameLayout android:id="@android:id/list_container" android:paddingTop="@dimen/list_padding_top" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/menu" />
+    </RelativeLayout>
+    <include layout="@layout/color_appbar_layout" />
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_gravity="center_vertical" android:id="@id/aod_clock_dial_bg_layout" android:background="@drawable/aod_clock_no_select_bg" android:layout_width="@dimen/aod_preview_clock_layout" android:layout_height="@dimen/aod_preview_clock_layout"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/aod_preview_dial_clock_bg" android:layout_width="@dimen/aod_style_dial_bg_layout" android:layout_height="@dimen/aod_style_dial_bg_layout" android:layout_centerInParent="true">
+        <com.coloros.systemui.aod.aodclock.settings.clock.PreviewDialClockView android:id="@id/aod_dial_clock_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" />
+    </RelativeLayout>
+</RelativeLayout>

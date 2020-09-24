@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:background="@color/color_preference_category_divider_color" android:layout_width="fill_parent" android:layout_height="@dimen/color_preference_category_layout_divider_height" android:layout_marginTop="12.0dip" android:layout_marginStart="@dimen/color_preference_category_layout_divider_margin_start" android:layout_marginEnd="@dimen/color_preference_category_layout_divider_margin_start" android:forceDarkAllowed="false" />
+    <RelativeLayout android:gravity="bottom" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/M10" android:layout_marginTop="12.0dip" android:layout_marginRight="@dimen/M10" android:layout_marginBottom="12.0dip">
+        <Button android:gravity="center|right" android:id="@id/button" android:background="@null" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/cancel" android:singleLine="true" android:layout_alignParentRight="true" style="@style/TextAppearance.OPPO.FocusTitle" />
+    </RelativeLayout>
+</LinearLayout>

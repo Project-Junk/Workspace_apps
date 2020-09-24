@@ -1,0 +1,329 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="animator_duration_scale_entries">
+        <item>Анимация өшірулі</item>
+        <item>Анимация шкаласы .5x</item>
+        <item>Анимация шкаласы 1x</item>
+        <item>Анимация шкаласы 1,5x</item>
+        <item>Анимация шкаласы 2x</item>
+        <item>Анимация шкаласы 5x</item>
+        <item>Анимация шкаласы 10x</item>
+    </string-array>
+    <string-array name="app_process_limit_entries">
+        <item>Стандартты шек</item>
+        <item>Фондық процестер жоқ</item>
+        <item>Ең көбі 1 процесс</item>
+        <item>Ең көбі 2 процесс</item>
+        <item>Ең көбі 3 процесс</item>
+        <item>Ең көбі 4 процесс</item>
+    </string-array>
+    <string-array name="battery_labels">
+        <item>0%</item>
+        <item>50%</item>
+        <item>100%</item>
+    </string-array>
+    <string-array name="battery_options">
+        <item>Әрдайым пайызбен көрсетілсін</item>
+        <item>Батарея қуатының пайызы қуаттау кезінде көрсетілсін (әдепкі)</item>
+        <item>Осы белгіше көрсетілмесін</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_bits_per_sample_summaries">
+        <item>Жүйенің таңдауын пайдалану (әдепкі)</item>
+        <item>16 бит/іріктеме</item>
+        <item>24 бит/іріктеме</item>
+        <item>32 бит/іріктеме</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_bits_per_sample_titles">
+        <item>Жүйенің таңдауын пайдалану (әдепкі)</item>
+        <item>16 бит/іріктеме</item>
+        <item>24 бит/іріктеме</item>
+        <item>32 бит/іріктеме</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_channel_mode_summaries">
+        <item>Жүйенің таңдауын пайдалану (әдепкі)</item>
+        <item>Моно</item>
+        <item>Стерео</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_channel_mode_titles">
+        <item>Жүйенің таңдауын пайдалану (әдепкі)</item>
+        <item>Моно</item>
+        <item>Стерео</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_ldac_playback_quality_summaries">
+        <item>Аудио сапа үшін оңтайландырылған</item>
+        <item>Балансты аудио мен байланыстың сапасы</item>
+        <item>Байланыс сапасы үшін оңтайландырылған</item>
+        <item>Қол жеткізуге болатын максималды сапа (бейімделгіш бит түріндегі жылдамдық)</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_ldac_playback_quality_titles">
+        <item>Аудио сапа үшін оңтайландырылған (990 кбит/с / 909 кбит/с)</item>
+        <item>Балансты аудио мен байланыстың сапасы (660 кбит/с / 606 кбит/с)</item>
+        <item>Байланыс сапасы үшін оңтайландырылған (330 кбит/с / 303 кбит/с)</item>
+        <item>Қол жеткізуге болатын максималды сапа (бейімделгіш бит түріндегі жылдамдық)</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_sample_rate_summaries">
+        <item>Жүйенің таңдауын пайдалану (әдепкі)</item>
+        <item>44,1 кГц</item>
+        <item>48,0 кГц</item>
+        <item>88,2 кГц</item>
+        <item>96,0 кГц</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_sample_rate_titles">
+        <item>Жүйенің таңдауын пайдалану (әдепкі)</item>
+        <item>44,1 кГц</item>
+        <item>48,0 кГц</item>
+        <item>88,2 кГц</item>
+        <item>96,0 кГц</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_summaries">
+        <item>Жүйенің таңдауын пайдалану (әдепкі)</item>
+        <item>SBC</item>
+        <item>AAC</item>
+        <item>Qualcomm®aptX™ аудио</item>
+        <item>Qualcomm®aptX™ HD аудио</item>
+        <item>LDAC</item>
+        <item>Qualcomm®aptX™ Adaptive аудио</item>
+        <item>Qualcomm®aptX™ TWS+ аудио</item>
+        <item>Опциялық кодектерді қосу</item>
+        <item>Опциялық кодектерді өшіру</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_titles">
+        <item>Жүйенің таңдауын пайдалану (әдепкі)</item>
+        <item>SBC</item>
+        <item>AAC</item>
+        <item>Qualcomm®aptX™ аудио</item>
+        <item>Qualcomm®aptX™ HD аудио</item>
+        <item>LDAC</item>
+        <item>Qualcomm®aptX™ Adaptive аудио</item>
+        <item>Qualcomm®aptX™ TWS+ аудио</item>
+        <item>Опциялық кодектерді қосу</item>
+        <item>Опциялық кодектерді өшіру</item>
+    </string-array>
+    <string-array name="bluetooth_audio_active_device_summaries">
+        <item></item>
+        <item>, активті</item>
+        <item>, активті (тасушы)</item>
+        <item>, активті (телефон)</item>
+    </string-array>
+    <string-array name="bluetooth_avrcp_version_values">
+        <item>avrcp14</item>
+        <item>avrcp13</item>
+        <item>avrcp15</item>
+        <item>avrcp16</item>
+    </string-array>
+    <string-array name="bluetooth_avrcp_versions">
+        <item>AVRCP 1.4 (әдепкі)</item>
+        <item>AVRCP 1.3</item>
+        <item>AVRCP 1.5</item>
+        <item>AVRCP 1.6</item>
+    </string-array>
+    <string-array name="bt_hci_snoop_log_entries">
+        <item>Өшірулі</item>
+        <item>Қосылған сүзіп алынған</item>
+        <item>Қосылған үстіңгі деректемелер сүзіп алынған</item>
+        <item>Қосылған медиа-пакеттер сүзіп алынған</item>
+        <item>Қосылды</item>
+    </string-array>
+    <string-array name="clock_options">
+        <item>Сағат, минут және секунд көрсетілсін</item>
+        <item>Сағат және минут көрсетілсін (әдепкі)</item>
+        <item>Осы белгіше көрсетілмесін</item>
+    </string-array>
+    <string-array name="color_lunar_mounth">
+        <item>正月</item>
+        <item>二月</item>
+        <item>三月</item>
+        <item>四月</item>
+        <item>五月</item>
+        <item>六月</item>
+        <item>七月</item>
+        <item>八月</item>
+        <item>九月</item>
+        <item>十月</item>
+        <item>冬月</item>
+        <item>腊月</item>
+    </string-array>
+    <string-array name="color_mode_descriptions">
+        <item>Жақсартылған түстер</item>
+        <item>Көзге көрінетін табиғи түстер</item>
+        <item>Цифрлық контент үшін оңтайландырылған түстер</item>
+    </string-array>
+    <string-array name="color_mode_names">
+        <item>Дірілдеген (әдепкі)</item>
+        <item>Табиғи</item>
+        <item>Стандартты</item>
+    </string-array>
+    <string-array name="color_solor_mounth">
+        <item>Қаңтар</item>
+        <item>Ақпан</item>
+        <item>Наурыз</item>
+        <item>Сәуір</item>
+        <item>Мамыр</item>
+        <item>Маусым</item>
+        <item>Шілде</item>
+        <item>Тамыз</item>
+        <item>Қыркүйек</item>
+        <item>Қазан</item>
+        <item>Қараша</item>
+        <item>Желтоқсан</item>
+    </string-array>
+    <string-array name="debug_hw_overdraw_entries">
+        <item>Өшіру</item>
+        <item>Артық сызу аймақтарын көрсету</item>
+        <item>Дейтераномалия аймақтарын көрсету</item>
+    </string-array>
+    <string-array name="enable_opengl_traces_entries">
+        <item>Ешбірі</item>
+        <item>Logcat</item>
+        <item>Systrace (графика)</item>
+        <item>glGetError жүйесіндегі қоңырау</item>
+    </string-array>
+    <string-array name="hdcp_checking_summaries">
+        <item>HDCP тексерісін ешқашан пайдаланбау</item>
+        <item>Тек DRM мазмұны үшін HDCP тексерісін пайдалану</item>
+        <item>HDCP тексерісін үнемі пайдалану</item>
+    </string-array>
+    <string-array name="hdcp_checking_titles">
+        <item>Ешқашан тексермеу</item>
+        <item>Тек DRM мазмұнын тексеру</item>
+        <item>Үнемі тексеру</item>
+    </string-array>
+    <string-array name="nav_bar_layouts">
+        <item>Қалыпты</item>
+        <item>Шағын</item>
+        <item>Сол жақты ұстау</item>
+        <item>Оң жақты ұстау</item>
+    </string-array>
+    <string-array name="oppo_time_picker_ampm">
+        <item>ТД</item>
+        <item>ТК</item>
+    </string-array>
+    <string-array name="overlay_display_devices_entries">
+        <item>Ешбірі</item>
+        <item>480p</item>
+        <item>480p (қорғалған)</item>
+        <item>720p</item>
+        <item>720p (қорғалған)</item>
+        <item>1080p</item>
+        <item>1080p (қорғалған)</item>
+        <item>4K</item>
+        <item>4K (қорғалған)</item>
+        <item>4K (масштабталған)</item>
+        <item>4K (масштабталған, қорғалған)</item>
+        <item>720p, 1080p (қос экран)</item>
+    </string-array>
+    <string-array name="select_logd_size_lowram_titles">
+        <item>Өшіру</item>
+        <item>64K</item>
+        <item>256K</item>
+        <item>1M</item>
+    </string-array>
+    <string-array name="select_logd_size_summaries">
+        <item>Өшіру</item>
+        <item>64 К/журнал буфері</item>
+        <item>256 К/журнал буфері</item>
+        <item>1 М/журнал буфері</item>
+        <item>4 М/журнал буфері</item>
+        <item>16 М/журнал буфері</item>
+    </string-array>
+    <string-array name="select_logd_size_titles">
+        <item>Өшіру</item>
+        <item>64K</item>
+        <item>256K</item>
+        <item>1M</item>
+        <item>4M</item>
+        <item>16M</item>
+    </string-array>
+    <string-array name="select_logpersist_summaries">
+        <item>Өшіру</item>
+        <item>Барлық тіркеу буферлері</item>
+        <item>Радиоқұрылғыдан бөлек барлық тіркеу буферлері</item>
+        <item>тек ядролық тіркеу буферлері</item>
+    </string-array>
+    <string-array name="select_logpersist_titles">
+        <item>Өшіру</item>
+        <item>Барлығы</item>
+        <item>Радиодан басқа барлығы</item>
+        <item>тек ядролық</item>
+    </string-array>
+    <string-array name="show_non_rect_clip_entries">
+        <item>Өшіру</item>
+        <item>Төртбұрыштық емес клип ауданын көк түсте сызу</item>
+        <item>Сыналған сызу пәрмендерін жасыл түсте белгілеу</item>
+    </string-array>
+    <string-array name="track_frame_time_entries">
+        <item>Өшіру</item>
+        <item>Жолақтар ретінде экранда</item>
+        <item>adb shell dumpsys gfxinfo ішінде</item>
+    </string-array>
+    <string-array name="transition_animation_scale_entries">
+        <item>Анимация өшірулі</item>
+        <item>Анимация шкаласы .5x</item>
+        <item>Анимация шкаласы 1x</item>
+        <item>Анимация шкаласы 1,5x</item>
+        <item>Анимация шкаласы 2x</item>
+        <item>Анимация шкаласы 5x</item>
+        <item>Анимация шкаласы 10x</item>
+    </string-array>
+    <string-array name="tts_rate_entries">
+        <item>Өте баяу</item>
+        <item>Баяу</item>
+        <item>Қалыпты</item>
+        <item>Жылдам</item>
+        <item>Жылдамырақ</item>
+        <item>Өте жылдам</item>
+        <item>Жылдам</item>
+        <item>Өте жылдам</item>
+        <item>Өте жылдам</item>
+    </string-array>
+    <string-array name="usb_configuration_titles">
+        <item>Зарядтау</item>
+        <item>MTP (Тасығышты ауыстырып қайта жазу протоколы)</item>
+        <item>PTP (Сурет тасымалдау протоколы)</item>
+        <item>RNDIS (USB Ethernet)</item>
+        <item>Дыбыс көзі</item>
+        <item>MIDI</item>
+    </string-array>
+    <string-array name="usb_type_select">
+        <item>Тек зарядтау</item>
+        <item>Файлдарды тасымалдау</item>
+        <item>Фотосуреттерді жіберу</item>
+    </string-array>
+    <string-array name="wifi_status">
+        <item></item>
+        <item>Сканерлеу…</item>
+        <item>Қосу…</item>
+        <item>Аутентификациялау…</item>
+        <item>IP мекенжайын алу…</item>
+        <item>Қосылды</item>
+        <item>Тоқтатылды</item>
+        <item>Ажырату…</item>
+        <item>Ажыратылды</item>
+        <item>Сәтсіздік</item>
+        <item>Құлыптаулы</item>
+        <item>Нашар байланысты уақытша пайдаланбау</item>
+    </string-array>
+    <string-array name="wifi_status_with_ssid">
+        <item></item>
+        <item>Сканерлеу…</item>
+        <item>%1$s желісіне қосылып жатыр…</item>
+        <item>%1$s желісімен аутентификациялау …</item>
+        <item>%1$s IP мекенжайын алу …</item>
+        <item>%1$s жүйесіне қосылды</item>
+        <item>Тоқтатылды</item>
+        <item>%1$s ажыратылуда …</item>
+        <item>Ажыратылды</item>
+        <item>Сәтсіздік</item>
+        <item>Құлыптаулы</item>
+        <item>Нашар байланысты уақытша пайдаланбау</item>
+    </string-array>
+    <string-array name="window_animation_scale_entries">
+        <item>Анимация өшірулі</item>
+        <item>Анимация шкаласы .5x</item>
+        <item>Анимация шкаласы 1x</item>
+        <item>Анимация шкаласы 1,5x</item>
+        <item>Анимация шкаласы 2x</item>
+        <item>Анимация шкаласы 5x</item>
+        <item>Анимация шкаласы 10x</item>
+    </string-array>
+</resources>

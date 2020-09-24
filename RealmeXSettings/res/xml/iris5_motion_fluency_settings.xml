@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/oppo_osie_iris5_motion_fluency_optimization" android:key="oppo_osie_iris5_motion_fluency_optimization_title"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto">
+    <com.coloros.settings.widget.preference.SettingsColorPreferenceCategory android:key="oppo_osie_iris5_motion_fluency_categotr" settings:controller="com.coloros.settings.feature.display.controller.Iris5MotionFluencySettingsController" settings:isFirstCategory="true" />
+</PreferenceScreen>

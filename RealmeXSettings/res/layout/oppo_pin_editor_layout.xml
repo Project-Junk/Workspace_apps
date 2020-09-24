@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout android:id="@id/color_pin_editor_layout" android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <color.support.v7.widget.Toolbar android:id="@id/toolbar" android:background="@drawable/color_toolbar_bg" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <TextView android:textAppearance="?android:textAppearanceLarge" android:textSize="@dimen/color_font_size_16DP" android:gravity="bottom|center" android:id="@id/tv_message" android:layout_width="fill_parent" android:layout_height="@dimen/oppo_headerText_top_size" android:layout_marginLeft="18.0dip" android:layout_marginRight="18.0dip" android:layout_below="@id/toolbar" />
+        <com.color.support.widget.ColorEditText android:textAppearance="?android:textAppearanceLarge" android:id="@id/edt_pin" android:paddingTop="@dimen/oppo_list_item_top_padding" android:paddingBottom="@dimen/oppo_list_item_top_padding" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="30.0dip" android:singleLine="true" android:maxLength="8" android:layout_below="@id/tv_message" android:inputType="textPassword" android:imeOptions="actionDone" android:paddingStart="@dimen/oppo_list_item_left_margin" android:paddingEnd="@dimen/oppo_list_item_right_margin" android:layout_marginStart="@dimen/M10" android:layout_marginEnd="@dimen/M10" />
+        <com.color.support.widget.ColorNumericKeyboard android:layout_gravity="center" android:id="@id/keyboard_num" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" style="?colorKeyboardDarkStyle" />
+    </RelativeLayout>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

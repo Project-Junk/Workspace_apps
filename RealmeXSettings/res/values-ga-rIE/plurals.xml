@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="accessibilty_autoclick_preference_subtitle_extremely_short_delay">
+        <item quantity="other">Moill iontach gearr (%1$d ms)</item>
+        <item quantity="one">Moill iontach gearr (%1$d ms)</item>
+    </plurals>
+    <plurals name="accessibilty_autoclick_preference_subtitle_long_delay">
+        <item quantity="other">Moill fada (%1$d ms)</item>
+        <item quantity="one">Moill fada (%1$d ms)</item>
+    </plurals>
+    <plurals name="accessibilty_autoclick_preference_subtitle_short_delay">
+        <item quantity="other">Moill gearr (%1$d ms)</item>
+        <item quantity="one">Moill gearr (%1$d ms)</item>
+    </plurals>
+    <plurals name="accessibilty_autoclick_preference_subtitle_very_long_delay">
+        <item quantity="other">Moill an-fhada (%1$d ms)</item>
+        <item quantity="one">Moill an-fhada (%1$d ms)</item>
+    </plurals>
+    <plurals name="accessibilty_autoclick_preference_subtitle_very_short_delay">
+        <item quantity="other">Moill gearr go leor (%1$d ms)</item>
+        <item quantity="one">Moill gearr go leor (%1$d ms)</item>
+    </plurals>
+    <plurals name="bugreport_countdown">
+        <item quantity="other">Tógfaidh an córas cóip den scáileán a bhfuil an tuarascáil earráide ann i gceann %1$d soicind.</item>
+        <item quantity="one">Tógfaidh an córas cóip den scáileán a bhfuil an tuarascáil earráide ann i gceann %1$d soicind.</item>
+    </plurals>
+    <plurals name="data_saver_unrestricted_summary">
+        <item quantity="other">%1$d aipeanna atá ceadaithe le sonraí gan theorainn a úsáid nuair atá Sábhálaí Sonraí casta air.</item>
+        <item quantity="one">Aip amháin atá ceadaithe le sonraí gan theorainn a úsáid nuair atá Sábhálaí Sonraí casta air.</item>
+    </plurals>
+    <plurals name="dlg_remove_locales_title">
+        <item quantity="other">Bain as na teangacha roghnaithe?</item>
+        <item quantity="one">Bain as na teangacha roghnaithe?</item>
+    </plurals>
+    <plurals name="enterprise_privacy_number_ca_certs">
+        <item quantity="other">%d Teastais CA ar a laghad</item>
+        <item quantity="one">%d Teastas CA ar a laghad</item>
+    </plurals>
+    <plurals name="enterprise_privacy_number_failed_password_wipe">
+        <item quantity="other">Iarracht déanta %d uaireanta</item>
+        <item quantity="one">Iarracht déanta %d uair</item>
+    </plurals>
+    <plurals name="enterprise_privacy_number_packages">
+        <item quantity="other">%d aipeanna</item>
+        <item quantity="one">%d aip</item>
+    </plurals>
+    <plurals name="enterprise_privacy_number_packages_lower_bound">
+        <item quantity="other">%d aipeanna ar a laghad</item>
+        <item quantity="one">%d aip ar a laghad</item>
+    </plurals>
+    <plurals name="hours">
+        <item quantity="other">%s Uaireanta</item>
+        <item quantity="one">Uair Amháin</item>
+    </plurals>
+    <plurals name="memory_usage_apps_summary">
+        <item quantity="other">Bhiainn%1$d aipeanna úsáid as cuimhne sa %2$s deireanach</item>
+        <item quantity="one">Bhain aip amháin úsáid as cuimhne sa %2$s deireanach</item>
+    </plurals>
+    <plurals name="minutes">
+        <item quantity="other">%s Nóiméad</item>
+        <item quantity="one">Nóiméad Amháin</item>
+    </plurals>
+    <plurals name="optimizable_count">
+        <item quantity="other">Is féidir %1$d mír a optamú</item>
+        <item quantity="one">Is féidir %1$d mír a optamú</item>
+    </plurals>
+    <plurals name="permissions_summary">
+        <item quantity="other">%d ceadanna bronnta</item>
+        <item quantity="one">%d cead bronnta</item>
+    </plurals>
+    <plurals name="runtime_permissions_additional_count">
+        <item quantity="other">%d ceadanna sa bhreis</item>
+        <item quantity="one">%d cead sa bhreis</item>
+    </plurals>
+    <plurals name="runtime_permissions_summary">
+        <item quantity="other">%1$d (de %2$d) ceadanna bronnta</item>
+        <item quantity="one">%1$d (de %2$d) cead bronnta</item>
+    </plurals>
+    <plurals name="seconds">
+        <item quantity="other">%s Soicind</item>
+        <item quantity="one">Soicind Amháin</item>
+    </plurals>
+    <plurals name="security_settings_fingerprint_preference_summary">
+        <item quantity="other">%1$d méarloirg cumraithe</item>
+        <item quantity="one">%1$d méarloirg cumraithe</item>
+    </plurals>
+    <plurals name="security_summary_apps_security">
+        <item quantity="other">Criptiú ar %1$d aip</item>
+        <item quantity="one">Criptiú ar %1$d aip</item>
+    </plurals>
+    <plurals name="security_summary_float_window">
+        <item quantity="other">Bactha %1$d Uair</item>
+        <item quantity="one">Bactha %1$d Uair</item>
+    </plurals>
+    <plurals name="security_summary_harassment_call">
+        <item quantity="other">%1$d Glaoch</item>
+        <item quantity="one">%1$d Glaoch</item>
+    </plurals>
+    <plurals name="security_summary_harassment_sms">
+        <item quantity="other">%1$d Teachtaireacht SMS</item>
+        <item quantity="one">%1$d Teachtaireacht SMS</item>
+    </plurals>
+    <plurals name="security_summary_intelligent_identification_contact">
+        <item quantity="other">Aithint ar %1$d Uimhir</item>
+        <item quantity="one">Aithint ar %1$d Uimhir</item>
+    </plurals>
+    <plurals name="security_summary_payment_protection">
+        <item quantity="other">Cosaint ar %1$d Oibriúchán Íocaíochta</item>
+        <item quantity="one">Cosaint ar %1$d Oibriúchán Íocaíochta</item>
+    </plurals>
+    <plurals name="security_summary_permission_manager">
+        <item quantity="other">Bactha %1$d Uair</item>
+        <item quantity="one">Bactha %1$d Uair</item>
+    </plurals>
+    <plurals name="security_summary_private_info_protect">
+        <item quantity="other">Cosaint ar %1$d Mír</item>
+        <item quantity="one">Cosaint ar %1$d Mír</item>
+    </plurals>
+    <plurals name="security_summary_pseudo_base_station">
+        <item quantity="other">Bac ar %1$d Stáisiún Bunáite Bréige</item>
+        <item quantity="one">Bac ar %1$d Stáisiún Bunáite Bréige</item>
+    </plurals>
+    <plurals name="settings_optimizable_count">
+        <item quantity="other">Is féidir %1$d mír a optamú</item>
+        <item quantity="one">Is féidir %1$d mír a optamú</item>
+    </plurals>
+    <plurals name="settings_suggestion_header_summary_hidden_items">
+        <item quantity="other">Taispeáin %d Mír Faoi Cheilt</item>
+        <item quantity="one">Taispeáin %d Mír Faoi Cheilt</item>
+    </plurals>
+    <plurals name="ssl_ca_cert_dialog_title">
+        <item quantity="other">Cuir iontaoibh ann as nó Bain Teastais</item>
+        <item quantity="one">Cuir iontaoibh ann as nó Bain Teastais</item>
+    </plurals>
+    <plurals name="ssl_ca_cert_info_message">
+        <item quantity="other">"Shuiteáil%s roinnt údaráis teastais do do phróifíl oibre. Is féidir iad a úsáid chun monatóireacht a dhéanamh ar do ghníomhaíocht líonra (lena n-áirítear úsáid ríomhphoist, aipeanna agus suíomhanna gréasáin slána) agus tú ag obair.
+
+Le haghaidh a thuilleadh sonraí maidir leis na teastais seo, téigh i dteagmháil le do riarthóir, le do thoil."</item>
+        <item quantity="one">"Shuiteáil%s údarás teastais amháin do do phróifíl oibre. Is féidir é a úsáid chun monatóireacht a dhéanamh ar do ghníomhaíocht líonra (lena n-áirítear úsáid ríomhphoist, aipeanna agus suíomhanna gréasáin slána) agus tú ag obair.
+
+Le haghaidh a thuilleadh sonraí maidir leis an teastas seo, téigh i dteagmháil le do riarthóir, le do thoil."</item>
+    </plurals>
+    <plurals name="ssl_ca_cert_info_message_device_owner">
+        <item quantity="other">"Shuiteáil%s roinnt údaráis teastais ar do ghléas. Is féidir iad a úsáid chun monatóireacht a dhéanamh ar ghníomhaíocht líonra do ghléis (lena n-áirítear úsáid ríomhphoist, aipeanna agus suíomhanna gréasáin slána).
+
+Le haghaidh a thuilleadh sonraí maidir leis na teastais seo, téigh i dteagmháil le do riarthóir, le do thoil."</item>
+        <item quantity="one">"Shuiteáil%s údarás teastais amháin ar do ghléas. Is féidir iad a úsáid chun monatóireacht a dhéanamh ar ghníomhaíocht líonra do ghléis (lena n-áirítear úsáid ríomhphoist, aipeanna agus suíomhanna gréasáin slána).
+
+Le haghaidh a thuilleadh sonraí maidir leis an teastas seo, téigh i dteagmháil le do riarthóir, le do thoil."</item>
+    </plurals>
+    <plurals name="ssl_ca_cert_settings_button">
+        <item quantity="other">Seiceáil Teastais</item>
+        <item quantity="one">Seiceáil Teastais</item>
+    </plurals>
+    <plurals name="uri_permissions_text">
+        <item quantity="other">%d Mír(eanna)</item>
+        <item quantity="one">Mír amháin</item>
+    </plurals>
+    <plurals name="zen_mode_summary_alarms_only_by_hour">
+        <item quantity="other">Athraigh go hAláraim Amháin, bailí ar feadh %1$d uair (go dtí %2$s)</item>
+        <item quantity="one">Athraigh go hAláraim Amháin, bailí ar feadh uair amháin (go dtí %2$s)</item>
+    </plurals>
+    <plurals name="zen_mode_summary_alarms_only_by_minute">
+        <item quantity="other">Athraigh go hAláraim Amháin, bailí ar feadh %1$d nóiméad (go dtíl %2$s)</item>
+        <item quantity="one">Athraigh go hAláraim Amháin, bailí ar feadh nóiméad amháin (go dtí %2$s)</item>
+    </plurals>
+</resources>

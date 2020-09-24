@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:background="@drawable/color_list_preference_bg" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/line" android:background="@color/support_ripple_material_light" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginTop="15.0dip" android:layout_marginBottom="15.0dip" android:layout_marginStart="@dimen/oppo_toolbar_margin" android:layout_marginEnd="@dimen/oppo_toolbar_margin" />
+    <ImageView android:background="@drawable/color_divider_horizontal_without_padding" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:contentDescription="@null" />
+    <TextView android:textColor="@color/color_preference_secondary_text_color" android:gravity="start" android:id="@id/title" android:layout_below="@id/line" android:layout_alignParentBottom="true" android:layout_marginStart="@dimen/oppo_toolbar_margin" style="@style/OppoPreferenceCategoryStyle.Title" />
+</RelativeLayout>

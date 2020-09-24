@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="abc_slice_duration_days">
+        <item quantity="other">Siku %d zilizopita</item>
+        <item quantity="one">Siku %d iliyopita</item>
+    </plurals>
+    <plurals name="abc_slice_duration_min">
+        <item quantity="other">Dakika %d zilizopita</item>
+        <item quantity="one">Dakika %d iliyopita</item>
+    </plurals>
+    <plurals name="abc_slice_duration_years">
+        <item quantity="other">Miaka %d iliyopita</item>
+        <item quantity="one">Mwaka %d uliopita</item>
+    </plurals>
+    <plurals name="kg_password_default_pin_message">
+        <item quantity="other">Weka PIN ya SIM. Zimesalia mara %d za kujaribu.</item>
+        <item quantity="one">Weka PIN ya SIM. Ukijaribu tena mara %d bila kufaulu, kifaa chako kitafungwa na utalazimika uwasiliane na mtoa huduma wako ili akifungue.</item>
+    </plurals>
+    <plurals name="kg_password_default_pin_message_multi_sim">
+        <item quantity="other">Tafadhali Ingiza PIN ya Kadi ya SIM %1$d. Umesalia na Majaribio %2$d.</item>
+        <item quantity="one">Tafadhali Ingiza PIN ya Kadi ya SIM %1$d. Umesalia na Jaribio %2$d. Utahitajika Kuwasiliana na Mtoa Huduma ili Akusaidie Kufungua Ifaa Ikiwa Sio Sahihi Tena.</item>
+    </plurals>
+    <plurals name="kg_password_default_puk_message">
+        <item quantity="other">Sasa SIM imefungwa. Weka msimbo wa PUK ili uendelee. Umesalia na majaribio %d kabla ya SIM kuacha kufanya kazi kabisa. Wasiliana na mtoa huduma kwa maelezo.</item>
+        <item quantity="one">Sasa SIM imefungwa. Weka msimbo wa PUK ili uendelee. Umesalia na jaribio %d kabla ya SIM kuacha kufanya kazi kabisa. Wasiliana na mtoa huduma kwa maelezo.</item>
+    </plurals>
+    <plurals name="kg_password_wrong_pin_code">
+        <item quantity="other">PIN isiyo sahihi ya SIM. Umesalia na majaribio %d.</item>
+        <item quantity="one">PIN isiyo sahihi ya SIM. Umesalia na jaribio %d. Utahitajika kuwasiliana na mtoa huduma ili akusaidie kufungua ifaa ikiwa sio sahihi tena.</item>
+    </plurals>
+    <plurals name="kg_password_wrong_pin_code_multi_sim">
+        <item quantity="other">PIN ya Kadi ya SIM %1$d Sio Sahihi. Umesalia na Majaribio %2$d.</item>
+        <item quantity="one">PIN ya Kadi ya SIM %1$d Sio Sahihi. Umesalia na Jaribio %2$d. Utahitajika Kuwasiliana na Mtoa Huduma ili Akusaidie Kufungua Ifaa Ikiwa Sio Sahihi Tena.</item>
+    </plurals>
+    <plurals name="kg_password_wrong_puk_code">
+        <item quantity="other">Msimbo wa PUK ya SIM sio sahihi. Umesalia na majaribio %d. SIM zitalemazwa kabisa ikia sio sahihi tena.</item>
+        <item quantity="one">Msimbo wa PUK ya SIM sio sahihi. Umesalia na jaribio %d. SIM italemazwa kabisa ikiwa sio sahihi tena.</item>
+    </plurals>
+    <plurals name="kg_prompt_reason_time_password">
+        <item quantity="other">Kifaa kimefungwa kwa saa %d. Tafadhali thibitisha nenosiri.</item>
+        <item quantity="one">Kifaa kimefungwa kwa saa %d. Tafadhali thibitisha nenosiri.</item>
+    </plurals>
+    <plurals name="kg_prompt_reason_time_pattern">
+        <item quantity="other">Kifaa kimefungwa kwa saa %d. Tafadhali thibitisha mchoro wa kufungua.</item>
+        <item quantity="one">Kifaa kimefungwa kwa saa %d. Tafadhali thibitisha mchoro wa kufungua.</item>
+    </plurals>
+    <plurals name="kg_prompt_reason_time_pin">
+        <item quantity="other">Kifaa kimefungwa kwa saa %d. Tafadhali thibitisha PIN.</item>
+        <item quantity="one">Kifaa kimefungwa kwa saa %d. Tafadhali thibitisha PIN.</item>
+    </plurals>
+    <plurals name="kg_too_many_failed_attempts_countdown">
+        <item quantity="other">Tafadhali Jaribu Tena Baada ya Sekunde %d.</item>
+        <item quantity="one">Tafadhali Jaribu Tena Baada ya Sekunde 1.</item>
+    </plurals>
+    <plurals name="notification_group_overflow_description">
+        <item quantity="other">Bado kuna taarifa %s katika kikundi hiki.</item>
+        <item quantity="one">Bado kuna taarifa %s katika kikundi hiki.</item>
+    </plurals>
+    <plurals name="quick_settings_hotspot_secondary_label_num_devices">
+        <item quantity="other">Vifaa %d</item>
+        <item quantity="one">Kifaa %d</item>
+    </plurals>
+    <plurals name="snoozeHourOptions">
+        <item quantity="other">Saa %d</item>
+        <item quantity="one">Saa %d</item>
+    </plurals>
+    <plurals name="snoozeMinuteOptions">
+        <item quantity="other">Dakika %d</item>
+        <item quantity="one">Dakika %d</item>
+    </plurals>
+    <plurals name="user_limit_reached_message">
+        <item quantity="other">Unaruhusiwa kuongeza hadi watumiaji %d.</item>
+        <item quantity="one">Unaruhusiwa kuongeza mtumiaji mmoja pekee.</item>
+    </plurals>
+    <plurals name="wifi_tether_connected_summary">
+        <item quantity="other">Imeunganisha vifaa %1$d</item>
+        <item quantity="one">Imeunganisha kifaa %1$d</item>
+    </plurals>
+</resources>

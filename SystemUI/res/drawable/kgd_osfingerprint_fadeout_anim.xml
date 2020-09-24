@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list android:oneshot="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:duration="32" android:drawable="@drawable/kgd_osfingerprint_fadeout_0" />
+    <item android:duration="32" android:drawable="@drawable/kgd_osfingerprint_fadeout_1" />
+    <item android:duration="32" android:drawable="@drawable/kgd_osfingerprint_fadeout_2" />
+    <item android:duration="32" android:drawable="@drawable/kgd_osfingerprint_fadeout_3" />
+    <item android:duration="32" android:drawable="@drawable/kgd_osfingerprint_fadeout_4" />
+    <item android:duration="32" android:drawable="@drawable/kgd_osfingerprint_fadeout_5" />
+    <item android:duration="32" android:drawable="@drawable/kgd_osfingerprint_fadeout_6" />
+    <item android:duration="32" android:drawable="@drawable/kgd_osfingerprint_fadeout_7" />
+    <item android:duration="32" android:drawable="@drawable/kgd_osfingerprint_fadeout_8" />
+    <item android:duration="32" android:drawable="@drawable/kgd_osfingerprint_fadeout_9" />
+    <item android:duration="32" android:drawable="@drawable/kgd_osfingerprint_fadeout_10" />
+    <item android:duration="32" android:drawable="@drawable/kgd_osfingerprint_fadeout_11" />
+    <item android:duration="32" android:drawable="@drawable/kgd_osfingerprint_fadeout_12" />
+    <item android:duration="32" android:drawable="@drawable/kgd_osfingerprint_fadeout_13" />
+    <item android:duration="32" android:drawable="@drawable/kgd_osfingerprint_fadeout_14" />
+    <item android:duration="32" android:drawable="@drawable/kgd_osfingerprint_fadeout_15" />
+    <item android:duration="32" android:drawable="@drawable/kgd_osfingerprint_fadeout_16" />
+    <item android:duration="32" android:drawable="@drawable/kgd_osfingerprint_fadeout_17" />
+    <item android:duration="32" android:drawable="@drawable/kgd_osfingerprint_fadeout_18" />
+    <item android:duration="32" android:drawable="@drawable/kgd_osfingerprint_fadeout_19" />
+    <item android:duration="32" android:drawable="@drawable/kgd_osfingerprint_fadeout_20" />
+    <item android:duration="32" android:drawable="@drawable/kgd_osfingerprint_fadeout_21" />
+    <item android:duration="32" android:drawable="@drawable/kgd_osfingerprint_fadeout_22" />
+</animation-list>

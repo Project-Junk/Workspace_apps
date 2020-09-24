@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.coloros.systemui.statusbar.widget.SignalClusterView android:gravity="end|center" android:orientation="horizontal" android:id="@id/signal_cluster" android:layout_width="wrap_content" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:layout_gravity="center_vertical" android:id="@id/network" android:layout_width="@dimen/status_bar_network_speed_view_width" android:layout_height="fill_parent" android:layout_marginStart="@dimen/coloros_signal_cluster_networkspeed_padding" android:layout_marginEnd="@dimen/coloros_signal_cluster_networkspeed_padding" layout="@layout/network_speed_view" />
+    <FrameLayout android:id="@id/wifi_combo" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <com.android.systemui.statusbar.AlphaOptimizedImageView android:theme="?lightIconTheme" android:layout_gravity="right" android:id="@id/wifi_signal" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <com.android.systemui.statusbar.AlphaOptimizedImageView android:layout_gravity="right" android:id="@id/wifi_inout" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <ImageView android:layout_gravity="left" android:id="@id/wifi_double" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </FrameLayout>
+    <View android:id="@id/wifi_airplane_spacer" android:visibility="gone" android:layout_width="@dimen/status_bar_airplane_spacer_width" android:layout_height="4.0dip" />
+    <ImageView android:id="@id/vowifi_imag" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <ImageView android:id="@id/noVolte_imag" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <ImageView android:id="@id/volte_imag" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <TextView android:textAppearance="@style/TextAppearance.StatusBar.Clock" android:ellipsize="marquee" android:gravity="center" android:layout_gravity="center_vertical" android:id="@id/plmn_text" android:layout_width="wrap_content" android:layout_height="19.0dip" android:singleLine="true" android:textIsSelectable="false" />
+    <FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <ImageView android:layout_gravity="center_vertical" android:id="@id/no_sims" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/stat_signal_signal_null_lte" android:contentDescription="@string/accessibility_no_sims" />
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/mobile_signal_group" android:layout_width="wrap_content" android:layout_height="fill_parent" />
+    </FrameLayout>
+    <ImageView android:id="@id/airplane" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <TextView android:textSize="@dimen/sell_mode_display_text_size" android:gravity="start|center" android:id="@id/sell_mode_display" android:paddingBottom="1.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/sell_mode_display_text" android:singleLine="true" android:importantForAccessibility="no" android:paddingStart="1.5dip" android:paddingEnd="1.5dip" />
+</com.coloros.systemui.statusbar.widget.SignalClusterView>

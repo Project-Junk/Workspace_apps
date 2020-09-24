@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.coloros.settings.feature.othersettings.cameraeffect.CameraColorPickerGridView android:id="@id/camera_3d_lifting_descending_color_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:listSelector="@android:color/transparent" android:verticalSpacing="20.0dip" android:numColumns="6" android:overScrollMode="never"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

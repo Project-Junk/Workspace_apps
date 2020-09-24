@@ -1,0 +1,916 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="animator_duration_scale_entries">
+        <item>Animació desactivada</item>
+        <item>"Escala de l'animació 0,5x"</item>
+        <item>"Escala de l'animació 1x"</item>
+        <item>"Escala de l'animació 1,5x"</item>
+        <item>"Escala de l'animació 2x"</item>
+        <item>"Escala de l'animació 5x"</item>
+        <item>"Escala de l'animació 10x"</item>
+    </string-array>
+    <string-array name="aod_date_entries">
+        <item>Mostra el calendari gregorià</item>
+        <item>Mostra els calendaris gregorià i lunar</item>
+        <item>No ho mostris</item>
+    </string-array>
+    <string-array name="apn_auth_entries">
+        <item>Cap</item>
+        <item>PAP</item>
+        <item>CHAP</item>
+        <item>PAP o CHAP</item>
+    </string-array>
+    <string-array name="apn_protocol_entries">
+        <item>IPv4</item>
+        <item>IPv6</item>
+        <item>IPv4/IPv6</item>
+    </string-array>
+    <string-array name="app_install_location_entries">
+        <item>Emmagatzematge intern del dispositiu</item>
+        <item>Targeta SD extraïble</item>
+        <item>Permet que ho decideixi el sistema</item>
+    </string-array>
+    <string-array name="app_ops_categories">
+        <item>Ubicació</item>
+        <item>Personal</item>
+        <item>SMS</item>
+        <item>Multimèdia</item>
+        <item>Dispositiu</item>
+    </string-array>
+    <string-array name="app_ops_labels">
+        <item>Ubicació</item>
+        <item>Ubicació</item>
+        <item>Ubicació</item>
+        <item>Vibració</item>
+        <item>Llegir els contactes</item>
+        <item>Modificar els contactes</item>
+        <item>Llegir els registres de trucades</item>
+        <item>Modificar els registres de trucades</item>
+        <item>Llegir el calendari</item>
+        <item>Modificar el calendari</item>
+        <item>Ubicació</item>
+        <item>Publicar notificació</item>
+        <item>Ubicació</item>
+        <item>Trucar al telèfon</item>
+        <item>Llegir SMS/MMS</item>
+        <item>Escriure SMS/MMS</item>
+        <item>Rebre SMS/MMS</item>
+        <item>Rebre SMS/MMS</item>
+        <item>Rebre SMS/MMS</item>
+        <item>Rebre SMS/MMS</item>
+        <item>Enviar SMS/MMS</item>
+        <item>Llegir SMS/MMS</item>
+        <item>Escriure SMS/MMS</item>
+        <item>Modificar la configuració</item>
+        <item>Dibuixar a sobre</item>
+        <item>Accedir a les notificacions</item>
+        <item>Càmera</item>
+        <item>Enregistrar àudio</item>
+        <item>Reproduir àudio</item>
+        <item>Llegir porta-retalls</item>
+        <item>Modificar porta-retalls</item>
+        <item>Botons multimèdia</item>
+        <item>"Enfocament d'àudio"</item>
+        <item>Volum general</item>
+        <item>Volum de la veu</item>
+        <item>Volum del timbre</item>
+        <item>Volum multimèdia</item>
+        <item>"Volum de l'alarma"</item>
+        <item>Volum de les notificacions</item>
+        <item>Volum del Bluetooth</item>
+        <item>Mantenir activat</item>
+        <item>Ubicació</item>
+        <item>Ubicació</item>
+        <item>Obtenir estadístiques d’ús</item>
+        <item>Silenciar/reactivar micròfon</item>
+        <item>Mostrar alerta</item>
+        <item>Projectar multimèdia</item>
+        <item>Activar VPN</item>
+        <item>Escriure fons de pantalla</item>
+        <item>Estructura de suport</item>
+        <item>Captura de pantalla de suport</item>
+        <item>"Llegir l'estat del telèfon"</item>
+        <item>Afegir una bústia de veu</item>
+        <item>Utilitzar sip</item>
+        <item>Processar les trucades sortints</item>
+        <item>Empremta digital</item>
+        <item>Sensors corporals</item>
+        <item>Llegir transmissions cel·lulars</item>
+        <item>Ubicació simulada</item>
+        <item>Llegir emmagatzematge</item>
+        <item>Escriure emmagatzematge</item>
+        <item>Activar pantalla</item>
+        <item>Obtenir comptes</item>
+        <item>Executar en segon pla</item>
+        <item>Volum d’accessibilitat</item>
+    </string-array>
+    <string-array name="app_ops_summaries">
+        <item>Ubicació aproximada</item>
+        <item>Ubicació exacta</item>
+        <item>GPS</item>
+        <item>vibració</item>
+        <item>llegir els contactes</item>
+        <item>modificar els contactes</item>
+        <item>llegir els registres de trucades</item>
+        <item>modificar els registres de trucades</item>
+        <item>llegir el calendari</item>
+        <item>modificar el calendari</item>
+        <item>escaneig Wi-Fi</item>
+        <item>notificació</item>
+        <item>escaneig cel·lular</item>
+        <item>trucar al telèfon</item>
+        <item>llegir SMS</item>
+        <item>escriure SMS</item>
+        <item>rebre SMS</item>
+        <item>"rebre SMS d'emergència"</item>
+        <item>rebre MMS</item>
+        <item>rebre una notificació WAP</item>
+        <item>enviar SMS</item>
+        <item>llegir ICC SMS</item>
+        <item>escriure SMS ICC</item>
+        <item>modificar la configuració</item>
+        <item>dibuixar a sobre</item>
+        <item>accedir a les notificacions</item>
+        <item>càmera</item>
+        <item>enregistrar àudio</item>
+        <item>reproduir àudio</item>
+        <item>llegir porta-retalls</item>
+        <item>modificar porta-retalls</item>
+        <item>botons multimèdia</item>
+        <item>"enfocament d'àudio"</item>
+        <item>volum general</item>
+        <item>volum de la veu</item>
+        <item>volum del timbre</item>
+        <item>volum multimèdia</item>
+        <item>"volum de l'alarma"</item>
+        <item>volum de les notificacions</item>
+        <item>volum del Bluetooth</item>
+        <item>mantenir activat</item>
+        <item>supervisar la ubicació</item>
+        <item>supervisar la ubicació d’alta potència</item>
+        <item>obtenir estadístiques d’ús</item>
+        <item>silenciar/reactivar micròfon</item>
+        <item>mostrar alerta</item>
+        <item>projectar multimèdia</item>
+        <item>activar VPN</item>
+        <item>escriure fons de pantalla</item>
+        <item>estructura de suport</item>
+        <item>captura de pantalla de suport</item>
+        <item>"llegir l'estat del telèfon"</item>
+        <item>afegir una bústia de veu</item>
+        <item>utilitzar sip</item>
+        <item>processar les trucades sortints</item>
+        <item>empremta digital</item>
+        <item>sensors corporals</item>
+        <item>llegir transmissions cel·lulars</item>
+        <item>ubicació simulada</item>
+        <item>llegir emmagatzematge</item>
+        <item>escriure emmagatzematge</item>
+        <item>activar pantalla</item>
+        <item>obtenir comptes</item>
+        <item>executar en segon pla</item>
+        <item>volum d’accessibilitat</item>
+    </string-array>
+    <string-array name="app_process_limit_entries">
+        <item>Límit estàndard</item>
+        <item>No hi ha processos en segon pla</item>
+        <item>1 procés com a màxim</item>
+        <item>2 processos com a màxim</item>
+        <item>3 processos com a màxim</item>
+        <item>4 processos com a màxim</item>
+    </string-array>
+    <string-array name="authentication_frequency_entries">
+        <item>Demana sempre</item>
+        <item>Demana després de 15 minuts</item>
+    </string-array>
+    <string-array name="autofill_logging_level_entries">
+        <item>Desactivat</item>
+        <item>Depurar</item>
+        <item>Detallat</item>
+    </string-array>
+    <string-array name="automatic_storage_management_days">
+        <item>Més de 30 dies</item>
+        <item>Més de 60 dies</item>
+        <item>Més de 90 dies</item>
+    </string-array>
+    <string-array name="battery_labels">
+        <item>0%</item>
+        <item>50%</item>
+        <item>100%</item>
+    </string-array>
+    <string-array name="bearer_entries">
+        <item>No especificat</item>
+        <item>LTE</item>
+        <item>HSPAP</item>
+        <item>HSPA</item>
+        <item>HSUPA</item>
+        <item>HSDPA</item>
+        <item>UMTS</item>
+        <item>EDGE</item>
+        <item>GPRS</item>
+        <item>eHRPD</item>
+        <item>EVDO_B</item>
+        <item>EVDO_A</item>
+        <item>EVDO_0</item>
+        <item>1xRTT</item>
+        <item>IS95B</item>
+        <item>IS95A</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_bits_per_sample_summaries">
+        <item>Utilitza la selecció del sistema (per defecte)</item>
+        <item>16 bits per mostra</item>
+        <item>24 bits per mostra</item>
+        <item>32 bits per mostra</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_bits_per_sample_titles">
+        <item>Utilitza la selecció del sistema (per defecte)</item>
+        <item>16 bits per mostra</item>
+        <item>24 bits per mostra</item>
+        <item>32 bits per mostra</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_channel_mode_summaries">
+        <item>Utilitza la selecció del sistema (per defecte)</item>
+        <item>Mono</item>
+        <item>Estèreo</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_channel_mode_titles">
+        <item>Utilitza la selecció del sistema (per defecte)</item>
+        <item>Mono</item>
+        <item>Estèreo</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_ldac_playback_quality_summaries">
+        <item>Optimitzat per a la qualitat d’àudio</item>
+        <item>Equilibri de la qualitat de àudio i la connexió</item>
+        <item>Optimitzat per a la qualitat de connexió</item>
+        <item>Millor esforç (velocitat de bits adaptativa)</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_ldac_playback_quality_titles">
+        <item>Optimitzat per a la qualitat d’àudio (990kbps/909kbps)</item>
+        <item>Equilibri de la qualitat de àudio i la connexió (660kbps/606kbps)</item>
+        <item>Optimitzat per a la qualitat de connexió (330kpps/303kbps)</item>
+        <item>Millor esforç (velocitat de bits adaptativa)</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_sample_rate_summaries">
+        <item>Utilitza la selecció del sistema (per defecte)</item>
+        <item>44,1 kHz</item>
+        <item>48,0 kHz</item>
+        <item>88,2 kHz</item>
+        <item>96,0 kHz</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_sample_rate_titles">
+        <item>Utilitza la selecció del sistema (per defecte)</item>
+        <item>44,1 kHz</item>
+        <item>48,0 kHz</item>
+        <item>88,2 kHz</item>
+        <item>96,0 kHz</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_summaries">
+        <item>Utilitza la selecció del sistema (per defecte)</item>
+        <item>SBC</item>
+        <item>AAC</item>
+        <item>ÀudioQualcomm®aptX™</item>
+        <item>ÀudioQualcomm®aptX™ HD</item>
+        <item>LDAC</item>
+        <item>Àudio adaptatiuQualcomm®aptX™</item>
+        <item>Àudio TWS+Qualcomm®aptX™</item>
+        <item>Habilita còdecs opcionals</item>
+        <item>Inhabilita còdecs opcionals</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_summaries_new">
+        <item>Utilitza la selecció del sistema (per defecte)</item>
+        <item>SBC</item>
+        <item>AAC</item>
+        <item>ÀudioQualcomm®aptX™</item>
+        <item>ÀudioQualcomm®aptX™ HD</item>
+        <item>LDAC</item>
+        <item>LHDC</item>
+        <item>Àudio adaptatiuQualcomm®aptX™</item>
+        <item>Àudio TWS+Qualcomm®aptX™</item>
+        <item>Habilita còdecs opcionals</item>
+        <item>Inhabilita còdecs opcionals</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_titles">
+        <item>Utilitza la selecció del sistema (per defecte)</item>
+        <item>SBC</item>
+        <item>AAC</item>
+        <item>ÀudioQualcomm®aptX™</item>
+        <item>ÀudioQualcomm®aptX™ HD</item>
+        <item>LDAC</item>
+        <item>Àudio adaptatiuQualcomm®aptX™</item>
+        <item>Àudio TWS+Qualcomm®aptX™</item>
+        <item>Habilita còdecs opcionals</item>
+        <item>Inhabilita còdecs opcionals</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_titles_new">
+        <item>Utilitza la selecció del sistema (per defecte)</item>
+        <item>SBC</item>
+        <item>AAC</item>
+        <item>ÀudioQualcomm®aptX™</item>
+        <item>ÀudioQualcomm®aptX™ HD</item>
+        <item>LDAC</item>
+        <item>LHDC</item>
+        <item>Àudio adaptatiuQualcomm®aptX™</item>
+        <item>Àudio TWS+Qualcomm®aptX™</item>
+        <item>Habilita còdecs opcionals</item>
+        <item>Inhabilita còdecs opcionals</item>
+    </string-array>
+    <string-array name="bluetooth_audio_active_device_summaries">
+        <item></item>
+        <item>, actiu</item>
+        <item>, actiu (elements multimèdia)</item>
+        <item>, actiu (telèfon)</item>
+    </string-array>
+    <string-array name="bluetooth_avrcp_version_values">
+        <item>avrcp14</item>
+        <item>avrcp13</item>
+        <item>avrcp15</item>
+        <item>avrcp16</item>
+    </string-array>
+    <string-array name="bluetooth_avrcp_versions">
+        <item>AVRCP 1.4 (Per defecte)</item>
+        <item>AVRCP 1.3</item>
+        <item>AVRCP 1.5</item>
+        <item>AVRCP 1.6</item>
+    </string-array>
+    <string-array name="bluetooth_max_connected_audio_devices">
+        <item>Utilitzar l’aplicació determinada del sistema: %1$d</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+    <string-array name="bluetooth_visibility_timeout_entries">
+        <item>2 minuts</item>
+        <item>5 minuts</item>
+        <item>1 hora</item>
+        <item>"No s'esgota mai el temps d'espera"</item>
+    </string-array>
+    <string-array name="bt_hci_snoop_log_entries">
+        <item>Inhabilitat</item>
+        <item>Inhabilitat Filtrats</item>
+        <item>Inhabilitat Capçaleres filtrades</item>
+        <item>Inhabilitat Elements multimèdia Pkts filtrats</item>
+        <item>Habilitat</item>
+    </string-array>
+    <string-array name="captioning_edge_type_selector_titles">
+        <item>Predeterminat</item>
+        <item>Cap</item>
+        <item>Contorn</item>
+        <item>Ombra</item>
+        <item>Elevat</item>
+        <item>Enfonsat</item>
+    </string-array>
+    <string-array name="captioning_font_size_selector_titles">
+        <item>Molt petita</item>
+        <item>Petita</item>
+        <item>Normal</item>
+        <item>Grossa</item>
+        <item>Molt grossa</item>
+    </string-array>
+    <string-array name="captioning_opacity_selector_titles">
+        <item>25%</item>
+        <item>50%</item>
+        <item>75%</item>
+        <item>100%</item>
+    </string-array>
+    <string-array name="captioning_preset_selector_titles">
+        <item>Utilitza la configuració predeterminada de les aplicacions</item>
+        <item>Blanc sobre negre</item>
+        <item>Negre sobre blanc</item>
+        <item>Groc sobre negre</item>
+        <item>Groc sobre blau</item>
+        <item>Personalitza</item>
+    </string-array>
+    <string-array name="captioning_typeface_selector_titles">
+        <item>Predeterminat</item>
+        <item>Sans-Serif</item>
+        <item>Sans-Serif Condensed</item>
+        <item>Sans-Serif Monospace</item>
+        <item>Serif</item>
+        <item>Serif Monospace</item>
+        <item>Casual</item>
+        <item>Cursiva</item>
+        <item>Versaleta</item>
+    </string-array>
+    <string-array name="cdma_subscription_choices">
+        <item>RUIM/SIM</item>
+        <item>NV</item>
+    </string-array>
+    <string-array name="cdma_system_select_choices">
+        <item>Només pantalla d’inici</item>
+        <item>Automàtic</item>
+    </string-array>
+    <string-array name="color_mode_descriptions">
+        <item>Millora dels colors</item>
+        <item>Colors naturals com vists per l’ull humà</item>
+        <item>Colors optimitzats per a contingut digital</item>
+    </string-array>
+    <string-array name="color_mode_names">
+        <item>Vibrant (per defecte)</item>
+        <item>Natural</item>
+        <item>Estàndard</item>
+    </string-array>
+    <string-array name="color_picker">
+        <item>Cian</item>
+        <item>Blau</item>
+        <item>Anyil</item>
+        <item>Morat</item>
+        <item>Rosa</item>
+        <item>Vermell</item>
+    </string-array>
+    <string-array name="color_solor_mounth">
+        <item>Gener</item>
+        <item>Febrer</item>
+        <item>Març</item>
+        <item>Abril</item>
+        <item>Maig</item>
+        <item>Juny</item>
+        <item>Juliol</item>
+        <item>Agost</item>
+        <item>Setembre</item>
+        <item>Octubre</item>
+        <item>Novembre</item>
+        <item>Desembre</item>
+    </string-array>
+    <string-array name="cut_mode_entries">
+        <item>Adaptació automàtica</item>
+        <item>Mostra la càmera frontal</item>
+        <item>Oculta la càmera frontal (Pantalla completa)</item>
+    </string-array>
+    <string-array name="dark_ui_mode_entries">
+        <item>Fosc</item>
+        <item>Llum</item>
+    </string-array>
+    <string-array name="data_usage_data_range">
+        <item>Últims 30 dies</item>
+        <item>"Configura el cicle d'ús..."</item>
+    </string-array>
+    <string-array name="debug_hw_overdraw_entries">
+        <item>Desactivat</item>
+        <item>Mostra les zones sobredibuixades</item>
+        <item>Mostra les zones per a Deuteranomalia</item>
+    </string-array>
+    <string-array name="default_volume_type">
+        <item>Volum del to de trucada</item>
+        <item>Volum multimèdia</item>
+    </string-array>
+    <string-array name="dream_timeout_entries">
+        <item>Mai</item>
+        <item>15 segons</item>
+        <item>30 segons</item>
+        <item>1 minut</item>
+        <item>2 minuts</item>
+        <item>5 minuts</item>
+        <item>10 minuts</item>
+        <item>30 minuts</item>
+    </string-array>
+    <string-array name="enable_opengl_traces_entries">
+        <item>Cap</item>
+        <item>Logcat</item>
+        <item>Systrace (gràfics)</item>
+        <item>Pila de trucades a glGetError</item>
+    </string-array>
+    <string-array name="entries_font_size">
+        <item>Petit</item>
+        <item>Predeterminat</item>
+        <item>Gran</item>
+        <item>Màxim</item>
+    </string-array>
+    <string-array name="eq_preset_names">
+        <item>Desactivat</item>
+        <item>Pop</item>
+        <item>Rock</item>
+        <item>Country</item>
+        <item>Jazz</item>
+        <item>Clàssica</item>
+        <item>Metall</item>
+        <item>Blues</item>
+        <item>Hip Hop</item>
+        <item>Dance</item>
+        <item>Electrònica</item>
+        <item>Personalitza</item>
+    </string-array>
+    <string-array name="format_type_entries">
+        <item>FAT32 (predeterminat)</item>
+        <item>exFAT</item>
+    </string-array>
+    <string-array name="hdcp_checking_summaries">
+        <item>No utilitzis mai la comprovació HDCP</item>
+        <item>Utilitza la comprovació HDCP només per a contingut amb DRM</item>
+        <item>Utilitza sempre la comprovació HDCP</item>
+    </string-array>
+    <string-array name="hdcp_checking_titles">
+        <item>No ho comprovis mai</item>
+        <item>Comprova només el contingut amb DRM</item>
+        <item>Comprova-ho sempre</item>
+    </string-array>
+    <string-array name="incomming_call_color_type_name">
+        <item>Violeta neó</item>
+        <item>Blau oceànic</item>
+        <item>Taronja ambre</item>
+    </string-array>
+    <string-array name="incomming_call_type_name">
+        <item>Contactes VIP</item>
+        <item>Contactes preferits</item>
+        <item>Tots els contactes</item>
+        <item>Totes les trucades</item>
+        <item>Cap</item>
+    </string-array>
+    <string-array name="lock_after_timeout_entries">
+        <item>Immediatament</item>
+        <item>5 segons</item>
+        <item>15 segons</item>
+        <item>30 segons</item>
+        <item>1 minut</item>
+        <item>2 minut</item>
+        <item>5 minut</item>
+        <item>10 minut</item>
+        <item>30 minut</item>
+    </string-array>
+    <string-array name="long_press_timeout_selector_titles">
+        <item>Breu</item>
+        <item>Mitjà</item>
+        <item>Llarg</item>
+    </string-array>
+    <string-array name="mvno_type_entries">
+        <item>Cap</item>
+        <item>SPN</item>
+        <item>IMSI</item>
+        <item>GID</item>
+        <item>ICCID</item>
+    </string-array>
+    <string-array name="notification_prompt_mode_entries">
+        <item>Icona</item>
+        <item>Compte de notificacions</item>
+        <item>"No m'ho mostris"</item>
+    </string-array>
+    <string-array name="oppo_app_install_location_entries_removable_sd">
+        <item>Emmagatzematge del sistema</item>
+        <item>Emmagatzematge del telèfon</item>
+        <item>Predeterminat del sistema</item>
+    </string-array>
+    <string-array name="oppo_app_install_location_entries_unremovable_sd">
+        <item>Espai del sistema</item>
+        <item>Emmagatzematge del telèfon</item>
+        <item>Depèn del sistema</item>
+    </string-array>
+    <string-array name="oppo_time_picker_ampm">
+        <item>AM</item>
+        <item>PM</item>
+    </string-array>
+    <string-array name="overlay_display_devices_entries">
+        <item>Cap</item>
+        <item>480p</item>
+        <item>480p (segur)</item>
+        <item>720p</item>
+        <item>720p (segur)</item>
+        <item>1080p</item>
+        <item>1080p (segur)</item>
+        <item>4K</item>
+        <item>4K (segur)</item>
+        <item>4K (convertit)</item>
+        <item>4K (convertit, segur)</item>
+        <item>720p, 1080p (pantalla doble)</item>
+    </string-array>
+    <string-array name="preferred_network_mode_choices">
+        <item>GSM/WCDMA preferit</item>
+        <item>Només GSM</item>
+        <item>Només WCDMA</item>
+        <item>GSM/WCDMA automàtic</item>
+        <item>CDMA/EvDo automàtic</item>
+        <item>CDMA sense EvDo</item>
+        <item>Només EvDo</item>
+        <item>CDMA/EvDo/GSM/WCDMA</item>
+        <item>CDMA + LTE/EvDo</item>
+        <item>GSM/WCDMA/LTE</item>
+        <item>Global</item>
+        <item>LTE</item>
+        <item>LTE / WCDMA</item>
+        <item>Només TDSCDMA</item>
+        <item>TDSCDMA/WCDMA</item>
+        <item>LTE/TDSCDMA</item>
+        <item>TDSCDMA/GSM</item>
+        <item>LTE/TDSCDMA/GSM</item>
+        <item>TDSCDMA/GSM/WCDMA</item>
+        <item>LTE/TDSCDMA/WCDMA</item>
+        <item>LTE/TDSCDMA/GSM/WCDMA</item>
+        <item>TDSCDMA/CDMA/EVDO/GSM/WCDMA</item>
+        <item>LTE/TDSCDMA/CDMA/EVDO/GSM/WCDMA</item>
+    </string-array>
+    <string-array name="preferred_network_mode_choices_world_mode">
+        <item>Global</item>
+        <item>LTE / CDMA</item>
+        <item>LTE / GSM / UMTS</item>
+    </string-array>
+    <string-array name="presskey_backlight_timeout_entries">
+        <item>6 segons</item>
+        <item>Sempre activat</item>
+        <item>Desactivat</item>
+    </string-array>
+    <string-array name="print_pages">
+        <item>Totes les pàgines</item>
+        <item>Selecciona les pàgines</item>
+    </string-array>
+    <string-array name="print_sides">
+        <item>Una cara</item>
+        <item>Dues cares</item>
+    </string-array>
+    <string-array name="print_size">
+        <item>ISO A4</item>
+        <item>5 x 7</item>
+        <item>4 x 6</item>
+        <item>Carta</item>
+    </string-array>
+    <string-array name="privacy_question_list">
+        <item>"Quin és el nom d'un dels vostres mestres?"</item>
+        <item>Quin és el nom de la vostra mare?</item>
+        <item>Quin és el nom del vostre pare?</item>
+        <item>Quin és el nom del vostre institut?</item>
+        <item>Quin és el nom del vostre restaurant preferit?</item>
+    </string-array>
+    <string-array name="proc_stats_memory_states">
+        <item>Normal</item>
+        <item>Moderat</item>
+        <item>Lent</item>
+        <item>Crític</item>
+    </string-array>
+    <string-array name="proc_stats_process_states">
+        <item>Constant</item>
+        <item>Activitat principal</item>
+        <item>Important (en primer pla)</item>
+        <item>Important (en segon pla)</item>
+        <item>Còpia de seguretat</item>
+        <item>Càrrega pesada</item>
+        <item>Servei (en execució)</item>
+        <item>Servei (reiniciant-se)</item>
+        <item>Receptor</item>
+        <item>Inici</item>
+        <item>Darrera activitat</item>
+        <item>Emmagatzemada a la memòria cau (activitat)</item>
+        <item>"Emmagatzemada a la memòria cau (usuari de l'activitat)"</item>
+        <item>Emmagatzemada a la memòria cau (buida)</item>
+    </string-array>
+    <string-array name="ram_states">
+        <item>Normal</item>
+        <item>Moderat</item>
+        <item>Lent</item>
+        <item>Molt lent</item>
+        <item>desconegut</item>
+    </string-array>
+    <string-array name="realme_preset_names">
+        <item>Predeterminat</item>
+        <item>Pop</item>
+        <item>Rock</item>
+        <item>Country</item>
+        <item>Jazz</item>
+        <item>Clàssica</item>
+        <item>Metall</item>
+        <item>Blues</item>
+        <item>Hip Hop</item>
+        <item>Dance</item>
+        <item>Electrònica</item>
+        <item>Personalitzat</item>
+    </string-array>
+    <string-array name="running_applications_tabs">
+        <item>Aplicacions de tercers</item>
+        <item>Aplicacions del sistema</item>
+    </string-array>
+    <string-array name="screen_timeout_entries">
+        <item>15 segons</item>
+        <item>30 segons</item>
+        <item>1 minut</item>
+        <item>2 minuts</item>
+        <item>5 minuts</item>
+        <item>10 minuts</item>
+        <item>30 minuts</item>
+    </string-array>
+    <string-array name="security_settings_premium_sms_values">
+        <item>Pregunta</item>
+        <item>No ho permetis mai</item>
+        <item>Permet sempre</item>
+    </string-array>
+    <string-array name="select_logd_size_lowram_titles">
+        <item>Desactivat</item>
+        <item>64K</item>
+        <item>256K</item>
+        <item>1M</item>
+    </string-array>
+    <string-array name="select_logd_size_summaries">
+        <item>Desactivat</item>
+        <item>64K per registre de memòria intermèdia</item>
+        <item>256K per registre de memòria intermèdia</item>
+        <item>1M per registre de memòria intermèdia</item>
+        <item>4M per registre de memòria intermèdia</item>
+        <item>16M per registre de memòria intermèdia</item>
+    </string-array>
+    <string-array name="select_logd_size_titles">
+        <item>Desactivat</item>
+        <item>64K</item>
+        <item>256K</item>
+        <item>1M</item>
+        <item>4M</item>
+        <item>16M</item>
+    </string-array>
+    <string-array name="select_logpersist_summaries">
+        <item>Desactivat</item>
+        <item>Totes els registres de memòria intermèdia</item>
+        <item>Totes els registres de memòria intermèdia excepte els de ràdio</item>
+        <item>només el registre de memòria intermèdia del nucli</item>
+    </string-array>
+    <string-array name="select_logpersist_titles">
+        <item>Desactivat</item>
+        <item>Tots</item>
+        <item>Tot menys ràdio</item>
+        <item>només kernel</item>
+    </string-array>
+    <string-array name="show_non_rect_clip_entries">
+        <item>Desactivat</item>
+        <item>Dibuixa la regió del clip no rectangular amb blau</item>
+        <item>Destaca els comandaments de prova de dibuix amb verd</item>
+    </string-array>
+    <string-array name="swipe_direction_values">
+        <item>1</item>
+        <item>0</item>
+    </string-array>
+    <string-array name="timezone_filters">
+        <item>Amèrica</item>
+        <item>Europa</item>
+        <item>Àfrica</item>
+        <item>Àsia</item>
+        <item>Austràlia</item>
+        <item>Pacífic</item>
+        <item>Tots</item>
+    </string-array>
+    <string-array name="track_frame_time_entries">
+        <item>Desactivat</item>
+        <item>A la pantalla com a barres</item>
+        <item>En adb shell dumpsys gfxinfo</item>
+    </string-array>
+    <string-array name="transition_animation_scale_entries">
+        <item>Animació desactivada</item>
+        <item>"Escala de l'animació 0,5x"</item>
+        <item>"Escala de l'animació 1x"</item>
+        <item>"Escala de l'animació 1,5x"</item>
+        <item>"Escala de l'animació 2x"</item>
+        <item>"Escala de l'animació 5x"</item>
+        <item>"Escala de l'animació 10x"</item>
+    </string-array>
+    <string-array name="tts_rate_entries">
+        <item>Molt lent</item>
+        <item>Lent</item>
+        <item>Normal</item>
+        <item>Ràpid</item>
+        <item>Més ràpid</item>
+        <item>Molt ràpid</item>
+        <item>Ràpid</item>
+        <item>Molt ràpid</item>
+        <item>Extremadament ràpid</item>
+    </string-array>
+    <string-array name="usage_stats_display_order_types">
+        <item>"Temps d'ús"</item>
+        <item>Utilitzat per última vegada</item>
+        <item>"Nom de l'aplicació"</item>
+    </string-array>
+    <string-array name="usb_configuration_titles">
+        <item>"S'està carregant"</item>
+        <item>MTP (Protocol de Transferència Multimèdia)</item>
+        <item>"PTP (Protocol de Transferència d'Imatges)"</item>
+        <item>RNDIS (Ethernet USB)</item>
+        <item>Font de so</item>
+        <item>MIDI</item>
+    </string-array>
+    <string-array name="vpn_proxy_settings">
+        <item>Cap</item>
+        <item>Manual</item>
+    </string-array>
+    <string-array name="vpn_states">
+        <item>Desconnectat</item>
+        <item>"S'està inicialitzant…"</item>
+        <item>"S'està connectant…"</item>
+        <item>Connectat</item>
+        <item>"S'ha esgotat el temps d'espera"</item>
+        <item>Incorrecte</item>
+    </string-array>
+    <string-array name="vpn_types_long">
+        <item>PPTP VPN</item>
+        <item>VPN L2TP/IPSec amb claus compartides prèviament</item>
+        <item>VPN L2TP/IPSec amb certificats</item>
+        <item>VPN IPSec amb claus compartides prèviament i autenticació Xauth</item>
+        <item>VPN IPSec amb certificats i autenticació Xauth</item>
+        <item>VPN IPSec amb certificats i autenticació híbrida</item>
+    </string-array>
+    <string-array name="wifi_calling_mode_choices_v2">
+        <item>Wi-Fi</item>
+        <item>Mòbil</item>
+        <item>Només Wi-Fi</item>
+    </string-array>
+    <string-array name="wifi_calling_mode_choices_v2_without_wifi_only">
+        <item>Wi-Fi</item>
+        <item>Mòbil</item>
+    </string-array>
+    <string-array name="wifi_eap_entries">
+        <item>PEAP</item>
+        <item>TLS</item>
+        <item>TTLS</item>
+        <item>PWD</item>
+    </string-array>
+    <string-array name="wifi_hidden_entries">
+        <item>No</item>
+        <item>Sí</item>
+    </string-array>
+    <string-array name="wifi_ip_settings">
+        <item>DHCP</item>
+        <item>Estàtic</item>
+    </string-array>
+    <string-array name="wifi_metered_entries">
+        <item>Detectar automàticament</item>
+        <item>Tractar com a mesurat</item>
+        <item>Tractar com a no mesurat</item>
+    </string-array>
+    <string-array name="wifi_p2p_status">
+        <item>Connectat</item>
+        <item>Convidat</item>
+        <item>Incorrecte</item>
+        <item>Disponible</item>
+        <item>Fora del rang</item>
+    </string-array>
+    <string-array name="wifi_p2p_wps_setup">
+        <item>Botó Push</item>
+        <item>PIN del dispositiu homòleg</item>
+        <item>"PIN d'aquest dispositiu"</item>
+    </string-array>
+    <string-array name="wifi_peap_phase2_entries">
+        <item>Cap</item>
+        <item>MSCHAPV2</item>
+        <item>GTC</item>
+    </string-array>
+    <string-array name="wifi_peap_phase2_entries_with_sim_auth">
+        <item>Cap</item>
+        <item>MSCHAPV2</item>
+        <item>GTC</item>
+        <item>SIM</item>
+        <item>AKA</item>
+        <item>"AKA'"</item>
+    </string-array>
+    <string-array name="wifi_phase2_entries">
+        <item>Cap</item>
+        <item>PAP</item>
+        <item>MSCHAP</item>
+        <item>MSCHAPV2</item>
+        <item>GTC</item>
+    </string-array>
+    <string-array name="wifi_privacy_entries">
+        <item>MAC aleatòria (predeterminat)</item>
+        <item>MAC del dispositiu</item>
+    </string-array>
+    <string-array name="wifi_proxy_settings">
+        <item>Cap</item>
+        <item>Manual</item>
+        <item>Configuració automàtica del servidor intermediari</item>
+    </string-array>
+    <string-array name="wifi_signal">
+        <item>Deficient</item>
+        <item>Deficient</item>
+        <item>Suficient</item>
+        <item>Bo</item>
+        <item>Excel·lent</item>
+    </string-array>
+    <string-array name="wifi_status">
+        <item></item>
+        <item>"S'està escanejant…"</item>
+        <item>"S'està connectant…"</item>
+        <item>"S'està autenticant…"</item>
+        <item>"S'està obtenint l'adreça IP…"</item>
+        <item>Connectat</item>
+        <item>Suspès</item>
+        <item>"S'està desconnectant…"</item>
+        <item>Desconnectat</item>
+        <item>Incorrecte</item>
+        <item>Bloquejat</item>
+        <item>S’estan evitant les connexions deficients de forma temporal</item>
+    </string-array>
+    <string-array name="wifi_status_with_ssid">
+        <item></item>
+        <item>"S'està escanejant…"</item>
+        <item>"S'està connectant a %1$s…"</item>
+        <item>S’està autenticant amb %1$s…</item>
+        <item>"S'està obtenint l'adreça IP de %1$s…"</item>
+        <item>"S'ha connectat a %1$s"</item>
+        <item>Suspès</item>
+        <item>"S'està desconnectant de %1$s…"</item>
+        <item>Desconnectat</item>
+        <item>Incorrecte</item>
+        <item>Bloquejat</item>
+        <item>S’estan evitant les connexions deficients de forma temporal</item>
+    </string-array>
+    <string-array name="window_animation_scale_entries">
+        <item>Animació desactivada</item>
+        <item>"Escala de l'animació 0,5x"</item>
+        <item>"Escala de l'animació 1x"</item>
+        <item>"Escala de l'animació 1,5x"</item>
+        <item>"Escala de l'animació 2x"</item>
+        <item>"Escala de l'animació 5x"</item>
+        <item>"Escala de l'animació 10x"</item>
+    </string-array>
+</resources>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/location_gps_bg_control"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto">
+    <com.coloros.settings.widget.preference.SettingsColorPreferenceCategory android:key="gps_background_suggest_on" settings:isFirstCategory="true" />
+    <com.coloros.settings.widget.preference.SettingsColorPreferenceCategory android:key="gps_background_suggest_off" />
+    <com.coloros.settings.widget.preference.SettingsColorPreferenceCategory android:key="gps_background_switch_pref_style" settings:isFirstCategory="true">
+        <SwitchPreference android:layout="@layout/color_preference_divider_ex_icon" />
+    </com.coloros.settings.widget.preference.SettingsColorPreferenceCategory>
+</PreferenceScreen>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="?android:listPreferredItemHeight" android:layout_marginStart="@dimen/oppo_list_item_left_margin" android:layout_marginEnd="@dimen/oppo_list_item_right_margin">
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginEnd="12.0dip">
+            <ImageView android:layout_gravity="center_vertical" android:id="@id/icon" android:layout_width="36.0dip" android:layout_height="36.0dip" android:contentDescription="@null" />
+        </LinearLayout>
+        <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:layout_marginBottom="8.0dip" android:layout_weight="1.0">
+            <TextView android:textAppearance="?android:textAppearanceMedium" android:ellipsize="marquee" android:id="@id/name" android:fadingEdge="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" />
+            <TextView android:textSize="@dimen/TD05" android:textColor="@color/color_preference_secondary_text_color" android:ellipsize="end" android:id="@id/description" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:maxLines="3" />
+            <TextView android:textAppearance="?android:textAppearanceSmall" android:textColor="@color/color_preference_secondary_text_color" android:id="@id/active_state" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="2.0dip" />
+        </LinearLayout>
+        <CheckBox android:textAppearance="?android:textAppearanceSmall" android:textColor="@color/color_preference_secondary_text_color" android:layout_gravity="center_vertical" android:id="@id/color_checkbox" android:background="@android:color/transparent" android:focusable="false" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:button="@null" android:drawableEnd="@drawable/color_btn_next" android:layout_marginStart="16.0dip" />
+    </LinearLayout>
+</LinearLayout>

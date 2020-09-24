@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:focusable="true" android:clickable="true" android:layout_width="wrap_content" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/divider" android:background="@color/color_preference_category_divider_color" android:layout_width="0.70000005dip" android:layout_height="22.0dip" android:forceDarkAllowed="false" />
+    <ImageView android:layout_gravity="end|center" android:id="@id/click_action" android:paddingLeft="@dimen/android_preference_switch_margin_left" android:paddingRight="23.0dip" android:focusable="true" android:clickable="true" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/color_lock_ic_delete" />
+</LinearLayout>

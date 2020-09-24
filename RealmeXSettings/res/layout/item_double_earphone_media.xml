@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="@dimen/double_ear_media_item_height"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/item_bluetooth_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/settings_bluetooh_ic" android:layout_marginStart="@dimen/double_ear_media_margin_start" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <TextView android:ellipsize="end" android:id="@id/item_earphone_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="@dimen/double_ear_media_margin_title_left" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toEndOf="@id/item_bluetooth_icon" app:layout_constraintTop_toTopOf="parent" />
+    <CheckBox android:id="@id/item_check_box" android:layout_width="@dimen/double_ear_media_checkbox_width" android:layout_height="@dimen/double_ear_media_checkbox_width" android:layout_marginEnd="@dimen/double_ear_media_checkbox_margin_end" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

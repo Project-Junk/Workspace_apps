@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.systemui.statusbar.AlphaOptimizedFrameLayout android:layout_width="wrap_content" android:layout_height="@dimen/status_bar_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.coloros.systemui.statusbar.widget.CircleBatteryView android:orientation="horizontal" android:id="@id/status_bar_circle_baterry" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <com.coloros.systemui.statusbar.widget.CircleBatteryProgressView android:id="@id/circle_baterry_progress" android:layout_width="wrap_content" android:layout_height="fill_parent" />
+    </com.coloros.systemui.statusbar.widget.CircleBatteryView>
+</com.android.systemui.statusbar.AlphaOptimizedFrameLayout>

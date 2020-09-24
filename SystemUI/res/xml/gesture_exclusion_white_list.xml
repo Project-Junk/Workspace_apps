@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GestureExclusion-Conf>
+    <conf-version>2019081708</conf-version>
+    <pkg>
+        <pkgname>com.tencent.mm</pkgname>
+        <activity>com.tencent.mm.ui.LauncherUI</activity>
+        <activity>com.tencent.mm.ui.LauncherUI2</activity>
+    </pkg>
+    <pkg>
+        <pkgname>com.tencent.mobileqq</pkgname>
+    </pkg>
+    <pkg>
+        <pkgname>com.tencent.qqlive</pkgname>
+    </pkg>
+    <pkg>
+        <pkgname>com.qiyi.video</pkgname>
+        <activity>org.iqiyi.video.activity.PlayerActivity</activity>
+        <activity>org.iqiyi.video.activity.PlayerActivity2</activity>
+        <activity>org.iqiyi.video.activity.PlayerActivity3</activity>
+    </pkg>
+    <pkg>
+        <pkgname>com.taobao.taobao</pkgname>
+    </pkg>
+    <pkg>
+        <pkgname>com.tencent.mtt</pkgname>
+    </pkg>
+    <pkg>
+        <pkgname>com.example.qdemo</pkgname>
+    </pkg>
+    <pkg>
+        <pkgname>com.coloros.floatassistant</pkgname>
+    </pkg>
+    <pkg>
+        <pkgname>com.coloros.screenshot</pkgname>
+    </pkg>
+    <pkg>
+        <pkgname>com.coloros.gallery3d</pkgname>
+    </pkg>
+    <pkg>
+        <pkgname>com.coloros.exserviceui</pkgname>
+    </pkg>
+    <pkg>
+        <pkgname>com.heytap.pictorial</pkgname>
+    </pkg>
+</GestureExclusion-Conf>

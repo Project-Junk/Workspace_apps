@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+ <color name="accent_device_default">@*android:color/red</color>
+<color name="accent_device_default_light">#ffff0000</color>
+ <color name="notification_action_list">#00000000</color>
+ <color name="notification_action_list_dark">#00000000</color>
+ <color name="notification_material_background_color">#00ffffff</color>
+ <color name="notification_default_color_dark">@*android:color/notification_primary_text_color_dark</color>
+ <color name="notification_default_color_light">@*android:color/notification_primary_text_color_dark</color>
+
+
+ <color name="autofill_background_material_dark">@*android:color/background_floating_material_dark</color>
+ <color name="autofill_background_material_light">@*android:color/background_floating_material_light</color>
+ <color name="material_grey_800">@*android:color/background_dark</color>
+ <color name="material_grey_850">@*android:color/background_dark</color>
+ <color name="material_blue_grey_950">@*android:color/background_dark</color>
+ <color name="material_deep_teal_100">@*android:color/red</color>
+ <color name="material_deep_teal_200">@*android:color/red</color>
+ <color name="material_deep_teal_300">@*android:color/red</color>
+ <color name="material_deep_teal_500">@*android:color/red</color>
+</resources>

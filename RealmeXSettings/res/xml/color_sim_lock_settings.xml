@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/sim_lock_settings_category"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto">
+    <com.coloros.settings.widget.preference.SettingsColorPreferenceCategory android:key="dummy_category" settings:isFirstCategory="true" />
+    <com.coloros.settings.widget.preference.SettingSwitchPreference android:persistent="false" android:title="@string/sim_pin_toggle" android:key="sim_toggle" android:summaryOn="@string/sim_lock_on" android:summaryOff="@string/sim_lock_off" />
+    <com.android.settings.EditPinPreference android:persistent="false" android:layout="@layout/color_preference" android:title="@string/sim_pin_change" android:key="sim_pin" android:dependency="sim_toggle" android:dialogTitle="@string/sim_change_pin" android:dialogMessage="@string/sim_enter_old" android:positiveButtonText="@string/sim_enter_ok" android:negativeButtonText="@string/sim_enter_cancel" android:inputType="numberPassword" />
+</PreferenceScreen>

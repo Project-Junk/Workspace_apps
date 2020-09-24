@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/more_privacy_settings" android:key="privacy_dashboard_page"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

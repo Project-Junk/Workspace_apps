@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="center_horizontal" android:id="@id/biometric_layout" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.coloros.settings.privacy.FaceUnlockLayout android:id="@id/face_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:layout_centerHorizontal="true" />
+    <TextView android:textAppearance="?android:textAppearanceLarge" android:textSize="@dimen/color_font_size_6" android:gravity="center" android:id="@id/biometric_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="72.66998dip" android:fontFamily="sans-serif-medium" style="@style/LockText" />
+    <com.coloros.settings.widget.SettingsColorButton android:id="@id/use_password" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="227.0dip" android:text="@string/input_password" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" style="@style/PrivacyProtectColorButtonStyle" />
+</RelativeLayout>

@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<apklock lock:lockAuthor="@string/unlockAuthor" lock:lockDate="@string/unlockDate" lock:lockDescription="@string/discription" lock:lockName="@string/unlockname" lock:lockResolution="@string/unlockResolution" lock:lockThumbleft="@drawable/kgd_left_card_preview" lock:lockThumbnail="@drawable/kgd_unlock_demo_thumb" lock:lockThumbright="@drawable/kgd_right_card_preview" lock:lockVersion="@string/unlockVersion"
+  xmlns:lock="http://schemas.android.com/apk/res/com.android.systemui" />

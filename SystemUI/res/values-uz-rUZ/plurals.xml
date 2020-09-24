@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="kg_password_default_pin_message_multi_sim">
+        <item quantity="other">%1$d-SIM karta PIN kodini kiriting. %2$d ta urinish qoldi.</item>
+        <item quantity="one">%1$d-SIM karta PIN kodini kiriting. %2$d ta urinish qoldi. Agar yana ocha olmasangiz, qurilma qulfini ochishda yordam olish uchun aloqa operatoriga murojaat qiling.</item>
+    </plurals>
+    <plurals name="kg_password_wrong_pin_code">
+        <item quantity="other">SIM PIN kodi noto‘g‘ri. %d ta urinish qoldi.</item>
+        <item quantity="one">SIM PIN kodi noto‘g‘ri. %d ta urinish qoldi. Agar yana ocha olmasangiz, qurilma qulfini ochishda yordam olish uchun aloqa operatoriga murojaat qiling.</item>
+    </plurals>
+    <plurals name="kg_password_wrong_pin_code_multi_sim">
+        <item quantity="other">%1$d-SIM karta PIN kodi xato. %2$d ta urinish qoldi.</item>
+        <item quantity="one">%1$d-SIM karta PIN kodi xato. %2$d ta urinish qoldi. Agar yana ocha olmasangiz, qurilma qulfini ochishda yordam olish uchun aloqa operatoriga murojaat qiling.</item>
+    </plurals>
+    <plurals name="kg_password_wrong_puk_code">
+        <item quantity="other">SIM PUK kodi xato. %d ta urinish qoldi. Agar yana xato kiritsangiz, SIM kartalar butunlay bloklanadi.</item>
+        <item quantity="one">SIM PUK kodi xato. %d ta urinish qoldi. Agar yana xato kiritsangiz, SIM karta butunlay bloklanadi.</item>
+    </plurals>
+    <plurals name="kg_prompt_reason_time_password">
+        <item quantity="other">Qurilma %d soatdan beri qulflangan holatda. Parolni tasdiqlang.</item>
+        <item quantity="one">Qurilma %d soatdan beri qulflangan holatda. Parolni tasdiqlang.</item>
+    </plurals>
+    <plurals name="kg_prompt_reason_time_pattern">
+        <item quantity="other">Qurilma %d soatdan beri qulflangan. Grafik kalitni tasdiqlang.</item>
+        <item quantity="one">Qurilma %d soatdan beri qulflangan. Grafik kalitni tasdiqlang.</item>
+    </plurals>
+    <plurals name="kg_prompt_reason_time_pin">
+        <item quantity="other">Qurilma %d soatdan beri qulflangan. PIN kodni tasdiqlang.</item>
+        <item quantity="one">Qurilma %d soatdan beri qulflangan. PIN kodni tasdiqlang.</item>
+    </plurals>
+    <plurals name="kg_too_many_failed_attempts_countdown">
+        <item quantity="other">%d soniyadan keyin qayta urining.</item>
+        <item quantity="one">1 soniyadan keyin qayta urining.</item>
+    </plurals>
+    <plurals name="notification_group_overflow_description">
+        <item quantity="other">Bu guruhda yana %s ta bildirishnoma bor.</item>
+        <item quantity="one">Bu guruhda yana %s ta bildirishnoma bor.</item>
+    </plurals>
+    <plurals name="snoozeHourOptions">
+        <item quantity="other">%d soat</item>
+        <item quantity="one">%d soat</item>
+    </plurals>
+    <plurals name="snoozeMinuteOptions">
+        <item quantity="other">%d daqiqa</item>
+        <item quantity="one">%d daqiqa</item>
+    </plurals>
+    <plurals name="wifi_tether_connected_summary">
+        <item quantity="other">%1$d ta qurilma ulangan</item>
+        <item quantity="one">%1$d ta qurilma ulangan</item>
+    </plurals>
+</resources>

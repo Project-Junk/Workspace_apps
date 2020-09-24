@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<color.support.design.widget.ColorAppBarLayout android:id="@id/appBarLayout" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_behavior="@string/second_activity_behavior"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <color.support.v7.widget.Toolbar android:id="@id/toolbar" android:background="@drawable/color_toolbar_bg" android:paddingTop="@dimen/toolbar_margin_top" android:layout_width="fill_parent" android:layout_height="wrap_content" app:colorLayoutScrollFlags="exitUntilCollapsed|scroll" app:supportTitleTextAppearance="@style/textAppearanceSecondTitle" />
+    <View android:layout_gravity="center_horizontal" android:id="@id/divider_line" android:background="@color/color_divider_line_bg_color" android:layout_width="fill_parent" android:layout_height="@dimen/divider_background_height" android:layout_marginLeft="@dimen/common_margin" android:layout_marginRight="@dimen/common_margin" android:alpha="0.0" android:forceDarkAllowed="false" />
+</color.support.design.widget.ColorAppBarLayout>

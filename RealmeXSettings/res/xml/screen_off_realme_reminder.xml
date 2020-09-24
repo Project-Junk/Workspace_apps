@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/realme_aod_show"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto">
+    <PreferenceCategory android:layout="@layout/oppo_preference_category_layout_without_divider" android:key="key_aod_preference_category">
+        <com.coloros.settings.widget.preference.SettingSwitchPreference android:persistent="false" android:title="@string/aod_clock_immediately_open" android:key="key_aod_immediately_open" />
+        <com.coloros.settings.widget.preference.SettingSwitchPreference android:persistent="false" android:title="@string/aod_clock_fixed_time_open" android:key="key_aod_fixed_time_open" />
+        <com.coloros.settings.feature.display.screenoffreminder.SettingTimePreference android:key="key_fixed_time_settings" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/realme_aod_content" android:key="key_aod_setting_category">
+        <com.color.support.preference.ColorSwitchWithDividerPreference android:layout="@layout/color_switch_with_divider_preference" android:title="@string/realme_aod_clock_mode" android:key="key_realme_aod_clock_mode" android:summary="@string/realme_aod_clock_mode_summary" settings:showNormalColor="true" />
+        <com.color.support.preference.ColorSwitchWithDividerPreference android:layout="@layout/color_switch_with_divider_preference" android:title="@string/aod_clock_date" android:key="key_aod_clock_date" settings:showNormalColor="true" />
+        <com.coloros.settings.widget.preference.SettingSwitchPreference android:persistent="false" android:title="@string/aod_clock_date" android:key="key_aod_clock_date_ex" />
+        <com.coloros.settings.widget.preference.SettingSwitchPreference android:persistent="false" android:title="@string/realme_aod_battery" android:key="key_realme_aod_battery" />
+        <com.color.support.preference.ColorSwitchWithDividerPreference android:layout="@layout/color_switch_with_divider_preference" android:title="@string/realme_aod_notification_icon" android:key="key_realme_aod_notification_icon" settings:showNormalColor="true" />
+        <com.color.support.preference.ColorSwitchWithDividerPreference android:layout="@layout/color_switch_with_divider_preference" android:title="@string/realme_aod_signature" android:key="key_realme_aod_signature" android:summary="@string/realme_aod_signature_summary" settings:showNormalColor="true" />
+    </PreferenceCategory>
+    <PreferenceCategory>
+        <androidx.preference.Preference android:layout="@layout/color_pager_footer_preference" android:selectable="false" android:key="key_hint_summary" android:summary="@string/aod_user_summary" settings:showNormalColor="true" />
+    </PreferenceCategory>
+</PreferenceScreen>

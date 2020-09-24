@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list android:oneshot="false"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:duration="32">
+        <bitmap android:src="@drawable/faceunlock_detecting_anim_0" android:tint="@color/settings_face_unlock_tint_color" />
+    </item>
+    <item android:duration="32">
+        <bitmap android:src="@drawable/faceunlock_detecting_anim_1" android:tint="@color/settings_face_unlock_tint_color" />
+    </item>
+    <item android:duration="32">
+        <bitmap android:src="@drawable/faceunlock_detecting_anim_2" android:tint="@color/settings_face_unlock_tint_color" />
+    </item>
+    <item android:duration="32">
+        <bitmap android:src="@drawable/faceunlock_detecting_anim_3" android:tint="@color/settings_face_unlock_tint_color" />
+    </item>
+    <item android:duration="32">
+        <bitmap android:src="@drawable/faceunlock_detecting_anim_4" android:tint="@color/settings_face_unlock_tint_color" />
+    </item>
+    <item android:duration="32">
+        <bitmap android:src="@drawable/faceunlock_detecting_anim_5" android:tint="@color/settings_face_unlock_tint_color" />
+    </item>
+    <item android:duration="32">
+        <bitmap android:src="@drawable/faceunlock_detecting_anim_6" android:tint="@color/settings_face_unlock_tint_color" />
+    </item>
+    <item android:duration="32">
+        <bitmap android:src="@drawable/faceunlock_detecting_anim_7" android:tint="@color/settings_face_unlock_tint_color" />
+    </item>
+    <item android:duration="32">
+        <bitmap android:src="@drawable/faceunlock_detecting_anim_8" android:tint="@color/settings_face_unlock_tint_color" />
+    </item>
+    <item android:duration="32">
+        <bitmap android:src="@drawable/faceunlock_detecting_anim_9" android:tint="@color/settings_face_unlock_tint_color" />
+    </item>
+    <item android:duration="32">
+        <bitmap android:src="@drawable/faceunlock_detecting_anim_10" android:tint="@color/settings_face_unlock_tint_color" />
+    </item>
+    <item android:duration="32">
+        <bitmap android:src="@drawable/faceunlock_detecting_anim_11" android:tint="@color/settings_face_unlock_tint_color" />
+    </item>
+    <item android:duration="32">
+        <bitmap android:src="@drawable/faceunlock_detecting_anim_12" android:tint="@color/settings_face_unlock_tint_color" />
+    </item>
+    <item android:duration="32">
+        <bitmap android:src="@drawable/faceunlock_detecting_anim_13" android:tint="@color/settings_face_unlock_tint_color" />
+    </item>
+    <item android:duration="32">
+        <bitmap android:src="@drawable/faceunlock_detecting_anim_14" android:tint="@color/settings_face_unlock_tint_color" />
+    </item>
+    <item android:duration="32">
+        <bitmap android:src="@drawable/faceunlock_detecting_anim_15" android:tint="@color/settings_face_unlock_tint_color" />
+    </item>
+    <item android:duration="32">
+        <bitmap android:src="@drawable/faceunlock_detecting_anim_16" android:tint="@color/settings_face_unlock_tint_color" />
+    </item>
+    <item android:duration="32">
+        <bitmap android:src="@drawable/faceunlock_detecting_anim_17" android:tint="@color/settings_face_unlock_tint_color" />
+    </item>
+    <item android:duration="32">
+        <bitmap android:src="@drawable/faceunlock_detecting_anim_18" android:tint="@color/settings_face_unlock_tint_color" />
+    </item>
+    <item android:duration="32">
+        <bitmap android:src="@drawable/faceunlock_detecting_anim_19" android:tint="@color/settings_face_unlock_tint_color" />
+    </item>
+    <item android:duration="32">
+        <bitmap android:src="@drawable/faceunlock_detecting_anim_20" android:tint="@color/settings_face_unlock_tint_color" />
+    </item>
+    <item android:duration="32">
+        <bitmap android:src="@drawable/faceunlock_detecting_anim_21" android:tint="@color/settings_face_unlock_tint_color" />
+    </item>
+    <item android:duration="32">
+        <bitmap android:src="@drawable/faceunlock_detecting_anim_22" android:tint="@color/settings_face_unlock_tint_color" />
+    </item>
+    <item android:duration="32">
+        <bitmap android:src="@drawable/faceunlock_detecting_anim_23" android:tint="@color/settings_face_unlock_tint_color" />
+    </item>
+    <item android:duration="32">
+        <bitmap android:src="@drawable/faceunlock_detecting_anim_24" android:tint="@color/settings_face_unlock_tint_color" />
+    </item>
+    <item android:duration="32">
+        <bitmap android:src="@drawable/faceunlock_detecting_anim_25" android:tint="@color/settings_face_unlock_tint_color" />
+    </item>
+    <item android:duration="32">
+        <bitmap android:src="@drawable/faceunlock_detecting_anim_26" android:tint="@color/settings_face_unlock_tint_color" />
+    </item>
+    <item android:duration="32">
+        <bitmap android:src="@drawable/faceunlock_detecting_anim_27" android:tint="@color/settings_face_unlock_tint_color" />
+    </item>
+    <item android:duration="32">
+        <bitmap android:src="@drawable/faceunlock_detecting_anim_28" android:tint="@color/settings_face_unlock_tint_color" />
+    </item>
+    <item android:duration="32">
+        <bitmap android:src="@drawable/faceunlock_detecting_anim_29" android:tint="@color/settings_face_unlock_tint_color" />
+    </item>
+    <item android:duration="32">
+        <bitmap android:src="@drawable/faceunlock_detecting_anim_30" android:tint="@color/settings_face_unlock_tint_color" />
+    </item>
+    <item android:duration="32">
+        <bitmap android:src="@drawable/faceunlock_detecting_anim_31" android:tint="@color/settings_face_unlock_tint_color" />
+    </item>
+    <item android:duration="32">
+        <bitmap android:src="@drawable/faceunlock_detecting_anim_32" android:tint="@color/settings_face_unlock_tint_color" />
+    </item>
+    <item android:duration="32">
+        <bitmap android:src="@drawable/faceunlock_detecting_anim_33" android:tint="@color/settings_face_unlock_tint_color" />
+    </item>
+    <item android:duration="32">
+        <bitmap android:src="@drawable/faceunlock_detecting_anim_34" android:tint="@color/settings_face_unlock_tint_color" />
+    </item>
+    <item android:duration="32">
+        <bitmap android:src="@drawable/faceunlock_detecting_anim_35" android:tint="@color/settings_face_unlock_tint_color" />
+    </item>
+</animation-list>

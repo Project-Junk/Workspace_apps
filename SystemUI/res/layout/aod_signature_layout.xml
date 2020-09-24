@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.coloros.systemui.aod.aodclock.settings.signature.view.SignatureLayout android:id="@id/signature" android:layout_width="294.0dip" android:layout_height="300.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

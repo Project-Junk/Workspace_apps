@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:gravity="center_horizontal" android:id="@id/prompt_text_large" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="29.0dip" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" style="@style/EnrollLargeTextStyle" />
+    <TextView android:gravity="center" android:id="@id/guide_detail" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="22.0dip" android:minHeight="53.0dip" android:maxLines="3" android:layout_below="@id/prompt_text_large" android:layout_centerHorizontal="true" style="@style/EnrollSmallTextStyle" />
+    <ImageView android:id="@id/guide_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="60.0dip" android:src="@drawable/face_oppo_guide_3d" android:layout_below="@id/guide_detail" android:layout_centerHorizontal="true" />
+    <TextView android:gravity="center_horizontal" android:id="@id/next_btn" android:paddingTop="3.0dip" android:paddingBottom="3.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="60.0dip" android:text="@string/next" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" android:paddingStart="5.0dip" android:paddingEnd="5.0dip" style="@style/FocusTextStyle" />
+</RelativeLayout>

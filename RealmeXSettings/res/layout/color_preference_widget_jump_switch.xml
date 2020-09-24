@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:focusable="true" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:background="@color/color_preference_category_divider_color" android:layout_width="0.70000005dip" android:layout_height="22.0dip" android:layout_marginStart="@dimen/android_preference_switch_margin_left" android:layout_marginEnd="8.0dip" android:forceDarkAllowed="false" />
+    <com.color.support.widget.ColorSwitch android:layout_gravity="end|center" android:id="@id/switchWidget" android:focusable="true" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="@dimen/android_preference_switch_margin_left" />
+</LinearLayout>

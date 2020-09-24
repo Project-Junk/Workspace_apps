@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/date_and_time_settings_title" android:key="date_and_time_screen_key"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto">
+    <com.coloros.settings.widget.preference.SettingsColorPreferenceCategory settings:isFirstCategory="true">
+        <com.coloros.settings.widget.preference.ColorRestrictedSwitchPreference android:layout="@layout/color_preference" android:title="@string/date_time_24hour_title" android:key="24 hour" />
+    </com.coloros.settings.widget.preference.SettingsColorPreferenceCategory>
+    <PreferenceCategory />
+    <com.coloros.settings.widget.preference.ColorRestrictedSwitchPreference android:title="@string/date_time_auto" android:key="auto_time" settings:useAdditionalSummary="true" />
+    <com.coloros.settings.widget.preference.ColorRestrictedJumpPreference android:title="@string/date_time_set_timezone_title" android:key="timezone" android:fragment="com.coloros.settings.feature.othersettings.datetime.ZonePicker" settings:showNormalColor="true" settings:userRestriction="no_config_date_time" />
+    <com.coloros.settings.widget.preference.ColorRestrictedJumpPreference android:layout="@layout/color_preference" android:title="@string/date_time_set_time" android:key="timeset" settings:showNormalColor="true" settings:userRestriction="no_config_date_time" />
+    <PreferenceCategory android:key="dual_clock_switch">
+        <com.coloros.settings.widget.preference.SettingSwitchPreference android:layout="@layout/color_preference" android:title="@string/dual_clock_desktop_world_clock_widget" android:key="key_world_clock" android:summary="@string/dual_clock_desktop_world_tips" />
+        <com.coloros.settings.widget.preference.SettingsColorSwitchWithDividerPreference android:layout="@layout/color_switch_with_divider_preference" android:title="@string/dual_clock_settings" android:key="key_dual_clock" android:summary="@string/dual_clock_desc" android:fragment="com.coloros.settings.feature.othersettings.datetime.dualclock.ColorDualClockSettingsFragment" />
+    </PreferenceCategory>
+    <PreferenceCategory />
+</PreferenceScreen>

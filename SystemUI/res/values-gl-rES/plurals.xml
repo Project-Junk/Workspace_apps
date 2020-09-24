@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="kg_password_default_pin_message_multi_sim">
+        <item quantity="other">Escribe o PIN correcto para a tarxeta SIM %1$d. %2$d intentos restantes.</item>
+        <item quantity="one">Escribe o PIN correcto para a tarxeta SIM %1$d. %2$d intento restante. Deberás contactar co operador para axudar a desbloquear o dispositivo se non é correcto.</item>
+    </plurals>
+    <plurals name="kg_password_wrong_pin_code_multi_sim">
+        <item quantity="other">PIN incorrecto para a tarxeta SIM %1$d. %2$d intentos restantes.</item>
+        <item quantity="one">PIN incorrecto para a tarxeta SIM %1$d. %2$d intento restante. Deberás contactar co operador para axudar a desbloquear o dispositivo se non é correcto.</item>
+    </plurals>
+    <plurals name="kg_too_many_failed_attempts_countdown">
+        <item quantity="other">Volve tentalo despois de %d segundos.</item>
+        <item quantity="one">Volve tentalo despois de 1 segundo.</item>
+    </plurals>
+    <plurals name="snoozeHourOptions">
+        <item quantity="other">%d horas</item>
+        <item quantity="one">%d hora</item>
+    </plurals>
+    <plurals name="snoozeMinuteOptions">
+        <item quantity="other">%d minutos</item>
+        <item quantity="one">%d minuto</item>
+    </plurals>
+</resources>

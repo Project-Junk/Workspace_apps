@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="kg_password_default_pin_message_multi_sim">
+        <item quantity="other">Veuillez saisir le code PIN de la carte SIM %1$d. %2$d Tentatives restantes.</item>
+        <item quantity="one">Veuillez saisir le code PIN de la carte SIM %1$d. %2$d Tentative restante. Vous aurez besoin de contacter votre opérateur pour qu’il vous aide à déverrouiller l’appareil si la tentative est encore infructueuse.</item>
+    </plurals>
+    <plurals name="kg_password_wrong_pin_code">
+        <item quantity="other">Code PIN de la carte SIM incorrect. %d tentatives restantes.</item>
+        <item quantity="one">"Code PIN de la carte SIM incorrect. %d tentative restante. Si le code est toujours incorrect, vous devrez contacter l'opérateur pour qu'il vous aide à déverrouiller l'appareil."</item>
+    </plurals>
+    <plurals name="kg_password_wrong_pin_code_multi_sim">
+        <item quantity="other">Code PIN incorrect pour la carte SIM %1$d. %2$d Tentatives restantes.</item>
+        <item quantity="one">Code PIN incorrect pour la carte SIM %1$d. %2$d Tentative restante. Vous aurez besoin de contacter votre opérateur pour qu’il vous aide à déverrouiller l’appareil si la tentative est encore infructueuse.</item>
+    </plurals>
+    <plurals name="kg_password_wrong_puk_code">
+        <item quantity="other">Code PUK de la carte SIM incorrect. %d tentatives restantes. Si le code est toujours incorrect, les cartes SIM seront définitivement désactivées.</item>
+        <item quantity="one">Code PUK de la carte SIM incorrect. %d tentative restante. Si le code est toujours incorrect, la carte SIM sera définitivement désactivée.</item>
+    </plurals>
+    <plurals name="kg_prompt_reason_time_password">
+        <item quantity="other">L’appareil a été verrouillé pendant %d heures. Veuillez confirmer le mot de passe.</item>
+        <item quantity="one">L’appareil a été verrouillé pendant %d heure. Veuillez confirmer le mot de passe.</item>
+    </plurals>
+    <plurals name="kg_prompt_reason_time_pattern">
+        <item quantity="other">"L'appareil est verrouillé pendant %d heures. Confirmez le schéma de déverrouillage."</item>
+        <item quantity="one">"L'appareil est verrouillé pendant %d heure. Confirmez le schéma de déverrouillage."</item>
+    </plurals>
+    <plurals name="kg_prompt_reason_time_pin">
+        <item quantity="other">"L'appareil est verrouillé pendant %d heures. Confirmez le code PIN."</item>
+        <item quantity="one">"L'appareil est verrouillé pendant %d heure. Confirmez le code PIN."</item>
+    </plurals>
+    <plurals name="kg_too_many_failed_attempts_countdown">
+        <item quantity="other">Veuillez réessayer après %d secondes.</item>
+        <item quantity="one">Veuillez réessayer après une seconde.</item>
+    </plurals>
+    <plurals name="notification_group_overflow_description">
+        <item quantity="other">Il y a encore %s notifications dans ce groupe.</item>
+        <item quantity="one">Il y a encore %s notification dans ce groupe.</item>
+    </plurals>
+    <plurals name="snoozeHourOptions">
+        <item quantity="other">%d heures</item>
+        <item quantity="one">%d heure</item>
+    </plurals>
+    <plurals name="snoozeMinuteOptions">
+        <item quantity="other">%d minutes</item>
+        <item quantity="one">%dminute</item>
+    </plurals>
+</resources>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:id="@id/instructions_area" android:background="@drawable/color_group_list_selector_item" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textAppearance="@style/TextAppearance.Small" android:id="@id/screen_pinning_description" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/screen_pinning_description" android:paddingStart="@dimen/oppo_list_item_left_margin" android:paddingEnd="@dimen/oppo_list_item_right_margin" style="@style/OppoListViewTextAppearance.Small" />
+        <TextView android:textAppearance="@style/TextAppearance.Small" android:id="@id/screen_pinning_tail" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/screen_pinning_description_gesture" android:paddingStart="@dimen/oppo_list_item_left_margin" android:paddingEnd="@dimen/oppo_list_item_right_margin" style="@style/OppoListViewTextAppearance.Small" />
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="apn_auth_entries">
+        <item>Ceann ar bith</item>
+        <item>PAP</item>
+        <item>CHAP</item>
+        <item>PAP nó CHAP</item>
+    </string-array>
+    <string-array name="apn_protocol_entries">
+        <item>IPv4</item>
+        <item>IPv6</item>
+        <item>IPv4/IPv6</item>
+    </string-array>
+    <string-array name="app_install_location_entries">
+        <item>Stóras inmheánach an ghléis</item>
+        <item>Cárta SD inbhainte</item>
+        <item>Lig don chóras cinneadh</item>
+    </string-array>
+    <string-array name="app_ops_categories">
+        <item>Suíomh</item>
+        <item>Pearsanta</item>
+        <item>SMS</item>
+        <item>Meáin</item>
+        <item>Gléas</item>
+    </string-array>
+    <string-array name="authentication_frequency_entries">
+        <item>Riachtanach i gCónaí</item>
+        <item>Riachtanach i nDiaidh 15 Nóiméad</item>
+    </string-array>
+    <string-array name="automatic_storage_management_days">
+        <item>Breis is 30 Lá</item>
+        <item>Breis is 60 Lá</item>
+        <item>Breis is 90 Lá</item>
+    </string-array>
+    <string-array name="bearer_entries">
+        <item>Neamhshonraithe</item>
+        <item>LTE</item>
+        <item>HSPAP</item>
+        <item>HSPA</item>
+        <item>HSUPA</item>
+        <item>HSDPA</item>
+        <item>UMTS</item>
+        <item>EDGE</item>
+        <item>GPRS</item>
+        <item>eHRPD</item>
+        <item>EVDO_B</item>
+        <item>EVDO_A</item>
+        <item>EVDO_0</item>
+        <item>1xRTT</item>
+        <item>IS95B</item>
+        <item>IS95A</item>
+    </string-array>
+    <string-array name="bluetooth_visibility_timeout_entries">
+        <item>2 nóiméad</item>
+        <item>5 nóiméad</item>
+        <item>1 uair</item>
+        <item>Ná bíodh an t-am istigh riamh</item>
+    </string-array>
+    <string-array name="captioning_edge_type_selector_titles">
+        <item>Réamhshocrú</item>
+        <item>Ceann ar bith</item>
+        <item>Imlíne</item>
+        <item>Cúlscáil</item>
+        <item>Ardaithe</item>
+        <item>Íslithe</item>
+    </string-array>
+    <string-array name="captioning_font_size_selector_titles">
+        <item>Beag bídeach</item>
+        <item>Beag</item>
+        <item>Normálta</item>
+        <item>Mór</item>
+        <item>Ollmhór</item>
+    </string-array>
+    <string-array name="captioning_opacity_selector_titles">
+        <item>25%</item>
+        <item>50%</item>
+        <item>75%</item>
+        <item>100%</item>
+    </string-array>
+    <string-array name="captioning_preset_selector_titles">
+        <item>Úsáid Réamhshocruithe na hAipe</item>
+        <item>Bán ar Dhubh</item>
+        <item>Dubh ar Bhán</item>
+        <item>Buí ar Dhubh</item>
+        <item>Buí ar Ghorm</item>
+        <item>Saincheaptha</item>
+    </string-array>
+    <string-array name="captioning_typeface_selector_titles">
+        <item>Réamhshocrú</item>
+        <item>Sans-Serif</item>
+        <item>Sans-Serif comhdhlúite</item>
+        <item>Sans-Serif Aonleithid</item>
+        <item>Serif</item>
+        <item>Serif Aonleithid</item>
+        <item>Neamhfhoirmeálta</item>
+        <item>Reatha</item>
+        <item>Ceannlitreacha Beaga</item>
+    </string-array>
+    <string-array name="color_picker">
+        <item>Cian</item>
+        <item>Gorm</item>
+        <item>Plúirín</item>
+        <item>Corcra</item>
+        <item>Bándearg</item>
+        <item>Dearg</item>
+    </string-array>
+    <string-array name="data_usage_data_range">
+        <item>Na 30 lá is déanaí</item>
+        <item>Socraigh ciogal úsáide...</item>
+    </string-array>
+    <string-array name="dream_timeout_entries">
+        <item>Riamh</item>
+        <item>15 soicind</item>
+        <item>30 soicind</item>
+        <item>1 nóiméad</item>
+        <item>2 nóiméad</item>
+        <item>5 nóiméad</item>
+        <item>10 nóiméad</item>
+        <item>30 nóiméad</item>
+    </string-array>
+    <string-array name="entries_font_size">
+        <item>Beag</item>
+        <item>Réamhshocrú</item>
+        <item>Mór</item>
+        <item>Uasmhéid</item>
+    </string-array>
+    <string-array name="eq_preset_names">
+        <item>As</item>
+        <item>Popcheol</item>
+        <item>Rac-cheol</item>
+        <item>Tír</item>
+        <item>Snagcheol</item>
+        <item>Clasaiceach</item>
+        <item>Miotal Trom</item>
+        <item>Blues</item>
+        <item>Hip Hap</item>
+        <item>Ceol Damhsa</item>
+        <item>Ceol Leictreo</item>
+        <item>Saincheaptha</item>
+    </string-array>
+    <string-array name="format_type_entries">
+        <item>FAT32 (Réamhshocraithe)</item>
+        <item>exFAT</item>
+    </string-array>
+    <string-array name="format_type_summarys">
+        <item>An cineál córais comhaid is mó a úsáidtear le haghaidh gléasanna stórais</item>
+        <item>Cineál córais comhaid feabhsaithe, tacaíonn sé le comhaid aonair trí 4G, nuair atá tú ag nascadh le ríomhaire is féidir gur gá duit tiománaí a shuiteáil ar dtús</item>
+    </string-array>
+    <string-array name="incomming_call_type_name">
+        <item>Teagmhálaithe VIP</item>
+        <item>Rogha Teagmhálaithe</item>
+        <item>Gach Teagmhálaí</item>
+        <item>Gach Glaoch</item>
+        <item>Ceann ar bith</item>
+    </string-array>
+    <string-array name="long_press_timeout_selector_titles">
+        <item>Gairid</item>
+        <item>Meánach</item>
+        <item>Fada</item>
+    </string-array>
+    <string-array name="notification_prompt_mode_entries">
+        <item>Deilbhín Fógra</item>
+        <item>Líon na bhFógraí</item>
+        <item>Gan Leid</item>
+    </string-array>
+    <string-array name="oppo_app_install_location_entries_removable_sd">
+        <item>Stóras an chórais</item>
+        <item>Stóras an ghutháin</item>
+        <item>Réamhshocrú an chórais</item>
+    </string-array>
+    <string-array name="oppo_app_install_location_entries_unremovable_sd">
+        <item>Spás an chórais</item>
+        <item>Stóras an ghutháin</item>
+        <item>Braitheann sé ar an gcóras</item>
+    </string-array>
+    <string-array name="presskey_backlight_timeout_entries">
+        <item>6s</item>
+        <item>Air i gCónaí</item>
+        <item>As</item>
+    </string-array>
+    <string-array name="privacy_question_list">
+        <item>Cad is ainm do do shean-mhúinteoirí?</item>
+        <item>Cad is ainm do do mháthair?</item>
+        <item>Cad is ainm do d’athair?</item>
+        <item>Cad is ainm do d’ardscoil?</item>
+        <item>Cad is ainm don bhialann is fearr leat?</item>
+    </string-array>
+    <string-array name="proc_stats_memory_states">
+        <item>Normálta</item>
+        <item>Measartha</item>
+        <item>Íseal</item>
+        <item>Géarchéimneach</item>
+    </string-array>
+    <string-array name="ram_states">
+        <item>Normálta</item>
+        <item>Measartha</item>
+        <item>Íseal</item>
+        <item>An-Íseal</item>
+        <item>anaithnid</item>
+    </string-array>
+    <string-array name="screen_timeout_entries">
+        <item>15 Soicind</item>
+        <item>30 Soicind</item>
+        <item>1 Nóiméad</item>
+        <item>2 Nóiméad</item>
+        <item>5 Nóiméad</item>
+        <item>10 Nóiméad</item>
+        <item>30 Nóiméad</item>
+    </string-array>
+    <string-array name="security_settings_premium_sms_values">
+        <item>Iarr</item>
+        <item>Ná ceadaigh riamh</item>
+        <item>Ceadaigh i gcónaí</item>
+    </string-array>
+    <string-array name="timezone_filters">
+        <item>Meiriceá</item>
+        <item>An Eoraip</item>
+        <item>An Afraic</item>
+        <item>An Áis</item>
+        <item>An Astráil</item>
+        <item>An tAigéan Ciúin</item>
+        <item>Uile</item>
+    </string-array>
+    <string-array name="usage_stats_display_order_types">
+        <item>Am ídithe</item>
+        <item>An uair dheireanach a úsáideadh é</item>
+        <item>Ainm Aipe</item>
+    </string-array>
+    <string-array name="vpn_states">
+        <item>Dínasctha</item>
+        <item>Ag túsú...</item>
+        <item>Ag nascadh...</item>
+        <item>Nasctha</item>
+        <item>Am istigh</item>
+        <item>Gan rath</item>
+    </string-array>
+    <string-array name="vpn_types_long">
+        <item>PPTP VPN</item>
+        <item>L2TP/IPSec VPN le heochracha réamhroinnte</item>
+        <item>L2TP/IPSec VPN le deimhnithe</item>
+        <item>IPSec VPN le heochracha réamhroinnte agus fíordheimhniú Xauth</item>
+        <item>IPSec VPN le deimhnithe agus fíordheimhniú Xauth</item>
+        <item>IPSec VPN le deimhnithe agus fíordheimhniú hibrideach</item>
+    </string-array>
+    <string-array name="wifi_eap_entries">
+        <item>PEAP</item>
+        <item>TLS</item>
+        <item>TTLS</item>
+        <item>PWD</item>
+    </string-array>
+    <string-array name="wifi_ip_settings">
+        <item>DHCP</item>
+        <item>Statach</item>
+    </string-array>
+    <string-array name="wifi_p2p_status">
+        <item>Nasctha</item>
+        <item>Cuireadh tugtha</item>
+        <item>Gan rath</item>
+        <item>Ar Fáil</item>
+        <item>As raon</item>
+    </string-array>
+    <string-array name="wifi_peap_phase2_entries">
+        <item>Ceann ar bith</item>
+        <item>MSCHAPV2</item>
+        <item>GTC</item>
+    </string-array>
+    <string-array name="wifi_phase2_entries">
+        <item>Ceann ar bith</item>
+        <item>PAP</item>
+        <item>MSCHAP</item>
+        <item>MSCHAPV2</item>
+        <item>GTC</item>
+    </string-array>
+    <string-array name="wifi_proxy_settings">
+        <item>Ceann ar bith</item>
+        <item>De Láimhe</item>
+        <item>Seach-Uathchumraíocht</item>
+    </string-array>
+</resources>

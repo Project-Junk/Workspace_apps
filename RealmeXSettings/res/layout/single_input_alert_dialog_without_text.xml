@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto">
+    <com.color.support.widget.ColorEditText android:textSize="@dimen/TD07" android:id="@id/et_input_box" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="30.0dip" android:layout_marginTop="2.0dip" android:layout_marginRight="30.0dip" android:layout_marginBottom="10.0dip" android:minHeight="34.0dip" android:cursorVisible="true" android:maxLength="20" settings:quickDelete="true" style="?colorEditTextLineHintDisableStyle" />
+</LinearLayout>

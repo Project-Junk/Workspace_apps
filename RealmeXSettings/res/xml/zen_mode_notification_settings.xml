@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/zen_mode_allowed_notification" android:key="zen_mode_notification_settings"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto">
+    <PreferenceCategory android:layout="@layout/oppo_preference_category_layout_without_divider" android:key="zen_mode_notification_ways">
+        <com.coloros.settings.widget.preference.SettingSwitchPreference android:title="@string/zen_mode_for_notification_center" android:key="zen_mode_notification" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/zen_mode_notification_ways" android:key="zen_mode_notification_other">
+        <com.coloros.settings.widget.preference.SettingSwitchPreference android:persistent="true" android:checked="true" android:title="@string/zen_mode_statusbar" android:key="zen_mode_statusbar" android:defaultValue="true" />
+        <com.coloros.settings.widget.preference.SettingSwitchPreference android:persistent="true" android:title="@string/zen_mode_banner" android:key="zen_mode_banner" android:defaultValue="true" />
+        <com.coloros.settings.widget.preference.SettingsSingleSelectListPreference android:entries="@array/zen_mode_keyguard_notification_entries" android:title="@string/zen_mode_keyguard_notification" android:key="zen_mode_keyguard_notification" android:entryValues="@array/zen_mode_keyguard_notification_values" settings:color_jump_mark="@drawable/color_btn_next" />
+        <com.coloros.settings.widget.preference.SettingSwitchPreference android:persistent="true" android:title="@string/curved_screen_display_label" android:key="curved_screen_display_label" android:defaultValue="true" />
+        <com.coloros.settings.widget.preference.SettingSwitchPreference android:persistent="true" android:title="@string/realme_display_light" android:key="realme_screen_display_label" android:defaultValue="true" />
+    </PreferenceCategory>
+    <PreferenceCategory android:key="@string/zen_mode_badge">
+        <com.coloros.settings.widget.preference.SettingSwitchPreference android:title="@string/zen_mode_badge" android:key="zen_mode_notification_badge" />
+    </PreferenceCategory>
+    <PreferenceCategory android:key="zen_mode_footer_container" />
+</PreferenceScreen>

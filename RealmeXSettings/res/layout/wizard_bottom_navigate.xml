@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/rl_bottom_control" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/rl_bottom_control_left" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_marginStart="12.0dip" android:layout_alignParentStart="true">
+        <ImageView android:id="@id/iv_back" android:background="@drawable/click_ripple_background" android:visibility="visible" android:layout_width="24.0dip" android:layout_height="24.0dip" android:layout_marginTop="17.0dip" android:layout_marginBottom="33.0dip" android:src="@drawable/bottom_navigate_back" android:contentDescription="@string/action_bar_back" android:layout_marginStart="28.0dip" android:layout_marginEnd="82.0dip" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/rl_next_step" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_marginEnd="12.0dip" android:layout_alignParentEnd="true">
+        <TextView android:textSize="14.0sp" android:textStyle="bold" android:textColor="@color/wizard_next_step_text_color" android:id="@id/tv_next_step" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="19.0dip" android:layout_marginBottom="35.0dip" android:maxWidth="134.0dip" android:text="@string/wizard_bottom_navigate_next" android:fontFamily="sans-serif-medium" android:layout_marginStart="62.0dip" android:layout_marginEnd="28.0dip" />
+    </RelativeLayout>
+</RelativeLayout>

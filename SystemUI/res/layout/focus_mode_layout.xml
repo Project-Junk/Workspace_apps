@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:layout_gravity="center_horizontal" android:orientation="vertical" android:id="@id/ll_focus_root_view" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/ll_focus_title" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <TextView android:textSize="14.0dip" android:textColor="@color/aod_focus_text_color" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/focus_mode" android:fontFamily="OPPOSANS_OS_Regular" />
+        <TextView android:textSize="10.0dip" android:textColor="@color/aod_focus_text_color" android:id="@id/tv_focus_stop" android:background="@drawable/focus_stop_bg" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:text="@string/stop" android:fontFamily="OPPOSANS_OS_Regular" android:paddingStart="2.0dip" android:paddingEnd="2.0dip" />
+    </LinearLayout>
+    <RelativeLayout android:id="@id/rl_focus_time" android:layout_width="240.0dip" android:layout_height="240.0dip" android:layout_marginTop="14.0dip" android:layout_marginBottom="14.0dip">
+        <com.coloros.systemui.aod.focusmode.CircleProgressView android:id="@id/circle_progress" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_centerInParent="true" app:circleBgColor="@color/aod_focus_circle_bg" app:circleColor="@android:color/white" app:strokeWidth="1.2999878dip" />
+        <TextView android:textSize="60.0dip" android:textColor="@android:color/white" android:id="@id/tv_focus_time" android:paddingBottom="16.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" android:fontFamily="OPPOSANS_Number_Regular" />
+        <TextView android:textSize="16.0dip" android:textColor="@color/aod_focus_text_color" android:id="@id/tv_minute_right" android:paddingTop="4.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:text="@string/minute" android:layout_toRightOf="@id/tv_focus_time" android:layout_centerVertical="true" android:fontFamily="OPPOSANS_OS_Regular" />
+        <TextView android:textSize="14.0dip" android:textColor="@color/aod_focus_text_color" android:id="@id/tv_minute_below" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/minute" android:layout_alignBottom="@id/tv_focus_time" android:layout_centerHorizontal="true" android:fontFamily="OPPOSANS_OS_Regular" />
+    </RelativeLayout>
+    <LinearLayout android:orientation="horizontal" android:id="@id/ll_focus_date" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <TextView android:textSize="12.0dip" android:textColor="@color/aod_focus_text_color" android:id="@id/tv_date" android:layout_width="wrap_content" android:layout_height="wrap_content" android:fontFamily="OPPOSANS_OS_Regular" />
+        <TextClock android:textSize="12.0dip" android:textColor="@color/aod_focus_text_color" android:id="@id/tv_date_time" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:fontFamily="OPPOSANS_OS_Regular" android:format12Hour="hh:mm" android:format24Hour="HH:mm" />
+    </LinearLayout>
+</LinearLayout>

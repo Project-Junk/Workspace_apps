@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="after_turn_on">Wara</string>
+    <string name="application_manage">Modalità Skura Intelliġenti</string>
+    <string name="before_turn_on">Qabel</string>
+    <string name="color_allow_text">Naqbel</string>
+    <string name="color_hour">sigħat</string>
+    <string name="color_install_download_progress_textview">Download</string>
+    <string name="color_keyboard_view_access_close_button">Agħlaq għalkollox il-keyboard</string>
+    <string name="color_keyboard_view_access_detail_button">Aqleb għal keyboard normali</string>
+    <string name="color_keyboard_view_keycode_low_shift">Aqleb għal ittri żgħar</string>
+    <string name="color_keyboardview_keycode_letters">Aqleb għal alfabeti</string>
+    <string name="color_keyboardview_keycode_number">Ibdel in-Numru</string>
+    <string name="color_keyboardview_keycode_shift">Aqleb għal ittri kapitali</string>
+    <string name="color_keyboardview_keycode_symbol">Aqleb għal simboli</string>
+    <string name="color_minute">min</string>
+    <string name="color_reject_text">Oħroġ</string>
+    <string name="color_search_view_text">Ikkanċella</string>
+    <string name="color_security_alertdailog_privacy">Politika ta’ Privatezza</string>
+    <string name="color_security_alertdailog_statement">Itteppja u ara %1$s għal iktar informazzjoni.</string>
+    <string name="color_security_alertdialog_checkbox_msg">Terġa’ tistaqsi qatt</string>
+    <string name="color_time_picker_today">Illum</string>
+    <string name="dark_mode">Modalità Skura</string>
+    <string name="enable_immediately">Modalità Skura</string>
+    <string name="end">Temm</string>
+    <string name="eyeprotect_normal">Uri bil-Kulur</string>
+    <string name="fixed_time_open">Ħin Skedat</string>
+    <string name="go_to_settings">Ħin Skedat</string>
+    <string name="protect_eye_category">EFFETT TAD-DISPLAY</string>
+    <string name="reduce_saturation">Uri bl-Iswed u l-Abjad</string>
+    <string name="relative_cold">Aktar frisk</string>
+    <string name="relative_warm">Aktar sħun</string>
+    <string name="screen_color_temperature_title">AĠĠUSTAMENT TAT-TEMPERATURA TAL-KULUR TAL-ISKRIN</string>
+    <string name="set_time">Ħin Skedat</string>
+    <string name="start">Ibda</string>
+    <string name="tomorrow">Għada</string>
+    <string name="turn_on_hint">Jekk swiċċ tal-applikazzjoni jkun mixgħul, dan se jkun awtomatikament issettjat għal Modalità Skura. Jekk l-applikazzjoni għandha l-modalità skura tagħha stess, itfi is-swiċċ tal-\"Modalità Skura Intelliġenti\" biex tneħħi l-kunflitti.</string>
+    <string name="use_dialog_negative_button_text">Ikkanċella</string>
+    <string name="use_dialog_positive_button_text">Ixgħel</string>
+    <string name="use_dialog_positive_check_text">Terġax tistaqsi</string>
+    <string name="use_dialog_positive_message">Jekk tkun mixgħula, it-tema attwali se tinbidel. Trid tixgħelha?</string>
+    <string name="use_dialog_positive_title">Ixgħel il-Modalità Skura</string>
+</resources>

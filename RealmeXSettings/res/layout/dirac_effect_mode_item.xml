@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:background="@drawable/color_group_list_selector_item" android:descendantFocusability="blocksDescendants" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/support_preference_titel_padding_start" android:paddingEnd="@dimen/support_preference_titel_padding_end"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dirac_mode_effect_item_content_margin_top" android:layout_marginBottom="@dimen/dirac_mode_effect_item_content_margin_bottom" android:layout_weight="1.0" android:layout_marginEnd="@dimen/dolby_mode_effect_item_content_margin_end">
+        <TextView android:textSize="@dimen/dolby_mode_effect_item_name_text_size" android:textColor="@color/color_preference_title_color" android:id="@id/name" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <TextView android:textSize="@dimen/dolby_mode_effect_item_summary_text_size" android:textColor="@color/color_preference_secondary_text_color" android:id="@id/summary" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </LinearLayout>
+    <RadioButton android:layout_gravity="center_vertical" android:id="@id/radio_button" android:focusable="false" android:focusableInTouchMode="false" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:checked="false" />
+</LinearLayout>

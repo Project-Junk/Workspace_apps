@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/accessibility_settings"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto">
+    <com.coloros.settings.widget.preference.SettingsColorPreferenceCategory android:key="accessibility_shortcut_preference_category" settings:isFirstCategory="true">
+        <com.coloros.settings.widget.preference.SettingColorJumpPreference android:title="@string/accessibility_global_gesture_preference_title" android:key="accessibility_shortcut_preference" android:fragment="com.coloros.settings.feature.othersettings.accessibility.ColorAccessibilityShortcutPreferenceFragment" />
+    </com.coloros.settings.widget.preference.SettingsColorPreferenceCategory>
+    <PreferenceCategory android:title="@string/screen_reader_category_title" android:key="screen_reader_category">
+        <com.coloros.settings.widget.preference.SettingColorJumpPreference android:title="@string/tts_settings_title" android:key="tts_settings_preference" android:fragment="com.coloros.settings.feature.othersettings.accessibility.ColorTextToSpeechSettings" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/display_category_title" android:key="display_category">
+        <com.android.settings.display.ScreenZoomPreference android:title="@string/screen_zoom_title" android:key="screen_zoom" />
+        <com.coloros.settings.widget.preference.SettingColorJumpPreference android:title="@string/accessibility_screen_magnification_title" android:key="magnification_preference_screen" android:fragment="com.android.settings.accessibility.MagnificationPreferenceFragment" />
+        <com.coloros.settings.widget.preference.SettingSwitchPreference android:title="@string/accessibility_toggle_large_pointer_icon_title" android:key="toggle_large_pointer_icon" />
+        <com.coloros.settings.widget.preference.SettingColorJumpPreference android:title="@string/accessibility_color_mode" android:key="toggle_accessibility_color_mode" android:fragment="com.coloros.settings.feature.othersettings.accessibility.ColorAccessibilityColorModeFragment" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/interaction_control_category_title" android:key="interaction_control_category">
+        <com.coloros.settings.widget.preference.SettingColorJumpPreference android:title="@string/accessibility_autoclick_preference_title" android:key="autoclick_preference_screen" android:fragment="com.coloros.settings.feature.othersettings.accessibility.ColorToggleAutoclickPreferenceFragment" />
+        <com.coloros.settings.widget.preference.SettingSwitchPreference android:persistent="false" android:title="@string/accessibility_power_button_ends_call_prerefence_title" android:key="toggle_power_button_ends_call_preference" />
+        <com.coloros.settings.widget.preference.SettingsSingleSelectListPreference android:persistent="false" android:entries="@array/long_press_timeout_selector_titles" android:layout="@layout/color_preference" android:title="@string/accessibility_long_press_timeout_preference_title" android:key="select_long_press_timeout_preference" android:widgetLayout="@layout/color_preference_widget_jump" android:entryValues="@array/long_press_timeout_selector_values" settings:color_jump_mark="@null" settings:controller="com.coloros.settings.feature.accessibility.controller.TouchAndHoldDelayPreferenceController" />
+        <com.coloros.settings.widget.preference.SettingColorJumpPreference android:persistent="false" android:title="@string/accessibility_control_timeout_preference_title" android:key="accessibility_control_timeout_preference_fragment" android:fragment="com.coloros.settings.feature.othersettings.accessibility.ColorAccessibilityControlTimeoutPreferenceFragment" settings:showNormalColor="true" />
+        <com.coloros.settings.widget.preference.SettingColorJumpPreference android:title="@string/accessibility_vibration_settings_title" android:key="vibration_preference_screen" android:fragment="com.android.settings.accessibility.VibrationSettings" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/audio_and_captions_category_title" android:key="audio_and_captions_category">
+        <Preference android:title="@string/live_caption_title" android:key="live_caption" android:summary="@string/live_caption_summary" settings:controller="com.android.settings.accessibility.LiveCaptionPreferenceController" />
+        <com.coloros.settings.widget.preference.SettingSwitchPreference android:persistent="false" android:title="@string/accessibility_toggle_master_mono_title" android:key="toggle_master_mono" android:summary="@string/accessibility_toggle_master_mono_summary" />
+        <com.coloros.settings.widget.preference.SettingColorJumpPreference android:title="@string/accessibility_hearingaid_title" android:key="hearing_aid_preference" android:summary="@string/accessibility_hearingaid_not_connected_summary" />
+        <com.coloros.settings.widget.preference.SettingColorJumpPreference android:title="@string/accessibility_captioning_title" android:key="captioning_preference_screen" android:fragment="com.coloros.settings.feature.othersettings.accessibility.ColorCaptionPropertiesFragment" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/experimental_category_title" android:key="experimental_category">
+        <com.coloros.settings.widget.preference.SettingSwitchPreference android:title="@string/accessibility_toggle_high_text_contrast_preference_title" android:key="toggle_high_text_contrast_preference" />
+        <com.coloros.settings.widget.preference.SettingColorJumpPreference android:title="@string/accessibility_display_daltonizer_preference_title" android:key="daltonizer_preference" android:fragment="com.android.settings.accessibility.ToggleDaltonizerPreferenceFragment" settings:searchable="false" />
+        <com.coloros.settings.widget.preference.SettingSwitchPreference android:persistent="false" android:title="@string/accessibility_display_inversion_preference_title" android:key="toggle_inversion_preference" android:summary="@string/accessibility_display_inversion_preference_subtitle" settings:controller="com.android.settings.accessibility.ColorInversionPreferenceController" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/user_installed_services_category_title" android:key="user_installed_services_category" />
+    <PreferenceCategory />
+</PreferenceScreen>

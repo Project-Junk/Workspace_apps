@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+            <include layout="@layout/color_preview_seek_bar_view_pager" />
+            <TextView android:layout_width="fill_parent" android:layout_height="10.0dip" android:layout_alignParentBottom="true" />
+        </RelativeLayout>
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <RelativeLayout android:layout_width="fill_parent" android:layout_height="35.0dip">
+                <color.support.v7.widget.pageindicator.ColorPageIndicator android:id="@id/page_indicator" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerHorizontal="true" settings:dotColor="@color/settings_page_indicator_dot_color" settings:dotSize="6.0dip" settings:dotSpacing="4.0dip" />
+            </RelativeLayout>
+            <RelativeLayout android:gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/ll_zoom_type" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/seekbar_text_margin_top" android:layout_alignParentTop="true" android:paddingStart="@dimen/common_margin" android:paddingEnd="@dimen/common_margin">
+                    <TextView android:textAppearance="@style/TextAppearance.SmallText" android:textColor="@color/color_section_seekbar_text_color" android:ellipsize="end" android:gravity="start" android:id="@id/screen_zoom_small" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/screen_zoom_small" android:singleLine="true" android:layout_weight="2.0" android:textDirection="locale" />
+                    <TextView android:textAppearance="@style/TextAppearance.SmallText" android:textColor="@color/color_section_seekbar_text_color" android:ellipsize="end" android:gravity="center" android:id="@id/screen_zoom_standard" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/screen_zoom_default" android:singleLine="true" android:layout_weight="1.5" />
+                    <TextView android:textAppearance="@style/TextAppearance.SmallText" android:textColor="@color/color_section_seekbar_text_color" android:ellipsize="end" android:gravity="center" android:id="@id/screen_zoom_comfortable" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/screen_zoom_comfortable" android:singleLine="true" android:layout_weight="3.0" />
+                    <TextView android:textAppearance="@style/TextAppearance.SmallText" android:textColor="@color/color_section_seekbar_text_color" android:ellipsize="end" android:gravity="center" android:id="@id/screen_zoom_larger" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/screen_zoom_larger" android:singleLine="true" android:layout_weight="1.5" />
+                    <TextView android:textAppearance="@style/TextAppearance.SmallText" android:textColor="@color/color_section_seekbar_text_color" android:ellipsize="end" android:gravity="end" android:id="@id/screen_zoom_maximum" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/screen_zoom_maximum" android:singleLine="true" android:layout_weight="2.0" android:textDirection="locale" />
+                </LinearLayout>
+                <com.color.support.widget.seekbar.ColorSectionSeekBar android:id="@id/seek_bar" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/seekbar_margin" android:layout_marginBottom="@dimen/seekbar_margin" android:layout_below="@id/ll_zoom_type" android:layout_centerInParent="true" android:layout_marginStart="@dimen/common_margin" android:layout_marginEnd="@dimen/common_margin" />
+            </RelativeLayout>
+            <View android:background="@color/color_preference_category_divider_color" android:layout_width="fill_parent" android:layout_height="@dimen/color_preference_category_layout_divider_height" android:layout_marginTop="5.0dip" android:layout_marginBottom="5.0dip" android:layout_marginStart="@dimen/color_preference_category_layout_divider_margin_start" android:layout_marginEnd="@dimen/color_preference_category_layout_divider_margin_start" android:forceDarkAllowed="false" />
+            <TextView android:textAppearance="@android:style/TextAppearance.Material.Subhead" android:textSize="@dimen/TD05" android:textColor="@color/color_preference_secondary_text_color" android:id="@id/tv_tip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/M3" android:layout_marginBottom="@dimen/M10" android:text="@string/screen_zoom_summary" android:layout_marginStart="@dimen/M10" android:layout_marginEnd="@dimen/M7" />
+        </LinearLayout>
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>

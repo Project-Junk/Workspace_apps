@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:duration="10" android:drawable="@drawable/color_biometric_face_scan_000" />
+    <item android:duration="10" android:drawable="@drawable/color_biometric_face_scan_001" />
+    <item android:duration="10" android:drawable="@drawable/color_biometric_face_scan_002" />
+    <item android:duration="10" android:drawable="@drawable/color_biometric_face_scan_003" />
+    <item android:duration="10" android:drawable="@drawable/color_biometric_face_scan_004" />
+    <item android:duration="10" android:drawable="@drawable/color_biometric_face_scan_005" />
+    <item android:duration="10" android:drawable="@drawable/color_biometric_face_scan_006" />
+    <item android:duration="10" android:drawable="@drawable/color_biometric_face_scan_007" />
+    <item android:duration="10" android:drawable="@drawable/color_biometric_face_scan_008" />
+    <item android:duration="10" android:drawable="@drawable/color_biometric_face_scan_009" />
+    <item android:duration="10" android:drawable="@drawable/color_biometric_face_scan_010" />
+    <item android:duration="10" android:drawable="@drawable/color_biometric_face_scan_011" />
+    <item android:duration="10" android:drawable="@drawable/color_biometric_face_scan_012" />
+    <item android:duration="10" android:drawable="@drawable/color_biometric_face_scan_013" />
+    <item android:duration="10" android:drawable="@drawable/color_biometric_face_scan_014" />
+    <item android:duration="10" android:drawable="@drawable/color_biometric_face_scan_015" />
+    <item android:duration="10" android:drawable="@drawable/color_biometric_face_scan_016" />
+    <item android:duration="10" android:drawable="@drawable/color_biometric_face_scan_017" />
+    <item android:duration="10" android:drawable="@drawable/color_biometric_face_scan_018" />
+    <item android:duration="10" android:drawable="@drawable/color_biometric_face_scan_019" />
+    <item android:duration="10" android:drawable="@drawable/color_biometric_face_scan_020" />
+    <item android:duration="10" android:drawable="@drawable/color_biometric_face_scan_021" />
+    <item android:duration="10" android:drawable="@drawable/color_biometric_face_scan_022" />
+    <item android:duration="10" android:drawable="@drawable/color_biometric_face_scan_023" />
+    <item android:duration="10" android:drawable="@drawable/color_biometric_face_scan_024" />
+    <item android:duration="10" android:drawable="@drawable/color_biometric_face_scan_025" />
+    <item android:duration="10" android:drawable="@drawable/color_biometric_face_scan_026" />
+    <item android:duration="10" android:drawable="@drawable/color_biometric_face_scan_027" />
+    <item android:duration="10" android:drawable="@drawable/color_biometric_face_scan_028" />
+    <item android:duration="10" android:drawable="@drawable/color_biometric_face_scan_029" />
+    <item android:duration="10" android:drawable="@drawable/color_biometric_face_scan_030" />
+    <item android:duration="10" android:drawable="@drawable/color_biometric_face_scan_031" />
+    <item android:duration="10" android:drawable="@drawable/color_biometric_face_scan_032" />
+    <item android:duration="10" android:drawable="@drawable/color_biometric_face_scan_033" />
+    <item android:duration="10" android:drawable="@drawable/color_biometric_face_scan_034" />
+    <item android:duration="10" android:drawable="@drawable/color_biometric_face_scan_035" />
+</animation-list>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="kg_password_default_pin_message_multi_sim">
+        <item quantity="other">براہ مہربانی SIM کارڈ %1$d کا PIN درج کریں۔ %2$d کوششیں باقی۔</item>
+        <item quantity="one">براہ مہربانی SIM کارڈ %1$d کا PIN درج کریں۔ %2$d کوششیں باقی۔ اگر PIN دوبارہ غلط ہوا تو آلے کو غیر مقفل کرنے کے لیے آپ کو کیریئر سے رابطہ کرنا ہو گا۔</item>
+    </plurals>
+    <plurals name="kg_password_wrong_pin_code">
+        <item quantity="other">SIM کا غلط PIN۔ %d کوششیں بقایا۔</item>
+        <item quantity="one">SIM کا غلط PIN۔ %d کوشش باقی۔ اگر پاس ورڈ دوبارہ غلط ہوا تو آلے کو غیر مقفل کرنے کے لیے آپ کو کیریئر سے رابطہ کرنا ہو گا۔</item>
+    </plurals>
+    <plurals name="kg_password_wrong_pin_code_multi_sim">
+        <item quantity="other">SIM کارڈ %1$d کا غلط PIN۔ %2$d کوششیں باقی۔</item>
+        <item quantity="one">SIM کارڈ %1$d کا غلط PIN۔ %2$d کوشش باقی۔ اگر PIN دوبارہ غلط ہوا تو آلے کو غیر مقفل کرنے کے لیے آپ کو کیریئر سے رابطہ کرنا ہو گا۔</item>
+    </plurals>
+    <plurals name="kg_password_wrong_puk_code">
+        <item quantity="other">SIM کا غلط PUK کوڈ۔ %d کوششیں بقایا۔ اگر پاس ورڈ دوبارہ غلط ہوا تو SIMs مستقل طور پر غیر فعال کر دی جائیں گی۔</item>
+        <item quantity="one">SIM کا غلط PUK کوڈ۔ %d کوشش بقایا۔ اگر یہ دوبارہ غلط ہوا تو SIM مستقل طور پر غیر فعال کر دی جائے گی۔</item>
+    </plurals>
+    <plurals name="kg_prompt_reason_time_password">
+        <item quantity="other">آلہ %d گھنٹوں کے لیے مقفل کر دیا گیا ہے۔ براہِ کرم پاس ورڈ کی تصدیق کریں۔</item>
+        <item quantity="one">آلہ %d گھنٹے کے لیے مقفل کر دیا گیا ہے۔ براہِ کرم پاس ورڈ کی تصدیق کریں۔</item>
+    </plurals>
+    <plurals name="kg_prompt_reason_time_pattern">
+        <item quantity="other">آلہ %d گھنٹوں سے مقفل ہے۔ براہِ کرم غیر مقفل پیٹرن کی تصدیق کریں۔</item>
+        <item quantity="one">آلہ %d گھنٹے سے مقفل ہے۔ براہِ کرم غیر مقفل پیٹرن کی تصدیق کریں۔</item>
+    </plurals>
+    <plurals name="kg_prompt_reason_time_pin">
+        <item quantity="other">آلہ %d گھنٹوں سے مقفل ہے۔ براہِ کرم PIN کی تصدیق کریں۔</item>
+        <item quantity="one">آلہ %d گھنٹے سے مقفل ہے۔ براہِ کرم PIN کی تصدیق کریں۔</item>
+    </plurals>
+    <plurals name="kg_too_many_failed_attempts_countdown">
+        <item quantity="other">براہ مہربانی %d سیکنڈ کے بعد دوبارہ کوشش کریں۔</item>
+        <item quantity="one">براہ مہربانی 1 سیکنڈ کے بعد دوبارہ کوشش کریں۔</item>
+    </plurals>
+    <plurals name="notification_group_overflow_description">
+        <item quantity="other">اس گروپ میں اب بھی %sاعلانات ہیں۔</item>
+        <item quantity="one">اس گروپ میں اب بھی%s اعلان ہے۔</item>
+    </plurals>
+    <plurals name="snoozeHourOptions">
+        <item quantity="other">%d گھنٹے</item>
+        <item quantity="one">%d گھنٹہ</item>
+    </plurals>
+    <plurals name="snoozeMinuteOptions">
+        <item quantity="other">%d منٹ</item>
+        <item quantity="one">%d منٹ</item>
+    </plurals>
+    <plurals name="wifi_tether_connected_summary">
+        <item quantity="other">‫‏%1$d‬ آلات منسلک ہیں</item>
+        <item quantity="one">‫‏%1$d‬ آلہ منسلک ہے</item>
+    </plurals>
+</resources>

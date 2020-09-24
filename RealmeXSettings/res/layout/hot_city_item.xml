@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/rl_city_item" android:background="@drawable/city_item_default_bg" android:layout_width="@dimen/city_item_layout_width" android:layout_height="@dimen/city_item_min_height" android:forceDarkAllowed="false"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textAppearance="?android:textAppearanceMedium" android:textSize="@dimen/TD07" android:ellipsize="end" android:gravity="center" android:id="@id/hot_city_text" android:layout_width="wrap_content" android:layout_height="fill_parent" android:lines="1" android:layout_centerInParent="true" />
+    <ImageView android:id="@id/selected_image" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/city_item_margin_4dp" android:layout_centerVertical="true" android:layout_marginStart="@dimen/city_item_margin_5dp" android:layout_toEndOf="@id/hot_city_text" />
+</RelativeLayout>

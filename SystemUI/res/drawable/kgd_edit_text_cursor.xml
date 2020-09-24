@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <size android:height="@dimen/kgd_security_edit_height" android:width="@dimen/kgd_security_edit_cursor_width" />
+    <solid android:color="?kgd_edit_text_cursor_color" />
+</shape>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.preference.PreferenceScreen android:fitsSystemWindows="true" android:key="parent_screen"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto">
+    <com.coloros.settings.widget.preference.SettingsColorPreferenceCategory android:key="fingerprint_category" settings:isFirstCategory="true" />
+    <PreferenceCategory android:key="fingerprint_usage_category">
+        <com.coloros.settings.widget.preference.SettingColorJumpPreference android:title="@string/fingerprint_usage" android:key="fingerprint_usage" android:order="10" android:fragment="com.coloros.settings.feature.fingerprint.FingerprintUsage" />
+    </PreferenceCategory>
+    <PreferenceCategory />
+</androidx.preference.PreferenceScreen>

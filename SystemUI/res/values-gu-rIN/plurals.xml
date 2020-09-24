@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="kg_password_default_pin_message_multi_sim">
+        <item quantity="other">કૃપા કરીને SIM કાર્ડ %1$dમાટે PIN દાખલ કરો. %2$d પ્રયાસો બાકી.</item>
+        <item quantity="one">કૃપા કરીને SIM કાર્ડ %1$dમાટે PIN દાખલ કરો. %2$d પ્રયા બાકી. જો તે ફરીથી ખોટો પડશે, તો તમારે ડીવાઈસ અનલૉક કરવામાં મદદ માટે કેરિયરનો સંપર્ક કરવો પડશે.</item>
+    </plurals>
+    <plurals name="kg_password_wrong_pin_code">
+        <item quantity="other">ખોટો SIM PIN. %d પ્રયાસો બાકી.</item>
+        <item quantity="one">ખોટો SIM PIN. %d પ્રયાસ બાકી. જો તે ફરીથી ખોટું છે તો ઉપકરણને અનલૉક કરવામાં સહાય માટે તમારે કેરિયરનો સંપર્ક કરવો પડશે.</item>
+    </plurals>
+    <plurals name="kg_password_wrong_pin_code_multi_sim">
+        <item quantity="other">SIM કાર્ડ માટે PIN ખોટો છે %1$d. %2$d પ્રયાસો બાકી છે.</item>
+        <item quantity="one">SIM કાર્ડ માટે PIN ખોટો છે %1$d. %2$d પ્રયાસ બાકી છે. જો તે ફરીથી ખોટો પડશે, તો તમારે ડીવાઈસ અનલૉક કરવામાં મદદ માટે કેરિયરનો સંપર્ક કરવો પડશે.</item>
+    </plurals>
+    <plurals name="kg_password_wrong_puk_code">
+        <item quantity="other">ખોટો SIM PUK કોડ. %d પ્રયાસો બાકી. જો તે ફરીથી ખોટું છે તો SIMs કાયમ માટે અક્ષમ થશે.</item>
+        <item quantity="one">ખોટો SIM PUK કોડ. %d પ્રયાસ બાકી. જો તે ફરીથી ખોટું છે, તો SIM કાયમ માટે અક્ષમ થશે.</item>
+    </plurals>
+    <plurals name="kg_prompt_reason_time_password">
+        <item quantity="other">આ ઉપકરણ %d કલાક માટે લૉક થઇ ગયું છે. કૃપા કરી પાસવર્ડની પુષ્ટિ કરો.</item>
+        <item quantity="one">આ ઉપકરણ %d કલાક માટે લૉક થઇ ગયું છે. કૃપા કરી પાસવર્ડની પુષ્ટિ કરો.</item>
+    </plurals>
+    <plurals name="kg_prompt_reason_time_pattern">
+        <item quantity="other">આ ઉપકરણ %d કલાક માટે લૉક થઇ ગયું છે. કૃપા કરી અનલૉક પેટર્નની પુષ્ટિ કરો.</item>
+        <item quantity="one">આ ઉપકરણ %d કલાક માટે લૉક થઇ ગયું છે. કૃપા કરી અનલૉક પેટર્નની પુષ્ટિ કરો.</item>
+    </plurals>
+    <plurals name="kg_prompt_reason_time_pin">
+        <item quantity="other">આ ઉપકરણ %d કલાક માટે લૉક થઇ ગયું છે. કૃપા કરી PIN ની પુષ્ટિ કરો.</item>
+        <item quantity="one">આ ઉપકરણ %d કલાક માટે લૉક થઇ ગયું છે. કૃપા કરી PIN ની પુષ્ટિ કરો.</item>
+    </plurals>
+    <plurals name="kg_too_many_failed_attempts_countdown">
+        <item quantity="other">કૃપા કરીને %d સેકંડ પછી ફરી પ્રયાસ કરો.</item>
+        <item quantity="one">કૃપા કરીને 1 સેકન્ડ પછી ફરી પ્રયાસ કરો.</item>
+    </plurals>
+    <plurals name="notification_group_overflow_description">
+        <item quantity="other">હજી પણ %s આ જૂથમાં સૂચનો.</item>
+        <item quantity="one">હજી પણ %s આ જૂથમાં સૂચન.</item>
+    </plurals>
+    <plurals name="snoozeHourOptions">
+        <item quantity="other">%d કલાક</item>
+        <item quantity="one">%d કલાક</item>
+    </plurals>
+    <plurals name="snoozeMinuteOptions">
+        <item quantity="other">%d મિનીટ</item>
+        <item quantity="one">%d મિનીટ</item>
+    </plurals>
+</resources>

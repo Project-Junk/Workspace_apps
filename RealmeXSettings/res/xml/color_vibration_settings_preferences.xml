@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/string_vibration_intensity" android:key="vibration_settings"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:settings="http://schemas.android.com/apk/res/com.android.settings" xmlns:oppo="http://schemas.android.com/apk/res/oppo">
+    <PreferenceCategory android:layout="@layout/color_vibration_category_preference" android:title="@string/string_ring_vibration" android:key="ring_vibration_category">
+        <com.coloros.settings.widget.preference.ColorRingVibrationPreference android:selectable="false" android:key="ring_vibration" />
+    </PreferenceCategory>
+    <PreferenceCategory android:layout="@layout/color_vibration_category_preference" android:title="@string/string_touch_vibration" android:key="touch_vibration_category">
+        <com.coloros.settings.widget.preference.ColorTouchVibrationPreference android:selectable="false" android:key="touch_vibration" />
+    </PreferenceCategory>
+    <PreferenceCategory android:key="vibration_bottom" />
+</PreferenceScreen>

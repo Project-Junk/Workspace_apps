@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="application_manage_status_text">
+        <item quantity="other">%1$d aplikace(í)</item>
+        <item quantity="one">Aplikace %1$d</item>
+    </plurals>
+    <plurals name="third_app_status_text">
+        <item quantity="other">Zapnuto aplikací: %1$d</item>
+        <item quantity="one">%1$d aplikace zapnuta</item>
+    </plurals>
+</resources>

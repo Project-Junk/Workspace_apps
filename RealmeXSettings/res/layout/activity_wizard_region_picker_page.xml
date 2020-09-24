@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/root" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/ll_main_layout" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginBottom="23.0dip" android:layout_above="@id/rl_bottom_control">
+        <TextView android:textSize="@dimen/wizard_title_text_size" android:textColor="@color/wizard_title_color" android:id="@id/tv_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="40.0dip" android:layout_marginTop="87.0dip" android:layout_marginRight="40.0dip" android:text="@string/wizard_region_picker_title" />
+        <FrameLayout android:id="@id/fragment_container" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="16.0dip" android:layout_marginTop="47.0dip" android:layout_marginRight="16.0dip" android:drawSelectorOnTop="false" android:requiresFadingEdge="vertical" />
+    </LinearLayout>
+    <include layout="@layout/wizard_bottom_navigate" />
+</RelativeLayout>

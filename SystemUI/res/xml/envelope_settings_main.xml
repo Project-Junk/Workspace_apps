@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.preference.PreferenceScreen android:title="@string/envelope_settings_assit_name"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.coloros.systemui.notification.envelope.view.EnvelopeDetectPreference android:persistent="false" android:enabled="false" android:key="envelope_detect_preference" />
+    <com.color.support.preference.ColorPreferenceCategory android:layout="@layout/oppo_preference_category_layout_without_divider" android:key="envelop_assist_category">
+        <com.color.support.preference.ColorSwitchPreference android:persistent="false" android:minHeight="@dimen/envelope_settings_preference_min_height" android:title="@string/envelope_settings_assit_name" android:key="envelope_assistant" />
+        <com.color.support.preference.ColorSwitchPreference android:persistent="false" android:minHeight="@dimen/envelope_settings_preference_min_height" android:title="@string/envelope_settings_sound_text" android:key="envelope_notice_sound" android:dependency="envelope_assistant" />
+        <com.color.support.preference.ColorSwitchPreference android:persistent="false" android:minHeight="@dimen/envelope_settings_preference_min_height" android:title="@string/envelope_settings_auto_open_text" android:key="envelope_auto_open" android:dependency="envelope_assistant" />
+    </com.color.support.preference.ColorPreferenceCategory>
+    <com.color.support.preference.ColorPreferenceCategory android:key="divider_category" />
+</androidx.preference.PreferenceScreen>

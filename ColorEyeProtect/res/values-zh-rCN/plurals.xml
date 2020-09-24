@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="application_manage_status_text">
+        <item quantity="other">%1$d个应用</item>
+        <item quantity="one">%1$d个应用</item>
+    </plurals>
+    <plurals name="third_app_status_text">
+        <item quantity="other">%1$d个应用已开启</item>
+        <item quantity="one">%1$d个应用已开启</item>
+    </plurals>
+</resources>
